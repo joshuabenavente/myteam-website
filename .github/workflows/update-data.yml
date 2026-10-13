@@ -1,0 +1,57 @@
+name: Update data
+
+on:
+  schedule:
+    - cron: '17 */3 * * *' # schedule, standings, head-to-head
+    - cron: '43 10 * * *' # also player stats (4:43am Mountain, after the night's games)
+  workflow_dispatch:
+    inputs:
+      players:
+        description: Refresh player stats from basketball-reference
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-data
+  cancel-in-progress: false
+
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+
+      - name: Fetch data
+        id: ingest
+        continue-on-error: true
+        env:
+          PLAYERS: ${{ github.event.schedule == '43 10 * * *' || inputs.players }}
+        run: node scripts/ingest.ts ${{ env.PLAYERS == 'true' && '--players' || '' }}
+
+      - name: Commit changes
+        run: |
+          git add public/data data/cache
+          # meta.json changes on every run; only commit when real data changed.
+          if git diff --cached --quiet -- . ':!public/data/meta.json'; then
+            echo "No data changes"
+            exit 0
+          fi
+          git config user.name github-actions
+          git config user.email github-actions@users.noreply.github.com
+          git commit -m "Update data"
+          git pull --rebase origin main
+          git push origin HEAD:main
+
+      - name: Report ingest failure
+        if: steps.ingest.outcome == 'failure'
+        run: |
+          echo "::error::Part of the data refresh failed; see the Fetch data step. Previous files were kept for those parts."
+          exit 1

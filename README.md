@@ -22,12 +22,13 @@ npm test         # unit tests
 npm run lint
 npm run build
 npm run probe    # check which data sources respond (writes probe-report.md)
+npm run ingest   # refresh public/data (add -- --players for player stats)
 ```
 
 ## Roadmap
 
 1. **Data source probe**: the `Probe data sources` workflow runs `scripts/probe-sources.ts` on GitHub Actions and posts a report to the run summary.
-2. Ingest scripts: schedule, standings, head-to-head and player stats JSON.
+2. **Ingest**: `scripts/ingest.ts` writes schedule, standings, head-to-head and player stats to `public/data/`, refreshed by the `Update data` workflow. See [docs/data-sources.md](docs/data-sources.md).
 3. Games list view.
 4. Calendar view.
 5. Player tracker with season, full last season and same-point-last-season comparisons.
