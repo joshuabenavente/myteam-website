@@ -1,0 +1,78 @@
+.site-header {
+  background: var(--midnight);
+  color: #fff;
+  padding: 16px 16px 0;
+  border-bottom: 4px solid var(--sunshine);
+}
+
+.site-header h1 {
+  margin: 0 0 12px;
+  font-size: 1.4rem;
+}
+
+.tabs {
+  display: flex;
+  gap: 4px;
+}
+
+.tabs button {
+  background: none;
+  border: none;
+  color: #cfd6e3;
+  padding: 8px 16px;
+  border-radius: 6px 6px 0 0;
+}
+
+.tabs button[aria-current='true'] {
+  background: var(--sunshine);
+  color: var(--midnight);
+  font-weight: 600;
+}
+
+main {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+.toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.segmented {
+  display: inline-flex;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.segmented button {
+  background: var(--surface);
+  color: var(--text);
+  border: none;
+  padding: 6px 14px;
+}
+
+.segmented button[aria-pressed='true'] {
+  background: var(--skyline);
+  color: #fff;
+}
+
+.muted {
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.placeholder {
+  background: var(--surface);
+  border: 1px dashed var(--border);
+  border-radius: 8px;
+  padding: 32px;
+  text-align: center;
+  color: var(--muted);
+}
