@@ -11,12 +11,22 @@
    "name": "Jamal Murray",
    "position": "G",
    "twoWay": false,
+   "bio": {
+    "height": "6' 4\"",
+    "weight": 215,
+    "birthDate": "1997-02-23",
+    "experience": 9,
+    "college": "Kentucky",
+    "birthPlace": "Kitchener, ON"
+   },
+   "number": "27",
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3936299.png",
    "current": {},
    "lastFull": {
     "regular": {
      "games": 75,
      "started": 75,
-     "minutes": 2651.9,
+     "minutes": 2652.8,
      "points": 1905,
      "rebounds": 330,
      "assists": 535,
@@ -55,12 +65,22 @@
    "name": "DeMar DeRozan",
    "position": "G-F",
    "twoWay": false,
+   "bio": {
+    "height": "6' 6\"",
+    "weight": 220,
+    "birthDate": "1989-08-07",
+    "experience": 17,
+    "college": "USC",
+    "birthPlace": "Compton, CA"
+   },
+   "number": "10",
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3978.png",
    "current": {},
    "lastFull": {
     "regular": {
      "games": 77,
      "started": 77,
-     "minutes": 2405.5,
+     "minutes": 2406,
      "points": 1419,
      "rebounds": 226,
      "assists": 316,
@@ -82,12 +102,21 @@
    "name": "Nikola Jokić",
    "position": "C-F",
    "twoWay": false,
+   "bio": {
+    "height": "6' 11\"",
+    "weight": 284,
+    "birthDate": "1995-02-19",
+    "experience": 11,
+    "birthPlace": "Sombor, Serbia"
+   },
+   "number": "15",
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3112335.png",
    "current": {},
    "lastFull": {
     "regular": {
      "games": 65,
      "started": 65,
-     "minutes": 2264.9,
+     "minutes": 2265.1,
      "points": 1799,
      "rebounds": 836,
      "assists": 697,
@@ -126,12 +155,22 @@
    "name": "Cameron Johnson",
    "position": "F",
    "twoWay": false,
+   "bio": {
+    "height": "6' 8\"",
+    "weight": 210,
+    "birthDate": "1996-03-03",
+    "experience": 7,
+    "college": "North Carolina",
+    "birthPlace": "Moon Township, PA"
+   },
+   "number": "23",
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3138196.png",
    "current": {},
    "lastFull": {
     "regular": {
      "games": 54,
      "started": 54,
-     "minutes": 1647,
+     "minutes": 1647.5,
      "points": 660,
      "rebounds": 206,
      "assists": 132,
@@ -170,12 +209,22 @@
    "name": "Spencer Jones",
    "position": "F",
    "twoWay": false,
+   "bio": {
+    "height": "6' 7\"",
+    "weight": 225,
+    "birthDate": "2001-06-14",
+    "experience": 2,
+    "college": "Stanford",
+    "birthPlace": "Roeland Park, KS"
+   },
+   "number": "21",
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4592427.png",
    "current": {},
    "lastFull": {
     "regular": {
      "games": 64,
      "started": 37,
-     "minutes": 1416.8,
+     "minutes": 1417,
      "points": 352,
      "rebounds": 209,
      "assists": 51,
@@ -192,7 +241,7 @@
     "playoffs": {
      "games": 6,
      "started": 3,
-     "minutes": 145.3,
+     "minutes": 145.4,
      "points": 39,
      "rebounds": 12,
      "assists": 2,
@@ -214,12 +263,22 @@
    "name": "Christian Braun",
    "position": "G",
    "twoWay": false,
+   "bio": {
+    "height": "6' 6\"",
+    "weight": 220,
+    "birthDate": "2001-04-17",
+    "experience": 4,
+    "college": "Kansas",
+    "birthPlace": "Burlington, KS"
+   },
+   "number": "0",
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4431767.png",
    "current": {},
    "lastFull": {
     "regular": {
      "games": 44,
      "started": 44,
-     "minutes": 1399.1,
+     "minutes": 1399.8,
      "points": 526,
      "rebounds": 211,
      "assists": 120,
@@ -236,7 +295,7 @@
     "playoffs": {
      "games": 6,
      "started": 6,
-     "minutes": 186.9,
+     "minutes": 187,
      "points": 50,
      "rebounds": 21,
      "assists": 10,
@@ -258,12 +317,22 @@
    "name": "Marvin Bagley III",
    "position": "F-C",
    "twoWay": false,
+   "bio": {
+    "height": "6' 10\"",
+    "weight": 235,
+    "birthDate": "1999-03-14",
+    "experience": 8,
+    "college": "Duke",
+    "birthPlace": "Phoenix, AZ"
+   },
+   "number": "3",
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4277848.png",
    "current": {},
    "lastFull": {
     "regular": {
      "games": 60,
      "started": 12,
-     "minutes": 1200.9,
+     "minutes": 1201.7,
      "points": 627,
      "rebounds": 366,
      "assists": 85,
@@ -285,12 +354,22 @@
    "name": "Ryan Nembhard",
    "position": "G",
    "twoWay": true,
+   "bio": {
+    "height": "5' 11\"",
+    "weight": 180,
+    "birthDate": "2003-03-10",
+    "experience": 1,
+    "college": "Gonzaga",
+    "birthPlace": "Aurora, ON"
+   },
+   "number": "9",
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4433629.png",
    "current": {},
    "lastFull": {
     "regular": {
      "games": 60,
      "started": 27,
-     "minutes": 1170.9,
+     "minutes": 1171.4,
      "points": 397,
      "rebounds": 133,
      "assists": 316,
@@ -312,12 +391,22 @@
    "name": "Aaron Gordon",
    "position": "F",
    "twoWay": false,
+   "bio": {
+    "height": "6' 8\"",
+    "weight": 235,
+    "birthDate": "1995-09-16",
+    "experience": 12,
+    "college": "Arizona",
+    "birthPlace": "San Jose, CA"
+   },
+   "number": "32",
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3064290.png",
    "current": {},
    "lastFull": {
     "regular": {
      "games": 36,
      "started": 33,
-     "minutes": 1005,
+     "minutes": 1005.4,
      "points": 582,
      "rebounds": 209,
      "assists": 96,
@@ -334,7 +423,7 @@
     "playoffs": {
      "games": 3,
      "started": 3,
-     "minutes": 89.3,
+     "minutes": 89.4,
      "points": 34,
      "rebounds": 16,
      "assists": 7,
@@ -356,12 +445,22 @@
    "name": "Tyus Jones",
    "position": "G",
    "twoWay": false,
+   "bio": {
+    "height": "6' 0\"",
+    "weight": 196,
+    "birthDate": "1996-05-10",
+    "experience": 11,
+    "college": "Duke",
+    "birthPlace": "Burnsville, MN"
+   },
+   "number": "5",
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3135046.png",
    "current": {},
    "lastFull": {
     "regular": {
      "games": 67,
      "started": 12,
-     "minutes": 978.6,
+     "minutes": 979,
      "points": 199,
      "rebounds": 76,
      "assists": 159,
@@ -400,12 +499,22 @@
    "name": "Julian Strawther",
    "position": "F",
    "twoWay": false,
+   "bio": {
+    "height": "6' 6\"",
+    "weight": 205,
+    "birthDate": "2002-04-18",
+    "experience": 3,
+    "college": "Gonzaga",
+    "birthPlace": "Las Vegas, NV"
+   },
+   "number": "1",
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4432181.png",
    "current": {},
    "lastFull": {
     "regular": {
      "games": 57,
      "started": 14,
-     "minutes": 860.7,
+     "minutes": 861.3,
      "points": 413,
      "rebounds": 114,
      "assists": 61,
@@ -444,12 +553,22 @@
    "name": "Zeke Nnaji",
    "position": "F",
    "twoWay": false,
+   "bio": {
+    "height": "6' 10\"",
+    "weight": 240,
+    "birthDate": "2001-01-09",
+    "experience": 6,
+    "college": "Arizona",
+    "birthPlace": "Lakeville, MN"
+   },
+   "number": "22",
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4431690.png",
    "current": {},
    "lastFull": {
     "regular": {
      "games": 52,
      "started": 4,
-     "minutes": 626,
+     "minutes": 626.4,
      "points": 190,
      "rebounds": 136,
      "assists": 29,
@@ -488,12 +607,22 @@
    "name": "Cam Whitmore",
    "position": "F",
    "twoWay": true,
+   "bio": {
+    "height": "6' 6\"",
+    "weight": 230,
+    "birthDate": "2004-07-08",
+    "experience": 3,
+    "college": "Villanova",
+    "birthPlace": "Odenton, MD"
+   },
+   "number": "00",
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5105592.png",
    "current": {},
    "lastFull": {
     "regular": {
      "games": 21,
      "started": 0,
-     "minutes": 354,
+     "minutes": 354.3,
      "points": 193,
      "rebounds": 58,
      "assists": 15,
@@ -515,12 +644,22 @@
    "name": "DaRon Holmes",
    "position": "F",
    "twoWay": false,
+   "bio": {
+    "height": "6' 9\"",
+    "weight": 225,
+    "birthDate": "2002-08-15",
+    "experience": 1,
+    "college": "Dayton",
+    "birthPlace": "Goodyear, AZ"
+   },
+   "number": "14",
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4433607.png",
    "current": {},
    "lastFull": {
     "regular": {
      "games": 25,
      "started": 6,
-     "minutes": 209.5,
+     "minutes": 209.8,
      "points": 93,
      "rebounds": 35,
      "assists": 16,
@@ -559,6 +698,16 @@
    "name": "Emanuel Miller",
    "position": "F",
    "twoWay": false,
+   "bio": {
+    "height": "6' 7\"",
+    "weight": 215,
+    "birthDate": "2000-06-19",
+    "experience": 2,
+    "college": "TCU",
+    "birthPlace": "Scarborough, ON"
+   },
+   "number": "8",
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4432872.png",
    "current": {},
    "lastFull": {
     "regular": {
@@ -586,6 +735,16 @@
    "name": "Coleman Hawkins",
    "position": "F",
    "twoWay": false,
+   "bio": {
+    "height": "6' 10\"",
+    "weight": 225,
+    "birthDate": "2001-12-10",
+    "experience": 0,
+    "college": "Kansas State",
+    "birthPlace": "Sacramento, CA"
+   },
+   "number": "43",
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4432976.png",
    "current": {},
    "lastFull": {},
    "lastToDate": {}
@@ -595,6 +754,16 @@
    "name": "Dane Goodwin",
    "position": "G",
    "twoWay": false,
+   "bio": {
+    "height": "6' 6\"",
+    "weight": 214,
+    "birthDate": "1999-12-28",
+    "experience": 0,
+    "college": "Notre Dame",
+    "birthPlace": "Upper Arlington, OH"
+   },
+   "number": "20",
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4395667.png",
    "current": {},
    "lastFull": {},
    "lastToDate": {}
@@ -604,6 +773,13 @@
    "name": "Lonnie Walker IV",
    "position": "G",
    "twoWay": false,
+   "bio": {
+    "height": "6' 4\"",
+    "weight": 204,
+    "birthDate": "1998-12-14",
+    "experience": 7,
+    "college": "Miami (FL)"
+   },
    "current": {},
    "lastFull": {},
    "lastToDate": {}
@@ -613,6 +789,16 @@
    "name": "Bryce Hopkins",
    "position": "F",
    "twoWay": true,
+   "bio": {
+    "height": "6' 7\"",
+    "weight": 220,
+    "birthDate": "2002-09-07",
+    "experience": 0,
+    "college": "St. John's",
+    "birthPlace": "Oak Park, IL"
+   },
+   "number": "13",
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4565698.png",
    "current": {},
    "lastFull": {},
    "lastToDate": {}
@@ -622,6 +808,16 @@
    "name": "Trevon Brazile",
    "position": "F",
    "twoWay": false,
+   "bio": {
+    "height": "6' 10\"",
+    "weight": 220,
+    "birthDate": "2003-01-07",
+    "experience": 0,
+    "college": "Arkansas",
+    "birthPlace": "Springfield, MO"
+   },
+   "number": "7",
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4698719.png",
    "current": {},
    "lastFull": {},
    "lastToDate": {}

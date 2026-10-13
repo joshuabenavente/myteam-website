@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-13T14:01:40.564Z",
+ "updatedAt": "2026-10-13T19:21:38.952Z",
  "teams": {
   "ATL": [
    {
@@ -151,6 +151,13 @@
   ],
   "CHI": [
    {
+    "name": "Isaac Okoro",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Undisclosed",
+    "returnDate": "2026-10-14"
+   },
+   {
     "name": "Jaylin Sellers",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
@@ -165,11 +172,18 @@
     "returnDate": "2026-10-21"
    },
    {
+    "name": "Tobe Awaka",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Knee",
+    "returnDate": "2026-10-14"
+   },
+   {
     "name": "Zach Collins",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Toe (surgery)",
-    "returnDate": "2026-10-14"
+    "returnDate": "2026-10-16"
    }
   ],
   "CLE": [
