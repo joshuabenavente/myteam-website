@@ -13,6 +13,7 @@ import {
 } from '../lib/format.ts'
 import { TEAMS_BY_ABBR } from '../lib/teams.ts'
 import type { AvailabilityFile, Game, HeadToHeadFile, StandingsFile, TeamInfo } from '../lib/types.ts'
+import { Icon } from './Icon.tsx'
 import { TeamLogo } from './TeamLogo.tsx'
 
 interface Props {
@@ -54,9 +55,16 @@ export function GameRow({ game, data, timeZone }: Props) {
 
         <Broadcasts game={game} />
 
-        <svg className="chevron" viewBox="0 0 16 16" aria-hidden="true">
-          <path d="M4 6l4 4 4-4" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-        </svg>
+        <span className="chevron">
+          <Icon
+            name="expand"
+            fallback={
+              <svg viewBox="0 0 16 16" width="16" height="16" aria-hidden="true">
+                <path d="M4 6l4 4 4-4" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+              </svg>
+            }
+          />
+        </span>
       </button>
 
       {open && (
@@ -77,6 +85,7 @@ export function Broadcasts({ game }: { game: Game }) {
           className={`chip ${b.scope}`}
           title={`${b.scope === 'local' ? 'Local' : 'National'} ${b.kind === 'stream' ? 'streaming' : 'TV'}`}
         >
+          <Icon name={b.kind === 'stream' ? 'stream' : 'tv'} size={13} />
           {b.name}
         </span>
       ))}
@@ -94,7 +103,7 @@ export function GameDetails({ game, data }: { game: Game; data: AppData }) {
       {preview && (
         <div className="preview">
           <h4>
-            Preview <span className="muted small">· written by Claude from the stats on this page</span>
+            <Icon name="preview" size={14} /> Preview <span className="muted small">· written by Claude from the stats on this page</span>
           </h4>
           <p>{preview.text}</p>
         </div>
@@ -116,7 +125,7 @@ function NotAvailable({ game, availability }: { game: Game; availability: Availa
   return (
     <div className="not-available">
       <h4>
-        Not available <span className="muted small">· updated {updated}</span>
+        <Icon name="injury" size={14} /> Not available <span className="muted small">· updated {updated}</span>
       </h4>
       <div className="na-teams">
         {[TEAM.abbr, game.opponent].map((abbr) => {

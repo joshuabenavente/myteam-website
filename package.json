@@ -13,6 +13,7 @@
     "ingest": "node scripts/ingest.ts"
   },
   "dependencies": {
+    "lucide-react": "^1.56.0",
     "react": "^19.2.8",
     "react-dom": "^19.2.8"
   },

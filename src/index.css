@@ -24,7 +24,15 @@
   --status-p-bg: #dcf3e3;
   --status-p-text: #1a6b34;
 
-  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  /* Overridden by the appearance picker (src/lib/appearance.ts). */
+  --font-body: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --font-heading: var(--font-body);
+  --w-regular: 400;
+  --w-strong: 600;
+  --w-bold: 700;
+
+  font-family: var(--font-body);
+  font-weight: var(--w-regular);
   line-height: 1.5;
   color: var(--text);
   background: var(--bg);
@@ -65,7 +73,27 @@ body {
   background: var(--bg);
 }
 
-button {
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: var(--font-heading);
+}
+
+button,
+select {
   font: inherit;
   cursor: pointer;
+}
+
+.icon {
+  flex: none;
+  vertical-align: -0.15em;
+}
+
+.material-symbols-rounded.icon {
+  line-height: 1;
+  vertical-align: -0.2em;
+  font-variation-settings: 'wght' 400, 'opsz' 20;
 }

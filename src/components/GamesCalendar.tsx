@@ -14,6 +14,7 @@ import {
 import { TEAMS_BY_ABBR } from '../lib/teams.ts'
 import type { Game } from '../lib/types.ts'
 import { Broadcasts, GameDetails, GameStatus } from './GameRow.tsx'
+import { Icon } from './Icon.tsx'
 import { TeamLogo } from './TeamLogo.tsx'
 
 const WEEKDAYS = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
@@ -56,7 +57,7 @@ export function GamesCalendar({ data, timeZone }: { data: AppData; timeZone: str
           disabled={compareMonths(month, first) <= 0}
           aria-label="Previous month"
         >
-          ‹
+          <Icon name="prev" fallback="‹" />
         </button>
         <h2>{monthLabel(month)}</h2>
         <button
@@ -65,7 +66,7 @@ export function GamesCalendar({ data, timeZone }: { data: AppData; timeZone: str
           disabled={compareMonths(month, last) >= 0}
           aria-label="Next month"
         >
-          ›
+          <Icon name="next" fallback="›" />
         </button>
       </div>
 

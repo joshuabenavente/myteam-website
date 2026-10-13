@@ -1,8 +1,20 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
+import { AppearancePanel } from './components/AppearancePanel.tsx'
 import { GamesCalendar } from './components/GamesCalendar.tsx'
 import { GamesList } from './components/GamesList.tsx'
+import { Icon } from './components/Icon.tsx'
 import { PlayerTracker } from './components/PlayerTracker.tsx'
 import { TeamSummary } from './components/TeamSummary.tsx'
+import {
+  applyAppearance,
+  DEFAULT_APPEARANCE,
+  disablePicker,
+  IconStyleContext,
+  loadAppearance,
+  pickerEnabled,
+  saveAppearance,
+  type Appearance,
+} from './lib/appearance.ts'
 import { TEAM } from './lib/config'
 import { useAppData } from './lib/data.ts'
 import { timeZoneAbbr } from './lib/format.ts'
@@ -17,17 +29,30 @@ function App() {
   const [page, setPage] = useState<Page>('games')
   const [gamesView, setGamesView] = useState<GamesView>('list')
   const { data, error } = useAppData()
+  const [picker, setPicker] = useState(pickerEnabled)
+  const [appearance, setAppearance] = useState<Appearance>(() => (picker ? loadAppearance() : DEFAULT_APPEARANCE))
+
+  useEffect(() => {
+    applyAppearance(appearance)
+    if (picker) saveAppearance(appearance)
+  }, [appearance, picker])
+
+  const turnOffPicker = () => {
+    disablePicker()
+    setPicker(false)
+    setAppearance(DEFAULT_APPEARANCE)
+  }
 
   return (
-    <>
+    <IconStyleContext.Provider value={appearance.icons}>
       <header className="site-header">
         <h1>{TEAM.name} Tracker</h1>
         <nav className="tabs" aria-label="Pages">
           <button aria-current={page === 'games'} onClick={() => setPage('games')}>
-            Games
+            <Icon name="games" /> Games
           </button>
           <button aria-current={page === 'players'} onClick={() => setPage('players')}>
-            Players
+            <Icon name="players" /> Players
           </button>
         </nav>
       </header>
@@ -42,10 +67,10 @@ function App() {
             <div className="toolbar">
               <div className="segmented" role="group" aria-label="View">
                 <button aria-pressed={gamesView === 'list'} onClick={() => setGamesView('list')}>
-                  List
+                  <Icon name="list" size={16} /> List
                 </button>
                 <button aria-pressed={gamesView === 'calendar'} onClick={() => setGamesView('calendar')}>
-                  Calendar
+                  <Icon name="calendar" size={16} /> Calendar
                 </button>
               </div>
               <span className="muted small" title={timeZone}>
@@ -77,7 +102,8 @@ function App() {
           . Regular season and playoffs only.
         </footer>
       )}
-    </>
+      {picker && <AppearancePanel value={appearance} onChange={setAppearance} onTurnOff={turnOffPicker} />}
+    </IconStyleContext.Provider>
   )
 }
 
