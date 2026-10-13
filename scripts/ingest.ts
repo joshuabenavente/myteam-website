@@ -16,6 +16,8 @@ import { TEAM } from '../src/lib/config.ts'
 import { previousSeason, seasonForDate } from '../src/lib/season.ts'
 import type {
   AvailabilityFile,
+  GameLog,
+  GameLogsFile,
   HeadToHeadFile,
   MetaFile,
   Player,
@@ -26,7 +28,7 @@ import type {
   StandingsFile,
   TrackedGameType,
 } from '../src/lib/types.ts'
-import { gameLogUrl, parseGameLog, parseRoster, sumGameLog, type GameLogRow } from './lib/bbref.ts'
+import { gameLogUrl, parseGameLog, parseRoster, sumGameLog } from './lib/bbref.ts'
 import {
   findEspnEventId,
   parseEspnResults,
@@ -36,6 +38,7 @@ import {
   type EspnTeamScheduleJson,
 } from './lib/espn.ts'
 import { getBbref, getJson, NBA_HEADERS } from './lib/http.ts'
+import { nameKey, parseEspnRoster, type EspnPlayerInfo, type EspnRosterJson } from './lib/espnRoster.ts'
 import { parseInjuries, type EspnInjuriesJson } from './lib/injuries.ts'
 import { parseLeagueSchedule, teamGames, type NbaScheduleJson } from './lib/nba.ts'
 import { buildFacts, hashFacts, writePreview } from './lib/preview.ts'
@@ -46,6 +49,7 @@ const CACHE_DIR = 'data/cache'
 const NBA_SCHEDULE_URL = 'https://cdn.nba.com/static/json/staticData/scheduleLeagueV2.json'
 const ESPN_SCHEDULE_URL = (endYear: number, seasonType: number) =>
   `https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/${TEAM.espnSlug}/schedule?season=${endYear}&seasontype=${seasonType}`
+const ESPN_ROSTER_URL = `https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/${TEAM.espnSlug}/roster`
 const ESPN_INJURIES_URL = 'https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries'
 const ESPN_SUMMARY_URL = (eventId: string) =>
   `https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=${eventId}`
@@ -123,7 +127,6 @@ if (league && lastSeasonResults) {
 
 // --- players (basketball-reference) ---------------------------------------------------
 
-type GameLog = { [K in TrackedGameType]: GameLogRow[] }
 const TYPES: TrackedGameType[] = ['regular', 'playoffs']
 
 /** Totals per game type, optionally only through each type's team game number. */
@@ -146,12 +149,22 @@ if (process.argv.includes('--players') && league) {
     const roster = parseRoster(rosterHtml)
     if (!roster.length) throw new Error('roster table empty or missing')
 
-    // Last season's game logs never change, so cache them between runs.
-    const cachePath = join(CACHE_DIR, `gamelogs-${last.endYear}.json`)
+    // Jersey numbers, photos and bio from ESPN; optional, matched by name.
+    let espn = new Map<string, EspnPlayerInfo>()
+    try {
+      espn = parseEspnRoster(await getJson<EspnRosterJson>(ESPN_ROSTER_URL))
+    } catch (err) {
+      console.warn(`  ESPN roster unavailable: ${(err as Error).message}`)
+    }
+
+    // Last season's game logs never change, so cache them between runs. The version in the
+    // name changes whenever the stored shape does, which refetches them once.
+    const cachePath = join(CACHE_DIR, `gamelogs-v2-${last.endYear}.json`)
     const cache = readJson<{ [id: string]: GameLog }>(cachePath) ?? {}
     const empty: GameLog = { regular: [], playoffs: [] }
 
     const players: Player[] = []
+    const logs: GameLogsFile['players'] = {}
     try {
       for (const p of roster) {
         let lastLog = cache[p.id]
@@ -165,13 +178,19 @@ if (process.argv.includes('--players') && league) {
           const html = await getBbref(gameLogUrl(p.id, current.endYear))
           if (html) currentLog = parseGameLog(html)
         }
+        const extra = espn.get(nameKey(p.name))
         players.push({
           ...p,
+          ...(extra?.number && { number: extra.number }),
+          ...(extra?.headshot && { headshot: extra.headshot }),
+          // Prefer ESPN's bio, but keep basketball-reference's experience (seasons before this one).
+          bio: { ...p.bio, ...extra?.bio, ...(p.bio.experience !== undefined && { experience: p.bio.experience }) },
           current: split(currentLog),
           lastFull: split(lastLog),
           lastToDate: split(lastLog, teamGamesPlayed),
         })
-        console.log(`  ${p.name}`)
+        logs[p.id] = { current: currentLog, last: lastLog }
+        console.log(`  ${p.name}${extra ? '' : ' (not on ESPN roster)'}`)
       }
     } finally {
       // Keep whatever was fetched, even if a later request failed.
@@ -187,6 +206,7 @@ if (process.argv.includes('--players') && league) {
       teamGamesPlayed,
       players,
     } satisfies PlayersFile)
+    write(join(OUT_DIR, 'gamelogs.json'), { season: current.label, lastSeason: last.label, players: logs } satisfies GameLogsFile)
   })
 }
 

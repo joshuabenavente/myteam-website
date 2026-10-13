@@ -95,6 +95,19 @@ export interface StatTotals {
 
 export type SplitStats = { [K in TrackedGameType]?: StatTotals }
 
+export interface PlayerBio {
+  /** e.g. 6' 11" */
+  height?: string
+  /** Pounds. */
+  weight?: number
+  /** YYYY-MM-DD */
+  birthDate?: string
+  /** NBA seasons before this one; 0 for rookies. */
+  experience?: number
+  college?: string
+  birthPlace?: string
+}
+
 export interface Player {
   /** basketball-reference player ID, e.g. "jokicni01". */
   id: string
@@ -103,6 +116,9 @@ export interface Player {
   position: string
   /** On a two-way contract. */
   twoWay: boolean
+  bio: PlayerBio
+  /** Transparent cut-out photo (ESPN). */
+  headshot?: string
   current: SplitStats
   /** All of last season. */
   lastFull: SplitStats
@@ -116,6 +132,42 @@ export interface PlayersFile {
   /** Denver's games played this season, by type; the cutoff for lastToDate. */
   teamGamesPlayed: { [K in TrackedGameType]: number }
   players: Player[]
+}
+
+/** One game in a player's log. */
+export interface GameLogEntry {
+  /** The player's team's game number in the season (or playoffs). */
+  teamGame: number
+  /** YYYY-MM-DD */
+  date: string
+  opponent: string
+  home: boolean
+  result: 'W' | 'L'
+  /** Team score first, e.g. "133-111" or "131-137 (OT)". */
+  score: string
+  started: boolean
+  minutes: number
+  points: number
+  rebounds: number
+  assists: number
+  steals: number
+  blocks: number
+  turnovers: number
+  fgMade: number
+  fgAttempted: number
+  threeMade: number
+  threeAttempted: number
+  ftMade: number
+  ftAttempted: number
+}
+
+export type GameLog = { [K in TrackedGameType]: GameLogEntry[] }
+
+export interface GameLogsFile {
+  season: string
+  lastSeason: string
+  /** Keyed by player ID. */
+  players: { [id: string]: { current: GameLog; last: GameLog } }
 }
 
 export interface Absence {

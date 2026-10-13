@@ -1,7 +1,7 @@
 // Parse basketball-reference team roster and player game log pages.
 
 import * as cheerio from 'cheerio'
-import type { StatTotals, TrackedGameType } from '../../src/lib/types.ts'
+import type { GameLogEntry, PlayerBio, StatTotals, TrackedGameType } from '../../src/lib/types.ts'
 
 /** Some basketball-reference tables are shipped inside HTML comments; unwrap them. */
 function load(html: string) {
@@ -14,6 +14,7 @@ export interface RosterEntry {
   number?: string
   position: string
   twoWay: boolean
+  bio: PlayerBio
 }
 
 export function parseRoster(html: string): RosterEntry[] {
@@ -33,29 +34,30 @@ export function parseRoster(html: string): RosterEntry[] {
           ...(number && { number }),
           position: cell('pos').text().trim(),
           twoWay: /\(TW\)/.test(cell('player').text()),
+          bio: rosterBio(cell),
         },
       ]
     })
 }
 
-export interface GameLogRow {
-  /** The player's team's game number in the season (or playoffs). */
-  teamGame: number
-  started: boolean
-  minutes: number
-  points: number
-  rebounds: number
-  assists: number
-  steals: number
-  blocks: number
-  turnovers: number
-  fgMade: number
-  fgAttempted: number
-  threeMade: number
-  threeAttempted: number
-  ftMade: number
-  ftAttempted: number
+function rosterBio(cell: (stat: string) => { text(): string; attr(name: string): string | undefined }): PlayerBio {
+  const text = (stat: string) => cell(stat).text().trim()
+  const birth = cell('birth_date').attr('csk')
+  const weight = Number(text('weight'))
+  const exp = text('years_experience')
+  return {
+    ...(text('height') && { height: text('height').replace('-', "' ") + '"' }),
+    ...(weight && { weight }),
+    ...(birth?.length === 8 && { birthDate: `${birth.slice(0, 4)}-${birth.slice(4, 6)}-${birth.slice(6)}` }),
+    ...(exp && { experience: exp === 'R' ? 0 : Number(exp) }),
+    ...(text('college') && { college: text('college') }),
+  }
 }
+
+// basketball-reference abbreviations that differ from NBA tricodes.
+const BBREF_TO_NBA: { [abbr: string]: string } = { PHO: 'PHX', BRK: 'BKN', CHO: 'CHA' }
+
+export type GameLogRow = GameLogEntry
 
 const TABLES: { [K in TrackedGameType]: string } = {
   regular: 'player_game_log_reg',
@@ -77,8 +79,13 @@ export function parseGameLog(html: string): { [K in TrackedGameType]: GameLogRow
         return [
           {
             teamGame: num('team_game_num_season'),
+            date: text('date'),
+            opponent: BBREF_TO_NBA[text('opp_name_abbr')] ?? text('opp_name_abbr'),
+            home: text('game_location') !== '@',
+            result: text('game_result').startsWith('W') ? 'W' : 'L',
+            score: text('game_result').replace(/^[WL],\s*/, ''),
             started: text('is_starter') === '*',
-            minutes: Number(min) + Number(sec) / 60,
+            minutes: Math.round((Number(min) + Number(sec) / 60) * 10) / 10,
             points: num('pts'),
             rebounds: num('trb'),
             assists: num('ast'),

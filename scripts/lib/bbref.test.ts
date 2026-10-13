@@ -7,8 +7,20 @@ const fixture = (name: string) => readFileSync(new URL(`./__fixtures__/${name}`,
 describe('parseRoster', () => {
   it('reads player IDs, names, positions and two-way status', () => {
     expect(parseRoster(fixture('bbref-roster.html'))).toEqual([
-      { id: 'baglema01', name: 'Marvin Bagley III', position: 'F-C', twoWay: false },
-      { id: 'nembhry01', name: 'Ryan Nembhard', position: 'G', twoWay: true },
+      {
+        id: 'baglema01',
+        name: 'Marvin Bagley III',
+        position: 'F-C',
+        twoWay: false,
+        bio: { height: `6' 10"`, weight: 235, birthDate: '1999-03-14', experience: 8, college: 'Duke' },
+      },
+      {
+        id: 'nembhry01',
+        name: 'Ryan Nembhard',
+        position: 'G',
+        twoWay: true,
+        bio: { height: `5' 11"`, weight: 180, birthDate: '2003-03-10', experience: 1, college: 'Creighton, Gonzaga' },
+      },
     ])
   })
 })
@@ -35,7 +47,19 @@ describe('parseGameLog', () => {
       threeMade: 2,
       threeAttempted: 13,
     })
-    expect(log.regular[0].minutes).toBeCloseTo(40 + 50 / 60)
+    expect(log.regular[0].minutes).toBe(40.8)
+  })
+
+  it('reads date, opponent, location and result', () => {
+    expect(log.regular[0]).toMatchObject({
+      date: '2025-10-23',
+      opponent: 'GSW',
+      home: false,
+      result: 'L',
+      score: '131-137 (OT)',
+    })
+    // basketball-reference's PHO becomes the NBA's PHX.
+    expect(log.regular[1]).toMatchObject({ opponent: 'PHX', home: true, result: 'W', score: '133-111' })
   })
 })
 
