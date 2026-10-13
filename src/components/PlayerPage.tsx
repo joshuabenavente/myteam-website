@@ -9,6 +9,7 @@ import { TEAMS_BY_ABBR } from '../lib/teams.ts'
 import type { GameLogEntry, Player, StatTotals, TrackedGameType } from '../lib/types.ts'
 import { Broadcasts } from './GameRow.tsx'
 import { Icon } from './Icon.tsx'
+import { RadarChart } from './RadarChart.tsx'
 import { TeamLogo } from './TeamLogo.tsx'
 
 // The hero's stat strip: a focused subset of the tracker's columns.
@@ -45,10 +46,16 @@ function PlayerView({ player, data, timeZone }: { player: Player; data: AppData;
   const [first, ...rest] = player.name.split(' ')
   const bio = player.bio ?? {}
 
-  const rows: { label: string; stats?: StatTotals; compareTo?: StatTotals }[] = [
+  const rows: { label: string; short?: string; stats?: StatTotals; compareTo?: StatTotals }[] = [
     { label: season, stats: player.current[type], compareTo: player.lastToDate[type] ?? player.lastFull[type] },
     ...(teamGamesPlayed[type] > 0
-      ? [{ label: `${lastSeason} through ${teamGamesPlayed[type]} games`, stats: player.lastToDate[type] }]
+      ? [
+          {
+            label: `${lastSeason} through ${teamGamesPlayed[type]} games`,
+            short: `Same pt (${teamGamesPlayed[type]} g)`,
+            stats: player.lastToDate[type],
+          },
+        ]
       : []),
     { label: lastSeason, stats: player.lastFull[type] },
   ]
@@ -167,7 +174,16 @@ function PlayerView({ player, data, timeZone }: { player: Player; data: AppData;
             <tbody>
               {rows.map((r) => (
                 <tr key={r.label}>
-                  <th scope="row">{r.label}</th>
+                  <th scope="row">
+                    {r.short ? (
+                      <>
+                        <span className="label-full">{r.label}</span>
+                        <span className="label-short">{r.short}</span>
+                      </>
+                    ) : (
+                      r.label
+                    )}
+                  </th>
                   {STRIP_COLUMNS.map((c) => {
                     const v = r.stats && c.value(r.stats, 'perGame')
                     const before = r.compareTo && c.value(r.compareTo, 'perGame')
@@ -190,9 +206,30 @@ function PlayerView({ player, data, timeZone }: { player: Player; data: AppData;
 
       <div className="player-columns">
         <GameLogList player={player} data={data} />
-        <NextGame player={player} data={data} timeZone={timeZone} />
+        <div className="player-side">
+          <Overview player={player} data={data} type={type} />
+          <NextGame player={player} data={data} timeZone={timeZone} />
+        </div>
       </div>
     </div>
+  )
+}
+
+/** Radar of key stats: this season over last season (or last season alone before games). */
+function Overview({ player, data, type }: { player: Player; data: AppData; type: TrackedGameType }) {
+  const { season, lastSeason, teamGamesPlayed } = data.players
+  const current = player.current[type]
+  const sameSpot = teamGamesPlayed[type] > 0 ? player.lastToDate[type] : undefined
+  const comparison = sameSpot
+    ? { label: `${lastSeason} at this point`, stats: sameSpot }
+    : player.lastFull[type] && { label: lastSeason, stats: player.lastFull[type] }
+  const primary = current ? { label: season, stats: current } : comparison
+  if (!primary) return null
+  return (
+    <aside className="overview">
+      <h2>At a glance{type === 'playoffs' && ' · playoffs'}</h2>
+      <RadarChart primary={primary} comparison={current ? comparison : undefined} />
+    </aside>
   )
 }
 

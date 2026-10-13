@@ -1339,6 +1339,20 @@ main {
   border-top: 1px solid rgb(255 255 255 / 10%);
 }
 
+.hero-strip .label-short {
+  display: none;
+}
+
+@media (max-width: 760px) {
+  .hero-strip .label-full {
+    display: none;
+  }
+
+  .hero-strip .label-short {
+    display: inline;
+  }
+}
+
 .hero-strip .delta {
   font-size: 0.65rem;
   vertical-align: super;
@@ -1574,7 +1588,7 @@ main {
     grid-template-columns: minmax(0, 1fr);
   }
 
-  .next-game {
+  .player-side {
     order: -1;
   }
 
@@ -1596,4 +1610,155 @@ main {
     overflow: hidden;
     text-overflow: ellipsis;
   }
+}
+
+/* --- player overview radar (always on the dark hero palette) --- */
+
+.player-side {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.overview {
+  padding: 16px 16px 10px;
+  border-radius: 14px;
+  color: #f4f6fa;
+  background:
+    radial-gradient(90% 70% at 50% 40%, #1d428a 0%, transparent 70%),
+    #112449;
+}
+
+.overview h2 {
+  margin: 0 0 4px;
+  font-size: 1rem;
+}
+
+.radar {
+  margin: 0;
+}
+
+.radar-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 14px;
+  font-size: 0.75rem;
+  color: rgb(244 246 250 / 75%);
+}
+
+.radar-legend span {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.radar-swatch-primary {
+  fill: rgb(254 197 36 / 30%);
+  stroke: #fec524;
+  stroke-width: 2;
+}
+
+.radar-swatch-comparison {
+  stroke: #9aa6b8;
+  stroke-width: 2;
+  stroke-dasharray: 4 3;
+}
+
+.radar-plot {
+  position: relative;
+}
+
+.radar-plot svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  overflow: visible;
+}
+
+/* Only the per-axis hit areas take the pointer. */
+.radar-ring,
+.radar-spoke,
+.radar-comparison,
+.radar-primary,
+.radar-label,
+.radar-value {
+  pointer-events: none;
+}
+
+.radar-ring {
+  fill: none;
+  stroke: rgb(255 255 255 / 10%);
+  stroke-width: 1;
+}
+
+.radar-spoke {
+  stroke: rgb(255 255 255 / 10%);
+  stroke-width: 1;
+}
+
+.radar-comparison {
+  fill: none;
+  stroke: #9aa6b8;
+  stroke-width: 2;
+  stroke-dasharray: 5 4;
+  stroke-linejoin: round;
+}
+
+.radar-primary {
+  fill: rgb(254 197 36 / 22%);
+  stroke: #fec524;
+  stroke-width: 2;
+  stroke-linejoin: round;
+}
+
+.radar-hit {
+  fill: transparent;
+  cursor: pointer;
+}
+
+.radar-dot {
+  fill: #fec524;
+  stroke: #112449;
+  stroke-width: 2;
+  pointer-events: none;
+}
+
+.radar-axis.active .radar-dot {
+  r: 6;
+}
+
+.radar-label {
+  font-size: 11px;
+  fill: rgb(244 246 250 / 60%);
+  letter-spacing: 0.04em;
+}
+
+.radar-value {
+  font-size: 15px;
+  font-weight: var(--w-strong);
+  fill: #f4f6fa;
+}
+
+.radar-tooltip {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 8px 10px;
+  border-radius: 8px;
+  background: rgb(8 16 32 / 92%);
+  border: 1px solid rgb(255 255 255 / 15%);
+  font-size: 0.8rem;
+  white-space: nowrap;
+  pointer-events: none;
+}
+
+.radar-note {
+  margin-top: 2px;
+  font-size: 0.7rem;
+  color: rgb(244 246 250 / 50%);
+  text-align: center;
 }
