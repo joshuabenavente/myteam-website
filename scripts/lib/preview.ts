@@ -84,8 +84,8 @@ export interface PreviewInputs {
   game: Game
   /** Denver games before this one that haven't been played yet. */
   earlierUnplayed: Game[]
-  /** The opponent's games before this one that haven't been played yet, as "vs X" / "at X". */
-  opponentEarlierUnplayed: string[]
+  /** The opponent's games before this one that haven't been played yet. */
+  opponentEarlierUnplayed: unknown[]
   /** 1-based number of this game in Denver's season (by type). */
   gameNumber: number
   standings: { [abbr: string]: TeamInfo }
@@ -110,18 +110,15 @@ export function buildFacts(i: PreviewInputs) {
       type: game.type === 'playoffs' ? 'playoffs' : 'regular season',
       denverGameNumber: `${ordinal(i.gameNumber)} ${game.type === 'playoffs' ? 'playoff ' : ''}game of the season for Denver`,
       ...(game.label && { note: game.label }),
-      ...(i.earlierUnplayed.length > 0 && {
-        denverGamesStillToPlayBeforeThisOne: i.earlierUnplayed.map(
-          (g) => `${g.home ? 'vs' : 'at'} ${fullName(g.opponent)}`,
-        ),
-      }),
+      // Counts, not lists: they only exist to stop "season opener" claims, not to be recited.
+      ...(i.earlierUnplayed.length > 0 && { denverGamesStillToPlayBeforeThisOne: i.earlierUnplayed.length }),
     },
     recordsAreAsOfToday: true,
     denver: teamFacts(i.standings[team], i.season),
     opponent: {
       name: fullName(opp),
       ...teamFacts(i.standings[opp], i.season),
-      ...(i.opponentEarlierUnplayed.length > 0 && { gamesStillToPlayBeforeThisOne: i.opponentEarlierUnplayed }),
+      ...(i.opponentEarlierUnplayed.length > 0 && { gamesStillToPlayBeforeThisOne: i.opponentEarlierUnplayed.length }),
     },
     ...(i.h2h && {
       seasonSeries: {
@@ -149,7 +146,7 @@ const SYSTEM = `You write short previews of upcoming Denver Nuggets games for a 
 
 Write exactly three sentences of plain prose: no markdown, headings, lists or emojis. Cover what to expect: how the teams are playing, the matchup history, and who is missing, picking whatever is most notable.
 
-Use only the facts in the user's message, and never infer anything beyond them about either team's schedule, roster, results or history. Records, standings and absences are as of today. If either team has games still to play before this one, those come first, so don't call this game that team's season opener or say how the teams will look at tip-off; describe where things stand now instead. Call this game a team's opener only if that team has no games listed before it and has not played yet. Refer to seasons only by the labels in the facts. Don't add statistics, player roles, storylines, coaches or history that aren't there; your knowledge of rosters may be out of date, so if a player's importance isn't shown by the numbers given, don't characterize it. If a team hasn't played yet this season, say so naturally (for example "both teams open their seasons") instead of quoting 0-0 records. Skip anything that adds nothing, such as an empty absence list.
+Use only the facts in the user's message, and never infer anything beyond them about either team's schedule, roster, results or history. Records, standings and absences are as of today. If either team has games still to play before this one, those come first, so don't call this game that team's season opener or say how the teams will look at tip-off; describe where things stand now instead. Call this game a team's opener only if that team has no games still to play before it and has not played yet. Don't mention the other games still to play; they're only there so you don't call this an opener. Quote series results as worded in the facts, and write plain, natural sentences. Refer to seasons only by the labels in the facts. Don't add statistics, player roles, storylines, coaches or history that aren't there; your knowledge of rosters may be out of date, so if a player's importance isn't shown by the numbers given, don't characterize it. If a team hasn't played yet this season, say so naturally (for example "both teams open their seasons") instead of quoting 0-0 records. Skip anything that adds nothing, such as an empty absence list.
 
 Don't mention tip-off time or TV channels; the app shows those. If a win chance from ESPN's matchup predictor is given, you may mention it once, attributed to ESPN; don't give betting advice.`
 
@@ -163,8 +160,8 @@ export async function writePreview(client: Anthropic, facts: unknown): Promise<G
   const response = await client.messages.create({
     model: MODEL,
     max_tokens: 4000,
-    // A short writing task: low effort keeps thinking (and cost) small.
-    output_config: { effort: 'low' },
+    // Medium effort: low produced clumsy phrasing, and at Haiku prices the difference is negligible.
+    output_config: { effort: 'medium' },
     system: SYSTEM,
     messages: [{ role: 'user', content: `Facts:\n\n${JSON.stringify(facts, null, 2)}` }],
   })

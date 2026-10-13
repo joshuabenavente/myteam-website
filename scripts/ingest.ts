@@ -13,7 +13,6 @@ import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs'
 import { dirname, join } from 'node:path'
 import { nextGames } from '../src/lib/availability.ts'
 import { TEAM } from '../src/lib/config.ts'
-import { TEAMS_BY_ABBR } from '../src/lib/teams.ts'
 import { previousSeason, seasonForDate } from '../src/lib/season.ts'
 import type {
   AvailabilityFile,
@@ -56,8 +55,6 @@ const ESPN_SUMMARY_URL = (eventId: string) =>
   `https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=${eventId}`
 const BBREF_TEAM_URL = (endYear: number) =>
   `https://www.basketball-reference.com/teams/${TEAM.bbrefAbbr}/${endYear}.html`
-
-const fullTeamName = (abbr: string) => `${TEAMS_BY_ABBR[abbr].city} ${TEAMS_BY_ABBR[abbr].name}`
 
 const current = seasonForDate(new Date())
 const last = previousSeason(current)
@@ -268,15 +265,13 @@ if (league && absences && process.env.ANTHROPIC_API_KEY) {
         lastSeason: last.label,
         game,
         earlierUnplayed: schedule.filter((g) => g.status === 'scheduled' && g.startUtc < game.startUtc),
-        opponentEarlierUnplayed: league.games
-          .filter(
-            (g) =>
-              g.status === 'scheduled' &&
-              g.startUtc < game.startUtc &&
-              (g.home === game.opponent || g.away === game.opponent) &&
-              g.id !== game.id,
-          )
-          .map((g) => (g.home === game.opponent ? `vs ${fullTeamName(g.away)}` : `at ${fullTeamName(g.home)}`)),
+        opponentEarlierUnplayed: league.games.filter(
+          (g) =>
+            g.status === 'scheduled' &&
+            g.startUtc < game.startUtc &&
+            (g.home === game.opponent || g.away === game.opponent) &&
+            g.id !== game.id,
+        ),
         gameNumber,
         standings,
         h2h: h2hOpponents?.[game.opponent],

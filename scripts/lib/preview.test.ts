@@ -63,12 +63,12 @@ it('describes the matchup, form and history', () => {
     denverIs: 'home',
     type: 'regular season',
     denverGameNumber: '5th game of the season for Denver',
-    denverGamesStillToPlayBeforeThisOne: ['at Utah Jazz'],
+    denverGamesStillToPlayBeforeThisOne: 1,
   })
   expect(facts.denver).toMatchObject({ record: '3-1', homeRecord: '3-0', lastTen: '3-1', division: '1st in the Northwest' })
   expect(facts.season).toBe('2026-27')
   expect(facts.seasonSeries).toEqual({ '2026-27 so far': 'Denver trails 0-1', '2025-26': 'Denver lost 1-3' })
-  expect(facts.opponent).toMatchObject({ gamesStillToPlayBeforeThisOne: ['at San Antonio Spurs'] })
+  expect(facts.opponent).toMatchObject({ gamesStillToPlayBeforeThisOne: 1 })
   // 01:30 UTC on Oct 23 is the evening of Oct 22 in Denver.
   expect(facts.lastMeeting).toEqual({ date: '2026-10-22', where: 'in Oklahoma City', type: 'regular season', result: 'Nuggets lost 110-101' })
   expect(facts.espnMatchupPredictorDenverWinChance).toBe('60%')
