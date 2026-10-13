@@ -27,11 +27,13 @@ npm run ingest   # refresh public/data (add -- --players for player stats)
 
 ## Roadmap
 
-1. **Data source probe**: the `Probe data sources` workflow runs `scripts/probe-sources.ts` on GitHub Actions and posts a report to the run summary.
-2. **Ingest**: `scripts/ingest.ts` writes schedule, standings, head-to-head and player stats to `public/data/`, refreshed by the `Update data` workflow. See [docs/data-sources.md](docs/data-sources.md).
-3. Games list view.
-4. Calendar view.
-5. Player tracker with season, full last season and same-point-last-season comparisons.
-6. Polish and the scheduled data refresh plus deploy.
+1. **Data source probe** ✅: the `Probe data sources` workflow runs `scripts/probe-sources.ts` on GitHub Actions and posts a report to the run summary.
+2. **Ingest** ✅: `scripts/ingest.ts` writes schedule, standings, head-to-head and player stats to `public/data/`, refreshed by the `Update data` workflow. See [docs/data-sources.md](docs/data-sources.md).
+3. **Games list view** ✅
+4. **Calendar view** ✅
+5. **Player tracker** ✅ with full last season and same-point-last-season comparisons, regular season and playoffs separate.
+6. Polish.
+
+The site deploys to GitHub Pages (`.github/workflows/deploy.yml`) on every push and after each data refresh: https://joshuabenavente.github.io/nuggets-tracker/
 
 Player stats preferably come from [Basketball-Reference](https://www.basketball-reference.com), fetched at most a few times a day and well under their rate limit.

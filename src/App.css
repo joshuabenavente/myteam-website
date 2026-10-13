@@ -595,3 +595,156 @@ main {
     display: none;
   }
 }
+
+/* --- player tracker --- */
+
+.player-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 24px;
+  margin-bottom: 8px;
+}
+
+.control {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.control-label {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--muted);
+  text-transform: uppercase;
+}
+
+.control .segmented button {
+  padding: 5px 12px;
+  font-size: 0.9rem;
+}
+
+.compare-note {
+  min-height: 1.3em;
+  margin: 8px 0 12px;
+}
+
+.table-scroll {
+  overflow-x: auto;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+}
+
+.player-table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 0.9rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.player-table th,
+.player-table td {
+  padding: 8px 10px;
+  border-bottom: 1px solid var(--border);
+  text-align: right;
+  white-space: nowrap;
+  vertical-align: top;
+}
+
+.player-table tbody tr:last-child > * {
+  border-bottom: none;
+}
+
+.player-table thead th {
+  position: sticky;
+  top: 0;
+  background: var(--surface);
+  padding: 0;
+}
+
+.player-table .player-name,
+.player-table thead th:first-child {
+  position: sticky;
+  left: 0;
+  z-index: 1;
+  background: var(--surface);
+  text-align: left;
+  box-shadow: 1px 0 0 var(--border);
+}
+
+.player-table thead th:first-child {
+  z-index: 2;
+}
+
+.player-name a {
+  display: block;
+  color: inherit;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.player-name a:hover {
+  text-decoration: underline;
+}
+
+.badge {
+  margin-left: 6px;
+  padding: 0 5px;
+  border-radius: 4px;
+  font-size: 0.7rem;
+  font-weight: 700;
+  background: var(--sunshine);
+  color: var(--midnight);
+}
+
+.sort {
+  width: 100%;
+  padding: 8px 10px;
+  background: none;
+  border: none;
+  color: var(--muted);
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-align: inherit;
+  white-space: nowrap;
+}
+
+.sort.active {
+  color: var(--text);
+}
+
+.stat-now {
+  display: block;
+  font-weight: 600;
+}
+
+.stat-before {
+  display: block;
+  font-size: 0.78rem;
+  color: var(--muted);
+}
+
+.delta {
+  margin-left: 4px;
+  font-size: 0.72rem;
+}
+
+.delta.good {
+  color: var(--win);
+}
+
+.delta.bad {
+  color: var(--loss);
+}
+
+@media (max-width: 640px) {
+  .player-table th,
+  .player-table td {
+    padding: 6px 8px;
+  }
+
+  .player-table .player-name {
+    max-width: 130px;
+    white-space: normal;
+  }
+}

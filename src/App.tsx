@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { GamesCalendar } from './components/GamesCalendar.tsx'
 import { GamesList } from './components/GamesList.tsx'
+import { PlayerTracker } from './components/PlayerTracker.tsx'
 import { TeamSummary } from './components/TeamSummary.tsx'
 import { TEAM } from './lib/config'
 import { useAppData } from './lib/data.ts'
@@ -61,7 +62,7 @@ function App() {
 
         {data && page === 'players' && (
           <section>
-            <p className="placeholder">Player tracker coming in phase 5.</p>
+            <PlayerTracker data={data} />
           </section>
         )}
       </main>
