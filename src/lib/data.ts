@@ -1,7 +1,15 @@
 // Load the JSON files written by scripts/ingest.ts.
 
 import { useEffect, useState } from 'react'
-import type { HeadToHeadFile, MetaFile, PlayersFile, ScheduleFile, StandingsFile } from './types.ts'
+import type {
+  AvailabilityFile,
+  HeadToHeadFile,
+  MetaFile,
+  PlayersFile,
+  PreviewsFile,
+  ScheduleFile,
+  StandingsFile,
+} from './types.ts'
 
 export interface AppData {
   schedule: ScheduleFile
@@ -9,6 +17,10 @@ export interface AppData {
   h2h: HeadToHeadFile
   players: PlayersFile
   meta: MetaFile
+  /** Optional: absent until the first injuries refresh. */
+  availability?: AvailabilityFile
+  /** Optional: only written when previews are enabled. */
+  previews?: PreviewsFile
 }
 
 async function load<T>(name: string): Promise<T> {
@@ -16,6 +28,9 @@ async function load<T>(name: string): Promise<T> {
   if (!res.ok) throw new Error(`Couldn't load ${name} (HTTP ${res.status})`)
   return res.json() as Promise<T>
 }
+
+/** Like load, but a missing or broken optional file just leaves that feature out. */
+const loadOptional = <T,>(name: string) => load<T>(name).catch(() => undefined)
 
 export function useAppData(): { data?: AppData; error?: string } {
   const [state, setState] = useState<{ data?: AppData; error?: string }>({})
@@ -26,8 +41,12 @@ export function useAppData(): { data?: AppData; error?: string } {
       load<HeadToHeadFile>('h2h'),
       load<PlayersFile>('players'),
       load<MetaFile>('meta'),
+      loadOptional<AvailabilityFile>('availability'),
+      loadOptional<PreviewsFile>('previews'),
     ])
-      .then(([schedule, standings, h2h, players, meta]) => setState({ data: { schedule, standings, h2h, players, meta } }))
+      .then(([schedule, standings, h2h, players, meta, availability, previews]) =>
+        setState({ data: { schedule, standings, h2h, players, meta, availability, previews } }),
+      )
       .catch((err: Error) => setState({ error: err.message }))
   }, [])
   return state

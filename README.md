@@ -32,7 +32,7 @@ npm run ingest   # refresh public/data (add -- --players for player stats)
 3. **Games list view** ✅
 4. **Calendar view** ✅
 5. **Player tracker** ✅ with full last season and same-point-last-season comparisons, regular season and playoffs separate.
-6. **Game availability & previews**, shown when a game is expanded, for the next 3 upcoming games:
+6. **Game availability & previews** ✅, shown when a game is expanded, for the next 3 upcoming games:
    - *Not available* list for both teams (status: Out / Doubtful / Questionable / Probable / Day-To-Day, plus reason: injury, illness, personal, G League, not with team), from ESPN's injuries feed, refreshed hourly and labelled with when it was last updated.
    - A ~3-sentence preview written by Claude during the data job from facts the app already has: records, standings, streaks, last 10, home/away records, season series, last meeting and who's out. It uses only those facts and regenerates only when they change. Needs an `ANTHROPIC_API_KEY` repository secret.
    - First step: probe the injury sources from GitHub Actions, as in phase 1.

@@ -2,7 +2,7 @@ name: Update data
 
 on:
   schedule:
-    - cron: '17 */3 * * *' # schedule, standings, head-to-head
+    - cron: '17 * * * *' # schedule, standings, head-to-head, injuries, previews
     - cron: '43 10 * * *' # also player stats (4:43am Mountain, after the night's games)
   workflow_dispatch:
     inputs:
@@ -34,6 +34,8 @@ jobs:
         continue-on-error: true
         env:
           PLAYERS: ${{ github.event.schedule == '43 10 * * *' || inputs.players }}
+          # Optional: previews are skipped when the secret isn't set.
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: node scripts/ingest.ts ${{ env.PLAYERS == 'true' && '--players' || '' }}
 
       - name: Commit changes

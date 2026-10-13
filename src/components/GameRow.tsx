@@ -1,5 +1,7 @@
 import { useState } from 'react'
+import { absencesForGame, nextGames } from '../lib/availability.ts'
 import { TEAM } from '../lib/config.ts'
+import type { AppData } from '../lib/data.ts'
 import {
   finishedSeriesSummary,
   formatGameDate,
@@ -10,17 +12,17 @@ import {
   seriesSummary,
 } from '../lib/format.ts'
 import { TEAMS_BY_ABBR } from '../lib/teams.ts'
-import type { Game, HeadToHeadFile, StandingsFile, TeamInfo } from '../lib/types.ts'
+import type { AvailabilityFile, Game, HeadToHeadFile, StandingsFile, TeamInfo } from '../lib/types.ts'
 import { TeamLogo } from './TeamLogo.tsx'
 
 interface Props {
   game: Game
-  standings: StandingsFile['teams']
-  h2h: HeadToHeadFile
+  data: AppData
   timeZone: string
 }
 
-export function GameRow({ game, standings, h2h, timeZone }: Props) {
+export function GameRow({ game, data, timeZone }: Props) {
+  const standings = data.standings.teams
   const [open, setOpen] = useState(false)
   const opp = TEAMS_BY_ABBR[game.opponent]
   const oppStanding = standings[game.opponent]
@@ -59,7 +61,7 @@ export function GameRow({ game, standings, h2h, timeZone }: Props) {
 
       {open && (
         <div className="game-details" id={detailsId}>
-          <GameDetails game={game} standings={standings} h2h={h2h} />
+          <GameDetails game={game} data={data} />
         </div>
       )}
     </li>
@@ -82,16 +84,79 @@ export function Broadcasts({ game }: { game: Game }) {
   )
 }
 
-/** Label, both teams' standings and the season series. */
-export function GameDetails({ game, standings, h2h }: Omit<Props, 'timeZone'>) {
+/** Label, preview, standings, season series and (for the next few games) who's out. */
+export function GameDetails({ game, data }: { game: Game; data: AppData }) {
+  const isNext = nextGames(data.schedule.games).some((g) => g.id === game.id)
+  const preview = isNext ? data.previews?.games[game.id] : undefined
   return (
     <>
       {game.label && <p className="game-label">{game.label}</p>}
-      <StandingsTable abbrs={[TEAM.abbr, game.opponent]} standings={standings} />
-      <SeasonSeries opponent={game.opponent} h2h={h2h} />
+      {preview && (
+        <div className="preview">
+          <h4>
+            Preview <span className="muted small">· written by Claude from the stats on this page</span>
+          </h4>
+          <p>{preview.text}</p>
+        </div>
+      )}
+      <StandingsTable abbrs={[TEAM.abbr, game.opponent]} standings={data.standings.teams} />
+      <SeasonSeries opponent={game.opponent} h2h={data.h2h} />
+      {isNext && data.availability && <NotAvailable game={game} availability={data.availability} />}
     </>
   )
 }
+
+function NotAvailable({ game, availability }: { game: Game; availability: AvailabilityFile }) {
+  const updated = new Date(availability.updatedAt).toLocaleString('en-US', {
+    month: 'short',
+    day: 'numeric',
+    hour: 'numeric',
+    minute: '2-digit',
+  })
+  return (
+    <div className="not-available">
+      <h4>
+        Not available <span className="muted small">· updated {updated}</span>
+      </h4>
+      <div className="na-teams">
+        {[TEAM.abbr, game.opponent].map((abbr) => {
+          const list = absencesForGame(availability.teams[abbr], game)
+          return (
+            <div key={abbr} className="na-team">
+              <h5>
+                <TeamLogo abbr={abbr} size={18} /> {abbr}
+              </h5>
+              {list.length === 0 ? (
+                <p className="muted small">Nobody listed</p>
+              ) : (
+                <ul>
+                  {list.map((a) => (
+                    <li key={a.name}>
+                      <span className="na-name">{a.name}</span>
+                      <span className={`status-tag ${statusClass(a.status)}`}>
+                        {a.gameTimeDecision && a.status !== 'Out' ? 'Game-time decision' : a.status}
+                      </span>
+                      <span className="muted small na-reason">
+                        {a.reason}
+                        {a.returnDate && ` · expected back ${formatReturn(a.returnDate)}`}
+                      </span>
+                    </li>
+                  ))}
+                </ul>
+              )}
+            </div>
+          )
+        })}
+      </div>
+    </div>
+  )
+}
+
+const statusClass = (status: string) =>
+  status === 'Out' ? 'out' : status === 'Doubtful' ? 'doubtful' : status === 'Probable' ? 'probable' : 'questionable'
+
+const formatReturn = (date: string) =>
+  new Date(`${date}T12:00:00Z`).toLocaleDateString('en-US', { month: 'short', day: 'numeric', timeZone: 'UTC' })
 
 export function GameStatus({ game, timeZone }: { game: Game; timeZone: string }) {
   if (game.status === 'scheduled') return <span className="time">{formatGameTime(game, timeZone)}</span>

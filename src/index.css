@@ -17,6 +17,12 @@
   --chip-local-bg: var(--midnight);
   --chip-local-text: var(--sunshine);
   --cal-home-bg: var(--midnight);
+  --status-out-bg: #fbe3e6;
+  --status-out-text: #8b2131;
+  --status-q-bg: #fff1c2;
+  --status-q-text: #6b4e00;
+  --status-p-bg: #dcf3e3;
+  --status-p-text: #1a6b34;
 
   font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
   line-height: 1.5;
@@ -40,6 +46,12 @@
     --chip-local-bg: var(--sunshine);
     --chip-local-text: var(--midnight);
     --cal-home-bg: var(--skyline);
+    --status-out-bg: #4a1d26;
+    --status-out-text: #ffb3bf;
+    --status-q-bg: #4a3a0a;
+    --status-q-text: #ffe08a;
+    --status-p-bg: #173d24;
+    --status-p-text: #9be3b2;
   }
 }
 

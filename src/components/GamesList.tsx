@@ -31,7 +31,7 @@ export function GamesList({ data, timeZone }: { data: AppData; timeZone: string 
             <h2>{month}</h2>
             <ul className="games">
               {monthGames.map((g) => (
-                <GameRow key={g.id} game={g} standings={data.standings.teams} h2h={data.h2h} timeZone={timeZone} />
+                <GameRow key={g.id} game={g} data={data} timeZone={timeZone} />
               ))}
             </ul>
           </section>

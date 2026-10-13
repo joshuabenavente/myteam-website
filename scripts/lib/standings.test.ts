@@ -19,7 +19,16 @@ describe('computeStandings', () => {
       game('MIN', 'DEN', 105, 100),
       game('DEN', 'MIN', 99, 101, 'playoffs'),
     ])
-    expect(s.DEN).toMatchObject({ wins: 2, losses: 1, streak: 'L1', divisionRank: 2, divisionGamesBehind: 0 })
+    expect(s.DEN).toMatchObject({
+      wins: 2,
+      losses: 1,
+      streak: 'L1',
+      divisionRank: 2,
+      divisionGamesBehind: 0,
+      home: { wins: 2, losses: 0 },
+      road: { wins: 0, losses: 1 },
+      lastTen: { wins: 2, losses: 1 },
+    })
     expect(s.MIN).toMatchObject({ wins: 1, losses: 0, divisionRank: 1, divisionGamesBehind: 0 })
     expect(s.OKC).toMatchObject({ wins: 0, losses: 1, streak: 'L1' })
     expect(s.BOS).toMatchObject({ wins: 0, losses: 0, divisionRank: expect.any(Number) })

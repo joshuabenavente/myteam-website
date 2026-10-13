@@ -45,6 +45,9 @@ export interface TeamInfo {
   conferenceRank: number
   /** Games behind the division leader. */
   divisionGamesBehind: number
+  home: WinLoss
+  road: WinLoss
+  lastTen: WinLoss
   /** e.g. "W3"; absent before the first game. */
   streak?: string
 }
@@ -113,6 +116,37 @@ export interface PlayersFile {
   /** Denver's games played this season, by type; the cutoff for lastToDate. */
   teamGamesPlayed: { [K in TrackedGameType]: number }
   players: Player[]
+}
+
+export interface Absence {
+  name: string
+  /** ESPN status, e.g. "Out" or "Day-To-Day". */
+  status: string
+  /** Listed as a game-time decision. */
+  gameTimeDecision: boolean
+  /** e.g. "Knee (tendinitis)", "Rest", "Personal". */
+  reason?: string
+  /** Expected return date (YYYY-MM-DD), when reported. */
+  returnDate?: string
+}
+
+export interface AvailabilityFile {
+  /** When the list last changed. */
+  updatedAt: string
+  /** Keyed by team abbreviation. */
+  teams: { [abbr: string]: Absence[] }
+}
+
+export interface Preview {
+  text: string
+  generatedAt: string
+  /** Hash of the facts the preview was written from; it's rewritten when they change. */
+  factsHash: string
+}
+
+export interface PreviewsFile {
+  /** Keyed by game ID; only the next few games. */
+  games: { [gameId: string]: Preview }
 }
 
 export interface MetaFile {

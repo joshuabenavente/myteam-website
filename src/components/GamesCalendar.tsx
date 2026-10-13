@@ -177,7 +177,7 @@ function SelectedGame({ game, data, timeZone }: { game: Game; data: AppData; tim
         </div>
       </div>
       <Broadcasts game={game} />
-      <GameDetails game={game} standings={data.standings.teams} h2h={data.h2h} />
+      <GameDetails game={game} data={data} />
     </section>
   )
 }

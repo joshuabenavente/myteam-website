@@ -791,3 +791,101 @@ main {
     padding: 10px 8px;
   }
 }
+
+/* --- preview and availability --- */
+
+.preview,
+.not-available {
+  margin: 0 0 14px;
+}
+
+.not-available {
+  margin: 16px 0 0;
+}
+
+.preview h4,
+.not-available h4 {
+  margin: 0 0 6px;
+  font-size: 0.75rem;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.preview h4 .small,
+.not-available h4 .small {
+  text-transform: none;
+  letter-spacing: 0;
+  font-weight: 400;
+}
+
+.preview p {
+  margin: 0;
+  max-width: 68ch;
+  line-height: 1.55;
+}
+
+.na-teams {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 12px 24px;
+}
+
+.na-team h5 {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin: 0 0 6px;
+  font-size: 0.9rem;
+}
+
+.na-team ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.na-team li {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 2px 8px;
+  padding: 4px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.na-team li:last-child {
+  border-bottom: none;
+}
+
+.na-name {
+  font-weight: 600;
+}
+
+.na-reason {
+  flex-basis: 100%;
+}
+
+.status-tag {
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding: 1px 6px;
+  border-radius: 4px;
+  white-space: nowrap;
+}
+
+.status-tag.out {
+  background: var(--status-out-bg);
+  color: var(--status-out-text);
+}
+
+.status-tag.doubtful,
+.status-tag.questionable {
+  background: var(--status-q-bg);
+  color: var(--status-q-text);
+}
+
+.status-tag.probable {
+  background: var(--status-p-bg);
+  color: var(--status-p-text);
+}

@@ -23,6 +23,10 @@ interface Tally {
   confWins: number
   confLosses: number
   pointDiff: number
+  homeWins: number
+  homeLosses: number
+  roadWins: number
+  roadLosses: number
   /** true = win, in date order. */
   results: boolean[]
 }
@@ -32,7 +36,20 @@ const pct = (w: number, l: number) => (w + l === 0 ? 0 : w / (w + l))
 function tally(games: FinalGame[]): { [abbr: string]: Tally } {
   const out: { [abbr: string]: Tally } = {}
   for (const t of TEAMS) {
-    out[t.abbr] = { wins: 0, losses: 0, divWins: 0, divLosses: 0, confWins: 0, confLosses: 0, pointDiff: 0, results: [] }
+    out[t.abbr] = {
+      wins: 0,
+      losses: 0,
+      divWins: 0,
+      divLosses: 0,
+      confWins: 0,
+      confLosses: 0,
+      pointDiff: 0,
+      homeWins: 0,
+      homeLosses: 0,
+      roadWins: 0,
+      roadLosses: 0,
+      results: [],
+    }
   }
   const sorted = games.filter((g) => g.type === 'regular').sort((a, b) => a.startUtc.localeCompare(b.startUtc))
   for (const g of sorted) {
@@ -40,13 +57,18 @@ function tally(games: FinalGame[]): { [abbr: string]: Tally } {
     const away = TEAMS_BY_ABBR[g.away]
     if (!home || !away) continue
     const homeWon = g.homeScore > g.awayScore
-    for (const [team, opp, won, diff] of [
-      [home, away, homeWon, g.homeScore - g.awayScore],
-      [away, home, !homeWon, g.awayScore - g.homeScore],
+    for (const [team, opp, won, diff, atHome] of [
+      [home, away, homeWon, g.homeScore - g.awayScore, true],
+      [away, home, !homeWon, g.awayScore - g.homeScore, false],
     ] as const) {
       const r = out[team.abbr]
       if (won) r.wins++
       else r.losses++
+      if (atHome) {
+        if (won) r.homeWins++
+        else r.homeLosses++
+      } else if (won) r.roadWins++
+      else r.roadLosses++
       if (team.division === opp.division) {
         if (won) r.divWins++
         else r.divLosses++
@@ -114,6 +136,12 @@ function rank(abbrs: string[], t: { [abbr: string]: Tally }, games: FinalGame[],
   return ordered
 }
 
+function lastTen(results: boolean[]): WinLoss {
+  const recent = results.slice(-10)
+  const wins = recent.filter(Boolean).length
+  return { wins, losses: recent.length - wins }
+}
+
 function streak(results: boolean[]): string | undefined {
   if (!results.length) return undefined
   const last = results[results.length - 1]
@@ -144,6 +172,9 @@ export function computeStandings(games: FinalGame[]): { [abbr: string]: TeamInfo
         divisionRank: i + 1,
         conferenceRank: 0,
         divisionGamesBehind: (lead.wins - r.wins + (r.losses - lead.losses)) / 2,
+        home: { wins: r.homeWins, losses: r.homeLosses },
+        road: { wins: r.roadWins, losses: r.roadLosses },
+        lastTen: lastTen(r.results),
         ...(streak(r.results) && { streak: streak(r.results) }),
       }
     })
