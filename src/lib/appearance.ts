@@ -64,7 +64,14 @@ export interface Appearance {
   icons: IconStyle
 }
 
-export const DEFAULT_APPEARANCE: Appearance = { body: 'system', heading: 'same', weight: 400, scale: 1, icons: 'none' }
+// The chosen look. Keep in sync with the font <link> in index.html and --font-body in index.css.
+export const DEFAULT_APPEARANCE: Appearance = {
+  body: 'atkinson-next',
+  heading: 'same',
+  weight: 400,
+  scale: 1,
+  icons: 'lucide',
+}
 
 const SETTINGS_KEY = 'appearance'
 const PICKER_KEY = 'appearance-picker'
