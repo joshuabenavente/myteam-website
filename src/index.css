@@ -9,6 +9,13 @@
   --text: #14181f;
   --muted: #5b6472;
   --border: #dde1e7;
+  --hover: #f0f2f6;
+  --heading: var(--midnight);
+  --skyline-text: var(--skyline);
+  --win: #1a7f37;
+  --loss: var(--flatirons);
+  --chip-local-bg: var(--midnight);
+  --chip-local-text: var(--sunshine);
 
   font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
   line-height: 1.5;
@@ -24,6 +31,13 @@
     --text: #e8ebf0;
     --muted: #9aa4b2;
     --border: #26324a;
+    --hover: #18233a;
+    --heading: var(--sunshine);
+    --skyline-text: #7ea6ff;
+    --win: #4ac26b;
+    --loss: #ff7b8a;
+    --chip-local-bg: var(--sunshine);
+    --chip-local-text: var(--midnight);
   }
 }
 

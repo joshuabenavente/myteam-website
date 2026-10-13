@@ -17,5 +17,5 @@
     "noFallthroughCasesInSwitch": true
   },
   "include": ["scripts", "src/lib"],
-  "exclude": ["**/*.test.ts"]
+  "exclude": ["**/*.test.ts", "src/lib/data.ts"]
 }
