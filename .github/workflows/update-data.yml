@@ -33,7 +33,8 @@ jobs:
         id: ingest
         continue-on-error: true
         env:
-          PLAYERS: ${{ github.event.schedule == '43 10 * * *' || inputs.players }}
+          # inputs.players falls back to its default (true) on scheduled runs, so only read it for manual runs.
+          PLAYERS: ${{ github.event.schedule == '43 10 * * *' || (github.event_name == 'workflow_dispatch' && inputs.players) }}
           # Optional: previews are skipped when the secret isn't set.
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: node scripts/ingest.ts ${{ env.PLAYERS == 'true' && '--players' || '' }}
