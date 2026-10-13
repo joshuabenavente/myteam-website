@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-13T20:16:24.415Z",
+ "updatedAt": "2026-10-13T22:44:37.069Z",
  "teams": {
   "ATL": [
    {
@@ -192,14 +192,21 @@
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Knee",
-    "returnDate": "2026-10-13"
+    "returnDate": "2026-10-22"
    },
    {
     "name": "Nae'Qwan Tomlin",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Back",
-    "returnDate": "2026-10-13"
+    "returnDate": "2026-10-22"
+   },
+   {
+    "name": "Sam Merrill",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Elbow (soreness)",
+    "returnDate": "2026-10-22"
    }
   ],
   "DAL": [
@@ -393,18 +400,18 @@
     "returnDate": "2026-10-13"
    },
    {
-    "name": "Allen Graves",
+    "name": "Chucky Hepburn",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
-    "reason": "Groin",
-    "returnDate": "2026-10-13"
+    "reason": "Hamstring",
+    "returnDate": "2026-11-06"
    },
    {
     "name": "Nate Bittle",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Foot",
-    "returnDate": "2026-10-13"
+    "returnDate": "2026-10-21"
    },
    {
     "name": "Trayce Jackson-Davis",
@@ -671,8 +678,8 @@
     "name": "Chet Holmgren",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
-    "reason": "Quadriceps",
-    "returnDate": "2026-10-13"
+    "reason": "Quadriceps (bruise)",
+    "returnDate": "2026-10-15"
    },
    {
     "name": "Isaiah Hartenstein",
@@ -714,7 +721,7 @@
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Back (surgery)",
-    "returnDate": "2026-10-13"
+    "returnDate": "2026-10-15"
    },
    {
     "name": "Shai Gilgeous-Alexander",
@@ -728,7 +735,7 @@
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Knee (surgery)",
-    "returnDate": "2026-10-13"
+    "returnDate": "2026-10-15"
    }
   ],
   "ORL": [
@@ -744,28 +751,21 @@
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Ankle (sprain)",
-    "returnDate": "2026-10-13"
-   },
-   {
-    "name": "Desmond Bane",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Rest",
-    "returnDate": "2026-10-13"
-   },
-   {
-    "name": "Jalen Suggs",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Illness",
-    "returnDate": "2026-10-13"
+    "returnDate": "2026-10-16"
    },
    {
     "name": "Jonathan Isaac",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Knee (sprain)",
-    "returnDate": "2026-10-13"
+    "returnDate": "2026-10-16"
+   },
+   {
+    "name": "Nikola Vucevic",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Rest",
+    "returnDate": "2026-10-16"
    }
   ],
   "PHI": [
@@ -874,6 +874,13 @@
   ],
   "SAC": [
    {
+    "name": "Dylan Cardwell",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Calf (strain)",
+    "returnDate": "2026-10-29"
+   },
+   {
     "name": "Maxime Raynaud",
     "status": "Out",
     "gameTimeDecision": false,
@@ -885,13 +892,6 @@
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Undisclosed",
-    "returnDate": "2026-10-13"
-   },
-   {
-    "name": "Dylan Cardwell",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Calf",
     "returnDate": "2026-10-13"
    },
    {
