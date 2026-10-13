@@ -1,0 +1,630 @@
+{
+ "season": "2026-27",
+ "lastSeason": "2025-26",
+ "teamGamesPlayed": {
+  "regular": 0,
+  "playoffs": 0
+ },
+ "players": [
+  {
+   "id": "murraja01",
+   "name": "Jamal Murray",
+   "position": "G",
+   "twoWay": false,
+   "current": {},
+   "lastFull": {
+    "regular": {
+     "games": 75,
+     "started": 75,
+     "minutes": 2651.9,
+     "points": 1905,
+     "rebounds": 330,
+     "assists": 535,
+     "steals": 66,
+     "blocks": 29,
+     "turnovers": 171,
+     "fgMade": 657,
+     "fgAttempted": 1360,
+     "threeMade": 245,
+     "threeAttempted": 563,
+     "ftMade": 346,
+     "ftAttempted": 390
+    },
+    "playoffs": {
+     "games": 6,
+     "started": 6,
+     "minutes": 238.2,
+     "points": 142,
+     "rebounds": 30,
+     "assists": 34,
+     "steals": 5,
+     "blocks": 2,
+     "turnovers": 13,
+     "fgMade": 46,
+     "fgAttempted": 129,
+     "threeMade": 11,
+     "threeAttempted": 42,
+     "ftMade": 39,
+     "ftAttempted": 40
+    }
+   },
+   "lastToDate": {}
+  },
+  {
+   "id": "derozde01",
+   "name": "DeMar DeRozan",
+   "position": "G-F",
+   "twoWay": false,
+   "current": {},
+   "lastFull": {
+    "regular": {
+     "games": 77,
+     "started": 77,
+     "minutes": 2405.5,
+     "points": 1419,
+     "rebounds": 226,
+     "assists": 316,
+     "steals": 80,
+     "blocks": 23,
+     "turnovers": 96,
+     "fgMade": 499,
+     "fgAttempted": 1005,
+     "threeMade": 47,
+     "threeAttempted": 147,
+     "ftMade": 374,
+     "ftAttempted": 431
+    }
+   },
+   "lastToDate": {}
+  },
+  {
+   "id": "jokicni01",
+   "name": "Nikola Jokić",
+   "position": "C-F",
+   "twoWay": false,
+   "current": {},
+   "lastFull": {
+    "regular": {
+     "games": 65,
+     "started": 65,
+     "minutes": 2264.9,
+     "points": 1799,
+     "rebounds": 836,
+     "assists": 697,
+     "steals": 92,
+     "blocks": 53,
+     "turnovers": 243,
+     "fgMade": 644,
+     "fgAttempted": 1132,
+     "threeMade": 112,
+     "threeAttempted": 295,
+     "ftMade": 399,
+     "ftAttempted": 480
+    },
+    "playoffs": {
+     "games": 6,
+     "started": 6,
+     "minutes": 237.1,
+     "points": 155,
+     "rebounds": 79,
+     "assists": 57,
+     "steals": 6,
+     "blocks": 5,
+     "turnovers": 23,
+     "fgMade": 54,
+     "fgAttempted": 121,
+     "threeMade": 7,
+     "threeAttempted": 36,
+     "ftMade": 40,
+     "ftAttempted": 43
+    }
+   },
+   "lastToDate": {}
+  },
+  {
+   "id": "johnsca02",
+   "name": "Cameron Johnson",
+   "position": "F",
+   "twoWay": false,
+   "current": {},
+   "lastFull": {
+    "regular": {
+     "games": 54,
+     "started": 54,
+     "minutes": 1647,
+     "points": 660,
+     "rebounds": 206,
+     "assists": 132,
+     "steals": 40,
+     "blocks": 21,
+     "turnovers": 47,
+     "fgMade": 228,
+     "fgAttempted": 475,
+     "threeMade": 110,
+     "threeAttempted": 256,
+     "ftMade": 94,
+     "ftAttempted": 112
+    },
+    "playoffs": {
+     "games": 6,
+     "started": 6,
+     "minutes": 186.4,
+     "points": 85,
+     "rebounds": 19,
+     "assists": 14,
+     "steals": 6,
+     "blocks": 2,
+     "turnovers": 6,
+     "fgMade": 31,
+     "fgAttempted": 62,
+     "threeMade": 11,
+     "threeAttempted": 35,
+     "ftMade": 12,
+     "ftAttempted": 17
+    }
+   },
+   "lastToDate": {}
+  },
+  {
+   "id": "jonessp01",
+   "name": "Spencer Jones",
+   "position": "F",
+   "twoWay": false,
+   "current": {},
+   "lastFull": {
+    "regular": {
+     "games": 64,
+     "started": 37,
+     "minutes": 1416.8,
+     "points": 352,
+     "rebounds": 209,
+     "assists": 51,
+     "steals": 52,
+     "blocks": 29,
+     "turnovers": 31,
+     "fgMade": 132,
+     "fgAttempted": 262,
+     "threeMade": 57,
+     "threeAttempted": 144,
+     "ftMade": 31,
+     "ftAttempted": 51
+    },
+    "playoffs": {
+     "games": 6,
+     "started": 3,
+     "minutes": 145.3,
+     "points": 39,
+     "rebounds": 12,
+     "assists": 2,
+     "steals": 4,
+     "blocks": 7,
+     "turnovers": 4,
+     "fgMade": 13,
+     "fgAttempted": 19,
+     "threeMade": 9,
+     "threeAttempted": 13,
+     "ftMade": 4,
+     "ftAttempted": 5
+    }
+   },
+   "lastToDate": {}
+  },
+  {
+   "id": "braunch01",
+   "name": "Christian Braun",
+   "position": "G",
+   "twoWay": false,
+   "current": {},
+   "lastFull": {
+    "regular": {
+     "games": 44,
+     "started": 44,
+     "minutes": 1399.1,
+     "points": 526,
+     "rebounds": 211,
+     "assists": 120,
+     "steals": 30,
+     "blocks": 12,
+     "turnovers": 43,
+     "fgMade": 202,
+     "fgAttempted": 389,
+     "threeMade": 43,
+     "threeAttempted": 143,
+     "ftMade": 79,
+     "ftAttempted": 101
+    },
+    "playoffs": {
+     "games": 6,
+     "started": 6,
+     "minutes": 186.9,
+     "points": 50,
+     "rebounds": 21,
+     "assists": 10,
+     "steals": 6,
+     "blocks": 5,
+     "turnovers": 4,
+     "fgMade": 15,
+     "fgAttempted": 36,
+     "threeMade": 6,
+     "threeAttempted": 14,
+     "ftMade": 14,
+     "ftAttempted": 19
+    }
+   },
+   "lastToDate": {}
+  },
+  {
+   "id": "baglema01",
+   "name": "Marvin Bagley III",
+   "position": "F-C",
+   "twoWay": false,
+   "current": {},
+   "lastFull": {
+    "regular": {
+     "games": 60,
+     "started": 12,
+     "minutes": 1200.9,
+     "points": 627,
+     "rebounds": 366,
+     "assists": 85,
+     "steals": 28,
+     "blocks": 43,
+     "turnovers": 61,
+     "fgMade": 254,
+     "fgAttempted": 411,
+     "threeMade": 24,
+     "threeAttempted": 52,
+     "ftMade": 95,
+     "ftAttempted": 144
+    }
+   },
+   "lastToDate": {}
+  },
+  {
+   "id": "nembhry01",
+   "name": "Ryan Nembhard",
+   "position": "G",
+   "twoWay": true,
+   "current": {},
+   "lastFull": {
+    "regular": {
+     "games": 60,
+     "started": 27,
+     "minutes": 1170.9,
+     "points": 397,
+     "rebounds": 133,
+     "assists": 316,
+     "steals": 25,
+     "blocks": 2,
+     "turnovers": 85,
+     "fgMade": 162,
+     "fgAttempted": 390,
+     "threeMade": 48,
+     "threeAttempted": 135,
+     "ftMade": 25,
+     "ftAttempted": 31
+    }
+   },
+   "lastToDate": {}
+  },
+  {
+   "id": "gordoaa01",
+   "name": "Aaron Gordon",
+   "position": "F",
+   "twoWay": false,
+   "current": {},
+   "lastFull": {
+    "regular": {
+     "games": 36,
+     "started": 33,
+     "minutes": 1005,
+     "points": 582,
+     "rebounds": 209,
+     "assists": 96,
+     "steals": 21,
+     "blocks": 10,
+     "turnovers": 38,
+     "fgMade": 198,
+     "fgAttempted": 398,
+     "threeMade": 61,
+     "threeAttempted": 157,
+     "ftMade": 125,
+     "ftAttempted": 163
+    },
+    "playoffs": {
+     "games": 3,
+     "started": 3,
+     "minutes": 89.3,
+     "points": 34,
+     "rebounds": 16,
+     "assists": 7,
+     "steals": 0,
+     "blocks": 1,
+     "turnovers": 1,
+     "fgMade": 12,
+     "fgAttempted": 30,
+     "threeMade": 3,
+     "threeAttempted": 14,
+     "ftMade": 7,
+     "ftAttempted": 10
+    }
+   },
+   "lastToDate": {}
+  },
+  {
+   "id": "jonesty01",
+   "name": "Tyus Jones",
+   "position": "G",
+   "twoWay": false,
+   "current": {},
+   "lastFull": {
+    "regular": {
+     "games": 67,
+     "started": 12,
+     "minutes": 978.6,
+     "points": 199,
+     "rebounds": 76,
+     "assists": 159,
+     "steals": 37,
+     "blocks": 3,
+     "turnovers": 25,
+     "fgMade": 76,
+     "fgAttempted": 218,
+     "threeMade": 40,
+     "threeAttempted": 137,
+     "ftMade": 7,
+     "ftAttempted": 9
+    },
+    "playoffs": {
+     "games": 3,
+     "started": 0,
+     "minutes": 30.3,
+     "points": 9,
+     "rebounds": 0,
+     "assists": 5,
+     "steals": 2,
+     "blocks": 0,
+     "turnovers": 0,
+     "fgMade": 4,
+     "fgAttempted": 8,
+     "threeMade": 0,
+     "threeAttempted": 1,
+     "ftMade": 1,
+     "ftAttempted": 2
+    }
+   },
+   "lastToDate": {}
+  },
+  {
+   "id": "strawju01",
+   "name": "Julian Strawther",
+   "position": "F",
+   "twoWay": false,
+   "current": {},
+   "lastFull": {
+    "regular": {
+     "games": 57,
+     "started": 14,
+     "minutes": 860.7,
+     "points": 413,
+     "rebounds": 114,
+     "assists": 61,
+     "steals": 25,
+     "blocks": 6,
+     "turnovers": 36,
+     "fgMade": 149,
+     "fgAttempted": 319,
+     "threeMade": 58,
+     "threeAttempted": 150,
+     "ftMade": 57,
+     "ftAttempted": 70
+    },
+    "playoffs": {
+     "games": 2,
+     "started": 0,
+     "minutes": 18.2,
+     "points": 6,
+     "rebounds": 3,
+     "assists": 0,
+     "steals": 0,
+     "blocks": 0,
+     "turnovers": 2,
+     "fgMade": 2,
+     "fgAttempted": 7,
+     "threeMade": 1,
+     "threeAttempted": 3,
+     "ftMade": 1,
+     "ftAttempted": 2
+    }
+   },
+   "lastToDate": {}
+  },
+  {
+   "id": "nnajize01",
+   "name": "Zeke Nnaji",
+   "position": "F",
+   "twoWay": false,
+   "current": {},
+   "lastFull": {
+    "regular": {
+     "games": 52,
+     "started": 4,
+     "minutes": 626,
+     "points": 190,
+     "rebounds": 136,
+     "assists": 29,
+     "steals": 17,
+     "blocks": 24,
+     "turnovers": 27,
+     "fgMade": 71,
+     "fgAttempted": 151,
+     "threeMade": 14,
+     "threeAttempted": 54,
+     "ftMade": 34,
+     "ftAttempted": 44
+    },
+    "playoffs": {
+     "games": 2,
+     "started": 0,
+     "minutes": 19.1,
+     "points": 10,
+     "rebounds": 3,
+     "assists": 1,
+     "steals": 1,
+     "blocks": 0,
+     "turnovers": 0,
+     "fgMade": 2,
+     "fgAttempted": 2,
+     "threeMade": 1,
+     "threeAttempted": 1,
+     "ftMade": 5,
+     "ftAttempted": 6
+    }
+   },
+   "lastToDate": {}
+  },
+  {
+   "id": "whitmca01",
+   "name": "Cam Whitmore",
+   "position": "F",
+   "twoWay": true,
+   "current": {},
+   "lastFull": {
+    "regular": {
+     "games": 21,
+     "started": 0,
+     "minutes": 354,
+     "points": 193,
+     "rebounds": 58,
+     "assists": 15,
+     "steals": 15,
+     "blocks": 8,
+     "turnovers": 18,
+     "fgMade": 77,
+     "fgAttempted": 169,
+     "threeMade": 16,
+     "threeAttempted": 56,
+     "ftMade": 23,
+     "ftAttempted": 31
+    }
+   },
+   "lastToDate": {}
+  },
+  {
+   "id": "holmeda01",
+   "name": "DaRon Holmes",
+   "position": "F",
+   "twoWay": false,
+   "current": {},
+   "lastFull": {
+    "regular": {
+     "games": 25,
+     "started": 6,
+     "minutes": 209.5,
+     "points": 93,
+     "rebounds": 35,
+     "assists": 16,
+     "steals": 1,
+     "blocks": 6,
+     "turnovers": 12,
+     "fgMade": 31,
+     "fgAttempted": 61,
+     "threeMade": 20,
+     "threeAttempted": 45,
+     "ftMade": 11,
+     "ftAttempted": 14
+    },
+    "playoffs": {
+     "games": 2,
+     "started": 0,
+     "minutes": 4.2,
+     "points": 0,
+     "rebounds": 2,
+     "assists": 0,
+     "steals": 0,
+     "blocks": 0,
+     "turnovers": 0,
+     "fgMade": 0,
+     "fgAttempted": 0,
+     "threeMade": 0,
+     "threeAttempted": 0,
+     "ftMade": 0,
+     "ftAttempted": 0
+    }
+   },
+   "lastToDate": {}
+  },
+  {
+   "id": "milleem01",
+   "name": "Emanuel Miller",
+   "position": "F",
+   "twoWay": false,
+   "current": {},
+   "lastFull": {
+    "regular": {
+     "games": 5,
+     "started": 0,
+     "minutes": 33.1,
+     "points": 15,
+     "rebounds": 3,
+     "assists": 4,
+     "steals": 2,
+     "blocks": 0,
+     "turnovers": 0,
+     "fgMade": 6,
+     "fgAttempted": 13,
+     "threeMade": 2,
+     "threeAttempted": 6,
+     "ftMade": 1,
+     "ftAttempted": 2
+    }
+   },
+   "lastToDate": {}
+  },
+  {
+   "id": "hawkico03",
+   "name": "Coleman Hawkins",
+   "position": "F",
+   "twoWay": false,
+   "current": {},
+   "lastFull": {},
+   "lastToDate": {}
+  },
+  {
+   "id": "goodwda02",
+   "name": "Dane Goodwin",
+   "position": "G",
+   "twoWay": false,
+   "current": {},
+   "lastFull": {},
+   "lastToDate": {}
+  },
+  {
+   "id": "walkelo01",
+   "name": "Lonnie Walker IV",
+   "position": "G",
+   "twoWay": false,
+   "current": {},
+   "lastFull": {},
+   "lastToDate": {}
+  },
+  {
+   "id": "hopkibr01",
+   "name": "Bryce Hopkins",
+   "position": "F",
+   "twoWay": true,
+   "current": {},
+   "lastFull": {},
+   "lastToDate": {}
+  },
+  {
+   "id": "brazitr01",
+   "name": "Trevon Brazile",
+   "position": "F",
+   "twoWay": false,
+   "current": {},
+   "lastFull": {},
+   "lastToDate": {}
+  }
+ ]
+}
