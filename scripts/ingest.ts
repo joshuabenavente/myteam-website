@@ -41,7 +41,7 @@ import { getBbref, getJson, NBA_HEADERS } from './lib/http.ts'
 import { nameKey, parseEspnRoster, type EspnPlayerInfo, type EspnRosterJson } from './lib/espnRoster.ts'
 import { parseInjuries, type EspnInjuriesJson } from './lib/injuries.ts'
 import { parseLeagueSchedule, teamGames, type NbaScheduleJson } from './lib/nba.ts'
-import { buildFacts, hashFacts, writePreview } from './lib/preview.ts'
+import { buildFacts, hashFacts, PROMPT_VERSION, writePreview } from './lib/preview.ts'
 import { computeStandings, headToHead, type FinalGame } from './lib/standings.ts'
 
 const OUT_DIR = 'public/data'
@@ -280,7 +280,7 @@ if (league && absences && process.env.ANTHROPIC_API_KEY) {
         players,
         winProbability: chances[game.id],
       })
-      const factsHash = hashFacts(facts)
+      const factsHash = hashFacts({ facts, prompt: PROMPT_VERSION })
       if (previous[game.id]?.factsHash === factsHash) {
         games[game.id] = previous[game.id]
         continue

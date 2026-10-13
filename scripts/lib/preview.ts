@@ -150,6 +150,9 @@ Use only the facts in the user's message, and never infer anything beyond them a
 
 Don't mention tip-off time or TV channels; the app shows those. If a win chance from ESPN's matchup predictor is given, you may mention it once, attributed to ESPN; don't give betting advice.`
 
+/** Changes whenever the instructions or model do, so previews are rewritten after a prompt change. */
+export const PROMPT_VERSION = hashFacts({ SYSTEM, MODEL })
+
 export interface GeneratedPreview {
   text: string
   usage: { input: number; output: number }
