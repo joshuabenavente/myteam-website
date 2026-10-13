@@ -97,3 +97,9 @@ select {
   vertical-align: -0.2em;
   font-variation-settings: 'wght' 400, 'opsz' 20;
 }
+
+/* The player hero's photo may bleed past its card; never let that scroll the page sideways.
+   (On #root rather than body, which would hand the setting to the whole viewport.) */
+#root {
+  overflow-x: clip;
+}

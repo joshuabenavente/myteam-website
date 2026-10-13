@@ -65,7 +65,8 @@ export function fromEspnAbbr(espnAbbr: string): string | undefined {
   return BY_ESPN[espnAbbr]?.abbr
 }
 
-export function teamLogoUrl(abbr: string): string {
+/** ESPN logo; the dark variant is drawn for dark backgrounds (e.g. a navy logo gets a light outline). */
+export function teamLogoUrl(abbr: string, dark = false): string {
   const team = TEAMS_BY_ABBR[abbr]
-  return `https://a.espncdn.com/i/teamlogos/nba/500/${(team?.espnAbbr ?? abbr).toLowerCase()}.png`
+  return `https://a.espncdn.com/i/teamlogos/nba/${dark ? '500-dark' : '500'}/${(team?.espnAbbr ?? abbr).toLowerCase()}.png`
 }

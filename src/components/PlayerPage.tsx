@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { absencesForGame, nextGames } from '../lib/availability.ts'
+import { absencesForGame, availabilityLabel, nextGames } from '../lib/availability.ts'
 import { TEAM } from '../lib/config.ts'
 import { useGameLogs, type AppData } from '../lib/data.ts'
 import { formatGameDate, formatGameTime } from '../lib/format.ts'
@@ -15,6 +15,8 @@ import { TeamLogo } from './TeamLogo.tsx'
 // The hero's stat strip: a focused subset of the tracker's columns.
 const STRIP = ['games', 'minutes', 'points', 'rebounds', 'assists', 'fgPct', 'threePct', 'ftPct']
 const STRIP_COLUMNS = STRIP.map((k) => COLUMNS.find((c) => c.key === k)!)
+// Phones show the five headline columns; these are in the tracker and game log.
+const STRIP_PHONE_HIDDEN = ['games', 'minutes', 'ftPct']
 
 function age(birthDate: string): number {
   const born = new Date(`${birthDate}T12:00:00Z`)
@@ -89,7 +91,7 @@ function PlayerView({ player, data, timeZone }: { player: Player; data: AppData;
             <span className="last">{rest.join(' ')}</span>
           </h1>
           <p className="hero-id">
-            <TeamLogo abbr={TEAM.abbr} size={28} />
+            <TeamLogo abbr={TEAM.abbr} size={28} background="dark" />
             {player.number && <span className="hero-jersey">#{player.number}</span>}
             <span className="hero-pos">{player.position}</span>
             {player.twoWay && <span className="badge">Two-way</span>}
@@ -147,7 +149,7 @@ function PlayerView({ player, data, timeZone }: { player: Player; data: AppData;
           </dl>
         </div>
 
-        <div className="hero-strip">
+        <div className="hero-strip" tabIndex={0} role="region" aria-label="Season stats">
           {hasPlayoffs && (
             <div className="strip-toggle segmented" role="group" aria-label="Games">
               <button aria-pressed={type === 'regular'} onClick={() => setType('regular')}>
@@ -165,7 +167,7 @@ function PlayerView({ player, data, timeZone }: { player: Player; data: AppData;
                   <span className="sr-only">Season</span>
                 </th>
                 {STRIP_COLUMNS.map((c) => (
-                  <th key={c.key} scope="col" title={c.title}>
+                  <th key={c.key} scope="col" title={c.title} className={STRIP_PHONE_HIDDEN.includes(c.key) ? 'strip-extra' : undefined}>
                     {c.key === 'games' ? 'GP' : c.label}
                   </th>
                 ))}
@@ -189,7 +191,7 @@ function PlayerView({ player, data, timeZone }: { player: Player; data: AppData;
                     const before = r.compareTo && c.value(r.compareTo, 'perGame')
                     const d = v !== undefined && before !== undefined && !c.noChange ? change(c, v, before, 'perGame') : undefined
                     return (
-                      <td key={c.key}>
+                      <td key={c.key} className={STRIP_PHONE_HIDDEN.includes(c.key) ? 'strip-extra' : undefined}>
                         {v === undefined ? '—' : c.format(v, 'perGame')}
                         {d && d.direction !== 'same' && (
                           <span className={`delta ${d.good ? 'good' : 'bad'}`}>{d.direction === 'up' ? '▲' : '▼'}</span>
@@ -204,12 +206,13 @@ function PlayerView({ player, data, timeZone }: { player: Player; data: AppData;
         </div>
       </section>
 
+      {/* Side column first so reading order matches the phone layout; CSS places it right on desktop. */}
       <div className="player-columns">
-        <GameLogList player={player} data={data} />
         <div className="player-side">
           <Overview player={player} data={data} type={type} />
           <NextGame player={player} data={data} timeZone={timeZone} />
         </div>
+        <GameLogList player={player} data={data} />
       </div>
     </div>
   )
@@ -257,7 +260,7 @@ function NextGame({ player, data, timeZone }: { player: Player; data: AppData; t
       <p className={`next-status ${absence ? 'out' : ''}`}>
         {absence ? (
           <>
-            <Icon name="injury" size={14} /> {absence.status}
+            <Icon name="injury" size={14} /> {availabilityLabel(absence)}
             {absence.reason && ` · ${absence.reason}`}
           </>
         ) : (
@@ -310,23 +313,29 @@ function GameLogList({ player, data }: { player: Player; data: AppData }) {
       ) : games.length === 0 ? (
         <p className="muted">No games {season === 'current' ? `yet in ${data.players.season}` : `in ${data.players.lastSeason}`}.</p>
       ) : (
-        <>
-          <div className="log-row log-header" aria-hidden="true">
-            <span>Date</span>
-            <span>Match</span>
-            <span>Result</span>
-            <span className="log-extra">MIN</span>
-            <span>PTS</span>
-            <span>REB</span>
-            <span>AST</span>
-            <span className="log-extra">FG</span>
-          </div>
-          <ol className="log-list">
+        <table className="log-table">
+          <thead>
+            <tr>
+              <th scope="col">Date</th>
+              <th scope="col">Match</th>
+              <th scope="col">Result</th>
+              <th scope="col" className="log-extra">
+                MIN
+              </th>
+              <th scope="col">PTS</th>
+              <th scope="col">REB</th>
+              <th scope="col">AST</th>
+              <th scope="col" className="log-extra">
+                FG
+              </th>
+            </tr>
+          </thead>
+          <tbody>
             {games.map((g) => (
               <LogRow key={`${g.date}-${g.opponent}`} game={g} />
             ))}
-          </ol>
-        </>
+          </tbody>
+        </table>
       )}
     </section>
   )
@@ -334,24 +343,29 @@ function GameLogList({ player, data }: { player: Player; data: AppData }) {
 
 function LogRow({ game: g }: { game: GameLogEntry }) {
   const date = new Date(`${g.date}T12:00:00Z`).toLocaleDateString('en-US', { month: 'short', day: 'numeric', timeZone: 'UTC' })
+  // "131-137 (OT)" -> score plus a compact overtime badge.
+  const [, score = g.score, overtime] = g.score.match(/^(\S+)(?:\s*\((\d*OT)\))?/) ?? []
   return (
-    <li className="log-row">
-      <span className="log-date">{date}</span>
-      <span className="log-match">
-        <span className="muted">{g.home ? 'vs' : '@'}</span>
-        <TeamLogo abbr={g.opponent} size={22} />
-        <span>{g.opponent}</span>
-      </span>
-      <span className={`log-result ${g.result === 'W' ? 'win' : 'loss'}`}>
-        <b>{g.result}</b> {g.score}
-      </span>
-      <span className="log-extra">{Math.round(g.minutes)}</span>
-      <span className="log-pts">{g.points}</span>
-      <span>{g.rebounds}</span>
-      <span>{g.assists}</span>
-      <span className="log-extra">
+    <tr>
+      <td className="log-date">{date}</td>
+      <td>
+        <span className="log-match">
+          <span className="muted">{g.home ? 'vs' : '@'}</span>
+          <TeamLogo abbr={g.opponent} size={22} />
+          <span>{g.opponent}</span>
+        </span>
+      </td>
+      <td className={`log-result ${g.result === 'W' ? 'win' : 'loss'}`}>
+        <b>{g.result}</b> {score}
+        {overtime && <span className="ot-badge">{overtime}</span>}
+      </td>
+      <td className="log-extra">{Math.round(g.minutes)}</td>
+      <td className="log-pts">{g.points}</td>
+      <td>{g.rebounds}</td>
+      <td>{g.assists}</td>
+      <td className="log-extra">
         {g.fgMade}-{g.fgAttempted}
-      </span>
-    </li>
+      </td>
+    </tr>
   )
 }

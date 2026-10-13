@@ -13,7 +13,9 @@ import {
 } from '../lib/format.ts'
 import { TEAMS_BY_ABBR } from '../lib/teams.ts'
 import type { Game } from '../lib/types.ts'
+import { unscheduledGames } from '../lib/availability.ts'
 import { Broadcasts, GameDetails, GameStatus } from './GameRow.tsx'
+import { TbdNote } from './GamesList.tsx'
 import { Icon } from './Icon.tsx'
 import { TeamLogo } from './TeamLogo.tsx'
 
@@ -110,6 +112,7 @@ export function GamesCalendar({ data, timeZone }: { data: AppData; timeZone: str
       <p className="calendar-legend muted small">
         <span className="legend-swatch home" /> Home <span className="legend-swatch away" /> Away
       </p>
+      {month.month === 11 && unscheduledGames(data.schedule) > 0 && <TbdNote count={unscheduledGames(data.schedule)} />}
 
       {selected ? (
         <SelectedGame game={selected} data={data} timeZone={timeZone} />

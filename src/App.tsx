@@ -47,7 +47,7 @@ function App() {
   return (
     <IconStyleContext.Provider value={appearance.icons}>
       <header className="site-header">
-        <h1>{TEAM.name} Tracker</h1>
+        <p className="site-title">{TEAM.name} Tracker</p>
         <nav className="tabs" aria-label="Pages">
           <a href={routeHref({ page: 'games' })} aria-current={route.page === 'games' ? 'page' : undefined}>
             <Icon name="games" /> Games
@@ -64,7 +64,8 @@ function App() {
 
         {data && route.page === 'games' && (
           <section>
-            <TeamSummary data={data} />
+            <h1 className="sr-only">Games</h1>
+            <TeamSummary data={data} timeZone={timeZone} />
             <div className="toolbar">
               <div className="segmented" role="group" aria-label="View">
                 <button aria-pressed={gamesView === 'list'} onClick={() => setGamesView('list')}>
@@ -88,6 +89,7 @@ function App() {
 
         {data && route.page === 'players' && (
           <section>
+            <h1 className="sr-only">Players</h1>
             <PlayerTracker data={data} />
           </section>
         )}

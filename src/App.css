@@ -5,9 +5,11 @@
   border-bottom: 4px solid var(--sunshine);
 }
 
-.site-header h1 {
+.site-title {
   margin: 0 0 12px;
+  font-family: var(--font-heading);
   font-size: 1.4rem;
+  font-weight: var(--w-bold);
 }
 
 .tabs {
@@ -804,8 +806,8 @@ main {
   margin: 16px 0 0;
 }
 
-.preview h4,
-.not-available h4 {
+.preview h3,
+.not-available h3 {
   margin: 0 0 6px;
   font-size: 0.75rem;
   color: var(--muted);
@@ -813,8 +815,8 @@ main {
   letter-spacing: 0.03em;
 }
 
-.preview h4 .small,
-.not-available h4 .small {
+.preview h3 .small,
+.not-available h3 .small {
   text-transform: none;
   letter-spacing: 0;
   font-weight: 400;
@@ -832,7 +834,7 @@ main {
   gap: 12px 24px;
 }
 
-.na-team h5 {
+.na-team h4 {
   display: flex;
   align-items: center;
   gap: 6px;
@@ -896,8 +898,8 @@ main {
 .tabs a,
 .segmented button,
 .chip,
-.preview h4,
-.not-available h4,
+.preview h3,
+.not-available h3,
 .icon-button,
 .text-button {
   display: inline-flex;
@@ -1100,7 +1102,7 @@ main {
 
 .player-hero {
   --hero-text: #f4f6fa;
-  --hero-muted: rgb(244 246 250 / 60%);
+  --hero-muted: rgb(244 246 250 / 72%);
   position: relative;
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(0, 1.05fr);
@@ -1161,8 +1163,9 @@ main {
   right: -72px;
   bottom: -40px;
   display: block;
-  /* Taller than the card's top row, so the head always clears the top edge. */
-  height: calc(100% + 96px);
+  /* Taller than the card's top row, so the head clears the top edge; capped at ~1.2x the
+     source image (600x436) so it doesn't get soft. */
+  height: min(calc(100% + 96px), 530px);
   width: auto;
   max-width: none;
   filter: drop-shadow(0 18px 30px rgb(0 0 0 / 45%));
@@ -1176,7 +1179,7 @@ main {
   grid-area: info;
   position: relative;
   z-index: 2;
-  padding: 36px 8px 56px 36px;
+  padding: 28px 8px 40px 36px;
 }
 
 .hero-name {
@@ -1369,6 +1372,7 @@ main {
 .player-columns {
   display: grid;
   grid-template-columns: minmax(0, 2fr) minmax(240px, 1fr);
+  grid-template-areas: 'log side';
   gap: 24px;
   margin-top: 28px;
   align-items: start;
@@ -1399,48 +1403,11 @@ main {
   font-size: 0.85rem;
 }
 
-.log-list {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-}
 
-.log-row {
-  display: grid;
-  grid-template-columns: 64px minmax(0, 1.2fr) minmax(0, 1.5fr) repeat(5, minmax(0, 0.55fr));
-  align-items: center;
-  gap: 8px;
-  padding: 12px 16px;
-  font-variant-numeric: tabular-nums;
-}
 
-.log-row > :nth-child(n + 4) {
-  text-align: right;
-}
 
-.log-list .log-row {
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: 12px;
-  transition: transform 0.12s, border-color 0.12s;
-}
 
-.log-list .log-row:hover {
-  border-color: var(--skyline);
-  transform: translateX(2px);
-}
 
-.log-header {
-  padding-top: 0;
-  padding-bottom: 4px;
-  font-size: 0.72rem;
-  color: var(--muted);
-  text-transform: uppercase;
-  letter-spacing: 0.04em;
-}
 
 .log-date {
   white-space: nowrap;
@@ -1541,8 +1508,8 @@ main {
 
   .hero-photo {
     justify-self: center;
-    width: min(88%, 420px);
-    margin-top: -48px;
+    width: min(70%, 300px);
+    margin-top: -40px;
   }
 
   .hero-photo img,
@@ -1588,27 +1555,22 @@ main {
     grid-template-columns: minmax(0, 1fr);
   }
 
-  .player-side {
-    order: -1;
+  .player-columns {
+    grid-template-areas:
+      'side'
+      'log';
   }
 
-  .log-row {
-    grid-template-columns: 50px 56px minmax(0, 1fr) repeat(3, 28px);
-    padding: 10px 12px;
-    gap: 6px;
-    font-size: 0.88rem;
-  }
-
-  .log-extra,
-  .log-match .logo,
-  .log-match .logo-fallback {
+  .hero-strip .strip-extra {
     display: none;
   }
 
-  .log-result {
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
+
+  .log-extra,
+  .log-match .logo,
+  .log-match .logo-fallback,
+  .log-match picture {
+    display: none;
   }
 }
 
@@ -1761,4 +1723,243 @@ main {
   font-size: 0.7rem;
   color: rgb(244 246 250 / 50%);
   text-align: center;
+}
+
+.preview .preview-credit {
+  margin-top: 4px;
+}
+
+/* --- list extras --- */
+
+.list-controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 8px 16px;
+  margin-bottom: 8px;
+}
+
+.list-controls .small-toggle {
+  margin-bottom: 0;
+}
+
+.channel-guide {
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+.channel-guide summary {
+  cursor: pointer;
+  min-height: 40px;
+  display: flex;
+  align-items: center;
+  color: var(--skyline-text);
+}
+
+.channel-guide[open] {
+  flex-basis: 100%;
+  padding: 4px 12px 12px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+}
+
+.channel-guide p {
+  margin: 4px 0 8px;
+}
+
+.channel-guide .chip {
+  display: inline-flex;
+}
+
+.channel-guide dl {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 4px 12px;
+  margin: 0;
+}
+
+.channel-guide dl div {
+  display: contents;
+}
+
+.channel-guide dt {
+  font-weight: var(--w-strong);
+  color: var(--text);
+}
+
+.channel-guide dd {
+  margin: 0;
+}
+
+.tbd-note {
+  margin: 0 0 8px;
+  padding: 10px 14px;
+  border: 1px dashed var(--border);
+  border-radius: 10px;
+  font-size: 0.88rem;
+  color: var(--muted);
+}
+
+.tbd-note strong {
+  color: var(--text);
+}
+
+/* --- review fixes --- */
+
+
+
+.player-side {
+  grid-area: side;
+}
+
+.game-log {
+  grid-area: log;
+  min-width: 0;
+}
+
+.log-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 8px;
+  margin-top: -8px;
+  font-variant-numeric: tabular-nums;
+}
+
+.log-table th {
+  padding: 0 12px;
+  font-size: 0.72rem;
+  font-weight: var(--w-strong);
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  text-align: left;
+}
+
+.log-table td {
+  padding: 12px;
+  background: var(--surface);
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  white-space: nowrap;
+}
+
+.log-table td:first-child {
+  border-left: 1px solid var(--border);
+  border-radius: 12px 0 0 12px;
+}
+
+.log-table td:last-child {
+  border-right: 1px solid var(--border);
+  border-radius: 0 12px 12px 0;
+}
+
+.log-table th:nth-child(n + 4),
+.log-table td:nth-child(n + 4) {
+  text-align: right;
+}
+
+.log-table tbody tr:hover td {
+  border-color: var(--skyline);
+}
+
+.ot-badge {
+  margin-left: 4px;
+  padding: 0 4px;
+  border-radius: 4px;
+  font-size: 0.7rem;
+  font-weight: var(--w-strong);
+  background: var(--hover);
+  color: var(--muted);
+}
+
+/* Bigger tap targets (40px+). */
+.segmented button,
+.small-toggle button {
+  min-height: 40px;
+}
+
+.icon-button {
+  width: 40px;
+  height: 40px;
+}
+
+.cal-game {
+  min-height: 40px;
+}
+
+@media (max-width: 760px) {
+  .log-table td {
+    padding: 10px 6px;
+  }
+
+  .log-table th {
+    padding: 0 6px;
+  }
+
+  .log-table td:first-child {
+    padding-left: 10px;
+  }
+
+  .log-table td:last-child {
+    padding-right: 10px;
+  }
+
+  .hero-strip td {
+    font-size: 1.05rem;
+  }
+}
+
+/* Players table on phones: keep the core columns and let names breathe. */
+@media (max-width: 640px) {
+  .player-table .col-started,
+  .player-table .col-steals,
+  .player-table .col-blocks,
+  .player-table .col-turnovers {
+    display: none;
+  }
+
+  .player-table .avatar {
+    width: 28px;
+    height: 28px;
+  }
+
+  .player-name .player-link + .muted {
+    padding-left: 38px;
+    white-space: nowrap;
+  }
+}
+
+/* The two-column player layout needs room for the full game log; stack below that. */
+@media (max-width: 1000px) {
+  .player-columns {
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-areas:
+      'side'
+      'log';
+  }
+
+  .player-side {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    align-items: start;
+  }
+}
+
+@media (max-width: 480px) {
+  .log-table {
+    font-size: 0.85rem;
+  }
+
+  .log-table td {
+    padding: 10px 4px;
+  }
+
+  .log-table th {
+    padding: 0 4px;
+  }
+
+  .log-result b {
+    margin-right: 2px;
+  }
 }

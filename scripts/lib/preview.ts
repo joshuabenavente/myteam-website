@@ -3,8 +3,8 @@
 
 import Anthropic from '@anthropic-ai/sdk'
 import { createHash } from 'node:crypto'
-import { absencesForGame } from '../../src/lib/availability.ts'
-import { ordinal } from '../../src/lib/format.ts'
+import { absencesForGame, availabilityLabel } from '../../src/lib/availability.ts'
+import { dayKey, ordinal } from '../../src/lib/format.ts'
 import { TEAMS_BY_ABBR } from '../../src/lib/teams.ts'
 import type { Absence, Game, HeadToHead, Player, TeamInfo, WinLoss } from '../../src/lib/types.ts'
 import type { FinalGame } from './standings.ts'
@@ -39,7 +39,8 @@ function lastMeeting(results: FinalGame[], team: string, opp: string) {
   const ours = g.home === team ? g.homeScore : g.awayScore
   const theirs = g.home === team ? g.awayScore : g.homeScore
   return {
-    date: g.startUtc.slice(0, 10),
+    // Local (Mountain) date: evening games are already the next day in UTC.
+    date: dayKey(g.startUtc, 'America/Denver'),
     where: g.home === team ? `in ${TEAMS_BY_ABBR[team].city}` : `in ${TEAMS_BY_ABBR[opp].city}`,
     type: g.type === 'playoffs' ? 'playoffs' : 'regular season',
     result: `${TEAMS_BY_ABBR[team].name} ${ours > theirs ? 'won' : 'lost'} ${Math.max(ours, theirs)}-${Math.min(ours, theirs)}`,
@@ -53,7 +54,7 @@ function absenceFacts(list: Absence[], players?: Player[]) {
       t && t.games ? `${(t.points / t.games).toFixed(1)} pts, ${(t.minutes / t.games).toFixed(1)} min per game` : undefined
     return {
       name: a.name,
-      status: a.gameTimeDecision ? `${a.status} (game-time decision)` : a.status,
+      status: availabilityLabel(a),
       ...(a.reason && { reason: a.reason }),
       ...(p && avg(p.current.regular) && { thisSeason: avg(p.current.regular) }),
       ...(p && avg(p.lastFull.regular) && { lastSeason: avg(p.lastFull.regular) }),
@@ -83,6 +84,8 @@ export interface PreviewInputs {
   game: Game
   /** Denver games before this one that haven't been played yet. */
   earlierUnplayed: Game[]
+  /** The opponent's games before this one that haven't been played yet, as "vs X" / "at X". */
+  opponentEarlierUnplayed: string[]
   /** 1-based number of this game in Denver's season (by type). */
   gameNumber: number
   standings: { [abbr: string]: TeamInfo }
@@ -115,7 +118,11 @@ export function buildFacts(i: PreviewInputs) {
     },
     recordsAreAsOfToday: true,
     denver: teamFacts(i.standings[team], i.season),
-    opponent: { name: fullName(opp), ...teamFacts(i.standings[opp], i.season) },
+    opponent: {
+      name: fullName(opp),
+      ...teamFacts(i.standings[opp], i.season),
+      ...(i.opponentEarlierUnplayed.length > 0 && { gamesStillToPlayBeforeThisOne: i.opponentEarlierUnplayed }),
+    },
     ...(i.h2h && {
       seasonSeries: {
         [`${i.season} so far`]: currentSeries(i.h2h.current.regular),
@@ -142,7 +149,7 @@ const SYSTEM = `You write short previews of upcoming Denver Nuggets games for a 
 
 Write exactly three sentences of plain prose: no markdown, headings, lists or emojis. Cover what to expect: how the teams are playing, the matchup history, and who is missing, picking whatever is most notable.
 
-Use only the facts in the user's message. Records, standings and absences are as of today. If Denver has games still to play before this one, those come first, so don't call this game a season opener or say how the teams will look at tip-off; describe where things stand now instead. Refer to seasons only by the labels in the facts. Don't add statistics, player roles, storylines, coaches or history that aren't there; your knowledge of rosters may be out of date, so if a player's importance isn't shown by the numbers given, don't characterize it. If a team hasn't played yet this season, say so naturally (for example "both teams open their seasons") instead of quoting 0-0 records. Skip anything that adds nothing, such as an empty absence list.
+Use only the facts in the user's message, and never infer anything beyond them about either team's schedule, roster, results or history. Records, standings and absences are as of today. If either team has games still to play before this one, those come first, so don't call this game that team's season opener or say how the teams will look at tip-off; describe where things stand now instead. Call this game a team's opener only if that team has no games listed before it and has not played yet. Refer to seasons only by the labels in the facts. Don't add statistics, player roles, storylines, coaches or history that aren't there; your knowledge of rosters may be out of date, so if a player's importance isn't shown by the numbers given, don't characterize it. If a team hasn't played yet this season, say so naturally (for example "both teams open their seasons") instead of quoting 0-0 records. Skip anything that adds nothing, such as an empty absence list.
 
 Don't mention tip-off time or TV channels; the app shows those. If a win chance from ESPN's matchup predictor is given, you may mention it once, attributed to ESPN; don't give betting advice.`
 

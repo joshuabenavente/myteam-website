@@ -39,6 +39,7 @@ const facts = buildFacts({
   lastSeason: '2025-26',
   game,
   earlierUnplayed: [{ ...game, id: '0', home: false, opponent: 'UTA' }],
+  opponentEarlierUnplayed: ['at San Antonio Spurs'],
   gameNumber: 5,
   standings: { DEN: team('DEN', 3, 1), OKC: team('OKC', 4, 0) },
   h2h: { current: { regular: { wins: 0, losses: 1 }, playoffs: { wins: 0, losses: 0 } }, last: { regular: { wins: 1, losses: 3 }, playoffs: { wins: 0, losses: 0 } } },
@@ -67,7 +68,9 @@ it('describes the matchup, form and history', () => {
   expect(facts.denver).toMatchObject({ record: '3-1', homeRecord: '3-0', lastTen: '3-1', division: '1st in the Northwest' })
   expect(facts.season).toBe('2026-27')
   expect(facts.seasonSeries).toEqual({ '2026-27 so far': 'Denver trails 0-1', '2025-26': 'Denver lost 1-3' })
-  expect(facts.lastMeeting).toEqual({ date: '2026-10-23', where: 'in Oklahoma City', type: 'regular season', result: 'Nuggets lost 110-101' })
+  expect(facts.opponent).toMatchObject({ gamesStillToPlayBeforeThisOne: ['at San Antonio Spurs'] })
+  // 01:30 UTC on Oct 23 is the evening of Oct 22 in Denver.
+  expect(facts.lastMeeting).toEqual({ date: '2026-10-22', where: 'in Oklahoma City', type: 'regular season', result: 'Nuggets lost 110-101' })
   expect(facts.espnMatchupPredictorDenverWinChance).toBe('60%')
 })
 

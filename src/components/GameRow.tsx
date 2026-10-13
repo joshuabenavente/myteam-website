@@ -1,5 +1,6 @@
 import { useState } from 'react'
-import { absencesForGame, nextGames } from '../lib/availability.ts'
+import { absencesForGame, availabilityLabel, nextGames } from '../lib/availability.ts'
+import { channelsFor } from '../lib/channels.ts'
 import { TEAM } from '../lib/config.ts'
 import type { AppData } from '../lib/data.ts'
 import {
@@ -45,7 +46,9 @@ export function GameRow({ game, data, timeZone }: Props) {
             <span className="opponent-name">
               {opp.city} {opp.name}
             </span>
-            {oppStanding && <span className="muted small">{formatRecord(oppStanding)}</span>}
+            {oppStanding && oppStanding.wins + oppStanding.losses > 0 && (
+              <span className="muted small">{formatRecord(oppStanding)}</span>
+            )}
           </span>
         </span>
 
@@ -79,14 +82,15 @@ export function GameRow({ game, data, timeZone }: Props) {
 export function Broadcasts({ game }: { game: Game }) {
   return (
     <span className="game-broadcasts">
-      {game.broadcasts.map((b) => (
+      {channelsFor(game.broadcasts).map((c) => (
         <span
-          key={b.name}
-          className={`chip ${b.scope}`}
-          title={`${b.scope === 'local' ? 'Local' : 'National'} ${b.kind === 'stream' ? 'streaming' : 'TV'}`}
+          key={c.label}
+          className={`chip ${c.scope}`}
+          title={c.explain ?? `${c.scope === 'local' ? 'Local' : 'National'} ${c.kind === 'stream' ? 'streaming' : 'TV'}`}
         >
-          <Icon name={b.kind === 'stream' ? 'stream' : 'tv'} size={13} />
-          {b.name}
+          <Icon name={c.kind === 'stream' ? 'stream' : 'tv'} size={13} />
+          {c.label}
+          <span className="sr-only">{c.scope === 'local' ? ' (local)' : ' (national)'}</span>
         </span>
       ))}
     </span>
@@ -102,39 +106,41 @@ export function GameDetails({ game, data }: { game: Game; data: AppData }) {
       {game.label && <p className="game-label">{game.label}</p>}
       {preview && (
         <div className="preview">
-          <h4>
-            <Icon name="preview" size={14} /> Preview <span className="muted small">· written by Claude from the stats on this page</span>
-          </h4>
+          <h3>
+            <Icon name="preview" size={14} /> Preview
+          </h3>
           <p>{preview.text}</p>
+          <p className="preview-credit muted small">Written by Claude from the stats on this page.</p>
         </div>
       )}
       <StandingsTable abbrs={[TEAM.abbr, game.opponent]} standings={data.standings.teams} />
       <SeasonSeries opponent={game.opponent} h2h={data.h2h} />
-      {isNext && data.availability && <NotAvailable game={game} availability={data.availability} />}
+      {isNext && data.availability && <InjuryReport game={game} availability={data.availability} />}
     </>
   )
 }
 
-function NotAvailable({ game, availability }: { game: Game; availability: AvailabilityFile }) {
+function InjuryReport({ game, availability }: { game: Game; availability: AvailabilityFile }) {
   const updated = new Date(availability.updatedAt).toLocaleString('en-US', {
     month: 'short',
     day: 'numeric',
     hour: 'numeric',
     minute: '2-digit',
+    timeZoneName: 'short',
   })
   return (
     <div className="not-available">
-      <h4>
-        <Icon name="injury" size={14} /> Not available <span className="muted small">· updated {updated}</span>
-      </h4>
+      <h3>
+        <Icon name="injury" size={14} /> Injury report <span className="muted small">· updated {updated}</span>
+      </h3>
       <div className="na-teams">
         {[TEAM.abbr, game.opponent].map((abbr) => {
           const list = absencesForGame(availability.teams[abbr], game)
           return (
             <div key={abbr} className="na-team">
-              <h5>
+              <h4>
                 <TeamLogo abbr={abbr} size={18} /> {abbr}
-              </h5>
+              </h4>
               {list.length === 0 ? (
                 <p className="muted small">Nobody listed</p>
               ) : (
@@ -142,9 +148,7 @@ function NotAvailable({ game, availability }: { game: Game; availability: Availa
                   {list.map((a) => (
                     <li key={a.name}>
                       <span className="na-name">{a.name}</span>
-                      <span className={`status-tag ${statusClass(a.status)}`}>
-                        {a.gameTimeDecision && a.status !== 'Out' ? 'Game-time decision' : a.status}
-                      </span>
+                      <span className={`status-tag ${statusClass(a.status)}`}>{availabilityLabel(a)}</span>
                       <span className="muted small na-reason">
                         {a.reason}
                         {a.returnDate && ` · expected back ${formatReturn(a.returnDate)}`}

@@ -18,13 +18,16 @@ export function PlayerTracker({ data }: { data: AppData }) {
 
   const [type, setType] = useState<TrackedGameType>('regular')
   // Until opening night there's nothing to show for this season, so start with last season beside it.
-  const [compare, setCompare] = useState<Compare>(seasonStarted ? 'none' : 'lastFull')
+  const [chosenCompare, setCompare] = useState<Compare>(seasonStarted ? 'none' : 'lastFull')
   const [mode, setMode] = useState<StatMode>('perGame')
   const [sort, setSort] = useState<Sort>({ key: 'minutes', desc: true })
 
   const cutoff = teamGamesPlayed[type]
   // Before anyone has played this season, show the comparison alone instead of a row of dashes.
   const hasCurrent = players.some((p) => p.current[type])
+  // With nothing this season to show (e.g. playoffs before the playoffs), "None" would be a wall of
+  // dashes, so fall back to last season like the regular season view does.
+  const compare: Compare = chosenCompare === 'none' && !hasCurrent ? 'lastFull' : chosenCompare
   const comparisonOf = (p: Player) =>
     compare === 'lastFull' ? p.lastFull[type] : compare === 'lastToDate' ? p.lastToDate[type] : undefined
 
@@ -118,7 +121,15 @@ export function PlayerTracker({ data }: { data: AppData }) {
                   <span className="muted small">
                     {p.number && `#${p.number} · `}
                     {p.position}
-                    {p.twoWay && <span className="badge" title="Two-way contract">TW</span>}
+                    {p.twoWay && (
+                      <>
+                        {' '}
+                        <span className="badge" title="Two-way contract">
+                          <span aria-hidden="true">TW</span>
+                          <span className="sr-only">Two-way contract</span>
+                        </span>
+                      </>
+                    )}
                   </span>
                 </th>
                 {COLUMNS.map((c) => (
@@ -154,14 +165,14 @@ function StatCell(props: {
   const before = previous && col.value(previous, mode)
   if (comparing && !hasCurrent) {
     return (
-      <td>
+      <td className={`col-${col.key}`}>
         <span className="stat-now">{before === undefined ? '—' : col.format(before, mode)}</span>
       </td>
     )
   }
   const delta = now !== undefined && before !== undefined && !col.noChange ? change(col, now, before, mode) : undefined
   return (
-    <td>
+    <td className={`col-${col.key}`}>
       <span className="stat-now">{now === undefined ? '—' : col.format(now, mode)}</span>
       {comparing && (
         <span className="stat-before">
@@ -182,7 +193,7 @@ function SortHeader(props: { label: string; title: string; sortKey: string; sort
   const { label, title, sortKey, sort, onSort } = props
   const active = sort.key === sortKey
   return (
-    <th scope="col" aria-sort={active ? (sort.desc ? 'descending' : 'ascending') : 'none'}>
+    <th scope="col" className={`col-${sortKey}`} aria-sort={active ? (sort.desc ? 'descending' : 'ascending') : 'none'}>
       <button className={`sort ${active ? 'active' : ''}`} title={title} onClick={() => onSort(sortKey)}>
         {label}
         <span aria-hidden="true">{active ? (sort.desc ? ' ↓' : ' ↑') : ''}</span>
