@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import type { AppData } from '../lib/data.ts'
+import { routeHref } from '../lib/route.ts'
 import { change, COLUMNS, type StatColumn, type StatMode } from '../lib/stats.ts'
 import type { Player, StatTotals, TrackedGameType } from '../lib/types.ts'
 
@@ -108,8 +109,11 @@ export function PlayerTracker({ data }: { data: AppData }) {
             {sorted.map((p) => (
               <tr key={p.id}>
                 <th scope="row" className="player-name">
-                  <a href={`https://www.basketball-reference.com/players/${p.id[0]}/${p.id}.html`} target="_blank" rel="noreferrer">
-                    {p.name}
+                  <a className="player-link" href={routeHref({ page: 'player', id: p.id })}>
+                    <span className="avatar" aria-hidden="true">
+                      {p.headshot && <img src={p.headshot} alt="" loading="lazy" />}
+                    </span>
+                    <span>{p.name}</span>
                   </a>
                   <span className="muted small">
                     {p.number && `#${p.number} · `}

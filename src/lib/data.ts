@@ -3,6 +3,7 @@
 import { useEffect, useState } from 'react'
 import type {
   AvailabilityFile,
+  GameLogsFile,
   HeadToHeadFile,
   MetaFile,
   PlayersFile,
@@ -50,4 +51,16 @@ export function useAppData(): { data?: AppData; error?: string } {
       .catch((err: Error) => setState({ error: err.message }))
   }, [])
   return state
+}
+
+let gameLogs: Promise<GameLogsFile | undefined> | undefined
+
+/** Game logs are only needed on player pages, so they load on first use. */
+export function useGameLogs(): GameLogsFile | undefined {
+  const [logs, setLogs] = useState<GameLogsFile>()
+  useEffect(() => {
+    gameLogs ??= loadOptional<GameLogsFile>('gamelogs')
+    gameLogs.then(setLogs)
+  }, [])
+  return logs
 }

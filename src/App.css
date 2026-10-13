@@ -15,7 +15,8 @@
   gap: 4px;
 }
 
-.tabs button {
+.tabs a {
+  text-decoration: none;
   background: none;
   border: none;
   color: #cfd6e3;
@@ -23,7 +24,7 @@
   border-radius: 6px 6px 0 0;
 }
 
-.tabs button[aria-current='true'] {
+.tabs a[aria-current='page'] {
   background: var(--sunshine);
   color: var(--midnight);
   font-weight: var(--w-strong);
@@ -892,7 +893,7 @@ main {
 
 /* Icons inside buttons and labels */
 
-.tabs button,
+.tabs a,
 .segmented button,
 .chip,
 .preview h4,
@@ -1039,5 +1040,560 @@ main {
   /* Leave room to scroll the page above the panel. */
   .picker-open main {
     padding-bottom: 50vh;
+  }
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+/* --- player tracker avatars --- */
+
+.player-link {
+  display: flex !important;
+  align-items: center;
+  gap: 10px;
+}
+
+.player-name .player-link + .muted {
+  display: block;
+  padding-left: 44px;
+}
+
+.avatar {
+  flex: none;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  overflow: hidden;
+  background: linear-gradient(160deg, var(--skyline), var(--midnight));
+}
+
+.avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 12%;
+  transform: scale(1.35);
+  transform-origin: center 20%;
+}
+
+/* --- player page --- */
+
+.back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  color: var(--muted);
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.back-link:hover {
+  color: var(--text);
+}
+
+.player-hero {
+  --hero-text: #f4f6fa;
+  --hero-muted: rgb(244 246 250 / 60%);
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.05fr);
+  grid-template-areas:
+    'info photo'
+    'strip strip';
+  margin-top: 64px;
+  border-radius: 18px;
+  color: var(--hero-text);
+  background:
+    radial-gradient(120% 90% at 85% 15%, #1d428a 0%, transparent 60%),
+    linear-gradient(160deg, #13284d 0%, #0b1730 70%);
+  box-shadow: 0 20px 50px rgb(8 16 32 / 35%);
+}
+
+.hero-backdrop {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  border-radius: inherit;
+  pointer-events: none;
+}
+
+.hero-number {
+  position: absolute;
+  left: 28%;
+  top: -10%;
+  font-family: var(--font-heading);
+  font-weight: var(--w-bold);
+  font-size: clamp(12rem, 30vw, 24rem);
+  line-height: 1;
+  color: rgb(254 197 36 / 13%);
+  letter-spacing: -0.04em;
+}
+
+.hero-wordmark {
+  position: absolute;
+  left: -1%;
+  top: 46%;
+  font-family: var(--font-heading);
+  font-weight: var(--w-bold);
+  font-size: clamp(4rem, 11vw, 8.5rem);
+  letter-spacing: 0.08em;
+  color: rgb(255 255 255 / 4%);
+}
+
+.hero-photo {
+  grid-area: photo;
+  position: relative;
+  z-index: 1;
+}
+
+/* Out of the layout flow so the photo can be taller than the card: it breaks out of the
+   top and its shoulders run under the stat strip. */
+.hero-photo img,
+.hero-photo svg {
+  position: absolute;
+  right: -72px;
+  bottom: -40px;
+  display: block;
+  /* Taller than the card's top row, so the head always clears the top edge. */
+  height: calc(100% + 96px);
+  width: auto;
+  max-width: none;
+  filter: drop-shadow(0 18px 30px rgb(0 0 0 / 45%));
+}
+
+.hero-photo svg {
+  fill: rgb(255 255 255 / 12%);
+}
+
+.hero-info {
+  grid-area: info;
+  position: relative;
+  z-index: 2;
+  padding: 36px 8px 56px 36px;
+}
+
+.hero-name {
+  margin: 0 0 14px;
+  line-height: 1;
+}
+
+.hero-name .first {
+  display: block;
+  font-size: clamp(1.4rem, 3vw, 2.1rem);
+  font-weight: var(--w-regular);
+  color: var(--hero-muted);
+  margin-bottom: 6px;
+}
+
+.hero-name .last {
+  display: block;
+  font-size: clamp(2.6rem, 6.5vw, 4.6rem);
+  font-weight: var(--w-bold);
+  text-transform: uppercase;
+  letter-spacing: -0.01em;
+  overflow-wrap: anywhere;
+}
+
+.hero-name .last::after {
+  content: '';
+  display: block;
+  width: 72px;
+  height: 3px;
+  margin-top: 14px;
+  background: var(--sunshine);
+}
+
+.hero-id {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 0 0 26px;
+  font-size: 1.3rem;
+}
+
+.hero-jersey {
+  font-weight: var(--w-strong);
+  padding-right: 12px;
+  border-right: 1px solid rgb(255 255 255 / 30%);
+}
+
+.hero-measure {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 36px;
+  margin: 0 0 22px;
+  padding-bottom: 18px;
+  border-bottom: 1px solid rgb(255 255 255 / 15%);
+}
+
+.hero-measure dt,
+.hero-facts dt {
+  font-size: 0.75rem;
+  color: var(--hero-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.hero-measure dd {
+  margin: 2px 0 0;
+  font-size: 2rem;
+  font-weight: var(--w-regular);
+  line-height: 1.1;
+}
+
+.hero-measure small {
+  margin-left: 4px;
+  font-size: 0.85rem;
+  color: var(--hero-muted);
+}
+
+.hero-facts {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 6px 18px;
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.hero-facts dt {
+  align-self: center;
+}
+
+.hero-facts dd {
+  margin: 0;
+  font-weight: var(--w-strong);
+}
+
+.hero-strip {
+  grid-area: strip;
+  position: relative;
+  z-index: 2;
+  padding: 14px 24px 18px;
+  border-top: 1px solid rgb(255 255 255 / 12%);
+  border-radius: 0 0 18px 18px;
+  background: rgb(8 16 32 / 62%);
+  backdrop-filter: blur(3px);
+  overflow-x: auto;
+}
+
+.strip-toggle {
+  margin-bottom: 8px;
+  border-color: rgb(255 255 255 / 20%);
+}
+
+.strip-toggle button {
+  background: transparent;
+  color: var(--hero-text);
+  padding: 3px 10px;
+  font-size: 0.8rem;
+}
+
+.hero-strip table {
+  width: 100%;
+  border-collapse: collapse;
+  font-variant-numeric: tabular-nums;
+}
+
+.hero-strip th,
+.hero-strip td {
+  padding: 6px 10px;
+  text-align: right;
+  white-space: nowrap;
+}
+
+.hero-strip thead th {
+  font-size: 0.72rem;
+  font-weight: var(--w-regular);
+  color: var(--hero-muted);
+}
+
+.hero-strip tbody th {
+  text-align: left;
+  font-weight: var(--w-regular);
+  color: var(--hero-muted);
+  font-size: 0.9rem;
+}
+
+.hero-strip tbody tr:first-child th {
+  color: var(--hero-text);
+  font-weight: var(--w-strong);
+}
+
+.hero-strip td {
+  font-size: 1.3rem;
+  font-weight: var(--w-regular);
+}
+
+.hero-strip tbody tr:first-child td {
+  font-weight: var(--w-strong);
+}
+
+.hero-strip tbody tr + tr > * {
+  border-top: 1px solid rgb(255 255 255 / 10%);
+}
+
+.hero-strip .delta {
+  font-size: 0.65rem;
+  vertical-align: super;
+}
+
+.hero-strip .delta.good {
+  color: #7ee2a0;
+}
+
+.hero-strip .delta.bad {
+  color: #ffadb7;
+}
+
+.player-columns {
+  display: grid;
+  grid-template-columns: minmax(0, 2fr) minmax(240px, 1fr);
+  gap: 24px;
+  margin-top: 28px;
+  align-items: start;
+}
+
+.player-columns h2 {
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+.game-log-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.game-log-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.game-log-controls .segmented button {
+  padding: 4px 10px;
+  font-size: 0.85rem;
+}
+
+.log-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.log-row {
+  display: grid;
+  grid-template-columns: 64px minmax(0, 1.2fr) minmax(0, 1.5fr) repeat(5, minmax(0, 0.55fr));
+  align-items: center;
+  gap: 8px;
+  padding: 12px 16px;
+  font-variant-numeric: tabular-nums;
+}
+
+.log-row > :nth-child(n + 4) {
+  text-align: right;
+}
+
+.log-list .log-row {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  transition: transform 0.12s, border-color 0.12s;
+}
+
+.log-list .log-row:hover {
+  border-color: var(--skyline);
+  transform: translateX(2px);
+}
+
+.log-header {
+  padding-top: 0;
+  padding-bottom: 4px;
+  font-size: 0.72rem;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.log-date {
+  white-space: nowrap;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.log-match {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: var(--w-strong);
+}
+
+.log-result b {
+  display: inline-block;
+  width: 1.5em;
+  text-align: center;
+  margin-right: 4px;
+  border-radius: 4px;
+  font-size: 0.8rem;
+}
+
+.log-result.win b {
+  background: var(--status-p-bg);
+  color: var(--status-p-text);
+}
+
+.log-result.loss b {
+  background: var(--status-out-bg);
+  color: var(--status-out-text);
+}
+
+.log-pts {
+  font-weight: var(--w-bold);
+}
+
+.next-game {
+  padding: 18px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  text-align: center;
+}
+
+.next-matchup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  margin: 14px 0 8px;
+}
+
+.next-vs {
+  color: var(--muted);
+}
+
+.next-opp {
+  margin: 0;
+  font-weight: var(--w-strong);
+}
+
+.next-game .muted {
+  margin: 2px 0 10px;
+}
+
+.next-game .game-broadcasts {
+  justify-content: center;
+}
+
+.next-status {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  margin: 14px 0 0;
+  padding: 8px;
+  border-radius: 8px;
+  font-size: 0.85rem;
+  background: var(--status-p-bg);
+  color: var(--status-p-text);
+}
+
+.next-status.out {
+  background: var(--status-out-bg);
+  color: var(--status-out-text);
+}
+
+@media (max-width: 760px) {
+  .player-hero {
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-areas:
+      'photo'
+      'info'
+      'strip';
+    margin-top: 48px;
+  }
+
+  .hero-photo {
+    justify-self: center;
+    width: min(88%, 420px);
+    margin-top: -48px;
+  }
+
+  .hero-photo img,
+  .hero-photo svg {
+    position: static;
+    width: 100%;
+    height: auto;
+  }
+
+  .hero-number {
+    top: -6%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: clamp(10rem, 58vw, 16rem);
+  }
+
+  .hero-wordmark {
+    top: 22%;
+  }
+
+  .hero-info {
+    padding: 14px 20px 24px;
+  }
+
+  .hero-measure dd {
+    font-size: 1.6rem;
+  }
+
+  .hero-strip {
+    padding: 10px 12px 14px;
+  }
+
+  .hero-strip th,
+  .hero-strip td {
+    padding: 6px 6px;
+  }
+
+  .hero-strip td {
+    font-size: 1.05rem;
+  }
+
+  .player-columns {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .next-game {
+    order: -1;
+  }
+
+  .log-row {
+    grid-template-columns: 50px 56px minmax(0, 1fr) repeat(3, 28px);
+    padding: 10px 12px;
+    gap: 6px;
+    font-size: 0.88rem;
+  }
+
+  .log-extra,
+  .log-match .logo,
+  .log-match .logo-fallback {
+    display: none;
+  }
+
+  .log-result {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 }

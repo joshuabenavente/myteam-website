@@ -3,6 +3,7 @@ import { AppearancePanel } from './components/AppearancePanel.tsx'
 import { GamesCalendar } from './components/GamesCalendar.tsx'
 import { GamesList } from './components/GamesList.tsx'
 import { Icon } from './components/Icon.tsx'
+import { PlayerPage } from './components/PlayerPage.tsx'
 import { PlayerTracker } from './components/PlayerTracker.tsx'
 import { TeamSummary } from './components/TeamSummary.tsx'
 import {
@@ -18,15 +19,15 @@ import {
 import { TEAM } from './lib/config'
 import { useAppData } from './lib/data.ts'
 import { timeZoneAbbr } from './lib/format.ts'
+import { routeHref, useRoute } from './lib/route.ts'
 import './App.css'
 
-type Page = 'games' | 'players'
 type GamesView = 'list' | 'calendar'
 
 const timeZone = Intl.DateTimeFormat().resolvedOptions().timeZone
 
 function App() {
-  const [page, setPage] = useState<Page>('games')
+  const route = useRoute()
   const [gamesView, setGamesView] = useState<GamesView>('list')
   const { data, error } = useAppData()
   const [picker, setPicker] = useState(pickerEnabled)
@@ -48,12 +49,12 @@ function App() {
       <header className="site-header">
         <h1>{TEAM.name} Tracker</h1>
         <nav className="tabs" aria-label="Pages">
-          <button aria-current={page === 'games'} onClick={() => setPage('games')}>
+          <a href={routeHref({ page: 'games' })} aria-current={route.page === 'games' ? 'page' : undefined}>
             <Icon name="games" /> Games
-          </button>
-          <button aria-current={page === 'players'} onClick={() => setPage('players')}>
+          </a>
+          <a href={routeHref({ page: 'players' })} aria-current={route.page !== 'games' ? 'page' : undefined}>
             <Icon name="players" /> Players
-          </button>
+          </a>
         </nav>
       </header>
 
@@ -61,7 +62,7 @@ function App() {
         {error && <p className="placeholder error">{error}</p>}
         {!data && !error && <p className="placeholder">Loading…</p>}
 
-        {data && page === 'games' && (
+        {data && route.page === 'games' && (
           <section>
             <TeamSummary data={data} />
             <div className="toolbar">
@@ -85,11 +86,13 @@ function App() {
           </section>
         )}
 
-        {data && page === 'players' && (
+        {data && route.page === 'players' && (
           <section>
             <PlayerTracker data={data} />
           </section>
         )}
+
+        {data && route.page === 'player' && <PlayerPage id={route.id} data={data} timeZone={timeZone} />}
       </main>
 
       {data && (

@@ -60,9 +60,9 @@ const current = seasonForDate(new Date())
 const last = previousSeason(current)
 const failures: string[] = []
 
-function write(path: string, data: unknown) {
+function write(path: string, data: unknown, { compact = false } = {}) {
   mkdirSync(dirname(path), { recursive: true })
-  writeFileSync(path, JSON.stringify(data, null, 1) + '\n')
+  writeFileSync(path, JSON.stringify(data, null, compact ? undefined : 1) + '\n')
   console.log(`wrote ${path}`)
 }
 
@@ -206,7 +206,9 @@ if (process.argv.includes('--players') && league) {
       teamGamesPlayed,
       players,
     } satisfies PlayersFile)
-    write(join(OUT_DIR, 'gamelogs.json'), { season: current.label, lastSeason: last.label, players: logs } satisfies GameLogsFile)
+    write(join(OUT_DIR, 'gamelogs.json'), { season: current.label, lastSeason: last.label, players: logs } satisfies GameLogsFile, {
+      compact: true,
+    })
   })
 }
 
