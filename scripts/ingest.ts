@@ -261,7 +261,10 @@ if (league && absences && process.env.ANTHROPIC_API_KEY) {
       const gameNumber = schedule.filter((g) => g.type === game.type && g.startUtc <= game.startUtc).length
       const facts = buildFacts({
         team: TEAM.abbr,
+        season: current.label,
+        lastSeason: last.label,
         game,
+        earlierUnplayed: schedule.filter((g) => g.status === 'scheduled' && g.startUtc < game.startUtc),
         gameNumber,
         standings,
         h2h: h2hOpponents?.[game.opponent],

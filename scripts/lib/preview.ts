@@ -14,10 +14,10 @@ const MODEL = 'claude-haiku-5-5'
 const rec = (r: WinLoss) => `${r.wins}-${r.losses}`
 const fullName = (abbr: string) => `${TEAMS_BY_ABBR[abbr].city} ${TEAMS_BY_ABBR[abbr].name}`
 
-function teamFacts(t: TeamInfo | undefined) {
+function teamFacts(t: TeamInfo | undefined, season: string) {
   if (!t) return undefined
   const played = t.wins + t.losses
-  if (played === 0) return { gamesPlayed: 0 }
+  if (played === 0) return { gamesPlayed: 0, note: `has not played a ${season} game yet` }
   return {
     gamesPlayed: played,
     record: rec(t),
@@ -61,9 +61,28 @@ function absenceFacts(list: Absence[], players?: Player[]) {
   })
 }
 
+/** "Denver leads 2-1", "tied 1-1" or "no games yet". */
+function currentSeries(r: WinLoss) {
+  if (r.wins + r.losses === 0) return 'no games yet'
+  if (r.wins === r.losses) return `tied ${rec(r)}`
+  return `Denver ${r.wins > r.losses ? 'leads' : 'trails'} ${rec(r)}`
+}
+
+/** "Denver won 3-0", "split 2-2" or "did not play". */
+function finishedSeries(r: WinLoss) {
+  if (r.wins + r.losses === 0) return 'did not play'
+  if (r.wins === r.losses) return `split ${rec(r)}`
+  return `Denver ${r.wins > r.losses ? 'won' : 'lost'} ${rec(r)}`
+}
+
 export interface PreviewInputs {
   team: string
+  /** Season labels, e.g. "2026-27" and "2025-26". */
+  season: string
+  lastSeason: string
   game: Game
+  /** Denver games before this one that haven't been played yet. */
+  earlierUnplayed: Game[]
   /** 1-based number of this game in Denver's season (by type). */
   gameNumber: number
   standings: { [abbr: string]: TeamInfo }
@@ -79,26 +98,30 @@ export interface PreviewInputs {
 export function buildFacts(i: PreviewInputs) {
   const { team, game } = i
   const opp = game.opponent
+  const played = (r: WinLoss) => r.wins + r.losses > 0
   return {
+    season: i.season,
     game: {
       matchup: `${fullName(team)} ${game.home ? 'vs' : 'at'} ${fullName(opp)}`,
       denverIs: game.home ? 'home' : 'away',
       type: game.type === 'playoffs' ? 'playoffs' : 'regular season',
       denverGameNumber: `${ordinal(i.gameNumber)} ${game.type === 'playoffs' ? 'playoff ' : ''}game of the season for Denver`,
       ...(game.label && { note: game.label }),
+      ...(i.earlierUnplayed.length > 0 && {
+        denverGamesStillToPlayBeforeThisOne: i.earlierUnplayed.map(
+          (g) => `${g.home ? 'vs' : 'at'} ${fullName(g.opponent)}`,
+        ),
+      }),
     },
-    denver: teamFacts(i.standings[team]),
-    opponent: { name: fullName(opp), ...teamFacts(i.standings[opp]) },
+    recordsAreAsOfToday: true,
+    denver: teamFacts(i.standings[team], i.season),
+    opponent: { name: fullName(opp), ...teamFacts(i.standings[opp], i.season) },
     ...(i.h2h && {
       seasonSeries: {
-        thisSeason: rec(i.h2h.current.regular),
-        ...(i.h2h.current.playoffs.wins + i.h2h.current.playoffs.losses > 0 && {
-          thisSeasonPlayoffs: rec(i.h2h.current.playoffs),
-        }),
-        lastSeason: rec(i.h2h.last.regular),
-        ...(i.h2h.last.playoffs.wins + i.h2h.last.playoffs.losses > 0 && {
-          lastSeasonPlayoffs: rec(i.h2h.last.playoffs),
-        }),
+        [`${i.season} so far`]: currentSeries(i.h2h.current.regular),
+        ...(played(i.h2h.current.playoffs) && { [`${i.season} playoffs`]: currentSeries(i.h2h.current.playoffs) }),
+        [i.lastSeason]: finishedSeries(i.h2h.last.regular),
+        ...(played(i.h2h.last.playoffs) && { [`${i.lastSeason} playoffs`]: finishedSeries(i.h2h.last.playoffs) }),
       },
     }),
     ...(lastMeeting(i.results, team, opp) && { lastMeeting: lastMeeting(i.results, team, opp) }),
@@ -119,7 +142,7 @@ const SYSTEM = `You write short previews of upcoming Denver Nuggets games for a 
 
 Write exactly three sentences of plain prose: no markdown, headings, lists or emojis. Cover what to expect: how the teams are playing, the matchup history, and who is missing, picking whatever is most notable.
 
-Use only the facts in the user's message. Don't add statistics, player roles, storylines, coaches or history that aren't there; your knowledge of rosters may be out of date, so if a player's importance isn't shown by the numbers given, don't characterize it. If a team hasn't played yet this season, say so naturally (for example "both teams open their seasons") instead of quoting 0-0 records. Skip anything that adds nothing, such as an empty absence list.
+Use only the facts in the user's message. Records, standings and absences are as of today. If Denver has games still to play before this one, those come first, so don't call this game a season opener or say how the teams will look at tip-off; describe where things stand now instead. Refer to seasons only by the labels in the facts. Don't add statistics, player roles, storylines, coaches or history that aren't there; your knowledge of rosters may be out of date, so if a player's importance isn't shown by the numbers given, don't characterize it. If a team hasn't played yet this season, say so naturally (for example "both teams open their seasons") instead of quoting 0-0 records. Skip anything that adds nothing, such as an empty absence list.
 
 Don't mention tip-off time or TV channels; the app shows those. If a win chance from ESPN's matchup predictor is given, you may mention it once, attributed to ESPN; don't give betting advice.`
 
