@@ -58,3 +58,44 @@ export function groupByMonth<T extends Pick<Game, 'startUtc'>>(games: T[], timeZ
   }
   return [...groups]
 }
+
+/** Calendar day "YYYY-MM-DD" of a moment in the given time zone. */
+export function dayKey(at: string | Date, timeZone: string): string {
+  // en-CA formats dates as YYYY-MM-DD.
+  return new Date(at).toLocaleDateString('en-CA', { timeZone })
+}
+
+export interface Month {
+  year: number
+  /** 0-11 */
+  month: number
+}
+
+export const monthOf = (key: string): Month => ({ year: Number(key.slice(0, 4)), month: Number(key.slice(5, 7)) - 1 })
+
+export const addMonths = ({ year, month }: Month, n: number): Month => {
+  const total = year * 12 + month + n
+  return { year: Math.floor(total / 12), month: total % 12 }
+}
+
+export const compareMonths = (a: Month, b: Month) => a.year * 12 + a.month - (b.year * 12 + b.month)
+
+export const monthLabel = ({ year, month }: Month) =>
+  new Date(Date.UTC(year, month, 1)).toLocaleDateString('en-US', { month: 'long', year: 'numeric', timeZone: 'UTC' })
+
+/**
+ * Weeks (Sunday first) covering a month, as "YYYY-MM-DD" keys; days outside the month are
+ * null so the grid keeps its shape.
+ */
+export function monthGrid({ year, month }: Month): (string | null)[][] {
+  const first = new Date(Date.UTC(year, month, 1))
+  const days = new Date(Date.UTC(year, month + 1, 0)).getUTCDate()
+  const cells: (string | null)[] = Array(first.getUTCDay()).fill(null)
+  for (let d = 1; d <= days; d++) {
+    cells.push(`${year}-${String(month + 1).padStart(2, '0')}-${String(d).padStart(2, '0')}`)
+  }
+  while (cells.length % 7) cells.push(null)
+  const weeks = []
+  for (let i = 0; i < cells.length; i += 7) weeks.push(cells.slice(i, i + 7))
+  return weeks
+}

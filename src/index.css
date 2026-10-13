@@ -16,6 +16,7 @@
   --loss: var(--flatirons);
   --chip-local-bg: var(--midnight);
   --chip-local-text: var(--sunshine);
+  --cal-home-bg: var(--midnight);
 
   font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
   line-height: 1.5;
@@ -38,6 +39,7 @@
     --loss: #ff7b8a;
     --chip-local-bg: var(--sunshine);
     --chip-local-text: var(--midnight);
+    --cal-home-bg: var(--skyline);
   }
 }
 

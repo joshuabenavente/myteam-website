@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { GamesCalendar } from './components/GamesCalendar.tsx'
 import { GamesList } from './components/GamesList.tsx'
 import { TeamSummary } from './components/TeamSummary.tsx'
 import { TEAM } from './lib/config'
@@ -53,7 +54,7 @@ function App() {
             {gamesView === 'list' ? (
               <GamesList data={data} timeZone={timeZone} />
             ) : (
-              <p className="placeholder">Calendar coming in phase 4.</p>
+              <GamesCalendar data={data} timeZone={timeZone} />
             )}
           </section>
         )}

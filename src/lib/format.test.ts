@@ -7,6 +7,12 @@ import {
   ordinal,
   seriesSummary,
   timeZoneAbbr,
+  dayKey,
+  addMonths,
+  compareMonths,
+  monthOf,
+  monthLabel,
+  monthGrid,
 } from './format'
 
 it('ordinal', () => {
@@ -56,5 +62,30 @@ describe('time zones', () => {
       ['October 2026', 1],
       ['November 2026', 1],
     ])
+  })
+})
+
+describe('calendar helpers', () => {
+  it('keys days in the viewer zone', () => {
+    expect(dayKey('2026-10-23T01:30:00Z', 'America/Denver')).toBe('2026-10-22')
+    expect(dayKey('2026-10-23T01:30:00Z', 'Europe/London')).toBe('2026-10-23')
+  })
+
+  it('does month arithmetic across years', () => {
+    expect(addMonths({ year: 2026, month: 11 }, 1)).toEqual({ year: 2027, month: 0 })
+    expect(addMonths({ year: 2027, month: 0 }, -1)).toEqual({ year: 2026, month: 11 })
+    expect(compareMonths({ year: 2027, month: 0 }, { year: 2026, month: 11 })).toBeGreaterThan(0)
+    expect(monthOf('2026-10-22')).toEqual({ year: 2026, month: 9 })
+    expect(monthLabel({ year: 2026, month: 9 })).toBe('October 2026')
+  })
+
+  it('builds a Sunday-first grid', () => {
+    // October 2026 starts on a Thursday and has 31 days.
+    const weeks = monthGrid({ year: 2026, month: 9 })
+    expect(weeks).toHaveLength(5)
+    expect(weeks[0]).toEqual([null, null, null, null, '2026-10-01', '2026-10-02', '2026-10-03'])
+    expect(weeks[4]).toEqual(['2026-10-25', '2026-10-26', '2026-10-27', '2026-10-28', '2026-10-29', '2026-10-30', '2026-10-31'])
+    // February 2026 starts on a Sunday: exactly four weeks.
+    expect(monthGrid({ year: 2026, month: 1 })).toHaveLength(4)
   })
 })

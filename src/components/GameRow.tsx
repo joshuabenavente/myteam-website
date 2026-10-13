@@ -50,13 +50,7 @@ export function GameRow({ game, standings, h2h, timeZone }: Props) {
           <GameStatus game={game} timeZone={timeZone} />
         </span>
 
-        <span className="game-broadcasts">
-          {game.broadcasts.map((b) => (
-            <span key={b.name} className={`chip ${b.scope}`} title={`${b.scope === 'local' ? 'Local' : 'National'} ${b.kind === 'stream' ? 'streaming' : 'TV'}`}>
-              {b.name}
-            </span>
-          ))}
-        </span>
+        <Broadcasts game={game} />
 
         <svg className="chevron" viewBox="0 0 16 16" aria-hidden="true">
           <path d="M4 6l4 4 4-4" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
@@ -65,16 +59,41 @@ export function GameRow({ game, standings, h2h, timeZone }: Props) {
 
       {open && (
         <div className="game-details" id={detailsId}>
-          {game.label && <p className="game-label">{game.label}</p>}
-          <StandingsTable abbrs={[TEAM.abbr, game.opponent]} standings={standings} />
-          <SeasonSeries opponent={game.opponent} h2h={h2h} />
+          <GameDetails game={game} standings={standings} h2h={h2h} />
         </div>
       )}
     </li>
   )
 }
 
-function GameStatus({ game, timeZone }: { game: Game; timeZone: string }) {
+export function Broadcasts({ game }: { game: Game }) {
+  return (
+    <span className="game-broadcasts">
+      {game.broadcasts.map((b) => (
+        <span
+          key={b.name}
+          className={`chip ${b.scope}`}
+          title={`${b.scope === 'local' ? 'Local' : 'National'} ${b.kind === 'stream' ? 'streaming' : 'TV'}`}
+        >
+          {b.name}
+        </span>
+      ))}
+    </span>
+  )
+}
+
+/** Label, both teams' standings and the season series. */
+export function GameDetails({ game, standings, h2h }: Omit<Props, 'timeZone'>) {
+  return (
+    <>
+      {game.label && <p className="game-label">{game.label}</p>}
+      <StandingsTable abbrs={[TEAM.abbr, game.opponent]} standings={standings} />
+      <SeasonSeries opponent={game.opponent} h2h={h2h} />
+    </>
+  )
+}
+
+export function GameStatus({ game, timeZone }: { game: Game; timeZone: string }) {
   if (game.status === 'scheduled') return <span className="time">{formatGameTime(game, timeZone)}</span>
   const { team, opponent } = game.score!
   if (game.status === 'live') {
