@@ -9,7 +9,7 @@ import { TEAMS_BY_ABBR } from '../../src/lib/teams.ts'
 import type { Absence, Game, HeadToHead, Player, TeamInfo, WinLoss } from '../../src/lib/types.ts'
 import type { FinalGame } from './standings.ts'
 
-const MODEL = 'claude-opus-5-5'
+const MODEL = 'claude-haiku-5-5'
 
 const rec = (r: WinLoss) => `${r.wins}-${r.losses}`
 const fullName = (abbr: string) => `${TEAMS_BY_ABBR[abbr].city} ${TEAMS_BY_ABBR[abbr].name}`
@@ -130,14 +130,11 @@ export interface GeneratedPreview {
 
 /** Ask Claude for a preview. Returns undefined if it declines or the reply isn't usable. */
 export async function writePreview(client: Anthropic, facts: unknown): Promise<GeneratedPreview | undefined> {
-  const response = await client.beta.messages.create({
+  const response = await client.messages.create({
     model: MODEL,
     max_tokens: 4000,
     // A short writing task: low effort keeps thinking (and cost) small.
     output_config: { effort: 'low' },
-    // If a safety classifier declines, retry on a fallback model chosen by the API.
-    betas: ['server-side-fallback-2026-07-01'],
-    fallbacks: 'default',
     system: SYSTEM,
     messages: [{ role: 'user', content: `Facts:\n\n${JSON.stringify(facts, null, 2)}` }],
   })

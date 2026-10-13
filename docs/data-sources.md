@@ -25,7 +25,7 @@ Chosen from the phase 1 probe (`scripts/probe-sources.ts`), run from GitHub Acti
 
 The `Update data` workflow (`.github/workflows/update-data.yml`) runs `scripts/ingest.ts`:
 
-- hourly: schedule, standings, head-to-head, injuries, plus ESPN's predictor for the next 3 games, and previews for those games when `ANTHROPIC_API_KEY` is set (Claude Opus 5.5, rewritten only when the facts change)
+- hourly: schedule, standings, head-to-head, injuries, plus ESPN's predictor for the next 3 games, and previews for those games when `ANTHROPIC_API_KEY` is set (Claude Haiku 5.5, rewritten only when the facts change)
 - daily at 10:43 UTC (4:43am Mountain): also player stats. That's one roster page plus a game log per player for the current season, 4 seconds apart. Last season's game logs are cached in `data/cache/` and fetched only once per player.
 
 Output goes to `public/data/*.json` (types in `src/lib/types.ts`), committed only when something other than `meta.json` changed.
