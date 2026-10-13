@@ -120,10 +120,19 @@ function StandingsTable({ abbrs, standings }: { abbrs: string[]; standings: Stan
       <thead>
         <tr>
           <th scope="col">Team</th>
-          <th scope="col">Record</th>
-          <th scope="col">Division</th>
-          <th scope="col">Conference</th>
-          <th scope="col">Streak</th>
+          {[
+            ['Record', 'Rec'],
+            ['Division', 'Div'],
+            ['Conference', 'Conf'],
+            ['Streak', 'Strk'],
+          ].map(([full, short]) => (
+            <th key={full} scope="col">
+              <span className="label-full">{full}</span>
+              <abbr className="label-short" title={full}>
+                {short}
+              </abbr>
+            </th>
+          ))}
         </tr>
       </thead>
       <tbody>

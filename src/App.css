@@ -303,6 +303,11 @@ main {
   gap: 6px;
 }
 
+.standings .label-short {
+  display: none;
+  text-decoration: none;
+}
+
 .standings tr.us {
   font-weight: 600;
 }
@@ -368,6 +373,25 @@ main {
   .standings th,
   .standings td {
     padding: 6px 4px;
+    white-space: normal;
+  }
+
+  .standings tbody th,
+  .standings td:nth-child(2) {
+    white-space: nowrap;
+  }
+
+  .standings thead th {
+    font-size: 0.65rem;
+  }
+
+  .standings td .muted {
+    display: block;
+  }
+
+  .selected-game {
+    padding: 12px;
+    overflow-x: auto;
   }
 }
 
@@ -746,5 +770,24 @@ main {
   .player-table .player-name {
     max-width: 130px;
     white-space: normal;
+  }
+}
+
+@media (max-width: 359px) {
+  .standings .label-full {
+    display: none;
+  }
+
+  .standings .label-short {
+    display: inline;
+  }
+
+  .standings th,
+  .standings td {
+    padding: 6px 3px;
+  }
+
+  .selected-game {
+    padding: 10px 8px;
   }
 }
