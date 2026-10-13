@@ -156,6 +156,7 @@ const probes: Probe[] = [
     source: 'NBA CDN',
     purpose: 'Current schedule, times, broadcasters',
     url: 'https://cdn.nba.com/static/json/staticData/scheduleLeagueV2.json',
+    headers: { Referer: 'https://www.nba.com/', Origin: 'https://www.nba.com' },
     inspect: inspectNbaSchedule,
   },
   {
@@ -240,7 +241,7 @@ async function run(probe: Probe): Promise<Result> {
   try {
     const res = await fetch(probe.url, {
       headers: { 'User-Agent': USER_AGENT, ...probe.headers },
-      signal: AbortSignal.timeout(30_000),
+      signal: AbortSignal.timeout(15_000),
     })
     const body = await res.text()
     const ms = Date.now() - started
@@ -281,4 +282,5 @@ const report = [
 
 writeFileSync(process.argv[2] ?? 'probe-report.md', report)
 if (process.env.GITHUB_STEP_SUMMARY) appendFileSync(process.env.GITHUB_STEP_SUMMARY, report)
-console.log(`\n${results.filter((r) => r.ok).length}/${results.length} sources OK`)
+console.log(`\n${report}`)
+console.log(`${results.filter((r) => r.ok).length}/${results.length} sources OK`)
