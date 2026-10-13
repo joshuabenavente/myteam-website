@@ -1,0 +1,1024 @@
+{
+ "updatedAt": "2026-10-13T14:01:40.564Z",
+ "teams": {
+  "ATL": [
+   {
+    "name": "Henri Veesaar",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Knee",
+    "returnDate": "2027-07-01"
+   },
+   {
+    "name": "Aaron Wiggins",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Rest",
+    "returnDate": "2026-10-16"
+   },
+   {
+    "name": "CJ McCollum",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Rest",
+    "returnDate": "2026-10-16"
+   },
+   {
+    "name": "Dyson Daniels",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Rest",
+    "returnDate": "2026-10-16"
+   },
+   {
+    "name": "Jalen Johnson",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Rest",
+    "returnDate": "2026-10-16"
+   },
+   {
+    "name": "Keshon Gilbert",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Knee (tendinitis)",
+    "returnDate": "2026-10-16"
+   },
+   {
+    "name": "Luguentz Dort",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Rest",
+    "returnDate": "2026-10-16"
+   },
+   {
+    "name": "Mouhamed Gueye",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Foot (fracture)",
+    "returnDate": "2026-10-21"
+   },
+   {
+    "name": "Onyeka Okongwu",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Rest",
+    "returnDate": "2026-10-16"
+   }
+  ],
+  "BOS": [
+   {
+    "name": "Devin Carter",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Illness",
+    "returnDate": "2026-10-14"
+   },
+   {
+    "name": "Luka Garza",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Nose",
+    "returnDate": "2026-10-14"
+   },
+   {
+    "name": "Ron Harper Jr.",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Shoulder (soreness)",
+    "returnDate": "2026-10-14"
+   }
+  ],
+  "BKN": [
+   {
+    "name": "Joshua Jefferson",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Back",
+    "returnDate": "2026-10-14"
+   },
+   {
+    "name": "Mikel Brown Jr.",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Ankle",
+    "returnDate": "2026-10-14"
+   }
+  ],
+  "CHA": [
+   {
+    "name": "Christian Anderson",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Ankle (sprain)",
+    "returnDate": "2026-10-14"
+   },
+   {
+    "name": "Coby White",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Calf (strain)",
+    "returnDate": "2026-10-21"
+   },
+   {
+    "name": "Grant Williams",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Hamstring",
+    "returnDate": "2026-10-21"
+   },
+   {
+    "name": "Grayson Allen",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Knee (soreness)",
+    "returnDate": "2026-10-14"
+   },
+   {
+    "name": "Kon Knueppel",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Hamstring",
+    "returnDate": "2026-10-21"
+   },
+   {
+    "name": "Kylan Boswell",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Knee",
+    "returnDate": "2026-10-21"
+   }
+  ],
+  "CHI": [
+   {
+    "name": "Jaylin Sellers",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Back",
+    "returnDate": "2026-10-14"
+   },
+   {
+    "name": "Nic Claxton",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Hamstring",
+    "returnDate": "2026-10-21"
+   },
+   {
+    "name": "Zach Collins",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Toe (surgery)",
+    "returnDate": "2026-10-14"
+   }
+  ],
+  "CLE": [
+   {
+    "name": "Khalifa Diop",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Knee",
+    "returnDate": "2026-10-13"
+   },
+   {
+    "name": "Nae'Qwan Tomlin",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Back",
+    "returnDate": "2026-10-13"
+   }
+  ],
+  "DAL": [
+   {
+    "name": "Dereck Lively II",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Foot (surgery)",
+    "returnDate": "2026-10-14"
+   },
+   {
+    "name": "Marcus Sasser",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Hip",
+    "returnDate": "2026-10-14"
+   },
+   {
+    "name": "Morez Johnson Jr.",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Rest",
+    "returnDate": "2026-10-14"
+   },
+   {
+    "name": "Santi Aldama",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Knee",
+    "returnDate": "2026-10-14"
+   }
+  ],
+  "DEN": [
+   {
+    "name": "Spencer Jones",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Hamstring",
+    "returnDate": "2026-10-14"
+   }
+  ],
+  "DET": [
+   {
+    "name": "Cade Cunningham",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Rest",
+    "returnDate": "2026-10-14"
+   },
+   {
+    "name": "Jalen Duren",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Rest",
+    "returnDate": "2026-10-14"
+   }
+  ],
+  "GSW": [
+   {
+    "name": "Jimmy Butler III",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Knee (surgery)",
+    "returnDate": "2027-01-02"
+   },
+   {
+    "name": "Moses Moody",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Knee (surgery)",
+    "returnDate": "2026-12-01"
+   },
+   {
+    "name": "Al Horford",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Rest",
+    "returnDate": "2026-10-16"
+   },
+   {
+    "name": "Kristaps Porzingis",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Undisclosed",
+    "returnDate": "2026-10-21"
+   }
+  ],
+  "HOU": [
+   {
+    "name": "Alperen Sengun",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Rest",
+    "returnDate": "2026-10-15"
+   },
+   {
+    "name": "Fred VanVleet",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Rest",
+    "returnDate": "2026-10-15"
+   },
+   {
+    "name": "Kevin Durant",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Not Injury Related",
+    "returnDate": "2026-10-15"
+   },
+   {
+    "name": "Steven Adams",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Rest",
+    "returnDate": "2026-10-15"
+   }
+  ],
+  "IND": [
+   {
+    "name": "Johnny Furphy",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Knee (surgery)",
+    "returnDate": "2027-01-01"
+   },
+   {
+    "name": "T.J. McConnell",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Undisclosed",
+    "returnDate": "2026-10-13"
+   },
+   {
+    "name": "Tyrese Haliburton",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Ankle",
+    "returnDate": "2026-10-13"
+   }
+  ],
+  "LAC": [
+   {
+    "name": "Jordan Miller",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Shoulder (surgery)",
+    "returnDate": "2027-03-01"
+   },
+   {
+    "name": "Max Strus",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Foot",
+    "returnDate": "2026-11-02"
+   },
+   {
+    "name": "Yanic Konan Niederhauser",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Foot (surgery)",
+    "returnDate": "2026-11-01"
+   },
+   {
+    "name": "Bradley Beal",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Knee (inflammation)",
+    "returnDate": "2026-10-14"
+   },
+   {
+    "name": "Kobe Sanders",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Hip",
+    "returnDate": "2026-10-14"
+   }
+  ],
+  "TOR": [
+   {
+    "name": "Brandon Ingram",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Achilles (surgery)",
+    "returnDate": "2026-11-01"
+   },
+   {
+    "name": "Alijah Martin",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Knee",
+    "returnDate": "2026-10-13"
+   },
+   {
+    "name": "Allen Graves",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Groin",
+    "returnDate": "2026-10-13"
+   },
+   {
+    "name": "Nate Bittle",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Foot",
+    "returnDate": "2026-10-13"
+   },
+   {
+    "name": "Trayce Jackson-Davis",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Teeth",
+    "returnDate": "2026-10-13"
+   }
+  ],
+  "LAL": [
+   {
+    "name": "Arthur Kaluma",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Lower Body",
+    "returnDate": "2026-10-13"
+   },
+   {
+    "name": "Cameron Carr",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Undisclosed (bruise)",
+    "returnDate": "2026-10-13"
+   },
+   {
+    "name": "Collin Sexton",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Lower Leg",
+    "returnDate": "2026-10-13"
+   },
+   {
+    "name": "Dalton Knecht",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Undisclosed (bruise)",
+    "returnDate": "2026-10-13"
+   },
+   {
+    "name": "Walker Kessler",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Finger",
+    "returnDate": "2026-10-13"
+   },
+   {
+    "name": "Ziaire Williams",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Foot (bruise)",
+    "returnDate": "2026-10-13"
+   }
+  ],
+  "MEM": [
+   {
+    "name": "Isaiah Stewart",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Ankle",
+    "returnDate": "2026-10-23"
+   },
+   {
+    "name": "Micah Peavy",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Ankle",
+    "returnDate": "2026-10-16"
+   }
+  ],
+  "MIA": [
+   {
+    "name": "Keshad Johnson",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Hamstring",
+    "returnDate": "2026-10-26"
+   },
+   {
+    "name": "Andrew Wiggins",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Rest",
+    "returnDate": "2026-10-14"
+   },
+   {
+    "name": "Bam Adebayo",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Rest",
+    "returnDate": "2026-10-14"
+   },
+   {
+    "name": "Davion Mitchell",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Rest",
+    "returnDate": "2026-10-14"
+   },
+   {
+    "name": "Dru Smith",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Calf (strain)",
+    "returnDate": "2026-10-16"
+   },
+   {
+    "name": "Giannis Antetokounmpo",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Rest",
+    "returnDate": "2026-10-14"
+   },
+   {
+    "name": "Klay Thompson",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Rest",
+    "returnDate": "2026-10-14"
+   },
+   {
+    "name": "Kylor Kelley",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Calf (strain)",
+    "returnDate": "2026-10-14"
+   },
+   {
+    "name": "Pelle Larsson",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Illness",
+    "returnDate": "2026-10-14"
+   }
+  ],
+  "MIL": [
+   {
+    "name": "Brayden Burries",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Coach's Decision",
+    "returnDate": "2026-10-14"
+   },
+   {
+    "name": "Kasparas Jakucionis",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Coach's Decision",
+    "returnDate": "2026-10-14"
+   },
+   {
+    "name": "Nate Ament",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Ankle (sprain)",
+    "returnDate": "2026-10-14"
+   }
+  ],
+  "MIN": [
+   {
+    "name": "Donte DiVincenzo",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Achilles (surgery)",
+    "returnDate": "2027-04-01"
+   },
+   {
+    "name": "Enrique Freeman",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Shoulder",
+    "returnDate": "2026-10-14"
+   },
+   {
+    "name": "Jonathan Kuminga",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Rest",
+    "returnDate": "2026-10-14"
+   },
+   {
+    "name": "Rocco Zikarsky",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Undisclosed",
+    "returnDate": "2026-10-14"
+   },
+   {
+    "name": "Terrence Shannon Jr.",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Undisclosed",
+    "returnDate": "2026-10-14"
+   }
+  ],
+  "NOP": [
+   {
+    "name": "Dejounte Murray",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Toe (bruise)",
+    "returnDate": "2026-10-14"
+   }
+  ],
+  "NYK": [
+   {
+    "name": "Jalen Brunson",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Rest",
+    "returnDate": "2026-10-15"
+   },
+   {
+    "name": "Josh Hart",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Rest",
+    "returnDate": "2026-10-15"
+   },
+   {
+    "name": "Karl-Anthony Towns",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Rest",
+    "returnDate": "2026-10-15"
+   },
+   {
+    "name": "Mikal Bridges",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Rest",
+    "returnDate": "2026-10-15"
+   },
+   {
+    "name": "OG Anunoby",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Rest",
+    "returnDate": "2026-10-15"
+   }
+  ],
+  "OKC": [
+   {
+    "name": "Ajay Mitchell",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Rest",
+    "returnDate": "2026-10-13"
+   },
+   {
+    "name": "Alex Caruso",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Rest",
+    "returnDate": "2026-10-13"
+   },
+   {
+    "name": "Cason Wallace",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Rest",
+    "returnDate": "2026-10-13"
+   },
+   {
+    "name": "Chet Holmgren",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Quadriceps",
+    "returnDate": "2026-10-13"
+   },
+   {
+    "name": "Isaiah Hartenstein",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Ankle",
+    "returnDate": "2026-10-13"
+   },
+   {
+    "name": "Jalen Williams",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Rest",
+    "returnDate": "2026-10-13"
+   },
+   {
+    "name": "Jared McCain",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Rest",
+    "returnDate": "2026-10-13"
+   },
+   {
+    "name": "Jaylin Williams",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Heel",
+    "returnDate": "2026-10-13"
+   },
+   {
+    "name": "Kenrich Williams",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Rest",
+    "returnDate": "2026-10-13"
+   },
+   {
+    "name": "Nikola Topic",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Back (surgery)",
+    "returnDate": "2026-10-13"
+   },
+   {
+    "name": "Shai Gilgeous-Alexander",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Rest",
+    "returnDate": "2026-10-13"
+   },
+   {
+    "name": "Thomas Sorber",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Knee (surgery)",
+    "returnDate": "2026-10-13"
+   }
+  ],
+  "ORL": [
+   {
+    "name": "Izaiyah Nelson",
+    "status": "Out",
+    "gameTimeDecision": true,
+    "reason": "Ankle (surgery)",
+    "returnDate": "2026-11-01"
+   },
+   {
+    "name": "Anthony Black",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Ankle (sprain)",
+    "returnDate": "2026-10-13"
+   },
+   {
+    "name": "Desmond Bane",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Rest",
+    "returnDate": "2026-10-13"
+   },
+   {
+    "name": "Jalen Suggs",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Illness",
+    "returnDate": "2026-10-13"
+   },
+   {
+    "name": "Jonathan Isaac",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Knee (sprain)",
+    "returnDate": "2026-10-13"
+   }
+  ],
+  "PHI": [
+   {
+    "name": "Ariel Hukporti",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Achilles (ruptured)",
+    "returnDate": "2027-10-01"
+   },
+   {
+    "name": "Adem Bona",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Foot (sprain)",
+    "returnDate": "2026-10-16"
+   },
+   {
+    "name": "Anfernee Simons",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Hamstring",
+    "returnDate": "2026-10-16"
+   },
+   {
+    "name": "Dominick Barlow",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Back",
+    "returnDate": "2026-10-16"
+   },
+   {
+    "name": "Jaylen Brown",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Rest",
+    "returnDate": "2026-10-16"
+   },
+   {
+    "name": "Joel Embiid",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Rest",
+    "returnDate": "2026-10-16"
+   },
+   {
+    "name": "Kentavious Caldwell-Pope",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Rest",
+    "returnDate": "2026-10-16"
+   },
+   {
+    "name": "LeBron James",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Rest",
+    "returnDate": "2026-10-16"
+   },
+   {
+    "name": "Tacko Fall",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Hip",
+    "returnDate": "2026-10-16"
+   }
+  ],
+  "PHX": [
+   {
+    "name": "Mark Williams",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Shoulder (surgery)",
+    "returnDate": "2027-02-03"
+   },
+   {
+    "name": "Devin Booker",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Rest",
+    "returnDate": "2026-10-14"
+   },
+   {
+    "name": "Miles Bridges",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Ankle",
+    "returnDate": "2026-10-14"
+   }
+  ],
+  "POR": [
+   {
+    "name": "Shaedon Sharpe",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Knee (surgery)",
+    "returnDate": "2027-03-02"
+   },
+   {
+    "name": "Chris Youngblood",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Calf",
+    "returnDate": "2026-10-13"
+   },
+   {
+    "name": "Damian Lillard",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Rest",
+    "returnDate": "2026-10-13"
+   },
+   {
+    "name": "Robert Williams III",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Rest",
+    "returnDate": "2026-10-13"
+   }
+  ],
+  "SAC": [
+   {
+    "name": "Maxime Raynaud",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Knee (dislocated)",
+    "returnDate": "2026-10-25"
+   },
+   {
+    "name": "Domantas Sabonis",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Undisclosed",
+    "returnDate": "2026-10-13"
+   },
+   {
+    "name": "Dylan Cardwell",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Calf",
+    "returnDate": "2026-10-13"
+   },
+   {
+    "name": "Malik Monk",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Rest",
+    "returnDate": "2026-10-13"
+   }
+  ],
+  "SAS": [
+   {
+    "name": "Jayden Quaintance",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Knee (surgery)",
+    "returnDate": "2026-12-01"
+   },
+   {
+    "name": "Carter Bryant",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Ankle",
+    "returnDate": "2026-10-14"
+   },
+   {
+    "name": "De'Aaron Fox",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Undisclosed (soreness)",
+    "returnDate": "2026-10-14"
+   },
+   {
+    "name": "Devin Vassell",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Rest",
+    "returnDate": "2026-10-14"
+   },
+   {
+    "name": "Dylan Harper",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Rest",
+    "returnDate": "2026-10-14"
+   },
+   {
+    "name": "Malik Williams",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Undisclosed",
+    "returnDate": "2026-10-14"
+   },
+   {
+    "name": "Stephon Castle",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Rest",
+    "returnDate": "2026-10-14"
+   },
+   {
+    "name": "Tobias Harris",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Calf (strain)",
+    "returnDate": "2026-10-20"
+   },
+   {
+    "name": "Victor Wembanyama",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Rest",
+    "returnDate": "2026-10-14"
+   }
+  ],
+  "UTA": [
+   {
+    "name": "Jusuf Nurkic",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Foot",
+    "returnDate": "2026-11-04"
+   },
+   {
+    "name": "Blake Hinson",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Hip",
+    "returnDate": "2026-10-16"
+   },
+   {
+    "name": "Kyle Filipowski",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Back",
+    "returnDate": "2026-10-21"
+   }
+  ],
+  "WAS": [
+   {
+    "name": "Jamir Watkins",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Knee",
+    "returnDate": "2027-04-01"
+   },
+   {
+    "name": "Tristan Vukcevic",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Hip",
+    "returnDate": "2026-11-02"
+   },
+   {
+    "name": "Anthony Davis",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Rest",
+    "returnDate": "2026-10-16"
+   },
+   {
+    "name": "Khris Middleton",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Rest",
+    "returnDate": "2026-10-16"
+   }
+  ]
+ }
+}
