@@ -85,6 +85,17 @@ export function GameRow({ game, data, timeZone, focused = false }: Props) {
 }
 
 export function Broadcasts({ game }: { game: Game }) {
+  // Many local TV listings are only published closer to the season; say so rather than show nothing.
+  if (game.status === 'scheduled' && channelsFor(game.broadcasts).length === 0) {
+    return (
+      <span className="game-broadcasts">
+        <span className="chip tba" title="The channel hasn't been announced yet">
+          <Icon name="tv" size={13} />
+          TV to be announced
+        </span>
+      </span>
+    )
+  }
   return (
     <span className="game-broadcasts">
       {channelsFor(game.broadcasts).map((c) => (

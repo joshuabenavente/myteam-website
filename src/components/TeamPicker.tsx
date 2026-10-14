@@ -1,6 +1,6 @@
 import { useEffect, useState, type CSSProperties } from 'react'
 import { routeHref } from '../lib/route.ts'
-import { applyTheme, savedTeam } from '../lib/team.ts'
+import { applyTheme, savedTeam, saveTeam } from '../lib/team.ts'
 import { TEAM_COLORS } from '../lib/teamColors.ts'
 import { TEAMS, teamSlug, type Team } from '../lib/teams.ts'
 import { Wordmark } from './Brand.tsx'
@@ -80,6 +80,7 @@ export function TeamPicker({ unknown }: { unknown?: string }) {
                             <a
                               className={`team-tile ${slug === saved ? 'current' : ''}`}
                               href={routeHref({ page: 'games' }, slug)}
+                              onClick={() => saveTeam(slug)}
                               style={{ '--tile-color': TEAM_COLORS[t.abbr]?.[0] } as CSSProperties}
                             >
                               <TeamLogo abbr={t.abbr} size={40} />

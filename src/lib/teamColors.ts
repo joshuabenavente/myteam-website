@@ -180,24 +180,28 @@ const brighten = (hex: string, k: number) => {
   return mix('#' + channels.map((c) => Math.round(c * scale).toString(16).padStart(2, '0')).join(''), '#ffffff', Math.max(0, (k - scale) / 4))
 }
 
+/** A real hue, not white, cream, silver or black, so the dot can't pass for the white lettering. */
+const chromatic = (hex: string) => Math.max(...rgb(hex)) - Math.min(...rgb(hex)) >= 60
+
 /**
  * The myteam.fans dot for a team on a given background: the team's primary color, or its
- * secondary when that stands out more (Denver's navy on the navy header becomes its gold). Red
- * teams whose other color is black (Miami, Chicago...) sit on a dark red header, and Boston's
- * green on its dark green one, so those are brightened until they show.
+ * secondary when that stands out more (Denver's navy on the navy header becomes its gold). A
+ * color too dark for the header is brightened (Miami's red on its dark red header, Milwaukee's
+ * green). Teams with no color to show (Brooklyn, San Antonio) get the brand's own dot.
  */
 export function dotColor(abbr: string, background: string): string {
   // A bit above the 3:1 for graphics: the dot is small and the header lightens away from it.
   const shows = (c: string) => contrast(c, background) >= 3.5
   const colors = abbr === 'DEN' ? ([NAVY, GOLD] as const) : TEAM_COLORS[abbr]
   if (!colors) return BRAND_DOT
-  const [primary, secondary] = colors
-  if (shows(primary)) return primary
-  // A white dot would just match the lettering, so it's the last resort (Brooklyn, San Antonio).
-  const white = secondary.toLowerCase() === '#ffffff'
-  if (!white && shows(secondary)) return secondary
-  if (nearBlack(primary)) return secondary
-  let dot = primary
-  for (let k = 1.1; !shows(dot) && k < 4; k += 0.1) dot = brighten(primary, k)
-  return shows(dot) || !white ? dot : secondary
+  const candidates = colors.filter(chromatic)
+  const ready = candidates.find(shows)
+  if (ready) return ready
+  for (const c of candidates) {
+    for (let k = 1.1; k < 4; k += 0.1) {
+      const lighter = brighten(c, k)
+      if (shows(lighter)) return lighter
+    }
+  }
+  return BRAND_DOT
 }

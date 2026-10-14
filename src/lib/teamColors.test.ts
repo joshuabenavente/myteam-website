@@ -73,10 +73,13 @@ it('keeps the logo dot visible on the header and the app icon tile', () => {
     expect(contrast(dot, dark), `${t.abbr} dot on header`).toBeGreaterThanOrEqual(3.5)
     expect(contrast(dot, '#101820'), `${t.abbr} dot on icon`).toBeGreaterThanOrEqual(3)
   }
-  // Team colors where they show; a white dot only for teams with nothing else.
+  // Team colors where they show; never white, cream or silver, which would look like the lettering.
   expect(teamTheme('DEN').dot).toBe('#fec524')
   expect(teamTheme('LAL').dot).toBe('#fdb927')
-  expect(teamTheme('BKN').dot).toBe('#ffffff')
-  expect(teamTheme('BOS').dot).not.toBe('#ffffff')
+  for (const abbr of ['BKN', 'SAS']) expect(teamTheme(abbr).dot, abbr).toBe(BRAND_DOT)
+  for (const t of TEAMS) {
+    const [r, g, b] = [1, 3, 5].map((i) => parseInt(teamTheme(t.abbr).dot.slice(i, i + 2), 16))
+    expect(Math.max(r, g, b) - Math.min(r, g, b), `${t.abbr} dot has a hue`).toBeGreaterThanOrEqual(60)
+  }
   expect(dotColor('XXX', '#000000')).toBe(BRAND_DOT)
 })

@@ -89,7 +89,7 @@ function GameView({ team, game, data, timeZone }: { team: string; game?: Game; d
 
   // Before ESPN answers (or if it can't), fall back to the schedule's injury report.
   const injuriesFor = (abbr: string, side?: TeamSide): InjuryListing[] =>
-    side?.injuries ??
+    (side?.injuries?.length ? side.injuries : undefined) ??
     (game
       ? absencesForGame(data.availability?.teams[abbr], game).map((a) => ({
           name: a.name,
@@ -128,8 +128,8 @@ function GameView({ team, game, data, timeZone }: { team: string; game?: Game; d
           light={rc.text !== '#ffffff'}
           started={started}
         />
-        <Injuries side="left" list={injuriesFor(team, left)} />
-        <Injuries side="right" list={injuriesFor(opponent, right)} />
+        <Injuries side="left" team={TEAMS_BY_ABBR[team]?.name ?? team} list={injuriesFor(team, left)} />
+        <Injuries side="right" team={oppTeam?.name ?? opponent} list={injuriesFor(opponent, right)} />
       </section>
 
       {s && <LiveAnnouncer score={announceable(s)} />}
@@ -264,11 +264,11 @@ function LineScore({ left, right }: { left: TeamSide; right: TeamSide }) {
   )
 }
 
-function Injuries({ side, list }: { side: 'left' | 'right'; list: InjuryListing[] }) {
+function Injuries({ side, team, list }: { side: 'left' | 'right'; team: string; list: InjuryListing[] }) {
   if (list.length === 0) return <div className={`sb-injuries ${side} empty`} />
   return (
     <div className={`sb-injuries ${side}`}>
-      <h2>Not available</h2>
+      <h2>{team} not available</h2>
       <ul>
         {list.map((i) => (
           <li key={i.name}>

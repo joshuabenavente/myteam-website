@@ -806,6 +806,11 @@ main {
   border: 1px solid var(--border);
 }
 
+.chip.tba {
+  border-style: dashed;
+  color: var(--muted);
+}
+
 .chip.local {
   background: var(--chip-local-bg);
   border-color: var(--chip-local-bg);
@@ -3343,7 +3348,9 @@ a.mini-game:hover {
     display: none;
   }
 
-  .season-label {
+  /* "26-27" on phones. */
+  .season-century,
+  .season-pill:not(.season-only) .season-label {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -3428,6 +3435,7 @@ a.mini-game:hover {
 }
 
 .countdown-info {
+  text-wrap: balance;
   display: flex;
   flex-direction: column;
   gap: 2px;
@@ -3505,6 +3513,7 @@ a.mini-game:hover {
 .up-meta {
   font-size: 1rem;
   font-weight: 600;
+  text-wrap: balance;
 }
 
 @media (max-width: 1000px) {
@@ -3584,5 +3593,24 @@ a.mini-game:hover {
   .header-actions,
   .team-pill {
     gap: 6px;
+  }
+
+  .season-pill {
+    padding: 6px 10px;
+  }
+
+  .team-pill {
+    padding: 0 10px 0 4px;
+    font-size: 0.95rem;
+  }
+
+  .team-pill .logo {
+    width: 24px;
+    height: 24px;
+  }
+
+  .brand-narrow {
+    width: 32px;
+    height: 32px;
   }
 }

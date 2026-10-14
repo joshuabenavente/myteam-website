@@ -46,7 +46,9 @@ export function SiteHeader({ route, data, timeZone, onShowGame }: Props) {
   const team = useTeam()
   const full = route.page === 'games' && !!data
   const roster = route.page === 'players' && !!data
-  const us = data?.standings.teams[team.abbr]
+  // Before the first game, "0-0" says nothing; the pill shows just the season.
+  const played = data?.standings.teams[team.abbr]
+  const us = played && played.wins + played.losses > 0 ? played : undefined
   const headerRef = useRef<HTMLElement>(null)
   const nav = (
     <nav className="page-nav" aria-label="Pages">
@@ -80,8 +82,11 @@ export function SiteHeader({ route, data, timeZone, onShowGame }: Props) {
             </a>
             <div className="header-actions">
               {data && (
-                <span className="season-pill">
-                  <span className="season-label">{data.schedule.season}</span>
+                <span className={`season-pill ${us ? '' : 'season-only'}`}>
+                  <span className="season-label">
+                    <span className="season-century">{data.schedule.season.slice(0, 2)}</span>
+                    {data.schedule.season.slice(2)}
+                  </span>
                   {us && (
                     <span className="season-record">
                       <span className="sr-only">, {team.name} record </span>

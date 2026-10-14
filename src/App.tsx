@@ -66,7 +66,8 @@ function TeamSite({ route, team }: { route: Extract<Route, { team: string }>; te
 
   useEffect(() => {
     applyTheme(team.theme)
-    saveTeam(team.slug)
+    // A shared link to another team doesn't replace yours; the picker does (see TeamPicker).
+    if (!savedTeam()) saveTeam(team.slug)
   }, [team])
 
   // A title per page, for browser history, tabs and screen readers.
