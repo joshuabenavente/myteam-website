@@ -1,0 +1,1649 @@
+{
+ "season": "2026-27",
+ "games": [
+  {
+   "id": "0022600092",
+   "type": "regular",
+   "startUtc": "2026-10-22T02:00:00Z",
+   "home": false,
+   "opponent": "POR",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "3TV/AZFS/Suns+ on AZFS App",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Suns+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600111",
+   "type": "regular",
+   "startUtc": "2026-10-25T02:00:00Z",
+   "home": true,
+   "opponent": "GSW",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBA TV",
+     "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "AZFS/CBS 5/Suns+ on AZFS App",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Suns+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600124",
+   "type": "regular",
+   "startUtc": "2026-10-27T00:00:00Z",
+   "home": false,
+   "opponent": "OKC",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "3TV/AZFS/Suns+ on AZFS App",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Suns+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600024",
+   "type": "regular",
+   "startUtc": "2026-10-31T02:00:00Z",
+   "home": true,
+   "opponent": "DEN",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "3TV/AZFS/Suns+ on AZFS App",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Suns+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ],
+   "label": "Emirates NBA Cup - West Group A"
+  },
+  {
+   "id": "0022600170",
+   "type": "regular",
+   "startUtc": "2026-11-03T03:00:00Z",
+   "home": false,
+   "opponent": "GSW",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "3TV/AZFS/Suns+ on AZFS App",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Suns+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600183",
+   "type": "regular",
+   "startUtc": "2026-11-05T02:00:00Z",
+   "home": true,
+   "opponent": "POR",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "3TV/AZFS/Suns+ on AZFS App",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Suns+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600187",
+   "type": "regular",
+   "startUtc": "2026-11-06T02:00:00Z",
+   "home": true,
+   "opponent": "ORL",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "3TV/AZFS/Suns+ on AZFS App",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Suns+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600194",
+   "type": "regular",
+   "startUtc": "2026-11-08T02:00:00Z",
+   "home": true,
+   "opponent": "HOU",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "3TV/AZFS/Suns+ on AZFS App",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Suns+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600209",
+   "type": "regular",
+   "startUtc": "2026-11-10T02:00:00Z",
+   "home": true,
+   "opponent": "SAS",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "3TV/AZFS/Suns+ on AZFS App",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Suns+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600213",
+   "type": "regular",
+   "startUtc": "2026-11-11T02:00:00Z",
+   "home": true,
+   "opponent": "LAC",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "3TV/AZFS/Suns+ on AZFS App",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Suns+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600230",
+   "type": "regular",
+   "startUtc": "2026-11-13T02:00:00Z",
+   "home": true,
+   "opponent": "CHA",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "3TV/AZFS/Suns+ on AZFS App",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Suns+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600237",
+   "type": "regular",
+   "startUtc": "2026-11-15T21:00:00Z",
+   "home": true,
+   "opponent": "LAL",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "3TV/AZFS/Suns+ on AZFS App",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Suns+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600252",
+   "type": "regular",
+   "startUtc": "2026-11-17T02:00:00Z",
+   "home": false,
+   "opponent": "DEN",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "3TV/AZFS/Suns+ on AZFS App",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Suns+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600269",
+   "type": "regular",
+   "startUtc": "2026-11-19T03:00:00Z",
+   "home": false,
+   "opponent": "SAC",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "3TV/AZFS/Suns+ on AZFS App",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Suns+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600049",
+   "type": "regular",
+   "startUtc": "2026-11-21T02:30:00Z",
+   "home": false,
+   "opponent": "UTA",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "3TV/AZFS/Suns+ on AZFS App",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Suns+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ],
+   "label": "Emirates NBA Cup - West Group A"
+  },
+  {
+   "id": "0022600293",
+   "type": "regular",
+   "startUtc": "2026-11-24T01:00:00Z",
+   "home": false,
+   "opponent": "NOP",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "3TV/AZFS/Suns+ on AZFS App",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Suns+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600061",
+   "type": "regular",
+   "startUtc": "2026-11-26T01:30:00Z",
+   "home": false,
+   "opponent": "HOU",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "3TV/AZFS/Suns+ on AZFS App",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Suns+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ],
+   "label": "Emirates NBA Cup - West Group A"
+  },
+  {
+   "id": "0022600070",
+   "type": "regular",
+   "startUtc": "2026-11-28T02:00:00Z",
+   "home": true,
+   "opponent": "DAL",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "3TV/AZFS/Suns+ on AZFS App",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Suns+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ],
+   "label": "Emirates NBA Cup - West Group A"
+  },
+  {
+   "id": "0022600304",
+   "type": "regular",
+   "startUtc": "2026-11-29T22:00:00Z",
+   "home": false,
+   "opponent": "UTA",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "3TV/AZFS/Suns+ on AZFS App",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Suns+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600324",
+   "type": "regular",
+   "startUtc": "2026-12-02T02:00:00Z",
+   "home": true,
+   "opponent": "LAC",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "3TV/AZFS/Suns+ on AZFS App",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Suns+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600334",
+   "type": "regular",
+   "startUtc": "2026-12-03T02:00:00Z",
+   "home": true,
+   "opponent": "SAC",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "3TV/AZFS/Suns+ on AZFS App",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Suns+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600346",
+   "type": "regular",
+   "startUtc": "2026-12-13T02:00:00Z",
+   "home": true,
+   "opponent": "MIN",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "3TV/AZFS/Suns+ on AZFS App",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Suns+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600363",
+   "type": "regular",
+   "startUtc": "2026-12-15T02:00:00Z",
+   "home": true,
+   "opponent": "ATL",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "3TV/AZFS/Suns+ on AZFS App",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Suns+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600370",
+   "type": "regular",
+   "startUtc": "2026-12-17T00:00:00Z",
+   "home": false,
+   "opponent": "DET",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "3TV/AZFS/Suns+ on AZFS App",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Suns+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600392",
+   "type": "regular",
+   "startUtc": "2026-12-19T01:00:00Z",
+   "home": false,
+   "opponent": "MIL",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "3TV/AZFS/Suns+ on AZFS App",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Suns+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600402",
+   "type": "regular",
+   "startUtc": "2026-12-20T21:00:00Z",
+   "home": false,
+   "opponent": "MEM",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "3TV/AZFS/Suns+ on AZFS App",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Suns+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600415",
+   "type": "regular",
+   "startUtc": "2026-12-22T01:00:00Z",
+   "home": false,
+   "opponent": "MIN",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "3TV/AZFS/Suns+ on AZFS App",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Suns+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600434",
+   "type": "regular",
+   "startUtc": "2026-12-24T02:00:00Z",
+   "home": true,
+   "opponent": "IND",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "3TV/AZFS/Suns+ on AZFS App",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Suns+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600444",
+   "type": "regular",
+   "startUtc": "2026-12-27T01:00:00Z",
+   "home": false,
+   "opponent": "DAL",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBA TV",
+     "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "3TV/AZFS/Suns+ on AZFS App",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Suns+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600460",
+   "type": "regular",
+   "startUtc": "2026-12-29T02:00:00Z",
+   "home": true,
+   "opponent": "GSW",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "3TV/AZFS/Suns+ on AZFS App",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Suns+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600474",
+   "type": "regular",
+   "startUtc": "2026-12-31T02:00:00Z",
+   "home": true,
+   "opponent": "PHI",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "3TV/AZFS/Suns+ on AZFS App",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Suns+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600485",
+   "type": "regular",
+   "startUtc": "2027-01-01T02:00:00Z",
+   "home": true,
+   "opponent": "NYK",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBA TV",
+     "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "3TV/AZFS/Suns+ on AZFS App",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Suns+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600500",
+   "type": "regular",
+   "startUtc": "2027-01-03T02:00:00Z",
+   "home": true,
+   "opponent": "SAC",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "3TV/AZFS/Suns+ on AZFS App",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Suns+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600513",
+   "type": "regular",
+   "startUtc": "2027-01-05T02:00:00Z",
+   "home": true,
+   "opponent": "BOS",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "3TV/AZFS/Suns+ on AZFS App",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Suns+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600523",
+   "type": "regular",
+   "startUtc": "2027-01-06T03:00:00Z",
+   "home": false,
+   "opponent": "DEN",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBC",
+     "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "Peacock",
+     "scope": "national",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600547",
+   "type": "regular",
+   "startUtc": "2027-01-09T02:30:00Z",
+   "home": false,
+   "opponent": "DAL",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "ESPN",
+     "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "3TV/AZFS/Suns+ on AZFS App",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Suns+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600562",
+   "type": "regular",
+   "startUtc": "2027-01-11T00:00:00Z",
+   "home": true,
+   "opponent": "CHI",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "3TV/AZFS/Suns+ on AZFS App",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Suns+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600581",
+   "type": "regular",
+   "startUtc": "2027-01-14T00:30:00Z",
+   "home": false,
+   "opponent": "TOR",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "3TV/AZFS/Suns+ on AZFS App",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Suns+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600594",
+   "type": "regular",
+   "startUtc": "2027-01-16T00:00:00Z",
+   "home": false,
+   "opponent": "IND",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "3TV/AZFS/Suns+ on AZFS App",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Suns+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600616",
+   "type": "regular",
+   "startUtc": "2027-01-19T03:30:00Z",
+   "home": false,
+   "opponent": "LAC",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBA TV",
+     "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "3TV/AZFS/Suns+ on AZFS App",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Suns+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600630",
+   "type": "regular",
+   "startUtc": "2027-01-21T02:00:00Z",
+   "home": true,
+   "opponent": "MEM",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "3TV/AZFS/Suns+ on AZFS App",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Suns+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600644",
+   "type": "regular",
+   "startUtc": "2027-01-23T02:00:00Z",
+   "home": true,
+   "opponent": "UTA",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "3TV/AZFS/Suns+ on AZFS App",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Suns+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600656",
+   "type": "regular",
+   "startUtc": "2027-01-24T21:00:00Z",
+   "home": true,
+   "opponent": "UTA",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "3TV/AZFS/Suns+ on AZFS App",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Suns+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600672",
+   "type": "regular",
+   "startUtc": "2027-01-27T00:30:00Z",
+   "home": false,
+   "opponent": "NYK",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "3TV/AZFS/Suns+ on AZFS App",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Suns+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600680",
+   "type": "regular",
+   "startUtc": "2027-01-28T00:30:00Z",
+   "home": false,
+   "opponent": "BKN",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "3TV/AZFS/Suns+ on AZFS App",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Suns+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600695",
+   "type": "regular",
+   "startUtc": "2027-01-30T00:30:00Z",
+   "home": false,
+   "opponent": "BOS",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "3TV/AZFS/Suns+ on AZFS App",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Suns+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600711",
+   "type": "regular",
+   "startUtc": "2027-01-31T23:00:00Z",
+   "home": false,
+   "opponent": "MIN",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "3TV/AZFS/Suns+ on AZFS App",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Suns+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600734",
+   "type": "regular",
+   "startUtc": "2027-02-04T02:00:00Z",
+   "home": true,
+   "opponent": "CLE",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "3TV/AZFS/Suns+ on AZFS App",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Suns+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600751",
+   "type": "regular",
+   "startUtc": "2027-02-06T02:00:00Z",
+   "home": true,
+   "opponent": "HOU",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "3TV/AZFS/Suns+ on AZFS App",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Suns+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600761",
+   "type": "regular",
+   "startUtc": "2027-02-07T03:00:00Z",
+   "home": false,
+   "opponent": "SAC",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "3TV/AZFS/Suns+ on AZFS App",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Suns+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600776",
+   "type": "regular",
+   "startUtc": "2027-02-09T02:30:00Z",
+   "home": true,
+   "opponent": "LAL",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "Peacock",
+     "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "NBC Sports Network",
+     "scope": "national",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600792",
+   "type": "regular",
+   "startUtc": "2027-02-11T02:00:00Z",
+   "home": true,
+   "opponent": "DET",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "3TV/AZFS/Suns+ on AZFS App",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Suns+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600801",
+   "type": "regular",
+   "startUtc": "2027-02-13T00:00:00Z",
+   "home": false,
+   "opponent": "ATL",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "3TV/AZFS/Suns+ on AZFS App",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Suns+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600818",
+   "type": "regular",
+   "startUtc": "2027-02-14T18:00:00Z",
+   "home": false,
+   "opponent": "CLE",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "3TV/AZFS/Suns+ on AZFS App",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Suns+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600823",
+   "type": "regular",
+   "startUtc": "2027-02-16T00:00:00Z",
+   "home": false,
+   "opponent": "WAS",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "3TV/AZFS/Suns+ on AZFS App",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Suns+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600836",
+   "type": "regular",
+   "startUtc": "2027-02-18T00:00:00Z",
+   "home": false,
+   "opponent": "PHI",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "3TV/AZFS/Suns+ on AZFS App",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Suns+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600856",
+   "type": "regular",
+   "startUtc": "2027-02-26T01:00:00Z",
+   "home": false,
+   "opponent": "NOP",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "3TV/AZFS/Suns+ on AZFS App",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Suns+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600871",
+   "type": "regular",
+   "startUtc": "2027-02-28T02:00:00Z",
+   "home": true,
+   "opponent": "NOP",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "3TV/AZFS/Suns+ on AZFS App",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Suns+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600886",
+   "type": "regular",
+   "startUtc": "2027-03-02T02:30:00Z",
+   "home": true,
+   "opponent": "WAS",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "Peacock",
+     "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "NBC Sports Network",
+     "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "3TV/AZFS/Suns+ on AZFS App",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Suns+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600901",
+   "type": "regular",
+   "startUtc": "2027-03-04T02:00:00Z",
+   "home": true,
+   "opponent": "BKN",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "3TV/AZFS/Suns+ on AZFS App",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Suns+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600915",
+   "type": "regular",
+   "startUtc": "2027-03-06T02:00:00Z",
+   "home": true,
+   "opponent": "MIN",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "3TV/AZFS/Suns+ on AZFS App",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Suns+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600932",
+   "type": "regular",
+   "startUtc": "2027-03-09T00:30:00Z",
+   "home": false,
+   "opponent": "MIA",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "3TV/AZFS/Suns+ on AZFS App",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Suns+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600938",
+   "type": "regular",
+   "startUtc": "2027-03-10T00:00:00Z",
+   "home": false,
+   "opponent": "ORL",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "3TV/AZFS/Suns+ on AZFS App",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Suns+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600958",
+   "type": "regular",
+   "startUtc": "2027-03-12T01:00:00Z",
+   "home": false,
+   "opponent": "CHI",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "3TV/AZFS/Suns+ on AZFS App",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Suns+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600971",
+   "type": "regular",
+   "startUtc": "2027-03-13T23:00:00Z",
+   "home": false,
+   "opponent": "CHA",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "3TV/AZFS/Suns+ on AZFS App",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Suns+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600986",
+   "type": "regular",
+   "startUtc": "2027-03-16T00:00:00Z",
+   "home": false,
+   "opponent": "MEM",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "3TV/AZFS/Suns+ on AZFS App",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Suns+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022601004",
+   "type": "regular",
+   "startUtc": "2027-03-18T02:00:00Z",
+   "home": false,
+   "opponent": "LAL",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "ESPN",
+     "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "3TV/AZFS/Suns+ on AZFS App",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Suns+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022601020",
+   "type": "regular",
+   "startUtc": "2027-03-20T02:30:00Z",
+   "home": true,
+   "opponent": "MIA",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBA TV",
+     "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "3TV/AZFS/Suns+ on AZFS App",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Suns+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022601031",
+   "type": "regular",
+   "startUtc": "2027-03-21T21:00:00Z",
+   "home": true,
+   "opponent": "POR",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "3TV/AZFS/Suns+ on AZFS App",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Suns+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022601048",
+   "type": "regular",
+   "startUtc": "2027-03-24T03:00:00Z",
+   "home": true,
+   "opponent": "OKC",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBC",
+     "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "Peacock",
+     "scope": "national",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022601057",
+   "type": "regular",
+   "startUtc": "2027-03-25T02:00:00Z",
+   "home": true,
+   "opponent": "OKC",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "3TV/AZFS/Suns+ on AZFS App",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Suns+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022601071",
+   "type": "regular",
+   "startUtc": "2027-03-27T02:00:00Z",
+   "home": true,
+   "opponent": "MIL",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "3TV/AZFS/Suns+ on AZFS App",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Suns+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022601087",
+   "type": "regular",
+   "startUtc": "2027-03-29T01:00:00Z",
+   "home": true,
+   "opponent": "TOR",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "3TV/AZFS/Suns+ on AZFS App",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Suns+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022601095",
+   "type": "regular",
+   "startUtc": "2027-03-30T01:30:00Z",
+   "home": false,
+   "opponent": "SAS",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "Peacock",
+     "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "NBC Sports Network",
+     "scope": "national",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022601110",
+   "type": "regular",
+   "startUtc": "2027-04-01T00:00:00Z",
+   "home": false,
+   "opponent": "SAS",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "3TV/AZFS/Suns+ on AZFS App",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Suns+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022601126",
+   "type": "regular",
+   "startUtc": "2027-04-03T02:00:00Z",
+   "home": true,
+   "opponent": "DEN",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "Prime Video",
+     "scope": "national",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022601138",
+   "type": "regular",
+   "startUtc": "2027-04-04T20:30:00Z",
+   "home": false,
+   "opponent": "LAC",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "3TV/AZFS/Suns+ on AZFS App",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Suns+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022601157",
+   "type": "regular",
+   "startUtc": "2027-04-07T03:00:00Z",
+   "home": false,
+   "opponent": "GSW",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBC",
+     "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "Peacock",
+     "scope": "national",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022601184",
+   "type": "regular",
+   "startUtc": "2027-04-10T02:00:00Z",
+   "home": true,
+   "opponent": "MEM",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "3TV/AZFS/Suns+ on AZFS App",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Suns+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022601200",
+   "type": "regular",
+   "startUtc": "2027-04-12T00:30:00Z",
+   "home": false,
+   "opponent": "LAL",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "3TV/AZFS/Suns+ on AZFS App",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Suns+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  }
+ ]
+}

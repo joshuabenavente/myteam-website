@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-13T23:45:38.685Z",
+ "updatedAt": "2026-10-14T04:19:04.904Z",
  "teams": {
   "ATL": [
    {
@@ -287,6 +287,13 @@
     "returnDate": "2026-10-16"
    },
    {
+    "name": "Draymond Green",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Rest",
+    "returnDate": "2026-10-16"
+   },
+   {
     "name": "Kristaps Porzingis",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
@@ -333,11 +340,32 @@
     "returnDate": "2027-01-01"
    },
    {
+    "name": "Aaron Nesmith",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Rest",
+    "returnDate": "2026-10-16"
+   },
+   {
+    "name": "Andrew Nembhard",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Undisclosed",
+    "returnDate": "2026-10-16"
+   },
+   {
+    "name": "Jarace Walker",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Undisclosed",
+    "returnDate": "2026-10-16"
+   },
+   {
     "name": "T.J. McConnell",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Undisclosed",
-    "returnDate": "2026-10-13"
+    "returnDate": "2026-10-16"
    }
   ],
   "LAC": [
@@ -416,6 +444,13 @@
   ],
   "LAL": [
    {
+    "name": "Adou Thiero",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Undisclosed",
+    "returnDate": "2026-10-16"
+   },
+   {
     "name": "Arthur Kaluma",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
@@ -427,14 +462,14 @@
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Undisclosed (bruise)",
-    "returnDate": "2026-10-13"
+    "returnDate": "2026-10-16"
    },
    {
     "name": "Collin Sexton",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Lower Leg",
-    "returnDate": "2026-10-13"
+    "returnDate": "2026-10-16"
    },
    {
     "name": "Dalton Knecht",
@@ -444,18 +479,18 @@
     "returnDate": "2026-10-13"
    },
    {
-    "name": "Walker Kessler",
+    "name": "Luka Doncic",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
-    "reason": "Finger",
-    "returnDate": "2026-10-13"
+    "reason": "Rest",
+    "returnDate": "2026-10-16"
    },
    {
     "name": "Ziaire Williams",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Foot (bruise)",
-    "returnDate": "2026-10-13"
+    "returnDate": "2026-10-16"
    }
   ],
   "MEM": [
@@ -675,6 +710,13 @@
     "returnDate": "2026-10-15"
    },
    {
+    "name": "Otega Oweh",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Lower Leg",
+    "returnDate": "2026-10-15"
+   },
+   {
     "name": "Thomas Sorber",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
@@ -832,18 +874,46 @@
     "returnDate": "2026-10-25"
    },
    {
+    "name": "Ben Simmons",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Rest",
+    "returnDate": "2026-10-16"
+   },
+   {
+    "name": "Darius Acuff Jr.",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Rest",
+    "returnDate": "2026-10-16"
+   },
+   {
+    "name": "De'Andre Hunter",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Rest",
+    "returnDate": "2026-10-16"
+   },
+   {
     "name": "Domantas Sabonis",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Undisclosed",
-    "returnDate": "2026-10-13"
+    "returnDate": "2026-10-16"
    },
    {
     "name": "Malik Monk",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Rest",
-    "returnDate": "2026-10-13"
+    "returnDate": "2026-10-16"
+   },
+   {
+    "name": "Zach LaVine",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Rest",
+    "returnDate": "2026-10-16"
    }
   ],
   "SAS": [

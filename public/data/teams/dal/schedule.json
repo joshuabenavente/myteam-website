@@ -1,0 +1,958 @@
+{
+ "season": "2026-27",
+ "games": [
+  {
+   "id": "0022600091",
+   "type": "regular",
+   "startUtc": "2026-10-22T00:30:00Z",
+   "home": false,
+   "opponent": "HOU",
+   "status": "scheduled",
+   "broadcasts": []
+  },
+  {
+   "id": "0022600095",
+   "type": "regular",
+   "startUtc": "2026-10-23T23:00:00Z",
+   "home": false,
+   "opponent": "IND",
+   "status": "scheduled",
+   "broadcasts": []
+  },
+  {
+   "id": "0022600109",
+   "type": "regular",
+   "startUtc": "2026-10-25T00:00:00Z",
+   "home": true,
+   "opponent": "SAS",
+   "status": "scheduled",
+   "broadcasts": []
+  },
+  {
+   "id": "0022600122",
+   "type": "regular",
+   "startUtc": "2026-10-26T23:30:00Z",
+   "home": false,
+   "opponent": "MIA",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBA TV",
+     "scope": "national",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600142",
+   "type": "regular",
+   "startUtc": "2026-10-29T01:30:00Z",
+   "home": true,
+   "opponent": "OKC",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "ESPN",
+     "scope": "national",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600021",
+   "type": "regular",
+   "startUtc": "2026-10-31T00:00:00Z",
+   "home": true,
+   "opponent": "HOU",
+   "status": "scheduled",
+   "broadcasts": [],
+   "label": "Emirates NBA Cup - West Group A"
+  },
+  {
+   "id": "0022600164",
+   "type": "regular",
+   "startUtc": "2026-11-03T01:00:00Z",
+   "home": true,
+   "opponent": "SAC",
+   "status": "scheduled",
+   "broadcasts": []
+  },
+  {
+   "id": "0022600184",
+   "type": "regular",
+   "startUtc": "2026-11-05T02:30:00Z",
+   "home": false,
+   "opponent": "SAS",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "ESPN",
+     "scope": "national",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600028",
+   "type": "regular",
+   "startUtc": "2026-11-07T01:00:00Z",
+   "home": true,
+   "opponent": "UTA",
+   "status": "scheduled",
+   "broadcasts": [],
+   "label": "Emirates NBA Cup - West Group A"
+  },
+  {
+   "id": "0022600199",
+   "type": "regular",
+   "startUtc": "2026-11-09T00:30:00Z",
+   "home": true,
+   "opponent": "BKN",
+   "status": "scheduled",
+   "broadcasts": []
+  },
+  {
+   "id": "0022600207",
+   "type": "regular",
+   "startUtc": "2026-11-10T01:00:00Z",
+   "home": true,
+   "opponent": "IND",
+   "status": "scheduled",
+   "broadcasts": []
+  },
+  {
+   "id": "0022600229",
+   "type": "regular",
+   "startUtc": "2026-11-13T01:00:00Z",
+   "home": false,
+   "opponent": "MIN",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBA TV",
+     "scope": "national",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600232",
+   "type": "regular",
+   "startUtc": "2026-11-15T00:30:00Z",
+   "home": false,
+   "opponent": "CLE",
+   "status": "scheduled",
+   "broadcasts": []
+  },
+  {
+   "id": "0022600240",
+   "type": "regular",
+   "startUtc": "2026-11-15T23:00:00Z",
+   "home": false,
+   "opponent": "BOS",
+   "status": "scheduled",
+   "broadcasts": []
+  },
+  {
+   "id": "0022600267",
+   "type": "regular",
+   "startUtc": "2026-11-19T02:30:00Z",
+   "home": true,
+   "opponent": "GSW",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "ESPN",
+     "scope": "national",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600276",
+   "type": "regular",
+   "startUtc": "2026-11-22T01:00:00Z",
+   "home": true,
+   "opponent": "LAC",
+   "status": "scheduled",
+   "broadcasts": []
+  },
+  {
+   "id": "0022600284",
+   "type": "regular",
+   "startUtc": "2026-11-23T00:00:00Z",
+   "home": false,
+   "opponent": "UTA",
+   "status": "scheduled",
+   "broadcasts": []
+  },
+  {
+   "id": "0022600054",
+   "type": "regular",
+   "startUtc": "2026-11-25T03:00:00Z",
+   "home": false,
+   "opponent": "DEN",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBC",
+     "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "Peacock",
+     "scope": "national",
+     "kind": "tv"
+    }
+   ],
+   "label": "Emirates NBA Cup - West Group A"
+  },
+  {
+   "id": "0022600070",
+   "type": "regular",
+   "startUtc": "2026-11-28T02:00:00Z",
+   "home": false,
+   "opponent": "PHX",
+   "status": "scheduled",
+   "broadcasts": [],
+   "label": "Emirates NBA Cup - West Group A"
+  },
+  {
+   "id": "0022600316",
+   "type": "regular",
+   "startUtc": "2026-12-01T01:00:00Z",
+   "home": true,
+   "opponent": "BOS",
+   "status": "scheduled",
+   "broadcasts": []
+  },
+  {
+   "id": "0022600330",
+   "type": "regular",
+   "startUtc": "2026-12-03T01:00:00Z",
+   "home": true,
+   "opponent": "ORL",
+   "status": "scheduled",
+   "broadcasts": []
+  },
+  {
+   "id": "0022600360",
+   "type": "regular",
+   "startUtc": "2026-12-15T01:00:00Z",
+   "home": true,
+   "opponent": "MIL",
+   "status": "scheduled",
+   "broadcasts": []
+  },
+  {
+   "id": "0022600373",
+   "type": "regular",
+   "startUtc": "2026-12-17T00:30:00Z",
+   "home": false,
+   "opponent": "BKN",
+   "status": "scheduled",
+   "broadcasts": []
+  },
+  {
+   "id": "0022600382",
+   "type": "regular",
+   "startUtc": "2026-12-18T00:00:00Z",
+   "home": false,
+   "opponent": "PHI",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBA TV",
+     "scope": "national",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600398",
+   "type": "regular",
+   "startUtc": "2026-12-20T01:00:00Z",
+   "home": true,
+   "opponent": "CHI",
+   "status": "scheduled",
+   "broadcasts": []
+  },
+  {
+   "id": "0022600422",
+   "type": "regular",
+   "startUtc": "2026-12-23T03:30:00Z",
+   "home": false,
+   "opponent": "GSW",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBC",
+     "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "Peacock",
+     "scope": "national",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600436",
+   "type": "regular",
+   "startUtc": "2026-12-24T03:00:00Z",
+   "home": false,
+   "opponent": "SAC",
+   "status": "scheduled",
+   "broadcasts": []
+  },
+  {
+   "id": "0022600444",
+   "type": "regular",
+   "startUtc": "2026-12-27T01:00:00Z",
+   "home": true,
+   "opponent": "PHX",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBA TV",
+     "scope": "national",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600465",
+   "type": "regular",
+   "startUtc": "2026-12-30T01:00:00Z",
+   "home": true,
+   "opponent": "MIA",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBC",
+     "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "Peacock",
+     "scope": "national",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600490",
+   "type": "regular",
+   "startUtc": "2027-01-02T01:30:00Z",
+   "home": false,
+   "opponent": "HOU",
+   "status": "scheduled",
+   "broadcasts": []
+  },
+  {
+   "id": "0022600496",
+   "type": "regular",
+   "startUtc": "2027-01-03T00:30:00Z",
+   "home": false,
+   "opponent": "ATL",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBA TV",
+     "scope": "national",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600512",
+   "type": "regular",
+   "startUtc": "2027-01-05T01:00:00Z",
+   "home": false,
+   "opponent": "NOP",
+   "status": "scheduled",
+   "broadcasts": []
+  },
+  {
+   "id": "0022600536",
+   "type": "regular",
+   "startUtc": "2027-01-08T01:00:00Z",
+   "home": true,
+   "opponent": "POR",
+   "status": "scheduled",
+   "broadcasts": []
+  },
+  {
+   "id": "0022600547",
+   "type": "regular",
+   "startUtc": "2027-01-09T02:30:00Z",
+   "home": true,
+   "opponent": "PHX",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "ESPN",
+     "scope": "national",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600561",
+   "type": "regular",
+   "startUtc": "2027-01-10T23:00:00Z",
+   "home": false,
+   "opponent": "MEM",
+   "status": "scheduled",
+   "broadcasts": []
+  },
+  {
+   "id": "0022600573",
+   "type": "regular",
+   "startUtc": "2027-01-13T01:00:00Z",
+   "home": false,
+   "opponent": "MEM",
+   "status": "scheduled",
+   "broadcasts": []
+  },
+  {
+   "id": "0022600585",
+   "type": "regular",
+   "startUtc": "2027-01-15T00:00:00Z",
+   "home": false,
+   "opponent": "DET",
+   "status": "scheduled",
+   "broadcasts": []
+  },
+  {
+   "id": "0022600603",
+   "type": "regular",
+   "startUtc": "2027-01-17T00:30:00Z",
+   "home": false,
+   "opponent": "NYK",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBA TV",
+     "scope": "national",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600615",
+   "type": "regular",
+   "startUtc": "2027-01-19T01:00:00Z",
+   "home": true,
+   "opponent": "OKC",
+   "status": "scheduled",
+   "broadcasts": []
+  },
+  {
+   "id": "0022600621",
+   "type": "regular",
+   "startUtc": "2027-01-20T01:00:00Z",
+   "home": true,
+   "opponent": "CHA",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBC",
+     "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "Peacock",
+     "scope": "national",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600642",
+   "type": "regular",
+   "startUtc": "2027-01-23T01:00:00Z",
+   "home": false,
+   "opponent": "NOP",
+   "status": "scheduled",
+   "broadcasts": []
+  },
+  {
+   "id": "0022600653",
+   "type": "regular",
+   "startUtc": "2027-01-24T01:00:00Z",
+   "home": true,
+   "opponent": "CLE",
+   "status": "scheduled",
+   "broadcasts": []
+  },
+  {
+   "id": "0022600666",
+   "type": "regular",
+   "startUtc": "2027-01-26T01:00:00Z",
+   "home": false,
+   "opponent": "CHI",
+   "status": "scheduled",
+   "broadcasts": []
+  },
+  {
+   "id": "0022600681",
+   "type": "regular",
+   "startUtc": "2027-01-28T00:30:00Z",
+   "home": false,
+   "opponent": "TOR",
+   "status": "scheduled",
+   "broadcasts": []
+  },
+  {
+   "id": "0022600697",
+   "type": "regular",
+   "startUtc": "2027-01-30T01:00:00Z",
+   "home": true,
+   "opponent": "DET",
+   "status": "scheduled",
+   "broadcasts": []
+  },
+  {
+   "id": "0022600715",
+   "type": "regular",
+   "startUtc": "2027-02-01T01:30:00Z",
+   "home": true,
+   "opponent": "HOU",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "Telemundo",
+     "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "NBC",
+     "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "Peacock",
+     "scope": "national",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600727",
+   "type": "regular",
+   "startUtc": "2027-02-03T01:00:00Z",
+   "home": true,
+   "opponent": "TOR",
+   "status": "scheduled",
+   "broadcasts": []
+  },
+  {
+   "id": "0022600744",
+   "type": "regular",
+   "startUtc": "2027-02-05T03:00:00Z",
+   "home": false,
+   "opponent": "DEN",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "Prime Video",
+     "scope": "national",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600753",
+   "type": "regular",
+   "startUtc": "2027-02-06T20:00:00Z",
+   "home": true,
+   "opponent": "UTA",
+   "status": "scheduled",
+   "broadcasts": []
+  },
+  {
+   "id": "0022600765",
+   "type": "regular",
+   "startUtc": "2027-02-07T21:30:00Z",
+   "home": true,
+   "opponent": "LAC",
+   "status": "scheduled",
+   "broadcasts": []
+  },
+  {
+   "id": "0022600782",
+   "type": "regular",
+   "startUtc": "2027-02-10T01:00:00Z",
+   "home": true,
+   "opponent": "SAS",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBC",
+     "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "Peacock",
+     "scope": "national",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600797",
+   "type": "regular",
+   "startUtc": "2027-02-12T01:00:00Z",
+   "home": true,
+   "opponent": "POR",
+   "status": "scheduled",
+   "broadcasts": []
+  },
+  {
+   "id": "0022600810",
+   "type": "regular",
+   "startUtc": "2027-02-13T20:00:00Z",
+   "home": false,
+   "opponent": "CHA",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "Prime Video",
+     "scope": "national",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600082",
+   "type": "regular",
+   "startUtc": "2027-02-15T19:30:00Z",
+   "home": true,
+   "opponent": "PHI",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBC",
+     "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "Peacock",
+     "scope": "national",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600835",
+   "type": "regular",
+   "startUtc": "2027-02-18T00:00:00Z",
+   "home": false,
+   "opponent": "ORL",
+   "status": "scheduled",
+   "broadcasts": []
+  },
+  {
+   "id": "0022600857",
+   "type": "regular",
+   "startUtc": "2027-02-26T03:00:00Z",
+   "home": false,
+   "opponent": "GSW",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "Prime Video",
+     "scope": "national",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600865",
+   "type": "regular",
+   "startUtc": "2027-02-27T03:00:00Z",
+   "home": false,
+   "opponent": "POR",
+   "status": "scheduled",
+   "broadcasts": []
+  },
+  {
+   "id": "0022600873",
+   "type": "regular",
+   "startUtc": "2027-02-28T20:30:00Z",
+   "home": true,
+   "opponent": "LAL",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "ABC",
+     "scope": "national",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600891",
+   "type": "regular",
+   "startUtc": "2027-03-03T01:00:00Z",
+   "home": true,
+   "opponent": "GSW",
+   "status": "scheduled",
+   "broadcasts": []
+  },
+  {
+   "id": "0022600907",
+   "type": "regular",
+   "startUtc": "2027-03-05T02:30:00Z",
+   "home": true,
+   "opponent": "NYK",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "Prime Video",
+     "scope": "national",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600935",
+   "type": "regular",
+   "startUtc": "2027-03-09T02:30:00Z",
+   "home": false,
+   "opponent": "OKC",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "Peacock",
+     "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "NBC Sports Network",
+     "scope": "national",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600942",
+   "type": "regular",
+   "startUtc": "2027-03-10T01:00:00Z",
+   "home": true,
+   "opponent": "MEM",
+   "status": "scheduled",
+   "broadcasts": []
+  },
+  {
+   "id": "0022600959",
+   "type": "regular",
+   "startUtc": "2027-03-12T01:00:00Z",
+   "home": true,
+   "opponent": "WAS",
+   "status": "scheduled",
+   "broadcasts": []
+  },
+  {
+   "id": "0022600973",
+   "type": "regular",
+   "startUtc": "2027-03-14T01:00:00Z",
+   "home": true,
+   "opponent": "NOP",
+   "status": "scheduled",
+   "broadcasts": []
+  },
+  {
+   "id": "0022600987",
+   "type": "regular",
+   "startUtc": "2027-03-16T01:30:00Z",
+   "home": true,
+   "opponent": "ATL",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "Peacock",
+     "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "NBC Sports Network",
+     "scope": "national",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022601000",
+   "type": "regular",
+   "startUtc": "2027-03-17T23:30:00Z",
+   "home": false,
+   "opponent": "OKC",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "ESPN",
+     "scope": "national",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022601017",
+   "type": "regular",
+   "startUtc": "2027-03-20T00:00:00Z",
+   "home": false,
+   "opponent": "SAS",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBA TV",
+     "scope": "national",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022601034",
+   "type": "regular",
+   "startUtc": "2027-03-22T02:00:00Z",
+   "home": false,
+   "opponent": "LAL",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBC",
+     "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "Peacock",
+     "scope": "national",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022601042",
+   "type": "regular",
+   "startUtc": "2027-03-23T02:30:00Z",
+   "home": false,
+   "opponent": "LAC",
+   "status": "scheduled",
+   "broadcasts": []
+  },
+  {
+   "id": "0022601055",
+   "type": "regular",
+   "startUtc": "2027-03-25T00:00:00Z",
+   "home": false,
+   "opponent": "MIN",
+   "status": "scheduled",
+   "broadcasts": []
+  },
+  {
+   "id": "0022601068",
+   "type": "regular",
+   "startUtc": "2027-03-27T00:00:00Z",
+   "home": true,
+   "opponent": "NOP",
+   "status": "scheduled",
+   "broadcasts": []
+  },
+  {
+   "id": "0022601084",
+   "type": "regular",
+   "startUtc": "2027-03-28T22:00:00Z",
+   "home": false,
+   "opponent": "WAS",
+   "status": "scheduled",
+   "broadcasts": []
+  },
+  {
+   "id": "0022601094",
+   "type": "regular",
+   "startUtc": "2027-03-30T00:00:00Z",
+   "home": false,
+   "opponent": "MIL",
+   "status": "scheduled",
+   "broadcasts": []
+  },
+  {
+   "id": "0022601111",
+   "type": "regular",
+   "startUtc": "2027-04-01T01:30:00Z",
+   "home": true,
+   "opponent": "DEN",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "ESPN",
+     "scope": "national",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022601122",
+   "type": "regular",
+   "startUtc": "2027-04-03T00:00:00Z",
+   "home": true,
+   "opponent": "SAC",
+   "status": "scheduled",
+   "broadcasts": []
+  },
+  {
+   "id": "0022601135",
+   "type": "regular",
+   "startUtc": "2027-04-04T19:00:00Z",
+   "home": true,
+   "opponent": "MIN",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBA TV",
+     "scope": "national",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022601155",
+   "type": "regular",
+   "startUtc": "2027-04-07T02:00:00Z",
+   "home": false,
+   "opponent": "LAL",
+   "status": "scheduled",
+   "broadcasts": []
+  },
+  {
+   "id": "0022601166",
+   "type": "regular",
+   "startUtc": "2027-04-08T02:00:00Z",
+   "home": false,
+   "opponent": "POR",
+   "status": "scheduled",
+   "broadcasts": []
+  },
+  {
+   "id": "0022601185",
+   "type": "regular",
+   "startUtc": "2027-04-10T02:00:00Z",
+   "home": false,
+   "opponent": "SAC",
+   "status": "scheduled",
+   "broadcasts": []
+  },
+  {
+   "id": "0022601194",
+   "type": "regular",
+   "startUtc": "2027-04-12T00:30:00Z",
+   "home": true,
+   "opponent": "MEM",
+   "status": "scheduled",
+   "broadcasts": []
+  }
+ ]
+}

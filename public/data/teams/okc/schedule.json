@@ -1,0 +1,1691 @@
+{
+ "season": "2026-27",
+ "games": [
+  {
+   "id": "0022600003",
+   "type": "regular",
+   "startUtc": "2026-10-21T01:30:00Z",
+   "home": false,
+   "opponent": "SAS",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBC",
+     "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "Peacock",
+     "scope": "national",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600007",
+   "type": "regular",
+   "startUtc": "2026-10-23T01:30:00Z",
+   "home": true,
+   "opponent": "DEN",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "ESPN",
+     "scope": "national",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600116",
+   "type": "regular",
+   "startUtc": "2026-10-25T23:00:00Z",
+   "home": true,
+   "opponent": "LAC",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "KSBI OKC",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Thunder+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600124",
+   "type": "regular",
+   "startUtc": "2026-10-27T00:00:00Z",
+   "home": true,
+   "opponent": "PHX",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "KSBI OKC",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Thunder+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600142",
+   "type": "regular",
+   "startUtc": "2026-10-29T01:30:00Z",
+   "home": false,
+   "opponent": "DAL",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "ESPN",
+     "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "KSBI OKC",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Thunder+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600153",
+   "type": "regular",
+   "startUtc": "2026-11-01T00:30:00Z",
+   "home": false,
+   "opponent": "HOU",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBA TV",
+     "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "KSBI/KWTV OKC",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Thunder+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600158",
+   "type": "regular",
+   "startUtc": "2026-11-03T00:00:00Z",
+   "home": false,
+   "opponent": "CLE",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "Peacock",
+     "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "NBC Sports Network",
+     "scope": "national",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600180",
+   "type": "regular",
+   "startUtc": "2026-11-05T01:00:00Z",
+   "home": true,
+   "opponent": "CLE",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "KSBI OKC",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Thunder+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600029",
+   "type": "regular",
+   "startUtc": "2026-11-07T01:00:00Z",
+   "home": false,
+   "opponent": "MEM",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "KSBI OKC",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Thunder+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ],
+   "label": "Emirates NBA Cup - West Group B"
+  },
+  {
+   "id": "0022600192",
+   "type": "regular",
+   "startUtc": "2026-11-08T01:00:00Z",
+   "home": true,
+   "opponent": "WAS",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "KSBI OKC",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Thunder+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600216",
+   "type": "regular",
+   "startUtc": "2026-11-11T04:00:00Z",
+   "home": false,
+   "opponent": "POR",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBC",
+     "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "Peacock",
+     "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "KSBI OKC",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Thunder+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600226",
+   "type": "regular",
+   "startUtc": "2026-11-12T03:00:00Z",
+   "home": false,
+   "opponent": "POR",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "KSBI OKC",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Thunder+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600042",
+   "type": "regular",
+   "startUtc": "2026-11-14T03:30:00Z",
+   "home": false,
+   "opponent": "LAC",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "KSBI OKC",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Thunder+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ],
+   "label": "Emirates NBA Cup - West Group B"
+  },
+  {
+   "id": "0022600244",
+   "type": "regular",
+   "startUtc": "2026-11-16T02:00:00Z",
+   "home": false,
+   "opponent": "SAC",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "KSBI OKC",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Thunder+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600265",
+   "type": "regular",
+   "startUtc": "2026-11-19T01:00:00Z",
+   "home": true,
+   "opponent": "ATL",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "KSBI OKC",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Thunder+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600048",
+   "type": "regular",
+   "startUtc": "2026-11-21T01:00:00Z",
+   "home": true,
+   "opponent": "NOP",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "KSBI OKC",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Thunder+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ],
+   "label": "Emirates NBA Cup - West Group B"
+  },
+  {
+   "id": "0022600281",
+   "type": "regular",
+   "startUtc": "2026-11-22T23:00:00Z",
+   "home": false,
+   "opponent": "MIA",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "KSBI OKC",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Thunder+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600289",
+   "type": "regular",
+   "startUtc": "2026-11-24T00:30:00Z",
+   "home": false,
+   "opponent": "IND",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "KSBI OKC",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Thunder+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600058",
+   "type": "regular",
+   "startUtc": "2026-11-26T00:30:00Z",
+   "home": true,
+   "opponent": "MIN",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "ESPN",
+     "scope": "national",
+     "kind": "tv"
+    }
+   ],
+   "label": "Emirates NBA Cup - West Group B"
+  },
+  {
+   "id": "0022600300",
+   "type": "regular",
+   "startUtc": "2026-11-29T01:00:00Z",
+   "home": false,
+   "opponent": "MIL",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "KSBI/KWTV OKC",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Thunder+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600314",
+   "type": "regular",
+   "startUtc": "2026-12-01T00:30:00Z",
+   "home": false,
+   "opponent": "BKN",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "KSBI OKC",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Thunder+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600333",
+   "type": "regular",
+   "startUtc": "2026-12-03T01:00:00Z",
+   "home": true,
+   "opponent": "BKN",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "KSBI OKC",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Thunder+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600350",
+   "type": "regular",
+   "startUtc": "2026-12-13T20:30:00Z",
+   "home": true,
+   "opponent": "TOR",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "KSBI OKC",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Thunder+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600378",
+   "type": "regular",
+   "startUtc": "2026-12-17T01:00:00Z",
+   "home": true,
+   "opponent": "SAC",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "KSBI OKC",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Thunder+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600384",
+   "type": "regular",
+   "startUtc": "2026-12-19T00:00:00Z",
+   "home": false,
+   "opponent": "CHA",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "KSBI OKC",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Thunder+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600405",
+   "type": "regular",
+   "startUtc": "2026-12-21T00:00:00Z",
+   "home": false,
+   "opponent": "ATL",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "KSBI OKC",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Thunder+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600421",
+   "type": "regular",
+   "startUtc": "2026-12-23T01:00:00Z",
+   "home": true,
+   "opponent": "DET",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBC",
+     "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "Peacock",
+     "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "KSBI OKC",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Thunder+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600433",
+   "type": "regular",
+   "startUtc": "2026-12-24T01:00:00Z",
+   "home": false,
+   "opponent": "NOP",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "KSBI OKC",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Thunder+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600013",
+   "type": "regular",
+   "startUtc": "2026-12-26T01:00:00Z",
+   "home": false,
+   "opponent": "MIN",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "ABC",
+     "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "ESPN",
+     "scope": "national",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600446",
+   "type": "regular",
+   "startUtc": "2026-12-27T20:30:00Z",
+   "home": false,
+   "opponent": "HOU",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "KSBI OKC",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Thunder+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600467",
+   "type": "regular",
+   "startUtc": "2026-12-30T01:00:00Z",
+   "home": true,
+   "opponent": "MIL",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "KSBI OKC",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Thunder+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600484",
+   "type": "regular",
+   "startUtc": "2027-01-01T01:00:00Z",
+   "home": true,
+   "opponent": "MIA",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "KSBI OKC",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Thunder+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600498",
+   "type": "regular",
+   "startUtc": "2027-01-03T01:00:00Z",
+   "home": true,
+   "opponent": "UTA",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "KSBI OKC",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Thunder+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600509",
+   "type": "regular",
+   "startUtc": "2027-01-04T01:00:00Z",
+   "home": true,
+   "opponent": "SAC",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "KSBI OKC",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Thunder+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600526",
+   "type": "regular",
+   "startUtc": "2027-01-07T00:30:00Z",
+   "home": false,
+   "opponent": "PHI",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "ESPN",
+     "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "KSBI OKC",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Thunder+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600533",
+   "type": "regular",
+   "startUtc": "2027-01-08T00:00:00Z",
+   "home": false,
+   "opponent": "WAS",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "KSBI OKC",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Thunder+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600559",
+   "type": "regular",
+   "startUtc": "2027-01-10T23:00:00Z",
+   "home": false,
+   "opponent": "ORL",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "KSBI OKC",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Thunder+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600582",
+   "type": "regular",
+   "startUtc": "2027-01-14T02:30:00Z",
+   "home": true,
+   "opponent": "HOU",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "ESPN",
+     "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "KSBI OKC",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Thunder+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600597",
+   "type": "regular",
+   "startUtc": "2027-01-16T01:00:00Z",
+   "home": true,
+   "opponent": "UTA",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBA TV",
+     "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "KSBI OKC",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Thunder+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600609",
+   "type": "regular",
+   "startUtc": "2027-01-17T20:30:00Z",
+   "home": true,
+   "opponent": "POR",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "KSBI OKC",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Thunder+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600615",
+   "type": "regular",
+   "startUtc": "2027-01-19T01:00:00Z",
+   "home": false,
+   "opponent": "DAL",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "KSBI/KWTV OKC",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Thunder+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600629",
+   "type": "regular",
+   "startUtc": "2027-01-21T01:00:00Z",
+   "home": false,
+   "opponent": "NOP",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "KSBI OKC",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Thunder+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600643",
+   "type": "regular",
+   "startUtc": "2027-01-23T01:00:00Z",
+   "home": true,
+   "opponent": "MEM",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "KSBI OKC",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Thunder+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600661",
+   "type": "regular",
+   "startUtc": "2027-01-25T01:30:00Z",
+   "home": false,
+   "opponent": "GSW",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "Telemundo",
+     "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "NBC",
+     "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "Peacock",
+     "scope": "national",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600676",
+   "type": "regular",
+   "startUtc": "2027-01-27T04:00:00Z",
+   "home": false,
+   "opponent": "LAL",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBC",
+     "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "Peacock",
+     "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "KSBI OKC",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Thunder+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ],
+   "label": "AWS NBA Rivals Week"
+  },
+  {
+   "id": "0022600691",
+   "type": "regular",
+   "startUtc": "2027-01-29T01:00:00Z",
+   "home": true,
+   "opponent": "MEM",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "KSBI OKC",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Thunder+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600701",
+   "type": "regular",
+   "startUtc": "2027-01-30T20:00:00Z",
+   "home": true,
+   "opponent": "DEN",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "ABC",
+     "scope": "national",
+     "kind": "tv"
+    }
+   ],
+   "label": "AWS NBA Rivals Week"
+  },
+  {
+   "id": "0022600712",
+   "type": "regular",
+   "startUtc": "2027-01-31T23:00:00Z",
+   "home": true,
+   "opponent": "CHI",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "KSBI OKC",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Thunder+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600728",
+   "type": "regular",
+   "startUtc": "2027-02-03T02:00:00Z",
+   "home": false,
+   "opponent": "DEN",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "KSBI OKC",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Thunder+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600742",
+   "type": "regular",
+   "startUtc": "2027-02-05T01:00:00Z",
+   "home": false,
+   "opponent": "CHI",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "KSBI OKC",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Thunder+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600752",
+   "type": "regular",
+   "startUtc": "2027-02-06T02:30:00Z",
+   "home": true,
+   "opponent": "IND",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "Prime Video",
+     "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "KSBI OKC",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Thunder+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600768",
+   "type": "regular",
+   "startUtc": "2027-02-08T02:30:00Z",
+   "home": true,
+   "opponent": "NYK",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBC",
+     "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "Peacock",
+     "scope": "national",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600784",
+   "type": "regular",
+   "startUtc": "2027-02-10T01:00:00Z",
+   "home": true,
+   "opponent": "POR",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "KSBI OKC",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Thunder+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600800",
+   "type": "regular",
+   "startUtc": "2027-02-12T02:30:00Z",
+   "home": true,
+   "opponent": "SAS",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "Prime Video",
+     "scope": "national",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600812",
+   "type": "regular",
+   "startUtc": "2027-02-13T22:30:00Z",
+   "home": true,
+   "opponent": "PHI",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "Prime Video",
+     "scope": "national",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600825",
+   "type": "regular",
+   "startUtc": "2027-02-16T01:00:00Z",
+   "home": true,
+   "opponent": "ORL",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "KSBI OKC",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Thunder+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600841",
+   "type": "regular",
+   "startUtc": "2027-02-18T02:30:00Z",
+   "home": true,
+   "opponent": "BOS",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "ESPN",
+     "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "KSBI OKC",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Thunder+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600853",
+   "type": "regular",
+   "startUtc": "2027-02-26T00:30:00Z",
+   "home": false,
+   "opponent": "NYK",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "Prime Video",
+     "scope": "national",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600867",
+   "type": "regular",
+   "startUtc": "2027-02-27T22:30:00Z",
+   "home": false,
+   "opponent": "DET",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "Prime Video",
+     "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "KSBI OKC",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Thunder+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600893",
+   "type": "regular",
+   "startUtc": "2027-03-03T01:00:00Z",
+   "home": true,
+   "opponent": "MIN",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBC",
+     "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "Peacock",
+     "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "KSBI OKC",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Thunder+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600909",
+   "type": "regular",
+   "startUtc": "2027-03-05T03:00:00Z",
+   "home": false,
+   "opponent": "SAC",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "KSBI OKC",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Thunder+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600922",
+   "type": "regular",
+   "startUtc": "2027-03-07T01:30:00Z",
+   "home": false,
+   "opponent": "LAL",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "ABC",
+     "scope": "national",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600935",
+   "type": "regular",
+   "startUtc": "2027-03-09T02:30:00Z",
+   "home": true,
+   "opponent": "DAL",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "Peacock",
+     "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "NBC Sports Network",
+     "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "KSBI OKC",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Thunder+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600947",
+   "type": "regular",
+   "startUtc": "2027-03-11T00:30:00Z",
+   "home": false,
+   "opponent": "TOR",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "KSBI OKC",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Thunder+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600962",
+   "type": "regular",
+   "startUtc": "2027-03-13T00:30:00Z",
+   "home": false,
+   "opponent": "BOS",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "Prime Video",
+     "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "KSBI OKC",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Thunder+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600977",
+   "type": "regular",
+   "startUtc": "2027-03-14T18:30:00Z",
+   "home": true,
+   "opponent": "SAS",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "ABC",
+     "scope": "national",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600993",
+   "type": "regular",
+   "startUtc": "2027-03-17T00:00:00Z",
+   "home": true,
+   "opponent": "CHA",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "KSBI OKC",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Thunder+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022601000",
+   "type": "regular",
+   "startUtc": "2027-03-17T23:30:00Z",
+   "home": true,
+   "opponent": "DAL",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "ESPN",
+     "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "KSBI OKC",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Thunder+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022601025",
+   "type": "regular",
+   "startUtc": "2027-03-21T00:00:00Z",
+   "home": false,
+   "opponent": "MEM",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBA TV",
+     "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "KSBI OKC",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Thunder+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022601048",
+   "type": "regular",
+   "startUtc": "2027-03-24T03:00:00Z",
+   "home": false,
+   "opponent": "PHX",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBC",
+     "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "Peacock",
+     "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "KSBI OKC",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Thunder+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022601057",
+   "type": "regular",
+   "startUtc": "2027-03-25T02:00:00Z",
+   "home": false,
+   "opponent": "PHX",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "KSBI OKC",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Thunder+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022601070",
+   "type": "regular",
+   "startUtc": "2027-03-27T00:00:00Z",
+   "home": true,
+   "opponent": "LAC",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "KSBI OKC",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Thunder+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022601086",
+   "type": "regular",
+   "startUtc": "2027-03-28T23:30:00Z",
+   "home": false,
+   "opponent": "MIN",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBC",
+     "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "Peacock",
+     "scope": "national",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022601101",
+   "type": "regular",
+   "startUtc": "2027-03-31T01:00:00Z",
+   "home": false,
+   "opponent": "UTA",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "KSBI OKC",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Thunder+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022601116",
+   "type": "regular",
+   "startUtc": "2027-04-02T01:30:00Z",
+   "home": true,
+   "opponent": "LAL",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "Prime Video",
+     "scope": "national",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022601129",
+   "type": "regular",
+   "startUtc": "2027-04-03T21:00:00Z",
+   "home": true,
+   "opponent": "NOP",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "KSBI OKC",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Thunder+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022601154",
+   "type": "regular",
+   "startUtc": "2027-04-07T01:00:00Z",
+   "home": false,
+   "opponent": "UTA",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "KSBI OKC",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Thunder+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022601171",
+   "type": "regular",
+   "startUtc": "2027-04-09T01:30:00Z",
+   "home": true,
+   "opponent": "GSW",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "Prime Video",
+     "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "KSBI OKC",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Thunder+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022601179",
+   "type": "regular",
+   "startUtc": "2027-04-10T00:00:00Z",
+   "home": true,
+   "opponent": "GSW",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "KSBI/KWTV OKC",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Thunder+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022601197",
+   "type": "regular",
+   "startUtc": "2027-04-12T00:30:00Z",
+   "home": false,
+   "opponent": "DEN",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "KSBI OKC",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Thunder+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  }
+ ]
+}

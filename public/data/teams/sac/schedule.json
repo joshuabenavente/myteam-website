@@ -1,0 +1,1229 @@
+{
+ "season": "2026-27",
+ "games": [
+  {
+   "id": "0022600093",
+   "type": "regular",
+   "startUtc": "2026-10-22T02:30:00Z",
+   "home": false,
+   "opponent": "LAC",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBCSCA/PCK-SAC",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600103",
+   "type": "regular",
+   "startUtc": "2026-10-24T02:00:00Z",
+   "home": true,
+   "opponent": "POR",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBCSCA/PCK-SAC",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600118",
+   "type": "regular",
+   "startUtc": "2026-10-26T01:00:00Z",
+   "home": true,
+   "opponent": "MEM",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBCSCA/PCK-SAC",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600130",
+   "type": "regular",
+   "startUtc": "2026-10-28T00:00:00Z",
+   "home": false,
+   "opponent": "SAS",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBCSCA/PCK-SAC",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600145",
+   "type": "regular",
+   "startUtc": "2026-10-30T00:00:00Z",
+   "home": false,
+   "opponent": "NOP",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBCSCA/PCK-SAC",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600150",
+   "type": "regular",
+   "startUtc": "2026-11-01T00:00:00Z",
+   "home": false,
+   "opponent": "MEM",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBCSCA/PCK-SAC",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600164",
+   "type": "regular",
+   "startUtc": "2026-11-03T01:00:00Z",
+   "home": false,
+   "opponent": "DAL",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBCSCA/PCK-SAC",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600185",
+   "type": "regular",
+   "startUtc": "2026-11-05T03:00:00Z",
+   "home": true,
+   "opponent": "LAL",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBCSCA/PCK-SAC",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600033",
+   "type": "regular",
+   "startUtc": "2026-11-07T03:00:00Z",
+   "home": true,
+   "opponent": "SAS",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBCSCA/PCK-SAC",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ],
+   "label": "Emirates NBA Cup - West Group C"
+  },
+  {
+   "id": "0022600202",
+   "type": "regular",
+   "startUtc": "2026-11-09T02:00:00Z",
+   "home": true,
+   "opponent": "MIA",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBCSCA/PCK-SAC",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600215",
+   "type": "regular",
+   "startUtc": "2026-11-11T03:00:00Z",
+   "home": true,
+   "opponent": "ORL",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBCSCA/PCK-SAC",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600041",
+   "type": "regular",
+   "startUtc": "2026-11-14T03:00:00Z",
+   "home": true,
+   "opponent": "POR",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBCSCA/PCK-SAC",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ],
+   "label": "Emirates NBA Cup - West Group C"
+  },
+  {
+   "id": "0022600244",
+   "type": "regular",
+   "startUtc": "2026-11-16T02:00:00Z",
+   "home": true,
+   "opponent": "OKC",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBCSCA/PCK-SAC",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600269",
+   "type": "regular",
+   "startUtc": "2026-11-19T03:00:00Z",
+   "home": true,
+   "opponent": "PHX",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBCSCA/PCK-SAC",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600051",
+   "type": "regular",
+   "startUtc": "2026-11-21T03:00:00Z",
+   "home": false,
+   "opponent": "LAL",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBCSCA/PCK-SAC",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ],
+   "label": "Emirates NBA Cup - West Group C"
+  },
+  {
+   "id": "0022600279",
+   "type": "regular",
+   "startUtc": "2026-11-22T03:00:00Z",
+   "home": true,
+   "opponent": "BOS",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBA TV",
+     "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "NBCSCA/PCK-SAC",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600296",
+   "type": "regular",
+   "startUtc": "2026-11-24T03:00:00Z",
+   "home": true,
+   "opponent": "SAS",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBCSCA/PCK-SAC",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600062",
+   "type": "regular",
+   "startUtc": "2026-11-26T03:00:00Z",
+   "home": false,
+   "opponent": "GSW",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBCSCA/PCK-SAC",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ],
+   "label": "Emirates NBA Cup - West Group C"
+  },
+  {
+   "id": "0022600311",
+   "type": "regular",
+   "startUtc": "2026-11-30T02:00:00Z",
+   "home": true,
+   "opponent": "MIN",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBCSCA/PCK-SAC",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600318",
+   "type": "regular",
+   "startUtc": "2026-12-01T03:00:00Z",
+   "home": true,
+   "opponent": "NOP",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBCSCA/PCK-SAC",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600334",
+   "type": "regular",
+   "startUtc": "2026-12-03T02:00:00Z",
+   "home": false,
+   "opponent": "PHX",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBCSCA/PCK-SAC",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600354",
+   "type": "regular",
+   "startUtc": "2026-12-14T02:00:00Z",
+   "home": true,
+   "opponent": "NOP",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBCSCA/PCK-SAC",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600378",
+   "type": "regular",
+   "startUtc": "2026-12-17T01:00:00Z",
+   "home": false,
+   "opponent": "OKC",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBCSCA/PCK-SAC",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600394",
+   "type": "regular",
+   "startUtc": "2026-12-19T01:00:00Z",
+   "home": false,
+   "opponent": "NOP",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBCSCA/PCK-SAC",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600404",
+   "type": "regular",
+   "startUtc": "2026-12-20T23:00:00Z",
+   "home": false,
+   "opponent": "MIA",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBCSCA/PCK-SAC",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600412",
+   "type": "regular",
+   "startUtc": "2026-12-22T00:00:00Z",
+   "home": false,
+   "opponent": "ORL",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBCSCA/PCK-SAC",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600436",
+   "type": "regular",
+   "startUtc": "2026-12-24T03:00:00Z",
+   "home": true,
+   "opponent": "DAL",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBCSCA/PCK-SAC",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600451",
+   "type": "regular",
+   "startUtc": "2026-12-27T23:00:00Z",
+   "home": true,
+   "opponent": "UTA",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBCSCA/PCK-SAC",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600469",
+   "type": "regular",
+   "startUtc": "2026-12-30T03:00:00Z",
+   "home": true,
+   "opponent": "PHI",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBCSCA/PCK-SAC",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600482",
+   "type": "regular",
+   "startUtc": "2026-12-31T23:00:00Z",
+   "home": true,
+   "opponent": "BKN",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBCSCA/PCK-SAC",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600500",
+   "type": "regular",
+   "startUtc": "2027-01-03T02:00:00Z",
+   "home": false,
+   "opponent": "PHX",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBCSCA/PCK-SAC",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600509",
+   "type": "regular",
+   "startUtc": "2027-01-04T01:00:00Z",
+   "home": false,
+   "opponent": "OKC",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBCSCA/PCK-SAC",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600524",
+   "type": "regular",
+   "startUtc": "2027-01-06T03:00:00Z",
+   "home": true,
+   "opponent": "DET",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBCSCA/PCK-SAC",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600541",
+   "type": "regular",
+   "startUtc": "2027-01-08T03:00:00Z",
+   "home": true,
+   "opponent": "CHI",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBCSCA/PCK-SAC",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600549",
+   "type": "regular",
+   "startUtc": "2027-01-09T03:00:00Z",
+   "home": true,
+   "opponent": "NYK",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBCSCA/PCK-SAC",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600563",
+   "type": "regular",
+   "startUtc": "2027-01-11T02:00:00Z",
+   "home": true,
+   "opponent": "CHA",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBCSCA/PCK-SAC",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600577",
+   "type": "regular",
+   "startUtc": "2027-01-13T04:00:00Z",
+   "home": false,
+   "opponent": "GSW",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBC",
+     "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "Peacock",
+     "scope": "national",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600592",
+   "type": "regular",
+   "startUtc": "2027-01-15T03:00:00Z",
+   "home": true,
+   "opponent": "LAC",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBCSCA/PCK-SAC",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600599",
+   "type": "regular",
+   "startUtc": "2027-01-16T03:00:00Z",
+   "home": false,
+   "opponent": "POR",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBCSCA/PCK-SAC",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600610",
+   "type": "regular",
+   "startUtc": "2027-01-17T22:00:00Z",
+   "home": false,
+   "opponent": "UTA",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBCSCA/PCK-SAC",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600623",
+   "type": "regular",
+   "startUtc": "2027-01-20T03:00:00Z",
+   "home": true,
+   "opponent": "LAL",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBCSCA/PCK-SAC",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600633",
+   "type": "regular",
+   "startUtc": "2027-01-21T03:00:00Z",
+   "home": true,
+   "opponent": "MIL",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBCSCA/PCK-SAC",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600647",
+   "type": "regular",
+   "startUtc": "2027-01-23T03:00:00Z",
+   "home": false,
+   "opponent": "LAL",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBCSCA/PCK-SAC",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600669",
+   "type": "regular",
+   "startUtc": "2027-01-26T02:30:00Z",
+   "home": false,
+   "opponent": "DEN",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "Peacock",
+     "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "NBC Sports Network",
+     "scope": "national",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600678",
+   "type": "regular",
+   "startUtc": "2027-01-28T00:00:00Z",
+   "home": false,
+   "opponent": "PHI",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBCSCA/PCK-SAC",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600689",
+   "type": "regular",
+   "startUtc": "2027-01-29T00:00:00Z",
+   "home": false,
+   "opponent": "WAS",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBCSCA/PCK-SAC",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600708",
+   "type": "regular",
+   "startUtc": "2027-01-31T20:00:00Z",
+   "home": false,
+   "opponent": "DET",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBCSCA/PCK-SAC",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600746",
+   "type": "regular",
+   "startUtc": "2027-02-05T03:00:00Z",
+   "home": true,
+   "opponent": "MIN",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBCSCA/PCK-SAC",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600761",
+   "type": "regular",
+   "startUtc": "2027-02-07T03:00:00Z",
+   "home": true,
+   "opponent": "PHX",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBCSCA/PCK-SAC",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600769",
+   "type": "regular",
+   "startUtc": "2027-02-08T03:30:00Z",
+   "home": true,
+   "opponent": "HOU",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBCSCA/PCK-SAC",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600783",
+   "type": "regular",
+   "startUtc": "2027-02-10T01:00:00Z",
+   "home": false,
+   "opponent": "MIL",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBCSCA/PCK-SAC",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600798",
+   "type": "regular",
+   "startUtc": "2027-02-12T01:30:00Z",
+   "home": false,
+   "opponent": "HOU",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBCSCA/PCK-SAC",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600809",
+   "type": "regular",
+   "startUtc": "2027-02-13T19:00:00Z",
+   "home": false,
+   "opponent": "IND",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBCSCA/PCK-SAC",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600816",
+   "type": "regular",
+   "startUtc": "2027-02-14T18:00:00Z",
+   "home": false,
+   "opponent": "ATL",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBCSCA/PCK-SAC",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600843",
+   "type": "regular",
+   "startUtc": "2027-02-18T03:00:00Z",
+   "home": true,
+   "opponent": "IND",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBCSCA/PCK-SAC",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600849",
+   "type": "regular",
+   "startUtc": "2027-02-26T00:00:00Z",
+   "home": false,
+   "opponent": "CLE",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBCSCA/PCK-SAC",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600869",
+   "type": "regular",
+   "startUtc": "2027-02-28T01:00:00Z",
+   "home": false,
+   "opponent": "MEM",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBCSCA/PCK-SAC",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600876",
+   "type": "regular",
+   "startUtc": "2027-03-01T00:00:00Z",
+   "home": false,
+   "opponent": "CHA",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBCSCA/PCK-SAC",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600894",
+   "type": "regular",
+   "startUtc": "2027-03-03T03:00:00Z",
+   "home": true,
+   "opponent": "WAS",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBCSCA/PCK-SAC",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600909",
+   "type": "regular",
+   "startUtc": "2027-03-05T03:00:00Z",
+   "home": true,
+   "opponent": "OKC",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBCSCA/PCK-SAC",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600923",
+   "type": "regular",
+   "startUtc": "2027-03-07T03:00:00Z",
+   "home": true,
+   "opponent": "LAC",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBCSCA/PCK-SAC",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600936",
+   "type": "regular",
+   "startUtc": "2027-03-09T03:00:00Z",
+   "home": true,
+   "opponent": "DEN",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBCSCA/PCK-SAC",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600951",
+   "type": "regular",
+   "startUtc": "2027-03-11T03:00:00Z",
+   "home": true,
+   "opponent": "GSW",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBCSCA/PCK-SAC",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600965",
+   "type": "regular",
+   "startUtc": "2027-03-13T02:30:00Z",
+   "home": false,
+   "opponent": "UTA",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBCSCA/PCK-SAC",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600979",
+   "type": "regular",
+   "startUtc": "2027-03-14T22:00:00Z",
+   "home": true,
+   "opponent": "CLE",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBCSCA/PCK-SAC",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600989",
+   "type": "regular",
+   "startUtc": "2027-03-16T23:30:00Z",
+   "home": false,
+   "opponent": "BOS",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBCSCA/PCK-SAC",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600999",
+   "type": "regular",
+   "startUtc": "2027-03-17T23:30:00Z",
+   "home": false,
+   "opponent": "NYK",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBCSCA/PCK-SAC",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022601015",
+   "type": "regular",
+   "startUtc": "2027-03-19T23:30:00Z",
+   "home": false,
+   "opponent": "TOR",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBCSCA/PCK-SAC",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022601029",
+   "type": "regular",
+   "startUtc": "2027-03-21T19:00:00Z",
+   "home": false,
+   "opponent": "BKN",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBA TV",
+     "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "NBCSCA/PCK-SAC",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022601037",
+   "type": "regular",
+   "startUtc": "2027-03-23T00:00:00Z",
+   "home": false,
+   "opponent": "CHI",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBCSCA/PCK-SAC",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022601058",
+   "type": "regular",
+   "startUtc": "2027-03-25T02:00:00Z",
+   "home": true,
+   "opponent": "ATL",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBCSCA/PCK-SAC",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022601079",
+   "type": "regular",
+   "startUtc": "2027-03-28T02:00:00Z",
+   "home": true,
+   "opponent": "TOR",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBCSCA/PCK-SAC",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022601096",
+   "type": "regular",
+   "startUtc": "2027-03-30T02:00:00Z",
+   "home": true,
+   "opponent": "DEN",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBCSCA/PCK-SAC",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022601109",
+   "type": "regular",
+   "startUtc": "2027-04-01T00:00:00Z",
+   "home": false,
+   "opponent": "MIN",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBCSCA/PCK-SAC",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022601122",
+   "type": "regular",
+   "startUtc": "2027-04-03T00:00:00Z",
+   "home": false,
+   "opponent": "DAL",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBCSCA/PCK-SAC",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022601141",
+   "type": "regular",
+   "startUtc": "2027-04-04T22:00:00Z",
+   "home": true,
+   "opponent": "GSW",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBCSCA/PCK-SAC",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022601152",
+   "type": "regular",
+   "startUtc": "2027-04-07T00:00:00Z",
+   "home": false,
+   "opponent": "SAS",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBCSCA/PCK-SAC",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022601164",
+   "type": "regular",
+   "startUtc": "2027-04-08T00:30:00Z",
+   "home": false,
+   "opponent": "HOU",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBCSCA/PCK-SAC",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022601185",
+   "type": "regular",
+   "startUtc": "2027-04-10T02:00:00Z",
+   "home": true,
+   "opponent": "DAL",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBCSCA/PCK-SAC",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022601199",
+   "type": "regular",
+   "startUtc": "2027-04-12T00:30:00Z",
+   "home": false,
+   "opponent": "LAC",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBCSCA/PCK-SAC",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  }
+ ]
+}

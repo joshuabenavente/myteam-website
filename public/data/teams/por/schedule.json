@@ -1,0 +1,1649 @@
+{
+ "season": "2026-27",
+ "games": [
+  {
+   "id": "0022600092",
+   "type": "regular",
+   "startUtc": "2026-10-22T02:00:00Z",
+   "home": true,
+   "opponent": "PHX",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "KUNP",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "BlazerVision",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600103",
+   "type": "regular",
+   "startUtc": "2026-10-24T02:00:00Z",
+   "home": false,
+   "opponent": "SAC",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "KUNP",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "BlazerVision",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600131",
+   "type": "regular",
+   "startUtc": "2026-10-28T03:00:00Z",
+   "home": false,
+   "opponent": "LAL",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBC",
+     "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "Peacock",
+     "scope": "national",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600146",
+   "type": "regular",
+   "startUtc": "2026-10-30T02:00:00Z",
+   "home": true,
+   "opponent": "MEM",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "KUNP",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "BlazerVision",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600147",
+   "type": "regular",
+   "startUtc": "2026-10-31T19:00:00Z",
+   "home": false,
+   "opponent": "UTA",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "KUNP",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "BlazerVision",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600169",
+   "type": "regular",
+   "startUtc": "2026-11-03T02:00:00Z",
+   "home": false,
+   "opponent": "DEN",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "KUNP",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "BlazerVision",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600183",
+   "type": "regular",
+   "startUtc": "2026-11-05T02:00:00Z",
+   "home": false,
+   "opponent": "PHX",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "KUNP",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "BlazerVision",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600032",
+   "type": "regular",
+   "startUtc": "2026-11-07T03:00:00Z",
+   "home": false,
+   "opponent": "LAL",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "Prime Video",
+     "scope": "national",
+     "kind": "tv"
+    }
+   ],
+   "label": "Emirates NBA Cup - West Group C"
+  },
+  {
+   "id": "0022600195",
+   "type": "regular",
+   "startUtc": "2026-11-08T03:00:00Z",
+   "home": true,
+   "opponent": "SAS",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "KUNP",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "BlazerVision",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600216",
+   "type": "regular",
+   "startUtc": "2026-11-11T04:00:00Z",
+   "home": true,
+   "opponent": "OKC",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBC",
+     "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "Peacock",
+     "scope": "national",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600226",
+   "type": "regular",
+   "startUtc": "2026-11-12T03:00:00Z",
+   "home": true,
+   "opponent": "OKC",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "KUNP",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "BlazerVision",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600041",
+   "type": "regular",
+   "startUtc": "2026-11-14T03:00:00Z",
+   "home": false,
+   "opponent": "SAC",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "KUNP",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "BlazerVision",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ],
+   "label": "Emirates NBA Cup - West Group C"
+  },
+  {
+   "id": "0022600250",
+   "type": "regular",
+   "startUtc": "2026-11-17T01:00:00Z",
+   "home": false,
+   "opponent": "MIN",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "KUNP",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "BlazerVision",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600254",
+   "type": "regular",
+   "startUtc": "2026-11-18T01:00:00Z",
+   "home": false,
+   "opponent": "MIN",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "KATU ABC 2/KUNP",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "BlazerVision",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600271",
+   "type": "regular",
+   "startUtc": "2026-11-20T01:00:00Z",
+   "home": false,
+   "opponent": "MIL",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "KUNP",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "BlazerVision",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600275",
+   "type": "regular",
+   "startUtc": "2026-11-22T00:30:00Z",
+   "home": false,
+   "opponent": "NYK",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBA TV",
+     "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "KUNP",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "BlazerVision",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600288",
+   "type": "regular",
+   "startUtc": "2026-11-24T00:00:00Z",
+   "home": false,
+   "opponent": "PHI",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "KATU ABC 2/KUNP",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "BlazerVision",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600063",
+   "type": "regular",
+   "startUtc": "2026-11-26T03:00:00Z",
+   "home": true,
+   "opponent": "SAS",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "ESPN",
+     "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "KUNP",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "BlazerVision",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ],
+   "label": "Emirates NBA Cup - West Group C"
+  },
+  {
+   "id": "0022600074",
+   "type": "regular",
+   "startUtc": "2026-11-28T02:30:00Z",
+   "home": true,
+   "opponent": "GSW",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "KUNP",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "BlazerVision",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ],
+   "label": "Emirates NBA Cup - West Group C"
+  },
+  {
+   "id": "0022600309",
+   "type": "regular",
+   "startUtc": "2026-11-29T23:00:00Z",
+   "home": true,
+   "opponent": "NOP",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "KATU ABC 2/KUNP",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "BlazerVision",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600325",
+   "type": "regular",
+   "startUtc": "2026-12-02T03:00:00Z",
+   "home": true,
+   "opponent": "MIN",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "KUNP",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "BlazerVision",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600340",
+   "type": "regular",
+   "startUtc": "2026-12-04T03:00:00Z",
+   "home": true,
+   "opponent": "UTA",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "KUNP",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "BlazerVision",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600348",
+   "type": "regular",
+   "startUtc": "2026-12-13T03:00:00Z",
+   "home": true,
+   "opponent": "ATL",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "KUNP",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "BlazerVision",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600367",
+   "type": "regular",
+   "startUtc": "2026-12-16T04:00:00Z",
+   "home": true,
+   "opponent": "DEN",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBC",
+     "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "Peacock",
+     "scope": "national",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600381",
+   "type": "regular",
+   "startUtc": "2026-12-18T00:00:00Z",
+   "home": false,
+   "opponent": "IND",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "KATU ABC 2/KUNP",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "BlazerVision",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600396",
+   "type": "regular",
+   "startUtc": "2026-12-19T23:00:00Z",
+   "home": false,
+   "opponent": "CHA",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "KUNP",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "BlazerVision",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600413",
+   "type": "regular",
+   "startUtc": "2026-12-22T00:30:00Z",
+   "home": false,
+   "opponent": "BKN",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "KUNP",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "BlazerVision",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600426",
+   "type": "regular",
+   "startUtc": "2026-12-24T00:30:00Z",
+   "home": false,
+   "opponent": "BOS",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "KATU ABC 2/KUNP",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "BlazerVision",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600438",
+   "type": "regular",
+   "startUtc": "2026-12-26T18:00:00Z",
+   "home": false,
+   "opponent": "WAS",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBA TV",
+     "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "KUNP",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "BlazerVision",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600452",
+   "type": "regular",
+   "startUtc": "2026-12-28T00:00:00Z",
+   "home": false,
+   "opponent": "DET",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "KATU ABC 2/KUNP",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "BlazerVision",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600468",
+   "type": "regular",
+   "startUtc": "2026-12-30T03:00:00Z",
+   "home": true,
+   "opponent": "BKN",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "KUNP",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "BlazerVision",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600501",
+   "type": "regular",
+   "startUtc": "2027-01-03T03:00:00Z",
+   "home": true,
+   "opponent": "BOS",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBA TV",
+     "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "KUNP",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "BlazerVision",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600515",
+   "type": "regular",
+   "startUtc": "2027-01-05T03:00:00Z",
+   "home": true,
+   "opponent": "NYK",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "KUNP",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "BlazerVision",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600527",
+   "type": "regular",
+   "startUtc": "2027-01-07T01:00:00Z",
+   "home": false,
+   "opponent": "NOP",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "KATU ABC 2/KUNP",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "BlazerVision",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600536",
+   "type": "regular",
+   "startUtc": "2027-01-08T01:00:00Z",
+   "home": false,
+   "opponent": "DAL",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "KATU ABC 2/KUNP",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "BlazerVision",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600554",
+   "type": "regular",
+   "startUtc": "2027-01-10T03:00:00Z",
+   "home": true,
+   "opponent": "CHA",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "KUNP",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "BlazerVision",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600576",
+   "type": "regular",
+   "startUtc": "2027-01-13T03:00:00Z",
+   "home": true,
+   "opponent": "ORL",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "KUNP",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "BlazerVision",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600584",
+   "type": "regular",
+   "startUtc": "2027-01-14T03:00:00Z",
+   "home": true,
+   "opponent": "LAL",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "KUNP",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "BlazerVision",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600599",
+   "type": "regular",
+   "startUtc": "2027-01-16T03:00:00Z",
+   "home": true,
+   "opponent": "SAC",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "KUNP",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "BlazerVision",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600609",
+   "type": "regular",
+   "startUtc": "2027-01-17T20:30:00Z",
+   "home": false,
+   "opponent": "OKC",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "KUNP",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "BlazerVision",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600620",
+   "type": "regular",
+   "startUtc": "2027-01-20T00:30:00Z",
+   "home": false,
+   "opponent": "MIA",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "KUNP",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "BlazerVision",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600624",
+   "type": "regular",
+   "startUtc": "2027-01-21T00:00:00Z",
+   "home": false,
+   "opponent": "ATL",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "KUNP",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "BlazerVision",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600640",
+   "type": "regular",
+   "startUtc": "2027-01-23T00:00:00Z",
+   "home": false,
+   "opponent": "ORL",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "KUNP",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "BlazerVision",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600655",
+   "type": "regular",
+   "startUtc": "2027-01-24T20:30:00Z",
+   "home": false,
+   "opponent": "SAS",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "KUNP",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "BlazerVision",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600675",
+   "type": "regular",
+   "startUtc": "2027-01-27T03:00:00Z",
+   "home": true,
+   "opponent": "WAS",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "KUNP",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "BlazerVision",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600685",
+   "type": "regular",
+   "startUtc": "2027-01-28T03:00:00Z",
+   "home": true,
+   "opponent": "GSW",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "KUNP",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "BlazerVision",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600714",
+   "type": "regular",
+   "startUtc": "2027-02-01T01:00:00Z",
+   "home": false,
+   "opponent": "DEN",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "KUNP",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "BlazerVision",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600730",
+   "type": "regular",
+   "startUtc": "2027-02-03T04:00:00Z",
+   "home": true,
+   "opponent": "MIN",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBC",
+     "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "Peacock",
+     "scope": "national",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600745",
+   "type": "regular",
+   "startUtc": "2027-02-05T03:00:00Z",
+   "home": true,
+   "opponent": "CLE",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "KUNP",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "BlazerVision",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600755",
+   "type": "regular",
+   "startUtc": "2027-02-06T22:30:00Z",
+   "home": false,
+   "opponent": "MEM",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "Prime Video",
+     "scope": "national",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600774",
+   "type": "regular",
+   "startUtc": "2027-02-09T01:00:00Z",
+   "home": false,
+   "opponent": "MEM",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "KUNP",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "BlazerVision",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600784",
+   "type": "regular",
+   "startUtc": "2027-02-10T01:00:00Z",
+   "home": false,
+   "opponent": "OKC",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "KUNP",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "BlazerVision",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600797",
+   "type": "regular",
+   "startUtc": "2027-02-12T01:00:00Z",
+   "home": false,
+   "opponent": "DAL",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "KUNP",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "BlazerVision",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600811",
+   "type": "regular",
+   "startUtc": "2027-02-13T20:30:00Z",
+   "home": true,
+   "opponent": "DET",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "KUNP",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "BlazerVision",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600822",
+   "type": "regular",
+   "startUtc": "2027-02-14T20:30:00Z",
+   "home": true,
+   "opponent": "CHI",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "KUNP",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "BlazerVision",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600830",
+   "type": "regular",
+   "startUtc": "2027-02-17T03:00:00Z",
+   "home": true,
+   "opponent": "NOP",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "KUNP",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "BlazerVision",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600848",
+   "type": "regular",
+   "startUtc": "2027-02-19T03:00:00Z",
+   "home": true,
+   "opponent": "IND",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "KUNP",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "BlazerVision",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600865",
+   "type": "regular",
+   "startUtc": "2027-02-27T03:00:00Z",
+   "home": true,
+   "opponent": "DAL",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "KUNP",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "BlazerVision",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600880",
+   "type": "regular",
+   "startUtc": "2027-03-01T03:30:00Z",
+   "home": false,
+   "opponent": "LAC",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "KUNP",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "BlazerVision",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600895",
+   "type": "regular",
+   "startUtc": "2027-03-03T04:00:00Z",
+   "home": true,
+   "opponent": "LAC",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBC",
+     "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "Peacock",
+     "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "KUNP",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "BlazerVision",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600903",
+   "type": "regular",
+   "startUtc": "2027-03-05T00:00:00Z",
+   "home": false,
+   "opponent": "CLE",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "KUNP",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "BlazerVision",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600913",
+   "type": "regular",
+   "startUtc": "2027-03-06T00:30:00Z",
+   "home": false,
+   "opponent": "TOR",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "KUNP",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "BlazerVision",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600926",
+   "type": "regular",
+   "startUtc": "2027-03-07T22:00:00Z",
+   "home": false,
+   "opponent": "CHI",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "KUNP",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "BlazerVision",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600944",
+   "type": "regular",
+   "startUtc": "2027-03-10T04:00:00Z",
+   "home": false,
+   "opponent": "GSW",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBC",
+     "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "Peacock",
+     "scope": "national",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600950",
+   "type": "regular",
+   "startUtc": "2027-03-11T03:00:00Z",
+   "home": true,
+   "opponent": "DEN",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "KUNP",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "BlazerVision",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600975",
+   "type": "regular",
+   "startUtc": "2027-03-14T03:30:00Z",
+   "home": true,
+   "opponent": "LAC",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "ESPN",
+     "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "KUNP",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "BlazerVision",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600996",
+   "type": "regular",
+   "startUtc": "2027-03-17T02:00:00Z",
+   "home": true,
+   "opponent": "LAL",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "KUNP",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "BlazerVision",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022601005",
+   "type": "regular",
+   "startUtc": "2027-03-18T02:00:00Z",
+   "home": true,
+   "opponent": "MIA",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "KUNP",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "BlazerVision",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022601018",
+   "type": "regular",
+   "startUtc": "2027-03-20T02:00:00Z",
+   "home": false,
+   "opponent": "GSW",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "KUNP",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "BlazerVision",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022601031",
+   "type": "regular",
+   "startUtc": "2027-03-21T21:00:00Z",
+   "home": false,
+   "opponent": "PHX",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "KUNP",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "BlazerVision",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022601047",
+   "type": "regular",
+   "startUtc": "2027-03-24T02:00:00Z",
+   "home": true,
+   "opponent": "TOR",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "KUNP",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "BlazerVision",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022601072",
+   "type": "regular",
+   "startUtc": "2027-03-27T02:00:00Z",
+   "home": true,
+   "opponent": "PHI",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBA TV",
+     "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "KUNP",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "BlazerVision",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022601078",
+   "type": "regular",
+   "startUtc": "2027-03-28T02:00:00Z",
+   "home": true,
+   "opponent": "MIL",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "KUNP",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "BlazerVision",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022601102",
+   "type": "regular",
+   "startUtc": "2027-03-31T03:00:00Z",
+   "home": true,
+   "opponent": "HOU",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBC",
+     "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "Peacock",
+     "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "KUNP",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "BlazerVision",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022601112",
+   "type": "regular",
+   "startUtc": "2027-04-01T02:00:00Z",
+   "home": true,
+   "opponent": "HOU",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "KUNP",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "BlazerVision",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022601127",
+   "type": "regular",
+   "startUtc": "2027-04-03T02:00:00Z",
+   "home": true,
+   "opponent": "UTA",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "KUNP",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "BlazerVision",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022601140",
+   "type": "regular",
+   "startUtc": "2027-04-04T21:00:00Z",
+   "home": false,
+   "opponent": "UTA",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "KUNP",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "BlazerVision",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022601166",
+   "type": "regular",
+   "startUtc": "2027-04-08T02:00:00Z",
+   "home": true,
+   "opponent": "DAL",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "KUNP",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "BlazerVision",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022601180",
+   "type": "regular",
+   "startUtc": "2027-04-10T00:30:00Z",
+   "home": false,
+   "opponent": "HOU",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "KUNP",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "BlazerVision",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022601196",
+   "type": "regular",
+   "startUtc": "2027-04-12T00:30:00Z",
+   "home": false,
+   "opponent": "SAS",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "KUNP",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "BlazerVision",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  }
+ ]
+}

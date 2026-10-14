@@ -1,0 +1,1731 @@
+{
+ "season": "2026-27",
+ "games": [
+  {
+   "id": "0022600005",
+   "type": "regular",
+   "startUtc": "2026-10-22T02:00:00Z",
+   "home": true,
+   "opponent": "GSW",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "ESPN",
+     "scope": "national",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600102",
+   "type": "regular",
+   "startUtc": "2026-10-24T02:00:00Z",
+   "home": true,
+   "opponent": "LAC",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "Spectrum SportsNet",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Spectrum SportsNet+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600112",
+   "type": "regular",
+   "startUtc": "2026-10-25T21:00:00Z",
+   "home": false,
+   "opponent": "UTA",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "Spectrum SportsNet",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Spectrum SportsNet+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600131",
+   "type": "regular",
+   "startUtc": "2026-10-28T03:00:00Z",
+   "home": true,
+   "opponent": "POR",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBC",
+     "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "Peacock",
+     "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "Spectrum SportsNet",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Spectrum SportsNet+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600143",
+   "type": "regular",
+   "startUtc": "2026-10-29T02:30:00Z",
+   "home": false,
+   "opponent": "LAC",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "Spectrum SportsNet",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Spectrum SportsNet+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600023",
+   "type": "regular",
+   "startUtc": "2026-10-31T02:00:00Z",
+   "home": false,
+   "opponent": "GSW",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "Prime Video",
+     "scope": "national",
+     "kind": "tv"
+    }
+   ],
+   "label": "Emirates NBA Cup - West Group C"
+  },
+  {
+   "id": "0022600157",
+   "type": "regular",
+   "startUtc": "2026-11-02T02:00:00Z",
+   "home": true,
+   "opponent": "TOR",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "Spectrum SportsNet",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Spectrum SportsNet+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600172",
+   "type": "regular",
+   "startUtc": "2026-11-03T03:00:00Z",
+   "home": true,
+   "opponent": "MIA",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "Spectrum SportsNet",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Spectrum SportsNet+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600185",
+   "type": "regular",
+   "startUtc": "2026-11-05T03:00:00Z",
+   "home": false,
+   "opponent": "SAC",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "Spectrum SportsNet",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Spectrum SportsNet+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600032",
+   "type": "regular",
+   "startUtc": "2026-11-07T03:00:00Z",
+   "home": true,
+   "opponent": "POR",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "Prime Video",
+     "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "Spectrum SportsNet",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Spectrum SportsNet+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ],
+   "label": "Emirates NBA Cup - West Group C"
+  },
+  {
+   "id": "0022600197",
+   "type": "regular",
+   "startUtc": "2026-11-08T23:00:00Z",
+   "home": false,
+   "opponent": "DET",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBA TV",
+     "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "Spectrum SportsNet",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Spectrum SportsNet+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600203",
+   "type": "regular",
+   "startUtc": "2026-11-10T00:00:00Z",
+   "home": false,
+   "opponent": "ATL",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "Spectrum SportsNet",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Spectrum SportsNet+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600222",
+   "type": "regular",
+   "startUtc": "2026-11-12T01:00:00Z",
+   "home": false,
+   "opponent": "MIL",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "Spectrum SportsNet",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Spectrum SportsNet+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600237",
+   "type": "regular",
+   "startUtc": "2026-11-15T21:00:00Z",
+   "home": false,
+   "opponent": "PHX",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "Spectrum SportsNet",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Spectrum SportsNet+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600256",
+   "type": "regular",
+   "startUtc": "2026-11-18T03:00:00Z",
+   "home": true,
+   "opponent": "CHA",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "Spectrum SportsNet",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Spectrum SportsNet+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600268",
+   "type": "regular",
+   "startUtc": "2026-11-19T03:00:00Z",
+   "home": true,
+   "opponent": "UTA",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "Spectrum SportsNet",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Spectrum SportsNet+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600051",
+   "type": "regular",
+   "startUtc": "2026-11-21T03:00:00Z",
+   "home": true,
+   "opponent": "SAC",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "Spectrum SportsNet",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Spectrum SportsNet+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ],
+   "label": "Emirates NBA Cup - West Group C"
+  },
+  {
+   "id": "0022600295",
+   "type": "regular",
+   "startUtc": "2026-11-24T03:00:00Z",
+   "home": true,
+   "opponent": "UTA",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBA TV",
+     "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "Spectrum SportsNet",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Spectrum SportsNet+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600071",
+   "type": "regular",
+   "startUtc": "2026-11-28T02:30:00Z",
+   "home": false,
+   "opponent": "SAS",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "Prime Video",
+     "scope": "national",
+     "kind": "tv"
+    }
+   ],
+   "label": "Emirates NBA Cup - West Group C"
+  },
+  {
+   "id": "0022600302",
+   "type": "regular",
+   "startUtc": "2026-11-29T21:00:00Z",
+   "home": false,
+   "opponent": "MEM",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "Spectrum SportsNet",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Spectrum SportsNet+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600315",
+   "type": "regular",
+   "startUtc": "2026-12-01T00:30:00Z",
+   "home": false,
+   "opponent": "HOU",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "Peacock",
+     "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "NBC Sports Network",
+     "scope": "national",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600332",
+   "type": "regular",
+   "startUtc": "2026-12-03T01:00:00Z",
+   "home": false,
+   "opponent": "NOP",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "Spectrum SportsNet",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Spectrum SportsNet+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600365",
+   "type": "regular",
+   "startUtc": "2026-12-15T03:00:00Z",
+   "home": true,
+   "opponent": "NOP",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBA TV",
+     "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "Spectrum SportsNet",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Spectrum SportsNet+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600380",
+   "type": "regular",
+   "startUtc": "2026-12-17T02:30:00Z",
+   "home": false,
+   "opponent": "MIN",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "ESPN",
+     "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "Spectrum SportsNet",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Spectrum SportsNet+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600393",
+   "type": "regular",
+   "startUtc": "2026-12-19T01:00:00Z",
+   "home": false,
+   "opponent": "MIN",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "Spectrum SportsNet",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Spectrum SportsNet+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600399",
+   "type": "regular",
+   "startUtc": "2026-12-20T02:00:00Z",
+   "home": false,
+   "opponent": "DEN",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBA TV",
+     "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "Spectrum SportsNet",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Spectrum SportsNet+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600418",
+   "type": "regular",
+   "startUtc": "2026-12-22T03:00:00Z",
+   "home": true,
+   "opponent": "IND",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBA TV",
+     "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "Spectrum SportsNet",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Spectrum SportsNet+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600435",
+   "type": "regular",
+   "startUtc": "2026-12-24T03:00:00Z",
+   "home": true,
+   "opponent": "DEN",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "Prime Video",
+     "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "Spectrum SportsNet",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Spectrum SportsNet+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600012",
+   "type": "regular",
+   "startUtc": "2026-12-25T22:00:00Z",
+   "home": true,
+   "opponent": "PHI",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "ABC",
+     "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "ESPN",
+     "scope": "national",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600457",
+   "type": "regular",
+   "startUtc": "2026-12-28T02:00:00Z",
+   "home": true,
+   "opponent": "MEM",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "Spectrum SportsNet",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Spectrum SportsNet+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600470",
+   "type": "regular",
+   "startUtc": "2026-12-30T03:30:00Z",
+   "home": true,
+   "opponent": "HOU",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBC",
+     "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "Peacock",
+     "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "Spectrum SportsNet",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Spectrum SportsNet+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600483",
+   "type": "regular",
+   "startUtc": "2027-01-01T01:00:00Z",
+   "home": false,
+   "opponent": "NOP",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "Spectrum SportsNet",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Spectrum SportsNet+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600497",
+   "type": "regular",
+   "startUtc": "2027-01-03T01:00:00Z",
+   "home": false,
+   "opponent": "CHI",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "Spectrum SportsNet",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Spectrum SportsNet+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600505",
+   "type": "regular",
+   "startUtc": "2027-01-04T00:00:00Z",
+   "home": false,
+   "opponent": "TOR",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "Spectrum SportsNet",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Spectrum SportsNet+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600519",
+   "type": "regular",
+   "startUtc": "2027-01-06T00:00:00Z",
+   "home": false,
+   "opponent": "WAS",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "Spectrum SportsNet",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Spectrum SportsNet+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600540",
+   "type": "regular",
+   "startUtc": "2027-01-08T03:00:00Z",
+   "home": true,
+   "opponent": "BOS",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "Prime Video",
+     "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "Spectrum SportsNet",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Spectrum SportsNet+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600548",
+   "type": "regular",
+   "startUtc": "2027-01-09T03:00:00Z",
+   "home": true,
+   "opponent": "DET",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "Spectrum SportsNet",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Spectrum SportsNet+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600569",
+   "type": "regular",
+   "startUtc": "2027-01-12T03:00:00Z",
+   "home": false,
+   "opponent": "LAC",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "Peacock",
+     "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "NBC Sports Network",
+     "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "Spectrum SportsNet",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Spectrum SportsNet+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600584",
+   "type": "regular",
+   "startUtc": "2027-01-14T03:00:00Z",
+   "home": false,
+   "opponent": "POR",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "Spectrum SportsNet",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Spectrum SportsNet+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600591",
+   "type": "regular",
+   "startUtc": "2027-01-15T03:00:00Z",
+   "home": true,
+   "opponent": "ORL",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBA TV",
+     "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "Spectrum SportsNet",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Spectrum SportsNet+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600613",
+   "type": "regular",
+   "startUtc": "2027-01-18T02:00:00Z",
+   "home": true,
+   "opponent": "MIL",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "Spectrum SportsNet",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Spectrum SportsNet+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600623",
+   "type": "regular",
+   "startUtc": "2027-01-20T03:00:00Z",
+   "home": false,
+   "opponent": "SAC",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "Spectrum SportsNet",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Spectrum SportsNet+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600637",
+   "type": "regular",
+   "startUtc": "2027-01-22T03:00:00Z",
+   "home": false,
+   "opponent": "GSW",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "Prime Video",
+     "scope": "national",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600647",
+   "type": "regular",
+   "startUtc": "2027-01-23T03:00:00Z",
+   "home": true,
+   "opponent": "SAC",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "Spectrum SportsNet",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Spectrum SportsNet+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600657",
+   "type": "regular",
+   "startUtc": "2027-01-24T21:00:00Z",
+   "home": true,
+   "opponent": "WAS",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "Spectrum SportsNet",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Spectrum SportsNet+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600676",
+   "type": "regular",
+   "startUtc": "2027-01-27T04:00:00Z",
+   "home": true,
+   "opponent": "OKC",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBC",
+     "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "Peacock",
+     "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "Spectrum SportsNet",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Spectrum SportsNet+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ],
+   "label": "AWS NBA Rivals Week"
+  },
+  {
+   "id": "0022600686",
+   "type": "regular",
+   "startUtc": "2027-01-29T00:00:00Z",
+   "home": false,
+   "opponent": "IND",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "Spectrum SportsNet",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Spectrum SportsNet+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600706",
+   "type": "regular",
+   "startUtc": "2027-01-31T01:30:00Z",
+   "home": false,
+   "opponent": "NYK",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "ABC",
+     "scope": "national",
+     "kind": "tv"
+    }
+   ],
+   "label": "AWS NBA Rivals Week"
+  },
+  {
+   "id": "0022600713",
+   "type": "regular",
+   "startUtc": "2027-02-01T00:00:00Z",
+   "home": false,
+   "opponent": "CHA",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "Spectrum SportsNet",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Spectrum SportsNet+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600726",
+   "type": "regular",
+   "startUtc": "2027-02-03T01:00:00Z",
+   "home": false,
+   "opponent": "BOS",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBC",
+     "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "Peacock",
+     "scope": "national",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600738",
+   "type": "regular",
+   "startUtc": "2027-02-05T00:30:00Z",
+   "home": false,
+   "opponent": "BKN",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "Spectrum SportsNet",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Spectrum SportsNet+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600760",
+   "type": "regular",
+   "startUtc": "2027-02-07T01:30:00Z",
+   "home": false,
+   "opponent": "SAS",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "ABC",
+     "scope": "national",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600776",
+   "type": "regular",
+   "startUtc": "2027-02-09T02:30:00Z",
+   "home": false,
+   "opponent": "PHX",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "Peacock",
+     "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "NBC Sports Network",
+     "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "Spectrum SportsNet",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Spectrum SportsNet+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600793",
+   "type": "regular",
+   "startUtc": "2027-02-11T03:00:00Z",
+   "home": true,
+   "opponent": "LAC",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "ESPN",
+     "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "Spectrum SportsNet",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Spectrum SportsNet+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600808",
+   "type": "regular",
+   "startUtc": "2027-02-13T03:30:00Z",
+   "home": true,
+   "opponent": "DEN",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "ESPN",
+     "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "Spectrum SportsNet",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Spectrum SportsNet+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600829",
+   "type": "regular",
+   "startUtc": "2027-02-17T03:00:00Z",
+   "home": true,
+   "opponent": "CHI",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "Spectrum SportsNet",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Spectrum SportsNet+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600847",
+   "type": "regular",
+   "startUtc": "2027-02-19T03:00:00Z",
+   "home": true,
+   "opponent": "HOU",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "Prime Video",
+     "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "Spectrum SportsNet",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Spectrum SportsNet+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600864",
+   "type": "regular",
+   "startUtc": "2027-02-27T03:00:00Z",
+   "home": false,
+   "opponent": "DEN",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "ESPN",
+     "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "Spectrum SportsNet",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Spectrum SportsNet+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600873",
+   "type": "regular",
+   "startUtc": "2027-02-28T20:30:00Z",
+   "home": false,
+   "opponent": "DAL",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "ABC",
+     "scope": "national",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600888",
+   "type": "regular",
+   "startUtc": "2027-03-03T00:00:00Z",
+   "home": false,
+   "opponent": "ORL",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "Spectrum SportsNet",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Spectrum SportsNet+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600905",
+   "type": "regular",
+   "startUtc": "2027-03-05T00:00:00Z",
+   "home": false,
+   "opponent": "PHI",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "Prime Video",
+     "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "Spectrum SportsNet",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Spectrum SportsNet+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600922",
+   "type": "regular",
+   "startUtc": "2027-03-07T01:30:00Z",
+   "home": true,
+   "opponent": "OKC",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "ABC",
+     "scope": "national",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600929",
+   "type": "regular",
+   "startUtc": "2027-03-08T03:30:00Z",
+   "home": true,
+   "opponent": "BKN",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "Spectrum SportsNet",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Spectrum SportsNet+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600960",
+   "type": "regular",
+   "startUtc": "2027-03-12T03:00:00Z",
+   "home": true,
+   "opponent": "NYK",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "Prime Video",
+     "scope": "national",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600967",
+   "type": "regular",
+   "startUtc": "2027-03-13T03:00:00Z",
+   "home": true,
+   "opponent": "CLE",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "Spectrum SportsNet",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Spectrum SportsNet+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022600982",
+   "type": "regular",
+   "startUtc": "2027-03-15T02:00:00Z",
+   "home": true,
+   "opponent": "GSW",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "Telemundo",
+     "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "NBC",
+     "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "Peacock",
+     "scope": "national",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600996",
+   "type": "regular",
+   "startUtc": "2027-03-17T02:00:00Z",
+   "home": false,
+   "opponent": "POR",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "Spectrum SportsNet",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Spectrum SportsNet+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022601004",
+   "type": "regular",
+   "startUtc": "2027-03-18T02:00:00Z",
+   "home": true,
+   "opponent": "PHX",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "ESPN",
+     "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "Spectrum SportsNet",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Spectrum SportsNet+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022601019",
+   "type": "regular",
+   "startUtc": "2027-03-20T02:00:00Z",
+   "home": true,
+   "opponent": "ATL",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "Spectrum SportsNet",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Spectrum SportsNet+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022601034",
+   "type": "regular",
+   "startUtc": "2027-03-22T02:00:00Z",
+   "home": true,
+   "opponent": "DAL",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBC",
+     "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "Peacock",
+     "scope": "national",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022601045",
+   "type": "regular",
+   "startUtc": "2027-03-24T00:00:00Z",
+   "home": false,
+   "opponent": "MIA",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBC",
+     "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "Peacock",
+     "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "Spectrum SportsNet",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Spectrum SportsNet+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022601060",
+   "type": "regular",
+   "startUtc": "2027-03-25T23:00:00Z",
+   "home": false,
+   "opponent": "CLE",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "Spectrum SportsNet",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Spectrum SportsNet+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022601082",
+   "type": "regular",
+   "startUtc": "2027-03-28T19:00:00Z",
+   "home": false,
+   "opponent": "HOU",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "ESPN",
+     "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "Spectrum SportsNet",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Spectrum SportsNet+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022601100",
+   "type": "regular",
+   "startUtc": "2027-03-31T00:00:00Z",
+   "home": false,
+   "opponent": "MEM",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "Spectrum SportsNet",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Spectrum SportsNet+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022601116",
+   "type": "regular",
+   "startUtc": "2027-04-02T01:30:00Z",
+   "home": false,
+   "opponent": "OKC",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "Prime Video",
+     "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "Spectrum SportsNet",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Spectrum SportsNet+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022601143",
+   "type": "regular",
+   "startUtc": "2027-04-05T02:00:00Z",
+   "home": true,
+   "opponent": "SAS",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "Telemundo",
+     "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "NBC",
+     "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "Peacock",
+     "scope": "national",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022601155",
+   "type": "regular",
+   "startUtc": "2027-04-07T02:00:00Z",
+   "home": true,
+   "opponent": "DAL",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "Spectrum SportsNet",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Spectrum SportsNet+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022601165",
+   "type": "regular",
+   "startUtc": "2027-04-08T02:00:00Z",
+   "home": true,
+   "opponent": "MIN",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "ESPN",
+     "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "Spectrum SportsNet",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Spectrum SportsNet+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022601183",
+   "type": "regular",
+   "startUtc": "2027-04-10T02:00:00Z",
+   "home": true,
+   "opponent": "MIN",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "Spectrum SportsNet",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Spectrum SportsNet+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  },
+  {
+   "id": "0022601200",
+   "type": "regular",
+   "startUtc": "2027-04-12T00:30:00Z",
+   "home": true,
+   "opponent": "PHX",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "Spectrum SportsNet",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Spectrum SportsNet+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
+  }
+ ]
+}

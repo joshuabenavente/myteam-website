@@ -1,0 +1,1229 @@
+{
+ "season": "2026-27",
+ "games": [
+  {
+   "id": "0022600087",
+   "type": "regular",
+   "startUtc": "2026-10-21T23:30:00Z",
+   "home": true,
+   "opponent": "CHA",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "DAZN (YES)",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600105",
+   "type": "regular",
+   "startUtc": "2026-10-24T23:30:00Z",
+   "home": false,
+   "opponent": "CLE",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "DAZN (YES)",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600113",
+   "type": "regular",
+   "startUtc": "2026-10-25T22:00:00Z",
+   "home": true,
+   "opponent": "IND",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "DAZN (YES)",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600128",
+   "type": "regular",
+   "startUtc": "2026-10-27T23:30:00Z",
+   "home": false,
+   "opponent": "BOS",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "DAZN (YES)",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600017",
+   "type": "regular",
+   "startUtc": "2026-10-30T23:30:00Z",
+   "home": true,
+   "opponent": "DET",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "DAZN (YES)",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ],
+   "label": "Emirates NBA Cup - East Group A"
+  },
+  {
+   "id": "0022600155",
+   "type": "regular",
+   "startUtc": "2026-11-01T22:00:00Z",
+   "home": false,
+   "opponent": "IND",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "DAZN (YES)",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600161",
+   "type": "regular",
+   "startUtc": "2026-11-03T00:30:00Z",
+   "home": false,
+   "opponent": "NYK",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "DAZN (YES)",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600176",
+   "type": "regular",
+   "startUtc": "2026-11-05T00:30:00Z",
+   "home": true,
+   "opponent": "CHA",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "DAZN (YES)",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600190",
+   "type": "regular",
+   "startUtc": "2026-11-08T00:30:00Z",
+   "home": false,
+   "opponent": "ATL",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "DAZN (YES)",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600199",
+   "type": "regular",
+   "startUtc": "2026-11-09T00:30:00Z",
+   "home": false,
+   "opponent": "DAL",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "DAZN (YES)",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600223",
+   "type": "regular",
+   "startUtc": "2026-11-12T01:00:00Z",
+   "home": false,
+   "opponent": "NOP",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "DAZN (YES)",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600234",
+   "type": "regular",
+   "startUtc": "2026-11-15T01:00:00Z",
+   "home": false,
+   "opponent": "MEM",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "DAZN (YES)",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600248",
+   "type": "regular",
+   "startUtc": "2026-11-17T00:30:00Z",
+   "home": true,
+   "opponent": "PHI",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "DAZN (YES)",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600262",
+   "type": "regular",
+   "startUtc": "2026-11-19T00:30:00Z",
+   "home": true,
+   "opponent": "CHI",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "DAZN (YES)",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600044",
+   "type": "regular",
+   "startUtc": "2026-11-21T00:30:00Z",
+   "home": true,
+   "opponent": "ORL",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "DAZN (YES)",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ],
+   "label": "Emirates NBA Cup - East Group A"
+  },
+  {
+   "id": "0022600291",
+   "type": "regular",
+   "startUtc": "2026-11-24T00:30:00Z",
+   "home": false,
+   "opponent": "MIN",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "Peacock",
+     "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "NBC Sports Network",
+     "scope": "national",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600060",
+   "type": "regular",
+   "startUtc": "2026-11-26T01:00:00Z",
+   "home": false,
+   "opponent": "MIL",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "DAZN (YES)",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ],
+   "label": "Emirates NBA Cup - East Group A"
+  },
+  {
+   "id": "0022600067",
+   "type": "regular",
+   "startUtc": "2026-11-28T00:30:00Z",
+   "home": false,
+   "opponent": "TOR",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "DAZN (YES)",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ],
+   "label": "Emirates NBA Cup - East Group A"
+  },
+  {
+   "id": "0022600298",
+   "type": "regular",
+   "startUtc": "2026-11-28T23:00:00Z",
+   "home": false,
+   "opponent": "CHA",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "DAZN (YES)",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600314",
+   "type": "regular",
+   "startUtc": "2026-12-01T00:30:00Z",
+   "home": true,
+   "opponent": "OKC",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "DAZN (YES)",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600333",
+   "type": "regular",
+   "startUtc": "2026-12-03T01:00:00Z",
+   "home": false,
+   "opponent": "OKC",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "DAZN (YES)",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600349",
+   "type": "regular",
+   "startUtc": "2026-12-13T20:00:00Z",
+   "home": true,
+   "opponent": "BOS",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "DAZN (YES)",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600356",
+   "type": "regular",
+   "startUtc": "2026-12-15T00:00:00Z",
+   "home": false,
+   "opponent": "DET",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "DAZN (YES)",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600373",
+   "type": "regular",
+   "startUtc": "2026-12-17T00:30:00Z",
+   "home": true,
+   "opponent": "DAL",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "DAZN (YES)",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600388",
+   "type": "regular",
+   "startUtc": "2026-12-19T00:30:00Z",
+   "home": true,
+   "opponent": "ORL",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "DAZN (YES)",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600400",
+   "type": "regular",
+   "startUtc": "2026-12-20T20:00:00Z",
+   "home": true,
+   "opponent": "WAS",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "DAZN (YES)",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600413",
+   "type": "regular",
+   "startUtc": "2026-12-22T00:30:00Z",
+   "home": true,
+   "opponent": "POR",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "DAZN (YES)",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600427",
+   "type": "regular",
+   "startUtc": "2026-12-24T00:30:00Z",
+   "home": true,
+   "opponent": "SAS",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "DAZN (YES)",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600441",
+   "type": "regular",
+   "startUtc": "2026-12-26T23:00:00Z",
+   "home": true,
+   "opponent": "NOP",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "DAZN (YES)",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600449",
+   "type": "regular",
+   "startUtc": "2026-12-27T23:00:00Z",
+   "home": false,
+   "opponent": "NYK",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "DAZN (YES)",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600468",
+   "type": "regular",
+   "startUtc": "2026-12-30T03:00:00Z",
+   "home": false,
+   "opponent": "POR",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "DAZN (YES)",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600482",
+   "type": "regular",
+   "startUtc": "2026-12-31T23:00:00Z",
+   "home": false,
+   "opponent": "SAC",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "DAZN (YES)",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600499",
+   "type": "regular",
+   "startUtc": "2027-01-03T01:30:00Z",
+   "home": false,
+   "opponent": "GSW",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "DAZN (YES)",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600514",
+   "type": "regular",
+   "startUtc": "2027-01-05T02:00:00Z",
+   "home": false,
+   "opponent": "UTA",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "DAZN (YES)",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600525",
+   "type": "regular",
+   "startUtc": "2027-01-07T00:30:00Z",
+   "home": true,
+   "opponent": "UTA",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "DAZN (YES)",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600534",
+   "type": "regular",
+   "startUtc": "2027-01-08T00:30:00Z",
+   "home": true,
+   "opponent": "MIA",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "DAZN (YES)",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600551",
+   "type": "regular",
+   "startUtc": "2027-01-09T23:00:00Z",
+   "home": true,
+   "opponent": "HOU",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "DAZN (YES)",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600564",
+   "type": "regular",
+   "startUtc": "2027-01-12T00:00:00Z",
+   "home": false,
+   "opponent": "IND",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "DAZN (YES)",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600570",
+   "type": "regular",
+   "startUtc": "2027-01-13T00:30:00Z",
+   "home": false,
+   "opponent": "MIA",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "DAZN (YES)",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600586",
+   "type": "regular",
+   "startUtc": "2027-01-15T00:00:00Z",
+   "home": false,
+   "opponent": "PHI",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "DAZN (YES)",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600602",
+   "type": "regular",
+   "startUtc": "2027-01-17T00:00:00Z",
+   "home": false,
+   "opponent": "BOS",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "DAZN (YES)",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600625",
+   "type": "regular",
+   "startUtc": "2027-01-21T00:00:00Z",
+   "home": true,
+   "opponent": "CHI",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "ESPN",
+     "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "DAZN (YES)",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600635",
+   "type": "regular",
+   "startUtc": "2027-01-22T00:30:00Z",
+   "home": true,
+   "opponent": "CLE",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "DAZN (YES)",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600650",
+   "type": "regular",
+   "startUtc": "2027-01-23T23:00:00Z",
+   "home": true,
+   "opponent": "TOR",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "DAZN (YES)",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600665",
+   "type": "regular",
+   "startUtc": "2027-01-26T00:30:00Z",
+   "home": true,
+   "opponent": "MIA",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "DAZN (YES)",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600680",
+   "type": "regular",
+   "startUtc": "2027-01-28T00:30:00Z",
+   "home": true,
+   "opponent": "PHX",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "DAZN (YES)",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600696",
+   "type": "regular",
+   "startUtc": "2027-01-30T00:30:00Z",
+   "home": true,
+   "opponent": "LAC",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "DAZN (YES)",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600709",
+   "type": "regular",
+   "startUtc": "2027-01-31T23:00:00Z",
+   "home": false,
+   "opponent": "ORL",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "DAZN (YES)",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600718",
+   "type": "regular",
+   "startUtc": "2027-02-02T00:30:00Z",
+   "home": true,
+   "opponent": "NYK",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "DAZN (YES)",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600738",
+   "type": "regular",
+   "startUtc": "2027-02-05T00:30:00Z",
+   "home": true,
+   "opponent": "LAL",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "DAZN (YES)",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600756",
+   "type": "regular",
+   "startUtc": "2027-02-06T23:00:00Z",
+   "home": true,
+   "opponent": "WAS",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "DAZN (YES)",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600772",
+   "type": "regular",
+   "startUtc": "2027-02-09T00:00:00Z",
+   "home": false,
+   "opponent": "PHI",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "DAZN (YES)",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600779",
+   "type": "regular",
+   "startUtc": "2027-02-10T00:30:00Z",
+   "home": true,
+   "opponent": "MIN",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "DAZN (YES)",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600803",
+   "type": "regular",
+   "startUtc": "2027-02-13T00:00:00Z",
+   "home": false,
+   "opponent": "WAS",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "DAZN (YES)",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600819",
+   "type": "regular",
+   "startUtc": "2027-02-14T18:00:00Z",
+   "home": false,
+   "opponent": "MIA",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "DAZN (YES)",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600838",
+   "type": "regular",
+   "startUtc": "2027-02-18T00:30:00Z",
+   "home": true,
+   "opponent": "ATL",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "DAZN (YES)",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600852",
+   "type": "regular",
+   "startUtc": "2027-02-26T00:30:00Z",
+   "home": true,
+   "opponent": "PHI",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "DAZN (YES)",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600868",
+   "type": "regular",
+   "startUtc": "2027-02-28T01:00:00Z",
+   "home": false,
+   "opponent": "CHI",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "DAZN (YES)",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600885",
+   "type": "regular",
+   "startUtc": "2027-03-02T02:00:00Z",
+   "home": false,
+   "opponent": "DEN",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "DAZN (YES)",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600901",
+   "type": "regular",
+   "startUtc": "2027-03-04T02:00:00Z",
+   "home": false,
+   "opponent": "PHX",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "DAZN (YES)",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600910",
+   "type": "regular",
+   "startUtc": "2027-03-05T03:30:00Z",
+   "home": false,
+   "opponent": "LAC",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "DAZN (YES)",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600929",
+   "type": "regular",
+   "startUtc": "2027-03-08T03:30:00Z",
+   "home": false,
+   "opponent": "LAL",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "DAZN (YES)",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600939",
+   "type": "regular",
+   "startUtc": "2027-03-10T00:30:00Z",
+   "home": true,
+   "opponent": "MIL",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "DAZN (YES)",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600957",
+   "type": "regular",
+   "startUtc": "2027-03-12T01:00:00Z",
+   "home": false,
+   "opponent": "ATL",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "DAZN (YES)",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600969",
+   "type": "regular",
+   "startUtc": "2027-03-13T20:00:00Z",
+   "home": false,
+   "opponent": "DET",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "DAZN (YES)",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022600984",
+   "type": "regular",
+   "startUtc": "2027-03-15T23:30:00Z",
+   "home": true,
+   "opponent": "IND",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "DAZN (YES)",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022601001",
+   "type": "regular",
+   "startUtc": "2027-03-18T00:30:00Z",
+   "home": false,
+   "opponent": "HOU",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "DAZN (YES)",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022601011",
+   "type": "regular",
+   "startUtc": "2027-03-19T00:00:00Z",
+   "home": false,
+   "opponent": "SAS",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "DAZN (YES)",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022601029",
+   "type": "regular",
+   "startUtc": "2027-03-21T19:00:00Z",
+   "home": true,
+   "opponent": "SAC",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBA TV",
+     "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "DAZN (YES)",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022601043",
+   "type": "regular",
+   "startUtc": "2027-03-23T23:30:00Z",
+   "home": true,
+   "opponent": "BOS",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "DAZN (YES)",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022601063",
+   "type": "regular",
+   "startUtc": "2027-03-25T23:30:00Z",
+   "home": true,
+   "opponent": "DEN",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "NBA TV",
+     "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "DAZN (YES)",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022601081",
+   "type": "regular",
+   "startUtc": "2027-03-28T19:00:00Z",
+   "home": true,
+   "opponent": "MEM",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "DAZN (YES)",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022601092",
+   "type": "regular",
+   "startUtc": "2027-03-29T23:30:00Z",
+   "home": true,
+   "opponent": "GSW",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "DAZN (YES)",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022601107",
+   "type": "regular",
+   "startUtc": "2027-03-31T23:30:00Z",
+   "home": true,
+   "opponent": "CLE",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "DAZN (YES)",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022601119",
+   "type": "regular",
+   "startUtc": "2027-04-02T23:30:00Z",
+   "home": true,
+   "opponent": "NYK",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "DAZN (YES)",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022601132",
+   "type": "regular",
+   "startUtc": "2027-04-04T18:00:00Z",
+   "home": false,
+   "opponent": "MIL",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "DAZN (YES)",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022601144",
+   "type": "regular",
+   "startUtc": "2027-04-05T23:00:00Z",
+   "home": false,
+   "opponent": "CLE",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "DAZN (YES)",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022601160",
+   "type": "regular",
+   "startUtc": "2027-04-07T23:30:00Z",
+   "home": false,
+   "opponent": "TOR",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "DAZN (YES)",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022601173",
+   "type": "regular",
+   "startUtc": "2027-04-09T23:00:00Z",
+   "home": false,
+   "opponent": "CHA",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "DAZN (YES)",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  },
+  {
+   "id": "0022601187",
+   "type": "regular",
+   "startUtc": "2027-04-11T22:00:00Z",
+   "home": true,
+   "opponent": "TOR",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "DAZN (YES)",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
+  }
+ ]
+}
