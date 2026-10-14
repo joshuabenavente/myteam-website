@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-14T15:19:29.256Z",
+ "updatedAt": "2026-10-14T19:35:17.082Z",
  "teams": {
   "ATL": [
    {
@@ -95,14 +95,7 @@
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Back",
-    "returnDate": "2026-10-14"
-   },
-   {
-    "name": "Mikel Brown Jr.",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Ankle",
-    "returnDate": "2026-10-14"
+    "returnDate": "2026-10-21"
    }
   ],
   "CHA": [
@@ -417,7 +410,7 @@
     "name": "Jamison Battle",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
-    "reason": "Undisclosed",
+    "reason": "Back",
     "returnDate": "2026-10-15"
    },
    {
@@ -426,13 +419,6 @@
     "gameTimeDecision": true,
     "reason": "Foot",
     "returnDate": "2026-10-21"
-   },
-   {
-    "name": "Trey Jemison III",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Undisclosed",
-    "returnDate": "2026-10-15"
    }
   ],
   "LAL": [
@@ -807,7 +793,28 @@
     "returnDate": "2027-02-03"
    },
    {
+    "name": "Collin Gillespie",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Rest",
+    "returnDate": "2026-10-14"
+   },
+   {
     "name": "Devin Booker",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Rest",
+    "returnDate": "2026-10-14"
+   },
+   {
+    "name": "Dillon Brooks",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Rest",
+    "returnDate": "2026-10-14"
+   },
+   {
+    "name": "Jalen Green",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Rest",
@@ -818,6 +825,13 @@
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Ankle",
+    "returnDate": "2026-10-14"
+   },
+   {
+    "name": "Oso Ighodaro",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Rest",
     "returnDate": "2026-10-14"
    }
   ],
@@ -936,13 +950,6 @@
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Rest",
-    "returnDate": "2026-10-14"
-   },
-   {
-    "name": "Malik Williams",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Undisclosed",
     "returnDate": "2026-10-14"
    },
    {
