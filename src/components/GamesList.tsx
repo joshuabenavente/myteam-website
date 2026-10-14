@@ -43,7 +43,14 @@ function ChannelGuide({ data }: { data: AppData }) {
 
 type Filter = 'upcoming' | 'completed'
 
-export function GamesList({ data, timeZone }: { data: AppData; timeZone: string }) {
+interface Props {
+  data: AppData
+  timeZone: string
+  /** A game to open and scroll to (from the header's "+N more"). */
+  focusId?: string
+}
+
+export function GamesList({ data, timeZone, focusId }: Props) {
   const [filter, setFilter] = useState<Filter>('upcoming')
   const unscheduled = unscheduledGames(data.schedule)
   const games =
@@ -76,7 +83,7 @@ export function GamesList({ data, timeZone }: { data: AppData; timeZone: string 
             )}
             <ul className="games">
               {monthGames.map((g) => (
-                <GameRow key={g.id} game={g} data={data} timeZone={timeZone} />
+                <GameRow key={g.id} game={g} data={data} timeZone={timeZone} focused={g.id === focusId} />
               ))}
             </ul>
           </section>

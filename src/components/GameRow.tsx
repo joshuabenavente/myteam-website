@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import { absencesForGame, availabilityLabel, nextGames } from '../lib/availability.ts'
 import { channelsFor } from '../lib/channels.ts'
 import { TEAM } from '../lib/config.ts'
@@ -21,18 +21,26 @@ interface Props {
   game: Game
   data: AppData
   timeZone: string
+  /** Start open and scroll into view. */
+  focused?: boolean
 }
 
-export function GameRow({ game, data, timeZone }: Props) {
+export function GameRow({ game, data, timeZone, focused = false }: Props) {
   const standings = data.standings.teams
-  const [open, setOpen] = useState(false)
+  const [open, setOpen] = useState(focused)
+  const ref = useRef<HTMLLIElement>(null)
+  useEffect(() => {
+    if (!focused) return
+    ref.current?.scrollIntoView({ behavior: 'smooth', block: 'start' })
+    ref.current?.querySelector('button')?.focus({ preventScroll: true })
+  }, [focused])
   const opp = TEAMS_BY_ABBR[game.opponent]
   const oppStanding = standings[game.opponent]
   const { weekday, monthDay } = formatGameDate(game.startUtc, timeZone)
   const detailsId = `game-${game.id}`
 
   return (
-    <li className={`game ${open ? 'open' : ''}`}>
+    <li ref={ref} className={`game ${open ? 'open' : ''}`}>
       <button className="game-summary" aria-expanded={open} aria-controls={detailsId} onClick={() => setOpen(!open)}>
         <span className="game-date">
           <span className="weekday">{weekday}</span>

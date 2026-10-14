@@ -5,6 +5,7 @@ import { GamesList } from './components/GamesList.tsx'
 import { Icon } from './components/Icon.tsx'
 import { PlayerPage } from './components/PlayerPage.tsx'
 import { PlayerTracker } from './components/PlayerTracker.tsx'
+import { SiteHeader } from './components/SiteHeader.tsx'
 import { TeamSummary } from './components/TeamSummary.tsx'
 import {
   applyAppearance,
@@ -16,10 +17,9 @@ import {
   saveAppearance,
   type Appearance,
 } from './lib/appearance.ts'
-import { TEAM } from './lib/config'
 import { useAppData } from './lib/data.ts'
 import { timeZoneAbbr } from './lib/format.ts'
-import { routeHref, useRoute } from './lib/route.ts'
+import { useRoute } from './lib/route.ts'
 import './App.css'
 
 type GamesView = 'list' | 'calendar'
@@ -38,6 +38,13 @@ function App() {
     if (picker) saveAppearance(appearance)
   }, [appearance, picker])
 
+  // "+N more" in the header opens that game in the list.
+  const [focus, setFocus] = useState<{ id: string; n: number }>()
+  const showGame = (id: string) => {
+    setGamesView('list')
+    setFocus((f) => ({ id, n: (f?.n ?? 0) + 1 }))
+  }
+
   const turnOffPicker = () => {
     disablePicker()
     setPicker(false)
@@ -46,17 +53,7 @@ function App() {
 
   return (
     <IconStyleContext.Provider value={appearance.icons}>
-      <header className="site-header">
-        <p className="site-title">{TEAM.name} Tracker</p>
-        <nav className="tabs" aria-label="Pages">
-          <a href={routeHref({ page: 'games' })} aria-current={route.page === 'games' ? 'page' : undefined}>
-            <Icon name="games" /> Games
-          </a>
-          <a href={routeHref({ page: 'players' })} aria-current={route.page !== 'games' ? 'page' : undefined}>
-            <Icon name="players" /> Players
-          </a>
-        </nav>
-      </header>
+      <SiteHeader route={route} data={data} timeZone={timeZone} onShowGame={showGame} />
 
       <main>
         {error && <p className="placeholder error">{error}</p>}
@@ -64,8 +61,7 @@ function App() {
 
         {data && route.page === 'games' && (
           <section>
-            <h1 className="sr-only">Games</h1>
-            <TeamSummary data={data} timeZone={timeZone} />
+            <TeamSummary data={data} />
             <div className="toolbar">
               <div className="segmented" role="group" aria-label="View">
                 <button aria-pressed={gamesView === 'list'} onClick={() => setGamesView('list')}>
@@ -80,7 +76,7 @@ function App() {
               </span>
             </div>
             {gamesView === 'list' ? (
-              <GamesList data={data} timeZone={timeZone} />
+              <GamesList key={focus?.n} data={data} timeZone={timeZone} focusId={focus?.id} />
             ) : (
               <GamesCalendar data={data} timeZone={timeZone} />
             )}

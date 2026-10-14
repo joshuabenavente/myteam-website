@@ -1,27 +1,13 @@
-import { nextGames } from '../lib/availability.ts'
 import { TEAM } from '../lib/config.ts'
 import type { AppData } from '../lib/data.ts'
-import { formatGameDate, formatRecord, ordinal } from '../lib/format.ts'
-import { TEAMS_BY_ABBR } from '../lib/teams.ts'
+import { formatRecord, ordinal } from '../lib/format.ts'
 
-/** Denver's record and standing, shown above the games; before opening night, when the season starts. */
-export function TeamSummary({ data, timeZone }: { data: AppData; timeZone: string }) {
+/** Denver's record and standing, shown above the games once the season is under way. */
+export function TeamSummary({ data }: { data: AppData }) {
   const us = data.standings.teams[TEAM.abbr]
   if (!us) return null
-  if (us.wins + us.losses === 0) {
-    const opener = nextGames(data.schedule.games, 1)[0]
-    if (!opener) return null
-    const { weekday, monthDay } = formatGameDate(opener.startUtc, timeZone)
-    const opp = TEAMS_BY_ABBR[opener.opponent]
-    return (
-      <div className="team-summary">
-        <span className="big">Season tips off {monthDay}</span>
-        <span className="muted">
-          {weekday} {opener.home ? 'vs' : 'at'} {opp.city} {opp.name}
-        </span>
-      </div>
-    )
-  }
+  // Before opening night the header's next game says when the season starts.
+  if (us.wins + us.losses === 0) return null
   return (
     <div className="team-summary">
       <span className="big">{formatRecord(us)}</span>
