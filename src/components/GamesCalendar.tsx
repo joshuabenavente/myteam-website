@@ -60,7 +60,7 @@ export function GamesCalendar({ data, timeZone }: { data: AppData; timeZone: str
           disabled={compareMonths(month, first) <= 0}
           aria-label="Previous month"
         >
-          <Icon name="prev" fallback="‹" />
+          <Icon name="prev" />
         </button>
         <h2>{monthLabel(month)}</h2>
         <button
@@ -69,7 +69,7 @@ export function GamesCalendar({ data, timeZone }: { data: AppData; timeZone: str
           disabled={compareMonths(month, last) >= 0}
           aria-label="Next month"
         >
-          <Icon name="next" fallback="›" />
+          <Icon name="next" />
         </button>
       </div>
 

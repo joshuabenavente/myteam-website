@@ -70,14 +70,7 @@ export function GameRow({ game, data, timeZone, focused = false }: Props) {
         <Broadcasts game={game} />
 
         <span className="chevron">
-          <Icon
-            name="expand"
-            fallback={
-              <svg viewBox="0 0 16 16" width="16" height="16" aria-hidden="true">
-                <path d="M4 6l4 4 4-4" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-              </svg>
-            }
-          />
+          <Icon name="expand" />
         </span>
       </button>
 

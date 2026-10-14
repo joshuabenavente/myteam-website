@@ -20,6 +20,7 @@ import { matchupColors } from '../lib/teamColors.ts'
 import { TEAMS_BY_ABBR } from '../lib/teams.ts'
 import type { Game, Player } from '../lib/types.ts'
 import { useGameSummary } from '../lib/useGameSummary.ts'
+import { Icon } from './Icon.tsx'
 import { LiveAnnouncer } from './LivePill.tsx'
 import { TeamLogo } from './TeamLogo.tsx'
 
@@ -51,7 +52,7 @@ export function GamePage({ id, data, timeZone, testTeam }: Props) {
 function BackLink() {
   return (
     <a className="back-link" href={routeHref({ page: 'games' })}>
-      <span aria-hidden="true">‹</span> All games
+      <Icon name="prev" size={16} /> All games
     </a>
   )
 }

@@ -66,7 +66,7 @@ function PlayerView({ player, data, timeZone }: { player: Player; data: AppData;
   return (
     <div className="player-page">
       <a className="back-link" href={routeHref({ page: 'players' })}>
-        <Icon name="prev" size={16} fallback="‹" /> All players
+        <Icon name="prev" size={16} /> All players
       </a>
 
       <section className="player-hero" aria-label={player.name}>
