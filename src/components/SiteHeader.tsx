@@ -1,4 +1,4 @@
-import { useState, type CSSProperties } from 'react'
+import { useRef, useState, type CSSProperties } from 'react'
 import { TEAM } from '../lib/config.ts'
 import type { AppData } from '../lib/data.ts'
 import { formatGameDate, formatGameTime, formatRecord, timeZoneAbbr } from '../lib/format.ts'
@@ -11,6 +11,7 @@ import { teamLogoUrl, TEAMS_BY_ABBR } from '../lib/teams.ts'
 import type { Absence } from '../lib/types.ts'
 import { Icon } from './Icon.tsx'
 import { LiveAnnouncer, LivePill } from './LivePill.tsx'
+import { MiniBar } from './MiniBar.tsx'
 import { Ridge } from './Ridge.tsx'
 
 /** Injury chips per team; the rest are behind "+N more". */
@@ -29,49 +30,53 @@ export function SiteHeader({ route, data, timeZone, onShowGame }: Props) {
   const full = route.page === 'games' && !!data
   const roster = route.page === 'players' && !!data
   const us = data?.standings.teams[TEAM.abbr]
+  const headerRef = useRef<HTMLElement>(null)
   return (
-    <header className={`site-header ${full ? 'full' : roster ? 'page' : 'compact'}`}>
-      <Ridge />
-      <div className="header-inner">
-        <div className="header-top">
-          <a className="brand" href={routeHref({ page: 'games' })}>
-            <BrandMark />
-            <span className="site-title">{TEAMS_BY_ABBR[TEAM.abbr].name} Tracker</span>
-          </a>
-          {data && (
-            <span className="season-pill">
-              {data.schedule.season}
-              {us && (
-                <span className="season-record">
-                  <span className="sr-only">, Denver's record </span>
-                  {formatRecord(us)}
-                </span>
-              )}
-            </span>
-          )}
+    <>
+      <header ref={headerRef} className={`site-header ${full ? 'full' : roster ? 'page' : 'compact'}`}>
+        <Ridge />
+        <div className="header-inner">
+          <div className="header-top">
+            <a className="brand" href={routeHref({ page: 'games' })}>
+              <BrandMark />
+              <span className="site-title">{TEAMS_BY_ABBR[TEAM.abbr].name} Tracker</span>
+            </a>
+            {data && (
+              <span className="season-pill">
+                {data.schedule.season}
+                {us && (
+                  <span className="season-record">
+                    <span className="sr-only">, Denver's record </span>
+                    {formatRecord(us)}
+                  </span>
+                )}
+              </span>
+            )}
+          </div>
+
+          {/* The Games page's heading sits here so it comes before the next game's. */}
+          {route.page === 'games' && <h1 className="sr-only">Games</h1>}
+          {full && <NextGame data={data} timeZone={timeZone} onShowGame={onShowGame} />}
+          {roster && <RosterIntro data={data} />}
+
+          <nav className="page-nav" aria-label="Pages">
+            <a
+              href={routeHref({ page: 'games' })}
+              aria-current={route.page === 'games' || route.page === 'game' ? 'page' : undefined}
+            >
+              <Icon name="games" /> Games
+            </a>
+            <a
+              href={routeHref({ page: 'players' })}
+              aria-current={route.page === 'players' || route.page === 'player' ? 'page' : undefined}
+            >
+              <Icon name="players" /> Players
+            </a>
+          </nav>
         </div>
-
-        {/* The Games page's heading sits here so it comes before the next game's. */}
-        {route.page === 'games' && <h1 className="sr-only">Games</h1>}
-        {full && <NextGame data={data} timeZone={timeZone} onShowGame={onShowGame} />}
-        {roster && <RosterIntro data={data} />}
-
-        <nav className="page-nav" aria-label="Pages">
-          <a
-            href={routeHref({ page: 'games' })}
-            aria-current={route.page === 'games' || route.page === 'game' ? 'page' : undefined}
-          >
-            <Icon name="games" /> Games
-          </a>
-          <a
-            href={routeHref({ page: 'players' })}
-            aria-current={route.page === 'players' || route.page === 'player' ? 'page' : undefined}
-          >
-            <Icon name="players" /> Players
-          </a>
-        </nav>
-      </div>
-    </header>
+      </header>
+      <MiniBar headerRef={headerRef} route={route} data={data} timeZone={timeZone} />
+    </>
   )
 }
 

@@ -2974,3 +2974,184 @@ main:focus {
   text-transform: uppercase;
   color: var(--muted);
 }
+
+/* --- sticky mini bar (shown once the header scrolls away) --- */
+
+/* Keep things scrolled into view (e.g. "+N more", focus) clear of the bar. */
+html {
+  scroll-padding-top: 72px;
+}
+
+.mini-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 50;
+  color: #fff;
+  background: var(--navy-gradient);
+  box-shadow: 0 6px 20px rgb(8 16 32 / 25%);
+  transform: translateY(-110%);
+  transition: transform 0.2s ease;
+}
+
+.mini-bar.shown {
+  transform: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .mini-bar {
+    transition: none;
+  }
+}
+
+.mini-inner {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  max-width: 1100px;
+  min-height: 56px;
+  margin: 0 auto;
+  padding: 6px 16px;
+}
+
+.mini-brand {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: none;
+  width: 44px;
+  height: 44px;
+  margin-left: -7px;
+}
+
+.mini-game {
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  color: #fff;
+  font-weight: 600;
+  font-size: 0.95rem;
+  text-decoration: none;
+}
+
+a.mini-game:hover {
+  text-decoration: underline;
+}
+
+.mini-next {
+  margin-right: 4px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--sunshine);
+}
+
+.mini-live {
+  flex: 0 1 auto;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 36px;
+  padding: 0 14px;
+  border-radius: 999px;
+  background: #b3203a;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+
+.mini-live > span:last-child {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.mini-live .live-dot {
+  flex: none;
+  background: #fff;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .mini-live .live-dot {
+    animation: live-pulse 1.6s ease-in-out infinite;
+  }
+}
+
+.mini-live + .mini-nav {
+  margin-left: auto;
+}
+
+.mini-nav {
+  display: flex;
+  flex: none;
+  gap: 2px;
+  padding: 3px;
+  border-radius: 999px;
+  background: rgb(14 34 64 / 72%);
+  box-shadow: inset 0 0 0 1px rgb(255 255 255 / 10%);
+}
+
+.mini-nav a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  min-width: 44px;
+  min-height: 40px;
+  padding: 0 14px;
+  border-radius: 999px;
+  color: #d5dbe6;
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.mini-nav a:hover {
+  color: #fff;
+  background: rgb(255 255 255 / 8%);
+}
+
+.mini-nav a[aria-current='page'] {
+  background: var(--sunshine);
+  color: var(--midnight);
+}
+
+.mini-bar a:focus-visible {
+  outline: 2px solid #fff;
+  outline-offset: 2px;
+}
+
+@media (max-width: 520px) {
+  .mini-inner {
+    gap: 8px;
+    padding: 6px 12px;
+  }
+
+  .mini-weekday {
+    display: none;
+  }
+
+  .mini-game {
+    font-size: 0.875rem;
+  }
+
+  .mini-live {
+    padding: 0 10px;
+  }
+
+  /* Icons only; the labels stay for screen readers. */
+  .mini-label {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    white-space: nowrap;
+  }
+
+  .mini-nav a {
+    padding: 0 12px;
+  }
+}
