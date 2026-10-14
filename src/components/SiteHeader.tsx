@@ -10,7 +10,7 @@ import { useTeam } from '../lib/team.ts'
 import { badgeColors } from '../lib/teamColors.ts'
 import { teamLogoUrl, TEAMS_BY_ABBR } from '../lib/teams.ts'
 import type { Absence } from '../lib/types.ts'
-import { Wordmark } from './Brand.tsx'
+import { BrandIcon, Wordmark } from './Brand.tsx'
 import { Icon } from './Icon.tsx'
 import { LiveAnnouncer, LivePill } from './LivePill.tsx'
 import { MiniBar } from './MiniBar.tsx'
@@ -73,8 +73,10 @@ export function SiteHeader({ route, data, timeZone, onShowGame }: Props) {
         <div className="header-inner">
           <div className="header-top">
             <a className="brand" href={routeHref({ page: 'games' })}>
-              <Wordmark height={30} />
-              <span className="sr-only">, {team.fullName} home</span>
+              {/* The wordmark on wide screens; the icon on phones, leaving the team pill room for the full name. */}
+              <Wordmark height={30} className="brand-wide" decorative />
+              <BrandIcon size={36} glass className="brand-narrow" />
+              <span className="sr-only">myteam.fans, {team.fullName} home</span>
             </a>
             <div className="header-actions">
               {data && (
@@ -88,7 +90,7 @@ export function SiteHeader({ route, data, timeZone, onShowGame }: Props) {
                   )}
                 </span>
               )}
-              <a className="team-pill" href={routeHref({ page: 'picker' })}>
+              <a className={`team-pill ${team.fullName.length > 18 ? 'long' : ''}`} href={routeHref({ page: 'picker' })}>
                 <TeamLogo abbr={team.abbr} size={28} background="dark" />
                 <span className="team-pill-name">
                   <span className="team-pill-city">{team.city} </span>

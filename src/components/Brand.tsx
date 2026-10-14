@@ -6,15 +6,16 @@ import { GLYPHS, LETTERS } from '../lib/brand.ts'
 const DOT = 'var(--team-dot, #F04B32)'
 
 /** "myteam.fans", about 6.2 times as wide as it is tall. */
-export function Wordmark({ height = 28, className = '' }: { height?: number; className?: string }) {
+export function Wordmark({ height = 28, className = '', decorative = false }: { height?: number; className?: string; decorative?: boolean }) {
   return (
     <svg
       className={`wordmark ${className}`}
       viewBox="25 28 751 122"
       height={height}
       width={(height * 751) / 122}
-      role="img"
-      aria-label="myteam.fans"
+      role={decorative ? undefined : 'img'}
+      aria-label={decorative ? undefined : 'myteam.fans'}
+      aria-hidden={decorative || undefined}
     >
       <g fill="currentColor">
         {LETTERS.map(([c, x]) => (
@@ -26,11 +27,11 @@ export function Wordmark({ height = 28, className = '' }: { height?: number; cla
   )
 }
 
-/** The "m." app icon on its dark tile. */
-export function BrandIcon({ size = 32, label }: { size?: number; label?: string }) {
+/** The "m." app icon: on its dark tile, or a see-through one that takes the header's color. */
+export function BrandIcon({ size = 32, label, glass = false, className = '' }: { size?: number; label?: string; glass?: boolean; className?: string }) {
   return (
     <svg
-      className="brand-icon"
+      className={`brand-icon ${className}`}
       viewBox="0 0 224 224"
       width={size}
       height={size}
@@ -38,7 +39,7 @@ export function BrandIcon({ size = 32, label }: { size?: number; label?: string 
       aria-label={label}
       aria-hidden={label ? undefined : true}
     >
-      <rect width="224" height="224" rx="48" fill="#101820" />
+      <rect width="224" height="224" rx="48" fill={glass ? 'rgb(255 255 255 / 14%)' : '#101820'} />
       <path d={GLYPHS.m} transform="translate(33 158) scale(0.064 -0.064)" fill="#fff" />
       <circle cx="150.84" cy="146" r="13" fill={DOT} />
     </svg>
