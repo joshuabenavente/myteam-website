@@ -1,7 +1,7 @@
 {
  "season": "2026-27",
  "lastSeason": "2025-26",
- "updatedAt": "2026-10-14T04:19:04.329Z",
+ "updatedAt": "2026-10-14T23:16:26.588Z",
  "teamGamesPlayed": {
   "regular": 0,
   "playoffs": 0
@@ -679,40 +679,21 @@
    "lastToDate": {}
   },
   {
-   "id": "hepbuch01",
-   "name": "Chucky Hepburn",
-   "position": "G",
-   "twoWay": true,
+   "id": "sharpja01",
+   "name": "Jamarion Sharp",
+   "position": "C",
+   "twoWay": false,
    "bio": {
-    "height": "6' 0\"",
-    "weight": 193,
-    "birthDate": "2003-02-09",
-    "experience": 1,
-    "college": "Louisville",
-    "birthPlace": "Omaha, NE"
+    "height": "7' 5\"",
+    "weight": 235,
+    "birthDate": "2001-08-26",
+    "experience": 0,
+    "college": "Ole Miss",
+    "birthPlace": "Hopkinsville, KY"
    },
-   "number": "24",
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4590360.png",
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4897696.png",
    "current": {},
-   "lastFull": {
-    "regular": {
-     "games": 2,
-     "started": 0,
-     "minutes": 13.3,
-     "points": 0,
-     "rebounds": 1,
-     "assists": 2,
-     "steals": 1,
-     "blocks": 0,
-     "turnovers": 1,
-     "fgMade": 0,
-     "fgAttempted": 6,
-     "threeMade": 0,
-     "threeAttempted": 5,
-     "ftMade": 0,
-     "ftAttempted": 0
-    }
-   },
+   "lastFull": {},
    "lastToDate": {}
   },
   {

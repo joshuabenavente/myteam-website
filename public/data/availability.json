@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-14T20:55:28.880Z",
+ "updatedAt": "2026-10-14T23:16:54.530Z",
  "teams": {
   "ATL": [
    {
@@ -100,13 +100,6 @@
   ],
   "CHA": [
    {
-    "name": "Christian Anderson",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Ankle (sprain)",
-    "returnDate": "2026-10-14"
-   },
-   {
     "name": "Coby White",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
@@ -204,11 +197,39 @@
   ],
   "DAL": [
    {
+    "name": "Cooper Flagg",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Rest",
+    "returnDate": "2026-10-16"
+   },
+   {
+    "name": "Daniel Gafford",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Rest",
+    "returnDate": "2026-10-16"
+   },
+   {
     "name": "Dereck Lively II",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Foot (surgery)",
     "returnDate": "2026-10-14"
+   },
+   {
+    "name": "Jett Howard",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Illness",
+    "returnDate": "2026-10-16"
+   },
+   {
+    "name": "Kyrie Irving",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Rest",
+    "returnDate": "2026-10-16"
    },
    {
     "name": "Marcus Sasser",
@@ -222,14 +243,14 @@
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Rest",
-    "returnDate": "2026-10-14"
+    "returnDate": "2026-10-16"
    },
    {
     "name": "Santi Aldama",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Knee",
-    "returnDate": "2026-10-14"
+    "returnDate": "2026-10-16"
    }
   ],
   "DEN": [
@@ -469,32 +490,11 @@
   ],
   "MIA": [
    {
-    "name": "Keshad Johnson",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Hamstring",
-    "returnDate": "2026-10-26"
-   },
-   {
-    "name": "Andrew Wiggins",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Rest",
-    "returnDate": "2026-10-14"
-   },
-   {
     "name": "Bam Adebayo",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
-    "reason": "Rest",
-    "returnDate": "2026-10-14"
-   },
-   {
-    "name": "Davion Mitchell",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Rest",
-    "returnDate": "2026-10-14"
+    "reason": "Groin",
+    "returnDate": "2026-10-16"
    },
    {
     "name": "Dru Smith",
@@ -502,20 +502,6 @@
     "gameTimeDecision": true,
     "reason": "Calf (strain)",
     "returnDate": "2026-10-16"
-   },
-   {
-    "name": "Giannis Antetokounmpo",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Rest",
-    "returnDate": "2026-10-14"
-   },
-   {
-    "name": "Klay Thompson",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Rest",
-    "returnDate": "2026-10-14"
    },
    {
     "name": "Kylor Kelley",
@@ -529,7 +515,7 @@
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Illness",
-    "returnDate": "2026-10-14"
+    "returnDate": "2026-10-16"
    }
   ],
   "MIL": [
@@ -541,6 +527,20 @@
     "returnDate": "2026-10-14"
    },
    {
+    "name": "Gary Trent Jr.",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Rest",
+    "returnDate": "2026-10-16"
+   },
+   {
+    "name": "Jaime Jaquez Jr.",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Rest",
+    "returnDate": "2026-10-16"
+   },
+   {
     "name": "Kasparas Jakucionis",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
@@ -548,11 +548,25 @@
     "returnDate": "2026-10-14"
    },
    {
+    "name": "Kyle Kuzma",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Rest",
+    "returnDate": "2026-10-16"
+   },
+   {
     "name": "Nate Ament",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Ankle (sprain)",
     "returnDate": "2026-10-14"
+   },
+   {
+    "name": "Tyler Herro",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Rest",
+    "returnDate": "2026-10-16"
    }
   ],
   "MIN": [
@@ -603,13 +617,6 @@
   ],
   "NYK": [
    {
-    "name": "Andre Drummond",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Rest",
-    "returnDate": "2026-10-15"
-   },
-   {
     "name": "Jalen Brunson",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
@@ -625,13 +632,6 @@
    },
    {
     "name": "Karl-Anthony Towns",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Rest",
-    "returnDate": "2026-10-15"
-   },
-   {
-    "name": "Landry Shamet",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Rest",
@@ -811,7 +811,7 @@
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Rest",
-    "returnDate": "2026-10-14"
+    "returnDate": "2026-10-16"
    },
    {
     "name": "Dillon Brooks",
@@ -939,32 +939,25 @@
     "returnDate": "2026-10-14"
    },
    {
-    "name": "De'Aaron Fox",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Undisclosed (soreness)",
-    "returnDate": "2026-10-14"
-   },
-   {
-    "name": "Devin Vassell",
+    "name": "Julian Champagnie",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Rest",
-    "returnDate": "2026-10-14"
+    "returnDate": "2026-10-16"
    },
    {
-    "name": "Dylan Harper",
+    "name": "Keldon Johnson",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Rest",
-    "returnDate": "2026-10-14"
+    "returnDate": "2026-10-16"
    },
    {
-    "name": "Stephon Castle",
+    "name": "Luke Kornet",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Rest",
-    "returnDate": "2026-10-14"
+    "returnDate": "2026-10-16"
    },
    {
     "name": "Tobias Harris",
@@ -972,13 +965,6 @@
     "gameTimeDecision": true,
     "reason": "Calf (strain)",
     "returnDate": "2026-10-20"
-   },
-   {
-    "name": "Victor Wembanyama",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Rest",
-    "returnDate": "2026-10-14"
    }
   ],
   "UTA": [
