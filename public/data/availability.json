@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-14T19:35:17.082Z",
+ "updatedAt": "2026-10-14T20:55:28.880Z",
  "teams": {
   "ATL": [
    {
@@ -407,13 +407,6 @@
     "returnDate": "2026-11-01"
    },
    {
-    "name": "Jamison Battle",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Back",
-    "returnDate": "2026-10-15"
-   },
-   {
     "name": "Nate Bittle",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
@@ -610,6 +603,13 @@
   ],
   "NYK": [
    {
+    "name": "Andre Drummond",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Rest",
+    "returnDate": "2026-10-15"
+   },
+   {
     "name": "Jalen Brunson",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
@@ -625,6 +625,13 @@
    },
    {
     "name": "Karl-Anthony Towns",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Rest",
+    "returnDate": "2026-10-15"
+   },
+   {
+    "name": "Landry Shamet",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Rest",
