@@ -1,7 +1,7 @@
 {
  "season": "2026-27",
  "lastSeason": "2025-26",
- "updatedAt": "2026-10-14T04:14:39.889Z",
+ "updatedAt": "2026-10-14T20:58:04.417Z",
  "teamGamesPlayed": {
   "regular": 0,
   "playoffs": 0
@@ -537,6 +537,43 @@
    "lastToDate": {}
   },
   {
+   "id": "johnsch06",
+   "name": "Chaney Johnson",
+   "position": "G",
+   "twoWay": true,
+   "bio": {
+    "height": "6' 8\"",
+    "weight": 225,
+    "birthDate": "2002-06-20",
+    "experience": 1,
+    "college": "Auburn",
+    "birthPlace": "Alabaster, AL"
+   },
+   "number": "31",
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5174655.png",
+   "current": {},
+   "lastFull": {
+    "regular": {
+     "games": 17,
+     "started": 1,
+     "minutes": 347.7,
+     "points": 139,
+     "rebounds": 79,
+     "assists": 36,
+     "steals": 15,
+     "blocks": 9,
+     "turnovers": 20,
+     "fgMade": 51,
+     "fgAttempted": 94,
+     "threeMade": 9,
+     "threeAttempted": 30,
+     "ftMade": 28,
+     "ftAttempted": 35
+    }
+   },
+   "lastToDate": {}
+  },
+  {
    "id": "nelsogr02",
    "name": "Grant Nelson",
    "position": "F",
@@ -574,37 +611,20 @@
    "lastToDate": {}
   },
   {
-   "id": "brownmi02",
-   "name": "Mikel Brown Jr.",
-   "position": "G",
-   "twoWay": false,
+   "id": "bilodty01",
+   "name": "Tyler Bilodeau",
+   "position": "F",
+   "twoWay": true,
    "bio": {
-    "height": "6' 5\"",
-    "weight": 180,
-    "birthDate": "2006-04-03",
+    "height": "6' 8\"",
+    "weight": 228,
+    "birthDate": "2004-04-17",
     "experience": 0,
-    "college": "Louisville",
-    "birthPlace": "Orlando, FL"
+    "college": "UCLA",
+    "birthPlace": "Kennewick, WA"
    },
-   "number": "0",
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5101761.png",
-   "current": {},
-   "lastFull": {},
-   "lastToDate": {}
-  },
-  {
-   "id": "browndi02",
-   "name": "Dion Brown",
-   "position": "G",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 3\"",
-    "weight": 180,
-    "birthDate": "2003-05-26",
-    "experience": 0,
-    "college": "Saint Louis",
-    "birthPlace": "Great Barrington, MA"
-   },
+   "number": "34",
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5105626.png",
    "current": {},
    "lastFull": {},
    "lastToDate": {}
@@ -621,25 +641,6 @@
     "experience": 0,
     "college": "Huntington University, University of Evansville, Illinois"
    },
-   "current": {},
-   "lastFull": {},
-   "lastToDate": {}
-  },
-  {
-   "id": "dainjda01",
-   "name": "Dain Dainja",
-   "position": "F",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 9\"",
-    "weight": 271,
-    "birthDate": "2002-07-16",
-    "experience": 0,
-    "college": "Memphis",
-    "birthPlace": "Brooklyn Park, MN"
-   },
-   "number": "42",
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4432189.png",
    "current": {},
    "lastFull": {},
    "lastToDate": {}
@@ -664,20 +665,20 @@
    "lastToDate": {}
   },
   {
-   "id": "bilodty01",
-   "name": "Tyler Bilodeau",
-   "position": "F",
-   "twoWay": true,
+   "id": "brownmi02",
+   "name": "Mikel Brown Jr.",
+   "position": "G",
+   "twoWay": false,
    "bio": {
-    "height": "6' 8\"",
-    "weight": 228,
-    "birthDate": "2004-04-17",
+    "height": "6' 5\"",
+    "weight": 180,
+    "birthDate": "2006-04-03",
     "experience": 0,
-    "college": "UCLA",
-    "birthPlace": "Kennewick, WA"
+    "college": "Louisville",
+    "birthPlace": "Orlando, FL"
    },
-   "number": "34",
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5105626.png",
+   "number": "0",
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5101761.png",
    "current": {},
    "lastFull": {},
    "lastToDate": {}
