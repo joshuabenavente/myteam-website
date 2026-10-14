@@ -1,12 +1,10 @@
-import { Ridge } from './Ridge.tsx'
 
 /** Site name, contact address and data credits. */
-export function SiteFooter({ updatedAt, court }: { updatedAt?: string; court?: boolean }) {
+export function SiteFooter({ updatedAt }: { updatedAt?: string }) {
   // Put together in the browser, so the address isn't sitting in the page source for scrapers.
   const email = ['contact', 'myteam.fans'].join('@')
   return (
     <footer className="site-footer">
-      <Ridge court={court} />
       <div className="footer-inner">
         <p>
           <strong>myteam.fans</strong> · <a href={`mailto:${email}`}>{email}</a>

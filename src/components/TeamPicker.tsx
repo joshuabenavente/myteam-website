@@ -101,7 +101,7 @@ export function TeamPicker({ unknown }: { unknown?: string }) {
           )
         })}
       </main>
-      <SiteFooter court />
+      <SiteFooter />
     </>
   )
 }
