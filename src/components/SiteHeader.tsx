@@ -12,7 +12,6 @@ import type { Absence } from '../lib/types.ts'
 import { Icon } from './Icon.tsx'
 import { LiveAnnouncer, LivePill } from './LivePill.tsx'
 import { MiniBar } from './MiniBar.tsx'
-import { Ridge } from './Ridge.tsx'
 import { TeamLogo } from './TeamLogo.tsx'
 
 /** Injury chips per team; the rest are behind "+N more". */
@@ -36,7 +35,6 @@ export function SiteHeader({ route, data, timeZone, onShowGame }: Props) {
   return (
     <>
       <header ref={headerRef} className={`site-header ${full ? 'full' : roster ? 'page' : 'compact'}`}>
-        <Ridge />
         <div className="header-inner">
           <div className="header-top">
             <a className="brand" href={routeHref({ page: 'games' })}>

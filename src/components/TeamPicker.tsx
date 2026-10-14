@@ -5,7 +5,6 @@ import { TEAM_COLORS } from '../lib/teamColors.ts'
 import { TEAMS, teamSlug, type Team } from '../lib/teams.ts'
 import { BrandMark } from './BrandMark.tsx'
 import { Icon } from './Icon.tsx'
-import { Ridge } from './Ridge.tsx'
 import { SiteFooter } from './SiteFooter.tsx'
 import { TeamLogo } from './TeamLogo.tsx'
 
@@ -34,7 +33,6 @@ export function TeamPicker({ unknown }: { unknown?: string }) {
         Skip to content
       </button>
       <header className="site-header page picker-header">
-        <Ridge court />
         <div className="header-inner">
           <div className="header-top">
             <span className="brand">
