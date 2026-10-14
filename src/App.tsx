@@ -5,6 +5,7 @@ import { GamesList } from './components/GamesList.tsx'
 import { Icon } from './components/Icon.tsx'
 import { PlayerPage } from './components/PlayerPage.tsx'
 import { PlayerTracker } from './components/PlayerTracker.tsx'
+import { Ridge } from './components/Ridge.tsx'
 import { SiteHeader } from './components/SiteHeader.tsx'
 import { TeamSummary } from './components/TeamSummary.tsx'
 import {
@@ -85,7 +86,6 @@ function App() {
 
         {data && route.page === 'players' && (
           <section>
-            <h1 className="sr-only">Players</h1>
             <PlayerTracker data={data} />
           </section>
         )}
@@ -94,13 +94,16 @@ function App() {
       </main>
 
       {data && (
-        <footer className="site-footer muted small">
-          Updated {new Date(data.meta.updatedAt).toLocaleString('en-US', { dateStyle: 'medium', timeStyle: 'short' })}.
-          Data from NBA.com, ESPN and{' '}
-          <a href="https://www.basketball-reference.com" target="_blank" rel="noreferrer">
-            Basketball-Reference.com
-          </a>
-          . Regular season and playoffs only.
+        <footer className="site-footer">
+          <Ridge />
+          <div className="footer-inner">
+            Updated {new Date(data.meta.updatedAt).toLocaleString('en-US', { dateStyle: 'medium', timeStyle: 'short' })}.
+            Data from NBA.com, ESPN and{' '}
+            <a href="https://www.basketball-reference.com" target="_blank" rel="noreferrer">
+              Basketball-Reference.com
+            </a>
+            . Regular season and playoffs only.
+          </div>
         </footer>
       )}
       {picker && <AppearancePanel value={appearance} onChange={setAppearance} onTurnOff={turnOffPicker} />}

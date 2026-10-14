@@ -10,6 +10,7 @@ import type { GameLogEntry, Player, StatTotals, TrackedGameType } from '../lib/t
 import { Broadcasts } from './GameRow.tsx'
 import { Icon } from './Icon.tsx'
 import { RadarChart } from './RadarChart.tsx'
+import { Ridge } from './Ridge.tsx'
 import { TeamLogo } from './TeamLogo.tsx'
 
 // The hero's stat strip: a focused subset of the tracker's columns.
@@ -72,6 +73,7 @@ function PlayerView({ player, data, timeZone }: { player: Player; data: AppData;
         <div className="hero-backdrop" aria-hidden="true">
           {player.number && <span className="hero-number">{player.number}</span>}
           <span className="hero-wordmark">NUGGETS</span>
+          <Ridge />
         </div>
 
         <div className="hero-photo">

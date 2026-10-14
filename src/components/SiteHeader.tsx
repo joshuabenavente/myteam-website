@@ -8,6 +8,7 @@ import { badgeColors } from '../lib/teamColors.ts'
 import { TEAMS_BY_ABBR } from '../lib/teams.ts'
 import type { Absence } from '../lib/types.ts'
 import { Icon } from './Icon.tsx'
+import { Ridge } from './Ridge.tsx'
 import { TeamLogo } from './TeamLogo.tsx'
 
 /** Injury chips per team; the rest are behind "+N more". */
@@ -24,9 +25,10 @@ interface Props {
 /** The navy header: brand and season record, the next game on the Games page, and the page switcher. */
 export function SiteHeader({ route, data, timeZone, onShowGame }: Props) {
   const full = route.page === 'games' && !!data
+  const roster = route.page === 'players' && !!data
   const us = data?.standings.teams[TEAM.abbr]
   return (
-    <header className={`site-header ${full ? 'full' : 'compact'}`}>
+    <header className={`site-header ${full ? 'full' : roster ? 'page' : 'compact'}`}>
       <Ridge />
       <div className="header-inner">
         <div className="header-top">
@@ -50,6 +52,7 @@ export function SiteHeader({ route, data, timeZone, onShowGame }: Props) {
         {/* The Games page's heading sits here so it comes before the next game's. */}
         {route.page === 'games' && <h1 className="sr-only">Games</h1>}
         {full && <NextGame data={data} timeZone={timeZone} onShowGame={onShowGame} />}
+        {roster && <RosterIntro data={data} />}
 
         <nav className="page-nav" aria-label="Pages">
           <a href={routeHref({ page: 'games' })} aria-current={route.page === 'games' ? 'page' : undefined}>
@@ -184,18 +187,19 @@ function BrandMark() {
   )
 }
 
-/** Two faint mountain ridges along the bottom of the header. */
-function Ridge() {
+function RosterIntro({ data }: { data: AppData }) {
+  const { players, season } = data.players
+  const twoWay = players.filter((p) => p.twoWay).length
   return (
-    <svg className="header-ridge" viewBox="0 0 1200 140" preserveAspectRatio="none" aria-hidden="true">
-      <path
-        d="M0 110 L90 70 L170 95 L270 40 L360 85 L450 55 L560 100 L660 45 L760 90 L860 60 L960 95 L1060 50 L1140 80 L1200 65 L1200 140 L0 140 Z"
-        fill="rgb(255 255 255 / 5%)"
-      />
-      <path
-        d="M0 125 L120 95 L230 118 L330 82 L440 112 L540 92 L650 120 L760 88 L880 115 L990 90 L1100 116 L1200 98 L1200 140 L0 140 Z"
-        fill="rgb(254 197 36 / 10%)"
-      />
-    </svg>
+    <section className="hero-page">
+      <p className="eyebrow">Players</p>
+      <h1>
+        Roster <span className="hero-time">· {season}</span>
+      </h1>
+      <ul className="hero-chips" aria-label="Roster">
+        <li className="hero-chip soft">{players.length} players</li>
+        {twoWay > 0 && <li className="hero-chip outline">{twoWay} on two-way contracts</li>}
+      </ul>
+    </section>
   )
 }

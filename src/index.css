@@ -23,6 +23,12 @@
   --status-q-text: #6b4e00;
   --status-p-bg: #dcf3e3;
   --status-p-text: #1a6b34;
+  --radius-card: 16px;
+  --selected-bg: var(--midnight);
+  --selected-text: #fff;
+  --table-head-bg: #eef1f6;
+  /* The navy header, also used by the player card, the radar card and the footer. */
+  --navy-gradient: linear-gradient(120deg, var(--midnight) 0%, #123069 58%, var(--skyline) 100%);
 
   /* Overridden by the appearance picker (src/lib/appearance.ts). */
   --font-body: 'Atkinson Hyperlegible Next', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
@@ -60,6 +66,9 @@
     --status-q-text: #ffe08a;
     --status-p-bg: #173d24;
     --status-p-text: #9be3b2;
+    --selected-bg: var(--sunshine);
+    --selected-text: var(--midnight);
+    --table-head-bg: #172440;
   }
 }
 

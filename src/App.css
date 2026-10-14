@@ -7,7 +7,7 @@
   color: #fff;
   background:
     radial-gradient(260px circle at 82% 34%, rgb(254 197 36 / 30%), transparent),
-    linear-gradient(120deg, var(--midnight) 0%, #123069 58%, var(--skyline) 100%);
+    var(--navy-gradient);
   box-shadow: 0 10px 30px rgb(8 16 32 / 18%);
 }
 
@@ -30,6 +30,32 @@
 
 .site-header.full .header-inner {
   min-height: 390px;
+}
+
+.hero-page {
+  margin-top: 28px;
+}
+
+.hero-page .eyebrow {
+  margin: 0;
+  font-size: 0.8125rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--sunshine);
+}
+
+.hero-page h1 {
+  margin: 8px 0 0;
+  font-family: var(--font-heading);
+  font-size: 2.75rem;
+  font-weight: 800;
+  line-height: 1.1;
+  color: #fff;
+}
+
+.hero-page h1 .hero-time {
+  white-space: nowrap;
 }
 
 .header-top {
@@ -331,6 +357,18 @@ button.hero-chip:hover {
     gap: 8px;
   }
 
+  .hero-page {
+    margin-top: 20px;
+  }
+
+  .hero-page h1 {
+    font-size: 2rem;
+  }
+
+  .site-footer {
+    border-radius: 28px 28px 0 0;
+  }
+
   .hero-game {
     grid-template-areas:
       'eyebrow matchup'
@@ -427,21 +465,29 @@ main {
 
 .segmented {
   display: inline-flex;
+  gap: 2px;
+  padding: 3px;
   border: 1px solid var(--border);
-  border-radius: 8px;
-  overflow: hidden;
+  border-radius: 999px;
+  background: var(--surface);
 }
 
 .segmented button {
-  background: var(--surface);
+  background: transparent;
   color: var(--text);
   border: none;
-  padding: 6px 14px;
+  border-radius: 999px;
+  padding: 6px 16px;
+}
+
+.segmented button:hover {
+  background: var(--hover);
 }
 
 .segmented button[aria-pressed='true'] {
-  background: var(--skyline);
-  color: #fff;
+  background: var(--selected-bg);
+  color: var(--selected-text);
+  font-weight: var(--w-strong);
 }
 
 .muted {
@@ -452,7 +498,7 @@ main {
 .placeholder {
   background: var(--surface);
   border: 1px dashed var(--border);
-  border-radius: 8px;
+  border-radius: var(--radius-card);
   padding: 32px;
   text-align: center;
   color: var(--muted);
@@ -472,6 +518,10 @@ main {
   align-items: baseline;
   gap: 4px 12px;
   margin-bottom: 16px;
+  padding: 12px 18px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-card);
 }
 
 .team-summary .big {
@@ -503,7 +553,7 @@ main {
   padding: 0;
   background: var(--surface);
   border: 1px solid var(--border);
-  border-radius: 10px;
+  border-radius: var(--radius-card);
   overflow: hidden;
 }
 
@@ -712,13 +762,27 @@ main {
 }
 
 .site-footer {
+  position: relative;
+  overflow: hidden;
+  margin-top: 40px;
+  color: rgb(255 255 255 / 78%);
+  background: var(--navy-gradient);
+  font-size: 0.85rem;
+}
+
+.site-footer .header-ridge {
+  height: 70px;
+}
+
+.footer-inner {
+  position: relative;
   max-width: 1100px;
-  margin: 24px auto;
-  padding: 0 16px;
+  margin: 0 auto;
+  padding: 28px 16px 48px;
 }
 
 .site-footer a {
-  color: inherit;
+  color: #fff;
 }
 
 @media (max-width: 640px) {
@@ -793,7 +857,7 @@ main {
 .icon-button {
   width: 36px;
   height: 36px;
-  border-radius: 8px;
+  border-radius: 999px;
   border: 1px solid var(--border);
   background: var(--surface);
   color: var(--text);
@@ -809,9 +873,13 @@ main {
 .calendar-grid {
   width: 100%;
   table-layout: fixed;
-  border-collapse: collapse;
+  /* Separate borders so the grid can have rounded corners. */
+  border-collapse: separate;
+  border-spacing: 0;
   background: var(--surface);
   border: 1px solid var(--border);
+  border-radius: var(--radius-card);
+  overflow: hidden;
 }
 
 .calendar-grid th {
@@ -820,6 +888,7 @@ main {
   font-weight: var(--w-strong);
   color: var(--muted);
   text-transform: uppercase;
+  background: var(--table-head-bg);
   border-bottom: 1px solid var(--border);
 }
 
@@ -832,7 +901,16 @@ main {
   height: 96px;
   padding: 4px;
   vertical-align: top;
-  border: 1px solid var(--border);
+  border-right: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+}
+
+.calendar-grid td:last-child {
+  border-right: none;
+}
+
+.calendar-grid tbody tr:last-child td {
+  border-bottom: none;
 }
 
 .calendar-grid td.empty {
@@ -840,8 +918,8 @@ main {
 }
 
 .calendar-grid td.today .day-number {
-  background: var(--skyline);
-  color: #fff;
+  background: var(--selected-bg);
+  color: var(--selected-text);
   border-radius: 999px;
   padding: 0 6px;
 }
@@ -945,7 +1023,7 @@ main {
   padding: 16px;
   background: var(--surface);
   border: 1px solid var(--border);
-  border-radius: 10px;
+  border-radius: var(--radius-card);
 }
 
 .selected-header {
@@ -1037,7 +1115,7 @@ main {
   overflow-x: auto;
   background: var(--surface);
   border: 1px solid var(--border);
-  border-radius: 10px;
+  border-radius: var(--radius-card);
 }
 
 .player-table {
@@ -1063,7 +1141,7 @@ main {
 .player-table thead th {
   position: sticky;
   top: 0;
-  background: var(--surface);
+  background: var(--table-head-bg);
   padding: 0;
 }
 
@@ -1250,8 +1328,8 @@ main {
 .status-tag {
   font-size: 0.7rem;
   font-weight: var(--w-bold);
-  padding: 1px 6px;
-  border-radius: 4px;
+  padding: 2px 8px;
+  border-radius: 999px;
   white-space: nowrap;
 }
 
@@ -1451,6 +1529,7 @@ main {
   height: 34px;
   border-radius: 50%;
   overflow: hidden;
+  box-shadow: 0 0 0 2px var(--sunshine);
   background: linear-gradient(160deg, var(--skyline), var(--midnight));
 }
 
@@ -1469,13 +1548,18 @@ main {
   display: inline-flex;
   align-items: center;
   gap: 4px;
-  color: var(--muted);
+  min-height: 40px;
+  padding: 0 16px 0 10px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--surface);
+  color: var(--text);
   text-decoration: none;
   font-size: 0.9rem;
 }
 
 .back-link:hover {
-  color: var(--text);
+  background: var(--hover);
 }
 
 .player-hero {
@@ -1491,8 +1575,8 @@ main {
   border-radius: 18px;
   color: var(--hero-text);
   background:
-    radial-gradient(120% 90% at 85% 15%, #1d428a 0%, transparent 60%),
-    linear-gradient(160deg, #13284d 0%, #0b1730 70%);
+    radial-gradient(320px circle at 78% 30%, rgb(254 197 36 / 22%), transparent),
+    var(--navy-gradient);
   box-shadow: 0 20px 50px rgb(8 16 32 / 35%);
 }
 
@@ -1667,6 +1751,16 @@ main {
 .strip-toggle {
   margin-bottom: 8px;
   border-color: rgb(255 255 255 / 20%);
+  background: rgb(14 34 64 / 55%);
+}
+
+.strip-toggle button:hover {
+  background: rgb(255 255 255 / 8%);
+}
+
+.strip-toggle button[aria-pressed='true'] {
+  background: var(--sunshine);
+  color: var(--midnight);
 }
 
 .strip-toggle button {
@@ -1827,7 +1921,7 @@ main {
   padding: 18px;
   background: var(--surface);
   border: 1px solid var(--border);
-  border-radius: 14px;
+  border-radius: var(--radius-card);
   text-align: center;
 }
 
@@ -1962,11 +2056,11 @@ main {
 
 .overview {
   padding: 16px 16px 10px;
-  border-radius: 14px;
+  border-radius: var(--radius-card);
   color: #f4f6fa;
   background:
-    radial-gradient(90% 70% at 50% 40%, #1d428a 0%, transparent 70%),
-    #112449;
+    radial-gradient(90% 70% at 50% 40%, rgb(29 66 138 / 70%) 0%, transparent 70%),
+    var(--navy-gradient);
 }
 
 .overview h2 {
@@ -2139,7 +2233,7 @@ main {
   padding: 4px 12px 12px;
   background: var(--surface);
   border: 1px solid var(--border);
-  border-radius: 10px;
+  border-radius: var(--radius-card);
 }
 
 .channel-guide p {
@@ -2174,7 +2268,7 @@ main {
   margin: 0 0 8px;
   padding: 10px 14px;
   border: 1px dashed var(--border);
-  border-radius: 10px;
+  border-radius: var(--radius-card);
   font-size: 0.88rem;
   color: var(--muted);
 }
