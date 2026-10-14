@@ -78,9 +78,9 @@ function TeamSite({ route, team }: { route: Extract<Route, { team: string }>; te
   return (
     <LiveContext.Provider value={live}>
       {/* A button, not a "#main" link: links change pages. */}
-      <button className="skip-link" onClick={() => document.getElementById('main')?.focus()}>
+      <a className="skip-link" href="#main">
         Skip to content
-      </button>
+      </a>
       <SiteHeader route={route} data={data} timeZone={timeZone} onShowGame={showGame} />
 
       <main id="main" tabIndex={-1}>

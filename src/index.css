@@ -30,6 +30,7 @@
   --selected-bg: var(--midnight);
   --selected-text: #fff;
   --table-head-bg: #eef1f6;
+  --focus: var(--skyline);
   /* The navy header, also used by the player card, the radar card and the footer. */
   --navy-gradient: linear-gradient(120deg, var(--midnight) 0%, color-mix(in srgb, var(--midnight) 45%, var(--skyline)) 58%, var(--skyline) 100%);
 
@@ -72,11 +73,18 @@
     --selected-bg: var(--sunshine);
     --selected-text: var(--accent-text);
     --table-head-bg: #26262a;
+    --focus: var(--sunshine);
   }
 }
 
 * {
   box-sizing: border-box;
+}
+
+/* One focus ring everywhere on the page (the dark header and mini bar use white). */
+:focus-visible {
+  outline: 2px solid var(--focus);
+  outline-offset: 2px;
 }
 
 /* No single word stranded on a last line. */

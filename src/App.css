@@ -237,10 +237,19 @@
 }
 
 .hero-chip.team {
-  background: var(--chip-fill);
-  color: var(--chip-text);
-  border: 2px solid var(--chip-ring);
+  gap: 8px;
+  padding-left: 12px;
+  background: rgb(255 255 255 / 14%);
+  border-color: rgb(255 255 255 / 22%);
   font-weight: 700;
+}
+
+.chip-dot {
+  flex: none;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--chip-fill);
 }
 
 .hero-chip.outlined,
@@ -425,7 +434,8 @@ button.hero-chip:hover {
 }
 
 .site-header a:focus-visible,
-.site-header button:focus-visible {
+.site-header button:focus-visible,
+.site-header summary:focus-visible {
   outline: 2px solid #fff;
   outline-offset: 2px;
 }
@@ -2233,6 +2243,8 @@ main {
 }
 
 .channel-guide summary {
+  text-decoration: underline;
+  text-underline-offset: 3px;
   cursor: pointer;
   min-height: 40px;
   display: flex;
@@ -2971,6 +2983,7 @@ main {
 /* --- review fixes --- */
 
 .skip-link {
+  text-decoration: none;
   position: absolute;
   top: -100px;
   left: 8px;
@@ -3242,7 +3255,7 @@ a.mini-game:hover {
 }
 
 .picker-search:focus-within {
-  outline: 2px solid var(--skyline-text);
+  outline: 2px solid var(--focus);
   outline-offset: 2px;
 }
 
@@ -3510,6 +3523,18 @@ a.mini-game:hover {
   line-height: 1.1;
 }
 
+/* The opponent links to the game page (on phones it stands in for the hidden first card). */
+.countdown-opp {
+  align-self: flex-start;
+  color: inherit;
+  text-decoration-color: rgb(255 255 255 / 45%);
+  text-underline-offset: 4px;
+}
+
+.countdown-opp:hover {
+  text-decoration-color: currentColor;
+}
+
 .up-meta {
   font-size: 1rem;
   font-weight: 600;
@@ -3612,5 +3637,55 @@ a.mini-game:hover {
   .brand-narrow {
     width: 32px;
     height: 32px;
+  }
+}
+
+/* Phones: the countdown already shows the next game, so the cards start with the one after,
+   and everything is a size smaller to get the schedule closer to the top. */
+@media (max-width: 560px) {
+  .up-cards .up-same {
+    display: none;
+  }
+
+  .cards-hero {
+    gap: 18px;
+    margin-top: 18px;
+  }
+
+  .countdown-row {
+    margin-top: 8px;
+  }
+
+  .countdown-number {
+    font-size: 4.5rem;
+  }
+
+  .countdown-unit {
+    font-size: 1.35rem;
+  }
+
+  .cards-hero .hero-chips {
+    margin-top: 14px;
+  }
+
+  .up-cards {
+    margin-top: 10px;
+  }
+
+  .up-cards li {
+    flex-basis: 62%;
+  }
+
+  .up-card {
+    gap: 2px;
+    padding: 12px 14px;
+  }
+
+  .up-matchup {
+    font-size: 1.3rem;
+  }
+
+  .up-meta {
+    font-size: 0.875rem;
   }
 }

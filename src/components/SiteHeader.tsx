@@ -7,7 +7,7 @@ import { liveFor, useLive } from '../lib/live.ts'
 import { nameKey } from '../lib/names.ts'
 import { routeHref, type Route } from '../lib/route.ts'
 import { useTeam } from '../lib/team.ts'
-import { badgeColors } from '../lib/teamColors.ts'
+import { badgeColors, dotColor, teamTheme } from '../lib/teamColors.ts'
 import { teamLogoUrl, TEAMS_BY_ABBR } from '../lib/teams.ts'
 import type { Absence } from '../lib/types.ts'
 import { BrandIcon, Wordmark } from './Brand.tsx'
@@ -202,10 +202,10 @@ function NextGame({ data, timeZone, onShowGame }: { data: AppData; timeZone: str
               <span>
                 {weekday}, {monthDay}
               </span>
-              <span>
+              <a className="countdown-opp" href={routeHref({ page: 'game', id: game.id })}>
                 {game.home ? 'vs' : 'at'} {opp.city}
                 {game.neutralSite && ` · in ${game.neutralSite}`}
-              </span>
+              </a>
               <span className="countdown-muted">
                 {game.timeTbd ? 'Time TBD' : `${formatGameTime(game, timeZone)} ${timeZoneAbbr(timeZone, new Date(game.startUtc))}`}
                 {channel && ` · ${channel.label}`}
@@ -230,7 +230,7 @@ function NextGame({ data, timeZone, onShowGame }: { data: AppData; timeZone: str
                 const d = formatGameDate(g.startUtc, timeZone)
                 const ch = headlineChannel(g)
                 return (
-                  <li key={g.id}>
+                  <li key={g.id} className={g.id === game.id ? 'up-same' : undefined}>
                     <a className={`up-card ${i === 0 ? 'first' : ''}`} href={routeHref({ page: 'game', id: g.id })}>
                       <span className="up-date">
                         {d.weekday} {d.monthDay}
@@ -307,18 +307,21 @@ function NextGame({ data, timeZone, onShowGame }: { data: AppData; timeZone: str
 
 function InjuryChip(props: { abbr: string; followed: string; absence: Absence; playerId?: string }) {
   const { abbr, followed, absence, playerId } = props
-  const c = badgeColors(abbr, followed)
+  // A neutral chip with a dot in the team's color, so no team's colors sit on another's header.
+  // The same rule as the logo's dot: a team color that shows on this header.
+  const dot = dotColor(abbr, teamTheme(followed).dark)
   const team = TEAMS_BY_ABBR[abbr]
   const text = (
     <>
+      <span className="chip-dot" aria-hidden="true" />
       <span className="sr-only">{team.name}: </span>
       {shortName(absence.name)} {chipStatus(absence)}
     </>
   )
   return (
     <li
-      className={`hero-chip team ${c.outline ? 'outlined' : ''}`}
-      style={{ '--chip-fill': c.fill, '--chip-ring': c.ring, '--chip-text': c.text } as CSSProperties}
+      className="hero-chip team"
+      style={{ '--chip-fill': dot } as CSSProperties}
     >
       {playerId ? (
         <a className="hero-chip-link" href={routeHref({ page: 'player', id: playerId })}>

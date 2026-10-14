@@ -61,6 +61,8 @@ export function useRoute(): Route {
   const [route, setRoute] = useState(() => {
     const legacy = legacyPath(window.location.hash)
     if (legacy) window.history.replaceState(null, '', legacy + window.location.search)
+    else if (/.\/$/.test(window.location.pathname))
+      window.history.replaceState(null, '', window.location.pathname.replace(/\/+$/, '') + window.location.search + window.location.hash)
     return parseRoute(window.location.pathname)
   })
 
@@ -75,6 +77,8 @@ export function useRoute(): Route {
       const a = (e.target as Element).closest?.('a')
       if (!a || a.target || a.hasAttribute('download') || a.origin !== window.location.origin) return
       if (a.pathname.startsWith('/data/')) return
+      // In-page links (the skip link) scroll and move focus the usual way.
+      if (a.hash && a.pathname === window.location.pathname) return
       e.preventDefault()
       if (a.pathname === window.location.pathname && a.search === window.location.search) return
       window.history.pushState(null, '', a.pathname + (a.search || window.location.search))

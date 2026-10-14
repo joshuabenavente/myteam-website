@@ -29,9 +29,9 @@ export function TeamPicker({ unknown }: { unknown?: string }) {
 
   return (
     <>
-      <button className="skip-link" onClick={() => document.getElementById('main')?.focus()}>
+      <a className="skip-link" href="#main">
         Skip to content
-      </button>
+      </a>
       <header className="site-header page picker-header">
         <div className="header-inner">
           <div className="header-top">
