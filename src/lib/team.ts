@@ -39,6 +39,17 @@ export function applyTheme(theme: TeamTheme = NEUTRAL_THEME) {
   document.querySelector('meta[name="theme-color"]')?.setAttribute('content', theme.dark)
 }
 
+/**
+ * What installing the app from this page gives you: the team's manifest and home screen icon
+ * (its dot), or the neutral ones on the team picker. Built by vite.config.ts.
+ */
+export function setAppIcons(team?: { slug: string; abbr: string }) {
+  document.querySelector('link[rel="manifest"]')?.setAttribute('href', team ? `/${team.slug}/manifest.webmanifest` : '/manifest.webmanifest')
+  document
+    .querySelector('link[rel="apple-touch-icon"]')
+    ?.setAttribute('href', `/icons/${team ? team.abbr.toLowerCase() : 'app'}-180.png`)
+}
+
 /** The tab icon: the app icon with this team's dot. */
 function setFavicon(dot: string) {
   const link = document.querySelector<HTMLLinkElement>('link[rel="icon"]')

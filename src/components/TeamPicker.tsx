@@ -1,9 +1,10 @@
 import { useEffect, useState, type CSSProperties } from 'react'
 import { routeHref } from '../lib/route.ts'
-import { applyTheme, savedTeam, saveTeam } from '../lib/team.ts'
+import { applyTheme, savedTeam, saveTeam, setAppIcons } from '../lib/team.ts'
 import { TEAM_COLORS } from '../lib/teamColors.ts'
 import { TEAMS, teamSlug, type Team } from '../lib/teams.ts'
 import { Wordmark } from './Brand.tsx'
+import { InstallApp } from './InstallApp.tsx'
 import { Icon } from './Icon.tsx'
 import { SiteFooter } from './SiteFooter.tsx'
 import { TeamLogo } from './TeamLogo.tsx'
@@ -20,6 +21,7 @@ export function TeamPicker({ unknown }: { unknown?: string }) {
 
   useEffect(() => {
     applyTheme()
+    setAppIcons()
     document.title = 'Pick your team · myteam.fans'
   }, [])
 
@@ -43,6 +45,7 @@ export function TeamPicker({ unknown }: { unknown?: string }) {
             <p className="eyebrow">NBA</p>
             <h1>Pick your team</h1>
             <p className="picker-lede">Schedule, live scores, injuries and player stats for any team.</p>
+            <InstallApp />
           </section>
         </div>
       </header>

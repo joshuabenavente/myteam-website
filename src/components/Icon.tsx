@@ -6,6 +6,7 @@ import {
   ChevronLeft,
   ChevronRight,
   Clock,
+  Download,
   House,
   List,
   MonitorPlay,
@@ -15,6 +16,7 @@ import {
   Trophy,
   Tv,
   Users,
+  WifiOff,
   type LucideIcon,
 } from 'lucide-react'
 
@@ -35,6 +37,8 @@ const ICONS = {
   expand: ChevronDown,
   switch: ArrowLeftRight,
   search: Search,
+  download: Download,
+  offline: WifiOff,
 } satisfies Record<string, LucideIcon>
 
 export type IconName = keyof typeof ICONS

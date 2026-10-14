@@ -1,4 +1,5 @@
 import { Wordmark } from './Brand.tsx'
+import { InstallApp } from './InstallApp.tsx'
 
 
 /** Site name, contact address and data credits. */
@@ -9,6 +10,7 @@ export function SiteFooter({ updatedAt }: { updatedAt?: string }) {
     <footer className="site-footer">
       <div className="footer-inner">
         <Wordmark height={22} className="footer-wordmark" />
+        <InstallApp />
         <p>
           <a href={`mailto:${email}`}>{email}</a>
         </p>

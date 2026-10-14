@@ -3493,3 +3493,89 @@ a.mini-game:hover {
     font-size: 0.875rem;
   }
 }
+
+/* --- Installable app --- */
+
+.install-app,
+.install-tip {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin: 14px 0 0;
+  color: #fff;
+  font-size: 0.9rem;
+}
+
+.install-app {
+  min-height: 40px;
+  padding: 0 16px;
+  border: 1px solid rgb(255 255 255 / 30%);
+  border-radius: 999px;
+  background: rgb(255 255 255 / 12%);
+  font: inherit;
+  font-weight: var(--w-bold);
+  cursor: pointer;
+}
+
+.install-app:hover {
+  background: rgb(255 255 255 / 20%);
+}
+
+.install-tip {
+  color: rgb(255 255 255 / 85%);
+}
+
+.install-tip .icon,
+.install-tip svg {
+  flex: none;
+}
+
+.site-footer .install-app,
+.site-footer .install-tip {
+  margin: 0 0 12px;
+}
+
+.offline-note {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  max-width: 1100px;
+  margin: 16px auto 0;
+  padding: 10px 14px;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: var(--surface);
+  color: var(--muted);
+  font-size: 0.9rem;
+  font-weight: var(--w-strong);
+}
+
+/* Installed on an iPhone the header runs behind the status bar and the page reaches the home
+   indicator; keep content clear of both, and of the notch in landscape. In a browser these
+   insets are 0. */
+.site-header.cards .header-inner,
+.site-header.cards.full .header-inner {
+  padding-top: calc(16px + env(safe-area-inset-top));
+  padding-right: max(16px, env(safe-area-inset-right));
+  padding-left: max(16px, env(safe-area-inset-left));
+}
+
+.picker-header .header-inner {
+  padding-top: calc(28px + env(safe-area-inset-top));
+  padding-right: max(16px, env(safe-area-inset-right));
+  padding-left: max(16px, env(safe-area-inset-left));
+}
+
+.mini-bar {
+  padding-top: env(safe-area-inset-top);
+}
+
+main,
+.footer-inner {
+  padding-right: max(16px, env(safe-area-inset-right));
+  padding-left: max(16px, env(safe-area-inset-left));
+}
+
+.footer-inner {
+  padding-bottom: calc(48px + env(safe-area-inset-bottom));
+}

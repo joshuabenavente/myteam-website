@@ -14,7 +14,7 @@ import { timeZoneAbbr } from './lib/format.ts'
 import { headlineGame } from './lib/hero.ts'
 import { LiveContext } from './lib/live.ts'
 import { navigate, useRoute, type Route } from './lib/route.ts'
-import { applyTheme, savedTeam, saveTeam, TeamContext, teamFromSlug, type CurrentTeam } from './lib/team.ts'
+import { applyTheme, savedTeam, saveTeam, setAppIcons, TeamContext, teamFromSlug, type CurrentTeam } from './lib/team.ts'
 import { TEAMS_BY_ABBR } from './lib/teams.ts'
 import { useLiveScore } from './lib/useLiveScore.ts'
 import './App.css'
@@ -66,6 +66,7 @@ function TeamSite({ route, team }: { route: Extract<Route, { team: string }>; te
 
   useEffect(() => {
     applyTheme(team.theme)
+    setAppIcons(team)
     // A shared link to another team doesn't replace yours; the picker does (see TeamPicker).
     if (!savedTeam()) saveTeam(team.slug)
   }, [team])
@@ -77,13 +78,13 @@ function TeamSite({ route, team }: { route: Extract<Route, { team: string }>; te
 
   return (
     <LiveContext.Provider value={live}>
-      {/* A button, not a "#main" link: links change pages. */}
       <a className="skip-link" href="#main">
         Skip to content
       </a>
       <SiteHeader route={route} data={data} timeZone={timeZone} onShowGame={showGame} />
 
       <main id="main" tabIndex={-1}>
+        {data?.offline && <OfflineNote updatedAt={data.meta.updatedAt} />}
         {error && <p className="placeholder error">{error}</p>}
         {!data && !error && <p className="placeholder">Loading…</p>}
 
@@ -126,6 +127,20 @@ function TeamSite({ route, team }: { route: Extract<Route, { team: string }>; te
 
       {data && <SiteFooter updatedAt={data.meta.updatedAt} />}
     </LiveContext.Provider>
+  )
+}
+
+/** No connection: say how old the saved data is. */
+function OfflineNote({ updatedAt }: { updatedAt: string }) {
+  const [now] = useState(() => new Date())
+  const when = new Date(updatedAt)
+  const today = when.toDateString() === now.toDateString()
+  const label = when.toLocaleString('en-US', today ? { timeStyle: 'short' } : { dateStyle: 'medium', timeStyle: 'short' })
+  return (
+    <p className="offline-note" role="status">
+      <Icon name="offline" size={16} />
+      Offline · showing data from {label}
+    </p>
   )
 }
 

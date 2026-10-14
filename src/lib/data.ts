@@ -22,11 +22,17 @@ export interface AppData {
   availability?: AvailabilityFile
   /** Optional: only written when previews are enabled. */
   previews?: PreviewsFile
+  /** No connection: the installed app is showing the copy it saved last time. */
+  offline?: boolean
 }
+
+/** Set when the service worker answers with a saved copy because the network is down. */
+let servedOffline = false
 
 async function load<T>(name: string): Promise<T> {
   const res = await fetch(`${import.meta.env.BASE_URL}data/${name}.json`)
   if (!res.ok) throw new Error(`Couldn't load ${name} (HTTP ${res.status})`)
+  if (res.headers.get('X-Myteam-Offline')) servedOffline = true
   return res.json() as Promise<T>
 }
 
@@ -49,6 +55,7 @@ export function useAppData(abbr: string | undefined): { data?: AppData; error?: 
   useEffect(() => {
     if (!abbr) return
     let stale = false
+    servedOffline = false
     Promise.all([
       load<ScheduleFile>(teamFile(abbr, 'schedule')),
       load<StandingsFile>('standings'),
@@ -62,10 +69,27 @@ export function useAppData(abbr: string | undefined): { data?: AppData; error?: 
         if (stale) return
         setState({
           abbr,
-          data: { schedule, standings, h2h, players: players ?? noPlayers(schedule.season), meta, availability, previews },
+          data: {
+            schedule,
+            standings,
+            h2h,
+            players: players ?? noPlayers(schedule.season),
+            meta,
+            availability,
+            previews,
+            offline: servedOffline,
+          },
         })
       })
-      .catch((err: Error) => !stale && setState({ abbr, error: err.message }))
+      .catch((err: Error) => {
+        if (stale) return
+        // fetch() rejects (rather than answering with an error) when there's no connection.
+        const message =
+          err instanceof TypeError
+            ? "Couldn't reach myteam.fans. You may be offline, and this team hasn't been saved on this device yet."
+            : err.message
+        setState({ abbr, error: message })
+      })
     return () => {
       stale = true
     }

@@ -16,8 +16,12 @@ export const LETTERS: [keyof typeof GLYPHS, number][] = [
   ['m', 18], ['y', 130.84], ['t', 200.416], ['e', 245.736], ['a', 316.336], ['m', 385.784], ['f', 522.624], ['a', 568.2], ['n', 637.648], ['s', 711.384],
 ]
 
-/** The icon as a standalone SVG file, for the favicon. */
-export const iconSvg = (dot: string) =>
-  `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 224 224"><rect width="224" height="224" rx="48" fill="#101820"/>` +
+/**
+ * The icon as a standalone SVG file: on its rounded tile (favicon, app icons), or filling the
+ * square edge to edge for icons the phone rounds or crops itself (iPhone home screen, Android
+ * maskable). The m. already sits inside the maskable safe zone.
+ */
+export const iconSvg = (dot: string, { fullBleed = false } = {}) =>
+  `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 224 224"><rect width="224" height="224"${fullBleed ? '' : ' rx="48"'} fill="#101820"/>` +
   `<path d="${GLYPHS.m}" transform="translate(33 158) scale(0.064 -0.064)" fill="#fff"/>` +
   `<circle cx="150.84" cy="146" r="13" fill="${dot}"/></svg>`
