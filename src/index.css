@@ -50,14 +50,14 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg: #0b1220;
-    --surface: #131c2e;
+    --bg: #000000;
+    --surface: #1c1c1f;
     --text: #e8ebf0;
-    --muted: #9aa4b2;
-    --border: #26324a;
-    --hover: #18233a;
+    --muted: #a1a1aa;
+    --border: #2e2e33;
+    --hover: #26262a;
     --heading: var(--sunshine);
-    --skyline-text: #7ea6ff;
+    --skyline-text: var(--sunshine);
     --win: #4ac26b;
     --loss: #ff7b8a;
     --chip-local-bg: var(--sunshine);
@@ -71,7 +71,7 @@
     --status-p-text: #9be3b2;
     --selected-bg: var(--sunshine);
     --selected-text: var(--accent-text);
-    --table-head-bg: #172440;
+    --table-head-bg: #26262a;
   }
 }
 
