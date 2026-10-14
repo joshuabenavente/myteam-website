@@ -13,8 +13,12 @@ export function headlineGame<T extends Pick<Game, 'status' | 'startUtc'>>(games:
 const DAY_MS = 24 * 60 * 60 * 1000
 
 /** "Tonight", "Today", "Tomorrow" or "In 9 days", by calendar days in the viewer's time zone. */
+/** Whole calendar days from `now` to the game, in the viewer's time zone (0 = today). */
+export const daysUntil = (game: Pick<Game, 'startUtc'>, now: Date, timeZone: string) =>
+  Math.round((Date.parse(dayKey(game.startUtc, timeZone)) - Date.parse(dayKey(now, timeZone))) / DAY_MS)
+
 export function countdownLabel(game: Pick<Game, 'startUtc' | 'timeTbd'>, now: Date, timeZone: string): string {
-  const days = Math.round((Date.parse(dayKey(game.startUtc, timeZone)) - Date.parse(dayKey(now, timeZone))) / DAY_MS)
+  const days = daysUntil(game, now, timeZone)
   if (days <= 0) {
     const hour = Number(new Date(game.startUtc).toLocaleString('en-US', { hour: 'numeric', hour12: false, timeZone }))
     return !game.timeTbd && hour >= 17 ? 'Tonight' : 'Today'

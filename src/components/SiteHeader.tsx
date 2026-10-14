@@ -1,7 +1,8 @@
 import { useRef, useState, type CSSProperties } from 'react'
 import type { AppData } from '../lib/data.ts'
 import { formatGameDate, formatGameTime, formatRecord, timeZoneAbbr } from '../lib/format.ts'
-import { chipStatus, countdownLabel, headlineChannel, headlineGame, listedFor, shortName } from '../lib/hero.ts'
+import { nextGames } from '../lib/availability.ts'
+import { chipStatus, countdownLabel, daysUntil, headlineChannel, headlineGame, listedFor, shortName } from '../lib/hero.ts'
 import { liveFor, useLive } from '../lib/live.ts'
 import { nameKey } from '../lib/names.ts'
 import { routeHref, type Route } from '../lib/route.ts'
@@ -16,6 +17,20 @@ import { TeamLogo } from './TeamLogo.tsx'
 
 /** Injury chips per team; the rest are behind "+N more". */
 const CHIPS_PER_TEAM = 2
+
+/**
+ * Prototype: ?banner=cards shows a compact banner (countdown plus "next up" game cards) instead of
+ * the big next-game hero. Remembered on this device until ?banner=hero.
+ */
+const cardsBanner = (() => {
+  try {
+    const param = new URLSearchParams(window.location.search).get('banner')
+    if (param) window.localStorage.setItem('myteam:banner', param)
+    return (param ?? window.localStorage.getItem('myteam:banner')) === 'cards'
+  } catch {
+    return false
+  }
+})()
 
 interface Props {
   route: Route
@@ -32,9 +47,28 @@ export function SiteHeader({ route, data, timeZone, onShowGame }: Props) {
   const roster = route.page === 'players' && !!data
   const us = data?.standings.teams[team.abbr]
   const headerRef = useRef<HTMLElement>(null)
+  const nav = (
+    <nav className="page-nav" aria-label="Pages">
+      <a
+        href={routeHref({ page: 'games' })}
+        aria-current={route.page === 'games' || route.page === 'game' ? 'page' : undefined}
+      >
+        <Icon name="games" /> Games
+      </a>
+      <a
+        href={routeHref({ page: 'players' })}
+        aria-current={route.page === 'players' || route.page === 'player' ? 'page' : undefined}
+      >
+        <Icon name="players" /> Players
+      </a>
+    </nav>
+  )
   return (
     <>
-      <header ref={headerRef} className={`site-header ${full ? 'full' : roster ? 'page' : 'compact'}`}>
+      <header
+        ref={headerRef}
+        className={`site-header ${full ? 'full' : roster ? 'page' : 'compact'} ${cardsBanner ? 'cards' : ''}`}
+      >
         <div className="header-inner">
           <div className="header-top">
             <a className="brand" href={routeHref({ page: 'games' })}>
@@ -58,6 +92,7 @@ export function SiteHeader({ route, data, timeZone, onShowGame }: Props) {
                 <span className="switch-label">Switch team</span>
               </a>
             </div>
+            {cardsBanner && nav}
           </div>
 
           {/* The Games page's heading sits here so it comes before the next game's. */}
@@ -65,20 +100,7 @@ export function SiteHeader({ route, data, timeZone, onShowGame }: Props) {
           {full && <NextGame data={data} timeZone={timeZone} onShowGame={onShowGame} />}
           {roster && <RosterIntro data={data} />}
 
-          <nav className="page-nav" aria-label="Pages">
-            <a
-              href={routeHref({ page: 'games' })}
-              aria-current={route.page === 'games' || route.page === 'game' ? 'page' : undefined}
-            >
-              <Icon name="games" /> Games
-            </a>
-            <a
-              href={routeHref({ page: 'players' })}
-              aria-current={route.page === 'players' || route.page === 'player' ? 'page' : undefined}
-            >
-              <Icon name="players" /> Players
-            </a>
-          </nav>
+          {!cardsBanner && nav}
         </div>
       </header>
       <MiniBar headerRef={headerRef} route={route} data={data} timeZone={timeZone} />
@@ -126,6 +148,98 @@ function NextGame({ data, timeZone, onShowGame }: { data: AppData; timeZone: str
     .filter(Boolean)
     .join(' · ')
 
+  const injuryChips = (
+    <>
+            {ours.slice(0, CHIPS_PER_TEAM).map((a) => (
+              <InjuryChip key={a.name} abbr={team.abbr} followed={team.abbr} absence={a} playerId={rosterIds.get(nameKey(a.name))} />
+            ))}
+            {theirs.slice(0, CHIPS_PER_TEAM).map((a) => (
+              <InjuryChip key={a.name} abbr={game.opponent} followed={team.abbr} absence={a} />
+            ))}
+            {hidden > 0 && (
+              <li>
+                <button className="hero-chip outline more" onClick={() => onShowGame(game.id)}>
+                  +{hidden} more<span className="sr-only"> listed out or day-to-day: open the injury report</span>
+                </button>
+              </li>
+            )}
+    </>
+  )
+
+  if (cardsBanner) {
+    const us = data.standings.teams[team.abbr]
+    const opener = !!us && us.wins + us.losses === 0 && game.type === 'regular'
+    const days = daysUntil(game, now, timeZone)
+    const upcoming = nextGames(data.schedule.games, 3)
+    return (
+      <section className="cards-hero" aria-labelledby="hero-game-heading">
+        <div className="countdown">
+          <h2 id="hero-game-heading" className="eyebrow">
+            {live ? 'Live now' : score?.state === 'final' ? 'Final' : opener ? `${data.schedule.season} season tips off in` : 'Next game in'}
+          </h2>
+          <div className="countdown-row">
+            {/* Once the game is on, the live pill below takes over from the countdown. */}
+            {!showPill && (
+              <span className={`countdown-number ${days > 0 ? '' : 'word'}`}>
+                {days > 0 ? days : countdownLabel(game, now, timeZone)}
+              </span>
+            )}
+            <div className="countdown-info">
+              {days > 0 && !showPill && <span className="countdown-unit">{days === 1 ? 'day' : 'days'}</span>}
+              <span>
+                {weekday}, {monthDay}
+              </span>
+              <span>
+                {game.home ? 'vs' : 'at'} {opp.city}
+                {game.neutralSite && ` · in ${game.neutralSite}`}
+              </span>
+              <span className="countdown-muted">
+                {game.timeTbd ? 'Time TBD' : `${formatGameTime(game, timeZone)} ${timeZoneAbbr(timeZone, new Date(game.startUtc))}`}
+                {channel && ` · ${channel.label}`}
+              </span>
+            </div>
+          </div>
+          <ul className="hero-chips" aria-label="About this game">
+            {testLive && <LivePill live={testLive} started href={routeHref({ page: 'game', id: 'live' })} />}
+            {showPill && watch && (
+              <LivePill live={watch} started={started} href={routeHref({ page: 'game', id: game.id })} />
+            )}
+            {injuryChips}
+          </ul>
+          <LiveAnnouncer score={testLive?.score ?? score} />
+        </div>
+
+        {upcoming.length > 0 && (
+          <div className="next-up">
+            <h2 className="eyebrow">Next up</h2>
+            <ul className="up-cards">
+              {upcoming.map((g, i) => {
+                const d = formatGameDate(g.startUtc, timeZone)
+                const ch = headlineChannel(g)
+                return (
+                  <li key={g.id}>
+                    <a className={`up-card ${i === 0 ? 'first' : ''}`} href={routeHref({ page: 'game', id: g.id })}>
+                      <span className="up-date">
+                        {d.weekday} {d.monthDay}
+                      </span>
+                      <span className="up-matchup">
+                        {g.home ? 'vs' : '@'} {g.opponent}
+                      </span>
+                      <span className="up-meta">
+                        {g.timeTbd ? 'Time TBD' : formatGameTime(g, timeZone)}
+                        {ch && ` · ${ch.label}`}
+                      </span>
+                    </a>
+                  </li>
+                )
+              })}
+            </ul>
+          </div>
+        )}
+      </section>
+    )
+  }
+
   return (
     <section className="hero-game" aria-labelledby="hero-game-heading">
       <h2 id="hero-game-heading" className="eyebrow">
@@ -170,19 +284,7 @@ function NextGame({ data, timeZone, onShowGame }: { data: AppData; timeZone: str
               {channel.label}
             </li>
           )}
-          {ours.slice(0, CHIPS_PER_TEAM).map((a) => (
-            <InjuryChip key={a.name} abbr={team.abbr} followed={team.abbr} absence={a} playerId={rosterIds.get(nameKey(a.name))} />
-          ))}
-          {theirs.slice(0, CHIPS_PER_TEAM).map((a) => (
-            <InjuryChip key={a.name} abbr={game.opponent} followed={team.abbr} absence={a} />
-          ))}
-          {hidden > 0 && (
-            <li>
-              <button className="hero-chip outline more" onClick={() => onShowGame(game.id)}>
-                +{hidden} more<span className="sr-only"> listed out or day-to-day: open the injury report</span>
-              </button>
-            </li>
-          )}
+          {injuryChips}
         </ul>
         <LiveAnnouncer score={testLive?.score ?? score} />
       </div>

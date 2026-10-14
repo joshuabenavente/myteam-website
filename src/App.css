@@ -3333,3 +3333,224 @@ a.mini-game:hover {
     font-size: 1.05rem;
   }
 }
+
+/* --- prototype: compact banner with game cards (?banner=cards) --- */
+
+.site-header.cards .header-inner,
+.site-header.cards.full .header-inner {
+  min-height: 0;
+  padding: 16px 16px 28px;
+}
+
+.site-header.cards .header-top {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+  grid-template-areas: 'brand nav actions';
+  align-items: center;
+}
+
+.site-header.cards .brand {
+  grid-area: brand;
+}
+
+.site-header.cards .header-actions {
+  grid-area: actions;
+  justify-self: end;
+}
+
+.site-header.cards .page-nav {
+  grid-area: nav;
+  position: static;
+  transform: none;
+  height: 48px;
+}
+
+.site-header.cards .page-nav a {
+  min-width: 110px;
+}
+
+.cards-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 0.95fr) minmax(0, 2fr);
+  align-items: start;
+  gap: 32px;
+  margin-top: 26px;
+}
+
+.cards-hero .eyebrow {
+  margin: 0;
+  font-size: 0.8125rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: rgb(255 255 255 / 72%);
+}
+
+.countdown-row {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  margin-top: 12px;
+}
+
+.countdown-number {
+  font-family: var(--font-heading);
+  font-size: 8rem;
+  font-weight: 800;
+  line-height: 0.85;
+  color: var(--sunshine);
+  font-variant-numeric: tabular-nums;
+}
+
+.countdown-number.word {
+  font-size: 3rem;
+  line-height: 1;
+}
+
+.countdown-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+  font-size: 1.1rem;
+  color: #fff;
+}
+
+.countdown-unit {
+  font-family: var(--font-heading);
+  font-size: 2rem;
+  font-weight: 800;
+  line-height: 1.1;
+}
+
+.countdown-muted {
+  color: rgb(255 255 255 / 72%);
+}
+
+.cards-hero .hero-chips {
+  margin-top: 18px;
+}
+
+.up-cards {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+  margin: 12px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.up-card {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  min-height: 124px;
+  padding: 18px 20px;
+  border-radius: 16px;
+  background: rgb(0 0 0 / 22%);
+  box-shadow: inset 0 0 0 1px rgb(255 255 255 / 12%);
+  color: #fff;
+  text-decoration: none;
+}
+
+.up-card:hover {
+  background: rgb(255 255 255 / 8%);
+}
+
+.up-card.first {
+  background: var(--sunshine);
+  box-shadow: none;
+  color: var(--accent-text);
+}
+
+.up-card.first:hover {
+  filter: brightness(1.05);
+}
+
+.up-date {
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  opacity: 0.85;
+}
+
+.up-matchup {
+  font-family: var(--font-heading);
+  font-size: 2rem;
+  font-weight: 800;
+  line-height: 1.1;
+}
+
+.up-meta {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+@media (max-width: 1000px) {
+  .cards-hero {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 24px;
+  }
+
+  .up-matchup {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 760px) {
+  .site-header.cards .header-top {
+    grid-template-columns: minmax(0, 1fr) auto;
+    grid-template-areas:
+      'brand actions'
+      'nav nav';
+    row-gap: 14px;
+  }
+
+  .site-header.cards .page-nav {
+    width: 100%;
+    margin: 0;
+  }
+
+  .site-header.cards .page-nav a {
+    min-width: 0;
+  }
+
+  .countdown-number {
+    font-size: 5.5rem;
+  }
+
+  .countdown-number.word {
+    font-size: 2.4rem;
+  }
+
+  .countdown-info {
+    font-size: 1rem;
+  }
+
+  .countdown-unit {
+    font-size: 1.6rem;
+  }
+
+  /* Cards swipe sideways on phones. */
+  .up-cards {
+    display: flex;
+    gap: 10px;
+    margin: 12px -16px 0;
+    padding: 0 16px 4px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-padding-inline: 16px;
+    scrollbar-width: none;
+  }
+
+  .up-cards li {
+    flex: 0 0 72%;
+    scroll-snap-align: start;
+  }
+
+  .up-card {
+    min-height: 0;
+    padding: 14px 16px;
+  }
+}
