@@ -3,11 +3,13 @@ import { TEAM } from '../lib/config.ts'
 import type { AppData } from '../lib/data.ts'
 import { formatGameDate, formatGameTime, formatRecord, timeZoneAbbr } from '../lib/format.ts'
 import { chipStatus, countdownLabel, headlineChannel, headlineGame, listedFor, shortName } from '../lib/hero.ts'
+import { liveFor, useLive } from '../lib/live.ts'
 import { routeHref, type Route } from '../lib/route.ts'
 import { badgeColors } from '../lib/teamColors.ts'
 import { TEAMS_BY_ABBR } from '../lib/teams.ts'
 import type { Absence } from '../lib/types.ts'
 import { Icon } from './Icon.tsx'
+import { LiveAnnouncer, LivePill } from './LivePill.tsx'
 import { Ridge } from './Ridge.tsx'
 import { TeamLogo } from './TeamLogo.tsx'
 
@@ -70,6 +72,7 @@ export function SiteHeader({ route, data, timeZone, onShowGame }: Props) {
 function NextGame({ data, timeZone, onShowGame }: { data: AppData; timeZone: string; onShowGame: (id: string) => void }) {
   // The countdown is as of page load, like the rest of the data.
   const [now] = useState(() => new Date())
+  const watch = useLive()
   const game = headlineGame(data.schedule.games)
   if (!game) {
     const played = data.schedule.games.some((g) => g.status === 'final')
@@ -85,13 +88,22 @@ function NextGame({ data, timeZone, onShowGame }: { data: AppData; timeZone: str
 
   const opp = TEAMS_BY_ABBR[game.opponent]
   const { weekday, monthDay } = formatGameDate(game.startUtc, timeZone)
-  const live = game.status === 'live'
+  // In ?live= test mode the watched game isn't on the schedule; show its pill alongside.
+  const testLive = watch && !watch.gameId ? watch : undefined
+  const score = liveFor(watch, game.id)
+  const started =
+    game.status === 'live' || (watch?.gameId === game.id && (watch.checkedAt ?? 0) >= Date.parse(game.startUtc))
+  // The live pill takes the countdown's place once the game is on (or over, until the next data update).
+  const showPill = !!score && score.state !== 'pre' ? true : started
+  const live = score ? score.state === 'in' || score.state === 'delayed' : started
   const channel = headlineChannel(game)
   const listed = data.availability?.teams ?? {}
   const ours = listedFor(listed[TEAM.abbr], game)
   const theirs = listedFor(listed[game.opponent], game)
   const hidden = Math.max(0, ours.length - CHIPS_PER_TEAM) + Math.max(0, theirs.length - CHIPS_PER_TEAM)
-  const eyebrow = [live ? 'Live now' : 'Next game', game.type === 'playoffs' && 'Playoffs'].filter(Boolean).join(' · ')
+  const eyebrow = [live ? 'Live now' : score?.state === 'final' ? 'Final' : 'Next game', game.type === 'playoffs' && 'Playoffs']
+    .filter(Boolean)
+    .join(' · ')
   const [away, home] = game.home ? [game.opponent, TEAM.abbr] : [TEAM.abbr, game.opponent]
 
   return (
@@ -124,7 +136,12 @@ function NextGame({ data, timeZone, onShowGame }: { data: AppData; timeZone: str
           {game.label && game.type === 'playoffs' && <span className="hero-label"> · {game.label}</span>}
         </p>
         <ul className="hero-chips" aria-label="About this game">
-          <li className="hero-chip soft">{live ? 'In progress' : countdownLabel(game, now, timeZone)}</li>
+          {testLive && <LivePill live={testLive} started />}
+          {showPill && watch ? (
+            <LivePill live={watch} started={started} />
+          ) : (
+            <li className="hero-chip soft">{started ? 'In progress' : countdownLabel(game, now, timeZone)}</li>
+          )}
           {channel && (
             <li className="hero-chip outline">
               {live && 'Watch on '}
@@ -145,6 +162,7 @@ function NextGame({ data, timeZone, onShowGame }: { data: AppData; timeZone: str
             </li>
           )}
         </ul>
+        <LiveAnnouncer score={testLive?.score ?? score} />
       </div>
     </section>
   )

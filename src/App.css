@@ -217,6 +217,72 @@ button.hero-chip:hover {
   background: rgb(255 255 255 / 10%);
 }
 
+/* Live score: muted red, white text (5.9:1); only while the game is on. */
+.live-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: #b3203a;
+  border-color: #b3203a;
+  color: #fff;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+
+.live-pill .live-dot {
+  flex: none;
+  background: #fff;
+}
+
+.live-pill.stale {
+  opacity: 0.75;
+}
+
+.live-stale {
+  font-weight: 600;
+}
+
+.live-pill.delayed {
+  background: none;
+  border-color: var(--sunshine);
+  color: var(--sunshine);
+}
+
+.live-pill.small {
+  min-height: 0;
+  padding: 2px 10px;
+  border-radius: 999px;
+  font-size: 0.85rem;
+}
+
+.live-row {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 2px;
+}
+
+.cal-live {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  color: var(--loss);
+  font-weight: var(--w-bold);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .live-pill .live-dot,
+  .cal-live .live-dot {
+    animation: live-pulse 1.6s ease-in-out infinite;
+  }
+}
+
+@keyframes live-pulse {
+  50% {
+    opacity: 0.35;
+  }
+}
+
 .matchup {
   grid-area: matchup;
   display: flex;

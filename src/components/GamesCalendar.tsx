@@ -11,6 +11,7 @@ import {
   monthOf,
   type Month,
 } from '../lib/format.ts'
+import { liveFor, useLive } from '../lib/live.ts'
 import { TEAMS_BY_ABBR } from '../lib/teams.ts'
 import type { Game } from '../lib/types.ts'
 import { unscheduledGames } from '../lib/availability.ts'
@@ -125,6 +126,8 @@ export function GamesCalendar({ data, timeZone }: { data: AppData; timeZone: str
 
 function CalendarGame(props: { game: Game; timeZone: string; selected: boolean; onSelect: () => void }) {
   const { game, timeZone, selected, onSelect } = props
+  const watch = liveFor(useLive(), game.id)
+  const liveNow = game.status === 'live' || watch?.state === 'in' || watch?.state === 'delayed'
   const result = game.status === 'final' && game.score
   const won = result && result.team > result.opponent
   const opp = TEAMS_BY_ABBR[game.opponent]
@@ -151,8 +154,10 @@ function CalendarGame(props: { game: Game; timeZone: string; selected: boolean; 
               {result.team}-{result.opponent}
             </span>
           </>
-        ) : game.status === 'live' ? (
-          'LIVE'
+        ) : liveNow ? (
+          <span className="cal-live">
+            <span className="live-dot" aria-hidden="true" /> LIVE
+          </span>
         ) : (
           formatGameTime(game, timeZone).replace(/:00| /g, '').toLowerCase()
         )}

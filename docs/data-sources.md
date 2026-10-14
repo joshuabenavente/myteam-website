@@ -12,6 +12,8 @@ Chosen from the phase 1 probe (`scripts/probe-sources.ts`), run from GitHub Acti
 | Player stats (this season, last season, same point last season) | basketball-reference `players/<x>/<id>/gamelog/<endYear>` | Tables `player_game_log_reg`, `player_game_log_post`. Totals are summed from game logs, so stats from other teams are included. The cutoff uses the log's team-game-number column. |
 
 | Who's not available | ESPN `apis/site/v2/sports/basketball/nba/injuries` | All 30 teams in one request: status (Out / Day-To-Day), game-time-decision flag, body part and injury type, expected return date. The NBA's official injury report is a PDF and its 2026-27 page wasn't up yet. |
+| Live score (in the browser) | ESPN `apis/site/v2/sports/basketball/nba/scoreboard?dates=<YYYYMMDD Eastern>` | Fetched by the page, not by ingest: ESPN sends `Access-Control-Allow-Origin: *` (checked 2026-10-13); the NBA's `liveData` scoreboard returns 403 to other sites. Polled every 30 s from 15 min before tip-off until the final (4.5 h cap), only while the page is visible. `?live=<TEAM>` on the site watches another team's game today for testing. |
+| Team colors | ESPN `apis/site/v2/sports/basketball/nba/teams` (`color`, `alternateColor`) | Copied into `src/lib/teamColors.ts` (2026-10-13). |
 | Win probability (preview fact) | ESPN `summary?event=<id>` → `predictor` | ESPN event IDs are matched from ESPN's team schedule by opponent and start time. |
 
 **Rejected:** stats.nba.com times out from GitHub Actions runners (all three endpoints hung).

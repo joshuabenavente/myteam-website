@@ -1,0 +1,202 @@
+{
+ "day": {
+  "date": "2026-10-13"
+ },
+ "events": [
+  {
+   "id": "401898403",
+   "date": "2026-10-13T23:00Z",
+   "shortName": "CLE @ ORL",
+   "competitions": [
+    {
+     "status": {
+      "clock": 0,
+      "displayClock": "0.0",
+      "period": 4,
+      "type": {
+       "id": "3",
+       "name": "STATUS_FINAL",
+       "state": "post",
+       "completed": true,
+       "description": "Final",
+       "detail": "Final",
+       "shortDetail": "Final"
+      }
+     },
+     "competitors": [
+      {
+       "homeAway": "home",
+       "score": "132",
+       "team": {
+        "abbreviation": "ORL"
+       }
+      },
+      {
+       "homeAway": "away",
+       "score": "116",
+       "team": {
+        "abbreviation": "CLE"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "401908944",
+   "date": "2026-10-13T23:00Z",
+   "shortName": "NY @ TOR",
+   "competitions": [
+    {
+     "status": {
+      "clock": 0,
+      "displayClock": "0.0",
+      "period": 4,
+      "type": {
+       "id": "3",
+       "name": "STATUS_FINAL",
+       "state": "post",
+       "completed": true,
+       "description": "Final",
+       "detail": "Final",
+       "shortDetail": "Final"
+      }
+     },
+     "competitors": [
+      {
+       "homeAway": "home",
+       "score": "148",
+       "team": {
+        "abbreviation": "TOR"
+       }
+      },
+      {
+       "homeAway": "away",
+       "score": "98",
+       "team": {
+        "abbreviation": "NY"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "401908621",
+   "date": "2026-10-14T00:00Z",
+   "shortName": "IND @ OKC",
+   "competitions": [
+    {
+     "status": {
+      "clock": 156,
+      "displayClock": "2:36",
+      "period": 3,
+      "type": {
+       "id": "2",
+       "name": "STATUS_IN_PROGRESS",
+       "state": "in",
+       "completed": false,
+       "description": "In Progress",
+       "detail": "2:36 - 3rd Quarter",
+       "shortDetail": "2:36 - 3rd"
+      }
+     },
+     "competitors": [
+      {
+       "homeAway": "home",
+       "score": "82",
+       "team": {
+        "abbreviation": "OKC"
+       }
+      },
+      {
+       "homeAway": "away",
+       "score": "84",
+       "team": {
+        "abbreviation": "IND"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "401898718",
+   "date": "2026-10-14T02:00Z",
+   "shortName": "GS VS LAL",
+   "competitions": [
+    {
+     "status": {
+      "clock": 0,
+      "displayClock": "0.0",
+      "period": 0,
+      "type": {
+       "id": "1",
+       "name": "STATUS_SCHEDULED",
+       "state": "pre",
+       "completed": false,
+       "description": "Scheduled",
+       "detail": "Tue, October 13th at 10:00 PM EDT",
+       "shortDetail": "10/13 - 10:00 PM EDT"
+      }
+     },
+     "competitors": [
+      {
+       "homeAway": "home",
+       "score": "0",
+       "team": {
+        "abbreviation": "LAL"
+       }
+      },
+      {
+       "homeAway": "away",
+       "score": "0",
+       "team": {
+        "abbreviation": "GS"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "401901826",
+   "date": "2026-10-14T02:00Z",
+   "shortName": "POR @ SAC",
+   "competitions": [
+    {
+     "status": {
+      "clock": 0,
+      "displayClock": "0.0",
+      "period": 0,
+      "type": {
+       "id": "1",
+       "name": "STATUS_SCHEDULED",
+       "state": "pre",
+       "completed": false,
+       "description": "Scheduled",
+       "detail": "Tue, October 13th at 10:00 PM EDT",
+       "shortDetail": "10/13 - 10:00 PM EDT"
+      }
+     },
+     "competitors": [
+      {
+       "homeAway": "home",
+       "score": "0",
+       "team": {
+        "abbreviation": "SAC"
+       }
+      },
+      {
+       "homeAway": "away",
+       "score": "0",
+       "team": {
+        "abbreviation": "POR"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

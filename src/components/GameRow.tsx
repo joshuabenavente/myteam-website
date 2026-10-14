@@ -12,9 +12,11 @@ import {
   ordinal,
   seriesSummary,
 } from '../lib/format.ts'
+import { liveFor, useLive } from '../lib/live.ts'
 import { TEAMS_BY_ABBR } from '../lib/teams.ts'
 import type { AvailabilityFile, Game, HeadToHeadFile, StandingsFile, TeamInfo } from '../lib/types.ts'
 import { Icon } from './Icon.tsx'
+import { LiveRowStatus } from './LivePill.tsx'
 import { TeamLogo } from './TeamLogo.tsx'
 
 interface Props {
@@ -180,6 +182,11 @@ const formatReturn = (date: string) =>
   new Date(`${date}T12:00:00Z`).toLocaleDateString('en-US', { month: 'short', day: 'numeric', timeZone: 'UTC' })
 
 export function GameStatus({ game, timeZone }: { game: Game; timeZone: string }) {
+  const watch = useLive()
+  const live = liveFor(watch, game.id)
+  if (live && watch && live.state !== 'pre' && live.state !== 'postponed') {
+    return <LiveRowStatus score={live} team={watch.team} />
+  }
   if (game.status === 'scheduled') return <span className="time">{formatGameTime(game, timeZone)}</span>
   const { team, opponent } = game.score!
   if (game.status === 'live') {
