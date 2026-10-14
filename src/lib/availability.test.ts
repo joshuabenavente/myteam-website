@@ -1,5 +1,5 @@
 import { expect, it } from 'vitest'
-import { absencesForGame, availabilityLabel, nextGames } from './availability'
+import { absencesForGame, availabilityLabel, isGameTimeDecision, nextGames } from './availability'
 
 it('drops players expected back before the game', () => {
   const list = [
@@ -25,7 +25,9 @@ it('picks the next unstarted games', () => {
 })
 
 it('labels availability with one status', () => {
-  expect(availabilityLabel({ status: 'Day-To-Day', gameTimeDecision: true })).toBe('Game-time decision')
-  expect(availabilityLabel({ status: 'Out', gameTimeDecision: true })).toBe('Out')
-  expect(availabilityLabel({ status: 'Day-To-Day', gameTimeDecision: false })).toBe('Day-To-Day')
+  expect(availabilityLabel({ status: 'Day-To-Day' })).toBe('Day-to-day')
+  expect(availabilityLabel({ status: 'Out' })).toBe('Out')
+  expect(isGameTimeDecision({ status: 'Day-To-Day', gameTimeDecision: true })).toBe(true)
+  expect(isGameTimeDecision({ status: 'Out', gameTimeDecision: true })).toBe(false)
+  expect(isGameTimeDecision({ status: 'Day-To-Day', gameTimeDecision: false })).toBe(false)
 })

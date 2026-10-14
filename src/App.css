@@ -54,8 +54,9 @@
   color: #fff;
 }
 
-.hero-page h1 .hero-time {
+.roster-season {
   white-space: nowrap;
+  color: var(--sunshine);
 }
 
 .header-top {
@@ -137,8 +138,12 @@
   letter-spacing: -0.01em;
 }
 
+.hero-date > span:first-child,
 .hero-time {
   white-space: nowrap;
+}
+
+.hero-time {
   color: var(--sunshine);
 }
 
@@ -324,8 +329,13 @@ button.hero-chip:hover {
   font: inherit;
 }
 
-.team-badge .badge-abbr {
-  display: none;
+.team-badge {
+  position: relative;
+}
+
+.team-badge.logo-loading .logo {
+  position: absolute;
+  opacity: 0;
 }
 
 .page-nav {
@@ -374,7 +384,7 @@ button.hero-chip:hover {
   outline-offset: 2px;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1100px) {
   .hero-date {
     font-size: 3.25rem;
   }
@@ -429,6 +439,14 @@ button.hero-chip:hover {
 
   .hero-page h1 {
     font-size: 2rem;
+  }
+
+  .roster-season {
+    display: block;
+  }
+
+  .roster-sep {
+    display: none;
   }
 
   .site-footer {
@@ -1179,7 +1197,12 @@ main {
 
 .table-scroll {
   overflow-x: auto;
-  background: var(--surface);
+  /* Shadows at an edge that has more to scroll to: the covers scroll with the content and hide
+     the shadows once that edge is reached. */
+  background:
+    linear-gradient(to left, var(--surface) 30%, transparent) right / 40px 100% no-repeat local,
+    radial-gradient(farthest-side at 100% 50%, rgb(0 0 0 / 22%), transparent) right / 14px 100% no-repeat scroll,
+    var(--surface);
   border: 1px solid var(--border);
   border-radius: var(--radius-card);
 }
@@ -1248,6 +1271,7 @@ main {
 
 .sort {
   width: 100%;
+  min-height: 40px;
   padding: 8px 10px;
   background: none;
   border: none;
@@ -1293,7 +1317,8 @@ main {
   }
 
   .player-table .player-name {
-    max-width: 130px;
+    min-width: 150px;
+    max-width: 170px;
     white-space: normal;
   }
 }
@@ -2892,4 +2917,60 @@ main {
     width: 8px;
     height: 8px;
   }
+}
+
+/* --- review fixes --- */
+
+.skip-link {
+  position: absolute;
+  top: -100px;
+  left: 8px;
+  z-index: 100;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 999px;
+  background: var(--sunshine);
+  color: var(--midnight);
+  font: inherit;
+  font-weight: var(--w-bold);
+}
+
+.skip-link:focus {
+  top: 8px;
+}
+
+main:focus {
+  outline: none;
+}
+
+/* Fade the bottom of the player photo into the card instead of a hard edge. */
+.hero-photo img {
+  mask-image: linear-gradient(to bottom, #000 70%, transparent 97%);
+}
+
+.show-all {
+  display: flex;
+  min-height: 40px;
+  margin: 10px auto 0;
+  padding: 0 18px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--surface);
+  color: var(--text);
+  font: inherit;
+  font-size: 0.9rem;
+  font-weight: var(--w-strong);
+  cursor: pointer;
+}
+
+.show-all:hover {
+  background: var(--hover);
+}
+
+.channel-guide h3 {
+  margin: 12px 0 6px;
+  font-size: 0.75rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--muted);
 }

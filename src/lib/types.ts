@@ -27,6 +27,8 @@ export interface Game {
   timeTbd?: boolean
   /** Extra context from the schedule, e.g. "Emirates NBA Cup" or "West First Round - Game 3". */
   label?: string
+  /** City of a neutral-site game (e.g. "Mexico City"); home/away is the NBA's designation. */
+  neutralSite?: string
 }
 
 export interface ScheduleFile {

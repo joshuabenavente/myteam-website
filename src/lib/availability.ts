@@ -10,10 +10,17 @@ export function absencesForGame(list: Absence[] | undefined, game: Pick<Game, 's
   return (list ?? []).filter((a) => !a.returnDate || a.returnDate >= gameDay)
 }
 
-/** One status for display and previews: "Out", "Day-To-Day", or "Game-time decision". */
-export function availabilityLabel(a: Pick<Absence, 'status' | 'gameTimeDecision'>): string {
-  return a.gameTimeDecision && a.status !== 'Out' ? 'Game-time decision' : a.status
+/**
+ * One status wording everywhere: "Out", "Day-to-day" (ESPN writes "Day-To-Day"). Whether it's a
+ * game-time decision is shown separately, as a note.
+ */
+export function availabilityLabel(a: Pick<Absence, 'status'>): string {
+  return a.status.charAt(0).toUpperCase() + a.status.slice(1).toLowerCase()
 }
+
+/** ESPN flags game-time decisions; an Out player isn't one. */
+export const isGameTimeDecision = (a: Pick<Absence, 'status' | 'gameTimeDecision'>) =>
+  !!a.gameTimeDecision && a.status !== 'Out'
 
 /** The next few games that haven't started; these get availability and previews. */
 export function nextGames<T extends Pick<Game, 'status' | 'startUtc'>>(games: T[], count = 3): T[] {

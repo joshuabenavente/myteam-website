@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react'
-import { absencesForGame, availabilityLabel, nextGames } from '../lib/availability.ts'
+import { absencesForGame, availabilityLabel, isGameTimeDecision, nextGames } from '../lib/availability.ts'
 import { channelsFor } from '../lib/channels.ts'
 import { TEAM } from '../lib/config.ts'
 import type { AppData } from '../lib/data.ts'
@@ -60,6 +60,7 @@ export function GameRow({ game, data, timeZone, focused = false }: Props) {
             {oppStanding && oppStanding.wins + oppStanding.losses > 0 && (
               <span className="muted small">{formatRecord(oppStanding)}</span>
             )}
+            {game.neutralSite && <span className="muted small">in {game.neutralSite}</span>}
           </span>
         </span>
 
@@ -168,8 +169,13 @@ function InjuryReport({ game, availability }: { game: Game; availability: Availa
                       <span className="na-name">{a.name}</span>
                       <span className={`status-tag ${statusClass(a.status)}`}>{availabilityLabel(a)}</span>
                       <span className="muted small na-reason">
-                        {a.reason}
-                        {a.returnDate && ` · expected back ${formatReturn(a.returnDate)}`}
+                        {[
+                          isGameTimeDecision(a) && 'Game-time decision',
+                          a.reason,
+                          a.returnDate && `expected back ${formatReturn(a.returnDate)}`,
+                        ]
+                          .filter(Boolean)
+                          .join(' · ')}
                       </span>
                     </li>
                   ))}

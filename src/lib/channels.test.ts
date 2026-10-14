@@ -18,8 +18,11 @@ it('splits combined local channels into readable names', () => {
   ])
 })
 
-it('leaves unknown names alone', () => {
+it('keeps national names, explaining the ones it knows', () => {
   expect(channelsFor([{ name: 'ESPN', scope: 'national', kind: 'tv' }])).toEqual([
-    { label: 'ESPN', scope: 'national', kind: 'tv' },
+    { label: 'ESPN', scope: 'national', kind: 'tv', explain: expect.stringContaining('ESPN app') },
+  ])
+  expect(channelsFor([{ name: 'New Network', scope: 'national', kind: 'tv' }])).toEqual([
+    { label: 'New Network', scope: 'national', kind: 'tv' },
   ])
 })

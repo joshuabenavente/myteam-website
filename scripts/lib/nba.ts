@@ -25,6 +25,9 @@ interface NbaGame {
   gameLabel: string
   gameSubLabel: string
   seriesText: string
+  /** Played away from both teams' arenas (e.g. Mexico City, Paris). */
+  isNeutral?: boolean
+  arenaCity?: string
   homeTeam: NbaTeamSide
   awayTeam: NbaTeamSide
   broadcasters?: { [list: string]: NbaBroadcaster[] }
@@ -120,6 +123,7 @@ export function teamGames(games: LeagueGame[], abbr: string): Game[] {
         broadcasts: teamBroadcasts(g.raw, teamId),
         ...(label && { label }),
         ...(/tbd/i.test(g.raw.gameStatusText) && { timeTbd: true }),
+        ...(g.raw.isNeutral && g.raw.arenaCity && { neutralSite: g.raw.arenaCity }),
       }
     })
 }

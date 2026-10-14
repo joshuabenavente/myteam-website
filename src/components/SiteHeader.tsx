@@ -4,14 +4,14 @@ import type { AppData } from '../lib/data.ts'
 import { formatGameDate, formatGameTime, formatRecord, timeZoneAbbr } from '../lib/format.ts'
 import { chipStatus, countdownLabel, headlineChannel, headlineGame, listedFor, shortName } from '../lib/hero.ts'
 import { liveFor, useLive } from '../lib/live.ts'
+import { nameKey } from '../lib/names.ts'
 import { routeHref, type Route } from '../lib/route.ts'
 import { badgeColors } from '../lib/teamColors.ts'
-import { TEAMS_BY_ABBR } from '../lib/teams.ts'
+import { teamLogoUrl, TEAMS_BY_ABBR } from '../lib/teams.ts'
 import type { Absence } from '../lib/types.ts'
 import { Icon } from './Icon.tsx'
 import { LiveAnnouncer, LivePill } from './LivePill.tsx'
 import { Ridge } from './Ridge.tsx'
-import { TeamLogo } from './TeamLogo.tsx'
 
 /** Injury chips per team; the rest are behind "+N more". */
 const CHIPS_PER_TEAM = 2
@@ -107,6 +107,8 @@ function NextGame({ data, timeZone, onShowGame }: { data: AppData; timeZone: str
   const listed = showPill ? {} : (data.availability?.teams ?? {})
   const ours = listedFor(listed[TEAM.abbr], game)
   const theirs = listedFor(listed[game.opponent], game)
+  // Denver's chips link to the player's page.
+  const rosterIds = new Map(data.players.players.map((p) => [nameKey(p.name), p.id]))
   const hidden = Math.max(0, ours.length - CHIPS_PER_TEAM) + Math.max(0, theirs.length - CHIPS_PER_TEAM)
   const eyebrow = [live ? 'Live now' : score?.state === 'final' ? 'Final' : 'Next game', game.type === 'playoffs' && 'Playoffs']
     .filter(Boolean)
@@ -140,6 +142,7 @@ function NextGame({ data, timeZone, onShowGame }: { data: AppData; timeZone: str
         </p>
         <p className="hero-opponent">
           {game.home ? 'vs' : 'at'} {opp.city} {opp.name}
+          {game.neutralSite && <span className="hero-label"> · in {game.neutralSite}</span>}
           {game.label && game.type === 'playoffs' && <span className="hero-label"> · {game.label}</span>}
         </p>
         <ul className="hero-chips" aria-label="About this game">
@@ -156,7 +159,7 @@ function NextGame({ data, timeZone, onShowGame }: { data: AppData; timeZone: str
             </li>
           )}
           {ours.slice(0, CHIPS_PER_TEAM).map((a) => (
-            <InjuryChip key={a.name} abbr={TEAM.abbr} absence={a} />
+            <InjuryChip key={a.name} abbr={TEAM.abbr} absence={a} playerId={rosterIds.get(nameKey(a.name))} />
           ))}
           {theirs.slice(0, CHIPS_PER_TEAM).map((a) => (
             <InjuryChip key={a.name} abbr={game.opponent} absence={a} />
@@ -175,30 +178,53 @@ function NextGame({ data, timeZone, onShowGame }: { data: AppData; timeZone: str
   )
 }
 
-function InjuryChip({ abbr, absence }: { abbr: string; absence: Absence }) {
+function InjuryChip({ abbr, absence, playerId }: { abbr: string; absence: Absence; playerId?: string }) {
   const c = badgeColors(abbr)
   const team = TEAMS_BY_ABBR[abbr]
+  const text = (
+    <>
+      <span className="sr-only">{team.name}: </span>
+      {shortName(absence.name)} {chipStatus(absence)}
+    </>
+  )
   return (
     <li
       className={`hero-chip team ${c.outline ? 'outlined' : ''}`}
       style={{ '--chip-fill': c.fill, '--chip-ring': c.ring, '--chip-text': c.text } as CSSProperties}
     >
-      <span className="sr-only">{team.name}: </span>
-      {shortName(absence.name)} {chipStatus(absence)}
+      {playerId ? (
+        <a className="hero-chip-link" href={routeHref({ page: 'player', id: playerId })}>
+          {text}
+        </a>
+      ) : (
+        text
+      )}
     </li>
   )
 }
 
 /** A team circle in its colors with the team logo, or the abbreviation if the logo can't load. */
+/** A team circle in its colors: the abbreviation until the logo has loaded (or if it can't). */
 function TeamBadge({ abbr }: { abbr: string }) {
   const c = badgeColors(abbr)
+  const [logo, setLogo] = useState<'loading' | 'loaded' | 'failed'>('loading')
   return (
     <span
-      className={`team-badge ${c.outline ? 'outlined' : ''}`}
+      className={`team-badge ${c.outline ? 'outlined' : ''} logo-${logo}`}
       style={{ '--chip-fill': c.fill, '--chip-ring': c.ring, '--chip-text': c.text } as CSSProperties}
     >
-      <span className="badge-abbr">{abbr}</span>
-      <TeamLogo abbr={abbr} size={72} background="dark" />
+      {logo !== 'loaded' && <span className="badge-abbr">{abbr}</span>}
+      {logo !== 'failed' && (
+        <img
+          className="logo"
+          src={teamLogoUrl(abbr, true)}
+          width={72}
+          height={72}
+          alt=""
+          onLoad={() => setLogo('loaded')}
+          onError={() => setLogo('failed')}
+        />
+      )}
     </span>
   )
 }
@@ -219,7 +245,13 @@ function RosterIntro({ data }: { data: AppData }) {
     <section className="hero-page">
       <p className="eyebrow">Players</p>
       <h1>
-        Roster <span className="hero-time">· {season}</span>
+        Roster{' '}
+        <span className="roster-season">
+          <span className="roster-sep" aria-hidden="true">
+            ·{' '}
+          </span>
+          {season}
+        </span>
       </h1>
       <ul className="hero-chips" aria-label="Roster">
         <li className="hero-chip soft">{players.length} players</li>

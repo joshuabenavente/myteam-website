@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { absencesForGame, availabilityLabel, nextGames } from '../lib/availability.ts'
+import { absencesForGame, availabilityLabel, isGameTimeDecision, nextGames } from '../lib/availability.ts'
 import { TEAM } from '../lib/config.ts'
 import { useGameLogs, type AppData } from '../lib/data.ts'
 import { formatGameDate, formatGameTime } from '../lib/format.ts'
@@ -34,9 +34,12 @@ export function PlayerPage({ id, data, timeZone }: { id: string; data: AppData; 
   const player = data.players.players.find((p) => p.id === id)
   if (!player) {
     return (
-      <p className="placeholder">
-        Player not found. <a href={routeHref({ page: 'players' })}>Back to all players</a>
-      </p>
+      <div className="placeholder">
+        <h1>Player not found</h1>
+        <p>
+          They may have left the roster. <a href={routeHref({ page: 'players' })}>Back to all players</a>
+        </p>
+      </div>
     )
   }
   return <PlayerView player={player} data={data} timeZone={timeZone} />
@@ -214,7 +217,7 @@ function PlayerView({ player, data, timeZone }: { player: Player; data: AppData;
           <Overview player={player} data={data} type={type} />
           <NextGame player={player} data={data} timeZone={timeZone} />
         </div>
-        <GameLogList player={player} data={data} />
+        <GameLogList player={player} data={data} type={type} setType={setType} />
       </div>
     </div>
   )
@@ -263,6 +266,7 @@ function NextGame({ player, data, timeZone }: { player: Player; data: AppData; t
         {absence ? (
           <>
             <Icon name="injury" size={14} /> {availabilityLabel(absence)}
+            {isGameTimeDecision(absence) && ' · game-time decision'}
             {absence.reason && ` · ${absence.reason}`}
           </>
         ) : (
@@ -273,12 +277,22 @@ function NextGame({ player, data, timeZone }: { player: Player; data: AppData; t
   )
 }
 
-function GameLogList({ player, data }: { player: Player; data: AppData }) {
+/** Games shown before "Show all", newest first. */
+const LOG_PREVIEW = 10
+
+function GameLogList(props: {
+  player: Player
+  data: AppData
+  /** Shared with the stat strip's Regular/Playoffs switch. */
+  type: TrackedGameType
+  setType: (t: TrackedGameType) => void
+}) {
+  const { player, data, type, setType } = props
   const logs = useGameLogs()
   const entry = logs?.players[player.id]
   const hasCurrent = !!entry && entry.current.regular.length + entry.current.playoffs.length > 0
   const [which, setWhich] = useState<'current' | 'last' | undefined>()
-  const [type, setType] = useState<TrackedGameType>('regular')
+  const [showAll, setShowAll] = useState(false)
   // Default to this season once it has games; until then show last season.
   const season = which ?? (hasCurrent ? 'current' : 'last')
   const games = entry ? [...entry[season][type]].reverse() : []
@@ -333,11 +347,16 @@ function GameLogList({ player, data }: { player: Player; data: AppData }) {
             </tr>
           </thead>
           <tbody>
-            {games.map((g) => (
+            {(showAll ? games : games.slice(0, LOG_PREVIEW)).map((g) => (
               <LogRow key={`${g.date}-${g.opponent}`} game={g} />
             ))}
           </tbody>
         </table>
+      )}
+      {games.length > LOG_PREVIEW && (
+        <button className="text-button show-all" onClick={() => setShowAll(!showAll)} aria-expanded={showAll}>
+          {showAll ? `Show the last ${LOG_PREVIEW} only` : `Show all ${games.length} games`}
+        </button>
       )}
     </section>
   )

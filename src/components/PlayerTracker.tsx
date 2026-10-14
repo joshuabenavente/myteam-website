@@ -25,9 +25,9 @@ export function PlayerTracker({ data }: { data: AppData }) {
   const cutoff = teamGamesPlayed[type]
   // Before anyone has played this season, show the comparison alone instead of a row of dashes.
   const hasCurrent = players.some((p) => p.current[type])
-  // With nothing this season to show (e.g. playoffs before the playoffs), "None" would be a wall of
-  // dashes, so fall back to last season like the regular season view does.
-  const compare: Compare = chosenCompare === 'none' && !hasCurrent ? 'lastFull' : chosenCompare
+  // With nothing this season to show (before opening night, or playoffs before the playoffs), show
+  // all of last season and hide the comparison choice.
+  const compare: Compare = hasCurrent ? chosenCompare : 'lastFull'
   const comparisonOf = (p: Player) =>
     compare === 'lastFull' ? p.lastFull[type] : compare === 'lastToDate' ? p.lastToDate[type] : undefined
 
@@ -63,16 +63,19 @@ export function PlayerTracker({ data }: { data: AppData }) {
             ]}
           />
         )}
-        <Toggle
-          label="Compare with"
-          value={compare}
-          onChange={setCompare}
-          options={[
-            ['none', 'None'],
-            ['lastFull', `All of ${lastSeason}`],
-            ['lastToDate', `${lastSeason} at this point`],
-          ]}
-        />
+        {/* Nothing to compare until this season has games; the note below says what's shown. */}
+        {hasCurrent && (
+          <Toggle
+            label="Compare with"
+            value={compare}
+            onChange={setCompare}
+            options={[
+              ['none', 'None'],
+              ['lastFull', `All of ${lastSeason}`],
+              ['lastToDate', `${lastSeason} at this point`],
+            ]}
+          />
+        )}
         <Toggle
           label="Stats"
           value={mode}

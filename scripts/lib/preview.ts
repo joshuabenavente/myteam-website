@@ -3,7 +3,7 @@
 
 import Anthropic from '@anthropic-ai/sdk'
 import { createHash } from 'node:crypto'
-import { absencesForGame, availabilityLabel } from '../../src/lib/availability.ts'
+import { absencesForGame, availabilityLabel, isGameTimeDecision } from '../../src/lib/availability.ts'
 import { dayKey, ordinal } from '../../src/lib/format.ts'
 import { TEAMS_BY_ABBR } from '../../src/lib/teams.ts'
 import type { Absence, Game, HeadToHead, Player, TeamInfo, WinLoss } from '../../src/lib/types.ts'
@@ -55,6 +55,7 @@ function absenceFacts(list: Absence[], players?: Player[]) {
     return {
       name: a.name,
       status: availabilityLabel(a),
+      ...(isGameTimeDecision(a) && { gameTimeDecision: true }),
       ...(a.reason && { reason: a.reason }),
       ...(p && avg(p.current.regular) && { thisSeason: avg(p.current.regular) }),
       ...(p && avg(p.lastFull.regular) && { lastSeason: avg(p.lastFull.regular) }),
@@ -106,10 +107,11 @@ export function buildFacts(i: PreviewInputs) {
     season: i.season,
     game: {
       matchup: `${fullName(team)} ${game.home ? 'vs' : 'at'} ${fullName(opp)}`,
-      denverIs: game.home ? 'home' : 'away',
+      denverIs: game.neutralSite ? `designated ${game.home ? 'home' : 'road'} team` : game.home ? 'home' : 'away',
       type: game.type === 'playoffs' ? 'playoffs' : 'regular season',
       denverGameNumber: `${ordinal(i.gameNumber)} ${game.type === 'playoffs' ? 'playoff ' : ''}game of the season for Denver`,
       ...(game.label && { note: game.label }),
+      ...(game.neutralSite && { site: `neutral site, in ${game.neutralSite}` }),
       // Counts, not lists: they only exist to stop "season opener" claims, not to be recited.
       ...(i.earlierUnplayed.length > 0 && { denverGamesStillToPlayBeforeThisOne: i.earlierUnplayed.length }),
     },

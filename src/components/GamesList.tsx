@@ -18,10 +18,20 @@ export function TbdNote({ count }: { count: number }) {
 
 /** Explains the channel names and the local/national styling. */
 function ChannelGuide({ data }: { data: AppData }) {
-  const local = new Map<string, string>()
+  const explained = { local: new Map<string, string>(), national: new Map<string, string>() }
   for (const g of data.schedule.games) {
-    for (const c of channelsFor(g.broadcasts)) if (c.scope === 'local' && c.explain) local.set(c.label, c.explain)
+    for (const c of channelsFor(g.broadcasts)) if (c.explain) explained[c.scope].set(c.label, c.explain)
   }
+  const list = (m: Map<string, string>) => (
+    <dl>
+      {[...m].map(([label, explain]) => (
+        <div key={label}>
+          <dt>{label}</dt>
+          <dd>{explain}</dd>
+        </div>
+      ))}
+    </dl>
+  )
   return (
     <details className="channel-guide">
       <summary>What do the channels mean?</summary>
@@ -29,14 +39,14 @@ function ChannelGuide({ data }: { data: AppData }) {
         <span className="chip local">Gold</span> channels are Denver's local broadcasts;{' '}
         <span className="chip national">outlined</span> ones are national and available everywhere.
       </p>
-      <dl>
-        {[...local].map(([label, explain]) => (
-          <div key={label}>
-            <dt>{label}</dt>
-            <dd>{explain}</dd>
-          </div>
-        ))}
-      </dl>
+      <h3>Local</h3>
+      {list(explained.local)}
+      {explained.national.size > 0 && (
+        <>
+          <h3>National</h3>
+          {list(explained.national)}
+        </>
+      )}
     </details>
   )
 }

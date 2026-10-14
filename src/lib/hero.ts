@@ -1,6 +1,6 @@
 // What the header's next-game block shows: which game, how far away, where to watch and who's out.
 
-import { absencesForGame } from './availability.ts'
+import { absencesForGame, availabilityLabel } from './availability.ts'
 import { channelsFor, type Channel } from './channels.ts'
 import { dayKey } from './format.ts'
 import type { Absence, Game } from './types.ts'
@@ -31,7 +31,7 @@ export function shortName(name: string): string {
 }
 
 /** "out" or "day-to-day" for a chip; the full report in the game details has the rest. */
-export const chipStatus = (a: Pick<Absence, 'status'>) => (a.status === 'Out' ? 'out' : a.status.toLowerCase())
+export const chipStatus = (a: Pick<Absence, 'status'>) => availabilityLabel(a).toLowerCase()
 
 /** Players listed for the game, Out first, keeping the feed's order otherwise. */
 export function listedFor(list: Absence[] | undefined, game: Pick<Game, 'startUtc'>): Absence[] {

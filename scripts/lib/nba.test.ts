@@ -45,6 +45,11 @@ const json: NbaScheduleJson = {
             awayTeam: { teamId: OKC, teamTricode: 'OKC', score: 108 },
           }),
           raw('0062600001', ['DEN', DEN], ['NYK', 1610612752]),
+          raw('0022600189', ['IND', 1610612754], ['DEN', DEN], {
+            gameDateTimeUTC: '2026-11-07T21:00:00Z',
+            isNeutral: true,
+            arenaCity: 'Mexico City',
+          }),
         ],
       },
     ],
@@ -55,7 +60,7 @@ describe('parseLeagueSchedule', () => {
   it('keeps only regular season and playoff games between NBA teams', () => {
     const { season, games } = parseLeagueSchedule(json)
     expect(season).toBe('2026-27')
-    expect(games.map((g) => g.id)).toEqual(['0022600007', '0022600100'])
+    expect(games.map((g) => g.id)).toEqual(['0022600007', '0022600100', '0022600189'])
   })
 })
 
@@ -70,6 +75,11 @@ describe('teamGames', () => {
       { name: 'ALT/ALT+/KTVD', scope: 'local', kind: 'tv' },
       { name: 'Altitude+', scope: 'local', kind: 'stream' },
     ])
+  })
+
+  it('marks neutral-site games with the city', () => {
+    expect(games[2]).toMatchObject({ opponent: 'IND', home: false, neutralSite: 'Mexico City' })
+    expect(games[0].neutralSite).toBeUndefined()
   })
 
   it('includes scores from the team perspective and labels', () => {

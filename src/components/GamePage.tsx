@@ -1,5 +1,5 @@
 import { useState, type CSSProperties } from 'react'
-import { absencesForGame } from '../lib/availability.ts'
+import { absencesForGame, availabilityLabel } from '../lib/availability.ts'
 import { TEAM } from '../lib/config.ts'
 import type { AppData } from '../lib/data.ts'
 import { formatGameDate, formatGameTime, formatRecord } from '../lib/format.ts'
@@ -92,7 +92,7 @@ function GameView({ team, game, data, timeZone }: { team: string; game?: Game; d
     (game
       ? absencesForGame(data.availability?.teams[abbr], game).map((a) => ({
           name: a.name,
-          status: a.status,
+          status: availabilityLabel(a),
           ...(a.reason && { detail: a.reason }),
         }))
       : [])
@@ -110,7 +110,7 @@ function GameView({ team, game, data, timeZone }: { team: string; game?: Game; d
           abbr={team}
           score={left?.score}
           record={recordFor(team, data)}
-          where={leftHome ? 'Home' : 'Away'}
+          where={game?.neutralSite ? `in ${game.neutralSite}` : leftHome ? 'Home' : 'Away'}
           light={lc.text !== '#ffffff'}
           started={started}
         />
@@ -123,7 +123,7 @@ function GameView({ team, game, data, timeZone }: { team: string; game?: Game; d
           abbr={opponent}
           score={right?.score}
           record={recordFor(opponent, data)}
-          where={leftHome ? 'Away' : 'Home'}
+          where={game?.neutralSite ? 'Neutral site' : leftHome ? 'Away' : 'Home'}
           light={rc.text !== '#ffffff'}
           started={started}
         />
@@ -273,7 +273,7 @@ function Injuries({ side, list }: { side: 'left' | 'right'; list: InjuryListing[
           <li key={i.name}>
             <span className="sb-inj-name">{i.name}</span>{' '}
             <span className="sb-inj-status">
-              {i.status}
+              {availabilityLabel(i)}
               {i.detail && ` · ${i.detail}`}
             </span>
           </li>

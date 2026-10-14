@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { GamePage } from './components/GamePage.tsx'
 import { GamesCalendar } from './components/GamesCalendar.tsx'
 import { GamesList } from './components/GamesList.tsx'
@@ -9,11 +9,11 @@ import { Ridge } from './components/Ridge.tsx'
 import { SiteHeader } from './components/SiteHeader.tsx'
 import { TeamSummary } from './components/TeamSummary.tsx'
 import { TEAM } from './lib/config.ts'
-import { useAppData } from './lib/data.ts'
+import { useAppData, type AppData } from './lib/data.ts'
 import { timeZoneAbbr } from './lib/format.ts'
 import { headlineGame } from './lib/hero.ts'
 import { LiveContext } from './lib/live.ts'
-import { useRoute } from './lib/route.ts'
+import { useRoute, type Route } from './lib/route.ts'
 import { TEAMS_BY_ABBR } from './lib/teams.ts'
 import { useLiveScore } from './lib/useLiveScore.ts'
 import './App.css'
@@ -45,11 +45,20 @@ function App() {
     setFocus((f) => ({ id, n: (f?.n ?? 0) + 1 }))
   }
 
+  // A title per page, for browser history, tabs and screen readers.
+  useEffect(() => {
+    document.title = [pageTitle(route, data), 'Nuggets Tracker'].filter(Boolean).join(' · ')
+  }, [route, data])
+
   return (
     <LiveContext.Provider value={live}>
+      {/* A button, not a "#main" link: the hash is the router's. */}
+      <button className="skip-link" onClick={() => document.getElementById('main')?.focus()}>
+        Skip to content
+      </button>
       <SiteHeader route={route} data={data} timeZone={timeZone} onShowGame={showGame} />
 
-      <main>
+      <main id="main" tabIndex={-1}>
         {error && <p className="placeholder error">{error}</p>}
         {!data && !error && <p className="placeholder">Loading…</p>}
 
@@ -105,6 +114,16 @@ function App() {
       )}
     </LiveContext.Provider>
   )
+}
+
+function pageTitle(route: Route, data?: AppData): string | undefined {
+  if (route.page === 'players') return 'Roster'
+  if (route.page === 'player') return data?.players.players.find((p) => p.id === route.id)?.name ?? 'Player'
+  if (route.page === 'game') {
+    const g = data?.schedule.games.find((x) => x.id === route.id)
+    return g ? `${TEAM.abbr} ${g.home ? 'vs' : 'at'} ${g.opponent}` : 'Game'
+  }
+  return undefined
 }
 
 export default App
