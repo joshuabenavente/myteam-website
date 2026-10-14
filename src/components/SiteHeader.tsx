@@ -10,6 +10,7 @@ import { useTeam } from '../lib/team.ts'
 import { badgeColors } from '../lib/teamColors.ts'
 import { teamLogoUrl, TEAMS_BY_ABBR } from '../lib/teams.ts'
 import type { Absence } from '../lib/types.ts'
+import { Wordmark } from './Brand.tsx'
 import { Icon } from './Icon.tsx'
 import { LiveAnnouncer, LivePill } from './LivePill.tsx'
 import { MiniBar } from './MiniBar.tsx'
@@ -72,8 +73,8 @@ export function SiteHeader({ route, data, timeZone, onShowGame }: Props) {
         <div className="header-inner">
           <div className="header-top">
             <a className="brand" href={routeHref({ page: 'games' })}>
-              <TeamLogo abbr={team.abbr} size={36} background="dark" />
-              <span className="site-title">{team.fullName}</span>
+              <Wordmark height={30} />
+              <span className="sr-only">, {team.fullName} home</span>
             </a>
             <div className="header-actions">
               {data && (
@@ -87,9 +88,14 @@ export function SiteHeader({ route, data, timeZone, onShowGame }: Props) {
                   )}
                 </span>
               )}
-              <a className="switch-team" href={routeHref({ page: 'picker' })}>
+              <a className="team-pill" href={routeHref({ page: 'picker' })}>
+                <TeamLogo abbr={team.abbr} size={28} background="dark" />
+                <span className="team-pill-name">
+                  <span className="team-pill-city">{team.city} </span>
+                  {team.name}
+                </span>
                 <Icon name="switch" size={16} />
-                <span className="switch-label">Switch team</span>
+                <span className="sr-only">, switch team</span>
               </a>
             </div>
             {cardsBanner && nav}

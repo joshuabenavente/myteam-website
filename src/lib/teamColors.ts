@@ -120,6 +120,9 @@ const mix = (a: string, b: string, t: number) =>
     .map((v, i) => Math.round(v + (rgb(b)[i] - v) * t).toString(16).padStart(2, '0'))
     .join('')
 
+/** Black or close to it, with no real hue (navy doesn't count). */
+const nearBlack = (c: string) => luminance(c) < 0.02 && Math.max(...rgb(c)) - Math.min(...rgb(c)) < 24
+
 /** The site's colors for a followed team: header dark and mid tones, and an accent. */
 export interface TeamTheme {
   /** The header's dark end; white text on it. */
@@ -130,11 +133,13 @@ export interface TeamTheme {
   accent: string
   /** Text on an accent fill. */
   accentText: string
+  /** The myteam.fans logo's dot, visible on `dark`. */
+  dot: string
 }
 
-const DENVER: TeamTheme = { dark: NAVY, mid: '#1d428a', accent: GOLD, accentText: NAVY }
+const DENVER: TeamTheme = { dark: NAVY, mid: '#1d428a', accent: GOLD, accentText: NAVY, dot: GOLD }
 /** For pages without a team (the team picker). */
-export const NEUTRAL_THEME: TeamTheme = { dark: '#0f172a', mid: '#334155', accent: '#facc15', accentText: '#0f172a' }
+export const NEUTRAL_THEME: TeamTheme = { dark: '#0f172a', mid: '#334155', accent: '#facc15', accentText: '#0f172a', dot: '#F04B32' }
 
 /**
  * A team's site colors from its two team colors. The header uses the darker one (made dark
@@ -146,7 +151,6 @@ export function teamTheme(abbr: string): TeamTheme {
   const colors = TEAM_COLORS[abbr]
   if (!colors) return NEUTRAL_THEME
   // Black or charcoal: very dark and without color (dark navy and purple don't count).
-  const nearBlack = (c: string) => luminance(c) < 0.02 && Math.max(...rgb(c)) - Math.min(...rgb(c)) < 24
   const [darker, lighter] = luminance(colors[0]) <= luminance(colors[1]) ? colors : [colors[1], colors[0]]
   const [base, other] =
     nearBlack(darker) && contrast('#ffffff', lighter) >= 3 ? [lighter, darker] : [darker, lighter]
@@ -162,5 +166,38 @@ export function teamTheme(abbr: string): TeamTheme {
     dark = mix(mid, '#000000', k)
   }
   for (let i = 0; contrast(accent, dark) < 4.5 && i < 20; i++) accent = mix(accent, '#ffffff', 0.08)
-  return { dark, mid, accent, accentText: readableOn(accent) }
+  return { dark, mid, accent, accentText: readableOn(accent), dot: dotColor(abbr, dark) }
+}
+
+/** The logo dot's default (the team picker and anywhere without a team), from the brand files. */
+export const BRAND_DOT = '#F04B32'
+
+/** The same hue, brighter: each channel scaled up, so a deep red becomes a vivid red rather than pink. */
+const brighten = (hex: string, k: number) => {
+  const channels = rgb(hex)
+  const scale = Math.min(k, 255 / Math.max(...channels))
+  // Past full brightness, only white can lighten it further.
+  return mix('#' + channels.map((c) => Math.round(c * scale).toString(16).padStart(2, '0')).join(''), '#ffffff', Math.max(0, (k - scale) / 4))
+}
+
+/**
+ * The myteam.fans dot for a team on a given background: the team's primary color, or its
+ * secondary when that stands out more (Denver's navy on the navy header becomes its gold). Red
+ * teams whose other color is black (Miami, Chicago...) sit on a dark red header, and Boston's
+ * green on its dark green one, so those are brightened until they show.
+ */
+export function dotColor(abbr: string, background: string): string {
+  // A bit above the 3:1 for graphics: the dot is small and the header lightens away from it.
+  const shows = (c: string) => contrast(c, background) >= 3.5
+  const colors = abbr === 'DEN' ? ([NAVY, GOLD] as const) : TEAM_COLORS[abbr]
+  if (!colors) return BRAND_DOT
+  const [primary, secondary] = colors
+  if (shows(primary)) return primary
+  // A white dot would just match the lettering, so it's the last resort (Brooklyn, San Antonio).
+  const white = secondary.toLowerCase() === '#ffffff'
+  if (!white && shows(secondary)) return secondary
+  if (nearBlack(primary)) return secondary
+  let dot = primary
+  for (let k = 1.1; !shows(dot) && k < 4; k += 0.1) dot = brighten(primary, k)
+  return shows(dot) || !white ? dot : secondary
 }

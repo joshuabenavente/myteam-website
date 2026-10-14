@@ -2,6 +2,7 @@
 // useTeam(); its colors are applied as CSS variables.
 
 import { createContext, useContext } from 'react'
+import { iconSvg } from './brand.ts'
 import { NEUTRAL_THEME, teamTheme, type TeamTheme } from './teamColors.ts'
 import { TEAMS_BY_ABBR, TEAMS_BY_SLUG, teamSlug, type Team } from './teams.ts'
 
@@ -33,7 +34,15 @@ export function applyTheme(theme: TeamTheme = NEUTRAL_THEME) {
   root.setProperty('--skyline', theme.mid)
   root.setProperty('--sunshine', theme.accent)
   root.setProperty('--accent-text', theme.accentText)
+  root.setProperty('--team-dot', theme.dot)
+  setFavicon(theme.dot)
   document.querySelector('meta[name="theme-color"]')?.setAttribute('content', theme.dark)
+}
+
+/** The tab icon: the app icon with this team's dot. */
+function setFavicon(dot: string) {
+  const link = document.querySelector<HTMLLinkElement>('link[rel="icon"]')
+  if (link) link.href = `data:image/svg+xml,${encodeURIComponent(iconSvg(dot))}`
 }
 
 const SAVED = 'myteam:team'

@@ -1,3 +1,5 @@
+import { Wordmark } from './Brand.tsx'
+
 
 /** Site name, contact address and data credits. */
 export function SiteFooter({ updatedAt }: { updatedAt?: string }) {
@@ -6,8 +8,9 @@ export function SiteFooter({ updatedAt }: { updatedAt?: string }) {
   return (
     <footer className="site-footer">
       <div className="footer-inner">
+        <Wordmark height={22} className="footer-wordmark" />
         <p>
-          <strong>myteam.fans</strong> · <a href={`mailto:${email}`}>{email}</a>
+          <a href={`mailto:${email}`}>{email}</a>
         </p>
         <p>
           {updatedAt &&

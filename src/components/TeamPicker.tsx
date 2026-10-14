@@ -3,7 +3,7 @@ import { routeHref } from '../lib/route.ts'
 import { applyTheme, savedTeam } from '../lib/team.ts'
 import { TEAM_COLORS } from '../lib/teamColors.ts'
 import { TEAMS, teamSlug, type Team } from '../lib/teams.ts'
-import { BrandMark } from './BrandMark.tsx'
+import { Wordmark } from './Brand.tsx'
 import { Icon } from './Icon.tsx'
 import { SiteFooter } from './SiteFooter.tsx'
 import { TeamLogo } from './TeamLogo.tsx'
@@ -36,8 +36,7 @@ export function TeamPicker({ unknown }: { unknown?: string }) {
         <div className="header-inner">
           <div className="header-top">
             <span className="brand">
-              <BrandMark />
-              <span className="site-title">myteam.fans</span>
+              <Wordmark height={30} />
             </span>
           </div>
           <section className="hero-page">

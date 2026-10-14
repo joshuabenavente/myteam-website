@@ -68,17 +68,6 @@
   text-decoration: none;
 }
 
-.brand .logo {
-  flex: none;
-  filter: drop-shadow(0 2px 4px rgb(0 0 0 / 30%));
-}
-
-.brand .site-title {
-  overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-}
-
 .header-actions {
   display: flex;
   flex: none;
@@ -86,36 +75,46 @@
   gap: 8px;
 }
 
-.switch-team {
+.team-pill {
   display: inline-flex;
   align-items: center;
-  justify-content: center;
-  gap: 6px;
-  min-width: 40px;
+  gap: 8px;
   min-height: 40px;
-  padding: 0 14px;
+  padding: 0 12px 0 6px;
   border-radius: 999px;
   border: 1px solid rgb(255 255 255 / 24%);
   color: #fff;
-  font-size: 0.9rem;
-  font-weight: 600;
+  font-weight: 700;
+  white-space: nowrap;
   text-decoration: none;
 }
 
-.switch-team:hover {
+.team-pill:hover {
   background: rgb(255 255 255 / 10%);
 }
 
-.brand-mark {
-  width: 34px;
-  height: 34px;
+.team-pill .logo {
   flex: none;
 }
 
-.site-title {
-  font-family: var(--font-heading);
-  font-size: 1.25rem;
-  font-weight: 700;
+.team-pill .icon {
+  flex: none;
+  opacity: 0.75;
+}
+
+.wordmark {
+  display: block;
+  flex: none;
+  color: #fff;
+}
+
+.footer-wordmark {
+  margin-bottom: 10px;
+}
+
+.brand-icon {
+  display: block;
+  flex: none;
 }
 
 .season-pill {
@@ -3315,7 +3314,12 @@ a.mini-game:hover {
     grid-template-columns: minmax(0, 1fr);
   }
 
-  .switch-label,
+  .brand .wordmark {
+    width: auto;
+    height: 24px;
+  }
+
+  .team-pill-city,
   .season-label {
     position: absolute;
     width: 1px;
@@ -3325,13 +3329,6 @@ a.mini-game:hover {
     white-space: nowrap;
   }
 
-  .switch-team {
-    padding: 0;
-  }
-
-  .brand .site-title {
-    font-size: 1.05rem;
-  }
 }
 
 /* --- prototype: compact banner with game cards (?banner=cards) --- */

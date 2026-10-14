@@ -1,5 +1,5 @@
 import { expect, it } from 'vitest'
-import { badgeColors, contrast, HEADER_BG, matchupColors, TEAM_COLORS, teamTheme } from './teamColors'
+import { badgeColors, BRAND_DOT, contrast, dotColor, HEADER_BG, matchupColors, TEAM_COLORS, teamTheme } from './teamColors'
 import { TEAMS } from './teams'
 
 it('has colors for every team', () => {
@@ -65,4 +65,18 @@ it('keeps an opponent from looking like the followed team', () => {
   expect(badgeColors('GSW', 'DEN').fill).toBe('#1d428a')
   // Following Golden State, its own badge keeps its gold.
   expect(badgeColors('GSW', 'GSW').fill).toBe('#fdb927')
+})
+
+it('keeps the logo dot visible on the header and the app icon tile', () => {
+  for (const t of TEAMS) {
+    const { dot, dark } = teamTheme(t.abbr)
+    expect(contrast(dot, dark), `${t.abbr} dot on header`).toBeGreaterThanOrEqual(3.5)
+    expect(contrast(dot, '#101820'), `${t.abbr} dot on icon`).toBeGreaterThanOrEqual(3)
+  }
+  // Team colors where they show; a white dot only for teams with nothing else.
+  expect(teamTheme('DEN').dot).toBe('#fec524')
+  expect(teamTheme('LAL').dot).toBe('#fdb927')
+  expect(teamTheme('BKN').dot).toBe('#ffffff')
+  expect(teamTheme('BOS').dot).not.toBe('#ffffff')
+  expect(dotColor('XXX', '#000000')).toBe(BRAND_DOT)
 })

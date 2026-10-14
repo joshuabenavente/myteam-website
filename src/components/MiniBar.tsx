@@ -5,8 +5,8 @@ import { formatGameDate, formatGameTime } from '../lib/format.ts'
 import { headlineGame } from '../lib/hero.ts'
 import { liveFor, resultFor, scoreLine, useLive } from '../lib/live.ts'
 import { routeHref, type Route } from '../lib/route.ts'
+import { BrandIcon } from './Brand.tsx'
 import { Icon } from './Icon.tsx'
-import { TeamLogo } from './TeamLogo.tsx'
 
 interface Props {
   /** The full header; the bar shows once it has scrolled out of view. */
@@ -34,7 +34,7 @@ export function MiniBar({ headerRef, route, data, timeZone }: Props) {
     <div className={`mini-bar ${shown ? 'shown' : ''}`} inert={!shown}>
       <div className="mini-inner">
         <a className="mini-brand" href={routeHref({ page: 'games' })}>
-          <TeamLogo abbr={team.abbr} size={30} background="dark" />
+          <BrandIcon size={30} />
           <span className="sr-only">{team.fullName} home</span>
         </a>
         {data && <MiniGame data={data} timeZone={timeZone} />}
