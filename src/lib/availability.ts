@@ -1,4 +1,5 @@
 import { dayKey } from './format.ts'
+import { WINDOW_AFTER_MS } from './scoreboard.ts'
 import type { Absence, Game, ScheduleFile } from './types.ts'
 
 /**
@@ -22,9 +23,16 @@ export function availabilityLabel(a: Pick<Absence, 'status'>): string {
 export const isGameTimeDecision = (a: Pick<Absence, 'status' | 'gameTimeDecision'>) =>
   !!a.gameTimeDecision && a.status !== 'Out'
 
+/**
+ * A game still marked scheduled well after it must have finished: the data refresh hasn't caught
+ * up yet (GitHub's scheduled runs can be hours late). Treat it as played, result pending.
+ */
+export const isPastDue = (g: Pick<Game, 'status' | 'startUtc'>, now = Date.now()) =>
+  g.status === 'scheduled' && Date.parse(g.startUtc) + WINDOW_AFTER_MS < now
+
 /** The next few games that haven't started; these get availability and previews. */
-export function nextGames<T extends Pick<Game, 'status' | 'startUtc'>>(games: T[], count = 3): T[] {
-  return games.filter((g) => g.status === 'scheduled').slice(0, count)
+export function nextGames<T extends Pick<Game, 'status' | 'startUtc'>>(games: T[], count = 3, now = Date.now()): T[] {
+  return games.filter((g) => g.status === 'scheduled' && !isPastDue(g, now)).slice(0, count)
 }
 
 /** Regular season games not on the schedule yet (the NBA adds 2 after NBA Cup group play). */

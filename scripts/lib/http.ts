@@ -15,13 +15,26 @@ export class HttpError extends Error {
   }
 }
 
+/** Network failures (not HTTP errors) are retried once after a short pause. */
+const RETRY_AFTER_MS = 5000
+
 export async function getText(url: string, headers: Record<string, string> = {}): Promise<string> {
-  const res = await fetch(url, {
-    headers: { 'User-Agent': USER_AGENT, ...headers },
-    signal: AbortSignal.timeout(30_000),
-  })
-  if (!res.ok) throw new HttpError(url, res.status)
-  return res.text()
+  for (let attempt = 1; ; attempt++) {
+    let res: Response
+    try {
+      res = await fetch(url, {
+        headers: { 'User-Agent': USER_AGENT, ...headers },
+        signal: AbortSignal.timeout(30_000),
+      })
+    } catch (err) {
+      if (attempt >= 2) throw err
+      console.warn(`  retrying ${url}: ${(err as Error).message}`)
+      await new Promise((r) => setTimeout(r, RETRY_AFTER_MS))
+      continue
+    }
+    if (!res.ok) throw new HttpError(url, res.status)
+    return res.text()
+  }
 }
 
 export async function getJson<T>(url: string, headers: Record<string, string> = {}): Promise<T> {

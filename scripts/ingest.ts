@@ -135,7 +135,7 @@ for (const abbr of teams.filter((a) => !lastResults[a])) {
     lastResults[abbr] = [...parseEspnResults(regular, 'regular'), ...parseEspnResults(playoffs, 'playoffs')]
   })
 }
-write(resultsPath, lastResults)
+write(resultsPath, lastResults, { compact: true })
 
 const h2hByTeam: { [abbr: string]: HeadToHeadFile['opponents'] } = {}
 if (league) {
@@ -256,7 +256,7 @@ if (playersArg !== undefined && league) {
       await step(`${abbr} players`, () => updatePlayers(abbr, cache))
     } finally {
       // Keep whatever was fetched, even if a later request failed.
-      write(gameLogCachePath, cache)
+      write(gameLogCachePath, cache, { compact: true })
     }
   }
 }

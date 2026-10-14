@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react'
-import { absencesForGame, availabilityLabel, isGameTimeDecision, nextGames } from '../lib/availability.ts'
+import { absencesForGame, availabilityLabel, isGameTimeDecision, isPastDue, nextGames } from '../lib/availability.ts'
 import { channelsFor } from '../lib/channels.ts'
 import type { AppData } from '../lib/data.ts'
 import {
@@ -203,6 +203,7 @@ export function GameStatus({ game, timeZone }: { game: Game; timeZone: string })
   if (live && watch && live.state !== 'pre' && live.state !== 'postponed') {
     return <LiveRowStatus score={live} team={watch.team} />
   }
+  if (isPastDue(game)) return <span className="muted small">Result pending</span>
   if (game.status === 'scheduled') return <span className="time">{formatGameTime(game, timeZone)}</span>
   const { team, opponent } = game.score!
   if (game.status === 'live') {

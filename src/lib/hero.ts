@@ -1,13 +1,13 @@
 // What the header's next-game block shows: which game, how far away, where to watch and who's out.
 
-import { absencesForGame, availabilityLabel } from './availability.ts'
+import { absencesForGame, availabilityLabel, isPastDue } from './availability.ts'
 import { channelsFor, type Channel } from './channels.ts'
 import { dayKey } from './format.ts'
 import type { Absence, Game } from './types.ts'
 
-/** A game in progress, otherwise the next one that hasn't started. */
-export function headlineGame<T extends Pick<Game, 'status'>>(games: T[]): T | undefined {
-  return games.find((g) => g.status === 'live') ?? games.find((g) => g.status === 'scheduled')
+/** A game in progress, otherwise the next one that hasn't started (skipping any past due). */
+export function headlineGame<T extends Pick<Game, 'status' | 'startUtc'>>(games: T[], now = Date.now()): T | undefined {
+  return games.find((g) => g.status === 'live') ?? games.find((g) => g.status === 'scheduled' && !isPastDue(g, now))
 }
 
 const DAY_MS = 24 * 60 * 60 * 1000

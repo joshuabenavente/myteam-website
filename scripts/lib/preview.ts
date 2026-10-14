@@ -12,6 +12,16 @@ import type { FinalGame } from './standings.ts'
 const MODEL = 'claude-haiku-5-5'
 
 const rec = (r: WinLoss) => `${r.wins}-${r.losses}`
+
+/** Where a team plays home games, where its name isn't a city ("in Golden State" reads oddly). */
+const HOME_CITY: { [abbr: string]: string } = {
+  GSW: 'San Francisco',
+  IND: 'Indianapolis',
+  LAC: 'Los Angeles',
+  MIN: 'Minneapolis',
+  UTA: 'Salt Lake City',
+}
+const homeCity = (abbr: string) => HOME_CITY[abbr] ?? TEAMS_BY_ABBR[abbr].city
 const fullName = (abbr: string) => `${TEAMS_BY_ABBR[abbr].city} ${TEAMS_BY_ABBR[abbr].name}`
 
 function teamFacts(t: TeamInfo | undefined, season: string) {
@@ -42,7 +52,7 @@ function lastMeeting(results: FinalGame[], team: string, opp: string) {
     // Local (Mountain) date: evening games are already the next day in UTC.
     // Pacific date: no NBA game starts late enough to be the next day there.
     date: dayKey(g.startUtc, 'America/Los_Angeles'),
-    where: g.home === team ? `in ${TEAMS_BY_ABBR[team].city}` : `in ${TEAMS_BY_ABBR[opp].city}`,
+    where: `in ${homeCity(g.home)}`,
     type: g.type === 'playoffs' ? 'playoffs' : 'regular season',
     result: `${TEAMS_BY_ABBR[team].name} ${ours > theirs ? 'won' : 'lost'} ${Math.max(ours, theirs)}-${Math.min(ours, theirs)}`,
   }

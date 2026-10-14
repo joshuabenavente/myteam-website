@@ -48,3 +48,14 @@ it('prefers a national channel', () => {
   expect(headlineChannel({ broadcasts: [local] })?.label).toBe('Altitude')
   expect(headlineChannel({ broadcasts: [] })).toBeUndefined()
 })
+
+it('skips a game still marked scheduled hours after it must have ended', () => {
+  const games = [
+    { id: 'a', status: 'scheduled', startUtc: '2026-10-23T01:30:00Z' },
+    { id: 'b', status: 'scheduled', startUtc: '2026-10-25T01:00:00Z' },
+  ]
+  // During and just after game a, it's still the headline (the live score covers it).
+  expect(headlineGame(games, Date.parse('2026-10-23T04:00:00Z'))?.id).toBe('a')
+  // The next morning the data hasn't caught up; game b is next.
+  expect(headlineGame(games, Date.parse('2026-10-23T15:00:00Z'))?.id).toBe('b')
+})
