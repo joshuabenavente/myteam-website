@@ -1,0 +1,840 @@
+{
+ "season": "2026-27",
+ "lastSeason": "2025-26",
+ "updatedAt": "2026-10-14T15:19:29.140Z",
+ "teamGamesPlayed": {
+  "regular": 0,
+  "playoffs": 0
+ },
+ "players": [
+  {
+   "id": "camarto01",
+   "name": "Toumani Camara",
+   "position": "F",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 7\"",
+    "weight": 230,
+    "birthDate": "2000-05-08",
+    "experience": 3,
+    "college": "Dayton",
+    "birthPlace": "Brussels, Belgium"
+   },
+   "number": "33",
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4431736.png",
+   "current": {},
+   "lastFull": {
+    "regular": {
+     "games": 82,
+     "started": 82,
+     "minutes": 2731.5,
+     "points": 1100,
+     "rebounds": 421,
+     "assists": 201,
+     "steals": 94,
+     "blocks": 35,
+     "turnovers": 144,
+     "fgMade": 392,
+     "fgAttempted": 891,
+     "threeMade": 219,
+     "threeAttempted": 592,
+     "ftMade": 97,
+     "ftAttempted": 137
+    },
+    "playoffs": {
+     "games": 5,
+     "started": 5,
+     "minutes": 165.1,
+     "points": 35,
+     "rebounds": 27,
+     "assists": 6,
+     "steals": 7,
+     "blocks": 3,
+     "turnovers": 7,
+     "fgMade": 11,
+     "fgAttempted": 38,
+     "threeMade": 7,
+     "threeAttempted": 27,
+     "ftMade": 6,
+     "ftAttempted": 6
+    }
+   },
+   "lastToDate": {}
+  },
+  {
+   "id": "avdijde01",
+   "name": "Deni Avdija",
+   "position": "G-F",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 8\"",
+    "weight": 228,
+    "birthDate": "2001-01-03",
+    "experience": 6,
+    "birthPlace": "Tel Aviv, Israel"
+   },
+   "number": "8",
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4683021.png",
+   "current": {},
+   "lastFull": {
+    "regular": {
+     "games": 66,
+     "started": 66,
+     "minutes": 2199.7,
+     "points": 1598,
+     "rebounds": 454,
+     "assists": 442,
+     "steals": 51,
+     "blocks": 41,
+     "turnovers": 253,
+     "fgMade": 492,
+     "fgAttempted": 1064,
+     "threeMade": 125,
+     "threeAttempted": 393,
+     "ftMade": 489,
+     "ftAttempted": 610
+    },
+    "playoffs": {
+     "games": 5,
+     "started": 5,
+     "minutes": 174.4,
+     "points": 111,
+     "rebounds": 30,
+     "assists": 23,
+     "steals": 2,
+     "blocks": 3,
+     "turnovers": 17,
+     "fgMade": 35,
+     "fgAttempted": 78,
+     "threeMade": 7,
+     "threeAttempted": 20,
+     "ftMade": 34,
+     "ftAttempted": 47
+    }
+   },
+   "lastToDate": {}
+  },
+  {
+   "id": "clingdo01",
+   "name": "Donovan Clingan",
+   "position": "C",
+   "twoWay": false,
+   "bio": {
+    "height": "7' 2\"",
+    "weight": 280,
+    "birthDate": "2004-02-23",
+    "experience": 2,
+    "college": "UConn",
+    "birthPlace": "Bristol, CT"
+   },
+   "number": "23",
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5105565.png",
+   "current": {},
+   "lastFull": {
+    "regular": {
+     "games": 77,
+     "started": 77,
+     "minutes": 2094.4,
+     "points": 934,
+     "rebounds": 892,
+     "assists": 162,
+     "steals": 44,
+     "blocks": 130,
+     "turnovers": 95,
+     "fgMade": 356,
+     "fgAttempted": 684,
+     "threeMade": 84,
+     "threeAttempted": 246,
+     "ftMade": 138,
+     "ftAttempted": 203
+    },
+    "playoffs": {
+     "games": 5,
+     "started": 5,
+     "minutes": 107,
+     "points": 35,
+     "rebounds": 39,
+     "assists": 11,
+     "steals": 1,
+     "blocks": 3,
+     "turnovers": 3,
+     "fgMade": 14,
+     "fgAttempted": 46,
+     "threeMade": 5,
+     "threeAttempted": 25,
+     "ftMade": 2,
+     "ftAttempted": 4
+    }
+   },
+   "lastToDate": {}
+  },
+  {
+   "id": "holidjr01",
+   "name": "Jrue Holiday",
+   "position": "G",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 4\"",
+    "weight": 220,
+    "birthDate": "1990-06-12",
+    "experience": 17,
+    "college": "UCLA",
+    "birthPlace": "Chatsworth, CA"
+   },
+   "number": "5",
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3995.png",
+   "current": {},
+   "lastFull": {
+    "regular": {
+     "games": 53,
+     "started": 51,
+     "minutes": 1560.9,
+     "points": 865,
+     "rebounds": 245,
+     "assists": 322,
+     "steals": 54,
+     "blocks": 6,
+     "turnovers": 146,
+     "fgMade": 320,
+     "fgAttempted": 709,
+     "threeMade": 137,
+     "threeAttempted": 362,
+     "ftMade": 88,
+     "ftAttempted": 105
+    },
+    "playoffs": {
+     "games": 5,
+     "started": 5,
+     "minutes": 191.6,
+     "points": 82,
+     "rebounds": 27,
+     "assists": 36,
+     "steals": 7,
+     "blocks": 2,
+     "turnovers": 16,
+     "fgMade": 31,
+     "fgAttempted": 77,
+     "threeMade": 12,
+     "threeAttempted": 34,
+     "ftMade": 8,
+     "ftAttempted": 9
+    }
+   },
+   "lastToDate": {}
+  },
+  {
+   "id": "sharpsh01",
+   "name": "Shaedon Sharpe",
+   "position": "G",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 5\"",
+    "weight": 210,
+    "birthDate": "2003-05-30",
+    "experience": 4,
+    "college": "Kentucky",
+    "birthPlace": "London, ON"
+   },
+   "number": "17",
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4914336.png",
+   "current": {},
+   "lastFull": {
+    "regular": {
+     "games": 50,
+     "started": 42,
+     "minutes": 1471.6,
+     "points": 1042,
+     "rebounds": 217,
+     "assists": 132,
+     "steals": 70,
+     "blocks": 6,
+     "turnovers": 147,
+     "fgMade": 392,
+     "fgAttempted": 868,
+     "threeMade": 103,
+     "threeAttempted": 306,
+     "ftMade": 155,
+     "ftAttempted": 197
+    },
+    "playoffs": {
+     "games": 5,
+     "started": 0,
+     "minutes": 67.2,
+     "points": 36,
+     "rebounds": 8,
+     "assists": 3,
+     "steals": 2,
+     "blocks": 2,
+     "turnovers": 0,
+     "fgMade": 14,
+     "fgAttempted": 34,
+     "threeMade": 3,
+     "threeAttempted": 11,
+     "ftMade": 5,
+     "ftAttempted": 8
+    }
+   },
+   "lastToDate": {}
+  },
+  {
+   "id": "cissosi01",
+   "name": "Sidy Cissoko",
+   "position": "G",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 6\"",
+    "weight": 220,
+    "birthDate": "2004-04-02",
+    "experience": 3,
+    "birthPlace": "Paris, France"
+   },
+   "number": "91",
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5081727.png",
+   "current": {},
+   "lastFull": {
+    "regular": {
+     "games": 75,
+     "started": 26,
+     "minutes": 1436,
+     "points": 383,
+     "rebounds": 166,
+     "assists": 110,
+     "steals": 52,
+     "blocks": 25,
+     "turnovers": 70,
+     "fgMade": 133,
+     "fgAttempted": 334,
+     "threeMade": 59,
+     "threeAttempted": 198,
+     "ftMade": 58,
+     "ftAttempted": 88
+    },
+    "playoffs": {
+     "games": 4,
+     "started": 0,
+     "minutes": 26.2,
+     "points": 11,
+     "rebounds": 5,
+     "assists": 1,
+     "steals": 4,
+     "blocks": 0,
+     "turnovers": 1,
+     "fgMade": 4,
+     "fgAttempted": 10,
+     "threeMade": 2,
+     "threeAttempted": 5,
+     "ftMade": 1,
+     "ftAttempted": 1
+    }
+   },
+   "lastToDate": {}
+  },
+  {
+   "id": "krejcvi01",
+   "name": "Vít Krejčí",
+   "position": "G",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 8\"",
+    "weight": 195,
+    "birthDate": "2000-06-19",
+    "experience": 5,
+    "birthPlace": "Czech Republic"
+   },
+   "number": "27",
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4578893.png",
+   "current": {},
+   "lastFull": {
+    "regular": {
+     "games": 65,
+     "started": 8,
+     "minutes": 1392.7,
+     "points": 550,
+     "rebounds": 148,
+     "assists": 100,
+     "steals": 47,
+     "blocks": 18,
+     "turnovers": 41,
+     "fgMade": 192,
+     "fgAttempted": 429,
+     "threeMade": 128,
+     "threeAttempted": 328,
+     "ftMade": 38,
+     "ftAttempted": 51
+    },
+    "playoffs": {
+     "games": 4,
+     "started": 0,
+     "minutes": 16.4,
+     "points": 2,
+     "rebounds": 1,
+     "assists": 2,
+     "steals": 0,
+     "blocks": 0,
+     "turnovers": 0,
+     "fgMade": 1,
+     "fgAttempted": 4,
+     "threeMade": 0,
+     "threeAttempted": 3,
+     "ftMade": 0,
+     "ftAttempted": 0
+    }
+   },
+   "lastToDate": {}
+  },
+  {
+   "id": "williro04",
+   "name": "Robert Williams",
+   "position": "C-F",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 9\"",
+    "weight": 249,
+    "birthDate": "1997-10-17",
+    "experience": 8,
+    "college": "Texas A&M",
+    "birthPlace": "Shreveport, LA"
+   },
+   "number": "35",
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4066211.png",
+   "current": {},
+   "lastFull": {
+    "regular": {
+     "games": 59,
+     "started": 1,
+     "minutes": 1008.7,
+     "points": 397,
+     "rebounds": 415,
+     "assists": 60,
+     "steals": 35,
+     "blocks": 87,
+     "turnovers": 49,
+     "fgMade": 177,
+     "fgAttempted": 250,
+     "threeMade": 9,
+     "threeAttempted": 23,
+     "ftMade": 34,
+     "ftAttempted": 57
+    },
+    "playoffs": {
+     "games": 5,
+     "started": 0,
+     "minutes": 108.4,
+     "points": 48,
+     "rebounds": 37,
+     "assists": 13,
+     "steals": 3,
+     "blocks": 6,
+     "turnovers": 2,
+     "fgMade": 22,
+     "fgAttempted": 35,
+     "threeMade": 3,
+     "threeAttempted": 9,
+     "ftMade": 1,
+     "ftAttempted": 3
+    }
+   },
+   "lastToDate": {}
+  },
+  {
+   "id": "pottemi01",
+   "name": "Micah Potter",
+   "position": "C",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 9\"",
+    "weight": 248,
+    "birthDate": "1998-04-06",
+    "experience": 5,
+    "college": "Wisconsin",
+    "birthPlace": "Mentor, OH"
+   },
+   "number": "9",
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4066399.png",
+   "current": {},
+   "lastFull": {
+    "regular": {
+     "games": 47,
+     "started": 7,
+     "minutes": 908.5,
+     "points": 458,
+     "rebounds": 233,
+     "assists": 69,
+     "steals": 22,
+     "blocks": 15,
+     "turnovers": 47,
+     "fgMade": 151,
+     "fgAttempted": 293,
+     "threeMade": 71,
+     "threeAttempted": 168,
+     "ftMade": 85,
+     "ftAttempted": 101
+    }
+   },
+   "lastToDate": {}
+  },
+  {
+   "id": "hendesc01",
+   "name": "Scoot Henderson",
+   "position": "G",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 3\"",
+    "weight": 207,
+    "birthDate": "2004-02-03",
+    "experience": 3,
+    "birthPlace": "Marietta, GA"
+   },
+   "number": "00",
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4683678.png",
+   "current": {},
+   "lastFull": {
+    "regular": {
+     "games": 30,
+     "started": 10,
+     "minutes": 748.2,
+     "points": 427,
+     "rebounds": 80,
+     "assists": 112,
+     "steals": 27,
+     "blocks": 9,
+     "turnovers": 73,
+     "fgMade": 143,
+     "fgAttempted": 342,
+     "threeMade": 57,
+     "threeAttempted": 162,
+     "ftMade": 84,
+     "ftAttempted": 100
+    },
+    "playoffs": {
+     "games": 5,
+     "started": 5,
+     "minutes": 145.2,
+     "points": 75,
+     "rebounds": 8,
+     "assists": 6,
+     "steals": 4,
+     "blocks": 1,
+     "turnovers": 9,
+     "fgMade": 28,
+     "fgAttempted": 59,
+     "threeMade": 13,
+     "threeAttempted": 28,
+     "ftMade": 6,
+     "ftAttempted": 8
+    }
+   },
+   "lastToDate": {}
+  },
+  {
+   "id": "moranja01",
+   "name": "Ja Morant",
+   "position": "G",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 2\"",
+    "weight": 174,
+    "birthDate": "1999-08-10",
+    "experience": 7,
+    "college": "Murray State",
+    "birthPlace": "Dalzell, SC"
+   },
+   "number": "1",
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4279888.png",
+   "current": {},
+   "lastFull": {
+    "regular": {
+     "games": 20,
+     "started": 20,
+     "minutes": 568.6,
+     "points": 389,
+     "rebounds": 65,
+     "assists": 161,
+     "steals": 20,
+     "blocks": 6,
+     "turnovers": 71,
+     "fgMade": 132,
+     "fgAttempted": 322,
+     "threeMade": 20,
+     "threeAttempted": 85,
+     "ftMade": 105,
+     "ftAttempted": 117
+    }
+   },
+   "lastToDate": {}
+  },
+  {
+   "id": "carlsbr01",
+   "name": "Branden Carlson",
+   "position": "C",
+   "twoWay": false,
+   "bio": {
+    "height": "7' 0\"",
+    "weight": 220,
+    "birthDate": "1999-06-14",
+    "experience": 2,
+    "college": "Utah",
+    "birthPlace": "South Jordan, UT"
+   },
+   "number": "10",
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4592435.png",
+   "current": {},
+   "lastFull": {
+    "regular": {
+     "games": 42,
+     "started": 4,
+     "minutes": 488.3,
+     "points": 242,
+     "rebounds": 124,
+     "assists": 29,
+     "steals": 8,
+     "blocks": 27,
+     "turnovers": 16,
+     "fgMade": 98,
+     "fgAttempted": 186,
+     "threeMade": 31,
+     "threeAttempted": 86,
+     "ftMade": 15,
+     "ftAttempted": 26
+    }
+   },
+   "lastToDate": {}
+  },
+  {
+   "id": "sochaje01",
+   "name": "Jeremy Sochan",
+   "position": "F-G",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 8\"",
+    "weight": 230,
+    "birthDate": "2003-05-20",
+    "experience": 4,
+    "college": "Baylor",
+    "birthPlace": "Milton Keynes, England"
+   },
+   "number": "4",
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4610139.png",
+   "current": {},
+   "lastFull": {
+    "regular": {
+     "games": 44,
+     "started": 0,
+     "minutes": 468.8,
+     "points": 158,
+     "rebounds": 107,
+     "assists": 40,
+     "steals": 17,
+     "blocks": 7,
+     "turnovers": 21,
+     "fgMade": 64,
+     "fgAttempted": 129,
+     "threeMade": 11,
+     "threeAttempted": 45,
+     "ftMade": 19,
+     "ftAttempted": 26
+    },
+    "playoffs": {
+     "games": 8,
+     "started": 0,
+     "minutes": 26,
+     "points": 20,
+     "rebounds": 5,
+     "assists": 2,
+     "steals": 1,
+     "blocks": 1,
+     "turnovers": 1,
+     "fgMade": 7,
+     "fgAttempted": 9,
+     "threeMade": 1,
+     "threeAttempted": 2,
+     "ftMade": 5,
+     "ftAttempted": 8
+    }
+   },
+   "lastToDate": {}
+  },
+  {
+   "id": "yangha01",
+   "name": "Yang Hansen",
+   "position": "C",
+   "twoWay": false,
+   "bio": {
+    "height": "7' 1\"",
+    "weight": 270,
+    "birthDate": "2005-06-26",
+    "experience": 1
+   },
+   "number": "16",
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5217746.png",
+   "current": {},
+   "lastFull": {
+    "regular": {
+     "games": 43,
+     "started": 1,
+     "minutes": 300.1,
+     "points": 95,
+     "rebounds": 66,
+     "assists": 22,
+     "steals": 3,
+     "blocks": 10,
+     "turnovers": 32,
+     "fgMade": 31,
+     "fgAttempted": 100,
+     "threeMade": 5,
+     "threeAttempted": 42,
+     "ftMade": 28,
+     "ftAttempted": 34
+    },
+    "playoffs": {
+     "games": 4,
+     "started": 0,
+     "minutes": 4.6,
+     "points": 0,
+     "rebounds": 1,
+     "assists": 0,
+     "steals": 0,
+     "blocks": 0,
+     "turnovers": 0,
+     "fgMade": 0,
+     "fgAttempted": 2,
+     "threeMade": 0,
+     "threeAttempted": 2,
+     "ftMade": 0,
+     "ftAttempted": 0
+    }
+   },
+   "lastToDate": {}
+  },
+  {
+   "id": "youngch01",
+   "name": "Chris Youngblood",
+   "position": "G",
+   "twoWay": true,
+   "bio": {
+    "height": "6' 4\"",
+    "weight": 221,
+    "birthDate": "2002-02-09",
+    "experience": 1,
+    "college": "Alabama",
+    "birthPlace": "Tuscaloosa, AL"
+   },
+   "number": "11",
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4706557.png",
+   "current": {},
+   "lastFull": {
+    "regular": {
+     "games": 34,
+     "started": 0,
+     "minutes": 185.3,
+     "points": 71,
+     "rebounds": 28,
+     "assists": 12,
+     "steals": 4,
+     "blocks": 3,
+     "turnovers": 2,
+     "fgMade": 22,
+     "fgAttempted": 63,
+     "threeMade": 18,
+     "threeAttempted": 54,
+     "ftMade": 9,
+     "ftAttempted": 10
+    }
+   },
+   "lastToDate": {}
+  },
+  {
+   "id": "tonjejo01",
+   "name": "John Tonje",
+   "position": "G",
+   "twoWay": true,
+   "bio": {
+    "height": "6' 5\"",
+    "weight": 225,
+    "birthDate": "2001-04-23",
+    "experience": 1,
+    "college": "Wisconsin",
+    "birthPlace": "Omaha, NE"
+   },
+   "number": "2",
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4593043.png",
+   "current": {},
+   "lastFull": {
+    "regular": {
+     "games": 6,
+     "started": 0,
+     "minutes": 42,
+     "points": 15,
+     "rebounds": 6,
+     "assists": 2,
+     "steals": 2,
+     "blocks": 0,
+     "turnovers": 0,
+     "fgMade": 4,
+     "fgAttempted": 14,
+     "threeMade": 3,
+     "threeAttempted": 10,
+     "ftMade": 4,
+     "ftAttempted": 4
+    }
+   },
+   "lastToDate": {}
+  },
+  {
+   "id": "kentja01",
+   "name": "Jayson Kent",
+   "position": "F",
+   "twoWay": true,
+   "bio": {
+    "height": "6' 8\"",
+    "weight": 215,
+    "birthDate": "2002-02-03",
+    "experience": 1,
+    "college": "Texas",
+    "birthPlace": "Oak Forest, IL"
+   },
+   "number": "29",
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4703889.png",
+   "current": {},
+   "lastFull": {
+    "regular": {
+     "games": 5,
+     "started": 0,
+     "minutes": 22.6,
+     "points": 10,
+     "rebounds": 5,
+     "assists": 0,
+     "steals": 1,
+     "blocks": 1,
+     "turnovers": 0,
+     "fgMade": 4,
+     "fgAttempted": 7,
+     "threeMade": 1,
+     "threeAttempted": 4,
+     "ftMade": 1,
+     "ftAttempted": 1
+    }
+   },
+   "lastToDate": {}
+  },
+  {
+   "id": "lillada01",
+   "name": "Damian Lillard",
+   "position": "G",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 2\"",
+    "weight": 200,
+    "birthDate": "1990-07-15",
+    "experience": 13,
+    "college": "Weber State",
+    "birthPlace": "Oakland, CA"
+   },
+   "number": "0",
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/6606.png",
+   "current": {},
+   "lastFull": {},
+   "lastToDate": {}
+  }
+ ]
+}
