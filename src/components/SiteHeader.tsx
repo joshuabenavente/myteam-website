@@ -7,8 +7,8 @@ import { liveFor, useLive } from '../lib/live.ts'
 import { nameKey } from '../lib/names.ts'
 import { routeHref, type Route } from '../lib/route.ts'
 import { useTeam } from '../lib/team.ts'
-import { badgeColors, dotColor, teamTheme } from '../lib/teamColors.ts'
-import { teamLogoUrl, TEAMS_BY_ABBR } from '../lib/teams.ts'
+import { dotColor, teamTheme } from '../lib/teamColors.ts'
+import { TEAMS_BY_ABBR } from '../lib/teams.ts'
 import type { Absence } from '../lib/types.ts'
 import { BrandIcon, Wordmark } from './Brand.tsx'
 import { Icon } from './Icon.tsx'
@@ -19,20 +19,6 @@ import { TeamLogo } from './TeamLogo.tsx'
 /** Injury chips per team; the rest are behind "+N more". */
 const CHIPS_PER_TEAM = 2
 
-/**
- * Prototype: ?banner=cards shows a compact banner (countdown plus "next up" game cards) instead of
- * the big next-game hero. Remembered on this device until ?banner=hero.
- */
-const cardsBanner = (() => {
-  try {
-    const param = new URLSearchParams(window.location.search).get('banner')
-    if (param) window.localStorage.setItem('myteam:banner', param)
-    return (param ?? window.localStorage.getItem('myteam:banner')) === 'cards'
-  } catch {
-    return false
-  }
-})()
-
 interface Props {
   route: Route
   data?: AppData
@@ -41,7 +27,7 @@ interface Props {
   onShowGame: (id: string) => void
 }
 
-/** The navy header: brand and season record, the next game on the Games page, and the page switcher. */
+/** The team-colored header: logo, season and team pills, page switcher, and on the Games page the countdown and next games. */
 export function SiteHeader({ route, data, timeZone, onShowGame }: Props) {
   const team = useTeam()
   const full = route.page === 'games' && !!data
@@ -70,7 +56,7 @@ export function SiteHeader({ route, data, timeZone, onShowGame }: Props) {
     <>
       <header
         ref={headerRef}
-        className={`site-header ${full ? 'full' : roster ? 'page' : 'compact'} ${cardsBanner ? 'cards' : ''}`}
+        className={`site-header cards ${full ? 'full' : roster ? 'page' : 'compact'}`}
       >
         <div className="header-inner">
           <div className="header-top">
@@ -105,7 +91,7 @@ export function SiteHeader({ route, data, timeZone, onShowGame }: Props) {
                 <span className="sr-only">, switch team</span>
               </a>
             </div>
-            {cardsBanner && nav}
+            {nav}
           </div>
 
           {/* The Games page's heading sits here so it comes before the next game's. */}
@@ -113,7 +99,6 @@ export function SiteHeader({ route, data, timeZone, onShowGame }: Props) {
           {full && <NextGame data={data} timeZone={timeZone} onShowGame={onShowGame} />}
           {roster && <RosterIntro data={data} />}
 
-          {!cardsBanner && nav}
         </div>
       </header>
       <MiniBar headerRef={headerRef} route={route} data={data} timeZone={timeZone} />
@@ -130,11 +115,13 @@ function NextGame({ data, timeZone, onShowGame }: { data: AppData; timeZone: str
   if (!game) {
     const played = data.schedule.games.some((g) => g.status === 'final')
     return (
-      <section className="hero-game" aria-labelledby="hero-game-heading">
-        <h2 id="hero-game-heading" className="eyebrow">
-          {played ? 'Season complete' : 'Schedule'}
-        </h2>
-        <p className="hero-date">{played ? 'See you next season' : 'Coming soon'}</p>
+      <section className="cards-hero" aria-labelledby="hero-game-heading">
+        <div className="countdown">
+          <h2 id="hero-game-heading" className="eyebrow">
+            {played ? 'Season complete' : 'Schedule'}
+          </h2>
+          <p className="countdown-number word">{played ? 'See you next season' : 'Coming soon'}</p>
+        </div>
       </section>
     )
   }
@@ -157,9 +144,6 @@ function NextGame({ data, timeZone, onShowGame }: { data: AppData; timeZone: str
   // The team's own chips link to the player's page.
   const rosterIds = new Map(data.players.players.map((p) => [nameKey(p.name), p.id]))
   const hidden = Math.max(0, ours.length - CHIPS_PER_TEAM) + Math.max(0, theirs.length - CHIPS_PER_TEAM)
-  const eyebrow = [live ? 'Live now' : score?.state === 'final' ? 'Final' : 'Next game', game.type === 'playoffs' && 'Playoffs']
-    .filter(Boolean)
-    .join(' · ')
 
   const injuryChips = (
     <>
@@ -179,128 +163,77 @@ function NextGame({ data, timeZone, onShowGame }: { data: AppData; timeZone: str
     </>
   )
 
-  if (cardsBanner) {
-    const us = data.standings.teams[team.abbr]
-    const opener = !!us && us.wins + us.losses === 0 && game.type === 'regular'
-    const days = daysUntil(game, now, timeZone)
-    const upcoming = nextGames(data.schedule.games, 3)
-    return (
-      <section className="cards-hero" aria-labelledby="hero-game-heading">
-        <div className="countdown">
-          <h2 id="hero-game-heading" className="eyebrow">
-            {live ? 'Live now' : score?.state === 'final' ? 'Final' : opener ? `${data.schedule.season} season tips off in` : 'Next game in'}
-          </h2>
-          <div className="countdown-row">
-            {/* Once the game is on, the live pill below takes over from the countdown. */}
-            {!showPill && (
-              <span className={`countdown-number ${days > 0 ? '' : 'word'}`}>
-                {days > 0 ? days : countdownLabel(game, now, timeZone)}
-              </span>
-            )}
-            <div className="countdown-info">
-              {days > 0 && !showPill && <span className="countdown-unit">{days === 1 ? 'day' : 'days'}</span>}
-              <span>
-                {weekday}, {monthDay}
-              </span>
-              <a className="countdown-opp" href={routeHref({ page: 'game', id: game.id })}>
-                {game.home ? 'vs' : 'at'} {opp.city}
-                {game.neutralSite && ` · in ${game.neutralSite}`}
-              </a>
-              <span className="countdown-muted">
-                {game.timeTbd ? 'Time TBD' : `${formatGameTime(game, timeZone)} ${timeZoneAbbr(timeZone, new Date(game.startUtc))}`}
-                {channel && ` · ${channel.label}`}
-              </span>
-            </div>
-          </div>
-          <ul className="hero-chips" aria-label="About this game">
-            {testLive && <LivePill live={testLive} started href={routeHref({ page: 'game', id: 'live' })} />}
-            {showPill && watch && (
-              <LivePill live={watch} started={started} href={routeHref({ page: 'game', id: game.id })} />
-            )}
-            {injuryChips}
-          </ul>
-          <LiveAnnouncer score={testLive?.score ?? score} />
-        </div>
-
-        {upcoming.length > 0 && (
-          <div className="next-up">
-            <h2 className="eyebrow">Next up</h2>
-            <ul className="up-cards">
-              {upcoming.map((g, i) => {
-                const d = formatGameDate(g.startUtc, timeZone)
-                const ch = headlineChannel(g)
-                return (
-                  <li key={g.id} className={g.id === game.id ? 'up-same' : undefined}>
-                    <a className={`up-card ${i === 0 ? 'first' : ''}`} href={routeHref({ page: 'game', id: g.id })}>
-                      <span className="up-date">
-                        {d.weekday} {d.monthDay}
-                      </span>
-                      <span className="up-matchup">
-                        {g.home ? 'vs' : '@'} {g.opponent}
-                      </span>
-                      <span className="up-meta">
-                        {g.timeTbd ? 'Time TBD' : formatGameTime(g, timeZone)}
-                        {ch && ` · ${ch.label}`}
-                      </span>
-                    </a>
-                  </li>
-                )
-              })}
-            </ul>
-          </div>
-        )}
-      </section>
-    )
-  }
-
+  const us = data.standings.teams[team.abbr]
+  const opener = !!us && us.wins + us.losses === 0 && game.type === 'regular'
+  const days = daysUntil(game, now, timeZone)
+  const upcoming = nextGames(data.schedule.games, 3)
   return (
-    <section className="hero-game" aria-labelledby="hero-game-heading">
-      <h2 id="hero-game-heading" className="eyebrow">
-        {eyebrow}
-      </h2>
-
-      <div className="matchup" aria-hidden="true">
-        {/* The team always on the left, as on the game page and in the live score. */}
-        <TeamBadge abbr={team.abbr} followed={team.abbr} />
-        <span className="matchup-at">{game.home ? 'vs' : 'at'}</span>
-        <TeamBadge abbr={game.opponent} followed={team.abbr} />
-      </div>
-
-      <div className="hero-game-body">
-        <p className="hero-date">
-          <span>
-            {weekday}, {monthDay}
-          </span>
-          <span className="hero-time">
-            <span className="hero-sep" aria-hidden="true">
-              {' · '}
+    <section className="cards-hero" aria-labelledby="hero-game-heading">
+      <div className="countdown">
+        <h2 id="hero-game-heading" className="eyebrow">
+          {live ? 'Live now' : score?.state === 'final' ? 'Final' : opener ? `${data.schedule.season} season tips off in` : 'Next game in'}
+          {game.type === 'playoffs' && ' · Playoffs'}
+        </h2>
+        <div className="countdown-row">
+          {/* Once the game is on, the live pill below takes over from the countdown. */}
+          {!showPill && (
+            <span className={`countdown-number ${days > 0 ? '' : 'word'}`}>
+              {days > 0 ? days : countdownLabel(game, now, timeZone)}
             </span>
-            {game.timeTbd ? 'Time TBD' : formatGameTime(game, timeZone)}
-            {!game.timeTbd && <span className="hero-tz"> {timeZoneAbbr(timeZone, new Date(game.startUtc))}</span>}
-          </span>
-        </p>
-        <p className="hero-opponent">
-          {game.home ? 'vs' : 'at'} {opp.city} {opp.name}
-          {game.neutralSite && <span className="hero-label"> · in {game.neutralSite}</span>}
-          {game.label && game.type === 'playoffs' && <span className="hero-label"> · {game.label}</span>}
-        </p>
+          )}
+          <div className="countdown-info">
+            {days > 0 && !showPill && <span className="countdown-unit">{days === 1 ? 'day' : 'days'}</span>}
+            <span>
+              {weekday}, {monthDay}
+            </span>
+            <a className="countdown-opp" href={routeHref({ page: 'game', id: game.id })}>
+              {game.home ? 'vs' : 'at'} {opp.city}
+              {game.neutralSite && ` · in ${game.neutralSite}`}
+            </a>
+            {game.label && game.type === 'playoffs' && <span>{game.label}</span>}
+            <span className="countdown-muted">
+              {game.timeTbd ? 'Time TBD' : `${formatGameTime(game, timeZone)} ${timeZoneAbbr(timeZone, new Date(game.startUtc))}`}
+              {channel && ` · ${channel.label}`}
+            </span>
+          </div>
+        </div>
         <ul className="hero-chips" aria-label="About this game">
           {testLive && <LivePill live={testLive} started href={routeHref({ page: 'game', id: 'live' })} />}
-          {showPill && watch ? (
+          {showPill && watch && (
             <LivePill live={watch} started={started} href={routeHref({ page: 'game', id: game.id })} />
-          ) : (
-            <li className="hero-chip soft">{started ? 'In progress' : countdownLabel(game, now, timeZone)}</li>
-          )}
-          {channel && (
-            <li className="hero-chip outline">
-              {live && 'Watch on '}
-              {channel.label}
-            </li>
           )}
           {injuryChips}
         </ul>
         <LiveAnnouncer score={testLive?.score ?? score} />
       </div>
+
+      {upcoming.length > 0 && (
+        <div className="next-up">
+          <h2 className="eyebrow">Next up</h2>
+          <ul className="up-cards">
+            {upcoming.map((g, i) => {
+              const d = formatGameDate(g.startUtc, timeZone)
+              const ch = headlineChannel(g)
+              return (
+                <li key={g.id} className={g.id === game.id ? 'up-same' : undefined}>
+                  <a className={`up-card ${i === 0 ? 'first' : ''}`} href={routeHref({ page: 'game', id: g.id })}>
+                    <span className="up-date">
+                      {d.weekday} {d.monthDay}
+                    </span>
+                    <span className="up-matchup">
+                      {g.home ? 'vs' : '@'} {g.opponent}
+                    </span>
+                    <span className="up-meta">
+                      {g.timeTbd ? 'Time TBD' : formatGameTime(g, timeZone)}
+                      {ch && ` · ${ch.label}`}
+                    </span>
+                  </a>
+                </li>
+              )
+            })}
+          </ul>
+        </div>
+      )}
     </section>
   )
 }
@@ -331,32 +264,6 @@ function InjuryChip(props: { abbr: string; followed: string; absence: Absence; p
         text
       )}
     </li>
-  )
-}
-
-/** A team circle in its colors with the team logo, or the abbreviation if the logo can't load. */
-/** A team circle in its colors: the abbreviation until the logo has loaded (or if it can't). */
-function TeamBadge({ abbr, followed }: { abbr: string; followed: string }) {
-  const c = badgeColors(abbr, followed)
-  const [logo, setLogo] = useState<'loading' | 'loaded' | 'failed'>('loading')
-  return (
-    <span
-      className={`team-badge ${c.outline ? 'outlined' : ''} logo-${logo}`}
-      style={{ '--chip-fill': c.fill, '--chip-ring': c.ring, '--chip-text': c.text } as CSSProperties}
-    >
-      {logo !== 'loaded' && <span className="badge-abbr">{abbr}</span>}
-      {logo !== 'failed' && (
-        <img
-          className="logo"
-          src={teamLogoUrl(abbr, true)}
-          width={72}
-          height={72}
-          alt=""
-          onLoad={() => setLogo('loaded')}
-          onError={() => setLogo('failed')}
-        />
-      )}
-    </span>
   )
 }
 

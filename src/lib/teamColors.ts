@@ -36,11 +36,8 @@ export const TEAM_COLORS: { [abbr: string]: [string, string] } = {
   WAS: ['#e31837', '#002b5c'],
 }
 
-/** Middle of the header's gradient, which most chips and circles sit on. */
-export const HEADER_BG = '#123069'
 const NAVY = '#0e2240'
 const GOLD = '#fec524'
-const FLATIRONS = '#8b2131'
 
 function luminance(hex: string): number {
   const [r, g, b] = [1, 3, 5].map((i) => {
@@ -87,31 +84,6 @@ export function matchupColors(left: string, right: string): [HalfColors, HalfCol
     { fill: l, text: readableOn(l) },
     { fill: r, text: readableOn(r) },
   ]
-}
-
-export interface BadgeColors {
-  fill: string
-  ring: string
-  text: string
-  /** Neither fill nor ring stands out from the header, so add a light outline. */
-  outline: boolean
-}
-
-const baseBadge = (abbr: string): [string, string] =>
-  abbr === 'DEN' ? [GOLD, FLATIRONS] : (TEAM_COLORS[abbr] ?? ['#5b6472', '#ffffff'])
-
-/**
- * Colors for a team's circle and chips: the primary color as the fill, the secondary as the
- * ring (Denver: gold with a Flatirons red ring). An opponent whose fill looks like the followed
- * team's (Golden State's gold next to Denver's) swaps its colors so the two can't be confused.
- */
-export function badgeColors(abbr: string, followed = 'DEN'): BadgeColors {
-  let [fill, ring] = baseBadge(abbr)
-  if (abbr !== followed && contrast(fill, baseBadge(followed)[0]) < 1.5) [fill, ring] = [ring, fill]
-  // The most readable of white, navy and black text on the fill.
-  const text = readableOn(fill)
-  const outline = contrast(fill, HEADER_BG) < 1.5 && contrast(ring, HEADER_BG) < 3
-  return { fill, ring, text, outline }
 }
 
 const mix = (a: string, b: string, t: number) =>

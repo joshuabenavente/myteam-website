@@ -11,7 +11,6 @@
   box-shadow: 0 10px 30px rgb(8 16 32 / 18%);
 }
 
-
 .header-inner {
   position: relative;
   z-index: 1;
@@ -148,64 +147,6 @@
   color: rgb(255 255 255 / 78%);
 }
 
-.hero-game {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) auto;
-  grid-template-areas:
-    'eyebrow matchup'
-    'body matchup';
-  align-items: center;
-  column-gap: 24px;
-  margin-top: 32px;
-}
-
-.hero-game .eyebrow {
-  grid-area: eyebrow;
-  align-self: end;
-  margin: 0;
-  font-size: 0.8125rem;
-  font-weight: 700;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-  color: var(--sunshine);
-}
-
-.hero-game-body {
-  grid-area: body;
-  align-self: start;
-}
-
-.hero-date {
-  margin: 10px 0 0;
-  font-family: var(--font-heading);
-  font-size: 3.75rem;
-  font-weight: 800;
-  line-height: 1.05;
-  letter-spacing: -0.01em;
-}
-
-.hero-date > span:first-child,
-.hero-time {
-  white-space: nowrap;
-}
-
-.hero-time {
-  color: var(--sunshine);
-}
-
-.hero-tz {
-  font-size: 0.4em;
-  font-weight: 700;
-  letter-spacing: 0.04em;
-  color: color-mix(in srgb, var(--sunshine) 80%, transparent);
-}
-
-.hero-opponent {
-  margin: 12px 0 0;
-  font-size: 1.5rem;
-  color: rgb(255 255 255 / 90%);
-}
-
 .hero-chips {
   display: flex;
   flex-wrap: wrap;
@@ -250,11 +191,6 @@
   height: 12px;
   border-radius: 50%;
   background: var(--chip-fill);
-}
-
-.hero-chip.outlined,
-.team-badge.outlined {
-  box-shadow: 0 0 0 2px rgb(255 255 255 / 45%);
 }
 
 button.hero-chip {
@@ -343,56 +279,6 @@ button.hero-chip:hover {
   }
 }
 
-.matchup {
-  grid-area: matchup;
-  display: flex;
-  align-items: center;
-  gap: 18px;
-}
-
-.matchup-at {
-  font-size: 1.5rem;
-  color: rgb(255 255 255 / 70%);
-}
-
-.team-badge {
-  box-sizing: border-box;
-  display: grid;
-  place-items: center;
-  width: 112px;
-  height: 112px;
-  border-radius: 50%;
-  border: 4px solid var(--chip-ring);
-  background: var(--chip-fill);
-  color: var(--chip-text);
-  font-family: var(--font-heading);
-  font-weight: 800;
-  font-size: 1.75rem;
-}
-
-.team-badge .logo {
-  width: 72px;
-  height: 72px;
-  filter: drop-shadow(0 2px 4px rgb(0 0 0 / 25%));
-}
-
-.team-badge .logo-fallback {
-  width: auto !important;
-  height: auto !important;
-  background: none;
-  color: inherit;
-  font: inherit;
-}
-
-.team-badge {
-  position: relative;
-}
-
-.team-badge.logo-loading .logo {
-  position: absolute;
-  opacity: 0;
-}
-
 .page-nav {
   position: absolute;
   left: 50%;
@@ -440,31 +326,6 @@ button.hero-chip:hover {
   outline-offset: 2px;
 }
 
-@media (max-width: 1100px) {
-  .hero-date {
-    font-size: 3.25rem;
-  }
-
-  .hero-time {
-    display: block;
-    margin-top: 4px;
-  }
-
-  .hero-sep {
-    display: none;
-  }
-
-  .team-badge {
-    width: 92px;
-    height: 92px;
-  }
-
-  .team-badge .logo {
-    width: 58px;
-    height: 58px;
-  }
-}
-
 @media (max-width: 760px) {
   .site-header {
     border-radius: 0 0 28px 28px;
@@ -472,7 +333,6 @@ button.hero-chip:hover {
       radial-gradient(200px circle at 85% 22%, color-mix(in srgb, var(--sunshine) 26%, transparent), transparent),
       linear-gradient(165deg, var(--midnight) 0%, color-mix(in srgb, var(--midnight) 45%, var(--skyline)) 58%, var(--skyline) 100%);
   }
-
 
   .header-inner,
   .site-header.full .header-inner {
@@ -506,32 +366,6 @@ button.hero-chip:hover {
     border-radius: 28px 28px 0 0;
   }
 
-  .hero-game {
-    grid-template-areas:
-      'eyebrow matchup'
-      'body body';
-    margin-top: 20px;
-    column-gap: 12px;
-  }
-
-  .hero-game .eyebrow {
-    align-self: center;
-  }
-
-  .hero-date {
-    margin-top: 12px;
-    font-size: 2.5rem;
-  }
-
-  .hero-time {
-    font-size: 1.75rem;
-  }
-
-  .hero-opponent {
-    margin-top: 8px;
-    font-size: 1.0625rem;
-  }
-
   .hero-chips {
     gap: 8px;
     margin-top: 16px;
@@ -546,26 +380,6 @@ button.hero-chip:hover {
 
   button.hero-chip::after {
     inset: -5px 0;
-  }
-
-  .matchup {
-    gap: 8px;
-  }
-
-  .matchup-at {
-    font-size: 0.9375rem;
-  }
-
-  .team-badge {
-    width: 56px;
-    height: 56px;
-    border-width: 3px;
-    font-size: 0.9375rem;
-  }
-
-  .team-badge .logo {
-    width: 36px;
-    height: 36px;
   }
 
   .page-nav {
@@ -911,7 +725,6 @@ main {
   background: var(--navy-gradient);
   font-size: 0.85rem;
 }
-
 
 .footer-inner {
   position: relative;
@@ -1897,12 +1710,6 @@ main {
   font-size: 0.85rem;
 }
 
-
-
-
-
-
-
 .log-date {
   white-space: nowrap;
   color: var(--muted);
@@ -2058,7 +1865,6 @@ main {
   .hero-strip .strip-extra {
     display: none;
   }
-
 
   .log-extra,
   .log-match .logo,
@@ -2302,8 +2108,6 @@ main {
 }
 
 /* --- review fixes --- */
-
-
 
 .player-side {
   grid-area: side;
@@ -3374,7 +3178,7 @@ a.mini-game:hover {
 
 }
 
-/* --- prototype: compact banner with game cards (?banner=cards) --- */
+/* --- The header's Games page banner: countdown plus next-up game cards --- */
 
 .site-header.cards .header-inner,
 .site-header.cards.full .header-inner {
