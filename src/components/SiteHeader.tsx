@@ -97,7 +97,8 @@ function NextGame({ data, timeZone, onShowGame }: { data: AppData; timeZone: str
   const showPill = !!score && score.state !== 'pre' ? true : started
   const live = score ? score.state === 'in' || score.state === 'delayed' : started
   const channel = headlineChannel(game)
-  const listed = data.availability?.teams ?? {}
+  // Once the game is on (or just finished) the score matters, not who's out; drop the injury chips.
+  const listed = showPill ? {} : (data.availability?.teams ?? {})
   const ours = listedFor(listed[TEAM.abbr], game)
   const theirs = listedFor(listed[game.opponent], game)
   const hidden = Math.max(0, ours.length - CHIPS_PER_TEAM) + Math.max(0, theirs.length - CHIPS_PER_TEAM)
