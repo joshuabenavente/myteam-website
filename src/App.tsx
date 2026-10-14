@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import { AppearancePanel } from './components/AppearancePanel.tsx'
+import { GamePage } from './components/GamePage.tsx'
 import { GamesCalendar } from './components/GamesCalendar.tsx'
 import { GamesList } from './components/GamesList.tsx'
 import { Icon } from './components/Icon.tsx'
@@ -109,6 +110,10 @@ function App() {
           )}
 
           {data && route.page === 'player' && <PlayerPage id={route.id} data={data} timeZone={timeZone} />}
+
+          {data && route.page === 'game' && (
+            <GamePage id={route.id} data={data} timeZone={timeZone} testTeam={liveTestTeam} />
+          )}
         </main>
 
         {data && (

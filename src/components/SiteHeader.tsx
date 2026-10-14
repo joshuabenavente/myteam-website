@@ -57,10 +57,16 @@ export function SiteHeader({ route, data, timeZone, onShowGame }: Props) {
         {roster && <RosterIntro data={data} />}
 
         <nav className="page-nav" aria-label="Pages">
-          <a href={routeHref({ page: 'games' })} aria-current={route.page === 'games' ? 'page' : undefined}>
+          <a
+            href={routeHref({ page: 'games' })}
+            aria-current={route.page === 'games' || route.page === 'game' ? 'page' : undefined}
+          >
             <Icon name="games" /> Games
           </a>
-          <a href={routeHref({ page: 'players' })} aria-current={route.page !== 'games' ? 'page' : undefined}>
+          <a
+            href={routeHref({ page: 'players' })}
+            aria-current={route.page === 'players' || route.page === 'player' ? 'page' : undefined}
+          >
             <Icon name="players" /> Players
           </a>
         </nav>
@@ -105,7 +111,6 @@ function NextGame({ data, timeZone, onShowGame }: { data: AppData; timeZone: str
   const eyebrow = [live ? 'Live now' : score?.state === 'final' ? 'Final' : 'Next game', game.type === 'playoffs' && 'Playoffs']
     .filter(Boolean)
     .join(' · ')
-  const [away, home] = game.home ? [game.opponent, TEAM.abbr] : [TEAM.abbr, game.opponent]
 
   return (
     <section className="hero-game" aria-labelledby="hero-game-heading">
@@ -114,9 +119,10 @@ function NextGame({ data, timeZone, onShowGame }: { data: AppData; timeZone: str
       </h2>
 
       <div className="matchup" aria-hidden="true">
-        <TeamBadge abbr={away} />
-        <span className="matchup-at">at</span>
-        <TeamBadge abbr={home} />
+        {/* Denver always on the left, as on the game page and in the live score. */}
+        <TeamBadge abbr={TEAM.abbr} />
+        <span className="matchup-at">{game.home ? 'vs' : 'at'}</span>
+        <TeamBadge abbr={game.opponent} />
       </div>
 
       <div className="hero-game-body">
@@ -137,9 +143,9 @@ function NextGame({ data, timeZone, onShowGame }: { data: AppData; timeZone: str
           {game.label && game.type === 'playoffs' && <span className="hero-label"> · {game.label}</span>}
         </p>
         <ul className="hero-chips" aria-label="About this game">
-          {testLive && <LivePill live={testLive} started />}
+          {testLive && <LivePill live={testLive} started href={routeHref({ page: 'game', id: 'live' })} />}
           {showPill && watch ? (
-            <LivePill live={watch} started={started} />
+            <LivePill live={watch} started={started} href={routeHref({ page: 'game', id: game.id })} />
           ) : (
             <li className="hero-chip soft">{started ? 'In progress' : countdownLabel(game, now, timeZone)}</li>
           )}

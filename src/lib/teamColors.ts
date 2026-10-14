@@ -57,6 +57,39 @@ export function contrast(a: string, b: string): number {
   return (x + 0.05) / (y + 0.05)
 }
 
+const rgb = (hex: string) => [1, 3, 5].map((i) => parseInt(hex.slice(i, i + 2), 16))
+
+/** Straight-line distance between two colors in RGB; under SIMILAR they read as the same color. */
+export function distance(a: string, b: string): number {
+  const [x, y] = [rgb(a), rgb(b)]
+  return Math.hypot(x[0] - y[0], x[1] - y[1], x[2] - y[2])
+}
+const SIMILAR = 80
+
+const readableOn = (fill: string) =>
+  ['#ffffff', NAVY, '#000000'].reduce((best, c) => (contrast(c, fill) > contrast(best, fill) ? c : best))
+
+export interface HalfColors {
+  fill: string
+  text: string
+}
+
+/**
+ * Background colors for the game page's two halves, `left` team first. Each team uses its primary
+ * color; if the two are too alike (Denver's navy against Indiana's navy or Brooklyn's black), the right-hand team switches
+ * to its secondary color, like a road team wearing its alternate jersey.
+ */
+export function matchupColors(left: string, right: string): [HalfColors, HalfColors] {
+  const fallback: [string, string] = ['#5b6472', '#ffffff']
+  const [l] = TEAM_COLORS[left] ?? fallback
+  const [rPrimary, rSecondary] = TEAM_COLORS[right] ?? fallback
+  const r = distance(l, rPrimary) < SIMILAR && distance(l, rSecondary) > distance(l, rPrimary) ? rSecondary : rPrimary
+  return [
+    { fill: l, text: readableOn(l) },
+    { fill: r, text: readableOn(r) },
+  ]
+}
+
 export interface BadgeColors {
   fill: string
   ring: string
@@ -75,7 +108,7 @@ export function badgeColors(abbr: string): BadgeColors {
     abbr === TEAM.abbr ? [GOLD, FLATIRONS] : (TEAM_COLORS[abbr] ?? ['#5b6472', '#ffffff'])
   if (abbr !== TEAM.abbr && contrast(fill, GOLD) < 1.5) [fill, ring] = [ring, fill]
   // The most readable of white, navy and black text on the fill.
-  const text = ['#ffffff', NAVY, '#000000'].reduce((best, c) => (contrast(c, fill) > contrast(best, fill) ? c : best))
+  const text = readableOn(fill)
   const outline = contrast(fill, HEADER_BG) < 1.5 && contrast(ring, HEADER_BG) < 3
   return { fill, ring, text, outline }
 }

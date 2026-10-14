@@ -1,5 +1,5 @@
 import { expect, it } from 'vitest'
-import { badgeColors, contrast, HEADER_BG, TEAM_COLORS } from './teamColors'
+import { badgeColors, contrast, HEADER_BG, matchupColors, TEAM_COLORS } from './teamColors'
 import { TEAMS } from './teams'
 
 it('has colors for every team', () => {
@@ -22,4 +22,29 @@ it('gives Denver gold and keeps other teams from looking like it', () => {
   for (const t of TEAMS.filter((x) => x.abbr !== 'DEN')) {
     expect(contrast(badgeColors(t.abbr).fill, '#fec524'), t.abbr).toBeGreaterThanOrEqual(1.5)
   }
+})
+
+it('keeps the two halves of the game page apart', () => {
+  // Denver navy against OKC blue: both primaries.
+  expect(matchupColors('DEN', 'OKC').map((h) => h.fill)).toEqual(['#0e2240', '#007ac1'])
+  // Indiana's navy is Denver's navy; Indiana switches to gold.
+  expect(matchupColors('DEN', 'IND').map((h) => h.fill)).toEqual(['#0e2240', '#ffd520'])
+  expect(matchupColors('DEN', 'IND')[1].text).not.toBe('#ffffff')
+  for (const t of TEAMS.filter((x) => x.abbr !== 'DEN')) {
+    const [l, r] = matchupColors('DEN', t.abbr)
+    expect(contrast(l.text, l.fill)).toBeGreaterThanOrEqual(4.5)
+    expect(contrast(r.text, r.fill), t.abbr).toBeGreaterThanOrEqual(4.5)
+  }
+})
+
+it('swaps only when the colors really look alike', () => {
+  const right = (abbr: string) => matchupColors('DEN', abbr)[1].fill
+  // Navy and black blend with Denver's navy...
+  expect(right('NOP')).toBe('#b4975a')
+  expect(right('BKN')).toBe('#ffffff')
+  expect(right('SAS')).toBe('#c4ced4')
+  // ...purple, wine and royal blue don't.
+  expect(right('LAL')).toBe('#552583')
+  expect(right('CLE')).toBe('#860038')
+  expect(right('NYK')).toBe('#1d428a')
 })

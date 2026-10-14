@@ -1,21 +1,28 @@
-import { useState } from 'react'
+import { useState, type ReactNode } from 'react'
 import { resultFor, scoreLine, spokenScore, staleMinutes, type LiveScore, type LiveStatus } from '../lib/live.ts'
 
 interface Props {
   live: LiveStatus
+  /** The game page, linked from the pill. */
+  href?: string
   /** Show a bare "Live" pill when there's no score (ESPN unreachable) but the game has started. */
   started: boolean
 }
 
 /** The header's live chip: "● LIVE · DEN 84–82 OKC · Q3 2:36", then "Final · W 112–104". */
-export function LivePill({ live, started }: Props) {
+export function LivePill({ live, started, href }: Props) {
   const s = live.score
-  if (s?.state === 'final') {
-    return (
-      <li className="hero-chip outline">
-        {s.detail} · {resultFor(s, live.team) ?? scoreLine(s)}
-      </li>
+  const link = (content: ReactNode) =>
+    href ? (
+      <a className="hero-chip-link" href={href}>
+        {content}
+        <span className="sr-only"> (open the game page)</span>
+      </a>
+    ) : (
+      content
     )
+  if (s?.state === 'final') {
+    return <li className="hero-chip outline">{link(<>{s.detail} · {resultFor(s, live.team) ?? scoreLine(s, live.team)}</>)}</li>
   }
   if (s?.state === 'postponed') return <li className="hero-chip outline">Postponed</li>
   if (s?.state === 'delayed') return <li className="hero-chip live-pill delayed">Delayed</li>
@@ -23,19 +30,27 @@ export function LivePill({ live, started }: Props) {
     const stale = staleMinutes(live)
     return (
       <li className={`hero-chip live-pill ${stale ? 'stale' : ''}`}>
-        <span className="live-dot" aria-hidden="true" />
-        <span>
-          Live · {scoreLine(s)} · {s.detail}
-          {stale !== undefined && <span className="live-stale"> · updated {stale} min ago</span>}
-        </span>
+        {link(
+          <>
+            <span className="live-dot" aria-hidden="true" />
+            <span>
+              Live · {scoreLine(s, live.team)} · {s.detail}
+              {stale !== undefined && <span className="live-stale"> · updated {stale} min ago</span>}
+            </span>
+          </>,
+        )}
       </li>
     )
   }
   if (!started) return null
   return (
     <li className="hero-chip live-pill">
-      <span className="live-dot" aria-hidden="true" />
-      Live
+      {link(
+        <>
+          <span className="live-dot" aria-hidden="true" />
+          Live
+        </>,
+      )}
     </li>
   )
 }

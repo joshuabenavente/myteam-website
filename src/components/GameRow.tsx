@@ -13,6 +13,7 @@ import {
   seriesSummary,
 } from '../lib/format.ts'
 import { liveFor, useLive } from '../lib/live.ts'
+import { routeHref } from '../lib/route.ts'
 import { TEAMS_BY_ABBR } from '../lib/teams.ts'
 import type { AvailabilityFile, Game, HeadToHeadFile, StandingsFile, TeamInfo } from '../lib/types.ts'
 import { Icon } from './Icon.tsx'
@@ -123,10 +124,24 @@ export function GameDetails({ game, data }: { game: Game; data: AppData }) {
           <p className="preview-credit muted small">Written by Claude from the stats on this page.</p>
         </div>
       )}
+      <GamePageLink game={game} />
       <StandingsTable abbrs={[TEAM.abbr, game.opponent]} standings={data.standings.teams} />
       <SeasonSeries opponent={game.opponent} h2h={data.h2h} />
       {isNext && data.availability && <InjuryReport game={game} availability={data.availability} />}
     </>
+  )
+}
+
+/** Link to the game page once the game has started (live) or finished (box score). */
+function GamePageLink({ game }: { game: Game }) {
+  const live = liveFor(useLive(), game.id)
+  const on = game.status === 'live' || live?.state === 'in' || live?.state === 'delayed'
+  const over = game.status === 'final' || live?.state === 'final'
+  if (!on && !over) return null
+  return (
+    <a className="game-page-link" href={routeHref({ page: 'game', id: game.id })}>
+      {on ? 'Live game page' : 'Box score & play-by-play'} <span aria-hidden="true">→</span>
+    </a>
   )
 }
 

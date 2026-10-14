@@ -1,6 +1,9 @@
 // ESPN team roster (site.api.espn.com/.../teams/<team>/roster): jersey numbers, photos and bio.
 
+import { nameKey } from '../../src/lib/names.ts'
 import type { PlayerBio } from '../../src/lib/types.ts'
+
+export { nameKey }
 
 interface EspnAthlete {
   fullName: string
@@ -22,18 +25,6 @@ export interface EspnPlayerInfo {
   number?: string
   headshot?: string
   bio: PlayerBio
-}
-
-/** Match names across sources: no accents, punctuation or suffixes like Jr./II. */
-export function nameKey(name: string): string {
-  return name
-    .normalize('NFD')
-    .replace(/[̀-ͯ]/g, '')
-    .toLowerCase()
-    .replace(/[.'’]/g, '')
-    .replace(/\s+(jr|sr|ii|iii|iv|v)$/, '')
-    .replace(/[^a-z]+/g, ' ')
-    .trim()
 }
 
 /** ESPN roster details keyed by nameKey. */

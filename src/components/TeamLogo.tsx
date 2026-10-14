@@ -4,8 +4,11 @@ import { teamLogoUrl } from '../lib/teams.ts'
 interface Props {
   abbr: string
   size?: number
-  /** "auto" follows the color scheme; "dark" is for elements that are always dark (the player hero). */
-  background?: 'auto' | 'dark'
+  /**
+   * "auto" follows the color scheme; "dark" and "light" are for backgrounds that don't change with
+   * it (the player hero, the game page's team colors).
+   */
+  background?: 'auto' | 'dark' | 'light'
 }
 
 /** Team logo, falling back to the abbreviation if the image can't load. */
@@ -29,7 +32,7 @@ export function TeamLogo({ abbr, size = 28, background = 'auto' }: Props) {
       onError={() => setFailed(true)}
     />
   )
-  if (background === 'dark') return img
+  if (background !== 'auto') return img
   // Dark-colored logos (e.g. New Orleans) disappear on the dark theme without the dark variant.
   return (
     <picture>
