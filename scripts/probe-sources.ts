@@ -4,8 +4,11 @@
 //   node scripts/probe-sources.ts [report-path]
 
 import { appendFileSync, writeFileSync } from 'node:fs'
-import { LOCAL_BROADCAST, TEAM } from '../src/lib/config.ts'
 import { gameTypeFromNbaId, previousSeason, seasonForDate } from '../src/lib/season.ts'
+
+// The phase 1 probe checked the sources against Denver.
+const TEAM = { abbr: 'DEN', nbaTeamId: 1610612743, espnSlug: 'den', bbrefAbbr: 'DEN' }
+const LOCAL_BROADCAST = 'Altitude'
 
 const USER_AGENT =
   'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36'

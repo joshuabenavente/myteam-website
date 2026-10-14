@@ -30,7 +30,7 @@ function teamFacts(t: TeamInfo | undefined, season: string) {
   }
 }
 
-/** The most recent finished game between the two teams, described from Denver's side. */
+/** The most recent finished game between the two teams, described from the followed team's side. */
 function lastMeeting(results: FinalGame[], team: string, opp: string) {
   const g = results
     .filter((r) => (r.home === team && r.away === opp) || (r.home === opp && r.away === team))
@@ -40,7 +40,8 @@ function lastMeeting(results: FinalGame[], team: string, opp: string) {
   const theirs = g.home === team ? g.awayScore : g.homeScore
   return {
     // Local (Mountain) date: evening games are already the next day in UTC.
-    date: dayKey(g.startUtc, 'America/Denver'),
+    // Pacific date: no NBA game starts late enough to be the next day there.
+    date: dayKey(g.startUtc, 'America/Los_Angeles'),
     where: g.home === team ? `in ${TEAMS_BY_ABBR[team].city}` : `in ${TEAMS_BY_ABBR[opp].city}`,
     type: g.type === 'playoffs' ? 'playoffs' : 'regular season',
     result: `${TEAMS_BY_ABBR[team].name} ${ours > theirs ? 'won' : 'lost'} ${Math.max(ours, theirs)}-${Math.min(ours, theirs)}`,
@@ -63,18 +64,18 @@ function absenceFacts(list: Absence[], players?: Player[]) {
   })
 }
 
-/** "Denver leads 2-1", "tied 1-1" or "no games yet". */
-function currentSeries(r: WinLoss) {
+/** "Nuggets lead 2-1", "tied 1-1" or "no games yet". */
+function currentSeries(r: WinLoss, nick: string) {
   if (r.wins + r.losses === 0) return 'no games yet'
   if (r.wins === r.losses) return `tied ${rec(r)}`
-  return `Denver ${r.wins > r.losses ? 'leads' : 'trails'} ${rec(r)}`
+  return `${nick} ${r.wins > r.losses ? 'lead' : 'trail'} ${rec(r)}`
 }
 
-/** "Denver won 3-0", "split 2-2" or "did not play". */
-function finishedSeries(r: WinLoss) {
+/** "Nuggets won 3-0", "split 2-2" or "did not play". */
+function finishedSeries(r: WinLoss, nick: string) {
   if (r.wins + r.losses === 0) return 'did not play'
   if (r.wins === r.losses) return `split ${rec(r)}`
-  return `Denver ${r.wins > r.losses ? 'won' : 'lost'} ${rec(r)}`
+  return `${nick} ${r.wins > r.losses ? 'won' : 'lost'} ${rec(r)}`
 }
 
 export interface PreviewInputs {
@@ -83,11 +84,11 @@ export interface PreviewInputs {
   season: string
   lastSeason: string
   game: Game
-  /** Denver games before this one that haven't been played yet. */
+  /** The team's games before this one that haven't been played yet. */
   earlierUnplayed: Game[]
   /** The opponent's games before this one that haven't been played yet. */
   opponentEarlierUnplayed: unknown[]
-  /** 1-based number of this game in Denver's season (by type). */
+  /** 1-based number of this game in the team's season (by type). */
   gameNumber: number
   standings: { [abbr: string]: TeamInfo }
   h2h?: { current: HeadToHead; last: HeadToHead }
@@ -95,28 +96,30 @@ export interface PreviewInputs {
   results: FinalGame[]
   absences: { [abbr: string]: Absence[] }
   players?: Player[]
-  /** Denver's chance of winning (0-100) from ESPN's matchup predictor. */
+  /** The team's chance of winning (0-100) from ESPN's matchup predictor. */
   winProbability?: number
 }
 
 export function buildFacts(i: PreviewInputs) {
   const { team, game } = i
   const opp = game.opponent
+  const nick = TEAMS_BY_ABBR[team].name
   const played = (r: WinLoss) => r.wins + r.losses > 0
   return {
     season: i.season,
     game: {
       matchup: `${fullName(team)} ${game.home ? 'vs' : 'at'} ${fullName(opp)}`,
-      denverIs: game.neutralSite ? `designated ${game.home ? 'home' : 'road'} team` : game.home ? 'home' : 'away',
+      followedTeam: fullName(team),
+      followedTeamIs: game.neutralSite ? `designated ${game.home ? 'home' : 'road'} team` : game.home ? 'home' : 'away',
       type: game.type === 'playoffs' ? 'playoffs' : 'regular season',
-      denverGameNumber: `${ordinal(i.gameNumber)} ${game.type === 'playoffs' ? 'playoff ' : ''}game of the season for Denver`,
+      followedTeamGameNumber: `${ordinal(i.gameNumber)} ${game.type === 'playoffs' ? 'playoff ' : ''}game of the season for the ${nick}`,
       ...(game.label && { note: game.label }),
       ...(game.neutralSite && { site: `neutral site, in ${game.neutralSite}` }),
       // Counts, not lists: they only exist to stop "season opener" claims, not to be recited.
-      ...(i.earlierUnplayed.length > 0 && { denverGamesStillToPlayBeforeThisOne: i.earlierUnplayed.length }),
+      ...(i.earlierUnplayed.length > 0 && { followedTeamGamesStillToPlayBeforeThisOne: i.earlierUnplayed.length }),
     },
     recordsAreAsOfToday: true,
-    denver: teamFacts(i.standings[team], i.season),
+    followedTeam: teamFacts(i.standings[team], i.season),
     opponent: {
       name: fullName(opp),
       ...teamFacts(i.standings[opp], i.season),
@@ -124,27 +127,27 @@ export function buildFacts(i: PreviewInputs) {
     },
     ...(i.h2h && {
       seasonSeries: {
-        [`${i.season} so far`]: currentSeries(i.h2h.current.regular),
-        ...(played(i.h2h.current.playoffs) && { [`${i.season} playoffs`]: currentSeries(i.h2h.current.playoffs) }),
-        [i.lastSeason]: finishedSeries(i.h2h.last.regular),
-        ...(played(i.h2h.last.playoffs) && { [`${i.lastSeason} playoffs`]: finishedSeries(i.h2h.last.playoffs) }),
+        [`${i.season} so far`]: currentSeries(i.h2h.current.regular, nick),
+        ...(played(i.h2h.current.playoffs) && { [`${i.season} playoffs`]: currentSeries(i.h2h.current.playoffs, nick) }),
+        [i.lastSeason]: finishedSeries(i.h2h.last.regular, nick),
+        ...(played(i.h2h.last.playoffs) && { [`${i.lastSeason} playoffs`]: finishedSeries(i.h2h.last.playoffs, nick) }),
       },
     }),
     ...(lastMeeting(i.results, team, opp) && { lastMeeting: lastMeeting(i.results, team, opp) }),
     notAvailable: {
-      denver: absenceFacts(absencesForGame(i.absences[team], game), i.players),
+      followedTeam: absenceFacts(absencesForGame(i.absences[team], game), i.players),
       opponent: absenceFacts(absencesForGame(i.absences[opp], game)),
     },
     // Rounded so small model updates don't trigger a rewrite.
     ...(i.winProbability !== undefined && {
-      espnMatchupPredictorDenverWinChance: `${Math.round(i.winProbability / 5) * 5}%`,
+      espnMatchupPredictorFollowedTeamWinChance: `${Math.round(i.winProbability / 5) * 5}%`,
     }),
   }
 }
 
 export const hashFacts = (facts: unknown) => createHash('sha256').update(JSON.stringify(facts)).digest('hex').slice(0, 16)
 
-const SYSTEM = `You write short previews of upcoming Denver Nuggets games for a fan's personal schedule app.
+const SYSTEM = `You write short previews of upcoming NBA games for a fan site. Each preview is for fans of the followed team named in the facts; write from a neutral, informed point of view that keeps that team in focus.
 
 Write exactly three sentences of plain prose: no markdown, headings, lists or emojis. Cover what to expect: how the teams are playing and the matchup history, picking whatever is most notable. If either team has players listed as not available, always name them.
 

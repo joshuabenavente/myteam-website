@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { channelsFor } from '../lib/channels.ts'
 import { groupByMonth } from '../lib/format.ts'
 import type { AppData } from '../lib/data.ts'
+import { possessive, useTeam } from '../lib/team.ts'
 import { unscheduledGames } from '../lib/availability.ts'
 import { GameRow } from './GameRow.tsx'
 
@@ -18,6 +19,7 @@ export function TbdNote({ count }: { count: number }) {
 
 /** Explains the channel names and the local/national styling. */
 function ChannelGuide({ data }: { data: AppData }) {
+  const team = useTeam()
   const explained = { local: new Map<string, string>(), national: new Map<string, string>() }
   for (const g of data.schedule.games) {
     for (const c of channelsFor(g.broadcasts)) if (c.explain) explained[c.scope].set(c.label, c.explain)
@@ -36,7 +38,7 @@ function ChannelGuide({ data }: { data: AppData }) {
     <details className="channel-guide">
       <summary>What do the channels mean?</summary>
       <p>
-        <span className="chip local">Gold</span> channels are Denver's local broadcasts;{' '}
+        <span className="chip local">Filled</span> channels are the {possessive(team.name)} local broadcasts;{' '}
         <span className="chip national">outlined</span> ones are national and available everywhere.
       </p>
       <h3>Local</h3>

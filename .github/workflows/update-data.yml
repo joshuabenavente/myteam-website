@@ -2,14 +2,15 @@ name: Update data
 
 on:
   schedule:
-    - cron: '17 * * * *' # schedule, standings, head-to-head, injuries, previews
-    - cron: '43 10 * * *' # also player stats (4:43am Mountain, after the night's games)
+    # Every team's schedule, standings, head-to-head, injuries and previews, plus player stats
+    # for the 5 teams refreshed longest ago (each team comes round about every 6 hours).
+    - cron: '17 * * * *'
   workflow_dispatch:
     inputs:
-      players:
-        description: Refresh player stats from basketball-reference
+      all_players:
+        description: Refresh player stats for every team (about 45 minutes in season)
         type: boolean
-        default: true
+        default: false
 
 permissions:
   contents: write
@@ -33,11 +34,10 @@ jobs:
         id: ingest
         continue-on-error: true
         env:
-          # inputs.players falls back to its default (true) on scheduled runs, so only read it for manual runs.
-          PLAYERS: ${{ github.event.schedule == '43 10 * * *' || (github.event_name == 'workflow_dispatch' && inputs.players) }}
+          ALL_PLAYERS: ${{ github.event_name == 'workflow_dispatch' && inputs.all_players }}
           # Optional: previews are skipped when the secret isn't set.
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-        run: node scripts/ingest.ts ${{ env.PLAYERS == 'true' && '--players' || '' }}
+        run: node scripts/ingest.ts --players ${{ env.ALL_PLAYERS == 'true' && 'all' || '' }}
 
       - name: Commit changes
         run: |

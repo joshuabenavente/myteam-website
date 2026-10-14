@@ -1,6 +1,9 @@
 :root {
   --midnight: #0e2240;
   --sunshine: #fec524;
+  /* Text on a --sunshine fill. --midnight, --skyline, --sunshine and --accent-text are the team
+     theme: Denver's here, set per team at runtime (src/lib/team.ts). */
+  --accent-text: #0e2240;
   --flatirons: #8b2131;
   --skyline: #1d428a;
 
@@ -28,7 +31,7 @@
   --selected-text: #fff;
   --table-head-bg: #eef1f6;
   /* The navy header, also used by the player card, the radar card and the footer. */
-  --navy-gradient: linear-gradient(120deg, var(--midnight) 0%, #123069 58%, var(--skyline) 100%);
+  --navy-gradient: linear-gradient(120deg, var(--midnight) 0%, color-mix(in srgb, var(--midnight) 45%, var(--skyline)) 58%, var(--skyline) 100%);
 
   /* Bundled from @fontsource-variable/atkinson-hyperlegible-next (imported in main.tsx). */
   --font-body: 'Atkinson Hyperlegible Next Variable', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
@@ -58,7 +61,7 @@
     --win: #4ac26b;
     --loss: #ff7b8a;
     --chip-local-bg: var(--sunshine);
-    --chip-local-text: var(--midnight);
+    --chip-local-text: var(--accent-text);
     --cal-home-bg: var(--skyline);
     --status-out-bg: #4a1d26;
     --status-out-text: #ffb3bf;
@@ -67,7 +70,7 @@
     --status-p-bg: #173d24;
     --status-p-text: #9be3b2;
     --selected-bg: var(--sunshine);
-    --selected-text: var(--midnight);
+    --selected-text: var(--accent-text);
     --table-head-bg: #172440;
   }
 }

@@ -1,7 +1,6 @@
 import { useEffect, useRef, useState } from 'react'
 import { absencesForGame, availabilityLabel, isGameTimeDecision, nextGames } from '../lib/availability.ts'
 import { channelsFor } from '../lib/channels.ts'
-import { TEAM } from '../lib/config.ts'
 import type { AppData } from '../lib/data.ts'
 import {
   finishedSeriesSummary,
@@ -14,6 +13,7 @@ import {
 } from '../lib/format.ts'
 import { liveFor, useLive } from '../lib/live.ts'
 import { routeHref } from '../lib/route.ts'
+import { useTeam } from '../lib/team.ts'
 import { TEAMS_BY_ABBR } from '../lib/teams.ts'
 import type { AvailabilityFile, Game, HeadToHeadFile, StandingsFile, TeamInfo } from '../lib/types.ts'
 import { Icon } from './Icon.tsx'
@@ -104,6 +104,7 @@ export function Broadcasts({ game }: { game: Game }) {
 
 /** Label, preview, standings, season series and (for the next few games) who's out. */
 export function GameDetails({ game, data }: { game: Game; data: AppData }) {
+  const team = useTeam()
   const isNext = nextGames(data.schedule.games).some((g) => g.id === game.id)
   const preview = isNext ? data.previews?.games[game.id] : undefined
   return (
@@ -119,7 +120,7 @@ export function GameDetails({ game, data }: { game: Game; data: AppData }) {
         </div>
       )}
       <GamePageLink game={game} />
-      <StandingsTable abbrs={[TEAM.abbr, game.opponent]} standings={data.standings.teams} />
+      <StandingsTable abbrs={[team.abbr, game.opponent]} standings={data.standings.teams} />
       <SeasonSeries opponent={game.opponent} h2h={data.h2h} />
       {isNext && data.availability && <InjuryReport game={game} availability={data.availability} />}
     </>
@@ -140,6 +141,7 @@ function GamePageLink({ game }: { game: Game }) {
 }
 
 function InjuryReport({ game, availability }: { game: Game; availability: AvailabilityFile }) {
+  const team = useTeam()
   const updated = new Date(availability.updatedAt).toLocaleString('en-US', {
     month: 'short',
     day: 'numeric',
@@ -153,7 +155,7 @@ function InjuryReport({ game, availability }: { game: Game; availability: Availa
         <Icon name="injury" size={14} /> Injury report <span className="muted small">· updated {updated}</span>
       </h3>
       <div className="na-teams">
-        {[TEAM.abbr, game.opponent].map((abbr) => {
+        {[team.abbr, game.opponent].map((abbr) => {
           const list = absencesForGame(availability.teams[abbr], game)
           return (
             <div key={abbr} className="na-team">
@@ -219,6 +221,7 @@ export function GameStatus({ game, timeZone }: { game: Game; timeZone: string })
 }
 
 function StandingsTable({ abbrs, standings }: { abbrs: string[]; standings: StandingsFile['teams'] }) {
+  const team = useTeam()
   const rows = abbrs.map((a) => standings[a]).filter((s): s is TeamInfo => !!s)
   // Ranks mean nothing until games have been played.
   const started = Object.values(standings).some((s) => s.wins + s.losses > 0)
@@ -244,7 +247,7 @@ function StandingsTable({ abbrs, standings }: { abbrs: string[]; standings: Stan
       </thead>
       <tbody>
         {rows.map((s) => (
-          <tr key={s.abbr} className={s.abbr === TEAM.abbr ? 'us' : ''}>
+          <tr key={s.abbr} className={s.abbr === team.abbr ? 'us' : ''}>
             <th scope="row">
               <span className="team-cell">
                 <TeamLogo abbr={s.abbr} size={20} /> {s.abbr}

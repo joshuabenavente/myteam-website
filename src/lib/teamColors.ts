@@ -1,7 +1,6 @@
 // Team colors for the header's matchup circles and injury chips, and the rules that keep
 // them readable on the navy header.
 
-import { TEAM } from './config.ts'
 
 /** [primary, secondary] from ESPN's team list (`color` and `alternateColor`). */
 export const TEAM_COLORS: { [abbr: string]: [string, string] } = {
@@ -98,17 +97,70 @@ export interface BadgeColors {
   outline: boolean
 }
 
+const baseBadge = (abbr: string): [string, string] =>
+  abbr === 'DEN' ? [GOLD, FLATIRONS] : (TEAM_COLORS[abbr] ?? ['#5b6472', '#ffffff'])
+
 /**
  * Colors for a team's circle and chips: the primary color as the fill, the secondary as the
- * ring. Denver uses gold with a Flatirons red ring; a team whose primary is also gold (Golden
- * State) swaps its colors so it can't be mistaken for Denver.
+ * ring (Denver: gold with a Flatirons red ring). An opponent whose fill looks like the followed
+ * team's (Golden State's gold next to Denver's) swaps its colors so the two can't be confused.
  */
-export function badgeColors(abbr: string): BadgeColors {
-  let [fill, ring] =
-    abbr === TEAM.abbr ? [GOLD, FLATIRONS] : (TEAM_COLORS[abbr] ?? ['#5b6472', '#ffffff'])
-  if (abbr !== TEAM.abbr && contrast(fill, GOLD) < 1.5) [fill, ring] = [ring, fill]
+export function badgeColors(abbr: string, followed = 'DEN'): BadgeColors {
+  let [fill, ring] = baseBadge(abbr)
+  if (abbr !== followed && contrast(fill, baseBadge(followed)[0]) < 1.5) [fill, ring] = [ring, fill]
   // The most readable of white, navy and black text on the fill.
   const text = readableOn(fill)
   const outline = contrast(fill, HEADER_BG) < 1.5 && contrast(ring, HEADER_BG) < 3
   return { fill, ring, text, outline }
+}
+
+const mix = (a: string, b: string, t: number) =>
+  '#' +
+  rgb(a)
+    .map((v, i) => Math.round(v + (rgb(b)[i] - v) * t).toString(16).padStart(2, '0'))
+    .join('')
+
+/** The site's colors for a followed team: header dark and mid tones, and an accent. */
+export interface TeamTheme {
+  /** The header's dark end; white text on it. */
+  dark: string
+  /** The header's lighter end and links on white; white text on it. */
+  mid: string
+  /** Eyebrows, the next game's time, selected pills; on `dark`. */
+  accent: string
+  /** Text on an accent fill. */
+  accentText: string
+}
+
+const DENVER: TeamTheme = { dark: NAVY, mid: '#1d428a', accent: GOLD, accentText: NAVY }
+/** For pages without a team (the team picker). */
+export const NEUTRAL_THEME: TeamTheme = { dark: '#0f172a', mid: '#334155', accent: '#facc15', accentText: '#0f172a' }
+
+/**
+ * A team's site colors from its two team colors. The header uses the darker one (made dark
+ * enough for white text), except that a red-and-black team leads with its red; the other color
+ * is the accent, readable on the header's dark end (white when that other color is black).
+ */
+export function teamTheme(abbr: string): TeamTheme {
+  if (abbr === 'DEN') return DENVER
+  const colors = TEAM_COLORS[abbr]
+  if (!colors) return NEUTRAL_THEME
+  // Black or charcoal: very dark and without color (dark navy and purple don't count).
+  const nearBlack = (c: string) => luminance(c) < 0.02 && Math.max(...rgb(c)) - Math.min(...rgb(c)) < 24
+  const [darker, lighter] = luminance(colors[0]) <= luminance(colors[1]) ? colors : [colors[1], colors[0]]
+  const [base, other] =
+    nearBlack(darker) && contrast('#ffffff', lighter) >= 3 ? [lighter, darker] : [darker, lighter]
+  let mid = base
+  // Pure black reads as a hole rather than a team color; lift it to a charcoal.
+  if (nearBlack(mid)) mid = mix(mid, '#ffffff', 0.18)
+  for (let i = 0; contrast('#ffffff', mid) < 4.5 && i < 20; i++) mid = mix(mid, '#000000', 0.1)
+  let accent = nearBlack(other) ? '#ffffff' : other
+  // Darken the header's dark end a little before resorting to a lighter accent.
+  let dark = mix(mid, '#000000', 0.45)
+  for (const k of [0.55, 0.65]) {
+    if (contrast(accent, dark) >= 4.5) break
+    dark = mix(mid, '#000000', k)
+  }
+  for (let i = 0; contrast(accent, dark) < 4.5 && i < 20; i++) accent = mix(accent, '#ffffff', 0.08)
+  return { dark, mid, accent, accentText: readableOn(accent) }
 }

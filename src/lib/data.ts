@@ -33,34 +33,55 @@ async function load<T>(name: string): Promise<T> {
 /** Like load, but a missing or broken optional file just leaves that feature out. */
 const loadOptional = <T,>(name: string) => load<T>(name).catch(() => undefined)
 
-export function useAppData(): { data?: AppData; error?: string } {
-  const [state, setState] = useState<{ data?: AppData; error?: string }>({})
+const teamFile = (abbr: string, name: string) => `teams/${abbr.toLowerCase()}/${name}`
+
+/** Until a team's player stats have been fetched (teams take turns), show an empty roster. */
+const noPlayers = (season: string): PlayersFile => ({
+  season,
+  lastSeason: '',
+  teamGamesPlayed: { regular: 0, playoffs: 0 },
+  players: [],
+})
+
+/** Shared files (standings, injuries) plus the team's own; reloads when the team changes. */
+export function useAppData(abbr: string | undefined): { data?: AppData; error?: string } {
+  const [state, setState] = useState<{ abbr?: string; data?: AppData; error?: string }>({})
   useEffect(() => {
+    if (!abbr) return
+    let stale = false
     Promise.all([
-      load<ScheduleFile>('schedule'),
+      load<ScheduleFile>(teamFile(abbr, 'schedule')),
       load<StandingsFile>('standings'),
-      load<HeadToHeadFile>('h2h'),
-      load<PlayersFile>('players'),
+      load<HeadToHeadFile>(teamFile(abbr, 'h2h')).catch(() => ({ season: '', lastSeason: '', opponents: {} })),
+      loadOptional<PlayersFile>(teamFile(abbr, 'players')),
       load<MetaFile>('meta'),
       loadOptional<AvailabilityFile>('availability'),
-      loadOptional<PreviewsFile>('previews'),
+      loadOptional<PreviewsFile>(teamFile(abbr, 'previews')),
     ])
-      .then(([schedule, standings, h2h, players, meta, availability, previews]) =>
-        setState({ data: { schedule, standings, h2h, players, meta, availability, previews } }),
-      )
-      .catch((err: Error) => setState({ error: err.message }))
-  }, [])
-  return state
+      .then(([schedule, standings, h2h, players, meta, availability, previews]) => {
+        if (stale) return
+        setState({
+          abbr,
+          data: { schedule, standings, h2h, players: players ?? noPlayers(schedule.season), meta, availability, previews },
+        })
+      })
+      .catch((err: Error) => !stale && setState({ abbr, error: err.message }))
+    return () => {
+      stale = true
+    }
+  }, [abbr])
+  // Don't show one team's data under another's address while the new team loads.
+  return state.abbr === abbr ? { data: state.data, error: state.error } : {}
 }
 
-let gameLogs: Promise<GameLogsFile | undefined> | undefined
+const gameLogs = new Map<string, Promise<GameLogsFile | undefined>>()
 
 /** Game logs are only needed on player pages, so they load on first use. */
-export function useGameLogs(): GameLogsFile | undefined {
-  const [logs, setLogs] = useState<GameLogsFile>()
+export function useGameLogs(abbr: string): GameLogsFile | undefined {
+  const [logs, setLogs] = useState<{ abbr: string; file?: GameLogsFile }>()
   useEffect(() => {
-    gameLogs ??= loadOptional<GameLogsFile>('gamelogs')
-    gameLogs.then(setLogs)
-  }, [])
-  return logs
+    if (!gameLogs.has(abbr)) gameLogs.set(abbr, loadOptional<GameLogsFile>(teamFile(abbr, 'gamelogs')))
+    gameLogs.get(abbr)!.then((file) => setLogs({ abbr, file }))
+  }, [abbr])
+  return logs?.abbr === abbr ? logs.file : undefined
 }

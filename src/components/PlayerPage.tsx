@@ -1,9 +1,9 @@
 import { useState } from 'react'
 import { absencesForGame, availabilityLabel, isGameTimeDecision, nextGames } from '../lib/availability.ts'
-import { TEAM } from '../lib/config.ts'
 import { useGameLogs, type AppData } from '../lib/data.ts'
 import { formatGameDate, formatGameTime } from '../lib/format.ts'
 import { routeHref } from '../lib/route.ts'
+import { useTeam } from '../lib/team.ts'
 import { COLUMNS, change } from '../lib/stats.ts'
 import { TEAMS_BY_ABBR } from '../lib/teams.ts'
 import type { GameLogEntry, Player, StatTotals, TrackedGameType } from '../lib/types.ts'
@@ -46,6 +46,7 @@ export function PlayerPage({ id, data, timeZone }: { id: string; data: AppData; 
 }
 
 function PlayerView({ player, data, timeZone }: { player: Player; data: AppData; timeZone: string }) {
+  const team = useTeam()
   const { season, lastSeason, teamGamesPlayed } = data.players
   const hasPlayoffs = !!(player.current.playoffs || player.lastFull.playoffs)
   const [type, setType] = useState<TrackedGameType>('regular')
@@ -75,7 +76,7 @@ function PlayerView({ player, data, timeZone }: { player: Player; data: AppData;
       <section className="player-hero" aria-label={player.name}>
         <div className="hero-backdrop" aria-hidden="true">
           {player.number && <span className="hero-number">{player.number}</span>}
-          <span className="hero-wordmark">NUGGETS</span>
+          <span className="hero-wordmark">{team.name.toUpperCase()}</span>
           <Ridge />
         </div>
 
@@ -96,7 +97,7 @@ function PlayerView({ player, data, timeZone }: { player: Player; data: AppData;
             <span className="last">{rest.join(' ')}</span>
           </h1>
           <p className="hero-id">
-            <TeamLogo abbr={TEAM.abbr} size={28} background="dark" />
+            <TeamLogo abbr={team.abbr} size={28} background="dark" />
             {player.number && <span className="hero-jersey">#{player.number}</span>}
             <span className="hero-pos">{player.position}</span>
             {player.twoWay && <span className="badge">Two-way</span>}
@@ -242,16 +243,17 @@ function Overview({ player, data, type }: { player: Player; data: AppData; type:
 }
 
 function NextGame({ player, data, timeZone }: { player: Player; data: AppData; timeZone: string }) {
+  const team = useTeam()
   const game = nextGames(data.schedule.games, 1)[0]
   if (!game) return null
   const opp = TEAMS_BY_ABBR[game.opponent]
   const { weekday, monthDay } = formatGameDate(game.startUtc, timeZone)
-  const absence = absencesForGame(data.availability?.teams[TEAM.abbr], game).find((a) => a.name === player.name)
+  const absence = absencesForGame(data.availability?.teams[team.abbr], game).find((a) => a.name === player.name)
   return (
     <aside className="next-game">
       <h2>Next game</h2>
       <div className="next-matchup">
-        <TeamLogo abbr={TEAM.abbr} size={44} />
+        <TeamLogo abbr={team.abbr} size={44} />
         <span className="next-vs">{game.home ? 'vs' : '@'}</span>
         <TeamLogo abbr={game.opponent} size={44} />
       </div>
@@ -288,7 +290,8 @@ function GameLogList(props: {
   setType: (t: TrackedGameType) => void
 }) {
   const { player, data, type, setType } = props
-  const logs = useGameLogs()
+  const team = useTeam()
+  const logs = useGameLogs(team.abbr)
   const entry = logs?.players[player.id]
   const hasCurrent = !!entry && entry.current.regular.length + entry.current.playoffs.length > 0
   const [which, setWhich] = useState<'current' | 'last' | undefined>()

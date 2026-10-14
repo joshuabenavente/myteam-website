@@ -1,5 +1,5 @@
 import { expect, it } from 'vitest'
-import { badgeColors, contrast, HEADER_BG, matchupColors, TEAM_COLORS } from './teamColors'
+import { badgeColors, contrast, HEADER_BG, matchupColors, TEAM_COLORS, teamTheme } from './teamColors'
 import { TEAMS } from './teams'
 
 it('has colors for every team', () => {
@@ -47,4 +47,22 @@ it('swaps only when the colors really look alike', () => {
   expect(right('LAL')).toBe('#552583')
   expect(right('CLE')).toBe('#860038')
   expect(right('NYK')).toBe('#1d428a')
+})
+
+it('gives every team readable site colors', () => {
+  for (const t of TEAMS) {
+    const th = teamTheme(t.abbr)
+    expect(contrast('#ffffff', th.mid), `${t.abbr} white on mid`).toBeGreaterThanOrEqual(4.5)
+    expect(contrast('#ffffff', th.dark), `${t.abbr} white on dark`).toBeGreaterThanOrEqual(7)
+    expect(contrast(th.accent, th.dark), `${t.abbr} accent on dark`).toBeGreaterThanOrEqual(4.5)
+    expect(contrast(th.accentText, th.accent), `${t.abbr} text on accent`).toBeGreaterThanOrEqual(4.5)
+  }
+  // Denver keeps its own navy and gold.
+  expect(teamTheme('DEN')).toMatchObject({ dark: '#0e2240', accent: '#fec524' })
+})
+
+it('keeps an opponent from looking like the followed team', () => {
+  expect(badgeColors('GSW', 'DEN').fill).toBe('#1d428a')
+  // Following Golden State, its own badge keeps its gold.
+  expect(badgeColors('GSW', 'GSW').fill).toBe('#fdb927')
 })

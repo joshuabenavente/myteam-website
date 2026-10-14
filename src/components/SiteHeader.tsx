@@ -1,11 +1,11 @@
 import { useRef, useState, type CSSProperties } from 'react'
-import { TEAM } from '../lib/config.ts'
 import type { AppData } from '../lib/data.ts'
 import { formatGameDate, formatGameTime, formatRecord, timeZoneAbbr } from '../lib/format.ts'
 import { chipStatus, countdownLabel, headlineChannel, headlineGame, listedFor, shortName } from '../lib/hero.ts'
 import { liveFor, useLive } from '../lib/live.ts'
 import { nameKey } from '../lib/names.ts'
 import { routeHref, type Route } from '../lib/route.ts'
+import { useTeam } from '../lib/team.ts'
 import { badgeColors } from '../lib/teamColors.ts'
 import { teamLogoUrl, TEAMS_BY_ABBR } from '../lib/teams.ts'
 import type { Absence } from '../lib/types.ts'
@@ -13,6 +13,7 @@ import { Icon } from './Icon.tsx'
 import { LiveAnnouncer, LivePill } from './LivePill.tsx'
 import { MiniBar } from './MiniBar.tsx'
 import { Ridge } from './Ridge.tsx'
+import { TeamLogo } from './TeamLogo.tsx'
 
 /** Injury chips per team; the rest are behind "+N more". */
 const CHIPS_PER_TEAM = 2
@@ -27,9 +28,10 @@ interface Props {
 
 /** The navy header: brand and season record, the next game on the Games page, and the page switcher. */
 export function SiteHeader({ route, data, timeZone, onShowGame }: Props) {
+  const team = useTeam()
   const full = route.page === 'games' && !!data
   const roster = route.page === 'players' && !!data
-  const us = data?.standings.teams[TEAM.abbr]
+  const us = data?.standings.teams[team.abbr]
   const headerRef = useRef<HTMLElement>(null)
   return (
     <>
@@ -38,20 +40,26 @@ export function SiteHeader({ route, data, timeZone, onShowGame }: Props) {
         <div className="header-inner">
           <div className="header-top">
             <a className="brand" href={routeHref({ page: 'games' })}>
-              <BrandMark />
-              <span className="site-title">{TEAMS_BY_ABBR[TEAM.abbr].name} Tracker</span>
+              <TeamLogo abbr={team.abbr} size={36} background="dark" />
+              <span className="site-title">{team.fullName}</span>
             </a>
-            {data && (
-              <span className="season-pill">
-                {data.schedule.season}
-                {us && (
-                  <span className="season-record">
-                    <span className="sr-only">, Denver's record </span>
-                    {formatRecord(us)}
-                  </span>
-                )}
-              </span>
-            )}
+            <div className="header-actions">
+              {data && (
+                <span className="season-pill">
+                  <span className="season-label">{data.schedule.season}</span>
+                  {us && (
+                    <span className="season-record">
+                      <span className="sr-only">, {team.name} record </span>
+                      {formatRecord(us)}
+                    </span>
+                  )}
+                </span>
+              )}
+              <a className="switch-team" href={routeHref({ page: 'picker' })}>
+                <Icon name="switch" size={16} />
+                <span className="switch-label">Switch team</span>
+              </a>
+            </div>
           </div>
 
           {/* The Games page's heading sits here so it comes before the next game's. */}
@@ -83,6 +91,7 @@ export function SiteHeader({ route, data, timeZone, onShowGame }: Props) {
 function NextGame({ data, timeZone, onShowGame }: { data: AppData; timeZone: string; onShowGame: (id: string) => void }) {
   // The countdown is as of page load, like the rest of the data.
   const [now] = useState(() => new Date())
+  const team = useTeam()
   const watch = useLive()
   const game = headlineGame(data.schedule.games)
   if (!game) {
@@ -110,9 +119,9 @@ function NextGame({ data, timeZone, onShowGame }: { data: AppData; timeZone: str
   const channel = headlineChannel(game)
   // Once the game is on (or just finished) the score matters, not who's out; drop the injury chips.
   const listed = showPill ? {} : (data.availability?.teams ?? {})
-  const ours = listedFor(listed[TEAM.abbr], game)
+  const ours = listedFor(listed[team.abbr], game)
   const theirs = listedFor(listed[game.opponent], game)
-  // Denver's chips link to the player's page.
+  // The team's own chips link to the player's page.
   const rosterIds = new Map(data.players.players.map((p) => [nameKey(p.name), p.id]))
   const hidden = Math.max(0, ours.length - CHIPS_PER_TEAM) + Math.max(0, theirs.length - CHIPS_PER_TEAM)
   const eyebrow = [live ? 'Live now' : score?.state === 'final' ? 'Final' : 'Next game', game.type === 'playoffs' && 'Playoffs']
@@ -126,10 +135,10 @@ function NextGame({ data, timeZone, onShowGame }: { data: AppData; timeZone: str
       </h2>
 
       <div className="matchup" aria-hidden="true">
-        {/* Denver always on the left, as on the game page and in the live score. */}
-        <TeamBadge abbr={TEAM.abbr} />
+        {/* The team always on the left, as on the game page and in the live score. */}
+        <TeamBadge abbr={team.abbr} followed={team.abbr} />
         <span className="matchup-at">{game.home ? 'vs' : 'at'}</span>
-        <TeamBadge abbr={game.opponent} />
+        <TeamBadge abbr={game.opponent} followed={team.abbr} />
       </div>
 
       <div className="hero-game-body">
@@ -164,10 +173,10 @@ function NextGame({ data, timeZone, onShowGame }: { data: AppData; timeZone: str
             </li>
           )}
           {ours.slice(0, CHIPS_PER_TEAM).map((a) => (
-            <InjuryChip key={a.name} abbr={TEAM.abbr} absence={a} playerId={rosterIds.get(nameKey(a.name))} />
+            <InjuryChip key={a.name} abbr={team.abbr} followed={team.abbr} absence={a} playerId={rosterIds.get(nameKey(a.name))} />
           ))}
           {theirs.slice(0, CHIPS_PER_TEAM).map((a) => (
-            <InjuryChip key={a.name} abbr={game.opponent} absence={a} />
+            <InjuryChip key={a.name} abbr={game.opponent} followed={team.abbr} absence={a} />
           ))}
           {hidden > 0 && (
             <li>
@@ -183,8 +192,9 @@ function NextGame({ data, timeZone, onShowGame }: { data: AppData; timeZone: str
   )
 }
 
-function InjuryChip({ abbr, absence, playerId }: { abbr: string; absence: Absence; playerId?: string }) {
-  const c = badgeColors(abbr)
+function InjuryChip(props: { abbr: string; followed: string; absence: Absence; playerId?: string }) {
+  const { abbr, followed, absence, playerId } = props
+  const c = badgeColors(abbr, followed)
   const team = TEAMS_BY_ABBR[abbr]
   const text = (
     <>
@@ -210,8 +220,8 @@ function InjuryChip({ abbr, absence, playerId }: { abbr: string; absence: Absenc
 
 /** A team circle in its colors with the team logo, or the abbreviation if the logo can't load. */
 /** A team circle in its colors: the abbreviation until the logo has loaded (or if it can't). */
-function TeamBadge({ abbr }: { abbr: string }) {
-  const c = badgeColors(abbr)
+function TeamBadge({ abbr, followed }: { abbr: string; followed: string }) {
+  const c = badgeColors(abbr, followed)
   const [logo, setLogo] = useState<'loading' | 'loaded' | 'failed'>('loading')
   return (
     <span
@@ -234,15 +244,6 @@ function TeamBadge({ abbr }: { abbr: string }) {
   )
 }
 
-function BrandMark() {
-  return (
-    <svg className="brand-mark" viewBox="0 0 34 34" aria-hidden="true">
-      <circle cx="17" cy="17" r="17" fill="#fec524" />
-      <path d="M7 23 L13.5 13.5 L17 18 L20.5 14 L27 23 Z" fill="#0e2240" />
-    </svg>
-  )
-}
-
 function RosterIntro({ data }: { data: AppData }) {
   const { players, season } = data.players
   const twoWay = players.filter((p) => p.twoWay).length
@@ -259,7 +260,7 @@ function RosterIntro({ data }: { data: AppData }) {
         </span>
       </h1>
       <ul className="hero-chips" aria-label="Roster">
-        <li className="hero-chip soft">{players.length} players</li>
+        {players.length > 0 && <li className="hero-chip soft">{players.length} players</li>}
         {twoWay > 0 && <li className="hero-chip outline">{twoWay} on two-way contracts</li>}
       </ul>
     </section>

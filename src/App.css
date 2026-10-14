@@ -6,7 +6,7 @@
   overflow: hidden;
   color: #fff;
   background:
-    radial-gradient(260px circle at 82% 34%, rgb(254 197 36 / 30%), transparent),
+    radial-gradient(260px circle at 82% 34%, color-mix(in srgb, var(--sunshine) 30%, transparent), transparent),
     var(--navy-gradient);
   box-shadow: 0 10px 30px rgb(8 16 32 / 18%);
 }
@@ -70,9 +70,48 @@
   display: inline-flex;
   align-items: center;
   gap: 12px;
+  min-width: 0;
   min-height: 44px;
   color: #fff;
   text-decoration: none;
+}
+
+.brand .logo {
+  flex: none;
+  filter: drop-shadow(0 2px 4px rgb(0 0 0 / 30%));
+}
+
+.brand .site-title {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.header-actions {
+  display: flex;
+  flex: none;
+  align-items: center;
+  gap: 8px;
+}
+
+.switch-team {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  min-width: 40px;
+  min-height: 40px;
+  padding: 0 14px;
+  border-radius: 999px;
+  border: 1px solid rgb(255 255 255 / 24%);
+  color: #fff;
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.switch-team:hover {
+  background: rgb(255 255 255 / 10%);
 }
 
 .brand-mark {
@@ -151,7 +190,7 @@
   font-size: 0.4em;
   font-weight: 700;
   letter-spacing: 0.04em;
-  color: rgb(254 197 36 / 80%);
+  color: color-mix(in srgb, var(--sunshine) 80%, transparent);
 }
 
 .hero-opponent {
@@ -350,7 +389,7 @@ button.hero-chip:hover {
   box-sizing: border-box;
   box-shadow: inset 0 0 0 1px rgb(255 255 255 / 10%);
   border-radius: 999px;
-  background: rgb(14 34 64 / 72%);
+  background: color-mix(in srgb, var(--midnight) 72%, transparent);
   backdrop-filter: blur(6px);
 }
 
@@ -375,7 +414,7 @@ button.hero-chip:hover {
 
 .page-nav a[aria-current='page'] {
   background: var(--sunshine);
-  color: var(--midnight);
+  color: var(--accent-text);
 }
 
 .site-header a:focus-visible,
@@ -413,8 +452,8 @@ button.hero-chip:hover {
   .site-header {
     border-radius: 0 0 28px 28px;
     background:
-      radial-gradient(200px circle at 85% 22%, rgb(254 197 36 / 26%), transparent),
-      linear-gradient(165deg, var(--midnight) 0%, #123069 58%, var(--skyline) 100%);
+      radial-gradient(200px circle at 85% 22%, color-mix(in srgb, var(--sunshine) 26%, transparent), transparent),
+      linear-gradient(165deg, var(--midnight) 0%, color-mix(in srgb, var(--midnight) 45%, var(--skyline)) 58%, var(--skyline) 100%);
   }
 
   .header-ridge {
@@ -865,6 +904,10 @@ main {
   padding: 28px 16px 48px;
 }
 
+.footer-inner p {
+  margin: 0 0 6px;
+}
+
 .site-footer a {
   color: #fff;
 }
@@ -1266,7 +1309,7 @@ main {
   font-size: 0.7rem;
   font-weight: var(--w-bold);
   background: var(--sunshine);
-  color: var(--midnight);
+  color: var(--accent-text);
 }
 
 .sort {
@@ -1538,7 +1581,7 @@ main {
   border-radius: 18px;
   color: var(--hero-text);
   background:
-    radial-gradient(320px circle at 78% 30%, rgb(254 197 36 / 22%), transparent),
+    radial-gradient(320px circle at 78% 30%, color-mix(in srgb, var(--sunshine) 22%, transparent), transparent),
     var(--navy-gradient);
   box-shadow: 0 20px 50px rgb(8 16 32 / 35%);
 }
@@ -1559,7 +1602,7 @@ main {
   font-weight: var(--w-bold);
   font-size: clamp(12rem, 30vw, 24rem);
   line-height: 1;
-  color: rgb(254 197 36 / 13%);
+  color: color-mix(in srgb, var(--sunshine) 13%, transparent);
   letter-spacing: -0.04em;
 }
 
@@ -1714,7 +1757,7 @@ main {
 .strip-toggle {
   margin-bottom: 8px;
   border-color: rgb(255 255 255 / 20%);
-  background: rgb(14 34 64 / 55%);
+  background: color-mix(in srgb, var(--midnight) 55%, transparent);
 }
 
 .strip-toggle button:hover {
@@ -1723,7 +1766,7 @@ main {
 
 .strip-toggle button[aria-pressed='true'] {
   background: var(--sunshine);
-  color: var(--midnight);
+  color: var(--accent-text);
 }
 
 .strip-toggle button {
@@ -2022,7 +2065,7 @@ main {
   border-radius: var(--radius-card);
   color: #f4f6fa;
   background:
-    radial-gradient(90% 70% at 50% 40%, rgb(29 66 138 / 70%) 0%, transparent 70%),
+    radial-gradient(90% 70% at 50% 40%, color-mix(in srgb, var(--skyline) 70%, transparent) 0%, transparent 70%),
     var(--navy-gradient);
 }
 
@@ -2050,8 +2093,8 @@ main {
 }
 
 .radar-swatch-primary {
-  fill: rgb(254 197 36 / 30%);
-  stroke: #fec524;
+  fill: color-mix(in srgb, var(--sunshine) 30%, transparent);
+  stroke: var(--sunshine);
   stroke-width: 2;
 }
 
@@ -2102,8 +2145,8 @@ main {
 }
 
 .radar-primary {
-  fill: rgb(254 197 36 / 22%);
-  stroke: #fec524;
+  fill: color-mix(in srgb, var(--sunshine) 22%, transparent);
+  stroke: var(--sunshine);
   stroke-width: 2;
   stroke-linejoin: round;
 }
@@ -2114,7 +2157,7 @@ main {
 }
 
 .radar-dot {
-  fill: #fec524;
+  fill: var(--sunshine);
   stroke: #112449;
   stroke-width: 2;
   pointer-events: none;
@@ -2930,7 +2973,7 @@ main {
   border: none;
   border-radius: 999px;
   background: var(--sunshine);
-  color: var(--midnight);
+  color: var(--accent-text);
   font: inherit;
   font-weight: var(--w-bold);
 }
@@ -3089,7 +3132,7 @@ a.mini-game:hover {
   gap: 2px;
   padding: 3px;
   border-radius: 999px;
-  background: rgb(14 34 64 / 72%);
+  background: color-mix(in srgb, var(--midnight) 72%, transparent);
   box-shadow: inset 0 0 0 1px rgb(255 255 255 / 10%);
 }
 
@@ -3115,7 +3158,7 @@ a.mini-game:hover {
 
 .mini-nav a[aria-current='page'] {
   background: var(--sunshine);
-  color: var(--midnight);
+  color: var(--accent-text);
 }
 
 .mini-bar a:focus-visible {
@@ -3153,5 +3196,154 @@ a.mini-game:hover {
 
   .mini-nav a {
     padding: 0 12px;
+  }
+}
+
+/* --- team picker --- */
+
+.picker-header .header-inner {
+  padding-bottom: 48px;
+}
+
+.picker-lede {
+  margin: 10px 0 0;
+  color: rgb(255 255 255 / 85%);
+  font-size: 1.05rem;
+}
+
+.picker-search {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  max-width: 420px;
+  margin: 8px 0 20px;
+  padding: 0 16px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--surface);
+  color: var(--muted);
+}
+
+.picker-search input {
+  flex: 1;
+  min-width: 0;
+  min-height: 46px;
+  border: none;
+  background: none;
+  color: var(--text);
+  font: inherit;
+  outline: none;
+}
+
+.picker-search:focus-within {
+  outline: 2px solid var(--skyline-text);
+  outline-offset: 2px;
+}
+
+.picker-conf h2 {
+  margin: 24px 0 12px;
+  font-size: 1rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.picker-divisions {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.picker-division h3 {
+  margin: 0 0 8px;
+  font-size: 0.8rem;
+  font-weight: var(--w-strong);
+  color: var(--muted);
+}
+
+.picker-division ul {
+  display: grid;
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.team-tile {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-height: 60px;
+  padding: 8px 14px;
+  border: 1px solid var(--border);
+  border-left: 5px solid var(--tile-color, var(--border));
+  border-radius: 14px;
+  background: var(--surface);
+  color: var(--text);
+  text-decoration: none;
+}
+
+.team-tile:hover {
+  background: var(--hover);
+}
+
+.team-tile.current {
+  box-shadow: 0 0 0 2px var(--tile-color, var(--border));
+}
+
+.tile-name {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  line-height: 1.2;
+}
+
+.tile-city {
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+
+.tile-nick {
+  font-weight: var(--w-bold);
+}
+
+.tile-badge {
+  margin-left: auto;
+  padding: 2px 8px;
+  border-radius: 999px;
+  background: var(--hover);
+  color: var(--muted);
+  font-size: 0.72rem;
+  font-weight: var(--w-strong);
+  white-space: nowrap;
+}
+
+@media (max-width: 900px) {
+  .picker-divisions {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 560px) {
+  .picker-divisions {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .switch-label,
+  .season-label {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    white-space: nowrap;
+  }
+
+  .switch-team {
+    padding: 0;
+  }
+
+  .brand .site-title {
+    font-size: 1.05rem;
   }
 }

@@ -60,28 +60,29 @@ const facts = buildFacts({
 it('describes the matchup, form and history', () => {
   expect(facts.game).toEqual({
     matchup: 'Denver Nuggets vs Oklahoma City Thunder',
-    denverIs: 'home',
+    followedTeam: 'Denver Nuggets',
+    followedTeamIs: 'home',
     type: 'regular season',
-    denverGameNumber: '5th game of the season for Denver',
-    denverGamesStillToPlayBeforeThisOne: 1,
+    followedTeamGameNumber: '5th game of the season for the Nuggets',
+    followedTeamGamesStillToPlayBeforeThisOne: 1,
   })
-  expect(facts.denver).toMatchObject({ record: '3-1', homeRecord: '3-0', lastTen: '3-1', division: '1st in the Northwest' })
+  expect(facts.followedTeam).toMatchObject({ record: '3-1', homeRecord: '3-0', lastTen: '3-1', division: '1st in the Northwest' })
   expect(facts.season).toBe('2026-27')
-  expect(facts.seasonSeries).toEqual({ '2026-27 so far': 'Denver trails 0-1', '2025-26': 'Denver lost 1-3' })
+  expect(facts.seasonSeries).toEqual({ '2026-27 so far': 'Nuggets trail 0-1', '2025-26': 'Nuggets lost 1-3' })
   expect(facts.opponent).toMatchObject({ gamesStillToPlayBeforeThisOne: 1 })
   // 01:30 UTC on Oct 23 is the evening of Oct 22 in Denver.
   expect(facts.lastMeeting).toEqual({ date: '2026-10-22', where: 'in Oklahoma City', type: 'regular season', result: 'Nuggets lost 110-101' })
-  expect(facts.espnMatchupPredictorDenverWinChance).toBe('60%')
+  expect(facts.espnMatchupPredictorFollowedTeamWinChance).toBe('60%')
 })
 
 it('lists absences that still apply, with Denver players averages', () => {
   expect(facts.notAvailable).toEqual({
-    denver: [{ name: 'Nikola Jokić', status: 'Out', reason: 'Knee', lastSeason: '27.7 pts, 35.0 min per game' }],
+    followedTeam: [{ name: 'Nikola Jokić', status: 'Out', reason: 'Knee', lastSeason: '27.7 pts, 35.0 min per game' }],
     opponent: [],
   })
 })
 
 it('hashes facts stably', () => {
   expect(hashFacts(facts)).toBe(hashFacts(JSON.parse(JSON.stringify(facts))))
-  expect(hashFacts(facts)).not.toBe(hashFacts({ ...facts, denver: undefined }))
+  expect(hashFacts(facts)).not.toBe(hashFacts({ ...facts, followedTeam: undefined }))
 })

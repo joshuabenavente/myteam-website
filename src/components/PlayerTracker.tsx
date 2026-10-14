@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import type { AppData } from '../lib/data.ts'
 import { routeHref } from '../lib/route.ts'
+import { possessive, useTeam } from '../lib/team.ts'
 import { change, COLUMNS, type StatColumn, type StatMode } from '../lib/stats.ts'
 import type { Player, StatTotals, TrackedGameType } from '../lib/types.ts'
 
@@ -12,6 +13,7 @@ interface Sort {
 }
 
 export function PlayerTracker({ data }: { data: AppData }) {
+  const team = useTeam()
   const { players, season, lastSeason, teamGamesPlayed } = data.players
   const hasPlayoffs = players.some((p) => p.current.playoffs || p.lastFull.playoffs)
   const seasonStarted = teamGamesPlayed.regular + teamGamesPlayed.playoffs > 0
@@ -48,6 +50,16 @@ export function PlayerTracker({ data }: { data: AppData }) {
 
   const toggleSort = (key: string) =>
     setSort((s) => (s.key === key ? { key, desc: !s.desc } : { key, desc: key !== 'name' }))
+
+  // Teams take turns having their stats fetched, so a team can briefly have none yet.
+  if (players.length === 0) {
+    return (
+      <p className="placeholder">
+        The {possessive(team.name)} player stats are on their way. Teams update in turns, so check back in a few
+        hours.
+      </p>
+    )
+  }
 
   return (
     <div className="players">
@@ -90,8 +102,8 @@ export function PlayerTracker({ data }: { data: AppData }) {
       <p className="muted small compare-note">
         {compare === 'lastToDate'
           ? cutoff > 0
-            ? `Compared with ${lastSeason} through Denver's first ${cutoff} ${type === 'playoffs' ? 'playoff ' : ''}game${cutoff === 1 ? '' : 's'}, the same point as this season.`
-            : `Denver hasn't played a ${type === 'playoffs' ? 'playoff' : 'regular season'} game in ${season} yet, so there's nothing to compare at this point.`
+            ? `Compared with ${lastSeason} through the ${possessive(team.name)} first ${cutoff} ${type === 'playoffs' ? 'playoff ' : ''}game${cutoff === 1 ? '' : 's'}, the same point as this season.`
+            : `The ${team.name} haven't played a ${type === 'playoffs' ? 'playoff' : 'regular season'} game in ${season} yet, so there's nothing to compare at this point.`
           : compare === 'lastFull'
             ? hasCurrent
               ? `Each cell shows ${season} on top and all of ${lastSeason} below, with the change. Last season includes games for other teams.`

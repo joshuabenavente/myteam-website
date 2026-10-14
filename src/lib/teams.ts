@@ -58,6 +58,18 @@ export const TEAMS: Team[] = [
 
 export const TEAMS_BY_ABBR: { [abbr: string]: Team } = Object.fromEntries(TEAMS.map((x) => [x.abbr, x]))
 
+/** The team's address on the site: "denver-nuggets", "la-clippers", "philadelphia-76ers". */
+export const teamSlug = (t: Pick<Team, 'city' | 'name'>) => `${t.city} ${t.name}`.toLowerCase().replace(/[^a-z0-9]+/g, '-')
+
+export const TEAMS_BY_SLUG: { [slug: string]: Team } = Object.fromEntries(TEAMS.map((x) => [teamSlug(x), x]))
+
+/** ESPN's lowercase team code for its URLs ("den", "gs", "utah"). */
+export const espnSlug = (t: Pick<Team, 'abbr' | 'espnAbbr'>) => (t.espnAbbr ?? t.abbr).toLowerCase()
+
+/** basketball-reference's team code where it differs from the NBA's. */
+const BBREF: { [abbr: string]: string } = { BKN: 'BRK', CHA: 'CHO', PHX: 'PHO' }
+export const bbrefAbbr = (abbr: string) => BBREF[abbr] ?? abbr
+
 const BY_ESPN: { [abbr: string]: Team } = Object.fromEntries(TEAMS.map((x) => [x.espnAbbr ?? x.abbr, x]))
 
 /** Map an ESPN team abbreviation to the NBA tricode, or undefined for non-NBA teams. */

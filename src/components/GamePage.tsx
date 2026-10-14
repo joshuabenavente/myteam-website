@@ -1,6 +1,5 @@
 import { useState, type CSSProperties } from 'react'
 import { absencesForGame, availabilityLabel } from '../lib/availability.ts'
-import { TEAM } from '../lib/config.ts'
 import type { AppData } from '../lib/data.ts'
 import { formatGameDate, formatGameTime, formatRecord } from '../lib/format.ts'
 import {
@@ -19,6 +18,7 @@ import { routeHref } from '../lib/route.ts'
 import { matchupColors } from '../lib/teamColors.ts'
 import { TEAMS_BY_ABBR } from '../lib/teams.ts'
 import type { Game, Player } from '../lib/types.ts'
+import { useTeam } from '../lib/team.ts'
 import { useGameSummary } from '../lib/useGameSummary.ts'
 import { Icon } from './Icon.tsx'
 import { LiveAnnouncer } from './LivePill.tsx'
@@ -36,7 +36,8 @@ interface Props {
 /** A game's score, box scores, injuries and play-by-play, live from ESPN. */
 export function GamePage({ id, data, timeZone, testTeam }: Props) {
   const game = id === 'live' ? undefined : data.schedule.games.find((g) => g.id === id)
-  const team = id === 'live' ? testTeam : game ? TEAM.abbr : undefined
+  const current = useTeam()
+  const team = id === 'live' ? testTeam : game ? current.abbr : undefined
   if (!team) {
     return (
       <div className="game-page">
@@ -60,7 +61,7 @@ function BackLink() {
 function GameView({ team, game, data, timeZone }: { team: string; game?: Game; data: AppData; timeZone: string }) {
   const status = useGameSummary(team, game?.startUtc)
   const s = status.summary
-  // The followed team (Denver) is always on the left.
+  // The followed team is always on the left.
   const left = s ? (s.home.abbr === team ? s.home : s.away) : undefined
   const right = s ? (s.home.abbr === team ? s.away : s.home) : undefined
   const opponent = right?.abbr ?? game?.opponent

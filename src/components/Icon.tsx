@@ -1,4 +1,5 @@
 import {
+  ArrowLeftRight,
   Bandage,
   CalendarDays,
   ChevronDown,
@@ -9,6 +10,7 @@ import {
   List,
   MonitorPlay,
   Plane,
+  Search,
   Sparkles,
   Trophy,
   Tv,
@@ -31,6 +33,8 @@ const ICONS = {
   prev: ChevronLeft,
   next: ChevronRight,
   expand: ChevronDown,
+  switch: ArrowLeftRight,
+  search: Search,
 } satisfies Record<string, LucideIcon>
 
 export type IconName = keyof typeof ICONS

@@ -6,7 +6,7 @@ export type TrackedGameType = Exclude<GameType, 'excluded'>
 
 export interface Broadcast {
   name: string
-  /** National broadcasts reach everyone; local ones are Denver's regional TV/streaming. */
+  /** National broadcasts reach everyone; local ones are the team's regional TV/streaming. */
   scope: 'national' | 'local'
   kind: 'tv' | 'stream'
 }
@@ -124,14 +124,16 @@ export interface Player {
   current: SplitStats
   /** All of last season. */
   lastFull: SplitStats
-  /** Last season through the same number of team games Denver has played this season. */
+  /** Last season through the same number of team games the team has played this season. */
   lastToDate: SplitStats
 }
 
 export interface PlayersFile {
   season: string
   lastSeason: string
-  /** Denver's games played this season, by type; the cutoff for lastToDate. */
+  /** When this team's stats were last refreshed (teams take turns; see scripts/ingest.ts). */
+  updatedAt?: string
+  /** The team's games played this season, by type; the cutoff for lastToDate. */
   teamGamesPlayed: { [K in TrackedGameType]: number }
   players: Player[]
 }
