@@ -23,13 +23,7 @@
    "home": true,
    "opponent": "NOP",
    "status": "scheduled",
-   "broadcasts": [
-    {
-     "name": "ALT/ALT+/KTVD",
-     "scope": "local",
-     "kind": "tv"
-    }
-   ]
+   "broadcasts": []
   },
   {
    "id": "0022600127",
@@ -63,13 +57,7 @@
    "home": false,
    "opponent": "NOP",
    "status": "scheduled",
-   "broadcasts": [
-    {
-     "name": "ALT2/ALT+/KTVD",
-     "scope": "local",
-     "kind": "tv"
-    }
-   ]
+   "broadcasts": []
   },
   {
    "id": "0022600024",
@@ -94,13 +82,7 @@
    "home": true,
    "opponent": "POR",
    "status": "scheduled",
-   "broadcasts": [
-    {
-     "name": "ALT2/ALT+/KTVD/KUSA",
-     "scope": "local",
-     "kind": "tv"
-    }
-   ]
+   "broadcasts": []
   },
   {
    "id": "0022600182",
@@ -146,13 +128,7 @@
    "home": false,
    "opponent": "HOU",
    "status": "scheduled",
-   "broadcasts": [
-    {
-     "name": "ALT/ALT+/KTVD",
-     "scope": "local",
-     "kind": "tv"
-    }
-   ]
+   "broadcasts": []
   },
   {
    "id": "0022600221",
@@ -206,13 +182,7 @@
    "home": true,
    "opponent": "BOS",
    "status": "scheduled",
-   "broadcasts": [
-    {
-     "name": "ALT2/ALT+/KTVD",
-     "scope": "local",
-     "kind": "tv"
-    }
-   ]
+   "broadcasts": []
   },
   {
    "id": "0022600050",
@@ -294,13 +264,7 @@
    "home": false,
    "opponent": "TOR",
    "status": "scheduled",
-   "broadcasts": [
-    {
-     "name": "ALT/ALT+/KTVD",
-     "scope": "local",
-     "kind": "tv"
-    }
-   ]
+   "broadcasts": []
   },
   {
    "id": "0022600313",
@@ -328,11 +292,6 @@
     {
      "name": "NBA TV",
      "scope": "national",
-     "kind": "tv"
-    },
-    {
-     "name": "ALT/ALT+/KTVD",
-     "scope": "local",
      "kind": "tv"
     }
    ]
@@ -403,11 +362,6 @@
     {
      "name": "NBA TV",
      "scope": "national",
-     "kind": "tv"
-    },
-    {
-     "name": "ALT/ALT+/KTVD",
-     "scope": "local",
      "kind": "tv"
     }
    ]
@@ -579,13 +533,7 @@
    "home": false,
    "opponent": "CHA",
    "status": "scheduled",
-   "broadcasts": [
-    {
-     "name": "ALT/ALT+/KTVD",
-     "scope": "local",
-     "kind": "tv"
-    }
-   ]
+   "broadcasts": []
   },
   {
    "id": "0022600550",
@@ -629,13 +577,7 @@
    "home": false,
    "opponent": "MIL",
    "status": "scheduled",
-   "broadcasts": [
-    {
-     "name": "ALT/ALT+/KTVD",
-     "scope": "local",
-     "kind": "tv"
-    }
-   ]
+   "broadcasts": []
   },
   {
    "id": "0022600589",
@@ -729,13 +671,7 @@
    "home": true,
    "opponent": "MIL",
    "status": "scheduled",
-   "broadcasts": [
-    {
-     "name": "ALT/ALT+/KTVD",
-     "scope": "local",
-     "kind": "tv"
-    }
-   ]
+   "broadcasts": []
   },
   {
    "id": "0022600669",
@@ -851,13 +787,7 @@
    "home": true,
    "opponent": "LAC",
    "status": "scheduled",
-   "broadcasts": [
-    {
-     "name": "ALT/ALT+/KTVD/KUSA",
-     "scope": "local",
-     "kind": "tv"
-    }
-   ]
+   "broadcasts": []
   },
   {
    "id": "0022600762",
@@ -896,13 +826,7 @@
    "home": true,
    "opponent": "CHI",
    "status": "scheduled",
-   "broadcasts": [
-    {
-     "name": "ALT/ALT+/KTVD/KUSA",
-     "scope": "local",
-     "kind": "tv"
-    }
-   ]
+   "broadcasts": []
   },
   {
    "id": "0022600808",
@@ -951,13 +875,7 @@
    "home": true,
    "opponent": "UTA",
    "status": "scheduled",
-   "broadcasts": [
-    {
-     "name": "ALT2/ALT+/KTVD",
-     "scope": "local",
-     "kind": "tv"
-    }
-   ]
+   "broadcasts": []
   },
   {
    "id": "0022600864",
@@ -1001,13 +919,7 @@
    "home": true,
    "opponent": "BKN",
    "status": "scheduled",
-   "broadcasts": [
-    {
-     "name": "ALT/ALT+/KTVD/KUSA",
-     "scope": "local",
-     "kind": "tv"
-    }
-   ]
+   "broadcasts": []
   },
   {
    "id": "0022600902",
@@ -1051,13 +963,7 @@
    "home": false,
    "opponent": "SAC",
    "status": "scheduled",
-   "broadcasts": [
-    {
-     "name": "ALT/ALT+/KTVD",
-     "scope": "local",
-     "kind": "tv"
-    }
-   ]
+   "broadcasts": []
   },
   {
    "id": "0022600950",
@@ -1141,13 +1047,7 @@
    "home": true,
    "opponent": "CLE",
    "status": "scheduled",
-   "broadcasts": [
-    {
-     "name": "ALT/ALT+/KTVD/KUSA",
-     "scope": "local",
-     "kind": "tv"
-    }
-   ]
+   "broadcasts": []
   },
   {
    "id": "0022601022",
@@ -1186,13 +1086,7 @@
    "home": false,
    "opponent": "WAS",
    "status": "scheduled",
-   "broadcasts": [
-    {
-     "name": "ALT/ALT+/KTVD",
-     "scope": "local",
-     "kind": "tv"
-    }
-   ]
+   "broadcasts": []
   },
   {
    "id": "0022601063",
@@ -1301,13 +1195,7 @@
    "home": true,
    "opponent": "MEM",
    "status": "scheduled",
-   "broadcasts": [
-    {
-     "name": "ALT/ALT+/KTVD",
-     "scope": "local",
-     "kind": "tv"
-    }
-   ]
+   "broadcasts": []
   },
   {
    "id": "0022601153",
@@ -1316,13 +1204,7 @@
    "home": true,
    "opponent": "NOP",
    "status": "scheduled",
-   "broadcasts": [
-    {
-     "name": "ALT2/ALT+/KTVD",
-     "scope": "local",
-     "kind": "tv"
-    }
-   ]
+   "broadcasts": []
   },
   {
    "id": "0022601169",

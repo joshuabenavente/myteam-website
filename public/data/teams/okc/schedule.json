@@ -849,6 +849,11 @@
    "status": "scheduled",
    "broadcasts": [
     {
+     "name": "KSBI OKC",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
      "name": "KSBI/KWTV OKC",
      "scope": "local",
      "kind": "tv"
@@ -1655,6 +1660,11 @@
    "opponent": "GSW",
    "status": "scheduled",
    "broadcasts": [
+    {
+     "name": "KSBI OKC",
+     "scope": "local",
+     "kind": "tv"
+    },
     {
      "name": "KSBI/KWTV OKC",
      "scope": "local",
