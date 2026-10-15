@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-15T00:18:00.083Z",
+ "updatedAt": "2026-10-15T01:17:47.828Z",
  "teams": {
   "ATL": [
    {
@@ -241,6 +241,13 @@
   ],
   "DEN": [
    {
+    "name": "DeMar DeRozan",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Rest",
+    "returnDate": "2026-10-16"
+   },
+   {
     "name": "Spencer Jones",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
@@ -354,6 +361,13 @@
   ],
   "LAC": [
    {
+    "name": "Bradley Beal",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Knee (inflammation)",
+    "returnDate": "2026-10-23"
+   },
+   {
     "name": "Jordan Miller",
     "status": "Out",
     "gameTimeDecision": false,
@@ -375,18 +389,11 @@
     "returnDate": "2026-11-01"
    },
    {
-    "name": "Bradley Beal",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Knee (inflammation)",
-    "returnDate": "2026-10-14"
-   },
-   {
     "name": "Kobe Sanders",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Hip",
-    "returnDate": "2026-10-14"
+    "returnDate": "2026-10-21"
    }
   ],
   "TOR": [
