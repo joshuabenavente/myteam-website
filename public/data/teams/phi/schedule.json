@@ -48,6 +48,11 @@
      "name": "NBA TV",
      "scope": "national",
      "kind": "tv"
+    },
+    {
+     "name": "NBCSP/PCK-PHI",
+     "scope": "local",
+     "kind": "tv"
     }
    ]
   },
@@ -58,7 +63,13 @@
    "home": true,
    "opponent": "DET",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "NBCSP/PCK-PHI",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600135",
@@ -71,6 +82,11 @@
     {
      "name": "ESPN",
      "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "NBCSP/PCK-PHI",
+     "scope": "local",
      "kind": "tv"
     }
    ]
@@ -103,6 +119,11 @@
      "name": "NBA TV",
      "scope": "national",
      "kind": "tv"
+    },
+    {
+     "name": "NBCSP/PCK-PHI",
+     "scope": "local",
+     "kind": "tv"
     }
    ]
   },
@@ -113,7 +134,13 @@
    "home": true,
    "opponent": "CHI",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "NBCSP/PCK-PHI",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600173",
@@ -126,6 +153,11 @@
     {
      "name": "ESPN",
      "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "NBCSP/PCK-PHI",
+     "scope": "local",
      "kind": "tv"
     }
    ]
@@ -142,6 +174,11 @@
      "name": "Prime Video",
      "scope": "national",
      "kind": "tv"
+    },
+    {
+     "name": "NBCSP/PCK-PHI",
+     "scope": "local",
+     "kind": "tv"
     }
    ],
    "label": "Emirates NBA Cup - East Group B"
@@ -153,7 +190,13 @@
    "home": false,
    "opponent": "CHI",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "NBCSP/PCK-PHI",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600212",
@@ -172,6 +215,11 @@
      "name": "Peacock",
      "scope": "national",
      "kind": "tv"
+    },
+    {
+     "name": "NBCSP/PCK-PHI",
+     "scope": "local",
+     "kind": "tv"
     }
    ]
   },
@@ -182,7 +230,13 @@
    "home": true,
    "opponent": "TOR",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "NBCSP/PCK-PHI",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600236",
@@ -191,7 +245,13 @@
    "home": true,
    "opponent": "IND",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "NBCSP/PCK-PHI",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600248",
@@ -200,7 +260,13 @@
    "home": false,
    "opponent": "BKN",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "NBCSP/PCK-PHI",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600261",
@@ -209,7 +275,13 @@
    "home": false,
    "opponent": "ORL",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "NBCSP/PCK-PHI",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600274",
@@ -218,7 +290,13 @@
    "home": true,
    "opponent": "MIL",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "NBCSP/PCK-PHI",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600288",
@@ -227,7 +305,13 @@
    "home": true,
    "opponent": "POR",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "NBCSP/PCK-PHI",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600055",
@@ -241,6 +325,11 @@
      "name": "ESPN",
      "scope": "national",
      "kind": "tv"
+    },
+    {
+     "name": "NBCSP/PCK-PHI",
+     "scope": "local",
+     "kind": "tv"
     }
    ],
    "label": "Emirates NBA Cup - East Group B"
@@ -252,7 +341,13 @@
    "home": false,
    "opponent": "IND",
    "status": "scheduled",
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "NBCSP/PCK-PHI",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ],
    "label": "Emirates NBA Cup - East Group B"
   },
   {
@@ -267,6 +362,11 @@
      "name": "NBA TV",
      "scope": "national",
      "kind": "tv"
+    },
+    {
+     "name": "NBCSP+/PCK-PHI",
+     "scope": "local",
+     "kind": "tv"
     }
    ]
   },
@@ -277,7 +377,13 @@
    "home": true,
    "opponent": "MEM",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "NBCSP/PCK-PHI",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600328",
@@ -291,6 +397,11 @@
      "name": "NBA TV",
      "scope": "national",
      "kind": "tv"
+    },
+    {
+     "name": "NBCSP/PCK-PHI",
+     "scope": "local",
+     "kind": "tv"
     }
    ]
   },
@@ -301,7 +412,13 @@
    "home": true,
    "opponent": "ORL",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "NBCSP/PCK-PHI",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600357",
@@ -320,6 +437,11 @@
      "name": "NBC Sports Network",
      "scope": "national",
      "kind": "tv"
+    },
+    {
+     "name": "NBCSP+/PCK-PHI",
+     "scope": "local",
+     "kind": "tv"
     }
    ]
   },
@@ -335,6 +457,11 @@
      "name": "NBA TV",
      "scope": "national",
      "kind": "tv"
+    },
+    {
+     "name": "NBCSP/PCK-PHI",
+     "scope": "local",
+     "kind": "tv"
     }
    ]
   },
@@ -345,7 +472,13 @@
    "home": false,
    "opponent": "CHA",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "NBCSP+/PCK-PHI",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600430",
@@ -358,6 +491,11 @@
     {
      "name": "Prime Video",
      "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "NBCSP/PCK-PHI",
+     "scope": "local",
      "kind": "tv"
     }
    ]
@@ -389,7 +527,13 @@
    "home": false,
    "opponent": "LAC",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "NBCSP/PCK-PHI",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600469",
@@ -398,7 +542,13 @@
    "home": false,
    "opponent": "SAC",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "NBCSP+/PCK-PHI",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600474",
@@ -407,7 +557,13 @@
    "home": false,
    "opponent": "PHX",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "NBCSP/PCK-PHI",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600489",
@@ -416,7 +572,13 @@
    "home": false,
    "opponent": "MIL",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "NBCSP/PCK-PHI",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600511",
@@ -425,7 +587,13 @@
    "home": true,
    "opponent": "ATL",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "NBCSP/PCK-PHI",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600526",
@@ -438,6 +606,11 @@
     {
      "name": "ESPN",
      "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "NBCSP/PCK-PHI",
+     "scope": "local",
      "kind": "tv"
     }
    ]
@@ -454,6 +627,11 @@
      "name": "ESPN",
      "scope": "national",
      "kind": "tv"
+    },
+    {
+     "name": "NBCSP/PCK-PHI",
+     "scope": "local",
+     "kind": "tv"
     }
    ]
   },
@@ -464,7 +642,13 @@
    "home": false,
    "opponent": "TOR",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "NBCSP/PCK-PHI",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600572",
@@ -483,6 +667,11 @@
      "name": "Peacock",
      "scope": "national",
      "kind": "tv"
+    },
+    {
+     "name": "NBCSP+/PCK-PHI",
+     "scope": "local",
+     "kind": "tv"
     }
    ]
   },
@@ -493,7 +682,13 @@
    "home": true,
    "opponent": "BKN",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "NBCSP/PCK-PHI",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600601",
@@ -502,7 +697,13 @@
    "home": true,
    "opponent": "MIN",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "NBCSP/PCK-PHI",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600078",
@@ -521,6 +722,11 @@
      "name": "Peacock",
      "scope": "national",
      "kind": "tv"
+    },
+    {
+     "name": "NBCSP/PCK-PHI",
+     "scope": "local",
+     "kind": "tv"
     }
    ]
   },
@@ -531,7 +737,13 @@
    "home": true,
    "opponent": "IND",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "NBCSP+/PCK-PHI",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600634",
@@ -560,6 +772,11 @@
      "name": "NBA TV",
      "scope": "national",
      "kind": "tv"
+    },
+    {
+     "name": "NBCSP/PCK-PHI",
+     "scope": "local",
+     "kind": "tv"
     }
    ]
   },
@@ -570,7 +787,13 @@
    "home": true,
    "opponent": "LAC",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "NBCSP/PCK-PHI",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600678",
@@ -579,7 +802,13 @@
    "home": true,
    "opponent": "SAC",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "NBCSP/PCK-PHI",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600690",
@@ -588,7 +817,13 @@
    "home": false,
    "opponent": "NOP",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "NBCSP/PCK-PHI",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600700",
@@ -613,7 +848,13 @@
    "home": true,
    "opponent": "NOP",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "NBCSP/PCK-PHI",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600733",
@@ -622,7 +863,13 @@
    "home": false,
    "opponent": "MEM",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "NBCSP/PCK-PHI",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600749",
@@ -635,6 +882,11 @@
     {
      "name": "Prime Video",
      "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "NBCSP/PCK-PHI",
+     "scope": "local",
      "kind": "tv"
     }
    ]
@@ -671,7 +923,13 @@
    "home": true,
    "opponent": "BKN",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "NBCSP/PCK-PHI",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600796",
@@ -700,6 +958,11 @@
      "name": "Prime Video",
      "scope": "national",
      "kind": "tv"
+    },
+    {
+     "name": "NBCSP/PCK-PHI",
+     "scope": "local",
+     "kind": "tv"
     }
    ]
   },
@@ -720,6 +983,11 @@
      "name": "Peacock",
      "scope": "national",
      "kind": "tv"
+    },
+    {
+     "name": "NBCSP/PCK-PHI",
+     "scope": "local",
+     "kind": "tv"
     }
    ]
   },
@@ -730,7 +998,13 @@
    "home": true,
    "opponent": "PHX",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "NBCSP/PCK-PHI",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600852",
@@ -739,7 +1013,13 @@
    "home": false,
    "opponent": "BKN",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "NBCSP/PCK-PHI",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600870",
@@ -783,7 +1063,13 @@
    "home": true,
    "opponent": "CHA",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "NBCSP/PCK-PHI",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600905",
@@ -822,7 +1108,13 @@
    "home": true,
    "opponent": "UTA",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "NBCSP/PCK-PHI",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600956",
@@ -835,6 +1127,11 @@
     {
      "name": "Prime Video",
      "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "NBCSP/PCK-PHI",
+     "scope": "local",
      "kind": "tv"
     }
    ]
@@ -871,6 +1168,11 @@
      "name": "NBC Sports Network",
      "scope": "national",
      "kind": "tv"
+    },
+    {
+     "name": "NBCSP/PCK-PHI",
+     "scope": "local",
+     "kind": "tv"
     }
    ]
   },
@@ -881,7 +1183,13 @@
    "home": true,
    "opponent": "CHI",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "NBCSP/PCK-PHI",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022601007",
@@ -894,6 +1202,11 @@
     {
      "name": "NBA TV",
      "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "NBCSP+/PCK-PHI",
+     "scope": "local",
      "kind": "tv"
     }
    ]
@@ -930,7 +1243,13 @@
    "home": false,
    "opponent": "UTA",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "NBCSP+/PCK-PHI",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022601056",
@@ -943,6 +1262,11 @@
     {
      "name": "ESPN",
      "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "NBCSP/PCK-PHI",
+     "scope": "local",
      "kind": "tv"
     }
    ]
@@ -958,6 +1282,11 @@
     {
      "name": "NBA TV",
      "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "NBCSP/PCK-PHI",
+     "scope": "local",
      "kind": "tv"
     }
    ]
@@ -999,6 +1328,11 @@
      "name": "ESPN",
      "scope": "national",
      "kind": "tv"
+    },
+    {
+     "name": "NBCSP/PCK-PHI",
+     "scope": "local",
+     "kind": "tv"
     }
    ]
   },
@@ -1009,7 +1343,13 @@
    "home": false,
    "opponent": "WAS",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "NBCSP/PCK-PHI",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022601131",
@@ -1018,7 +1358,13 @@
    "home": true,
    "opponent": "ATL",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "NBCSP/PCK-PHI",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022601148",
@@ -1027,7 +1373,13 @@
    "home": false,
    "opponent": "TOR",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "NBCSP/PCK-PHI",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022601167",
@@ -1041,6 +1393,11 @@
      "name": "Prime Video",
      "scope": "national",
      "kind": "tv"
+    },
+    {
+     "name": "NBCSP/PCK-PHI",
+     "scope": "local",
+     "kind": "tv"
     }
    ]
   },
@@ -1051,7 +1408,13 @@
    "home": true,
    "opponent": "CHA",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "NBCSP/PCK-PHI",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   }
  ]
 }

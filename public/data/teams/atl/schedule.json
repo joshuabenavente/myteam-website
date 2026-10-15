@@ -8,7 +8,13 @@
    "home": false,
    "opponent": "ORL",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "ANF / Peachtree Sports Network",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600094",
@@ -17,7 +23,13 @@
    "home": false,
    "opponent": "CHA",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "ANF / Peachtree Sports Network",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600107",
@@ -26,7 +38,13 @@
    "home": true,
    "opponent": "HOU",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "ANF / Peachtree Sports Network",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600125",
@@ -35,7 +53,13 @@
    "home": false,
    "opponent": "HOU",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "ANF / Peachtree Sports Network",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600132",
@@ -44,7 +68,13 @@
    "home": true,
    "opponent": "MIA",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "ANF / PeachtreeTV/Peachtree Sports Network",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600144",
@@ -58,6 +88,11 @@
      "name": "NBA TV",
      "scope": "national",
      "kind": "tv"
+    },
+    {
+     "name": "ANF / PeachtreeTV/Peachtree Sports Network",
+     "scope": "local",
+     "kind": "tv"
     }
    ]
   },
@@ -68,7 +103,13 @@
    "home": false,
    "opponent": "NOP",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "ANF / Peachtree Sports Network",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600160",
@@ -77,7 +118,13 @@
    "home": false,
    "opponent": "IND",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "ANF / Peachtree Sports Network",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600174",
@@ -86,7 +133,13 @@
    "home": false,
    "opponent": "WAS",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "ANF / Peachtree Sports Network",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600025",
@@ -95,7 +148,13 @@
    "home": true,
    "opponent": "WAS",
    "status": "scheduled",
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "ANF / Peachtree Sports Network",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ],
    "label": "Emirates NBA Cup - East Group C"
   },
   {
@@ -105,7 +164,13 @@
    "home": true,
    "opponent": "BKN",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "ANF / Peachtree Sports Network",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600203",
@@ -114,7 +179,13 @@
    "home": true,
    "opponent": "LAL",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "ANF / Peachtree Sports Network",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600037",
@@ -123,7 +194,13 @@
    "home": false,
    "opponent": "CHI",
    "status": "scheduled",
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "ANF / Peachtree Sports Network",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ],
    "label": "Emirates NBA Cup - East Group C"
   },
   {
@@ -133,7 +210,13 @@
    "home": false,
    "opponent": "MIL",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "ANF / Peachtree Sports Network",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600265",
@@ -142,7 +225,13 @@
    "home": false,
    "opponent": "OKC",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "ANF / Peachtree Sports Network",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600043",
@@ -151,7 +240,13 @@
    "home": true,
    "opponent": "CHA",
    "status": "scheduled",
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "ANF / Peachtree Sports Network",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ],
    "label": "Emirates NBA Cup - East Group C"
   },
   {
@@ -161,7 +256,13 @@
    "home": true,
    "opponent": "DET",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "ANF / Peachtree Sports Network",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600068",
@@ -170,7 +271,13 @@
    "home": false,
    "opponent": "BOS",
    "status": "scheduled",
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "ANF / Peachtree Sports Network",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ],
    "label": "Emirates NBA Cup - East Group C"
   },
   {
@@ -180,7 +287,13 @@
    "home": false,
    "opponent": "NYK",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "ANF / Peachtree Sports Network",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600321",
@@ -189,7 +302,13 @@
    "home": false,
    "opponent": "MIA",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "ANF / Peachtree Sports Network",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600336",
@@ -198,7 +317,13 @@
    "home": true,
    "opponent": "IND",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "ANF / PeachtreeTV/Peachtree Sports Network",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600348",
@@ -207,7 +332,13 @@
    "home": false,
    "opponent": "POR",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "ANF / Peachtree Sports Network",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600363",
@@ -216,7 +347,13 @@
    "home": false,
    "opponent": "PHX",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "ANF / Peachtree Sports Network",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600383",
@@ -225,7 +362,13 @@
    "home": false,
    "opponent": "DEN",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "ANF / Peachtree Sports Network",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600397",
@@ -234,7 +377,13 @@
    "home": true,
    "opponent": "ORL",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "ANF / Peachtree Sports Network",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600405",
@@ -243,7 +392,13 @@
    "home": true,
    "opponent": "OKC",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "ANF / Peachtree Sports Network",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600423",
@@ -252,7 +407,13 @@
    "home": true,
    "opponent": "DET",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "ANF / Peachtree Sports Network",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600439",
@@ -261,7 +422,13 @@
    "home": true,
    "opponent": "CHA",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "ANF / Peachtree Sports Network",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600453",
@@ -270,7 +437,13 @@
    "home": false,
    "opponent": "SAS",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "ANF / Peachtree Sports Network",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600462",
@@ -279,7 +452,13 @@
    "home": true,
    "opponent": "CHI",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "ANF / Peachtree Sports Network",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600478",
@@ -288,7 +467,13 @@
    "home": true,
    "opponent": "MIL",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "ANF / Peachtree Sports Network",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600496",
@@ -302,6 +487,11 @@
      "name": "NBA TV",
      "scope": "national",
      "kind": "tv"
+    },
+    {
+     "name": "ANF / Peachtree Sports Network",
+     "scope": "local",
+     "kind": "tv"
     }
    ]
   },
@@ -312,7 +502,13 @@
    "home": false,
    "opponent": "PHI",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "ANF / Peachtree Sports Network",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600516",
@@ -321,7 +517,13 @@
    "home": false,
    "opponent": "CHA",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "ANF / Peachtree Sports Network",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600530",
@@ -330,7 +532,13 @@
    "home": true,
    "opponent": "IND",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "ANF / Peachtree Sports Network",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600556",
@@ -339,7 +547,13 @@
    "home": true,
    "opponent": "SAS",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "ANF / Peachtree Sports Network",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600565",
@@ -348,7 +562,13 @@
    "home": false,
    "opponent": "WAS",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "ANF / Peachtree Sports Network",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600578",
@@ -357,7 +577,13 @@
    "home": true,
    "opponent": "CLE",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "ANF / PeachtreeTV/Peachtree Sports Network",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600593",
@@ -366,7 +592,13 @@
    "home": true,
    "opponent": "GSW",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "ANF / Peachtree Sports Network",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600078",
@@ -395,7 +627,13 @@
    "home": true,
    "opponent": "POR",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "ANF / Peachtree Sports Network",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600638",
@@ -409,6 +647,11 @@
      "name": "ESPN",
      "scope": "national",
      "kind": "tv"
+    },
+    {
+     "name": "ANF / Peachtree Sports Network",
+     "scope": "local",
+     "kind": "tv"
     }
    ]
   },
@@ -419,7 +662,13 @@
    "home": false,
    "opponent": "MIA",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "ANF / Peachtree Sports Network",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600670",
@@ -428,7 +677,13 @@
    "home": false,
    "opponent": "DET",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "ANF / Peachtree Sports Network",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600687",
@@ -453,7 +708,13 @@
    "home": false,
    "opponent": "MIL",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "ANF / Peachtree Sports Network",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600716",
@@ -462,7 +723,13 @@
    "home": true,
    "opponent": "WAS",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "ANF / PeachtreeTV/Peachtree Sports Network",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600732",
@@ -471,7 +738,13 @@
    "home": false,
    "opponent": "IND",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "ANF / Peachtree Sports Network",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600747",
@@ -480,7 +753,13 @@
    "home": true,
    "opponent": "BOS",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "ANF / Peachtree Sports Network",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600762",
@@ -489,7 +768,13 @@
    "home": true,
    "opponent": "DEN",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "ANF / Peachtree Sports Network",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600770",
@@ -518,7 +803,13 @@
    "home": true,
    "opponent": "NOP",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "ANF / Peachtree Sports Network",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600801",
@@ -527,7 +818,13 @@
    "home": true,
    "opponent": "PHX",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "ANF / Peachtree Sports Network",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600816",
@@ -536,7 +833,13 @@
    "home": true,
    "opponent": "SAC",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "ANF / Peachtree Sports Network",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600828",
@@ -565,7 +868,13 @@
    "home": false,
    "opponent": "BKN",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "ANF / Peachtree Sports Network",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600854",
@@ -574,7 +883,13 @@
    "home": false,
    "opponent": "CHI",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "ANF / Peachtree Sports Network",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600860",
@@ -583,7 +898,13 @@
    "home": false,
    "opponent": "TOR",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "ANF / Peachtree Sports Network",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600875",
@@ -592,7 +913,13 @@
    "home": false,
    "opponent": "ORL",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "ANF / Peachtree Sports Network",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600896",
@@ -601,7 +928,13 @@
    "home": true,
    "opponent": "CHI",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "ANF / Peachtree Sports Network",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600906",
@@ -610,7 +943,13 @@
    "home": true,
    "opponent": "MEM",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "ANF / Peachtree Sports Network",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600919",
@@ -634,7 +973,13 @@
    "home": false,
    "opponent": "MEM",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "ANF / Peachtree Sports Network",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600949",
@@ -648,6 +993,11 @@
      "name": "ESPN",
      "scope": "national",
      "kind": "tv"
+    },
+    {
+     "name": "ANF / Peachtree Sports Network",
+     "scope": "local",
+     "kind": "tv"
     }
    ]
   },
@@ -658,7 +1008,13 @@
    "home": true,
    "opponent": "BKN",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "ANF / Peachtree Sports Network",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600968",
@@ -702,7 +1058,13 @@
    "home": false,
    "opponent": "UTA",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "ANF / Peachtree Sports Network",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022601019",
@@ -711,7 +1073,13 @@
    "home": false,
    "opponent": "LAL",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "ANF / Peachtree Sports Network",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022601027",
@@ -720,7 +1088,13 @@
    "home": false,
    "opponent": "LAC",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "ANF / Peachtree Sports Network",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022601041",
@@ -729,7 +1103,13 @@
    "home": false,
    "opponent": "GSW",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "ANF / Peachtree Sports Network",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022601058",
@@ -738,7 +1118,13 @@
    "home": false,
    "opponent": "SAC",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "ANF / Peachtree Sports Network",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022601074",
@@ -747,7 +1133,13 @@
    "home": true,
    "opponent": "UTA",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "ANF / Peachtree Sports Network",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022601089",
@@ -756,7 +1148,13 @@
    "home": true,
    "opponent": "MIN",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "ANF / PeachtreeTV/Peachtree Sports Network",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022601103",
@@ -765,7 +1163,13 @@
    "home": true,
    "opponent": "LAC",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "ANF / Peachtree Sports Network",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022601124",
@@ -774,7 +1178,13 @@
    "home": false,
    "opponent": "TOR",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "ANF / Peachtree Sports Network",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022601131",
@@ -783,7 +1193,13 @@
    "home": false,
    "opponent": "PHI",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "ANF / Peachtree Sports Network",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022601149",
@@ -812,7 +1228,13 @@
    "home": true,
    "opponent": "BOS",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "ANF / Peachtree Sports Network",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022601188",
@@ -821,7 +1243,13 @@
    "home": false,
    "opponent": "CLE",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "ANF / Peachtree Sports Network",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   }
  ]
 }

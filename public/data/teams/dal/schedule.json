@@ -8,7 +8,18 @@
    "home": false,
    "opponent": "HOU",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "KFAA/WFAA",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "MavsTV+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600095",
@@ -17,7 +28,18 @@
    "home": false,
    "opponent": "IND",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "KFAA",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "MavsTV+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600109",
@@ -26,7 +48,18 @@
    "home": true,
    "opponent": "SAS",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "KFAA",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "MavsTV+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600122",
@@ -40,6 +73,16 @@
      "name": "NBA TV",
      "scope": "national",
      "kind": "tv"
+    },
+    {
+     "name": "KFAA",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "MavsTV+",
+     "scope": "local",
+     "kind": "stream"
     }
    ]
   },
@@ -55,6 +98,16 @@
      "name": "ESPN",
      "scope": "national",
      "kind": "tv"
+    },
+    {
+     "name": "KFAA",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "MavsTV+",
+     "scope": "local",
+     "kind": "stream"
     }
    ]
   },
@@ -65,7 +118,18 @@
    "home": true,
    "opponent": "HOU",
    "status": "scheduled",
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "KFAA/WFAA",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "MavsTV+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ],
    "label": "Emirates NBA Cup - West Group A"
   },
   {
@@ -75,7 +139,18 @@
    "home": true,
    "opponent": "SAC",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "KFAA",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "MavsTV+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600184",
@@ -99,7 +174,18 @@
    "home": true,
    "opponent": "UTA",
    "status": "scheduled",
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "KFAA/WFAA",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "MavsTV+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ],
    "label": "Emirates NBA Cup - West Group A"
   },
   {
@@ -109,7 +195,18 @@
    "home": true,
    "opponent": "BKN",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "KFAA",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "MavsTV+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600207",
@@ -118,7 +215,18 @@
    "home": true,
    "opponent": "IND",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "KFAA",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "MavsTV+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600229",
@@ -132,6 +240,16 @@
      "name": "NBA TV",
      "scope": "national",
      "kind": "tv"
+    },
+    {
+     "name": "KFAA",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "MavsTV+",
+     "scope": "local",
+     "kind": "stream"
     }
    ]
   },
@@ -142,7 +260,18 @@
    "home": false,
    "opponent": "CLE",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "KFAA",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "MavsTV+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600240",
@@ -151,7 +280,18 @@
    "home": false,
    "opponent": "BOS",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "KFAA",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "MavsTV+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600267",
@@ -165,6 +305,16 @@
      "name": "ESPN",
      "scope": "national",
      "kind": "tv"
+    },
+    {
+     "name": "KFAA",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "MavsTV+",
+     "scope": "local",
+     "kind": "stream"
     }
    ]
   },
@@ -175,7 +325,18 @@
    "home": true,
    "opponent": "LAC",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "KFAA",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "MavsTV+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600284",
@@ -184,7 +345,18 @@
    "home": false,
    "opponent": "UTA",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "KFAA",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "MavsTV+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600054",
@@ -203,6 +375,16 @@
      "name": "Peacock",
      "scope": "national",
      "kind": "tv"
+    },
+    {
+     "name": "KFAA",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "MavsTV+",
+     "scope": "local",
+     "kind": "stream"
     }
    ],
    "label": "Emirates NBA Cup - West Group A"
@@ -214,7 +396,18 @@
    "home": false,
    "opponent": "PHX",
    "status": "scheduled",
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "KFAA",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "MavsTV+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ],
    "label": "Emirates NBA Cup - West Group A"
   },
   {
@@ -224,7 +417,18 @@
    "home": true,
    "opponent": "BOS",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "KFAA",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "MavsTV+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600330",
@@ -233,7 +437,18 @@
    "home": true,
    "opponent": "ORL",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "KFAA/WFAA",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "MavsTV+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600360",
@@ -242,7 +457,18 @@
    "home": true,
    "opponent": "MIL",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "KFAA/WFAA",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "MavsTV+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600373",
@@ -251,7 +477,18 @@
    "home": false,
    "opponent": "BKN",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "KFAA",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "MavsTV+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600382",
@@ -265,6 +502,16 @@
      "name": "NBA TV",
      "scope": "national",
      "kind": "tv"
+    },
+    {
+     "name": "KFAA",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "MavsTV+",
+     "scope": "local",
+     "kind": "stream"
     }
    ]
   },
@@ -275,7 +522,18 @@
    "home": true,
    "opponent": "CHI",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "KFAA",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "MavsTV+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600422",
@@ -294,6 +552,16 @@
      "name": "Peacock",
      "scope": "national",
      "kind": "tv"
+    },
+    {
+     "name": "KFAA",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "MavsTV+",
+     "scope": "local",
+     "kind": "stream"
     }
    ]
   },
@@ -304,7 +572,18 @@
    "home": false,
    "opponent": "SAC",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "KFAA",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "MavsTV+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600444",
@@ -318,6 +597,16 @@
      "name": "NBA TV",
      "scope": "national",
      "kind": "tv"
+    },
+    {
+     "name": "KFAA",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "MavsTV+",
+     "scope": "local",
+     "kind": "stream"
     }
    ]
   },
@@ -348,7 +637,18 @@
    "home": false,
    "opponent": "HOU",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "KFAA",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "MavsTV+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600496",
@@ -362,6 +662,16 @@
      "name": "NBA TV",
      "scope": "national",
      "kind": "tv"
+    },
+    {
+     "name": "KFAA",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "MavsTV+",
+     "scope": "local",
+     "kind": "stream"
     }
    ]
   },
@@ -372,7 +682,18 @@
    "home": false,
    "opponent": "NOP",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "KFAA",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "MavsTV+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600536",
@@ -381,7 +702,18 @@
    "home": true,
    "opponent": "POR",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "KFAA",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "MavsTV+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600547",
@@ -395,6 +727,16 @@
      "name": "ESPN",
      "scope": "national",
      "kind": "tv"
+    },
+    {
+     "name": "KFAA",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "MavsTV+",
+     "scope": "local",
+     "kind": "stream"
     }
    ]
   },
@@ -405,7 +747,18 @@
    "home": false,
    "opponent": "MEM",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "KFAA",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "MavsTV+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600573",
@@ -414,7 +767,18 @@
    "home": false,
    "opponent": "MEM",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "KFAA",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "MavsTV+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600585",
@@ -423,7 +787,18 @@
    "home": false,
    "opponent": "DET",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "KFAA",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "MavsTV+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600603",
@@ -437,6 +812,16 @@
      "name": "NBA TV",
      "scope": "national",
      "kind": "tv"
+    },
+    {
+     "name": "KFAA",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "MavsTV+",
+     "scope": "local",
+     "kind": "stream"
     }
    ]
   },
@@ -447,7 +832,18 @@
    "home": true,
    "opponent": "OKC",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "KFAA",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "MavsTV+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600621",
@@ -466,6 +862,16 @@
      "name": "Peacock",
      "scope": "national",
      "kind": "tv"
+    },
+    {
+     "name": "KFAA",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "MavsTV+",
+     "scope": "local",
+     "kind": "stream"
     }
    ]
   },
@@ -476,7 +882,18 @@
    "home": false,
    "opponent": "NOP",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "KFAA",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "MavsTV+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600653",
@@ -485,7 +902,18 @@
    "home": true,
    "opponent": "CLE",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "KFAA",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "MavsTV+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600666",
@@ -494,7 +922,18 @@
    "home": false,
    "opponent": "CHI",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "KFAA",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "MavsTV+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600681",
@@ -503,7 +942,18 @@
    "home": false,
    "opponent": "TOR",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "KFAA",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "MavsTV+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600697",
@@ -512,7 +962,18 @@
    "home": true,
    "opponent": "DET",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "KFAA",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "MavsTV+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600715",
@@ -546,7 +1007,18 @@
    "home": true,
    "opponent": "TOR",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "KFAA",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "MavsTV+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600744",
@@ -570,7 +1042,18 @@
    "home": true,
    "opponent": "UTA",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "KFAA",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "MavsTV+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600765",
@@ -579,7 +1062,18 @@
    "home": true,
    "opponent": "LAC",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "KFAA",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "MavsTV+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600782",
@@ -598,6 +1092,16 @@
      "name": "Peacock",
      "scope": "national",
      "kind": "tv"
+    },
+    {
+     "name": "KFAA",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "MavsTV+",
+     "scope": "local",
+     "kind": "stream"
     }
    ]
   },
@@ -608,7 +1112,18 @@
    "home": true,
    "opponent": "POR",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "KFAA",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "MavsTV+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600810",
@@ -652,7 +1167,18 @@
    "home": false,
    "opponent": "ORL",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "KFAA",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "MavsTV+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600857",
@@ -676,7 +1202,18 @@
    "home": false,
    "opponent": "POR",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "KFAA",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "MavsTV+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600873",
@@ -700,7 +1237,18 @@
    "home": true,
    "opponent": "GSW",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "KFAA",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "MavsTV+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600907",
@@ -744,7 +1292,18 @@
    "home": true,
    "opponent": "MEM",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "KFAA",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "MavsTV+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600959",
@@ -753,7 +1312,18 @@
    "home": true,
    "opponent": "WAS",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "KFAA",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "MavsTV+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600973",
@@ -762,7 +1332,18 @@
    "home": true,
    "opponent": "NOP",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "KFAA",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "MavsTV+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600987",
@@ -781,6 +1362,16 @@
      "name": "NBC Sports Network",
      "scope": "national",
      "kind": "tv"
+    },
+    {
+     "name": "KFAA",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "MavsTV+",
+     "scope": "local",
+     "kind": "stream"
     }
    ]
   },
@@ -796,6 +1387,16 @@
      "name": "ESPN",
      "scope": "national",
      "kind": "tv"
+    },
+    {
+     "name": "KFAA",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "MavsTV+",
+     "scope": "local",
+     "kind": "stream"
     }
    ]
   },
@@ -811,6 +1412,16 @@
      "name": "NBA TV",
      "scope": "national",
      "kind": "tv"
+    },
+    {
+     "name": "KFAA",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "MavsTV+",
+     "scope": "local",
+     "kind": "stream"
     }
    ]
   },
@@ -841,7 +1452,18 @@
    "home": false,
    "opponent": "LAC",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "KFAA",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "MavsTV+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022601055",
@@ -850,7 +1472,18 @@
    "home": false,
    "opponent": "MIN",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "KFAA",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "MavsTV+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022601068",
@@ -859,7 +1492,18 @@
    "home": true,
    "opponent": "NOP",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "KFAA",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "MavsTV+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022601084",
@@ -868,7 +1512,18 @@
    "home": false,
    "opponent": "WAS",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "KFAA",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "MavsTV+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022601094",
@@ -877,7 +1532,18 @@
    "home": false,
    "opponent": "MIL",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "KFAA",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "MavsTV+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022601111",
@@ -891,6 +1557,16 @@
      "name": "ESPN",
      "scope": "national",
      "kind": "tv"
+    },
+    {
+     "name": "KFAA",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "MavsTV+",
+     "scope": "local",
+     "kind": "stream"
     }
    ]
   },
@@ -901,7 +1577,18 @@
    "home": true,
    "opponent": "SAC",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "KFAA",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "MavsTV+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022601135",
@@ -915,6 +1602,16 @@
      "name": "NBA TV",
      "scope": "national",
      "kind": "tv"
+    },
+    {
+     "name": "KFAA",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "MavsTV+",
+     "scope": "local",
+     "kind": "stream"
     }
    ]
   },
@@ -925,7 +1622,18 @@
    "home": false,
    "opponent": "LAL",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "KFAA",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "MavsTV+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022601166",
@@ -934,7 +1642,18 @@
    "home": false,
    "opponent": "POR",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "KFAA",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "MavsTV+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022601185",
@@ -943,7 +1662,18 @@
    "home": false,
    "opponent": "SAC",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "KFAA",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "MavsTV+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022601194",
@@ -952,7 +1682,18 @@
    "home": true,
    "opponent": "MEM",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "KFAA",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "MavsTV+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   }
  ]
 }

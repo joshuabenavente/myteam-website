@@ -43,7 +43,13 @@
    "home": true,
    "opponent": "ORL",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "MSG / DAZN (MSG)",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600129",
@@ -62,6 +68,11 @@
      "name": "Peacock",
      "scope": "national",
      "kind": "tv"
+    },
+    {
+     "name": "MSG / DAZN (MSG)",
+     "scope": "local",
+     "kind": "tv"
     }
    ]
   },
@@ -72,7 +83,13 @@
    "home": false,
    "opponent": "CHI",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "MSG / DAZN (MSG)",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600018",
@@ -97,7 +114,13 @@
    "home": true,
    "opponent": "BKN",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "MSG / DAZN (MSG)",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600177",
@@ -106,7 +129,13 @@
    "home": true,
    "opponent": "CHI",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "MSG / DAZN (MSG)",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600191",
@@ -120,6 +149,11 @@
      "name": "NBA TV",
      "scope": "national",
      "kind": "tv"
+    },
+    {
+     "name": "MSG / DAZN (MSG)",
+     "scope": "local",
+     "kind": "tv"
     }
    ]
   },
@@ -130,7 +164,13 @@
    "home": true,
    "opponent": "MIL",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "MSG / DAZN (MSG)",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600218",
@@ -143,6 +183,11 @@
     {
      "name": "ESPN",
      "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "MSG / DAZN (MSG)",
+     "scope": "local",
      "kind": "tv"
     }
    ]
@@ -159,6 +204,11 @@
      "name": "Prime Video",
      "scope": "national",
      "kind": "tv"
+    },
+    {
+     "name": "MSG / DAZN (MSG)",
+     "scope": "local",
+     "kind": "tv"
     }
    ],
    "label": "Emirates NBA Cup - East Group B"
@@ -170,7 +220,13 @@
    "home": false,
    "opponent": "TOR",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "MSG / DAZN (MSG)",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600253",
@@ -179,7 +235,13 @@
    "home": false,
    "opponent": "TOR",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "MSG / DAZN (MSG)",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600272",
@@ -192,6 +254,11 @@
     {
      "name": "NBA TV",
      "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "MSG / DAZN (MSG)",
+     "scope": "local",
      "kind": "tv"
     }
    ]
@@ -208,6 +275,11 @@
      "name": "NBA TV",
      "scope": "national",
      "kind": "tv"
+    },
+    {
+     "name": "MSG / DAZN (MSG)",
+     "scope": "local",
+     "kind": "tv"
     }
    ]
   },
@@ -218,7 +290,13 @@
    "home": true,
    "opponent": "IND",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "MSG / DAZN (MSG)",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600057",
@@ -227,7 +305,13 @@
    "home": true,
    "opponent": "CLE",
    "status": "scheduled",
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "MSG / DAZN (MSG)",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ],
    "label": "Emirates NBA Cup - East Group B"
   },
   {
@@ -253,7 +337,13 @@
    "home": true,
    "opponent": "ATL",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "MSG / DAZN (MSG)",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600322",
@@ -272,6 +362,11 @@
      "name": "Peacock",
      "scope": "national",
      "kind": "tv"
+    },
+    {
+     "name": "MSG / DAZN (MSG)",
+     "scope": "local",
+     "kind": "tv"
     }
    ]
   },
@@ -282,7 +377,13 @@
    "home": false,
    "opponent": "MIL",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "MSG / DAZN (MSG)",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600345",
@@ -306,7 +407,13 @@
    "home": false,
    "opponent": "HOU",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "MSG / DAZN (MSG)",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600377",
@@ -315,7 +422,13 @@
    "home": false,
    "opponent": "NOP",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "MSG / DAZN (MSG)",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600386",
@@ -324,7 +437,13 @@
    "home": false,
    "opponent": "WAS",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "MSG / DAZN (MSG)",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600411",
@@ -343,6 +462,11 @@
      "name": "NBC Sports Network",
      "scope": "national",
      "kind": "tv"
+    },
+    {
+     "name": "MSG / DAZN (MSG)",
+     "scope": "local",
+     "kind": "tv"
     }
    ]
   },
@@ -353,7 +477,13 @@
    "home": true,
    "opponent": "UTA",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "MSG / DAZN (MSG)",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600010",
@@ -382,7 +512,13 @@
    "home": true,
    "opponent": "BKN",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "MSG / DAZN (MSG)",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600475",
@@ -391,7 +527,13 @@
    "home": false,
    "opponent": "UTA",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "MSG / DAZN (MSG)",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600485",
@@ -404,6 +546,11 @@
     {
      "name": "NBA TV",
      "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "MSG / DAZN (MSG)",
+     "scope": "local",
      "kind": "tv"
     }
    ]
@@ -420,6 +567,11 @@
      "name": "NBA TV",
      "scope": "national",
      "kind": "tv"
+    },
+    {
+     "name": "MSG / DAZN (MSG)",
+     "scope": "local",
+     "kind": "tv"
     }
    ]
   },
@@ -430,7 +582,13 @@
    "home": false,
    "opponent": "POR",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "MSG / DAZN (MSG)",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600529",
@@ -444,6 +602,11 @@
      "name": "ESPN",
      "scope": "national",
      "kind": "tv"
+    },
+    {
+     "name": "MSG / DAZN (MSG)",
+     "scope": "local",
+     "kind": "tv"
     }
    ]
   },
@@ -454,7 +617,13 @@
    "home": false,
    "opponent": "SAC",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "MSG / DAZN (MSG)",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600567",
@@ -488,6 +657,11 @@
      "name": "ESPN",
      "scope": "national",
      "kind": "tv"
+    },
+    {
+     "name": "MSG / DAZN (MSG)",
+     "scope": "local",
+     "kind": "tv"
     }
    ]
   },
@@ -503,6 +677,11 @@
      "name": "NBA TV",
      "scope": "national",
      "kind": "tv"
+    },
+    {
+     "name": "MSG / DAZN (MSG)",
+     "scope": "local",
+     "kind": "tv"
     }
    ]
   },
@@ -517,6 +696,11 @@
     {
      "name": "NBA TV",
      "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "MSG / DAZN (MSG)",
+     "scope": "local",
      "kind": "tv"
     }
    ]
@@ -538,6 +722,11 @@
      "name": "Peacock",
      "scope": "national",
      "kind": "tv"
+    },
+    {
+     "name": "MSG / DAZN (MSG)",
+     "scope": "local",
+     "kind": "tv"
     }
    ]
   },
@@ -548,7 +737,13 @@
    "home": true,
    "opponent": "TOR",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "MSG / DAZN (MSG)",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600638",
@@ -562,6 +757,11 @@
      "name": "ESPN",
      "scope": "national",
      "kind": "tv"
+    },
+    {
+     "name": "MSG / DAZN (MSG)",
+     "scope": "local",
+     "kind": "tv"
     }
    ]
   },
@@ -572,7 +772,13 @@
    "home": true,
    "opponent": "LAC",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "MSG / DAZN (MSG)",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600672",
@@ -581,7 +787,13 @@
    "home": true,
    "opponent": "PHX",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "MSG / DAZN (MSG)",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600687",
@@ -594,6 +806,11 @@
     {
      "name": "Prime Video",
      "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "MSG / DAZN (MSG)",
+     "scope": "local",
      "kind": "tv"
     }
    ],
@@ -622,7 +839,13 @@
    "home": false,
    "opponent": "BKN",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "MSG / DAZN (MSG)",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600731",
@@ -636,6 +859,11 @@
      "name": "ESPN",
      "scope": "national",
      "kind": "tv"
+    },
+    {
+     "name": "MSG / DAZN (MSG)",
+     "scope": "local",
+     "kind": "tv"
     }
    ],
    "label": "NBA Pioneers Classic"
@@ -647,7 +875,13 @@
    "home": true,
    "opponent": "TOR",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "MSG / DAZN (MSG)",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600768",
@@ -676,7 +910,13 @@
    "home": true,
    "opponent": "CHA",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "MSG / DAZN (MSG)",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600796",
@@ -715,7 +955,13 @@
    "home": false,
    "opponent": "MEM",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "MSG / DAZN (MSG)",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600834",
@@ -728,6 +974,11 @@
     {
      "name": "ESPN",
      "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "MSG / DAZN (MSG)",
+     "scope": "local",
      "kind": "tv"
     }
    ]
@@ -743,6 +994,11 @@
     {
      "name": "Prime Video",
      "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "MSG / DAZN (MSG)",
+     "scope": "local",
      "kind": "tv"
     }
    ]
@@ -769,7 +1025,13 @@
    "home": true,
    "opponent": "MIL",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "MSG / DAZN (MSG)",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600890",
@@ -778,7 +1040,13 @@
    "home": true,
    "opponent": "MEM",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "MSG / DAZN (MSG)",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600907",
@@ -791,6 +1059,11 @@
     {
      "name": "Prime Video",
      "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "MSG / DAZN (MSG)",
+     "scope": "local",
      "kind": "tv"
     }
    ]
@@ -827,7 +1100,13 @@
    "home": false,
    "opponent": "LAC",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "MSG / DAZN (MSG)",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600960",
@@ -840,6 +1119,11 @@
     {
      "name": "Prime Video",
      "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "MSG / DAZN (MSG)",
+     "scope": "local",
      "kind": "tv"
     }
    ]
@@ -866,7 +1150,13 @@
    "home": false,
    "opponent": "WAS",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "MSG / DAZN (MSG)",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600999",
@@ -875,7 +1165,13 @@
    "home": true,
    "opponent": "SAC",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "MSG / DAZN (MSG)",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022601021",
@@ -884,7 +1180,13 @@
    "home": true,
    "opponent": "WAS",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "MSG / DAZN (MSG)",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022601044",
@@ -893,7 +1195,13 @@
    "home": true,
    "opponent": "NOP",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "MSG / DAZN (MSG)",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022601053",
@@ -902,7 +1210,13 @@
    "home": true,
    "opponent": "HOU",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "MSG / DAZN (MSG)",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022601067",
@@ -915,6 +1229,11 @@
     {
      "name": "NBA TV",
      "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "MSG / DAZN (MSG)",
+     "scope": "local",
      "kind": "tv"
     }
    ]
@@ -930,6 +1249,11 @@
     {
      "name": "ESPN",
      "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "MSG / DAZN (MSG)",
+     "scope": "local",
      "kind": "tv"
     }
    ]
@@ -951,6 +1275,11 @@
      "name": "Peacock",
      "scope": "national",
      "kind": "tv"
+    },
+    {
+     "name": "MSG / DAZN (MSG)",
+     "scope": "local",
+     "kind": "tv"
     }
    ]
   },
@@ -961,7 +1290,13 @@
    "home": true,
    "opponent": "CHA",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "MSG / DAZN (MSG)",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022601119",
@@ -970,7 +1305,13 @@
    "home": false,
    "opponent": "BKN",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "MSG / DAZN (MSG)",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022601142",
@@ -1014,6 +1355,11 @@
      "name": "Peacock",
      "scope": "national",
      "kind": "tv"
+    },
+    {
+     "name": "MSG / DAZN (MSG)",
+     "scope": "local",
+     "kind": "tv"
     }
    ]
   },
@@ -1024,7 +1370,13 @@
    "home": false,
    "opponent": "MIL",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "MSG / DAZN (MSG)",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022601175",
@@ -1038,6 +1390,11 @@
      "name": "Prime Video",
      "scope": "national",
      "kind": "tv"
+    },
+    {
+     "name": "MSG / DAZN (MSG)",
+     "scope": "local",
+     "kind": "tv"
     }
    ]
   },
@@ -1048,7 +1405,13 @@
    "home": true,
    "opponent": "IND",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "MSG / DAZN (MSG)",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   }
  ]
 }

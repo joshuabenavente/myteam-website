@@ -28,7 +28,13 @@
    "home": false,
    "opponent": "MIA",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "TV20 Detroit/DAZN-DET",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600117",
@@ -37,7 +43,13 @@
    "home": false,
    "opponent": "PHI",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "TV20 Detroit/DAZN-DET",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600129",
@@ -66,7 +78,13 @@
    "home": true,
    "opponent": "CHA",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "TV20 Detroit/DAZN-DET",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600017",
@@ -75,7 +93,13 @@
    "home": false,
    "opponent": "BKN",
    "status": "scheduled",
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "TV20 Detroit/DAZN-DET",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ],
    "label": "Emirates NBA Cup - East Group A"
   },
   {
@@ -85,7 +109,13 @@
    "home": false,
    "opponent": "CHA",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "TV20 Detroit/DAZN-DET",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600173",
@@ -114,6 +144,11 @@
      "name": "NBA TV",
      "scope": "national",
      "kind": "tv"
+    },
+    {
+     "name": "TV20 Detroit/DAZN-DET",
+     "scope": "local",
+     "kind": "tv"
     }
    ]
   },
@@ -134,6 +169,11 @@
      "name": "NBC Sports Network",
      "scope": "national",
      "kind": "tv"
+    },
+    {
+     "name": "TV20 Detroit/DAZN-DET",
+     "scope": "local",
+     "kind": "tv"
     }
    ]
   },
@@ -144,7 +184,13 @@
    "home": false,
    "opponent": "WAS",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "TV20 Detroit/DAZN-DET",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600233",
@@ -157,6 +203,11 @@
     {
      "name": "NBA TV",
      "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "TV20 Detroit/DAZN-DET",
+     "scope": "local",
      "kind": "tv"
     }
    ]
@@ -188,7 +239,13 @@
    "home": false,
    "opponent": "NOP",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "TV20 Detroit/DAZN-DET",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600046",
@@ -213,7 +270,13 @@
    "home": false,
    "opponent": "ATL",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "TV20 Detroit/DAZN-DET",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600052",
@@ -222,7 +285,13 @@
    "home": false,
    "opponent": "ORL",
    "status": "scheduled",
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "TV20 Detroit/DAZN-DET",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ],
    "label": "Emirates NBA Cup - East Group A"
   },
   {
@@ -232,7 +301,13 @@
    "home": true,
    "opponent": "MIL",
    "status": "scheduled",
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "TV20 Detroit/DAZN-DET",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ],
    "label": "Emirates NBA Cup - East Group A"
   },
   {
@@ -242,7 +317,13 @@
    "home": true,
    "opponent": "ORL",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "TV20 Detroit/DAZN-DET",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600313",
@@ -251,7 +332,13 @@
    "home": true,
    "opponent": "DEN",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "TV20 Detroit/DAZN-DET",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600327",
@@ -260,7 +347,13 @@
    "home": true,
    "opponent": "MEM",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "TV20 Detroit/DAZN-DET",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600351",
@@ -269,7 +362,13 @@
    "home": false,
    "opponent": "IND",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "TV20 Detroit/DAZN-DET",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600356",
@@ -278,7 +377,13 @@
    "home": true,
    "opponent": "BKN",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "TV20 Detroit/DAZN-DET",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600370",
@@ -287,7 +392,13 @@
    "home": true,
    "opponent": "PHX",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "TV20 Detroit/DAZN-DET",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600389",
@@ -296,7 +407,13 @@
    "home": true,
    "opponent": "CLE",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "TV20 Detroit/DAZN-DET",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600407",
@@ -305,7 +422,13 @@
    "home": false,
    "opponent": "BOS",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "TV20 Detroit/DAZN-DET",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600421",
@@ -324,6 +447,11 @@
      "name": "Peacock",
      "scope": "national",
      "kind": "tv"
+    },
+    {
+     "name": "TV20 Detroit/DAZN-DET",
+     "scope": "local",
+     "kind": "tv"
     }
    ]
   },
@@ -334,7 +462,13 @@
    "home": false,
    "opponent": "ATL",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "TV20 Detroit/DAZN-DET",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600443",
@@ -343,7 +477,13 @@
    "home": false,
    "opponent": "CHI",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "TV20 Detroit/DAZN-DET",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600452",
@@ -352,7 +492,13 @@
    "home": true,
    "opponent": "POR",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "TV20 Detroit/DAZN-DET",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600471",
@@ -361,7 +507,13 @@
    "home": true,
    "opponent": "NOP",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "TV20 Detroit/DAZN-DET",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600487",
@@ -375,6 +527,11 @@
      "name": "NBA TV",
      "scope": "national",
      "kind": "tv"
+    },
+    {
+     "name": "TV20 Detroit/DAZN-DET",
+     "scope": "local",
+     "kind": "tv"
     }
    ]
   },
@@ -385,7 +542,13 @@
    "home": false,
    "opponent": "DEN",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "TV20 Detroit/DAZN-DET",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600524",
@@ -394,7 +557,13 @@
    "home": false,
    "opponent": "SAC",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "TV20 Detroit/DAZN-DET",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600539",
@@ -403,7 +572,13 @@
    "home": false,
    "opponent": "GSW",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "TV20 Detroit/DAZN-DET",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600548",
@@ -412,7 +587,13 @@
    "home": false,
    "opponent": "LAL",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "TV20 Detroit/DAZN-DET",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600557",
@@ -421,7 +602,13 @@
    "home": true,
    "opponent": "UTA",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "TV20 Detroit/DAZN-DET",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600571",
@@ -430,7 +617,13 @@
    "home": false,
    "opponent": "TOR",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "TV20 Detroit/DAZN-DET",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600585",
@@ -439,7 +632,13 @@
    "home": true,
    "opponent": "DAL",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "TV20 Detroit/DAZN-DET",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600605",
@@ -448,7 +647,13 @@
    "home": false,
    "opponent": "HOU",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "TV20 Detroit/DAZN-DET",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600077",
@@ -477,7 +682,13 @@
    "home": true,
    "opponent": "IND",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "TV20 Detroit/DAZN-DET",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600658",
@@ -486,7 +697,13 @@
    "home": true,
    "opponent": "MIN",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "TV20 Detroit/DAZN-DET",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600670",
@@ -495,7 +712,13 @@
    "home": true,
    "opponent": "ATL",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "TV20 Detroit/DAZN-DET",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600677",
@@ -509,6 +732,11 @@
      "name": "ESPN",
      "scope": "national",
      "kind": "tv"
+    },
+    {
+     "name": "TV20 Detroit/DAZN-DET",
+     "scope": "local",
+     "kind": "tv"
     }
    ],
    "label": "AWS NBA Rivals Week"
@@ -520,7 +748,13 @@
    "home": false,
    "opponent": "DAL",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "TV20 Detroit/DAZN-DET",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600708",
@@ -529,7 +763,13 @@
    "home": true,
    "opponent": "SAC",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "TV20 Detroit/DAZN-DET",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600723",
@@ -538,7 +778,13 @@
    "home": true,
    "opponent": "CHI",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "TV20 Detroit/DAZN-DET",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600731",
@@ -551,6 +797,11 @@
     {
      "name": "ESPN",
      "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "TV20 Detroit/DAZN-DET",
+     "scope": "local",
      "kind": "tv"
     }
    ],
@@ -583,6 +834,11 @@
      "name": "NBA TV",
      "scope": "national",
      "kind": "tv"
+    },
+    {
+     "name": "TV20 Detroit/DAZN-DET",
+     "scope": "local",
+     "kind": "tv"
     }
    ]
   },
@@ -593,7 +849,13 @@
    "home": false,
    "opponent": "LAC",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "TV20 Detroit/DAZN-DET",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600792",
@@ -602,7 +864,13 @@
    "home": false,
    "opponent": "PHX",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "TV20 Detroit/DAZN-DET",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600811",
@@ -611,7 +879,13 @@
    "home": false,
    "opponent": "POR",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "TV20 Detroit/DAZN-DET",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600826",
@@ -620,7 +894,13 @@
    "home": false,
    "opponent": "UTA",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "TV20 Detroit/DAZN-DET",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600834",
@@ -644,7 +924,13 @@
    "home": true,
    "opponent": "MIA",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "TV20 Detroit/DAZN-DET",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600867",
@@ -668,7 +954,13 @@
    "home": true,
    "opponent": "CHI",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "TV20 Detroit/DAZN-DET",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600892",
@@ -677,7 +969,13 @@
    "home": false,
    "opponent": "MIL",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "TV20 Detroit/DAZN-DET",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600911",
@@ -690,6 +988,11 @@
     {
      "name": "ESPN",
      "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "TV20 Detroit/DAZN-DET",
+     "scope": "local",
      "kind": "tv"
     }
    ]
@@ -711,6 +1014,11 @@
      "name": "Peacock",
      "scope": "national",
      "kind": "tv"
+    },
+    {
+     "name": "TV20 Detroit/DAZN-DET",
+     "scope": "local",
+     "kind": "tv"
     }
    ]
   },
@@ -721,7 +1029,13 @@
    "home": true,
    "opponent": "MIL",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "TV20 Detroit/DAZN-DET",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600969",
@@ -730,7 +1044,13 @@
    "home": true,
    "opponent": "BKN",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "TV20 Detroit/DAZN-DET",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600978",
@@ -743,6 +1063,11 @@
     {
      "name": "NBA TV",
      "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "TV20 Detroit/DAZN-DET",
+     "scope": "local",
      "kind": "tv"
     }
    ]
@@ -764,6 +1089,11 @@
      "name": "Peacock",
      "scope": "national",
      "kind": "tv"
+    },
+    {
+     "name": "TV20 Detroit/DAZN-DET",
+     "scope": "local",
+     "kind": "tv"
     }
    ]
   },
@@ -774,7 +1104,13 @@
    "home": false,
    "opponent": "MIL",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "TV20 Detroit/DAZN-DET",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022601024",
@@ -783,7 +1119,13 @@
    "home": true,
    "opponent": "CHA",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "TV20 Detroit/DAZN-DET",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022601040",
@@ -812,7 +1154,13 @@
    "home": false,
    "opponent": "CHA",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "TV20 Detroit/DAZN-DET",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022601061",
@@ -821,7 +1169,13 @@
    "home": true,
    "opponent": "HOU",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "TV20 Detroit/DAZN-DET",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022601073",
@@ -835,6 +1189,11 @@
      "name": "Prime Video",
      "scope": "national",
      "kind": "tv"
+    },
+    {
+     "name": "TV20 Detroit/DAZN-DET",
+     "scope": "local",
+     "kind": "tv"
     }
    ]
   },
@@ -845,7 +1204,13 @@
    "home": true,
    "opponent": "LAC",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "TV20 Detroit/DAZN-DET",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022601104",
@@ -854,7 +1219,13 @@
    "home": true,
    "opponent": "TOR",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "TV20 Detroit/DAZN-DET",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022601121",
@@ -863,7 +1234,13 @@
    "home": false,
    "opponent": "CHI",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "TV20 Detroit/DAZN-DET",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022601134",
@@ -872,7 +1249,13 @@
    "home": true,
    "opponent": "MIA",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "TV20 Detroit/DAZN-DET",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022601150",
@@ -881,7 +1264,13 @@
    "home": false,
    "opponent": "MEM",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "TV20 Detroit/DAZN-DET",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022601158",
@@ -890,7 +1279,13 @@
    "home": true,
    "opponent": "IND",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "TV20 Detroit/DAZN-DET",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022601175",
@@ -914,7 +1309,13 @@
    "home": false,
    "opponent": "WAS",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "TV20 Detroit/DAZN-DET",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   }
  ]
 }

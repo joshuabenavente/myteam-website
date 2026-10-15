@@ -8,7 +8,13 @@
    "home": true,
    "opponent": "DAL",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "SCHN/SCHN+",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600009",
@@ -32,7 +38,13 @@
    "home": false,
    "opponent": "ATL",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "SCHN/SCHN+",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600125",
@@ -41,7 +53,13 @@
    "home": true,
    "opponent": "ATL",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "SCHN/SCHN+",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600138",
@@ -50,7 +68,13 @@
    "home": false,
    "opponent": "MIL",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "SCHN/SCHN+",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600021",
@@ -59,7 +83,13 @@
    "home": false,
    "opponent": "DAL",
    "status": "scheduled",
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "SCHN/SCHN+",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ],
    "label": "Emirates NBA Cup - West Group A"
   },
   {
@@ -74,6 +104,11 @@
      "name": "NBA TV",
      "scope": "national",
      "kind": "tv"
+    },
+    {
+     "name": "SCHN/SCHN+",
+     "scope": "local",
+     "kind": "tv"
     }
    ]
   },
@@ -84,7 +119,13 @@
    "home": true,
    "opponent": "BOS",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "SCHN/SCHN+",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600181",
@@ -93,7 +134,13 @@
    "home": true,
    "opponent": "MIN",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "SCHN/SCHN+",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600194",
@@ -102,7 +149,13 @@
    "home": false,
    "opponent": "PHX",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "SCHN/SCHN+",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600208",
@@ -111,7 +164,13 @@
    "home": true,
    "opponent": "DEN",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "SCHN/SCHN+",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600225",
@@ -125,6 +184,11 @@
      "name": "ESPN",
      "scope": "national",
      "kind": "tv"
+    },
+    {
+     "name": "SCHN/SCHN+",
+     "scope": "local",
+     "kind": "tv"
     }
    ]
   },
@@ -135,7 +199,13 @@
    "home": true,
    "opponent": "UTA",
    "status": "scheduled",
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "SCHN/SCHN+",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ],
    "label": "Emirates NBA Cup - West Group A"
   },
   {
@@ -145,7 +215,13 @@
    "home": false,
    "opponent": "WAS",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "SCHN/SCHN+",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600249",
@@ -154,7 +230,13 @@
    "home": false,
    "opponent": "MIA",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "SCHN/SCHN+",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600259",
@@ -163,7 +245,13 @@
    "home": false,
    "opponent": "IND",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "SCHN/SCHN+",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600050",
@@ -188,7 +276,13 @@
    "home": true,
    "opponent": "LAC",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "SCHN/SCHN+",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600061",
@@ -197,7 +291,13 @@
    "home": true,
    "opponent": "PHX",
    "status": "scheduled",
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "SCHN/SCHN+",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ],
    "label": "Emirates NBA Cup - West Group A"
   },
   {
@@ -211,6 +311,11 @@
     {
      "name": "NBA TV",
      "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "SCHN/SCHN+",
+     "scope": "local",
      "kind": "tv"
     }
    ]
@@ -242,7 +347,13 @@
    "home": true,
    "opponent": "TOR",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "SCHN/SCHN+",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600352",
@@ -251,7 +362,13 @@
    "home": false,
    "opponent": "CHI",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "SCHN/SCHN+",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600362",
@@ -260,7 +377,13 @@
    "home": true,
    "opponent": "NYK",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "SCHN/SCHN+",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600379",
@@ -269,7 +392,13 @@
    "home": true,
    "opponent": "MIL",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "SCHN/SCHN+",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600391",
@@ -278,7 +407,13 @@
    "home": false,
    "opponent": "MEM",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "SCHN/SCHN+",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600401",
@@ -287,7 +422,13 @@
    "home": false,
    "opponent": "TOR",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "SCHN/SCHN+",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600430",
@@ -311,7 +452,13 @@
    "home": true,
    "opponent": "OKC",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "SCHN/SCHN+",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600470",
@@ -330,6 +477,11 @@
      "name": "Peacock",
      "scope": "national",
      "kind": "tv"
+    },
+    {
+     "name": "SCHN/SCHN+",
+     "scope": "local",
+     "kind": "tv"
     }
    ]
   },
@@ -345,6 +497,11 @@
      "name": "NBA TV",
      "scope": "national",
      "kind": "tv"
+    },
+    {
+     "name": "SCHN/SCHN+",
+     "scope": "local",
+     "kind": "tv"
     }
    ]
   },
@@ -355,7 +512,13 @@
    "home": true,
    "opponent": "DAL",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "SCHN/SCHN+",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600507",
@@ -364,7 +527,13 @@
    "home": true,
    "opponent": "CLE",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "SCHN/SCHN+",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600522",
@@ -393,7 +562,13 @@
    "home": true,
    "opponent": "MEM",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "SCHN/SCHN+",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600551",
@@ -402,7 +577,13 @@
    "home": false,
    "opponent": "BKN",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "SCHN/SCHN+",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600566",
@@ -411,7 +592,13 @@
    "home": false,
    "opponent": "BOS",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "SCHN/SCHN+",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600582",
@@ -425,6 +612,11 @@
      "name": "ESPN",
      "scope": "national",
      "kind": "tv"
+    },
+    {
+     "name": "SCHN/SCHN+",
+     "scope": "local",
+     "kind": "tv"
     }
    ]
   },
@@ -435,7 +627,13 @@
    "home": true,
    "opponent": "WAS",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "SCHN/SCHN+",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600605",
@@ -444,7 +642,13 @@
    "home": true,
    "opponent": "DET",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "SCHN/SCHN+",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600080",
@@ -463,6 +667,11 @@
      "name": "NBC Sports Network",
      "scope": "national",
      "kind": "tv"
+    },
+    {
+     "name": "SCHN/SCHN+",
+     "scope": "local",
+     "kind": "tv"
     }
    ]
   },
@@ -473,7 +682,13 @@
    "home": false,
    "opponent": "MIN",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "SCHN/SCHN+",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600639",
@@ -482,7 +697,13 @@
    "home": false,
    "opponent": "CHA",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "SCHN/SCHN+",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600659",
@@ -491,7 +712,13 @@
    "home": false,
    "opponent": "ORL",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "SCHN/SCHN+",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600673",
@@ -510,6 +737,11 @@
      "name": "Peacock",
      "scope": "national",
      "kind": "tv"
+    },
+    {
+     "name": "SCHN/SCHN+",
+     "scope": "local",
+     "kind": "tv"
     }
    ],
    "label": "AWS NBA Rivals Week"
@@ -521,7 +753,13 @@
    "home": true,
    "opponent": "NOP",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "SCHN/SCHN+",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600698",
@@ -530,7 +768,13 @@
    "home": true,
    "opponent": "ORL",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "SCHN/SCHN+",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600715",
@@ -569,6 +813,11 @@
      "name": "ESPN",
      "scope": "national",
      "kind": "tv"
+    },
+    {
+     "name": "SCHN/SCHN+",
+     "scope": "local",
+     "kind": "tv"
     }
    ]
   },
@@ -579,7 +828,13 @@
    "home": false,
    "opponent": "PHX",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "SCHN/SCHN+",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600769",
@@ -588,7 +843,13 @@
    "home": false,
    "opponent": "SAC",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "SCHN/SCHN+",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600785",
@@ -607,6 +868,11 @@
      "name": "Peacock",
      "scope": "national",
      "kind": "tv"
+    },
+    {
+     "name": "SCHN/SCHN+",
+     "scope": "local",
+     "kind": "tv"
     }
    ]
   },
@@ -617,7 +883,13 @@
    "home": true,
    "opponent": "SAC",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "SCHN/SCHN+",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600807",
@@ -626,7 +898,13 @@
    "home": false,
    "opponent": "NOP",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "SCHN/SCHN+",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600820",
@@ -639,6 +917,11 @@
     {
      "name": "NBA TV",
      "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "SCHN/SCHN+",
+     "scope": "local",
      "kind": "tv"
     }
    ]
@@ -659,6 +942,11 @@
     {
      "name": "Peacock",
      "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "SCHN/SCHN+",
+     "scope": "local",
      "kind": "tv"
     }
    ]
@@ -685,7 +973,13 @@
    "home": true,
    "opponent": "CHA",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "SCHN/SCHN+",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600879",
@@ -719,7 +1013,13 @@
    "home": true,
    "opponent": "GSW",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "SCHN/SCHN+",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600900",
@@ -728,7 +1028,13 @@
    "home": true,
    "opponent": "NOP",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "SCHN/SCHN+",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600916",
@@ -741,6 +1047,11 @@
     {
      "name": "ESPN",
      "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "SCHN/SCHN+",
+     "scope": "local",
      "kind": "tv"
     }
    ]
@@ -772,7 +1083,13 @@
    "home": false,
    "opponent": "LAC",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "SCHN/SCHN+",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600948",
@@ -781,7 +1098,13 @@
    "home": false,
    "opponent": "UTA",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "SCHN/SCHN+",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022600970",
@@ -795,6 +1118,11 @@
      "name": "Prime Video",
      "scope": "national",
      "kind": "tv"
+    },
+    {
+     "name": "SCHN/SCHN+",
+     "scope": "local",
+     "kind": "tv"
     }
    ]
   },
@@ -805,7 +1133,13 @@
    "home": true,
    "opponent": "SAS",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "SCHN/SCHN+",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022601001",
@@ -814,7 +1148,13 @@
    "home": true,
    "opponent": "BKN",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "SCHN/SCHN+",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022601016",
@@ -823,7 +1163,13 @@
    "home": false,
    "opponent": "NOP",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "SCHN/SCHN+",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022601035",
@@ -832,7 +1178,13 @@
    "home": false,
    "opponent": "CLE",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "SCHN/SCHN+",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022601053",
@@ -841,7 +1193,13 @@
    "home": false,
    "opponent": "NYK",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "SCHN/SCHN+",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022601061",
@@ -850,7 +1208,13 @@
    "home": false,
    "opponent": "DET",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "SCHN/SCHN+",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022601082",
@@ -863,6 +1227,11 @@
     {
      "name": "ESPN",
      "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "SCHN/SCHN+",
+     "scope": "local",
      "kind": "tv"
     }
    ]
@@ -884,6 +1253,11 @@
      "name": "Peacock",
      "scope": "national",
      "kind": "tv"
+    },
+    {
+     "name": "SCHN/SCHN+",
+     "scope": "local",
+     "kind": "tv"
     }
    ]
   },
@@ -894,7 +1268,13 @@
    "home": false,
    "opponent": "POR",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "SCHN/SCHN+",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022601125",
@@ -903,7 +1283,13 @@
    "home": true,
    "opponent": "MEM",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "SCHN/SCHN+",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022601137",
@@ -912,7 +1298,13 @@
    "home": true,
    "opponent": "CHI",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "SCHN/SCHN+",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022601164",
@@ -921,7 +1313,13 @@
    "home": true,
    "opponent": "SAC",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "SCHN/SCHN+",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022601180",
@@ -930,7 +1328,13 @@
    "home": true,
    "opponent": "POR",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "SCHN/SCHN+",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   },
   {
    "id": "0022601195",
@@ -939,7 +1343,13 @@
    "home": false,
    "opponent": "MIN",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "SCHN/SCHN+",
+     "scope": "local",
+     "kind": "tv"
+    }
+   ]
   }
  ]
 }

@@ -8,7 +8,18 @@
    "home": false,
    "opponent": "WAS",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "MY24",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Bucks+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600099",
@@ -17,7 +28,18 @@
    "home": true,
    "opponent": "CHI",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "MY24",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Bucks+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600106",
@@ -31,6 +53,16 @@
      "name": "NBA TV",
      "scope": "national",
      "kind": "tv"
+    },
+    {
+     "name": "MY24",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Bucks+",
+     "scope": "local",
+     "kind": "stream"
     }
    ]
   },
@@ -41,7 +73,18 @@
    "home": true,
    "opponent": "IND",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "MY24",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Bucks+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600138",
@@ -50,7 +93,18 @@
    "home": true,
    "opponent": "HOU",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "MY24",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Bucks+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600151",
@@ -59,7 +113,18 @@
    "home": true,
    "opponent": "CLE",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "MY24",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Bucks+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600166",
@@ -68,7 +133,18 @@
    "home": false,
    "opponent": "MIN",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "MY24",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Bucks+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600175",
@@ -77,7 +153,18 @@
    "home": false,
    "opponent": "BOS",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "MY24",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Bucks+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600030",
@@ -86,7 +173,18 @@
    "home": true,
    "opponent": "TOR",
    "status": "scheduled",
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "MY24",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Bucks+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ],
    "label": "Emirates NBA Cup - East Group A"
   },
   {
@@ -96,7 +194,18 @@
    "home": true,
    "opponent": "BOS",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "MY24",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Bucks+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600211",
@@ -105,7 +214,18 @@
    "home": false,
    "opponent": "NYK",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "MY24",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Bucks+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600222",
@@ -114,7 +234,18 @@
    "home": true,
    "opponent": "LAL",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "MY24",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Bucks+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600035",
@@ -123,7 +254,18 @@
    "home": false,
    "opponent": "ORL",
    "status": "scheduled",
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "MY24",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Bucks+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ],
    "label": "Emirates NBA Cup - East Group A"
   },
   {
@@ -133,7 +275,18 @@
    "home": true,
    "opponent": "ATL",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "MY24",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Bucks+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600260",
@@ -147,6 +300,16 @@
      "name": "ESPN",
      "scope": "national",
      "kind": "tv"
+    },
+    {
+     "name": "MY24",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Bucks+",
+     "scope": "local",
+     "kind": "stream"
     }
    ]
   },
@@ -157,7 +320,18 @@
    "home": true,
    "opponent": "POR",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "MY24",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Bucks+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600274",
@@ -166,7 +340,18 @@
    "home": false,
    "opponent": "PHI",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "MY24",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Bucks+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600290",
@@ -175,7 +360,18 @@
    "home": false,
    "opponent": "TOR",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "MY24",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Bucks+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600060",
@@ -184,7 +380,18 @@
    "home": true,
    "opponent": "BKN",
    "status": "scheduled",
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "MY24",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Bucks+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ],
    "label": "Emirates NBA Cup - East Group A"
   },
   {
@@ -194,7 +401,18 @@
    "home": false,
    "opponent": "DET",
    "status": "scheduled",
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "MY24",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Bucks+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ],
    "label": "Emirates NBA Cup - East Group A"
   },
   {
@@ -204,7 +422,18 @@
    "home": true,
    "opponent": "OKC",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "MY24",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Bucks+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600317",
@@ -213,7 +442,18 @@
    "home": true,
    "opponent": "SAS",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "MY24",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Bucks+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600331",
@@ -222,7 +462,18 @@
    "home": true,
    "opponent": "NYK",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "MY24",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Bucks+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600341",
@@ -236,6 +487,16 @@
      "name": "NBA TV",
      "scope": "national",
      "kind": "tv"
+    },
+    {
+     "name": "MY24",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Bucks+",
+     "scope": "local",
+     "kind": "stream"
     }
    ]
   },
@@ -246,7 +507,18 @@
    "home": false,
    "opponent": "DAL",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "MY24",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Bucks+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600379",
@@ -255,7 +527,18 @@
    "home": false,
    "opponent": "HOU",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "MY24",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Bucks+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600392",
@@ -264,7 +547,18 @@
    "home": true,
    "opponent": "PHX",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "MY24",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Bucks+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600408",
@@ -273,7 +567,18 @@
    "home": true,
    "opponent": "GSW",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "MY24",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Bucks+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600417",
@@ -282,7 +587,18 @@
    "home": false,
    "opponent": "SAS",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "MY24",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Bucks+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600432",
@@ -291,7 +607,18 @@
    "home": true,
    "opponent": "MIN",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "MY24",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Bucks+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600450",
@@ -300,7 +627,18 @@
    "home": false,
    "opponent": "ORL",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "MY24",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Bucks+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600467",
@@ -309,7 +647,18 @@
    "home": false,
    "opponent": "OKC",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "MY24",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Bucks+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600478",
@@ -318,7 +667,18 @@
    "home": false,
    "opponent": "ATL",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "MY24",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Bucks+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600489",
@@ -327,7 +687,18 @@
    "home": true,
    "opponent": "PHI",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "MY24",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Bucks+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600503",
@@ -336,7 +707,18 @@
    "home": true,
    "opponent": "CHA",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "MY24",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Bucks+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600521",
@@ -345,7 +727,18 @@
    "home": false,
    "opponent": "CHI",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "MY24",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Bucks+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600537",
@@ -354,7 +747,18 @@
    "home": true,
    "opponent": "LAC",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "MY24",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Bucks+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600552",
@@ -363,7 +767,18 @@
    "home": false,
    "opponent": "IND",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "MY24",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Bucks+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600574",
@@ -372,7 +787,18 @@
    "home": true,
    "opponent": "DEN",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "MY24",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Bucks+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600580",
@@ -381,7 +807,18 @@
    "home": false,
    "opponent": "IND",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "MY24",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Bucks+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600596",
@@ -390,7 +827,18 @@
    "home": true,
    "opponent": "CLE",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "MY24",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Bucks+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600613",
@@ -399,7 +847,18 @@
    "home": false,
    "opponent": "LAL",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "MY24",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Bucks+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600633",
@@ -408,7 +867,18 @@
    "home": false,
    "opponent": "SAC",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "MY24",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Bucks+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600646",
@@ -417,7 +887,18 @@
    "home": false,
    "opponent": "GSW",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "MY24",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Bucks+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600654",
@@ -426,7 +907,18 @@
    "home": false,
    "opponent": "DEN",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "MY24",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Bucks+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600674",
@@ -435,7 +927,18 @@
    "home": false,
    "opponent": "UTA",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "MY24",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Bucks+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600693",
@@ -460,7 +963,18 @@
    "home": true,
    "opponent": "ATL",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "MY24",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Bucks+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600720",
@@ -469,7 +983,18 @@
    "home": true,
    "opponent": "MEM",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "MY24",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Bucks+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600740",
@@ -478,7 +1003,18 @@
    "home": false,
    "opponent": "MIA",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "MY24",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Bucks+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600758",
@@ -487,7 +1023,18 @@
    "home": false,
    "opponent": "TOR",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "MY24",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Bucks+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600775",
@@ -496,7 +1043,18 @@
    "home": true,
    "opponent": "ORL",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "MY24",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Bucks+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600783",
@@ -505,7 +1063,18 @@
    "home": true,
    "opponent": "SAC",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "MY24",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Bucks+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600794",
@@ -514,7 +1083,18 @@
    "home": false,
    "opponent": "CHA",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "MY24",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Bucks+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600814",
@@ -523,7 +1103,18 @@
    "home": false,
    "opponent": "WAS",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "MY24",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Bucks+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600827",
@@ -532,7 +1123,18 @@
    "home": false,
    "opponent": "CLE",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "MY24",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Bucks+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600833",
@@ -541,7 +1143,18 @@
    "home": false,
    "opponent": "CLE",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "MY24",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Bucks+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600855",
@@ -550,7 +1163,18 @@
    "home": true,
    "opponent": "WAS",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "MY24",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Bucks+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600878",
@@ -559,7 +1183,18 @@
    "home": false,
    "opponent": "NYK",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "MY24",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Bucks+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600892",
@@ -568,7 +1203,18 @@
    "home": true,
    "opponent": "DET",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "MY24",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Bucks+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600899",
@@ -577,7 +1223,18 @@
    "home": true,
    "opponent": "UTA",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "MY24",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Bucks+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600914",
@@ -586,7 +1243,18 @@
    "home": false,
    "opponent": "NOP",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "MY24",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Bucks+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600939",
@@ -595,7 +1263,18 @@
    "home": false,
    "opponent": "BKN",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "MY24",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Bucks+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600954",
@@ -604,7 +1283,18 @@
    "home": false,
    "opponent": "DET",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "MY24",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Bucks+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600963",
@@ -613,7 +1303,18 @@
    "home": true,
    "opponent": "MIA",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "MY24",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Bucks+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600991",
@@ -622,7 +1323,18 @@
    "home": true,
    "opponent": "ORL",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "MY24",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Bucks+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022601009",
@@ -631,7 +1343,18 @@
    "home": true,
    "opponent": "DET",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "MY24",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Bucks+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022601026",
@@ -640,7 +1363,18 @@
    "home": true,
    "opponent": "IND",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "MY24",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Bucks+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022601039",
@@ -649,7 +1383,18 @@
    "home": true,
    "opponent": "WAS",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "MY24",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Bucks+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022601059",
@@ -658,7 +1403,18 @@
    "home": false,
    "opponent": "LAC",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "MY24",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Bucks+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022601071",
@@ -667,7 +1423,18 @@
    "home": false,
    "opponent": "PHX",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "MY24",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Bucks+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022601078",
@@ -676,7 +1443,18 @@
    "home": false,
    "opponent": "POR",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "MY24",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Bucks+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022601094",
@@ -685,7 +1463,18 @@
    "home": true,
    "opponent": "DAL",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "MY24",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Bucks+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022601108",
@@ -694,7 +1483,18 @@
    "home": true,
    "opponent": "NOP",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "MY24",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Bucks+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022601123",
@@ -703,7 +1503,18 @@
    "home": true,
    "opponent": "CHA",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "MY24",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Bucks+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022601132",
@@ -712,7 +1523,18 @@
    "home": true,
    "opponent": "BKN",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "MY24",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Bucks+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022601151",
@@ -721,7 +1543,18 @@
    "home": true,
    "opponent": "CHI",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "MY24",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Bucks+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022601168",
@@ -730,7 +1563,18 @@
    "home": true,
    "opponent": "NYK",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "MY24",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Bucks+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022601178",
@@ -739,7 +1583,18 @@
    "home": false,
    "opponent": "CHI",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "MY24",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Bucks+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022601186",
@@ -748,7 +1603,18 @@
    "home": false,
    "opponent": "BOS",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "MY24",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Bucks+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   }
  ]
 }

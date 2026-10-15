@@ -8,7 +8,18 @@
    "home": false,
    "opponent": "MEM",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "KJZZ",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Jazz+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600100",
@@ -17,7 +28,18 @@
    "home": true,
    "opponent": "NOP",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "KJZZ",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Jazz+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600112",
@@ -26,7 +48,18 @@
    "home": true,
    "opponent": "LAL",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "KJZZ",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Jazz+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600126",
@@ -35,7 +68,18 @@
    "home": true,
    "opponent": "MEM",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "KJZZ",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Jazz+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600141",
@@ -44,7 +88,18 @@
    "home": true,
    "opponent": "SAS",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "KJZZ",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Jazz+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600147",
@@ -53,7 +108,18 @@
    "home": true,
    "opponent": "POR",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "KJZZ",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Jazz+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600168",
@@ -62,7 +128,18 @@
    "home": false,
    "opponent": "SAS",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "KJZZ",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Jazz+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600179",
@@ -71,7 +148,18 @@
    "home": false,
    "opponent": "NOP",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "KJZZ",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Jazz+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600028",
@@ -80,7 +168,18 @@
    "home": false,
    "opponent": "DAL",
    "status": "scheduled",
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "KJZZ",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Jazz+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ],
    "label": "Emirates NBA Cup - West Group A"
   },
   {
@@ -90,7 +189,18 @@
    "home": false,
    "opponent": "MIN",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "KJZZ",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Jazz+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600214",
@@ -99,7 +209,18 @@
    "home": true,
    "opponent": "MIA",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "KJZZ",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Jazz+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600224",
@@ -108,7 +229,18 @@
    "home": true,
    "opponent": "ORL",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "KJZZ",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Jazz+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600039",
@@ -117,7 +249,18 @@
    "home": false,
    "opponent": "HOU",
    "status": "scheduled",
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "KJZZ",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Jazz+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ],
    "label": "Emirates NBA Cup - West Group A"
   },
   {
@@ -127,7 +270,18 @@
    "home": true,
    "opponent": "SAS",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "KJZZ",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Jazz+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600257",
@@ -156,7 +310,18 @@
    "home": false,
    "opponent": "LAL",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "KJZZ",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Jazz+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600049",
@@ -165,7 +330,18 @@
    "home": true,
    "opponent": "PHX",
    "status": "scheduled",
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "KJZZ",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Jazz+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ],
    "label": "Emirates NBA Cup - West Group A"
   },
   {
@@ -175,7 +351,18 @@
    "home": true,
    "opponent": "DAL",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "KJZZ",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Jazz+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600295",
@@ -189,6 +376,16 @@
      "name": "NBA TV",
      "scope": "national",
      "kind": "tv"
+    },
+    {
+     "name": "KJZZ",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Jazz+",
+     "scope": "local",
+     "kind": "stream"
     }
    ]
   },
@@ -199,7 +396,18 @@
    "home": true,
    "opponent": "DEN",
    "status": "scheduled",
-   "broadcasts": [],
+   "broadcasts": [
+    {
+     "name": "KJZZ",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Jazz+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ],
    "label": "Emirates NBA Cup - West Group A"
   },
   {
@@ -209,7 +417,18 @@
    "home": true,
    "opponent": "PHX",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "KJZZ",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Jazz+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600326",
@@ -238,7 +457,18 @@
    "home": false,
    "opponent": "POR",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "KJZZ",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Jazz+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600347",
@@ -247,7 +477,18 @@
    "home": true,
    "opponent": "DEN",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "KJZZ",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Jazz+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600364",
@@ -256,7 +497,18 @@
    "home": true,
    "opponent": "MIN",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "KJZZ",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Jazz+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600375",
@@ -265,7 +517,18 @@
    "home": false,
    "opponent": "CHI",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "KJZZ",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Jazz+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600387",
@@ -274,7 +537,18 @@
    "home": false,
    "opponent": "BOS",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "KJZZ",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Jazz+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600403",
@@ -283,7 +557,18 @@
    "home": false,
    "opponent": "CLE",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "KJZZ",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Jazz+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600429",
@@ -292,7 +577,18 @@
    "home": false,
    "opponent": "NYK",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "KJZZ",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Jazz+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600440",
@@ -301,7 +597,18 @@
    "home": true,
    "opponent": "IND",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "KJZZ",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Jazz+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600451",
@@ -310,7 +617,18 @@
    "home": false,
    "opponent": "SAC",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "KJZZ",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Jazz+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600475",
@@ -319,7 +637,18 @@
    "home": true,
    "opponent": "NYK",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "KJZZ",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Jazz+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600491",
@@ -328,7 +657,18 @@
    "home": true,
    "opponent": "BOS",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "KJZZ",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Jazz+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600498",
@@ -337,7 +677,18 @@
    "home": false,
    "opponent": "OKC",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "KJZZ",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Jazz+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600514",
@@ -346,7 +697,18 @@
    "home": true,
    "opponent": "BKN",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "KJZZ",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Jazz+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600525",
@@ -355,7 +717,18 @@
    "home": false,
    "opponent": "BKN",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "KJZZ",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Jazz+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600544",
@@ -364,7 +737,18 @@
    "home": false,
    "opponent": "TOR",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "KJZZ",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Jazz+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600557",
@@ -373,7 +757,18 @@
    "home": false,
    "opponent": "DET",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "KJZZ",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Jazz+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600575",
@@ -382,7 +777,18 @@
    "home": true,
    "opponent": "CHI",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "KJZZ",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Jazz+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600590",
@@ -391,7 +797,18 @@
    "home": true,
    "opponent": "CHA",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "KJZZ",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Jazz+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600597",
@@ -405,6 +822,16 @@
      "name": "NBA TV",
      "scope": "national",
      "kind": "tv"
+    },
+    {
+     "name": "KJZZ",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Jazz+",
+     "scope": "local",
+     "kind": "stream"
     }
    ]
   },
@@ -415,7 +842,18 @@
    "home": true,
    "opponent": "SAC",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "KJZZ",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Jazz+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600622",
@@ -444,7 +882,18 @@
    "home": true,
    "opponent": "LAC",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "KJZZ",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Jazz+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600644",
@@ -453,7 +902,18 @@
    "home": false,
    "opponent": "PHX",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "KJZZ",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Jazz+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600656",
@@ -462,7 +922,18 @@
    "home": false,
    "opponent": "PHX",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "KJZZ",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Jazz+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600674",
@@ -471,7 +942,18 @@
    "home": true,
    "opponent": "MIL",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "KJZZ",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Jazz+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600692",
@@ -480,7 +962,18 @@
    "home": true,
    "opponent": "GSW",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "KJZZ",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Jazz+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600707",
@@ -489,7 +982,18 @@
    "home": true,
    "opponent": "MEM",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "KJZZ",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Jazz+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600721",
@@ -498,7 +1002,18 @@
    "home": true,
    "opponent": "CLE",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "KJZZ",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Jazz+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600735",
@@ -512,6 +1027,16 @@
      "name": "ESPN",
      "scope": "national",
      "kind": "tv"
+    },
+    {
+     "name": "KJZZ",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Jazz+",
+     "scope": "local",
+     "kind": "stream"
     }
    ]
   },
@@ -522,7 +1047,18 @@
    "home": false,
    "opponent": "DAL",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "KJZZ",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Jazz+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600764",
@@ -531,7 +1067,18 @@
    "home": false,
    "opponent": "MIN",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "KJZZ",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Jazz+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600785",
@@ -560,7 +1107,18 @@
    "home": false,
    "opponent": "IND",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "KJZZ",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Jazz+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600826",
@@ -569,7 +1127,18 @@
    "home": true,
    "opponent": "DET",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "KJZZ",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Jazz+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600840",
@@ -578,7 +1147,18 @@
    "home": false,
    "opponent": "DEN",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "KJZZ",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Jazz+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600858",
@@ -587,7 +1167,18 @@
    "home": false,
    "opponent": "LAC",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "KJZZ",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Jazz+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600866",
@@ -611,7 +1202,18 @@
    "home": false,
    "opponent": "NOP",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "KJZZ",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Jazz+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600899",
@@ -620,7 +1222,18 @@
    "home": false,
    "opponent": "MIL",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "KJZZ",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Jazz+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600912",
@@ -629,7 +1242,18 @@
    "home": false,
    "opponent": "ORL",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "KJZZ",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Jazz+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600920",
@@ -638,7 +1262,18 @@
    "home": false,
    "opponent": "WAS",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "KJZZ",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Jazz+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600931",
@@ -647,7 +1282,18 @@
    "home": false,
    "opponent": "PHI",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "KJZZ",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Jazz+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600948",
@@ -656,7 +1302,18 @@
    "home": true,
    "opponent": "HOU",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "KJZZ",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Jazz+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600965",
@@ -665,7 +1322,18 @@
    "home": true,
    "opponent": "SAC",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "KJZZ",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Jazz+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022601002",
@@ -674,7 +1342,18 @@
    "home": true,
    "opponent": "ATL",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "KJZZ",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Jazz+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022601013",
@@ -683,7 +1362,18 @@
    "home": true,
    "opponent": "MIN",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "KJZZ",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Jazz+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022601030",
@@ -692,7 +1382,18 @@
    "home": true,
    "opponent": "TOR",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "KJZZ",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Jazz+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022601046",
@@ -701,7 +1402,18 @@
    "home": true,
    "opponent": "PHI",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "KJZZ",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Jazz+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022601064",
@@ -710,7 +1422,18 @@
    "home": false,
    "opponent": "MIA",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "KJZZ",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Jazz+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022601074",
@@ -719,7 +1442,18 @@
    "home": false,
    "opponent": "ATL",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "KJZZ",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Jazz+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022601083",
@@ -728,7 +1462,18 @@
    "home": false,
    "opponent": "CHA",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "KJZZ",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Jazz+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022601101",
@@ -737,7 +1482,18 @@
    "home": true,
    "opponent": "OKC",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "KJZZ",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Jazz+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022601127",
@@ -746,7 +1502,18 @@
    "home": false,
    "opponent": "POR",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "KJZZ",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Jazz+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022601140",
@@ -755,7 +1522,18 @@
    "home": true,
    "opponent": "POR",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "KJZZ",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Jazz+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022601154",
@@ -764,7 +1542,18 @@
    "home": true,
    "opponent": "OKC",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "KJZZ",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Jazz+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022601170",
@@ -773,7 +1562,18 @@
    "home": true,
    "opponent": "NOP",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "KJZZ",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Jazz+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022601182",
@@ -782,7 +1582,18 @@
    "home": true,
    "opponent": "LAC",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "KJZZ",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Jazz+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022601198",
@@ -791,7 +1602,18 @@
    "home": false,
    "opponent": "GSW",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "KJZZ",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Jazz+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   }
  ]
 }
