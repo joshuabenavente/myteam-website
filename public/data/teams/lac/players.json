@@ -1,7 +1,7 @@
 {
  "season": "2026-27",
  "lastSeason": "2025-26",
- "updatedAt": "2026-10-15T02:17:40.987Z",
+ "updatedAt": "2026-10-15T08:17:49.234Z",
  "teamGamesPlayed": {
   "regular": 0,
   "playoffs": 0
@@ -772,6 +772,43 @@
    "lastToDate": {}
   },
   {
+   "id": "wagleke01",
+   "name": "Keaton Wagler",
+   "position": "G",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 5\"",
+    "weight": 188,
+    "birthDate": "2007-02-03",
+    "experience": 0,
+    "college": "Illinois",
+    "birthPlace": "Shawnee, KS"
+   },
+   "number": "1",
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5254165.png",
+   "current": {},
+   "lastFull": {},
+   "lastToDate": {}
+  },
+  {
+   "id": "loyerfl01",
+   "name": "Fletcher Loyer",
+   "position": "G",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 3\"",
+    "weight": 180,
+    "birthDate": "2003-09-01",
+    "experience": 0,
+    "college": "Purdue",
+    "birthPlace": "Fort Wayne, IN"
+   },
+   "number": "26",
+   "current": {},
+   "lastFull": {},
+   "lastToDate": {}
+  },
+  {
    "id": "milleba01",
    "name": "Baba Miller",
    "position": "F",
@@ -805,25 +842,6 @@
    },
    "number": "12",
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5105832.png",
-   "current": {},
-   "lastFull": {},
-   "lastToDate": {}
-  },
-  {
-   "id": "wagleke01",
-   "name": "Keaton Wagler",
-   "position": "G",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 5\"",
-    "weight": 188,
-    "birthDate": "2007-02-03",
-    "experience": 0,
-    "college": "Illinois",
-    "birthPlace": "Shawnee, KS"
-   },
-   "number": "1",
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5254165.png",
    "current": {},
    "lastFull": {},
    "lastToDate": {}
