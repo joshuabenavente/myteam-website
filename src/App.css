@@ -131,21 +131,7 @@
   text-overflow: ellipsis;
 }
 
-.season-pill {
-  display: inline-flex;
-  flex: none;
-  gap: 10px;
-  padding: 8px 16px;
-  border: 1px solid rgb(255 255 255 / 24%);
-  border-radius: 999px;
-  font-weight: 700;
-  white-space: nowrap;
-  font-variant-numeric: tabular-nums;
-}
 
-.season-record {
-  color: rgb(255 255 255 / 78%);
-}
 
 .hero-chips {
   display: flex;
@@ -340,11 +326,6 @@ button.hero-chip:hover {
     padding: 16px 16px 24px;
   }
 
-  .season-pill {
-    padding: 6px 12px;
-    font-size: 0.875rem;
-    gap: 8px;
-  }
 
   .hero-page {
     margin-top: 20px;
@@ -3160,21 +3141,11 @@ a.mini-game:hover {
     display: block;
   }
 
-  /* "Minnesota Timberwolves" doesn't fit beside the record on a phone; "Timberwolves" does. */
+  /* "Minnesota Timberwolves" doesn't fit on a phone; "Timberwolves" does. */
   .team-pill.long .team-pill-city {
     display: none;
   }
 
-  /* "26-27" on phones. */
-  .season-century,
-  .season-pill:not(.season-only) .season-label {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
-    clip: rect(0 0 0 0);
-    white-space: nowrap;
-  }
 
 }
 
@@ -3424,9 +3395,6 @@ a.mini-game:hover {
     gap: 6px;
   }
 
-  .season-pill {
-    padding: 6px 10px;
-  }
 
   .team-pill {
     padding: 0 10px 0 4px;
@@ -3578,4 +3546,12 @@ main,
 
 .footer-inner {
   padding-bottom: calc(48px + env(safe-area-inset-bottom));
+}
+
+/* Mid widths (tablets, phones on their side): long names shorten to the nickname too, so the
+   team pill stays clear of the page switcher. */
+@media (max-width: 900px) {
+  .team-pill.long .team-pill-city {
+    display: none;
+  }
 }

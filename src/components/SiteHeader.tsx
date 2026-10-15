@@ -1,6 +1,6 @@
 import { useRef, useState, type CSSProperties } from 'react'
 import type { AppData } from '../lib/data.ts'
-import { formatGameDate, formatGameTime, formatRecord, timeZoneAbbr } from '../lib/format.ts'
+import { formatGameDate, formatGameTime, timeZoneAbbr } from '../lib/format.ts'
 import { nextGames } from '../lib/availability.ts'
 import { chipStatus, countdownLabel, daysUntil, headlineChannel, headlineGame, listedFor, shortName } from '../lib/hero.ts'
 import { liveFor, useLive } from '../lib/live.ts'
@@ -32,9 +32,6 @@ export function SiteHeader({ route, data, timeZone, onShowGame }: Props) {
   const team = useTeam()
   const full = route.page === 'games' && !!data
   const roster = route.page === 'players' && !!data
-  // Before the first game, "0-0" says nothing; the pill shows just the season.
-  const played = data?.standings.teams[team.abbr]
-  const us = played && played.wins + played.losses > 0 ? played : undefined
   const headerRef = useRef<HTMLElement>(null)
   const nav = (
     <nav className="page-nav" aria-label="Pages">
@@ -67,20 +64,6 @@ export function SiteHeader({ route, data, timeZone, onShowGame }: Props) {
               <span className="sr-only">myteam.fans, {team.fullName} home</span>
             </a>
             <div className="header-actions">
-              {data && (
-                <span className={`season-pill ${us ? '' : 'season-only'}`}>
-                  <span className="season-label">
-                    <span className="season-century">{data.schedule.season.slice(0, 2)}</span>
-                    {data.schedule.season.slice(2)}
-                  </span>
-                  {us && (
-                    <span className="season-record">
-                      <span className="sr-only">, {team.name} record </span>
-                      {formatRecord(us)}
-                    </span>
-                  )}
-                </span>
-              )}
               <a className={`team-pill ${team.fullName.length > 18 ? 'long' : ''}`} href={routeHref({ page: 'picker' })}>
                 <TeamLogo abbr={team.abbr} size={28} background="dark" />
                 <span className="team-pill-name">
