@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-15T15:18:01.276Z",
+ "updatedAt": "2026-10-15T17:17:51.160Z",
  "teams": {
   "ATL": [
    {
@@ -271,6 +271,13 @@
     "returnDate": "2027-01-02"
    },
    {
+    "name": "Kristaps Porzingis",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Undisclosed",
+    "returnDate": "2026-11-09"
+   },
+   {
     "name": "Moses Moody",
     "status": "Out",
     "gameTimeDecision": false,
@@ -290,13 +297,6 @@
     "gameTimeDecision": true,
     "reason": "Rest",
     "returnDate": "2026-10-16"
-   },
-   {
-    "name": "Kristaps Porzingis",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Undisclosed",
-    "returnDate": "2026-10-21"
    }
   ],
   "HOU": [
@@ -372,7 +372,7 @@
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Knee (inflammation)",
-    "returnDate": "2026-10-23"
+    "returnDate": "2026-11-08"
    },
    {
     "name": "Jordan Miller",
@@ -386,14 +386,14 @@
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Foot",
-    "returnDate": "2026-11-02"
+    "returnDate": "2026-11-08"
    },
    {
     "name": "Yanic Konan Niederhauser",
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Foot (surgery)",
-    "returnDate": "2026-11-01"
+    "returnDate": "2026-11-08"
    },
    {
     "name": "Kobe Sanders",
@@ -416,7 +416,7 @@
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Achilles (surgery)",
-    "returnDate": "2026-11-01"
+    "returnDate": "2026-11-08"
    },
    {
     "name": "Nate Bittle",
