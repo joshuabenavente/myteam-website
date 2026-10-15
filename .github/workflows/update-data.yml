@@ -1,10 +1,11 @@
 name: Update data
 
+# Every team's schedule, standings, head-to-head, injuries and previews, plus player stats for the
+# 5 teams refreshed longest ago (each team comes round about every 6 hours).
+#
+# Runs hourly at :17, started by the Cloudflare Worker in cloudflare/hourly-trigger.js. GitHub's
+# own schedule skipped most hours, so it isn't used. "Run workflow" in the Actions tab works too.
 on:
-  schedule:
-    # Every team's schedule, standings, head-to-head, injuries and previews, plus player stats
-    # for the 5 teams refreshed longest ago (each team comes round about every 6 hours).
-    - cron: '17 * * * *'
   workflow_dispatch:
     inputs:
       all_players:

@@ -26,7 +26,7 @@ Chosen from the phase 1 probe (`scripts/probe-sources.ts`), run from GitHub Acti
 
 ## Refresh schedule
 
-The `Update data` workflow (`.github/workflows/update-data.yml`) runs `scripts/ingest.ts` hourly, for all 30 teams. GitHub's own schedule is best effort and skipped most hours, so a Cloudflare Worker (`cloudflare/hourly-trigger.js`, Cron Trigger `17 * * * *`) starts the workflow instead, using a fine-grained token limited to this repo's Actions. Each run:
+The `Update data` workflow (`.github/workflows/update-data.yml`) runs `scripts/ingest.ts` hourly, for all 30 teams. It's started by a Cloudflare Worker (`cloudflare/hourly-trigger.js`, Cron Trigger `17 * * * *`) using a fine-grained token limited to this repo's Actions. GitHub's own schedule was best effort and skipped most hours, so the workflow no longer has one; if the Worker stops, data stops refreshing until it's fixed or the workflow is started by hand (Actions → Update data → Run workflow). Each run:
 
 - shared files in `public/data/`: standings, injuries (one ESPN request covers every team) and meta
 - per team in `public/data/teams/<abbr>/`: schedule, head-to-head, and a preview of the team's next game when `ANTHROPIC_API_KEY` is set (Claude Haiku 5.5, rewritten only when the facts change)
