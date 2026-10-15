@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-15T01:17:47.828Z",
+ "updatedAt": "2026-10-15T02:17:48.990Z",
  "teams": {
   "ATL": [
    {
@@ -73,13 +73,6 @@
     "gameTimeDecision": true,
     "reason": "Illness",
     "returnDate": "2026-10-16"
-   },
-   {
-    "name": "Luka Garza",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Nose",
-    "returnDate": "2026-10-14"
    }
   ],
   "BKN": [
@@ -111,7 +104,7 @@
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Knee (soreness)",
-    "returnDate": "2026-10-14"
+    "returnDate": "2026-10-16"
    },
    {
     "name": "Kon Knueppel",
@@ -394,6 +387,13 @@
     "gameTimeDecision": true,
     "reason": "Hip",
     "returnDate": "2026-10-21"
+   },
+   {
+    "name": "Kris Dunn",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Rest",
+    "returnDate": "2026-10-21"
    }
   ],
   "TOR": [
@@ -581,13 +581,6 @@
     "gameTimeDecision": true,
     "reason": "Undisclosed",
     "returnDate": "2026-10-14"
-   },
-   {
-    "name": "Terrence Shannon Jr.",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Undisclosed",
-    "returnDate": "2026-10-14"
    }
   ],
   "NOP": [
@@ -638,6 +631,13 @@
   ],
   "OKC": [
    {
+    "name": "Otega Oweh",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Achilles (surgery)",
+    "returnDate": "2027-07-01"
+   },
+   {
     "name": "Ajay Mitchell",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
@@ -663,13 +663,6 @@
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Back (surgery)",
-    "returnDate": "2026-10-15"
-   },
-   {
-    "name": "Otega Oweh",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Lower Leg",
     "returnDate": "2026-10-15"
    },
    {
