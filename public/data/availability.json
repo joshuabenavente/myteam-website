@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-14T23:16:54.530Z",
+ "updatedAt": "2026-10-15T00:18:00.083Z",
  "teams": {
   "ATL": [
    {
@@ -72,20 +72,13 @@
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Illness",
-    "returnDate": "2026-10-14"
+    "returnDate": "2026-10-16"
    },
    {
     "name": "Luka Garza",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Nose",
-    "returnDate": "2026-10-14"
-   },
-   {
-    "name": "Ron Harper Jr.",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Shoulder (soreness)",
     "returnDate": "2026-10-14"
    }
   ],
@@ -141,14 +134,7 @@
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Undisclosed",
-    "returnDate": "2026-10-14"
-   },
-   {
-    "name": "Jaylin Sellers",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Back",
-    "returnDate": "2026-10-14"
+    "returnDate": "2026-10-16"
    },
    {
     "name": "Nic Claxton",
@@ -162,7 +148,7 @@
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Knee",
-    "returnDate": "2026-10-14"
+    "returnDate": "2026-10-16"
    },
    {
     "name": "Zach Collins",
@@ -215,7 +201,7 @@
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Foot (surgery)",
-    "returnDate": "2026-10-14"
+    "returnDate": "2026-10-16"
    },
    {
     "name": "Jett Howard",
@@ -236,7 +222,7 @@
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Hip",
-    "returnDate": "2026-10-14"
+    "returnDate": "2026-10-16"
    },
    {
     "name": "Morez Johnson Jr.",
@@ -260,22 +246,6 @@
     "gameTimeDecision": true,
     "reason": "Hamstring",
     "returnDate": "2026-10-22"
-   }
-  ],
-  "DET": [
-   {
-    "name": "Cade Cunningham",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Rest",
-    "returnDate": "2026-10-14"
-   },
-   {
-    "name": "Jalen Duren",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Rest",
-    "returnDate": "2026-10-14"
    }
   ],
   "GSW": [
@@ -520,11 +490,11 @@
   ],
   "MIL": [
    {
-    "name": "Brayden Burries",
+    "name": "AJ Green",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
-    "reason": "Coach's Decision",
-    "returnDate": "2026-10-14"
+    "reason": "Rest",
+    "returnDate": "2026-10-16"
    },
    {
     "name": "Gary Trent Jr.",
@@ -541,14 +511,21 @@
     "returnDate": "2026-10-16"
    },
    {
-    "name": "Kasparas Jakucionis",
+    "name": "Kevin Porter Jr.",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
-    "reason": "Coach's Decision",
-    "returnDate": "2026-10-14"
+    "reason": "Rest",
+    "returnDate": "2026-10-16"
    },
    {
     "name": "Kyle Kuzma",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Rest",
+    "returnDate": "2026-10-16"
+   },
+   {
+    "name": "Myles Turner",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Rest",
@@ -559,7 +536,14 @@
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Ankle (sprain)",
-    "returnDate": "2026-10-14"
+    "returnDate": "2026-10-16"
+   },
+   {
+    "name": "Ryan Rollins",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Rest",
+    "returnDate": "2026-10-16"
    },
    {
     "name": "Tyler Herro",
@@ -585,13 +569,6 @@
     "returnDate": "2026-10-14"
    },
    {
-    "name": "Jonathan Kuminga",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Rest",
-    "returnDate": "2026-10-14"
-   },
-   {
     "name": "Rocco Zikarsky",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
@@ -612,7 +589,7 @@
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Toe (bruise)",
-    "returnDate": "2026-10-14"
+    "returnDate": "2026-10-16"
    }
   ],
   "NYK": [
@@ -804,7 +781,7 @@
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Rest",
-    "returnDate": "2026-10-14"
+    "returnDate": "2026-10-16"
    },
    {
     "name": "Devin Booker",
@@ -818,28 +795,28 @@
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Rest",
-    "returnDate": "2026-10-14"
+    "returnDate": "2026-10-16"
    },
    {
     "name": "Jalen Green",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Rest",
-    "returnDate": "2026-10-14"
+    "returnDate": "2026-10-16"
    },
    {
     "name": "Miles Bridges",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Ankle",
-    "returnDate": "2026-10-14"
+    "returnDate": "2026-10-16"
    },
    {
     "name": "Oso Ighodaro",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Rest",
-    "returnDate": "2026-10-14"
+    "returnDate": "2026-10-16"
    }
   ],
   "POR": [
@@ -930,13 +907,6 @@
     "gameTimeDecision": false,
     "reason": "Knee (surgery)",
     "returnDate": "2026-12-01"
-   },
-   {
-    "name": "Carter Bryant",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Ankle",
-    "returnDate": "2026-10-14"
    },
    {
     "name": "Julian Champagnie",

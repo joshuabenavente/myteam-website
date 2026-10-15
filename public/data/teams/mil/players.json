@@ -1,7 +1,7 @@
 {
  "season": "2026-27",
  "lastSeason": "2025-26",
- "updatedAt": "2026-10-14T05:05:17.455Z",
+ "updatedAt": "2026-10-15T00:17:44.440Z",
  "teamGamesPlayed": {
   "regular": 0,
   "playoffs": 0
@@ -574,6 +574,43 @@
      "threeAttempted": 75,
      "ftMade": 4,
      "ftAttempted": 8
+    }
+   },
+   "lastToDate": {}
+  },
+  {
+   "id": "ryanco01",
+   "name": "Cormac Ryan",
+   "position": "G",
+   "twoWay": true,
+   "bio": {
+    "height": "6' 5\"",
+    "weight": 195,
+    "birthDate": "1998-10-26",
+    "experience": 1,
+    "college": "North Carolina",
+    "birthPlace": "New York, NY"
+   },
+   "number": "30",
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4397114.png",
+   "current": {},
+   "lastFull": {
+    "regular": {
+     "games": 11,
+     "started": 2,
+     "minutes": 270.8,
+     "points": 157,
+     "rebounds": 28,
+     "assists": 19,
+     "steals": 11,
+     "blocks": 3,
+     "turnovers": 17,
+     "fgMade": 53,
+     "fgAttempted": 102,
+     "threeMade": 27,
+     "threeAttempted": 59,
+     "ftMade": 24,
+     "ftAttempted": 26
     }
    },
    "lastToDate": {}
