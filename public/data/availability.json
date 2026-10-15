@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-15T02:17:48.990Z",
+ "updatedAt": "2026-10-15T03:17:50.925Z",
  "teams": {
   "ATL": [
    {
@@ -222,6 +222,13 @@
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Rest",
+    "returnDate": "2026-10-16"
+   },
+   {
+    "name": "Moussa Cisse",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Ankle (sprain)",
     "returnDate": "2026-10-16"
    },
    {
@@ -485,7 +492,7 @@
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Calf (strain)",
-    "returnDate": "2026-10-14"
+    "returnDate": "2026-10-16"
    },
    {
     "name": "Pelle Larsson",
@@ -573,14 +580,14 @@
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Shoulder",
-    "returnDate": "2026-10-14"
+    "returnDate": "2026-10-16"
    },
    {
     "name": "Rocco Zikarsky",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Undisclosed",
-    "returnDate": "2026-10-14"
+    "returnDate": "2026-10-16"
    }
   ],
   "NOP": [
