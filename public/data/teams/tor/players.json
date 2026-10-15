@@ -1,7 +1,7 @@
 {
  "season": "2026-27",
  "lastSeason": "2025-26",
- "updatedAt": "2026-10-15T17:17:35.231Z",
+ "updatedAt": "2026-10-15T23:17:33.826Z",
  "teamGamesPlayed": {
   "regular": 0,
   "playoffs": 0
@@ -637,40 +637,6 @@
      "threeAttempted": 21,
      "ftMade": 15,
      "ftAttempted": 19
-    }
-   },
-   "lastToDate": {}
-  },
-  {
-   "id": "jemistr01",
-   "name": "Trey Jemison",
-   "position": "C",
-   "twoWay": true,
-   "bio": {
-    "height": "6' 10\"",
-    "weight": 270,
-    "birthDate": "1999-11-28",
-    "experience": 3,
-    "college": "Clemson, UAB"
-   },
-   "current": {},
-   "lastFull": {
-    "regular": {
-     "games": 13,
-     "started": 0,
-     "minutes": 81.7,
-     "points": 13,
-     "rebounds": 18,
-     "assists": 5,
-     "steals": 1,
-     "blocks": 2,
-     "turnovers": 10,
-     "fgMade": 6,
-     "fgAttempted": 10,
-     "threeMade": 0,
-     "threeAttempted": 0,
-     "ftMade": 1,
-     "ftAttempted": 1
     }
    },
    "lastToDate": {}

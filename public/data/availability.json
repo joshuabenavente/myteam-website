@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-15T22:17:52.175Z",
+ "updatedAt": "2026-10-15T23:17:49.772Z",
  "teams": {
   "ATL": [
    {
@@ -301,27 +301,6 @@
   ],
   "HOU": [
    {
-    "name": "Alperen Sengun",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Rest",
-    "returnDate": "2026-10-15"
-   },
-   {
-    "name": "Fred VanVleet",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Rest",
-    "returnDate": "2026-10-15"
-   },
-   {
-    "name": "Kevin Durant",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Not Injury Related",
-    "returnDate": "2026-10-15"
-   },
-   {
     "name": "Steven Adams",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
@@ -417,6 +396,13 @@
     "gameTimeDecision": false,
     "reason": "Achilles (surgery)",
     "returnDate": "2026-11-08"
+   },
+   {
+    "name": "Chucky Hepburn",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Hamstring",
+    "returnDate": "2026-11-06"
    },
    {
     "name": "Nate Bittle",
