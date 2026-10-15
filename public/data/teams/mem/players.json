@@ -1,7 +1,7 @@
 {
  "season": "2026-27",
  "lastSeason": "2025-26",
- "updatedAt": "2026-10-15T03:17:46.863Z",
+ "updatedAt": "2026-10-15T09:17:59.730Z",
  "teamGamesPlayed": {
   "regular": 0,
   "playoffs": 0
@@ -685,6 +685,22 @@
      "ftAttempted": 23
     }
    },
+   "lastToDate": {}
+  },
+  {
+   "id": "cleveza01",
+   "name": "Zach Cleveland",
+   "position": "F",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 7\"",
+    "weight": 219,
+    "birthDate": "2004-03-12",
+    "experience": 0,
+    "college": "Liberty"
+   },
+   "current": {},
+   "lastFull": {},
    "lastToDate": {}
   },
   {
