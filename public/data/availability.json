@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-16T03:17:54.988Z",
+ "updatedAt": "2026-10-16T19:17:58.541Z",
  "teams": {
   "ATL": [
    {
@@ -78,10 +78,10 @@
   "BKN": [
    {
     "name": "Joshua Jefferson",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
+    "status": "Out",
+    "gameTimeDecision": false,
     "reason": "Back",
-    "returnDate": "2026-10-21"
+    "returnDate": "2026-10-24"
    }
   ],
   "CHA": [
@@ -764,13 +764,6 @@
    },
    {
     "name": "Devin Booker",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Rest",
-    "returnDate": "2026-10-16"
-   },
-   {
-    "name": "Dillon Brooks",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Rest",
