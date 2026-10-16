@@ -1,7 +1,7 @@
 {
  "season": "2026-27",
  "lastSeason": "2025-26",
- "updatedAt": "2026-10-15T20:17:45.414Z",
+ "updatedAt": "2026-10-16T02:17:52.816Z",
  "teamGamesPlayed": {
   "regular": 0,
   "playoffs": 0
@@ -802,6 +802,22 @@
    "lastToDate": {}
   },
   {
+   "id": "taitjan01",
+   "name": "Aniwaniwa Tait-Jones",
+   "position": "F",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 6\"",
+    "weight": 200,
+    "birthDate": "2001-01-05",
+    "experience": 0,
+    "college": "Hawaii–Hilo, UC San Diego"
+   },
+   "current": {},
+   "lastFull": {},
+   "lastToDate": {}
+  },
+  {
    "id": "castrra01",
    "name": "Rafael Castro",
    "position": "C",
@@ -813,22 +829,6 @@
     "experience": 0,
     "college": "George Washington",
     "birthPlace": "Dover, NJ"
-   },
-   "current": {},
-   "lastFull": {},
-   "lastToDate": {}
-  },
-  {
-   "id": "swideco01",
-   "name": "Cole Swider",
-   "position": "F",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 8\"",
-    "weight": 220,
-    "birthDate": "1999-05-08",
-    "experience": 3,
-    "college": "Villanova, Syracuse"
    },
    "current": {},
    "lastFull": {},

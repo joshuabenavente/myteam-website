@@ -1,7 +1,7 @@
 {
  "season": "2026-27",
  "lastSeason": "2025-26",
- "updatedAt": "2026-10-15T20:17:33.841Z",
+ "updatedAt": "2026-10-16T02:17:36.993Z",
  "teamGamesPlayed": {
   "regular": 0,
   "playoffs": 0
@@ -633,38 +633,20 @@
    "lastToDate": {}
   },
   {
-   "id": "peterda02",
-   "name": "Darryn Peterson",
+   "id": "batesta01",
+   "name": "Tamar Bates",
    "position": "G",
-   "twoWay": false,
+   "twoWay": true,
    "bio": {
-    "height": "6' 5\"",
-    "weight": 199,
-    "birthDate": "2007-01-17",
+    "height": "6' 4\"",
+    "weight": 195,
+    "birthDate": "2003-02-21",
     "experience": 0,
-    "college": "Kansas",
-    "birthPlace": "Canton, OH"
+    "college": "Missouri",
+    "birthPlace": "Kansas City, KS"
    },
-   "number": "22",
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5041955.png",
-   "current": {},
-   "lastFull": {},
-   "lastToDate": {}
-  },
-  {
-   "id": "funkta01",
-   "name": "Taylor Funk",
-   "position": "F",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 8\"",
-    "weight": 230,
-    "birthDate": "1997-11-06",
-    "experience": 0,
-    "college": "Utah State",
-    "birthPlace": "Lancaster, PA"
-   },
-   "number": "33",
+   "number": "0",
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4683933.png",
    "current": {},
    "lastFull": {},
    "lastToDate": {}
@@ -689,20 +671,20 @@
    "lastToDate": {}
   },
   {
-   "id": "batesta01",
-   "name": "Tamar Bates",
+   "id": "peterda02",
+   "name": "Darryn Peterson",
    "position": "G",
-   "twoWay": true,
+   "twoWay": false,
    "bio": {
-    "height": "6' 4\"",
-    "weight": 195,
-    "birthDate": "2003-02-21",
+    "height": "6' 5\"",
+    "weight": 199,
+    "birthDate": "2007-01-17",
     "experience": 0,
-    "college": "Missouri",
-    "birthPlace": "Kansas City, KS"
+    "college": "Kansas",
+    "birthPlace": "Canton, OH"
    },
-   "number": "0",
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4683933.png",
+   "number": "22",
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5041955.png",
    "current": {},
    "lastFull": {},
    "lastToDate": {}
