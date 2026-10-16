@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-16T19:17:58.541Z",
+ "updatedAt": "2026-10-16T22:17:52.772Z",
  "teams": {
   "ATL": [
    {
@@ -324,25 +324,18 @@
     "returnDate": "2026-10-21"
    },
    {
-    "name": "Andrew Nembhard",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Undisclosed",
-    "returnDate": "2026-10-16"
-   },
-   {
     "name": "Jarace Walker",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Undisclosed",
-    "returnDate": "2026-10-16"
+    "returnDate": "2026-10-21"
    },
    {
     "name": "T.J. McConnell",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Undisclosed",
-    "returnDate": "2026-10-16"
+    "returnDate": "2026-10-21"
    }
   ],
   "LAC": [
@@ -405,10 +398,45 @@
     "returnDate": "2026-11-06"
    },
    {
+    "name": "Immanuel Quickley",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Rest",
+    "returnDate": "2026-10-21"
+   },
+   {
+    "name": "Jakob Poeltl",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Rest",
+    "returnDate": "2026-10-21"
+   },
+   {
+    "name": "Kawhi Leonard",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Rest",
+    "returnDate": "2026-10-21"
+   },
+   {
     "name": "Nate Bittle",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Foot",
+    "returnDate": "2026-10-21"
+   },
+   {
+    "name": "RJ Barrett",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Rest",
+    "returnDate": "2026-10-21"
+   },
+   {
+    "name": "Scottie Barnes",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Rest",
     "returnDate": "2026-10-21"
    }
   ],
@@ -471,28 +499,21 @@
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Groin",
-    "returnDate": "2026-10-16"
+    "returnDate": "2026-10-21"
    },
    {
     "name": "Dru Smith",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Calf (strain)",
-    "returnDate": "2026-10-16"
+    "returnDate": "2026-10-21"
    },
    {
-    "name": "Kylor Kelley",
+    "name": "Giannis Antetokounmpo",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
-    "reason": "Calf (strain)",
-    "returnDate": "2026-10-16"
-   },
-   {
-    "name": "Pelle Larsson",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Illness",
-    "returnDate": "2026-10-16"
+    "reason": "Rest",
+    "returnDate": "2026-10-21"
    }
   ],
   "MIL": [
@@ -665,21 +686,14 @@
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Ankle (sprain)",
-    "returnDate": "2026-10-16"
+    "returnDate": "2026-10-21"
    },
    {
     "name": "Jonathan Isaac",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Knee (sprain)",
-    "returnDate": "2026-10-16"
-   },
-   {
-    "name": "Nikola Vucevic",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Rest",
-    "returnDate": "2026-10-16"
+    "returnDate": "2026-10-21"
    }
   ],
   "PHI": [
@@ -712,28 +726,7 @@
     "returnDate": "2026-10-16"
    },
    {
-    "name": "Jaylen Brown",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Rest",
-    "returnDate": "2026-10-16"
-   },
-   {
-    "name": "Joel Embiid",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Rest",
-    "returnDate": "2026-10-16"
-   },
-   {
     "name": "Kentavious Caldwell-Pope",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Rest",
-    "returnDate": "2026-10-16"
-   },
-   {
-    "name": "LeBron James",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Rest",
@@ -745,6 +738,13 @@
     "gameTimeDecision": true,
     "reason": "Hip",
     "returnDate": "2026-10-16"
+   },
+   {
+    "name": "VJ Edgecombe",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Rest",
+    "returnDate": "2026-10-20"
    }
   ],
   "PHX": [
@@ -886,27 +886,6 @@
     "gameTimeDecision": false,
     "reason": "Knee (surgery)",
     "returnDate": "2026-12-01"
-   },
-   {
-    "name": "Julian Champagnie",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Rest",
-    "returnDate": "2026-10-16"
-   },
-   {
-    "name": "Keldon Johnson",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Rest",
-    "returnDate": "2026-10-16"
-   },
-   {
-    "name": "Luke Kornet",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Rest",
-    "returnDate": "2026-10-16"
    },
    {
     "name": "Tobias Harris",
