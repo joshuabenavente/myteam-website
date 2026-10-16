@@ -1,7 +1,7 @@
 {
  "season": "2026-27",
  "lastSeason": "2025-26",
- "updatedAt": "2026-10-15T18:17:39.416Z",
+ "updatedAt": "2026-10-16T00:17:45.048Z",
  "teamGamesPlayed": {
   "regular": 0,
   "playoffs": 0
@@ -746,6 +746,23 @@
      "ftAttempted": 7
     }
    },
+   "lastToDate": {}
+  },
+  {
+   "id": "bezhagi01",
+   "name": "Giorgi Bezhanishvili",
+   "position": "F",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 9\"",
+    "weight": 245,
+    "birthDate": "1998-11-16",
+    "experience": 0,
+    "college": "Illinois",
+    "birthPlace": "Rustavi Georgin, Georgia"
+   },
+   "current": {},
+   "lastFull": {},
    "lastToDate": {}
   },
   {

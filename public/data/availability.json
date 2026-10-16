@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-15T23:17:49.772Z",
+ "updatedAt": "2026-10-16T00:17:57.070Z",
  "teams": {
   "ATL": [
    {
@@ -599,6 +599,15 @@
     "returnDate": "2026-10-16"
    }
   ],
+  "NYK": [
+   {
+    "name": "Josh Hart",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Ankle (soreness)",
+    "returnDate": "2026-10-20"
+   }
+  ],
   "OKC": [
    {
     "name": "Otega Oweh",
@@ -606,13 +615,6 @@
     "gameTimeDecision": false,
     "reason": "Achilles (surgery)",
     "returnDate": "2027-07-01"
-   },
-   {
-    "name": "Ajay Mitchell",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Rest",
-    "returnDate": "2026-10-15"
    },
    {
     "name": "Chet Holmgren",
