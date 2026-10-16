@@ -1,7 +1,7 @@
 {
  "season": "2026-27",
  "lastSeason": "2025-26",
- "updatedAt": "2026-10-15T22:17:35.622Z",
+ "updatedAt": "2026-10-16T04:17:45.673Z",
  "teamGamesPlayed": {
   "regular": 0,
   "playoffs": 0
@@ -601,40 +601,6 @@
    "lastToDate": {}
   },
   {
-   "id": "peterta01",
-   "name": "Taelon Peter",
-   "position": "G",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 3\"",
-    "weight": 185,
-    "birthDate": "2002-02-27",
-    "experience": 1,
-    "college": "Tennessee Technological University, Arkansas Tech University, Liberty"
-   },
-   "current": {},
-   "lastFull": {
-    "regular": {
-     "games": 38,
-     "started": 0,
-     "minutes": 492.4,
-     "points": 171,
-     "rebounds": 59,
-     "assists": 40,
-     "steals": 26,
-     "blocks": 4,
-     "turnovers": 27,
-     "fgMade": 60,
-     "fgAttempted": 158,
-     "threeMade": 41,
-     "threeAttempted": 125,
-     "ftMade": 10,
-     "ftAttempted": 16
-    }
-   },
-   "lastToDate": {}
-  },
-  {
    "id": "mclaujo01",
    "name": "Jordan McLaughlin",
    "position": "G",
@@ -726,20 +692,20 @@
    "lastToDate": {}
   },
   {
-   "id": "reedjta01",
-   "name": "Tarris Reed Jr.",
-   "position": "C",
+   "id": "quainja01",
+   "name": "Jayden Quaintance",
+   "position": "F",
    "twoWay": false,
    "bio": {
     "height": "6' 10\"",
-    "weight": 270,
-    "birthDate": "2003-08-05",
+    "weight": 255,
+    "birthDate": "2007-07-11",
     "experience": 0,
-    "college": "UConn",
-    "birthPlace": "Saint Louis, MO"
+    "college": "Kentucky",
+    "birthPlace": "Cleveland, OH"
    },
-   "number": "10",
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5105809.png",
+   "number": "22",
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5101845.png",
    "current": {},
    "lastFull": {},
    "lastToDate": {}
@@ -759,22 +725,6 @@
    },
    "number": "33",
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3155937.png",
-   "current": {},
-   "lastFull": {},
-   "lastToDate": {}
-  },
-  {
-   "id": "willima11",
-   "name": "Malik Williams",
-   "position": "C",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 11\"",
-    "weight": 250,
-    "birthDate": "1998-08-26",
-    "experience": 1,
-    "college": "Louisville"
-   },
    "current": {},
    "lastFull": {},
    "lastToDate": {}
@@ -818,20 +768,20 @@
    "lastToDate": {}
   },
   {
-   "id": "quainja01",
-   "name": "Jayden Quaintance",
-   "position": "F",
+   "id": "reedjta01",
+   "name": "Tarris Reed Jr.",
+   "position": "C",
    "twoWay": false,
    "bio": {
     "height": "6' 10\"",
-    "weight": 255,
-    "birthDate": "2007-07-11",
+    "weight": 270,
+    "birthDate": "2003-08-05",
     "experience": 0,
-    "college": "Kentucky",
-    "birthPlace": "Cleveland, OH"
+    "college": "UConn",
+    "birthPlace": "Saint Louis, MO"
    },
-   "number": "22",
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5101845.png",
+   "number": "10",
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5105809.png",
    "current": {},
    "lastFull": {},
    "lastToDate": {}
