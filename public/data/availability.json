@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-17T21:17:51.966Z",
+ "updatedAt": "2026-10-17T22:17:49.443Z",
  "teams": {
   "ATL": [
    {
@@ -15,13 +15,6 @@
     "gameTimeDecision": true,
     "reason": "Foot (fracture)",
     "returnDate": "2026-10-21"
-   }
-  ],
-  "BOS": [
-   {
-    "name": "Sam Hauser",
-    "status": "Day-To-Day",
-    "gameTimeDecision": false
    }
   ],
   "BKN": [
@@ -390,13 +383,6 @@
     "returnDate": "2027-04-02"
    },
    {
-    "name": "Enrique Freeman",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Shoulder",
-    "returnDate": "2026-10-21"
-   },
-   {
     "name": "Rocco Zikarsky",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
@@ -475,6 +461,13 @@
     "returnDate": "2026-11-01"
    },
    {
+    "name": "Noah Penda",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Hamstring",
+    "returnDate": "2026-11-18"
+   },
+   {
     "name": "Anthony Black",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
@@ -500,13 +493,6 @@
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Knee (sprain)",
-    "returnDate": "2026-10-21"
-   },
-   {
-    "name": "Noah Penda",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Hamstring",
     "returnDate": "2026-10-21"
    }
   ],
