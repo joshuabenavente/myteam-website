@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-17T16:17:51.476Z",
+ "updatedAt": "2026-10-17T17:17:51.073Z",
  "teams": {
   "ATL": [
    {
@@ -342,17 +342,10 @@
     "returnDate": "2026-11-06"
    },
    {
-    "name": "Jakob Poeltl",
+    "name": "Nate Bittle",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
-    "reason": "Rest",
-    "returnDate": "2026-10-21"
-   },
-   {
-    "name": "RJ Barrett",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Rest",
+    "reason": "Foot",
     "returnDate": "2026-10-21"
    }
   ],
@@ -468,21 +461,7 @@
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Achilles (surgery)",
-    "returnDate": "2027-04-01"
-   },
-   {
-    "name": "Anthony Edwards",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Rest",
-    "returnDate": "2026-10-21"
-   },
-   {
-    "name": "Ayo Dosunmu",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Rest",
-    "returnDate": "2026-10-21"
+    "returnDate": "2027-04-02"
    },
    {
     "name": "Bones Hyland",
@@ -499,27 +478,6 @@
     "returnDate": "2026-10-21"
    },
    {
-    "name": "Jaden McDaniels",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Rest",
-    "returnDate": "2026-10-21"
-   },
-   {
-    "name": "Jonathan Kuminga",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Rest",
-    "returnDate": "2026-10-21"
-   },
-   {
-    "name": "LaMelo Ball",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Rest",
-    "returnDate": "2026-10-21"
-   },
-   {
     "name": "Rocco Zikarsky",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
@@ -529,9 +487,7 @@
    {
     "name": "Rudy Gobert",
     "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Rest",
-    "returnDate": "2026-10-21"
+    "gameTimeDecision": false
    },
    {
     "name": "Trey Lyles",
@@ -689,13 +645,6 @@
     "gameTimeDecision": true,
     "reason": "Hip",
     "returnDate": "2026-10-20"
-   },
-   {
-    "name": "VJ Edgecombe",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Rest",
-    "returnDate": "2026-10-20"
    }
   ],
   "PHX": [
@@ -717,7 +666,7 @@
     "name": "Oso Ighodaro",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
-    "reason": "Rest",
+    "reason": "Hip (soreness)",
     "returnDate": "2026-10-21"
    }
   ],
@@ -748,13 +697,6 @@
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Illness",
-    "returnDate": "2026-10-21"
-   },
-   {
-    "name": "Robert Williams III",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Rest",
     "returnDate": "2026-10-21"
    }
   ],
