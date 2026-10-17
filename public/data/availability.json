@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-17T02:17:49.986Z",
+ "updatedAt": "2026-10-17T03:17:52.958Z",
  "teams": {
   "ATL": [
    {
@@ -111,7 +111,7 @@
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Knee (soreness)",
-    "returnDate": "2026-10-16"
+    "returnDate": "2026-10-21"
    },
    {
     "name": "Kon Knueppel",
@@ -461,6 +461,13 @@
     "gameTimeDecision": true,
     "reason": "Lower Leg",
     "returnDate": "2026-10-21"
+   },
+   {
+    "name": "Jarred Vanderbilt",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Undisclosed",
+    "returnDate": "2026-10-21"
    }
   ],
   "MEM": [
@@ -537,13 +544,6 @@
     "gameTimeDecision": true,
     "reason": "Undisclosed",
     "returnDate": "2026-10-21"
-   },
-   {
-    "name": "Kevin Porter Jr.",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Rest",
-    "returnDate": "2026-10-16"
    },
    {
     "name": "Nate Ament",
@@ -772,14 +772,14 @@
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Back",
-    "returnDate": "2026-10-16"
+    "returnDate": "2026-10-20"
    },
    {
     "name": "Tacko Fall",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Hip",
-    "returnDate": "2026-10-16"
+    "returnDate": "2026-10-20"
    },
    {
     "name": "VJ Edgecombe",
@@ -939,13 +939,6 @@
     "gameTimeDecision": true,
     "reason": "Ankle",
     "returnDate": "2026-10-21"
-   },
-   {
-    "name": "Khris Middleton",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Rest",
-    "returnDate": "2026-10-16"
    }
   ]
  }
