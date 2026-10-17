@@ -1,7 +1,7 @@
 {
  "season": "2026-27",
  "lastSeason": "2025-26",
- "updatedAt": "2026-10-17T03:17:37.073Z",
+ "updatedAt": "2026-10-17T09:17:39.361Z",
  "teamGamesPlayed": {
   "regular": 0,
   "playoffs": 0
@@ -344,7 +344,7 @@
    "id": "blackle01",
    "name": "Leaky Black",
    "position": "F",
-   "twoWay": false,
+   "twoWay": true,
    "bio": {
     "height": "6' 6\"",
     "weight": 209,

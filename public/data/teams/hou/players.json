@@ -1,7 +1,7 @@
 {
  "season": "2026-27",
  "lastSeason": "2025-26",
- "updatedAt": "2026-10-17T03:17:44.902Z",
+ "updatedAt": "2026-10-17T09:17:51.081Z",
  "teamGamesPlayed": {
   "regular": 0,
   "playoffs": 0
@@ -726,6 +726,23 @@
      "ftAttempted": 0
     }
    },
+   "lastToDate": {}
+  },
+  {
+   "id": "matthca01",
+   "name": "Cameron Matthews",
+   "position": "F",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 7\"",
+    "weight": 235,
+    "birthDate": "2001-12-23",
+    "experience": 0,
+    "college": "Mississippi State",
+    "birthPlace": "Olive Branch, MS"
+   },
+   "current": {},
+   "lastFull": {},
    "lastToDate": {}
   },
   {

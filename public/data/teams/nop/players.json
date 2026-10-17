@@ -1,7 +1,7 @@
 {
  "season": "2026-27",
  "lastSeason": "2025-26",
- "updatedAt": "2026-10-17T03:17:52.852Z",
+ "updatedAt": "2026-10-17T09:18:03.547Z",
  "teamGamesPlayed": {
   "regular": 0,
   "playoffs": 0
@@ -646,6 +646,40 @@
      "threeAttempted": 26,
      "ftMade": 11,
      "ftAttempted": 12
+    }
+   },
+   "lastToDate": {}
+  },
+  {
+   "id": "dickihu01",
+   "name": "Hunter Dickinson",
+   "position": "C",
+   "twoWay": false,
+   "bio": {
+    "height": "7' 1\"",
+    "weight": 255,
+    "birthDate": "2000-11-25",
+    "experience": 1,
+    "college": "Michigan, Kansas"
+   },
+   "current": {},
+   "lastFull": {
+    "regular": {
+     "games": 5,
+     "started": 0,
+     "minutes": 42.5,
+     "points": 12,
+     "rebounds": 5,
+     "assists": 2,
+     "steals": 1,
+     "blocks": 2,
+     "turnovers": 3,
+     "fgMade": 5,
+     "fgAttempted": 14,
+     "threeMade": 0,
+     "threeAttempted": 4,
+     "ftMade": 2,
+     "ftAttempted": 2
     }
    },
    "lastToDate": {}
