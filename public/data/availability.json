@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-16T23:17:56.129Z",
+ "updatedAt": "2026-10-17T00:17:49.880Z",
  "teams": {
   "ATL": [
    {
@@ -10,13 +10,6 @@
     "returnDate": "2027-07-01"
    },
    {
-    "name": "Keshon Gilbert",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Knee (tendinitis)",
-    "returnDate": "2026-10-16"
-   },
-   {
     "name": "Mouhamed Gueye",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
@@ -25,13 +18,6 @@
    }
   ],
   "BOS": [
-   {
-    "name": "Baylor Scheierman",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Rest",
-    "returnDate": "2026-10-20"
-   },
    {
     "name": "Derrick White",
     "status": "Day-To-Day",
@@ -618,11 +604,32 @@
     "returnDate": "2026-10-21"
    },
    {
+    "name": "Bones Hyland",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Rest",
+    "returnDate": "2026-10-21"
+   },
+   {
     "name": "Enrique Freeman",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Shoulder",
-    "returnDate": "2026-10-16"
+    "returnDate": "2026-10-21"
+   },
+   {
+    "name": "Jaden McDaniels",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Rest",
+    "returnDate": "2026-10-21"
+   },
+   {
+    "name": "Jonathan Kuminga",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Rest",
+    "returnDate": "2026-10-21"
    },
    {
     "name": "LaMelo Ball",
@@ -636,10 +643,17 @@
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Undisclosed",
-    "returnDate": "2026-10-16"
+    "returnDate": "2026-10-21"
    },
    {
     "name": "Rudy Gobert",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Rest",
+    "returnDate": "2026-10-21"
+   },
+   {
+    "name": "Trey Lyles",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Rest",
@@ -728,6 +742,13 @@
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Knee (sprain)",
+    "returnDate": "2026-10-21"
+   },
+   {
+    "name": "Noah Penda",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Hamstring",
     "returnDate": "2026-10-21"
    }
   ],
@@ -858,53 +879,11 @@
     "returnDate": "2026-11-02"
    },
    {
-    "name": "Ben Simmons",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Rest",
-    "returnDate": "2026-10-16"
-   },
-   {
-    "name": "Darius Acuff Jr.",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Rest",
-    "returnDate": "2026-10-16"
-   },
-   {
-    "name": "De'Andre Hunter",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Rest",
-    "returnDate": "2026-10-16"
-   },
-   {
-    "name": "Domantas Sabonis",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Undisclosed",
-    "returnDate": "2026-10-16"
-   },
-   {
     "name": "Malik Monk",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
-    "reason": "Rest",
-    "returnDate": "2026-10-16"
-   },
-   {
-    "name": "Precious Achiuwa",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Ankle",
-    "returnDate": "2026-10-16"
-   },
-   {
-    "name": "Zach LaVine",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Rest",
-    "returnDate": "2026-10-16"
+    "reason": "Ankle (soreness)",
+    "returnDate": "2026-10-21"
    }
   ],
   "SAS": [
@@ -960,13 +939,6 @@
     "gameTimeDecision": false,
     "reason": "Hip",
     "returnDate": "2026-11-02"
-   },
-   {
-    "name": "Anthony Davis",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Rest",
-    "returnDate": "2026-10-16"
    },
    {
     "name": "Khris Middleton",
