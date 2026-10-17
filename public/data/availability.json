@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-17T00:17:49.880Z",
+ "updatedAt": "2026-10-17T01:17:51.448Z",
  "teams": {
   "ATL": [
    {
@@ -227,18 +227,18 @@
   ],
   "DEN": [
    {
-    "name": "DeMar DeRozan",
+    "name": "Julian Strawther",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Knee (sprain)",
+    "returnDate": "2026-11-29"
+   },
+   {
+    "name": "Aaron Gordon",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Rest",
-    "returnDate": "2026-10-16"
-   },
-   {
-    "name": "Julian Strawther",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Knee",
-    "returnDate": "2026-10-16"
+    "returnDate": "2026-10-22"
    },
    {
     "name": "Spencer Jones",
@@ -272,13 +272,6 @@
    },
    {
     "name": "Al Horford",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Rest",
-    "returnDate": "2026-10-16"
-   },
-   {
-    "name": "Draymond Green",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Rest",
@@ -453,35 +446,21 @@
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Undisclosed",
-    "returnDate": "2026-10-16"
+    "returnDate": "2026-10-21"
    },
    {
     "name": "Cameron Carr",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Undisclosed (bruise)",
-    "returnDate": "2026-10-16"
+    "returnDate": "2026-10-21"
    },
    {
     "name": "Collin Sexton",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Lower Leg",
-    "returnDate": "2026-10-16"
-   },
-   {
-    "name": "Luka Doncic",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Rest",
-    "returnDate": "2026-10-16"
-   },
-   {
-    "name": "Ziaire Williams",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Foot (bruise)",
-    "returnDate": "2026-10-16"
+    "returnDate": "2026-10-21"
    }
   ],
   "MEM": [
@@ -805,46 +784,18 @@
     "returnDate": "2027-02-03"
    },
    {
-    "name": "Collin Gillespie",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Rest",
-    "returnDate": "2026-10-16"
-   },
-   {
-    "name": "Devin Booker",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Rest",
-    "returnDate": "2026-10-16"
-   },
-   {
-    "name": "Jalen Green",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Rest",
-    "returnDate": "2026-10-16"
-   },
-   {
     "name": "Luke Kennard",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
-    "reason": "Knee",
+    "reason": "Knee (strain)",
     "returnDate": "2026-10-21"
-   },
-   {
-    "name": "Miles Bridges",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Ankle",
-    "returnDate": "2026-10-16"
    },
    {
     "name": "Oso Ighodaro",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Rest",
-    "returnDate": "2026-10-16"
+    "returnDate": "2026-10-21"
    }
   ],
   "POR": [
@@ -860,7 +811,28 @@
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Calf (soreness)",
-    "returnDate": "2026-10-16"
+    "returnDate": "2026-10-21"
+   },
+   {
+    "name": "Jrue Holiday",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Hand (soreness)",
+    "returnDate": "2026-10-21"
+   },
+   {
+    "name": "Micah Potter",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Illness",
+    "returnDate": "2026-10-21"
+   },
+   {
+    "name": "Robert Williams III",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Rest",
+    "returnDate": "2026-10-21"
    }
   ],
   "SAC": [
