@@ -1,7 +1,7 @@
 {
  "season": "2026-27",
  "lastSeason": "2025-26",
- "updatedAt": "2026-10-17T04:17:47.854Z",
+ "updatedAt": "2026-10-17T10:17:52.283Z",
  "teamGamesPlayed": {
   "regular": 0,
   "playoffs": 0
@@ -602,43 +602,6 @@
    "lastToDate": {}
   },
   {
-   "id": "agbajoc01",
-   "name": "Ochai Agbaji",
-   "position": "G",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 5\"",
-    "weight": 215,
-    "birthDate": "2000-04-20",
-    "experience": 4,
-    "college": "Kansas",
-    "birthPlace": "Kansas City, MO"
-   },
-   "number": "30",
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4397018.png",
-   "current": {},
-   "lastFull": {
-    "regular": {
-     "games": 62,
-     "started": 13,
-     "minutes": 973.7,
-     "points": 314,
-     "rebounds": 141,
-     "assists": 47,
-     "steals": 24,
-     "blocks": 17,
-     "turnovers": 31,
-     "fgMade": 122,
-     "fgAttempted": 280,
-     "threeMade": 34,
-     "threeAttempted": 128,
-     "ftMade": 36,
-     "ftAttempted": 43
-    }
-   },
-   "lastToDate": {}
-  },
-  {
    "id": "kolekty01",
    "name": "Tyler Kolek",
    "position": "G",
@@ -741,97 +704,6 @@
      "threeAttempted": 6,
      "ftMade": 0,
      "ftAttempted": 0
-    }
-   },
-   "lastToDate": {}
-  },
-  {
-   "id": "eubandr01",
-   "name": "Drew Eubanks",
-   "position": "F",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 10\"",
-    "weight": 245,
-    "birthDate": "1997-02-01",
-    "experience": 8,
-    "college": "Oregon State",
-    "birthPlace": "Troutdale, OR"
-   },
-   "number": "19",
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3914285.png",
-   "current": {},
-   "lastFull": {
-    "regular": {
-     "games": 42,
-     "started": 11,
-     "minutes": 552.8,
-     "points": 219,
-     "rebounds": 127,
-     "assists": 19,
-     "steals": 15,
-     "blocks": 26,
-     "turnovers": 30,
-     "fgMade": 93,
-     "fgAttempted": 156,
-     "threeMade": 1,
-     "threeAttempted": 7,
-     "ftMade": 32,
-     "ftAttempted": 57
-    }
-   },
-   "lastToDate": {}
-  },
-  {
-   "id": "bradlto01",
-   "name": "Tony Bradley",
-   "position": "F-C",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 10\"",
-    "weight": 248,
-    "birthDate": "1998-01-08",
-    "experience": 8,
-    "college": "North Carolina",
-    "birthPlace": "Bartow, FL"
-   },
-   "number": "18",
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4065673.png",
-   "current": {},
-   "lastFull": {
-    "regular": {
-     "games": 41,
-     "started": 4,
-     "minutes": 450.6,
-     "points": 162,
-     "rebounds": 116,
-     "assists": 22,
-     "steals": 6,
-     "blocks": 7,
-     "turnovers": 18,
-     "fgMade": 64,
-     "fgAttempted": 117,
-     "threeMade": 2,
-     "threeAttempted": 4,
-     "ftMade": 32,
-     "ftAttempted": 43
-    },
-    "playoffs": {
-     "games": 4,
-     "started": 0,
-     "minutes": 40.7,
-     "points": 11,
-     "rebounds": 11,
-     "assists": 3,
-     "steals": 2,
-     "blocks": 3,
-     "turnovers": 1,
-     "fgMade": 3,
-     "fgAttempted": 4,
-     "threeMade": 1,
-     "threeAttempted": 1,
-     "ftMade": 4,
-     "ftAttempted": 6
     }
    },
    "lastToDate": {}
