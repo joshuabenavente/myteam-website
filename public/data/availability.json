@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-17T01:17:51.448Z",
+ "updatedAt": "2026-10-17T02:17:49.986Z",
  "teams": {
   "ATL": [
    {
@@ -532,18 +532,11 @@
   ],
   "MIL": [
    {
-    "name": "AJ Green",
+    "name": "Jericho Sims",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
-    "reason": "Rest",
-    "returnDate": "2026-10-16"
-   },
-   {
-    "name": "Gary Trent Jr.",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Rest",
-    "returnDate": "2026-10-16"
+    "reason": "Undisclosed",
+    "returnDate": "2026-10-21"
    },
    {
     "name": "Kevin Porter Jr.",
@@ -557,7 +550,7 @@
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Ankle (sprain)",
-    "returnDate": "2026-10-16"
+    "returnDate": "2026-10-21"
    }
   ],
   "MIN": [
@@ -717,6 +710,20 @@
     "returnDate": "2026-10-21"
    },
    {
+    "name": "Franz Wagner",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Shoulder (soreness)",
+    "returnDate": "2026-10-21"
+   },
+   {
+    "name": "Jase Richardson",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Back (soreness)",
+    "returnDate": "2026-10-21"
+   },
+   {
     "name": "Jonathan Isaac",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
@@ -751,6 +758,13 @@
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Hamstring",
+    "returnDate": "2026-10-20"
+   },
+   {
+    "name": "Dean Wade",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Ankle (sprain)",
     "returnDate": "2026-10-20"
    },
    {
@@ -887,13 +901,20 @@
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Hip",
-    "returnDate": "2026-10-16"
+    "returnDate": "2026-10-21"
    },
    {
     "name": "Kyle Filipowski",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Back",
+    "returnDate": "2026-10-21"
+   },
+   {
+    "name": "Trey Alexander",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Knee",
     "returnDate": "2026-10-21"
    }
   ],
@@ -911,6 +932,13 @@
     "gameTimeDecision": false,
     "reason": "Hip",
     "returnDate": "2026-11-02"
+   },
+   {
+    "name": "AJ Dybantsa",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Ankle",
+    "returnDate": "2026-10-21"
    },
    {
     "name": "Khris Middleton",
