@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-18T17:17:58.996Z",
+ "updatedAt": "2026-10-18T23:17:51.239Z",
  "teams": {
   "ATL": [
    {
@@ -596,6 +596,13 @@
    }
   ],
   "SAC": [
+   {
+    "name": "Ben Simmons",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Achilles (ruptured)",
+    "returnDate": "2027-10-01"
+   },
    {
     "name": "Dylan Cardwell",
     "status": "Out",
