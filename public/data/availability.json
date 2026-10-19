@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-19T20:17:51.973Z",
+ "updatedAt": "2026-10-19T21:17:51.717Z",
  "teams": {
   "ATL": [
    {
@@ -328,13 +328,6 @@
     "returnDate": "2026-10-21"
    },
    {
-    "name": "Dalton Knecht",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Illness",
-    "returnDate": "2026-10-21"
-   },
-   {
     "name": "Jarred Vanderbilt",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
@@ -362,13 +355,6 @@
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Undisclosed (soreness)",
-    "returnDate": "2026-10-21"
-   },
-   {
-    "name": "Micah Peavy",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Ankle",
     "returnDate": "2026-10-21"
    }
   ],
@@ -533,6 +519,13 @@
     "returnDate": "2027-10-01"
    },
    {
+    "name": "Dominick Barlow",
+    "status": "Out",
+    "gameTimeDecision": true,
+    "reason": "Back",
+    "returnDate": "2026-10-20"
+   },
+   {
     "name": "Adem Bona",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
@@ -554,18 +547,11 @@
     "returnDate": "2026-10-20"
    },
    {
-    "name": "Dominick Barlow",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Back",
-    "returnDate": "2026-10-20"
-   },
-   {
     "name": "Tacko Fall",
     "status": "Day-To-Day",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Hip",
-    "returnDate": "2026-10-20"
+    "returnDate": "2026-10-22"
    }
   ],
   "PHX": [
