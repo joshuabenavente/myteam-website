@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-19T15:17:55.442Z",
+ "updatedAt": "2026-10-19T18:17:54.969Z",
  "teams": {
   "ATL": [
    {
@@ -28,11 +28,11 @@
   ],
   "BKN": [
    {
-    "name": "Joshua Jefferson",
+    "name": "Tyler Bilodeau",
     "status": "Out",
     "gameTimeDecision": false,
-    "reason": "Back",
-    "returnDate": "2026-11-16"
+    "reason": "Shoulder",
+    "returnDate": "2026-10-24"
    }
   ],
   "CHA": [
@@ -81,17 +81,17 @@
   ],
   "CHI": [
    {
+    "name": "Nic Claxton",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Hamstring",
+    "returnDate": "2026-11-04"
+   },
+   {
     "name": "Isaac Okoro",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Undisclosed",
-    "returnDate": "2026-10-21"
-   },
-   {
-    "name": "Nic Claxton",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Hamstring",
     "returnDate": "2026-10-21"
    },
    {
@@ -214,7 +214,7 @@
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Knee (surgery)",
-    "returnDate": "2027-01-01"
+    "returnDate": "2027-01-02"
    },
    {
     "name": "Aaron Nesmith",
@@ -251,7 +251,7 @@
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Shoulder (surgery)",
-    "returnDate": "2027-03-01"
+    "returnDate": "2027-03-02"
    },
    {
     "name": "Max Strus",
@@ -465,9 +465,9 @@
    {
     "name": "Izaiyah Nelson",
     "status": "Out",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Ankle (surgery)",
-    "returnDate": "2026-11-01"
+    "returnDate": "2026-11-18"
    },
    {
     "name": "Noah Penda",
@@ -638,14 +638,14 @@
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Knee (surgery)",
-    "returnDate": "2026-12-01"
+    "returnDate": "2026-12-03"
    },
    {
     "name": "Tobias Harris",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
+    "status": "Out",
+    "gameTimeDecision": false,
     "reason": "Calf (strain)",
-    "returnDate": "2026-10-20"
+    "returnDate": "2026-10-23"
    }
   ],
   "UTA": [
