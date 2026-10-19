@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-19T21:17:51.717Z",
+ "updatedAt": "2026-10-19T22:17:49.533Z",
  "teams": {
   "ATL": [
    {
@@ -424,6 +424,13 @@
   ],
   "OKC": [
    {
+    "name": "Nikola Topic",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Back (surgery)",
+    "returnDate": "2026-10-22"
+   },
+   {
     "name": "Otega Oweh",
     "status": "Out",
     "gameTimeDecision": false,
@@ -431,38 +438,17 @@
     "returnDate": "2027-07-01"
    },
    {
+    "name": "Thomas Sorber",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Knee (surgery)",
+    "returnDate": "2026-10-22"
+   },
+   {
     "name": "Cason Wallace",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Undisclosed",
-    "returnDate": "2026-10-20"
-   },
-   {
-    "name": "Chet Holmgren",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Quadriceps (bruise)",
-    "returnDate": "2026-10-20"
-   },
-   {
-    "name": "Jaylin Williams",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Heel",
-    "returnDate": "2026-10-20"
-   },
-   {
-    "name": "Nikola Topic",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Back (surgery)",
-    "returnDate": "2026-10-20"
-   },
-   {
-    "name": "Thomas Sorber",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Knee (surgery)",
     "returnDate": "2026-10-20"
    }
   ],
@@ -521,9 +507,16 @@
    {
     "name": "Dominick Barlow",
     "status": "Out",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Back",
-    "returnDate": "2026-10-20"
+    "returnDate": "2026-11-02"
+   },
+   {
+    "name": "Tacko Fall",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Hip",
+    "returnDate": "2026-10-22"
    },
    {
     "name": "Adem Bona",
@@ -545,13 +538,6 @@
     "gameTimeDecision": true,
     "reason": "Ankle (sprain)",
     "returnDate": "2026-10-20"
-   },
-   {
-    "name": "Tacko Fall",
-    "status": "Day-To-Day",
-    "gameTimeDecision": false,
-    "reason": "Hip",
-    "returnDate": "2026-10-22"
    }
   ],
   "PHX": [
