@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-19T22:17:49.533Z",
+ "updatedAt": "2026-10-19T23:17:50.616Z",
  "teams": {
   "ATL": [
    {
@@ -176,6 +176,15 @@
     "gameTimeDecision": true,
     "reason": "Hamstring",
     "returnDate": "2026-10-22"
+   }
+  ],
+  "DET": [
+   {
+    "name": "Taurean Prince",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Personal",
+    "returnDate": "2026-10-20"
    }
   ],
   "GSW": [
@@ -413,15 +422,6 @@
     "returnDate": "2026-10-21"
    }
   ],
-  "NYK": [
-   {
-    "name": "Josh Hart",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Ankle (soreness)",
-    "returnDate": "2026-10-20"
-   }
-  ],
   "OKC": [
    {
     "name": "Nikola Topic",
@@ -443,13 +443,6 @@
     "gameTimeDecision": false,
     "reason": "Knee (surgery)",
     "returnDate": "2026-10-22"
-   },
-   {
-    "name": "Cason Wallace",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Undisclosed",
-    "returnDate": "2026-10-20"
    }
   ],
   "ORL": [
