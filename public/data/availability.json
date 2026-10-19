@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-18T23:17:51.239Z",
+ "updatedAt": "2026-10-19T00:17:57.230Z",
  "teams": {
   "ATL": [
    {
@@ -199,6 +199,13 @@
     "gameTimeDecision": false,
     "reason": "Knee (surgery)",
     "returnDate": "2026-12-01"
+   },
+   {
+    "name": "Stephen Curry",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Ankle (sprain)",
+    "returnDate": "2026-10-21"
    }
   ],
   "IND": [
