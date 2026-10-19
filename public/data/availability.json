@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-19T19:18:05.937Z",
+ "updatedAt": "2026-10-19T20:17:51.973Z",
  "teams": {
   "ATL": [
    {
@@ -11,10 +11,10 @@
    },
    {
     "name": "Mouhamed Gueye",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
+    "status": "Out",
+    "gameTimeDecision": false,
     "reason": "Foot (fracture)",
-    "returnDate": "2026-10-21"
+    "returnDate": "2026-11-20"
    }
   ],
   "BOS": [
@@ -191,7 +191,7 @@
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Undisclosed",
-    "returnDate": "2026-11-09"
+    "returnDate": "2026-12-01"
    },
    {
     "name": "Moses Moody",
@@ -307,6 +307,13 @@
     "returnDate": "2026-10-21"
    },
    {
+    "name": "Bronny James",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Illness",
+    "returnDate": "2026-10-21"
+   },
+   {
     "name": "Cameron Carr",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
@@ -318,6 +325,13 @@
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Lower Leg",
+    "returnDate": "2026-10-21"
+   },
+   {
+    "name": "Dalton Knecht",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Illness",
     "returnDate": "2026-10-21"
    },
    {
