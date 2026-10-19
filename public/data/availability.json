@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-19T18:17:54.969Z",
+ "updatedAt": "2026-10-19T19:18:05.937Z",
  "teams": {
   "ATL": [
    {
@@ -201,6 +201,20 @@
     "returnDate": "2026-12-01"
    },
    {
+    "name": "Brandin Podziemski",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Back",
+    "returnDate": "2026-10-21"
+   },
+   {
+    "name": "Charles Bassey",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Knee",
+    "returnDate": "2026-10-21"
+   },
+   {
     "name": "Stephen Curry",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
@@ -396,15 +410,6 @@
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Undisclosed",
-    "returnDate": "2026-10-21"
-   }
-  ],
-  "NOP": [
-   {
-    "name": "Dejounte Murray",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Toe (bruise)",
     "returnDate": "2026-10-21"
    }
   ],
