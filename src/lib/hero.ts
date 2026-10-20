@@ -26,6 +26,15 @@ export function countdownLabel(game: Pick<Game, 'startUtc' | 'timeTbd'>, now: Da
   return days === 1 ? 'Tomorrow' : `In ${days} days`
 }
 
+/**
+ * The small heading above the countdown. "In" only fits a number of days: "tips off in 3 days",
+ * but "tips off Tonight" and "Next game Tonight".
+ */
+export function countdownEyebrow({ season, opener, days }: { season: string; opener: boolean; days: number }): string {
+  const lead = opener ? `${season} season tips off` : 'Next game'
+  return days > 0 ? `${lead} in` : lead
+}
+
 /** The team's most recent finished game, for "Last game: W 114–108 vs PHX". */
 export function lastResult<T extends Pick<Game, 'status' | 'score' | 'startUtc'>>(games: T[]): (T & { score: NonNullable<Game['score']> }) | undefined {
   const done = games.filter((g): g is T & { score: NonNullable<Game['score']> } => g.status === 'final' && !!g.score)

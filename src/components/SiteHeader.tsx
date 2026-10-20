@@ -2,7 +2,7 @@ import { useRef, useState } from 'react'
 import type { AppData } from '../lib/data.ts'
 import { formatGameDate, formatGameTime, timeZoneAbbr } from '../lib/format.ts'
 import { nextGames } from '../lib/availability.ts'
-import { countdownLabel, daysUntil, headlineChannel, headlineGame, lastResult, listedFor } from '../lib/hero.ts'
+import { countdownEyebrow, countdownLabel, daysUntil, headlineChannel, headlineGame, lastResult, listedFor } from '../lib/hero.ts'
 import { liveFor, useLive } from '../lib/live.ts'
 import { nameKey } from '../lib/names.ts'
 import { routeHref, type Route } from '../lib/route.ts'
@@ -157,7 +157,7 @@ function NextGame({ data, timeZone, onShowGame }: { data: AppData; timeZone: str
     <section className="cards-hero" aria-labelledby="hero-game-heading">
       <div className="countdown">
         <h2 id="hero-game-heading" className="eyebrow">
-          {live ? 'Live now' : score?.state === 'final' ? 'Final' : opener ? `${data.schedule.season} season tips off in` : 'Next game in'}
+          {live ? 'Live now' : score?.state === 'final' ? 'Final' : countdownEyebrow({ season: data.schedule.season, opener, days })}
           {game.type === 'playoffs' && ' · Playoffs'}
           {game.type === 'playin' && ' · Play-in'}
         </h2>

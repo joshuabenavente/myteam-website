@@ -1,5 +1,5 @@
-import { expect, it } from 'vitest'
-import { countdownLabel, headlineChannel, headlineGame, lastResult, listedFor, shortName } from './hero'
+import { describe, expect, it } from 'vitest'
+import { countdownEyebrow, countdownLabel, headlineChannel, headlineGame, lastResult, listedFor, shortName } from './hero'
 
 it('headlines a live game, otherwise the next scheduled one', () => {
   const statuses = (s: string[]) => s.map((status, i) => ({ id: String(i), status }))
@@ -70,4 +70,16 @@ it('finds the last finished game', () => {
       g('3', '2026-10-27T01:00:00Z', 'scheduled'),
     ])?.id,
   ).toBe('2')
+})
+
+describe('countdownEyebrow', () => {
+  it('says "in" only before a number of days', () => {
+    expect(countdownEyebrow({ season: '2026-27', opener: true, days: 3 })).toBe('2026-27 season tips off in')
+    expect(countdownEyebrow({ season: '2026-27', opener: false, days: 2 })).toBe('Next game in')
+  })
+
+  it('drops "in" on game day, so it reads "tips off Tonight"', () => {
+    expect(countdownEyebrow({ season: '2026-27', opener: true, days: 0 })).toBe('2026-27 season tips off')
+    expect(countdownEyebrow({ season: '2026-27', opener: false, days: 0 })).toBe('Next game')
+  })
 })
