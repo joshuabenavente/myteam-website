@@ -158,8 +158,9 @@ At completion, report each task's implementation status, files changed, tests pe
   `src/App.css`). It removed every split at a cost of 16 px card height at 320–350 px and none at
   390 px or desktop; both teams stay side by side at the same text size with every entry. The
   stacked-status candidate also fixed the splits but cost 62 px at 320 px, so it wasn't used.
-- **VIS-001 — waiting on human review.** The study protocol and today's measurements are in
-  [HUMAN_REVIEW.md](HUMAN_REVIEW.md).
+- **VIS-001 — closed, no change (owner decision, October 20, 2026).** The sideways-scrolling roster
+  table is accepted; a Basic/All stats switch is noted for the player stats pass in
+  [HUMAN_REVIEW.md](HUMAN_REVIEW.md), where the unrun test protocol is kept for reference.
 - **VIS-003 — closed.** No player-comparison use case is planned.
 - **Injury lists over the color blend — done (option 3), owner-approved October 2026.** On the
   game page's matchup card, injury text reaching into the blend in the middle fell below 4.5:1 in

@@ -2,14 +2,25 @@
 
 Items that need a person, not code. Nothing here is approved for implementation.
 
-- **VIS-001 / NBA-10** — roster stats on phones: a short in-person test (below).
 - **NBA-08** — live scores and finals: watch 2–3 games in the first week with
   [LIVE_GAME_CHECKLIST.md](LIVE_GAME_CHECKLIST.md).
 - **Later, after user feedback:** whether to add full team stats (NBA-06) and a playoff bracket (NBA-07).
+- **With the player stats pass:** a **Basic | All stats** switch on the roster table. Basic (Player,
+  PTS, REB, AST and one more) fits a 390 px phone without sideways scrolling; All shows every column
+  and scrolls as today. Default to Basic and remember the choice on the device. To decide then:
+  whether desktop shows everything regardless, and how Basic fits at 320 px. (Owner idea,
+  October 20, 2026; not approved for implementation.)
+
+## Closed
+
+- **VIS-001 / NBA-10 — roster stats on phones: closed, no change (owner decision, October 20,
+  2026).** The sideways-scrolling table is accepted: more stats are coming, so the table will scroll
+  anyway, and the Basic/All switch above covers phones when that happens. The in-person test
+  below wasn't run; it's kept for reference.
 
 ## VIS-001 — Roster stats on phones: can people find the columns offscreen?
 
-**Status:** waiting for a short in-person test (owner decision, October 2026). Background and
+**Status:** closed without the test (see Closed above). Originally: waiting for a short in-person test (owner decision, October 2026). Background and
 the decision trail are in [VISUAL_DESIGN_IMPLEMENTATION_PLAN.md](VISUAL_DESIGN_IMPLEMENTATION_PLAN.md).
 
 A 10-minute test you run in person, with 3–5 people who haven't used myteam.fans. It tests the
