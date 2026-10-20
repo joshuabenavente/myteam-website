@@ -3569,7 +3569,7 @@ main,
 
 .day-cards {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 14px;
   margin: 8px 0 0;
   padding: 0;
@@ -3577,11 +3577,11 @@ main,
 }
 
 .day-card {
+  container-type: inline-size;
   display: flex;
   flex-direction: column;
-  gap: 10px;
   height: 100%;
-  padding: 14px 16px;
+  overflow: hidden;
   border: 1px solid var(--border);
   border-radius: var(--radius-card);
   background: var(--surface);
@@ -3590,42 +3590,154 @@ main,
 }
 
 .day-card:hover {
-  border-color: var(--muted);
+  filter: brightness(1.05);
 }
 
 .day-card.mine {
   border-color: var(--skyline-text);
-  box-shadow: inset 0 0 0 1px var(--skyline-text);
+  box-shadow: 0 0 0 2px var(--skyline-text);
 }
 
-.day-card-top {
+/* Home on the left, away on the right, each in its team color, blending in the middle. */
+.day-matchup {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+  grid-template-areas: 'home center away';
+  align-items: center;
+  gap: 10px;
+  flex: 1;
+  padding: 16px 14px;
+  background: linear-gradient(90deg, var(--home-fill) 0%, var(--home-fill) 30%, var(--away-fill) 70%, var(--away-fill) 100%);
+}
+
+.day-side {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+  min-width: 0;
+}
+
+.day-side.home {
+  grid-area: home;
+  color: var(--home-text);
+}
+
+.day-side.away {
+  grid-area: away;
+  align-items: flex-end;
+  text-align: right;
+  color: var(--away-text);
+}
+
+.day-side .logo,
+.day-side .logo-fallback {
+  flex: none;
+  filter: drop-shadow(0 2px 6px rgb(0 0 0 / 25%));
+}
+
+.day-name {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  min-width: 0;
+  line-height: 1.15;
+}
+
+.day-city,
+.day-meta {
+  font-size: 0.75rem;
+  opacity: 0.85;
+}
+
+.day-nick {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-family: var(--font-heading);
+  font-size: 1.1rem;
+  font-weight: 800;
+}
+
+.day-nick.long {
+  font-size: 1rem;
+}
+
+.day-score {
+  font-family: var(--font-heading);
+  font-size: 2rem;
+  font-weight: 800;
+  line-height: 1;
+  font-variant-numeric: tabular-nums;
+}
+
+.day-side.lost .day-score {
+  opacity: 0.7;
+}
+
+/* The game page's center box: reads on any pair of team colors. */
+.day-center {
+  grid-area: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  padding: 8px 12px;
+  border-radius: 12px;
+  background: rgb(8 16 32 / 62%);
+  color: #fff;
+  text-align: center;
+}
+
+.day-when {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.75rem;
+  font-weight: var(--w-bold);
+}
+
+.day-when .live-dot {
+  background: #ff5a5f;
+}
+
+.day-clock {
+  font-family: var(--font-heading);
+  font-size: 1.05rem;
+  font-weight: 800;
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Narrow cards (phones): the time box goes above the teams so each name gets half the card. */
+@container (max-width: 420px) {
+  .day-matchup {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    grid-template-areas:
+      'center center'
+      'home away';
+    row-gap: 10px;
+  }
+
+  .day-center {
+    flex-direction: row;
+    gap: 8px;
+    justify-self: center;
+    padding: 6px 12px;
+  }
+}
+
+.day-card-foot {
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 8px;
-  min-height: 24px;
-}
-
-.day-status {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  font-size: 0.875rem;
-  font-weight: var(--w-bold);
-  font-variant-numeric: tabular-nums;
-}
-
-.day-status.live {
-  color: var(--loss);
-}
-
-.day-status.final,
-.day-status.pending,
-.day-status.postponed {
+  padding: 10px 14px;
   color: var(--muted);
+  font-size: 0.8125rem;
 }
 
 .day-tag {
+  flex: none;
   padding: 2px 8px;
   border-radius: 999px;
   background: var(--hover);
@@ -3633,50 +3745,6 @@ main,
   font-size: 0.72rem;
   font-weight: var(--w-strong);
   white-space: nowrap;
-}
-
-.day-team {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  font-size: 1.05rem;
-  font-weight: var(--w-bold);
-}
-
-.day-team .logo,
-.day-team .logo-fallback {
-  flex: none;
-}
-
-.day-team-name {
-  flex: 1;
-  min-width: 0;
-  overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-}
-
-.day-at {
-  color: var(--muted);
-  font-weight: var(--w-regular);
-}
-
-.day-score {
-  font-size: 1.35rem;
-  font-weight: 800;
-  font-variant-numeric: tabular-nums;
-}
-
-.day-team.lost {
-  color: var(--muted);
-}
-
-.day-card-foot {
-  margin-top: auto;
-  padding-top: 8px;
-  border-top: 1px solid var(--border);
-  color: var(--muted);
-  font-size: 0.8125rem;
 }
 
 .day-empty {
@@ -3697,13 +3765,7 @@ main,
   text-underline-offset: 3px;
 }
 
-@media (max-width: 900px) {
-  .day-cards {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-}
-
-@media (max-width: 560px) {
+@media (max-width: 760px) {
   .day-cards {
     grid-template-columns: minmax(0, 1fr);
     gap: 10px;

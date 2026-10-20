@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useState, type CSSProperties } from 'react'
 import { useDaysData } from '../lib/data.ts'
 import {
   cardState,
@@ -15,6 +15,7 @@ import {
 import { formatGameTime, timeZoneAbbr } from '../lib/format.ts'
 import { routeHref } from '../lib/route.ts'
 import { applyTheme, savedTeam, setAppIcons } from '../lib/team.ts'
+import { matchupColors } from '../lib/teamColors.ts'
 import { TEAMS_BY_ABBR, TEAMS_BY_SLUG, teamSlug } from '../lib/teams.ts'
 import type { DayGame } from '../lib/types.ts'
 import { useDayScores } from '../lib/useDayScores.ts'
@@ -159,6 +160,15 @@ function DayCard({ game, state, followed, followedSlug, timeZone }: CardProps) {
   const slug = mine && followedSlug ? followedSlug : teamSlug(TEAMS_BY_ABBR[game.home])
   const scored = state.kind === 'live' || state.kind === 'final'
   const winner = state.kind === 'final' ? (state.home > state.away ? game.home : state.away > state.home ? game.away : '') : ''
+  // Home on the left, away on the right, blending in the middle like the game page; a road team
+  // in colors too close to the home team's switches to its second color.
+  const [home, away] = matchupColors(game.home, game.away)
+  const style = {
+    '--home-fill': home.fill,
+    '--home-text': home.text,
+    '--away-fill': away.fill,
+    '--away-text': away.text,
+  } as CSSProperties
   const channels = dayChannels(game)
   const foot = [
     state.kind === 'scheduled' || state.kind === 'live' ? channels.map((c) => c.label).join(', ') : '',
@@ -166,18 +176,15 @@ function DayCard({ game, state, followed, followedSlug, timeZone }: CardProps) {
     game.label,
   ].filter(Boolean)
 
-  const row = (abbr: string, score: number | undefined, home: boolean) => {
+  const side = (abbr: string, score: number | undefined, where: 'home' | 'away', text: string) => {
     const team = TEAMS_BY_ABBR[abbr]
     return (
-      <span className={`day-team ${winner && winner !== abbr ? 'lost' : ''} ${winner === abbr ? 'won' : ''}`}>
-        <TeamLogo abbr={abbr} size={32} />
-        <span className="day-team-name">
-          {home && (
-            <span className="day-at" aria-hidden="true">
-              @{' '}
-            </span>
-          )}
-          {team?.name ?? abbr}
+      <span className={`day-side ${where} ${winner && winner !== abbr ? 'lost' : ''}`}>
+        <TeamLogo abbr={abbr} size={40} background={text === '#ffffff' ? 'dark' : 'light'} />
+        <span className="day-name">
+          <span className="day-city">{team?.city}</span>
+          <span className={`day-nick ${(team?.name.length ?? 0) > 10 ? 'long' : ''}`}>{team?.name ?? abbr}</span>
+          <span className="day-meta">{where === 'home' ? 'Home' : 'Away'}</span>
         </span>
         {scored && <span className="day-score">{score}</span>}
       </span>
@@ -185,21 +192,30 @@ function DayCard({ game, state, followed, followedSlug, timeZone }: CardProps) {
   }
 
   return (
-    <a className={`day-card ${state.kind} ${mine ? 'mine' : ''}`} href={routeHref({ page: 'game', id: game.id }, slug)}>
-      <span className="day-card-top">
-        <span className={`day-status ${state.kind}`}>
-          {state.kind === 'live' && <span className="live-dot" aria-hidden="true" />}
-          {state.kind === 'scheduled' && formatGameTime(game, timeZone)}
-          {state.kind === 'live' && (state.detail === 'Live' ? 'Live' : `Live · ${state.detail}`)}
-          {state.kind === 'final' && state.detail}
-          {state.kind === 'pending' && 'Result pending'}
-          {state.kind === 'postponed' && 'Postponed'}
+    <a className={`day-card ${state.kind} ${mine ? 'mine' : ''}`} href={routeHref({ page: 'game', id: game.id }, slug)} style={style}>
+      <span className="day-matchup">
+        {side(game.home, scored ? state.home : undefined, 'home', home.text)}
+        <span className={`day-center ${state.kind}`}>
+          {state.kind === 'live' && (
+            <span className="day-when">
+              <span className="live-dot" aria-hidden="true" /> Live
+            </span>
+          )}
+          <span className="day-clock">
+            {state.kind === 'scheduled' && formatGameTime(game, timeZone)}
+            {(state.kind === 'live' || state.kind === 'final') && state.detail}
+            {state.kind === 'pending' && 'Pending'}
+            {state.kind === 'postponed' && 'Postponed'}
+          </span>
         </span>
-        {mine && <span className="day-tag">Your team</span>}
+        {side(game.away, scored ? state.away : undefined, 'away', away.text)}
       </span>
-      {row(game.away, scored ? state.away : undefined, false)}
-      {row(game.home, scored ? state.home : undefined, true)}
-      {foot.length > 0 && <span className="day-card-foot">{foot.join(' · ')}</span>}
+      {(foot.length > 0 || mine) && (
+        <span className="day-card-foot">
+          <span>{foot.join(' · ')}</span>
+          {mine && <span className="day-tag">Your team</span>}
+        </span>
+      )}
     </a>
   )
 }
