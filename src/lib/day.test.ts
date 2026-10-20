@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { addDays, cardState, dayChannels, dayKeyFor, gamesOn, nextGameDay, orderForDay } from './day'
+import { cardState, dayChannels, gamesOn, nextGameDay, orderForDay } from './day'
 import type { LiveScore } from './scoreboard'
 import type { DayGame } from './types'
 
@@ -23,20 +23,6 @@ const live = (away: string, home: string, state: LiveScore['state'], a = 0, h = 
 })
 
 describe('days', () => {
-  it('moves dates by calendar days, across months and DST', () => {
-    expect(addDays('2026-10-31', 1)).toBe('2026-11-01')
-    expect(addDays('2026-11-01', -1)).toBe('2026-10-31')
-    expect(addDays('2027-03-14', 1)).toBe('2027-03-15')
-  })
-
-  it('reads yesterday, today and tomorrow in the viewer\'s time zone', () => {
-    // 1:30 AM UTC on Oct 23 is still Oct 22 in Denver.
-    const now = new Date('2026-10-23T01:30:00Z')
-    expect(dayKeyFor('today', now, 'America/Denver')).toBe('2026-10-22')
-    expect(dayKeyFor('tomorrow', now, 'America/Denver')).toBe('2026-10-23')
-    expect(dayKeyFor('yesterday', now, 'Europe/London')).toBe('2026-10-22')
-  })
-
   it('puts a late game on the evening it\'s played locally', () => {
     const late = game('1', '2026-10-23T04:30:00Z', 'DEN', 'LAL') // 9:30 PM Oct 22 in LA, 12:30 AM Oct 23 in New York
     expect(gamesOn([late], '2026-10-22', 'America/Los_Angeles')).toHaveLength(1)

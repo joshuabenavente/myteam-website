@@ -1,54 +1,38 @@
 import { useEffect, useState, type CSSProperties } from 'react'
 import { useDaysData } from '../lib/data.ts'
-import {
-  cardState,
-  dayChannels,
-  dayKeyFor,
-  DAYS,
-  gamesOn,
-  liveFor,
-  nextGameDay,
-  orderForDay,
-  type CardState,
-  type DayName,
-} from '../lib/day.ts'
-import { formatGameTime, timeZoneAbbr } from '../lib/format.ts'
+import { cardState, dayChannels, gamesOn, liveFor, nextGameDay, orderForDay, type CardState } from '../lib/day.ts'
+import { dayKey, formatGameTime, timeZoneAbbr } from '../lib/format.ts'
 import { routeHref } from '../lib/route.ts'
-import { applyTheme, savedTeam, setAppIcons } from '../lib/team.ts'
+import { applyTheme, savedTeam, setAppIcons, teamFromSlug } from '../lib/team.ts'
 import { matchupColors } from '../lib/teamColors.ts'
-import { TEAMS_BY_ABBR, TEAMS_BY_SLUG, teamSlug } from '../lib/teams.ts'
+import { TEAMS_BY_ABBR, teamSlug } from '../lib/teams.ts'
 import type { DayGame } from '../lib/types.ts'
 import { useDayScores } from '../lib/useDayScores.ts'
-import { BrandIcon, Wordmark } from './Brand.tsx'
-import { Icon } from './Icon.tsx'
+import { HeaderTop } from './HeaderTop.tsx'
 import { OfflineNote } from './OfflineNote.tsx'
 import { SiteFooter } from './SiteFooter.tsx'
 import { TeamLogo } from './TeamLogo.tsx'
-
-const LABEL: Record<DayName, string> = { yesterday: 'Yesterday', today: 'Today', tomorrow: 'Tomorrow' }
 
 /** "Thu, Oct 22" for a "YYYY-MM-DD" date. */
 const dateLabel = (key: string) =>
   new Date(`${key}T12:00:00Z`).toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric', timeZone: 'UTC' })
 
-/** Every NBA game on a day, in the viewer's time zone, with live scores while they're on. */
-export function DayPage({ day, timeZone }: { day: DayName; timeZone: string }) {
+/** Every NBA game today, in the viewer's time zone, with live scores while they're on. */
+export function TodayPage({ timeZone }: { timeZone: string }) {
   const { data, error } = useDaysData()
-  // The day is as of page load, like the countdown on team pages.
+  // "Today" is as of page load, like the countdown on team pages.
   const [now] = useState(() => new Date())
-  const key = dayKeyFor(day, now, timeZone)
+  const key = dayKey(now, timeZone)
   const games = data ? gamesOn(data.days.games, key, timeZone) : []
   const scores = useDayScores(games)
   const followedSlug = savedTeam()
-  const followed = followedSlug ? TEAMS_BY_SLUG[followedSlug] : undefined
+  const followed = followedSlug ? teamFromSlug(followedSlug) : undefined
 
   useEffect(() => {
     applyTheme()
     setAppIcons()
+    document.title = "Today's games · myteam.fans"
   }, [])
-  useEffect(() => {
-    document.title = `${LABEL[day]}'s games · myteam.fans`
-  }, [day])
 
   const cards = orderForDay(
     games.map((game) => ({ game, state: cardState(game, liveFor(scores, game)) })),
@@ -61,39 +45,13 @@ export function DayPage({ day, timeZone }: { day: DayName; timeZone: string }) {
       <a className="skip-link" href="#main">
         Skip to content
       </a>
-      <header className="site-header cards page day-header">
+      <header className="site-header cards page">
         <div className="header-inner">
-          <div className="header-top">
-            <a className="brand" href={routeHref({ page: 'home' })}>
-              <Wordmark height={30} className="brand-wide" decorative />
-              <BrandIcon size={36} glass className="brand-narrow" />
-              <span className="sr-only">myteam.fans home</span>
-            </a>
-            <div className="header-actions">
-              {followed ? (
-                <a className="team-pill" href={routeHref({ page: 'games' }, followedSlug)}>
-                  <TeamLogo abbr={followed.abbr} size={28} background="dark" />
-                  <span className="team-pill-name">{followed.name}</span>
-                  <span className="sr-only">: your team's page</span>
-                </a>
-              ) : (
-                <a className="team-pill" href={routeHref({ page: 'picker' })}>
-                  <span className="team-pill-name">Pick your team</span>
-                </a>
-              )}
-            </div>
-            <nav className="page-nav" aria-label="Day">
-              {DAYS.map((d) => (
-                <a key={d} href={routeHref({ page: 'day', day: d })} aria-current={d === day ? 'page' : undefined}>
-                  {LABEL[d]}
-                </a>
-              ))}
-            </nav>
-          </div>
+          <HeaderTop team={followed} current="today" />
           <section className="hero-page">
             <p className="eyebrow">NBA</p>
             <h1>
-              {LABEL[day]}
+              Today
               <span className="roster-season">
                 <span className="roster-sep" aria-hidden="true">
                   {' '}
@@ -120,15 +78,8 @@ export function DayPage({ day, timeZone }: { day: DayName; timeZone: string }) {
         {!data && !error && <p className="placeholder">Loading…</p>}
         {data && games.length === 0 && (
           <div className="day-empty">
-            <p>No NBA games {day === 'today' ? 'today' : `on ${dateLabel(key)}`}.</p>
-            {next &&
-              (day === 'today' && next === dayKeyFor('tomorrow', now, timeZone) ? (
-                <a className="day-next" href={routeHref({ page: 'day', day: 'tomorrow' })}>
-                  Tomorrow's games <Icon name="next" size={16} />
-                </a>
-              ) : (
-                <p className="muted">Next games: {dateLabel(next)}</p>
-              ))}
+            <p>No NBA games today.</p>
+            {next && <p className="muted">Next games: {dateLabel(next)}</p>}
           </div>
         )}
         {cards.length > 0 && (

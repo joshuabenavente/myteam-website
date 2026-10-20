@@ -53,7 +53,7 @@ export function MiniBar({ headerRef, route, data, timeZone }: Props) {
             <Icon name="players" size={16} />
             <span className="mini-label">Players</span>
           </a>
-          <a href={routeHref({ page: 'day', day: 'today' })}>
+          <a href={routeHref({ page: 'today' })}>
             <Icon name="today" size={16} />
             <span className="mini-label">Today</span>
           </a>

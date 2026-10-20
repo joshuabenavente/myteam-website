@@ -45,7 +45,7 @@ export function TeamPicker({ unknown }: { unknown?: string }) {
             <p className="eyebrow">NBA</p>
             <h1>Pick your team</h1>
             <p className="picker-lede">Schedule, live scores, injuries and player stats for any team.</p>
-            <a className="picker-today" href={routeHref({ page: 'day', day: 'today' })}>
+            <a className="picker-today" href={routeHref({ page: 'today' })}>
               <Icon name="today" size={16} /> Today's games
             </a>
             <InstallApp />

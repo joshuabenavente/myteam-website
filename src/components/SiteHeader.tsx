@@ -10,11 +10,9 @@ import { useTeam } from '../lib/team.ts'
 import { dotColor, teamTheme } from '../lib/teamColors.ts'
 import { TEAMS_BY_ABBR } from '../lib/teams.ts'
 import type { Absence } from '../lib/types.ts'
-import { BrandIcon, Wordmark } from './Brand.tsx'
-import { Icon } from './Icon.tsx'
+import { HeaderTop } from './HeaderTop.tsx'
 import { LiveAnnouncer, LivePill } from './LivePill.tsx'
 import { MiniBar } from './MiniBar.tsx'
-import { TeamLogo } from './TeamLogo.tsx'
 
 /** Injury chips per team; the rest are behind "+N more". */
 const CHIPS_PER_TEAM = 2
@@ -33,25 +31,6 @@ export function SiteHeader({ route, data, timeZone, onShowGame }: Props) {
   const full = route.page === 'games' && !!data
   const roster = route.page === 'players' && !!data
   const headerRef = useRef<HTMLElement>(null)
-  const nav = (
-    <nav className="page-nav" aria-label="Pages">
-      <a
-        href={routeHref({ page: 'games' })}
-        aria-current={route.page === 'games' || route.page === 'game' ? 'page' : undefined}
-      >
-        <Icon name="games" /> Games
-      </a>
-      <a
-        href={routeHref({ page: 'players' })}
-        aria-current={route.page === 'players' || route.page === 'player' ? 'page' : undefined}
-      >
-        <Icon name="players" /> Players
-      </a>
-      <a href={routeHref({ page: 'day', day: 'today' })}>
-        <Icon name="today" /> Today
-      </a>
-    </nav>
-  )
   return (
     <>
       <header
@@ -59,26 +38,10 @@ export function SiteHeader({ route, data, timeZone, onShowGame }: Props) {
         className={`site-header cards ${full ? 'full' : roster ? 'page' : 'compact'}`}
       >
         <div className="header-inner">
-          <div className="header-top">
-            <a className="brand" href={routeHref({ page: 'games' })}>
-              {/* The wordmark on wide screens; the icon on phones, leaving the team pill room for the full name. */}
-              <Wordmark height={30} className="brand-wide" decorative />
-              <BrandIcon size={36} glass className="brand-narrow" />
-              <span className="sr-only">myteam.fans, {team.fullName} home</span>
-            </a>
-            <div className="header-actions">
-              <a className={`team-pill ${team.fullName.length > 18 ? 'long' : ''}`} href={routeHref({ page: 'picker' })}>
-                <TeamLogo abbr={team.abbr} size={28} background="dark" />
-                <span className="team-pill-name">
-                  <span className="team-pill-city">{team.city} </span>
-                  {team.name}
-                </span>
-                <Icon name="switch" size={16} />
-                <span className="sr-only">, switch team</span>
-              </a>
-            </div>
-            {nav}
-          </div>
+          <HeaderTop
+            team={team}
+            current={route.page === 'games' || route.page === 'game' ? 'games' : route.page === 'players' || route.page === 'player' ? 'players' : undefined}
+          />
 
           {/* The Games page's heading sits here so it comes before the next game's. */}
           {route.page === 'games' && <h1 className="sr-only">Games</h1>}

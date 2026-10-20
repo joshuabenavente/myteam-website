@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { DayPage } from './components/DayPage.tsx'
+import { TodayPage } from './components/TodayPage.tsx'
 import { GamePage } from './components/GamePage.tsx'
 import { GamesCalendar } from './components/GamesCalendar.tsx'
 import { GamesList } from './components/GamesList.tsx'
@@ -42,7 +42,7 @@ function App() {
   }, [saved])
 
   if (saved) return null
-  if (route.page === 'day') return <DayPage key={route.day} day={route.day} timeZone={timeZone} />
+  if (route.page === 'today') return <TodayPage timeZone={timeZone} />
   if (!team) return <TeamPicker unknown={'team' in route ? route.team : undefined} />
   return (
     <TeamContext.Provider value={team}>

@@ -90,8 +90,11 @@
   text-decoration: none;
 }
 
-.team-pill:hover {
-  background: rgb(255 255 255 / 10%);
+/* Only where there's a pointer: phones keep a tapped link "hovered". */
+@media (hover: hover) {
+  .team-pill:hover {
+    background: rgb(255 255 255 / 10%);
+  }
 }
 
 .team-pill .logo {
@@ -295,9 +298,12 @@ button.hero-chip:hover {
   font-size: 1.0625rem;
 }
 
-.page-nav a:hover {
-  color: #fff;
-  background: rgb(255 255 255 / 8%);
+/* Only where there's a pointer: phones keep a tapped link "hovered". */
+@media (hover: hover) {
+  .page-nav a:hover {
+    color: #fff;
+    background: rgb(255 255 255 / 8%);
+  }
 }
 
 .page-nav a[aria-current='page'] {
@@ -412,8 +418,11 @@ main {
   padding: 6px 16px;
 }
 
-.segmented button:hover {
-  background: var(--hover);
+/* Only where there's a pointer: phones keep a tapped link "hovered". */
+@media (hover: hover) {
+  .segmented button:hover {
+    background: var(--hover);
+  }
 }
 
 .segmented button[aria-pressed='true'] {
@@ -2955,9 +2964,12 @@ a.mini-game:hover {
   text-decoration: none;
 }
 
-.mini-nav a:hover {
-  color: #fff;
-  background: rgb(255 255 255 / 8%);
+/* Only where there's a pointer: phones keep a tapped link "hovered". */
+@media (hover: hover) {
+  .mini-nav a:hover {
+    color: #fff;
+    background: rgb(255 255 255 / 8%);
+  }
 }
 
 .mini-nav a[aria-current='page'] {
@@ -3285,8 +3297,11 @@ a.mini-game:hover {
   text-decoration: none;
 }
 
-.up-card:hover {
-  background: rgb(255 255 255 / 8%);
+/* Only where there's a pointer: phones keep a tapped link "hovered". */
+@media (hover: hover) {
+  .up-card:hover {
+    background: rgb(255 255 255 / 8%);
+  }
 }
 
 .up-card.first {
@@ -3756,14 +3771,6 @@ main,
   margin: 0 0 8px;
 }
 
-.day-next {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  color: var(--skyline-text);
-  font-weight: var(--w-bold);
-  text-underline-offset: 3px;
-}
 
 @media (max-width: 760px) {
   .day-cards {

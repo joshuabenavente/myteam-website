@@ -90,9 +90,7 @@ function teamPages(): Plugin {
         out(`${slug}/players`, page(`Roster · ${t.city} ${t.name} · myteam.fans`, theme.dark, slug, key))
       }
       out('teams', page('Pick your team · myteam.fans', NEUTRAL_THEME.dark))
-      out('yesterday', page("Yesterday's games · myteam.fans", NEUTRAL_THEME.dark))
       out('today', page("Today's games · myteam.fans", NEUTRAL_THEME.dark))
-      out('tomorrow', page("Tomorrow's games · myteam.fans", NEUTRAL_THEME.dark))
       writeFileSync(join(DIST, '404.html'), html)
       serviceWorker()
     },

@@ -1,25 +1,11 @@
-// The league-wide day view (/yesterday, /today, /tomorrow): which games fall on a day in the
-// viewer's time zone, what each card shows, and their order.
+// The league-wide Today page: which games fall on a day in the viewer's time zone, what each card
+// shows, and their order.
 
 import { isPastDue } from './availability.ts'
 import { channelsFor, type Channel } from './channels.ts'
 import { dayKey } from './format.ts'
 import type { LiveScore } from './scoreboard.ts'
 import type { DayGame } from './types.ts'
-
-export const DAYS = ['yesterday', 'today', 'tomorrow'] as const
-export type DayName = (typeof DAYS)[number]
-
-const OFFSET: Record<DayName, number> = { yesterday: -1, today: 0, tomorrow: 1 }
-
-/** "YYYY-MM-DD" moved by whole calendar days (no DST surprises: the arithmetic is on dates). */
-export function addDays(key: string, days: number): string {
-  const [y, m, d] = key.split('-').map(Number)
-  return new Date(Date.UTC(y, m - 1, d + days)).toISOString().slice(0, 10)
-}
-
-/** The calendar date a day name means for the viewer. */
-export const dayKeyFor = (day: DayName, now: Date, timeZone: string) => addDays(dayKey(now, timeZone), OFFSET[day])
 
 export const gamesOn = (games: DayGame[], key: string, timeZone: string) =>
   games.filter((g) => dayKey(g.startUtc, timeZone) === key)
