@@ -1,10 +1,8 @@
 import { useEffect, useState } from 'react'
-import { TodayPage } from './components/TodayPage.tsx'
 import { GamePage } from './components/GamePage.tsx'
 import { GamesCalendar } from './components/GamesCalendar.tsx'
 import { GamesList } from './components/GamesList.tsx'
 import { Icon } from './components/Icon.tsx'
-import { OfflineNote } from './components/OfflineNote.tsx'
 import { PlayerPage } from './components/PlayerPage.tsx'
 import { PlayerTracker } from './components/PlayerTracker.tsx'
 import { SiteFooter } from './components/SiteFooter.tsx'
@@ -42,7 +40,6 @@ function App() {
   }, [saved])
 
   if (saved) return null
-  if (route.page === 'today') return <TodayPage timeZone={timeZone} />
   if (!team) return <TeamPicker unknown={'team' in route ? route.team : undefined} />
   return (
     <TeamContext.Provider value={team}>
@@ -130,6 +127,20 @@ function TeamSite({ route, team }: { route: Extract<Route, { team: string }>; te
 
       {data && <SiteFooter updatedAt={data.meta.updatedAt} />}
     </LiveContext.Provider>
+  )
+}
+
+/** No connection: say how old the saved data is. */
+function OfflineNote({ updatedAt }: { updatedAt: string }) {
+  const [now] = useState(() => new Date())
+  const when = new Date(updatedAt)
+  const today = when.toDateString() === now.toDateString()
+  const label = when.toLocaleString('en-US', today ? { timeStyle: 'short' } : { dateStyle: 'medium', timeStyle: 'short' })
+  return (
+    <p className="offline-note" role="status">
+      <Icon name="offline" size={16} />
+      Offline · showing data from {label}
+    </p>
   )
 }
 

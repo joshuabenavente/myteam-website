@@ -1,7 +1,6 @@
 // Path routing:
 //   /                          team picker (or straight to the saved team)
 //   /teams                     team picker, always
-//   /today                     every game today
 //   /<team>                    games, e.g. /denver-nuggets
 //   /<team>/players            roster
 //   /<team>/players/<id>       one player's page
@@ -18,13 +17,12 @@ export type Page =
   | { page: 'players' }
   | { page: 'player'; id: string }
 
-export type Route = { page: 'home' } | { page: 'picker' } | { page: 'today' } | (Page & { team: string })
+export type Route = { page: 'home' } | { page: 'picker' } | (Page & { team: string })
 
 export function parseRoute(pathname: string): Route {
   const [team, section, id] = pathname.split('/').filter(Boolean).map(decodeURIComponent)
   if (!team) return { page: 'home' }
   if (team === 'teams') return { page: 'picker' }
-  if (team === 'today') return { page: 'today' }
   if (section === 'players') return id ? { page: 'player', team, id } : { page: 'players', team }
   if (section === 'games' && id) return { page: 'game', team, id }
   return { page: 'games', team }
@@ -34,13 +32,9 @@ export function parseRoute(pathname: string): Route {
 const currentTeam = () => (typeof window === 'undefined' ? '' : (parseRoute(window.location.pathname) as { team?: string }).team ?? '')
 
 /** A page's address; within the current team unless `team` is given. */
-export function routeHref(
-  r: Page | { page: 'picker' } | { page: 'home' } | { page: 'today' },
-  team = currentTeam(),
-): string {
+export function routeHref(r: Page | { page: 'picker' } | { page: 'home' }, team = currentTeam()): string {
   if (r.page === 'home') return '/'
   if (r.page === 'picker') return '/teams'
-  if (r.page === 'today') return '/today'
   const base = `/${team}`
   if (r.page === 'games') return base
   if (r.page === 'game') return `${base}/games/${r.id}`

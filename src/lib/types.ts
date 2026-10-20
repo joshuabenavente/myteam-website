@@ -31,31 +31,6 @@ export interface Game {
   neutralSite?: string
 }
 
-/** A game on the league-wide day view (/today), from either team's side. */
-export interface DayGame {
-  /** NBA game ID. */
-  id: string
-  type: TrackedGameType
-  startUtc: string
-  /** NBA tricodes. */
-  home: string
-  away: string
-  status: Game['status']
-  /** Present once the game has started. */
-  score?: { home: number; away: number }
-  /** National channels, then each team's local ones. */
-  broadcasts: { national: Broadcast[]; home: Broadcast[]; away: Broadcast[] }
-  timeTbd?: boolean
-  label?: string
-  neutralSite?: string
-}
-
-/** Every game from two days ago to two weeks ahead, rewritten by each data refresh. */
-export interface DaysFile {
-  season: string
-  games: DayGame[]
-}
-
 export interface ScheduleFile {
   season: string
   games: Game[]

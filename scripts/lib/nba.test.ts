@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { dayGames, parseLeagueSchedule, teamGames, type NbaScheduleJson } from './nba'
+import { parseLeagueSchedule, teamGames, type NbaScheduleJson } from './nba'
 
 const b = (name: string, media: string, teamId = -1) => ({ broadcasterDisplay: name, broadcasterMedia: media, broadcasterTeamId: teamId })
 const DEN = 1610612743
@@ -89,29 +89,5 @@ describe('teamGames', () => {
       score: { team: 112, opponent: 108 },
       label: 'Emirates NBA Cup - West Group A',
     })
-  })
-})
-
-describe('dayGames', () => {
-  const league = parseLeagueSchedule(json).games
-
-  it('keeps games from two days back to two weeks ahead, with both teams\' channels', () => {
-    const games = dayGames(league, Date.parse('2026-10-22T12:00:00Z'))
-    expect(games.map((g) => g.id)).toEqual(['0022600007', '0022600100'])
-    expect(games[0]).toMatchObject({ home: 'OKC', away: 'DEN', status: 'scheduled' })
-    expect(games[0].score).toBeUndefined()
-    expect(games[0].broadcasts).toEqual({
-      national: [{ name: 'ESPN', scope: 'national', kind: 'tv' }],
-      home: [{ name: 'FanDuel SN OK', scope: 'local', kind: 'tv' }],
-      away: [
-        { name: 'ALT/ALT+/KTVD', scope: 'local', kind: 'tv' },
-        { name: 'Altitude+', scope: 'local', kind: 'stream' },
-      ],
-    })
-  })
-
-  it('gives finished games their score and label', () => {
-    const [cup] = dayGames(league, Date.parse('2026-11-01T12:00:00Z'))
-    expect(cup).toMatchObject({ id: '0022600100', status: 'final', score: { home: 112, away: 108 }, label: 'Emirates NBA Cup - West Group A' })
   })
 })

@@ -28,7 +28,7 @@ Chosen from the phase 1 probe (`scripts/probe-sources.ts`), run from GitHub Acti
 
 The `Update data` workflow (`.github/workflows/update-data.yml`) runs `scripts/ingest.ts` hourly, for all 30 teams. It's started by a Cloudflare Worker (`cloudflare/hourly-trigger.js`, Cron Trigger `17 * * * *`) using a fine-grained token limited to this repo's Actions. GitHub's own schedule was best effort and skipped most hours, so the workflow no longer has one; if the Worker stops, data stops refreshing until it's fixed or the workflow is started by hand (Actions → Update data → Run workflow). Each run:
 
-- shared files in `public/data/`: standings, injuries (one ESPN request covers every team), meta, and `days.json` (every game from 2 days back to 2 weeks ahead with both teams' channels, for the `/today` page; its live scores come from ESPN's scoreboard in the browser)
+- shared files in `public/data/`: standings, injuries (one ESPN request covers every team) and meta
 - per team in `public/data/teams/<abbr>/`: schedule, head-to-head, and a preview of the team's next game when `ANTHROPIC_API_KEY` is set (Claude Haiku 5.5, rewritten only when the facts change)
 - player stats for the 5 teams refreshed longest ago, so each team comes round about every 6 hours. basketball-reference asks for under 20 requests a minute; requests are 4 seconds apart. Last season's game logs and results are cached in `data/cache/` and fetched once.
 
