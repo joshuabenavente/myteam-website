@@ -1,9 +1,9 @@
 {
  "season": "2026-27",
  "lastSeason": "2025-26",
- "updatedAt": "2026-10-20T17:17:54.468Z",
+ "updatedAt": "2026-10-20T23:19:02.166Z",
  "teamGamesPlayed": {
-  "regular": 0,
+  "regular": 1,
   "playoffs": 0
  },
  "players": [
@@ -59,7 +59,25 @@
      "ftAttempted": 115
     }
    },
-   "lastToDate": {}
+   "lastToDate": {
+    "regular": {
+     "games": 1,
+     "started": 1,
+     "minutes": 34.3,
+     "points": 23,
+     "rebounds": 7,
+     "assists": 10,
+     "steals": 1,
+     "blocks": 0,
+     "turnovers": 3,
+     "fgMade": 8,
+     "fgAttempted": 24,
+     "threeMade": 1,
+     "threeAttempted": 6,
+     "ftMade": 6,
+     "ftAttempted": 10
+    }
+   }
   },
   {
    "id": "robindu01",
@@ -113,7 +131,25 @@
      "ftAttempted": 18
     }
    },
-   "lastToDate": {}
+   "lastToDate": {
+    "regular": {
+     "games": 1,
+     "started": 1,
+     "minutes": 32.4,
+     "points": 2,
+     "rebounds": 0,
+     "assists": 0,
+     "steals": 0,
+     "blocks": 0,
+     "turnovers": 1,
+     "fgMade": 1,
+     "fgAttempted": 7,
+     "threeMade": 0,
+     "threeAttempted": 5,
+     "ftMade": 0,
+     "ftAttempted": 0
+    }
+   }
   },
   {
    "id": "durenja01",
@@ -167,7 +203,25 @@
      "ftAttempted": 46
     }
    },
-   "lastToDate": {}
+   "lastToDate": {
+    "regular": {
+     "games": 1,
+     "started": 1,
+     "minutes": 19.8,
+     "points": 15,
+     "rebounds": 6,
+     "assists": 1,
+     "steals": 1,
+     "blocks": 2,
+     "turnovers": 1,
+     "fgMade": 7,
+     "fgAttempted": 12,
+     "threeMade": 0,
+     "threeAttempted": 0,
+     "ftMade": 1,
+     "ftAttempted": 2
+    }
+   }
   },
   {
    "id": "thompau01",
@@ -220,7 +274,25 @@
      "ftAttempted": 31
     }
    },
-   "lastToDate": {}
+   "lastToDate": {
+    "regular": {
+     "games": 1,
+     "started": 1,
+     "minutes": 33,
+     "points": 11,
+     "rebounds": 9,
+     "assists": 7,
+     "steals": 1,
+     "blocks": 1,
+     "turnovers": 1,
+     "fgMade": 5,
+     "fgAttempted": 8,
+     "threeMade": 0,
+     "threeAttempted": 0,
+     "ftMade": 1,
+     "ftAttempted": 3
+    }
+   }
   },
   {
    "id": "collijo01",
@@ -257,7 +329,25 @@
      "ftAttempted": 154
     }
    },
-   "lastToDate": {}
+   "lastToDate": {
+    "regular": {
+     "games": 1,
+     "started": 0,
+     "minutes": 27.9,
+     "points": 14,
+     "rebounds": 7,
+     "assists": 1,
+     "steals": 1,
+     "blocks": 2,
+     "turnovers": 2,
+     "fgMade": 6,
+     "fgAttempted": 12,
+     "threeMade": 1,
+     "threeAttempted": 2,
+     "ftMade": 1,
+     "ftAttempted": 2
+    }
+   }
   },
   {
    "id": "hollaro01",
@@ -307,7 +397,25 @@
      "ftAttempted": 5
     }
    },
-   "lastToDate": {}
+   "lastToDate": {
+    "regular": {
+     "games": 1,
+     "started": 0,
+     "minutes": 27,
+     "points": 19,
+     "rebounds": 4,
+     "assists": 3,
+     "steals": 2,
+     "blocks": 1,
+     "turnovers": 2,
+     "fgMade": 6,
+     "fgAttempted": 10,
+     "threeMade": 1,
+     "threeAttempted": 4,
+     "ftMade": 6,
+     "ftAttempted": 6
+    }
+   }
   },
   {
    "id": "huertke01",
@@ -361,7 +469,25 @@
      "ftAttempted": 0
     }
    },
-   "lastToDate": {}
+   "lastToDate": {
+    "regular": {
+     "games": 1,
+     "started": 0,
+     "minutes": 27.2,
+     "points": 15,
+     "rebounds": 5,
+     "assists": 0,
+     "steals": 1,
+     "blocks": 2,
+     "turnovers": 1,
+     "fgMade": 4,
+     "fgAttempted": 11,
+     "threeMade": 2,
+     "threeAttempted": 6,
+     "ftMade": 5,
+     "ftAttempted": 6
+    }
+   }
   },
   {
    "id": "joeis01",
@@ -523,7 +649,25 @@
      "ftAttempted": 6
     }
    },
-   "lastToDate": {}
+   "lastToDate": {
+    "regular": {
+     "games": 1,
+     "started": 0,
+     "minutes": 9.5,
+     "points": 0,
+     "rebounds": 0,
+     "assists": 0,
+     "steals": 1,
+     "blocks": 1,
+     "turnovers": 0,
+     "fgMade": 0,
+     "fgAttempted": 2,
+     "threeMade": 0,
+     "threeAttempted": 0,
+     "ftMade": 0,
+     "ftAttempted": 0
+    }
+   }
   },
   {
    "id": "reedpa01",
@@ -577,7 +721,25 @@
      "ftAttempted": 12
     }
    },
-   "lastToDate": {}
+   "lastToDate": {
+    "regular": {
+     "games": 1,
+     "started": 0,
+     "minutes": 3.4,
+     "points": 3,
+     "rebounds": 0,
+     "assists": 0,
+     "steals": 0,
+     "blocks": 1,
+     "turnovers": 1,
+     "fgMade": 1,
+     "fgAttempted": 1,
+     "threeMade": 1,
+     "threeAttempted": 1,
+     "ftMade": 0,
+     "ftAttempted": 0
+    }
+   }
   },
   {
    "id": "princta02",
@@ -614,7 +776,25 @@
      "ftAttempted": 6
     }
    },
-   "lastToDate": {}
+   "lastToDate": {
+    "regular": {
+     "games": 1,
+     "started": 0,
+     "minutes": 22,
+     "points": 11,
+     "rebounds": 1,
+     "assists": 2,
+     "steals": 1,
+     "blocks": 0,
+     "turnovers": 0,
+     "fgMade": 4,
+     "fgAttempted": 5,
+     "threeMade": 3,
+     "threeAttempted": 4,
+     "ftMade": 0,
+     "ftAttempted": 0
+    }
+   }
   },
   {
    "id": "harklej01",

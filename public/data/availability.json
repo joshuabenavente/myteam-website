@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-20T22:18:59.927Z",
+ "updatedAt": "2026-10-20T23:19:06.226Z",
  "teams": {
   "ATL": [
    {
@@ -458,6 +458,13 @@
     "returnDate": "2027-10-01"
    },
    {
+    "name": "Dean Wade",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Ankle (sprain)",
+    "returnDate": "2026-10-22"
+   },
+   {
     "name": "Dominick Barlow",
     "status": "Out",
     "gameTimeDecision": false,
@@ -470,27 +477,6 @@
     "gameTimeDecision": false,
     "reason": "Hip",
     "returnDate": "2026-10-22"
-   },
-   {
-    "name": "Adem Bona",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Foot (sprain)",
-    "returnDate": "2026-10-20"
-   },
-   {
-    "name": "Anfernee Simons",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Hamstring",
-    "returnDate": "2026-10-20"
-   },
-   {
-    "name": "Dean Wade",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Ankle (sprain)",
-    "returnDate": "2026-10-20"
    }
   ],
   "PHX": [
@@ -597,7 +583,7 @@
     "name": "Blake Hinson",
     "status": "Out",
     "gameTimeDecision": false,
-    "reason": "Hamstring",
+    "reason": "Hamstring (strain)",
     "returnDate": "2026-10-23"
    },
    {
