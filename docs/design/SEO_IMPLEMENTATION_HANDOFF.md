@@ -27,7 +27,7 @@ Approved by the owner as SEO plan v1.1 (SEO-01 to SEO-11; decisions: no trailing
 
 **Lab performance** (Playwright, phone 390 px, ~1.6 Mbps / 150 ms, 4× CPU slowdown, service worker off, median of 3; ESPN images were blocked by the test environment). Before → after: picker LCP 1.92 → 1.70 s; team 2.82 → 2.79 s; roster 2.14 → 2.25 s; player 2.11 → 2.12 s; game 2.13 → 2.16 s; transfer +1 KB; CLS unchanged. **Pre-existing:** roster CLS ≈ 0.17 and player CLS ≈ 0.11 are above the 0.1 target, from before this work.
 
-**Search evidence:** none yet. Google Search Console and Bing Webmaster Tools properties don't exist (owner, October 20); setup steps are in §14.
+**Search evidence:** the owner created and verified the Google Search Console domain property and Bing Webmaster Tools, submitted `https://myteam.fans/sitemap.xml` to both, requested indexing of sample pages and confirmed Enforce HTTPS (October 20, 2026). Indexing and processing results are pending; record them in §15 once the reports fill in (usually days to a couple of weeks).
 
 ## 1. Executive assessment
 
@@ -158,9 +158,9 @@ For every intended indexable template, record: URL, page type, status, redirect 
 ## 14. External setup and owner-action checklist
 
 - [x] **Owner:** identify existing GSC and BWT properties (October 20, 2026: none exist) and grant read access or export the specified reports. Do not create duplicates blindly.
-- [ ] **Owner:** if absent, create a GSC **Domain** property for `myteam.fans`, add the Google-provided DNS TXT record at the actual DNS host, verify ownership, and retain the record. This changes DNS and is outside repository scope. [Instructions](https://support.google.com/webmasters/answer/34592).
-- [ ] **Owner:** if absent, add `myteam.fans` in BWT via GSC import or Bing's own verification. Confirm ownership and preferred site. [Instructions](https://www.bing.com/webmasters/help/add-and-verify-site-12184f8b).
-- [ ] **Owner, after code release:** submit the live sitemap in GSC and BWT; inspect processing and errors after they update. Do not submit a proposed or local sitemap. [GSC Sitemaps](https://support.google.com/webmasters/answer/7451001), [Bing Sitemaps](https://www.bing.com/webmasters/help/sitemaps-3b5cf6ed).
+- [x] **Owner:** if absent, create a GSC **Domain** property for `myteam.fans`, add the Google-provided DNS TXT record at the actual DNS host, verify ownership, and retain the record. This changes DNS and is outside repository scope. [Instructions](https://support.google.com/webmasters/answer/34592). (done by the owner, October 20, 2026)
+- [x] **Owner:** if absent, add `myteam.fans` in BWT via GSC import or Bing's own verification. Confirm ownership and preferred site. [Instructions](https://www.bing.com/webmasters/help/add-and-verify-site-12184f8b). (done by the owner, October 20, 2026)
+- [x] **Owner, after code release:** submit the live sitemap in GSC and BWT; inspect processing and errors after they update. Do not submit a proposed or local sitemap. [GSC Sitemaps](https://support.google.com/webmasters/answer/7451001), [Bing Sitemaps](https://www.bing.com/webmasters/help/sitemaps-3b5cf6ed). (done by the owner, October 20, 2026)
 - [ ] **Owner/Claude Code:** identify custom-domain DNS/CDN/Pages routing controls and any production edge worker. The inspected deployment workflow publishes `dist` to GitHub Pages, but live host behavior must be verified. Authorization is required before changing hosting, DNS, webmaster settings, or production code.
 
 ### Setup steps for the owner (written October 20, 2026)
