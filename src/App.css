@@ -2465,7 +2465,6 @@ main {
 
 .sb-injuries.right {
   grid-area: ir;
-  text-align: right;
 }
 
 /* A dark panel like the time box, so the lists read on any pair of team colors, including where
@@ -2479,7 +2478,8 @@ main {
 }
 
 .sb-injuries h2 {
-  margin: 0 0 6px;
+  margin: 0 0 8px;
+  text-align: center;
   font-size: 0.72rem;
   font-weight: 700;
   letter-spacing: 0.1em;
@@ -2489,6 +2489,7 @@ main {
 }
 
 .sb-injuries .hero-chips {
+  justify-content: center;
   gap: 6px;
   margin: 0;
 }
@@ -2767,10 +2768,6 @@ main {
 
   .sb-clock {
     font-size: 1.25rem;
-  }
-
-  .sb-injuries.right {
-    text-align: left;
   }
 
   .box-switch {
