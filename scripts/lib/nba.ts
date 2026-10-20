@@ -2,7 +2,8 @@
 
 import { gameTypeFromNbaId } from '../../src/lib/season.ts'
 import { TEAMS_BY_ABBR } from '../../src/lib/teams.ts'
-import type { Broadcast, Game, TrackedGameType } from '../../src/lib/types.ts'
+import type { Broadcast, Game, ScheduleGameType } from '../../src/lib/types.ts'
+import type { FinalGame } from './standings.ts'
 
 interface NbaBroadcaster {
   broadcasterDisplay: string
@@ -40,7 +41,7 @@ export interface NbaScheduleJson {
 /** A league game between two NBA teams, normalized for standings and head-to-head. */
 export interface LeagueGame {
   id: string
-  type: TrackedGameType
+  type: ScheduleGameType
   startUtc: string
   home: string
   away: string
@@ -52,7 +53,7 @@ export interface LeagueGame {
 
 const STATUS: { [code: number]: Game['status'] } = { 1: 'scheduled', 2: 'live', 3: 'final' }
 
-/** All regular season and playoff games between NBA teams. */
+/** All regular season, play-in and playoff games between NBA teams. */
 export function parseLeagueSchedule(json: NbaScheduleJson): { season: string; games: LeagueGame[] } {
   const games: LeagueGame[] = []
   for (const date of json.leagueSchedule.gameDates) {
@@ -100,6 +101,10 @@ export function teamBroadcasts(raw: NbaGame, teamId: number): Broadcast[] {
   return out
 }
 
+/** Finished games that count toward records, standings and head-to-head: not play-in. */
+export const countedFinals = (games: LeagueGame[]): (LeagueGame & FinalGame)[] =>
+  games.filter((g): g is LeagueGame & FinalGame => g.status === 'final' && g.type !== 'playin')
+
 /** The team's games in the app's Game shape. */
 export function teamGames(games: LeagueGame[], abbr: string): Game[] {
   const teamId = TEAMS_BY_ABBR[abbr].nbaId
@@ -107,7 +112,10 @@ export function teamGames(games: LeagueGame[], abbr: string): Game[] {
     .filter((g) => g.home === abbr || g.away === abbr)
     .map((g) => {
       const home = g.home === abbr
-      const label = [g.raw.gameLabel, g.raw.gameSubLabel, g.raw.seriesText].filter(Boolean).join(' - ')
+      const label =
+        // e.g. "West First Round · Game 3 · DEN leads 2-0", or "Emirates NBA Cup · West Group A".
+        [g.raw.gameLabel, g.raw.gameSubLabel, g.raw.seriesText].filter(Boolean).join(' · ') ||
+        (g.type === 'playin' ? 'Play-In Tournament' : '')
       return {
         id: g.id,
         type: g.type,

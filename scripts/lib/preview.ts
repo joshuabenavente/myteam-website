@@ -119,8 +119,11 @@ export function buildFacts(i: PreviewInputs) {
       matchup: `${fullName(team)} ${game.home ? 'vs' : 'at'} ${fullName(opp)}`,
       followedTeam: fullName(team),
       followedTeamIs: game.neutralSite ? `designated ${game.home ? 'home' : 'road'} team` : game.home ? 'home' : 'away',
-      type: game.type === 'playoffs' ? 'playoffs' : 'regular season',
-      followedTeamGameNumber: `${ordinal(i.gameNumber)} ${game.type === 'playoffs' ? 'playoff ' : ''}game of the season for the ${nick}`,
+      type: game.type === 'playoffs' ? 'playoffs' : game.type === 'playin' ? 'play-in tournament' : 'regular season',
+      followedTeamGameNumber:
+        game.type === 'playin'
+          ? `${ordinal(i.gameNumber)} play-in game for the ${nick}`
+          : `${ordinal(i.gameNumber)} ${game.type === 'playoffs' ? 'playoff ' : ''}game of the season for the ${nick}`,
       ...(game.label && { note: game.label }),
       ...(game.neutralSite && { site: `neutral site, in ${game.neutralSite}` }),
       // Counts, not lists: they only exist to stop "season opener" claims, not to be recited.

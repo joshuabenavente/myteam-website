@@ -42,7 +42,7 @@ import { parseEspnResults, type EspnScheduleJson } from './lib/espn.ts'
 import { getBbref, getJson, NBA_HEADERS } from './lib/http.ts'
 import { nameKey, parseEspnRoster, type EspnPlayerInfo, type EspnRosterJson } from './lib/espnRoster.ts'
 import { parseInjuries, type EspnInjuriesJson } from './lib/injuries.ts'
-import { parseLeagueSchedule, teamGames, type NbaScheduleJson } from './lib/nba.ts'
+import { countedFinals, parseLeagueSchedule, teamGames, type NbaScheduleJson } from './lib/nba.ts'
 import { buildFacts, hashFacts, PROMPT_VERSION, writePreview } from './lib/preview.ts'
 import { computeStandings, headToHead, type FinalGame } from './lib/standings.ts'
 
@@ -110,7 +110,8 @@ if (fetched && !league) console.warn(`NBA schedule is for ${fetched.season}, not
 let finals: FinalGame[] = []
 let standings: StandingsFile['teams'] = {}
 if (league) {
-  finals = league.games.filter((g) => g.status === 'final')
+  // Play-in games are on schedules but count toward no record, standing or head-to-head.
+  finals = countedFinals(league.games)
   standings = computeStandings(finals)
   write(join(OUT_DIR, 'standings.json'), { season: current.label, teams: standings } satisfies StandingsFile)
   for (const abbr of teams) {

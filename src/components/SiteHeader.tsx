@@ -158,6 +158,7 @@ function NextGame({ data, timeZone, onShowGame }: { data: AppData; timeZone: str
         <h2 id="hero-game-heading" className="eyebrow">
           {live ? 'Live now' : score?.state === 'final' ? 'Final' : opener ? `${data.schedule.season} season tips off in` : 'Next game in'}
           {game.type === 'playoffs' && ' · Playoffs'}
+          {game.type === 'playin' && ' · Play-in'}
         </h2>
         <div className="countdown-row">
           {/* Once the game is on, the live pill below takes over from the countdown. */}
@@ -175,7 +176,7 @@ function NextGame({ data, timeZone, onShowGame }: { data: AppData; timeZone: str
               {game.home ? 'vs' : 'at'} {opp.city}
               {game.neutralSite && ` · in ${game.neutralSite}`}
             </a>
-            {game.label && game.type === 'playoffs' && <span>{game.label}</span>}
+            {game.label && game.type !== 'regular' && <span>{game.label}</span>}
             <span className="countdown-muted">
               {game.timeTbd ? 'Time TBD' : `${formatGameTime(game, timeZone)} ${timeZoneAbbr(timeZone, new Date(game.startUtc))}`}
               {channel && ` · ${channel.label}`}

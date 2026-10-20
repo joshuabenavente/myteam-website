@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { parseLeagueSchedule, teamGames, type NbaScheduleJson } from './nba'
+import { countedFinals, parseLeagueSchedule, teamGames, type NbaScheduleJson } from './nba'
 
 const b = (name: string, media: string, teamId = -1) => ({ broadcasterDisplay: name, broadcasterMedia: media, broadcasterTeamId: teamId })
 const DEN = 1610612743
@@ -87,7 +87,36 @@ describe('teamGames', () => {
       home: true,
       status: 'final',
       score: { team: 112, opponent: 108 },
-      label: 'Emirates NBA Cup - West Group A',
+      label: 'Emirates NBA Cup · West Group A',
     })
   })
+})
+
+describe('play-in games', () => {
+  const playIn = raw('0052600001', ['DEN', DEN], ['OKC', OKC], {
+    gameStatus: 3,
+    gameDateTimeUTC: '2027-04-15T01:30:00Z',
+    homeTeam: { teamId: DEN, teamTricode: 'DEN', score: 110 },
+    awayTeam: { teamId: OKC, teamTricode: 'OKC', score: 100 },
+  })
+  const league = parseLeagueSchedule({ leagueSchedule: { seasonYear: '2026-27', gameDates: [{ games: [playIn] }] } }).games
+
+  it('are on team schedules, labeled', () => {
+    expect(teamGames(league, 'DEN')).toMatchObject([{ id: '0052600001', type: 'playin', label: 'Play-In Tournament', status: 'final' }])
+  })
+
+  it('count toward no record, standing or head-to-head', () => {
+    expect(countedFinals(league)).toEqual([])
+  })
+})
+
+it('gives playoff games a round, game number and series line', () => {
+  // The NBA's playoff fields: round, game number and series score.
+  const game = raw('0042600103', ['DEN', DEN], ['OKC', OKC], {
+    gameLabel: 'West First Round',
+    gameSubLabel: 'Game 3',
+    seriesText: 'DEN leads 2-0',
+  })
+  const [g] = teamGames(parseLeagueSchedule({ leagueSchedule: { seasonYear: '2026-27', gameDates: [{ games: [game] }] } }).games, 'DEN')
+  expect(g).toMatchObject({ type: 'playoffs', label: 'West First Round · Game 3 · DEN leads 2-0' })
 })

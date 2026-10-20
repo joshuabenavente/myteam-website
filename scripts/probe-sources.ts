@@ -54,7 +54,7 @@ function inspectNbaSchedule(body: string): string {
   const ours = games.filter(
     (g) => g.homeTeam?.teamTricode === TEAM.abbr || g.awayTeam?.teamTricode === TEAM.abbr,
   )
-  const counts = { regular: 0, playoffs: 0, excluded: 0 }
+  const counts = { regular: 0, playoffs: 0, playin: 0, excluded: 0 }
   for (const g of ours) counts[gameTypeFromNbaId(g.gameId)]++
 
   const networks = new Set<string>()

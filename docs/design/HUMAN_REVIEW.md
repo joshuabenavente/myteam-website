@@ -2,6 +2,11 @@
 
 Items that need a person, not code. Nothing here is approved for implementation.
 
+- **VIS-001 / NBA-10** — roster stats on phones: a short in-person test (below).
+- **NBA-08** — live scores and finals: watch 2–3 games in the first week with
+  [LIVE_GAME_CHECKLIST.md](LIVE_GAME_CHECKLIST.md).
+- **Later, after user feedback:** whether to add full team stats (NBA-06) and a playoff bracket (NBA-07).
+
 ## VIS-001 — Roster stats on phones: can people find the columns offscreen?
 
 **Status:** waiting for a short in-person test (owner decision, October 2026). Background and

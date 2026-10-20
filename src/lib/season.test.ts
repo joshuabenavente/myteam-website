@@ -20,7 +20,7 @@ describe('gameTypeFromNbaId', () => {
     ['0022600001', 'regular'],
     ['0032600001', 'excluded'],
     ['0042600101', 'playoffs'],
-    ['0052600001', 'excluded'],
+    ['0052600001', 'playin'],
     ['0062600001', 'excluded'],
   ])('%s -> %s', (id, type) => {
     expect(gameTypeFromNbaId(id)).toBe(type)

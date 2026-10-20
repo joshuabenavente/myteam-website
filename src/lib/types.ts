@@ -2,7 +2,10 @@
 
 import type { GameType } from './season.ts'
 
-export type TrackedGameType = Exclude<GameType, 'excluded'>
+/** Game types with records and stats. */
+export type TrackedGameType = Exclude<GameType, 'excluded' | 'playin'>
+/** Game types on a team's schedule: play-in games are listed but don't count toward anything. */
+export type ScheduleGameType = Exclude<GameType, 'excluded'>
 
 export interface Broadcast {
   name: string
@@ -14,7 +17,7 @@ export interface Broadcast {
 export interface Game {
   /** NBA game ID. */
   id: string
-  type: TrackedGameType
+  type: ScheduleGameType
   /** ISO timestamp in UTC; formatted in the viewer's time zone by the app. */
   startUtc: string
   home: boolean
@@ -25,7 +28,7 @@ export interface Game {
   broadcasts: Broadcast[]
   /** Tip-off time not announced yet (startUtc holds the date only). */
   timeTbd?: boolean
-  /** Extra context from the schedule, e.g. "Emirates NBA Cup" or "West First Round - Game 3". */
+  /** Extra context from the schedule, e.g. "Emirates NBA Cup" or "West First Round · Game 3 · DEN leads 2-0". */
   label?: string
   /** City of a neutral-site game (e.g. "Mexico City"); home/away is the NBA's designation. */
   neutralSite?: string
