@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-20T21:17:57.875Z",
+ "updatedAt": "2026-10-20T22:18:59.927Z",
  "teams": {
   "ATL": [
    {
@@ -141,32 +141,32 @@
   ],
   "DAL": [
    {
-    "name": "Dereck Lively II",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Foot (surgery)",
-    "returnDate": "2026-10-21"
+    "name": "Caleb Martin",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Thumb (sprain)",
+    "returnDate": "2026-10-23"
    },
    {
-    "name": "Jett Howard",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Illness",
-    "returnDate": "2026-10-21"
+    "name": "Dereck Lively II",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Foot (surgery)",
+    "returnDate": "2026-10-23"
    },
    {
     "name": "Santi Aldama",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
+    "status": "Out",
+    "gameTimeDecision": false,
     "reason": "Knee",
-    "returnDate": "2026-10-21"
+    "returnDate": "2026-10-23"
    },
    {
     "name": "Tarik Biberovic",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
+    "status": "Out",
+    "gameTimeDecision": false,
     "reason": "Heel",
-    "returnDate": "2026-10-21"
+    "returnDate": "2026-10-23"
    }
   ],
   "DEN": [
@@ -256,6 +256,13 @@
   ],
   "IND": [
    {
+    "name": "Aaron Nesmith",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Hamstring (strain)",
+    "returnDate": "2026-10-23"
+   },
+   {
     "name": "Johnny Furphy",
     "status": "Out",
     "gameTimeDecision": false,
@@ -263,25 +270,11 @@
     "returnDate": "2027-01-02"
    },
    {
-    "name": "Aaron Nesmith",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Hamstring",
-    "returnDate": "2026-10-21"
-   },
-   {
-    "name": "Jarace Walker",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Undisclosed",
-    "returnDate": "2026-10-21"
-   },
-   {
     "name": "T.J. McConnell",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Undisclosed",
-    "returnDate": "2026-10-21"
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Hamstring",
+    "returnDate": "2026-10-23"
    }
   ],
   "LAC": [
@@ -370,23 +363,9 @@
   "MEM": [
    {
     "name": "Isaiah Stewart",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Ankle",
-    "returnDate": "2026-10-23"
-   },
-   {
-    "name": "GG Jackson",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Ankle",
-    "returnDate": "2026-10-21"
-   },
-   {
-    "name": "Jerami Grant",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Undisclosed (soreness)",
     "returnDate": "2026-10-21"
    }
   ],
@@ -615,6 +594,13 @@
   ],
   "UTA": [
    {
+    "name": "Blake Hinson",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Hamstring",
+    "returnDate": "2026-10-23"
+   },
+   {
     "name": "Jusuf Nurkic",
     "status": "Out",
     "gameTimeDecision": false,
@@ -622,25 +608,18 @@
     "returnDate": "2026-11-04"
    },
    {
-    "name": "Blake Hinson",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Hamstring",
-    "returnDate": "2026-10-21"
-   },
-   {
-    "name": "Kyle Filipowski",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Back",
-    "returnDate": "2026-10-21"
+    "name": "Tony Bradley",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Quadriceps",
+    "returnDate": "2026-10-23"
    },
    {
     "name": "Trey Alexander",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
+    "status": "Out",
+    "gameTimeDecision": false,
     "reason": "Knee",
-    "returnDate": "2026-10-21"
+    "returnDate": "2026-10-23"
    }
   ],
   "WAS": [

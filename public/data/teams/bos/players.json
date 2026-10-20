@@ -1,9 +1,9 @@
 {
  "season": "2026-27",
  "lastSeason": "2025-26",
- "updatedAt": "2026-10-20T16:17:38.785Z",
+ "updatedAt": "2026-10-20T22:18:47.812Z",
  "teamGamesPlayed": {
-  "regular": 0,
+  "regular": 1,
   "playoffs": 0
  },
  "players": [
@@ -59,7 +59,25 @@
      "ftAttempted": 13
     }
    },
-   "lastToDate": {}
+   "lastToDate": {
+    "regular": {
+     "games": 1,
+     "started": 1,
+     "minutes": 35.4,
+     "points": 25,
+     "rebounds": 3,
+     "assists": 4,
+     "steals": 1,
+     "blocks": 1,
+     "turnovers": 0,
+     "fgMade": 7,
+     "fgAttempted": 20,
+     "threeMade": 4,
+     "threeAttempted": 13,
+     "ftMade": 7,
+     "ftAttempted": 7
+    }
+   }
   },
   {
    "id": "pritcpa01",
@@ -113,7 +131,25 @@
      "ftAttempted": 8
     }
    },
-   "lastToDate": {}
+   "lastToDate": {
+    "regular": {
+     "games": 1,
+     "started": 1,
+     "minutes": 37.2,
+     "points": 16,
+     "rebounds": 5,
+     "assists": 2,
+     "steals": 2,
+     "blocks": 0,
+     "turnovers": 2,
+     "fgMade": 6,
+     "fgAttempted": 14,
+     "threeMade": 1,
+     "threeAttempted": 7,
+     "ftMade": 3,
+     "ftAttempted": 4
+    }
+   }
   },
   {
    "id": "hausesa01",
@@ -167,7 +203,25 @@
      "ftAttempted": 0
     }
    },
-   "lastToDate": {}
+   "lastToDate": {
+    "regular": {
+     "games": 1,
+     "started": 1,
+     "minutes": 22.4,
+     "points": 8,
+     "rebounds": 2,
+     "assists": 1,
+     "steals": 0,
+     "blocks": 0,
+     "turnovers": 3,
+     "fgMade": 2,
+     "fgAttempted": 6,
+     "threeMade": 2,
+     "threeAttempted": 6,
+     "ftMade": 2,
+     "ftAttempted": 2
+    }
+   }
   },
   {
    "id": "quetane01",
@@ -221,7 +275,25 @@
      "ftAttempted": 19
     }
    },
-   "lastToDate": {}
+   "lastToDate": {
+    "regular": {
+     "games": 1,
+     "started": 1,
+     "minutes": 25.1,
+     "points": 17,
+     "rebounds": 8,
+     "assists": 0,
+     "steals": 0,
+     "blocks": 0,
+     "turnovers": 2,
+     "fgMade": 7,
+     "fgAttempted": 8,
+     "threeMade": 0,
+     "threeAttempted": 0,
+     "ftMade": 3,
+     "ftAttempted": 4
+    }
+   }
   },
   {
    "id": "scheiba01",
@@ -491,7 +563,25 @@
      "ftAttempted": 8
     }
    },
-   "lastToDate": {}
+   "lastToDate": {
+    "regular": {
+     "games": 1,
+     "started": 0,
+     "minutes": 5.7,
+     "points": 0,
+     "rebounds": 1,
+     "assists": 0,
+     "steals": 0,
+     "blocks": 1,
+     "turnovers": 2,
+     "fgMade": 0,
+     "fgAttempted": 2,
+     "threeMade": 0,
+     "threeAttempted": 2,
+     "ftMade": 0,
+     "ftAttempted": 0
+    }
+   }
   },
   {
    "id": "gonzahu01",
@@ -597,7 +687,25 @@
      "ftAttempted": 2
     }
    },
-   "lastToDate": {}
+   "lastToDate": {
+    "regular": {
+     "games": 1,
+     "started": 0,
+     "minutes": 12.7,
+     "points": 3,
+     "rebounds": 2,
+     "assists": 0,
+     "steals": 1,
+     "blocks": 0,
+     "turnovers": 1,
+     "fgMade": 1,
+     "fgAttempted": 5,
+     "threeMade": 1,
+     "threeAttempted": 2,
+     "ftMade": 0,
+     "ftAttempted": 0
+    }
+   }
   },
   {
    "id": "cartede02",
