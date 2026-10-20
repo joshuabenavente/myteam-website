@@ -43,6 +43,7 @@ import { getBbref, getJson, NBA_HEADERS } from './lib/http.ts'
 import { nameKey, parseEspnRoster, type EspnPlayerInfo, type EspnRosterJson } from './lib/espnRoster.ts'
 import { parseInjuries, type EspnInjuriesJson } from './lib/injuries.ts'
 import { countedFinals, parseLeagueSchedule, teamGames, type NbaScheduleJson } from './lib/nba.ts'
+import { writeLeagueFile } from './lib/league.ts'
 import { buildFacts, hashFacts, PROMPT_VERSION, writePreview } from './lib/preview.ts'
 import { computeStandings, headToHead, type FinalGame } from './lib/standings.ts'
 
@@ -336,6 +337,10 @@ if (league && absences && process.env.ANTHROPIC_API_KEY) {
   }
   if (spent.calls) console.log(`  ${spent.calls} preview(s): ${spent.input} input + ${spent.output} output tokens`)
 }
+
+// --- league (top scorers and last season's wins, for the matchup tags) -----------------
+
+writeLeagueFile(OUT_DIR, { current: current.label, last: last.label })
 
 // --- meta -----------------------------------------------------------------------------
 

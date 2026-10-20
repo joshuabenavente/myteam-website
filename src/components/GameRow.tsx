@@ -4,6 +4,7 @@ import { channelsFor } from '../lib/channels.ts'
 import type { AppData } from '../lib/data.ts'
 import { finishedSeriesSummary, formatGameDate, formatGameTime, formatRecord, formatUpdated, hasGames, ordinal, seriesSummary } from '../lib/format.ts'
 import { liveFor, useLive } from '../lib/live.ts'
+import { matchupTags, ROW_PRIORITY } from '../lib/tags.ts'
 import { routeHref } from '../lib/route.ts'
 import { useTeam } from '../lib/team.ts'
 import { TEAMS_BY_ABBR } from '../lib/teams.ts'
@@ -33,6 +34,9 @@ export function GameRow({ game, data, timeZone, focused = false }: Props) {
   const oppStanding = standings[game.opponent]
   const { weekday, monthDay } = formatGameDate(game.startUtc, timeZone)
   const detailsId = `game-${game.id}`
+  const team = useTeam()
+  // The game's top tag, if it's a strong one (src/lib/tags.ts); a neutral site is already shown beside the opponent.
+  const tag = matchupTags({ game, team: team.abbr, data }).find((t) => t.priority <= ROW_PRIORITY && t.id !== 'neutral')
 
   return (
     <li ref={ref} className={`game ${open ? 'open' : ''}`}>
@@ -53,6 +57,11 @@ export function GameRow({ game, data, timeZone, focused = false }: Props) {
               <span className="muted small">{formatRecord(oppStanding)}</span>
             )}
             {game.neutralSite && <span className="muted small">in {game.neutralSite}</span>}
+            {tag && (
+              <span className="row-tag small" title={tag.title}>
+                {tag.short ?? tag.text}
+              </span>
+            )}
           </span>
         </span>
 

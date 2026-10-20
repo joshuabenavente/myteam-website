@@ -6,6 +6,7 @@ import type {
   GameLogsFile,
   HeadToHeadFile,
   LastSeasonFile,
+  LeagueFile,
   MetaFile,
   PlayersFile,
   PreviewsFile,
@@ -25,6 +26,8 @@ export interface AppData {
   previews?: PreviewsFile
   /** Last season's results; absent until the data refresh has written them. */
   lastSeason?: LastSeasonFile
+  /** League-wide facts for the matchup tags; absent until the data refresh has written them. */
+  league?: LeagueFile
   /** No connection: the installed app is showing the copy it saved last time. */
   offline?: boolean
 }
@@ -68,8 +71,9 @@ export function useAppData(abbr: string | undefined): { data?: AppData; error?: 
       loadOptional<AvailabilityFile>('availability'),
       loadOptional<PreviewsFile>(teamFile(abbr, 'previews')),
       loadOptional<LastSeasonFile>(teamFile(abbr, 'last-season')),
+      loadOptional<LeagueFile>('league'),
     ])
-      .then(([schedule, standings, h2h, players, meta, availability, previews, lastSeason]) => {
+      .then(([schedule, standings, h2h, players, meta, availability, previews, lastSeason, league]) => {
         if (stale) return
         setState({
           abbr,
@@ -82,6 +86,7 @@ export function useAppData(abbr: string | undefined): { data?: AppData; error?: 
             availability,
             previews,
             lastSeason,
+            league,
             offline: servedOffline,
           },
         })

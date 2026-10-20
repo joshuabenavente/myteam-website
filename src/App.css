@@ -168,6 +168,14 @@
   white-space: nowrap;
 }
 
+/* A matchup tag: a fact about the game; long ones wrap instead of running off a phone. */
+.hero-chip.tag {
+  padding-top: 6px;
+  padding-bottom: 6px;
+  line-height: 1.25;
+  white-space: normal;
+}
+
 .hero-chip.soft {
   background: rgb(255 255 255 / 14%);
 }
@@ -3789,4 +3797,10 @@ main,
 
 .conference-standings p {
   margin: 8px 0 0;
+}
+
+/* A game's top matchup tag in the schedule list (src/lib/tags.ts). */
+.row-tag {
+  color: var(--link-text);
+  font-weight: var(--w-strong);
 }

@@ -230,3 +230,13 @@ export interface MetaFile {
   season: string
   sources: string[]
 }
+
+/** League-wide facts that matchup tags need and one team's files don't hold. */
+export interface LeagueFile {
+  /** The season whose per-game scoring ranks the scorers: this season once teams have played 10 games, else last. */
+  scoringSeason: string
+  /** The league's top scorers by points per game, best first. */
+  scorers: { name: string; team: string; ppg: number; games: number }[]
+  /** Each team's regular-season wins last season. */
+  lastWins: { [abbr: string]: number }
+}

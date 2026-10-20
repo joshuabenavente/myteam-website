@@ -4,6 +4,7 @@ import { formatGameDate, formatGameTime, timeZoneAbbr } from '../lib/format.ts'
 import { nextGames } from '../lib/availability.ts'
 import { countdownEyebrow, countdownLabel, daysUntil, headlineChannel, headlineGame, lastResult, listedFor } from '../lib/hero.ts'
 import { liveFor, useLive } from '../lib/live.ts'
+import { matchupTags } from '../lib/tags.ts'
 import { nameKey } from '../lib/names.ts'
 import { routeHref, type Route } from '../lib/route.ts'
 import { seasonForDate } from '../lib/season.ts'
@@ -137,6 +138,9 @@ function NextGame({ data, timeZone, onShowGame }: { data: AppData; timeZone: str
   const rosterIds = new Map(data.players.players.map((p) => [nameKey(p.name), p.id]))
   const hidden = Math.max(0, ours.length - CHIPS_PER_TEAM) + Math.max(0, theirs.length - CHIPS_PER_TEAM)
 
+  // Facts about the game (src/lib/tags.ts): shown before tip-off, like the injury pills were.
+  const tags = showPill ? [] : matchupTags({ game, team: team.abbr, data, now: now.getTime() })
+
   const injuryChips = (
     <>
             {ours.slice(0, CHIPS_PER_TEAM).map((a) => (
@@ -201,12 +205,18 @@ function NextGame({ data, timeZone, onShowGame }: { data: AppData; timeZone: str
             {last.home ? 'vs' : 'at'} {last.opponent}
           </a>
         )}
-        {(testLive || (showPill && watch) || ours.length + theirs.length > 0) && (
+        {(testLive || (showPill && watch) || tags.length > 0 || ours.length + theirs.length > 0) && (
           <ul className="hero-chips" aria-label="About this game">
             {testLive && <LivePill live={testLive} started href={routeHref({ page: 'game', id: 'live' })} />}
             {showPill && watch && (
               <LivePill live={watch} started={started} href={routeHref({ page: 'game', id: game.id })} />
             )}
+            {tags.map((t) => (
+              <li key={t.id + t.text} className="hero-chip soft tag" title={t.title}>
+                {t.text}
+                {t.title && <span className="sr-only">. {t.title}</span>}
+              </li>
+            ))}
             {injuryChips}
           </ul>
         )}
@@ -251,12 +261,9 @@ function NextGameLoading() {
       <div className="countdown">
         <span className="bone bone-line" />
         <span className="bone bone-count" />
-        {SHOW_HEADER_INJURIES && (
-          <>
-            <span className="bone bone-chips" />
-            <span className="bone bone-chips short" />
-          </>
-        )}
+        {/* One row, for the matchup tags (or the injury pills, when on): the usual case. */}
+        <span className="bone bone-chips" />
+        {SHOW_HEADER_INJURIES && <span className="bone bone-chips short" />}
       </div>
       <div className="next-up">
         <span className="bone bone-line" />
@@ -273,7 +280,9 @@ function NextGameLoading() {
 /** Drawn before the data arrives too (a stand-in chip for the counts), so the roster doesn't jump down. */
 function RosterIntro({ data }: { data?: AppData }) {
   const players = data?.players.players ?? []
-  const season = data?.players.season ?? seasonForDate(new Date()).label
+  // Before the data arrives: this season by the calendar (the state keeps the date out of render).
+  const [calendarSeason] = useState(() => seasonForDate(new Date()).label)
+  const season = data?.players.season ?? calendarSeason
   const twoWay = players.filter((p) => p.twoWay).length
   return (
     <section className="hero-page">
