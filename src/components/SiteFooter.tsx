@@ -2,7 +2,7 @@ import { Wordmark } from './Brand.tsx'
 import { InstallApp } from './InstallApp.tsx'
 
 /** The owner's Ko-fi page, for the footer's support link. */
-const KOFI_URL = 'https://ko-fi.com/PLACEHOLDER'
+const KOFI_URL = 'https://ko-fi.com/soapod'
 
 /** Site name, a support link, contact address and data credits. */
 export function SiteFooter({ updatedAt }: { updatedAt?: string }) {
