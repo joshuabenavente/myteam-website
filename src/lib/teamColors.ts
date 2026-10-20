@@ -129,8 +129,11 @@ function withLinks(theme: Omit<TeamTheme, 'link' | 'linkDark'>): TeamTheme {
 }
 
 const DENVER = withLinks({ dark: NAVY, mid: '#1d428a', accent: GOLD, accentText: NAVY, dot: GOLD })
-/** For pages without a team (the team picker). */
-export const NEUTRAL_THEME = withLinks({ dark: '#0f172a', mid: '#334155', accent: '#facc15', accentText: '#0f172a', dot: '#F04B32' })
+/**
+ * For pages without a team (the team picker): graphite, like the site's dark mode, with the
+ * logo dot's red-orange as the accent, so it reads as myteam.fans rather than any one team.
+ */
+export const NEUTRAL_THEME = withLinks({ dark: '#111214', mid: '#2e2f35', accent: '#F04B32', accentText: '#111214', dot: '#F04B32' })
 
 /**
  * A team's site colors from its two team colors. The header uses the darker one (made dark
