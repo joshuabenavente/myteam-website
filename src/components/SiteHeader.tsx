@@ -20,6 +20,13 @@ import { TeamLogo } from './TeamLogo.tsx'
 /** Injury chips per team; the rest are behind "+N more". */
 const CHIPS_PER_TEAM = 2
 
+/**
+ * Injury pills in the team page header. Off since October 2026: each game's injury report is in
+ * its row on the team page and on its game page. Set to true to bring the pills back (the header
+ * and its loading placeholder follow).
+ */
+const SHOW_HEADER_INJURIES = false
+
 interface Props {
   route: Route
   data?: AppData
@@ -123,7 +130,7 @@ function NextGame({ data, timeZone, onShowGame }: { data: AppData; timeZone: str
   const live = score ? score.state === 'in' || score.state === 'delayed' : started
   const channel = headlineChannel(game)
   // Once the game is on (or just finished) the score matters, not who's out; drop the injury chips.
-  const listed = showPill ? {} : (data.availability?.teams ?? {})
+  const listed = showPill || !SHOW_HEADER_INJURIES ? {} : (data.availability?.teams ?? {})
   const ours = listedFor(listed[team.abbr], game)
   const theirs = listedFor(listed[game.opponent], game)
   // The team's own chips link to the player's page.
@@ -194,13 +201,15 @@ function NextGame({ data, timeZone, onShowGame }: { data: AppData; timeZone: str
             {last.home ? 'vs' : 'at'} {last.opponent}
           </a>
         )}
-        <ul className="hero-chips" aria-label="About this game">
-          {testLive && <LivePill live={testLive} started href={routeHref({ page: 'game', id: 'live' })} />}
-          {showPill && watch && (
-            <LivePill live={watch} started={started} href={routeHref({ page: 'game', id: game.id })} />
-          )}
-          {injuryChips}
-        </ul>
+        {(testLive || (showPill && watch) || ours.length + theirs.length > 0) && (
+          <ul className="hero-chips" aria-label="About this game">
+            {testLive && <LivePill live={testLive} started href={routeHref({ page: 'game', id: 'live' })} />}
+            {showPill && watch && (
+              <LivePill live={watch} started={started} href={routeHref({ page: 'game', id: game.id })} />
+            )}
+            {injuryChips}
+          </ul>
+        )}
         <LiveAnnouncer score={testLive?.score ?? score} />
       </div>
 
@@ -242,8 +251,12 @@ function NextGameLoading() {
       <div className="countdown">
         <span className="bone bone-line" />
         <span className="bone bone-count" />
-        <span className="bone bone-chips" />
-        <span className="bone bone-chips short" />
+        {SHOW_HEADER_INJURIES && (
+          <>
+            <span className="bone bone-chips" />
+            <span className="bone bone-chips short" />
+          </>
+        )}
       </div>
       <div className="next-up">
         <span className="bone bone-line" />
