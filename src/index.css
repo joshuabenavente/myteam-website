@@ -18,6 +18,8 @@
   --link: #1d428a;
   --link-dark: #fec524;
   --skyline-text: var(--link);
+  /* Text links on the page background: the team's link color for the mode. */
+  --link-text: var(--link);
   --win: #1a7f37;
   --loss: var(--flatirons);
   --chip-local-bg: var(--midnight);
@@ -62,6 +64,7 @@
     --hover: #26262a;
     --heading: var(--link-dark);
     --skyline-text: var(--link-dark);
+    --link-text: var(--link-dark);
     --win: #4ac26b;
     --loss: #ff7b8a;
     --chip-local-bg: var(--sunshine);

@@ -1706,6 +1706,12 @@ main {
   font-size: 0.9rem;
 }
 
+/* Dates of this season's games link to the game page (NBA-09). */
+.log-date a {
+  color: var(--link-text);
+  text-underline-offset: 2px;
+}
+
 .log-match {
   display: flex;
   align-items: center;

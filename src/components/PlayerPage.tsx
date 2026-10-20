@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { absencesForGame, availabilityLabel, isGameTimeDecision, nextGames } from '../lib/availability.ts'
 import { useGameLogs, type AppData } from '../lib/data.ts'
 import { formatGameDate, formatGameTime } from '../lib/format.ts'
+import { gameForLogEntry } from '../lib/gameLog.ts'
 import { routeHref } from '../lib/route.ts'
 import { useTeam } from '../lib/team.ts'
 import { COLUMNS, change, sumGameLog } from '../lib/stats.ts'
@@ -359,7 +360,11 @@ function GameLogList(props: {
           </thead>
           <tbody>
             {(showAll ? games : games.slice(0, LOG_PREVIEW)).map((g) => (
-              <LogRow key={`${g.date}-${g.opponent}`} game={g} />
+              <LogRow
+                key={`${g.date}-${g.opponent}`}
+                game={g}
+                gameId={season === 'current' ? gameForLogEntry(g, data.schedule.games)?.id : undefined}
+              />
             ))}
           </tbody>
         </table>
@@ -373,13 +378,14 @@ function GameLogList(props: {
   )
 }
 
-function LogRow({ game: g }: { game: GameLogEntry }) {
+/** `gameId` links the date to the game page: this season's games with the current team only. */
+function LogRow({ game: g, gameId }: { game: GameLogEntry; gameId?: string }) {
   const date = new Date(`${g.date}T12:00:00Z`).toLocaleDateString('en-US', { month: 'short', day: 'numeric', timeZone: 'UTC' })
   // "131-137 (OT)" -> score plus a compact overtime badge.
   const [, score = g.score, overtime] = g.score.match(/^(\S+)(?:\s*\((\d*OT)\))?/) ?? []
   return (
     <tr>
-      <td className="log-date">{date}</td>
+      <td className="log-date">{gameId ? <a href={routeHref({ page: 'game', id: gameId })}>{date}</a> : date}</td>
       <td>
         <span className="log-match">
           <span className="muted">{g.home ? 'vs' : '@'}</span>
