@@ -166,7 +166,7 @@ For every intended indexable template, record: URL, page type, status, redirect 
 ### Setup steps for the owner (written October 20, 2026)
 
 1. **Google Search Console:** go to search.google.com/search-console, *Add property* → **Domain** → `myteam.fans`. Google shows a TXT record; add it at your DNS host for `myteam.fans` (wherever the domain's DNS is managed; the record name is `@` or blank). Click *Verify* (DNS can take a few minutes to an hour). Keep the record afterwards.
-2. **Submit the sitemap:** in Search Console, *Sitemaps* → enter `sitemap.xml` → *Submit*.
+2. **Submit the sitemap:** in Search Console, *Sitemaps* → enter the full address `https://myteam.fans/sitemap.xml` (Domain properties ask for the full URL) → *Submit*.
 3. **Spot-check:** *URL Inspection* → paste `https://myteam.fans/denver-nuggets/players/jokicni01` → *Test live URL*; then *Request indexing* for that one and a team page.
 4. **Bing Webmaster Tools:** bing.com/webmasters → sign in → *Import from Google Search Console* (fastest once step 1 is verified). Then *Sitemaps* → submit `https://myteam.fans/sitemap.xml`.
 5. **GitHub Pages:** repository *Settings* → *Pages* → make sure **Enforce HTTPS** is ticked.
