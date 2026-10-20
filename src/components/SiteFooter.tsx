@@ -1,8 +1,10 @@
 import { Wordmark } from './Brand.tsx'
 import { InstallApp } from './InstallApp.tsx'
 
+/** The owner's Ko-fi page, for the footer's support link. */
+const KOFI_URL = 'https://ko-fi.com/PLACEHOLDER'
 
-/** Site name, contact address and data credits. */
+/** Site name, a support link, contact address and data credits. */
 export function SiteFooter({ updatedAt }: { updatedAt?: string }) {
   // Put together in the browser, so the address isn't sitting in the page source for scrapers.
   const email = ['contact', 'myteam.fans'].join('@')
@@ -11,6 +13,12 @@ export function SiteFooter({ updatedAt }: { updatedAt?: string }) {
       <div className="footer-inner">
         <Wordmark height={22} className="footer-wordmark" />
         <InstallApp />
+        <p className="support">
+          myteam.fans is free and ad-free.{' '}
+          <a className="support-link" href={KOFI_URL} target="_blank" rel="noreferrer">
+            <span aria-hidden="true">🍺</span> Buy me a beer
+          </a>
+        </p>
         <p>
           <a href={`mailto:${email}`}>{email}</a>
         </p>

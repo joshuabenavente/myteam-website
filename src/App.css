@@ -3526,6 +3526,32 @@ a.mini-game:hover {
   background: rgb(255 255 255 / 20%);
 }
 
+/* The footer's Ko-fi link, as a pill like the install button. */
+.footer-inner p.support {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 12px;
+  margin: 16px 0 14px;
+}
+
+.support-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 40px;
+  padding: 0 16px;
+  border: 1px solid rgb(255 255 255 / 30%);
+  border-radius: 999px;
+  background: rgb(255 255 255 / 12%);
+  font-weight: var(--w-bold);
+  text-decoration: none;
+}
+
+.support-link:hover {
+  background: rgb(255 255 255 / 20%);
+}
+
 .install-tip {
   color: rgb(255 255 255 / 85%);
 }
