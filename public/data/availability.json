@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-20T18:17:56.110Z",
+ "updatedAt": "2026-10-20T19:17:55.424Z",
  "teams": {
   "ATL": [
    {
@@ -81,20 +81,6 @@
   ],
   "CHI": [
    {
-    "name": "Dailyn Swain",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Illness",
-    "returnDate": "2026-10-23"
-   },
-   {
-    "name": "Jordan Hawkins",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Illness",
-    "returnDate": "2026-10-23"
-   },
-   {
     "name": "Nic Claxton",
     "status": "Out",
     "gameTimeDecision": false,
@@ -102,10 +88,31 @@
     "returnDate": "2026-11-04"
    },
    {
+    "name": "Dailyn Swain",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Illness",
+    "returnDate": "2026-10-21"
+   },
+   {
     "name": "Isaac Okoro",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
-    "reason": "Undisclosed",
+    "reason": "Knee",
+    "returnDate": "2026-10-21"
+   },
+   {
+    "name": "Jordan Hawkins",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Illness",
+    "returnDate": "2026-10-21"
+   },
+   {
+    "name": "Leonard Miller",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Groin",
     "returnDate": "2026-10-21"
    },
    {
@@ -242,6 +249,22 @@
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Ankle (sprain)",
+    "returnDate": "2026-10-21"
+   }
+  ],
+  "HOU": [
+   {
+    "name": "Julian Phillips",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Illness",
+    "returnDate": "2026-10-21"
+   },
+   {
+    "name": "Steven Adams",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Calf (soreness)",
     "returnDate": "2026-10-21"
    }
   ],
