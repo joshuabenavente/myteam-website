@@ -161,7 +161,13 @@ At completion, report each task's implementation status, files changed, tests pe
 - **VIS-001 — waiting on human review.** The study protocol and today's measurements are in
   [HUMAN_REVIEW.md](HUMAN_REVIEW.md).
 - **VIS-003 — closed.** No player-comparison use case is planned.
-- **New, to be looked into separately:** on matchup cards where one team color is dark and the
-  other light (e.g. Lakers purple and gold), the dark team's light text can run into the color
-  blend in the middle of the card, where contrast drops. Not yet assessed or approved.
+- **Injury lists over the color blend — done (option 3), owner-approved October 2026.** On the
+  game page's matchup card, injury text reaching into the blend in the middle fell below 4.5:1 in
+  29% of the 870 matchups on phones (21% on desktop; worst about 2.0:1, Brooklyn vs Memphis).
+  Compared on identical content: solid halves behind the lists (passes everywhere but leaves a
+  stepped edge beside the desktop time box) and dark panels behind the lists. The owner chose the
+  panels: `.sb-injuries:not(.empty)` in `src/App.css`, 66% dark with white text, which keeps
+  names at 6.2:1 or better and the dimmed status text at 5.0:1 or better over every team's colors.
+  A team with no injuries gets no panel. Trade-off: the panel padding makes the lists a little
+  narrower, so a few more lines wrap on 320 px phones.
 
