@@ -10,6 +10,14 @@ Items that need a person, not code. Nothing here is approved for implementation.
   and scrolls as today. Default to Basic and remember the choice on the device. To decide then:
   whether desktop shows everything regardless, and how Basic fits at 320 px. (Owner idea,
   October 20, 2026; not approved for implementation.)
+- **After the live-game checklist (NBA-08): faster records after a final.** Today the final score
+  shows within about a minute (live score), but the record, standings, Completed list and player
+  stats wait for the hourly :17 refresh. Leading option, marked by the owner (October 20, 2026):
+  **the app updates the record and recent-results line itself when the live score turns final**;
+  standings still wait for the next refresh. No extra data runs. Alternatives considered: refresh
+  every 15–30 minutes during game hours only (a one-line Worker schedule change); a refresh about
+  5 minutes after each final (needs the Worker to watch scores; more load on Basketball-Reference,
+  which blocks heavy use; runs pile up on busy nights). Undecided; no changes approved.
 
 ## Closed
 
