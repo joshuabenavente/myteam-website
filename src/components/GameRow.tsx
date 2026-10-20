@@ -105,8 +105,12 @@ export function Broadcasts({ game }: { game: Game }) {
   )
 }
 
-/** Label, preview, standings, season series and (for the next few games) who's out. */
-export function GameDetails({ game, data }: { game: Game; data: AppData }) {
+/**
+ * Label, preview, standings, season series and (for the next few games) who's out. On the game
+ * page itself (`onGamePage`) it leaves out the link to that page and the injury report, which the
+ * page's matchup card already shows.
+ */
+export function GameDetails({ game, data, onGamePage = false }: { game: Game; data: AppData; onGamePage?: boolean }) {
   const team = useTeam()
   const isNext = nextGames(data.schedule.games).some((g) => g.id === game.id)
   const preview = isNext ? data.previews?.games[game.id] : undefined
@@ -122,10 +126,10 @@ export function GameDetails({ game, data }: { game: Game; data: AppData }) {
           <p className="preview-credit muted small">Written by Claude using only the team records, matchup history and injury report.</p>
         </div>
       )}
-      <GamePageLink game={game} />
+      {!onGamePage && <GamePageLink game={game} />}
       <StandingsTable abbrs={[team.abbr, game.opponent]} standings={data.standings.teams} />
       <SeasonSeries opponent={game.opponent} h2h={data.h2h} />
-      {isNext && data.availability && <InjuryReport game={game} availability={data.availability} />}
+      {isNext && !onGamePage && data.availability && <InjuryReport game={game} availability={data.availability} />}
     </>
   )
 }

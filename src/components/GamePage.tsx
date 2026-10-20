@@ -20,6 +20,7 @@ import { TEAMS_BY_ABBR } from '../lib/teams.ts'
 import type { Game, Player } from '../lib/types.ts'
 import { useTeam } from '../lib/team.ts'
 import { useGameSummary } from '../lib/useGameSummary.ts'
+import { Broadcasts, GameDetails } from './GameRow.tsx'
 import { Icon } from './Icon.tsx'
 import { LiveAnnouncer } from './LivePill.tsx'
 import { TeamLogo } from './TeamLogo.tsx'
@@ -156,6 +157,13 @@ function GameView({ team, game, data, timeZone }: { team: string; game?: Game; d
 
       {started && left && right && <BoxScores left={left} right={right} players={data.players.players} team={team} />}
       {started && s && s.plays.length > 0 && <PlayByPlay summary={s} left={left!} right={right!} />}
+      {/* Before tip-off: the same channels and details as the game's row in the list (NBA-04). */}
+      {game && !started && (
+        <section className="game-page-details" aria-label="About this game">
+          <Broadcasts game={game} />
+          <GameDetails game={game} data={data} onGamePage />
+        </section>
+      )}
       {s && !started && s.state !== 'postponed' && (
         <p className="placeholder">Box scores and play-by-play start at tip-off.</p>
       )}

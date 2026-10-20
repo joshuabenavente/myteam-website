@@ -31,6 +31,23 @@ export interface Game {
   neutralSite?: string
 }
 
+/** A finished game from either team's side: last season's results (NBA-03). */
+export interface PastGame {
+  type: TrackedGameType
+  startUtc: string
+  /** NBA tricodes. */
+  home: string
+  away: string
+  homeScore: number
+  awayScore: number
+}
+
+/** A team's results from last season, regular season and playoffs. Written once a season. */
+export interface LastSeasonFile {
+  season: string
+  games: PastGame[]
+}
+
 export interface ScheduleFile {
   season: string
   games: Game[]

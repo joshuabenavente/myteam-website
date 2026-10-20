@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { change, COLUMNS } from './stats'
+import { change, COLUMNS, pastScores, scoring, seasonScores } from './stats'
 import type { StatTotals } from './types'
 
 const totals: StatTotals = {
@@ -36,5 +36,38 @@ describe('change', () => {
 
   it('reports no change', () => {
     expect(change(col('points'), 25.01, 25.0, 'perGame')).toEqual({ text: '0', direction: 'same', good: undefined })
+  })
+})
+
+describe('scoring', () => {
+  it('averages points scored and allowed, and the margin', () => {
+    expect(scoring([{ team: 110, opponent: 100 }, { team: 99, opponent: 104 }, undefined])).toEqual({
+      games: 2,
+      pointsFor: 104.5,
+      pointsAgainst: 102,
+      margin: 2.5,
+    })
+    expect(scoring([])).toBeUndefined()
+  })
+
+  it('takes this season from finished regular season games only', () => {
+    const g = (type: 'regular' | 'playoffs', status: 'final' | 'scheduled', score?: { team: number; opponent: number }) =>
+      ({ id: '', type, startUtc: '', home: true, opponent: 'OKC', status, broadcasts: [], score })
+    expect(seasonScores([g('regular', 'final', { team: 1, opponent: 2 }), g('playoffs', 'final', { team: 3, opponent: 4 }), g('regular', 'scheduled')])).toEqual([
+      { team: 1, opponent: 2 },
+    ])
+  })
+
+  it('reads last season from the team\'s side, home or away', () => {
+    const games = [
+      { type: 'regular' as const, startUtc: '', home: 'DEN', away: 'OKC', homeScore: 120, awayScore: 110 },
+      { type: 'regular' as const, startUtc: '', home: 'LAL', away: 'DEN', homeScore: 100, awayScore: 104 },
+      { type: 'playoffs' as const, startUtc: '', home: 'DEN', away: 'GSW', homeScore: 90, awayScore: 99 },
+      { type: 'regular' as const, startUtc: '', home: 'BOS', away: 'NYK', homeScore: 1, awayScore: 2 },
+    ]
+    expect(pastScores(games, 'DEN')).toEqual([
+      { team: 120, opponent: 110 },
+      { team: 104, opponent: 100 },
+    ])
   })
 })

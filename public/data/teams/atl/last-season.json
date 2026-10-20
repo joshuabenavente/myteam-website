@@ -1,0 +1,709 @@
+{
+ "season": "2025-26",
+ "games": [
+  {
+   "type": "regular",
+   "startUtc": "2025-10-22T23:30:00.000Z",
+   "home": "ATL",
+   "away": "TOR",
+   "homeScore": 118,
+   "awayScore": 138
+  },
+  {
+   "type": "regular",
+   "startUtc": "2025-10-24T23:00:00.000Z",
+   "home": "ORL",
+   "away": "ATL",
+   "homeScore": 107,
+   "awayScore": 111
+  },
+  {
+   "type": "regular",
+   "startUtc": "2025-10-25T23:30:00.000Z",
+   "home": "ATL",
+   "away": "OKC",
+   "homeScore": 100,
+   "awayScore": 117
+  },
+  {
+   "type": "regular",
+   "startUtc": "2025-10-28T00:00:00.000Z",
+   "home": "CHI",
+   "away": "ATL",
+   "homeScore": 128,
+   "awayScore": 123
+  },
+  {
+   "type": "regular",
+   "startUtc": "2025-10-29T23:30:00.000Z",
+   "home": "BKN",
+   "away": "ATL",
+   "homeScore": 112,
+   "awayScore": 117
+  },
+  {
+   "type": "regular",
+   "startUtc": "2025-10-31T23:00:00.000Z",
+   "home": "IND",
+   "away": "ATL",
+   "homeScore": 108,
+   "awayScore": 128
+  },
+  {
+   "type": "regular",
+   "startUtc": "2025-11-02T23:00:00.000Z",
+   "home": "CLE",
+   "away": "ATL",
+   "homeScore": 117,
+   "awayScore": 109
+  },
+  {
+   "type": "regular",
+   "startUtc": "2025-11-05T01:00:00.000Z",
+   "home": "ATL",
+   "away": "ORL",
+   "homeScore": 127,
+   "awayScore": 112
+  },
+  {
+   "type": "regular",
+   "startUtc": "2025-11-08T00:30:00.000Z",
+   "home": "ATL",
+   "away": "TOR",
+   "homeScore": 97,
+   "awayScore": 109
+  },
+  {
+   "type": "regular",
+   "startUtc": "2025-11-09T01:00:00.000Z",
+   "home": "ATL",
+   "away": "LAL",
+   "homeScore": 122,
+   "awayScore": 102
+  },
+  {
+   "type": "regular",
+   "startUtc": "2025-11-11T03:30:00.000Z",
+   "home": "LAC",
+   "away": "ATL",
+   "homeScore": 102,
+   "awayScore": 105
+  },
+  {
+   "type": "regular",
+   "startUtc": "2025-11-13T03:00:00.000Z",
+   "home": "SAC",
+   "away": "ATL",
+   "homeScore": 100,
+   "awayScore": 133
+  },
+  {
+   "type": "regular",
+   "startUtc": "2025-11-14T02:00:00.000Z",
+   "home": "UTA",
+   "away": "ATL",
+   "homeScore": 122,
+   "awayScore": 132
+  },
+  {
+   "type": "regular",
+   "startUtc": "2025-11-17T01:00:00.000Z",
+   "home": "PHX",
+   "away": "ATL",
+   "homeScore": 122,
+   "awayScore": 124
+  },
+  {
+   "type": "regular",
+   "startUtc": "2025-11-19T00:30:00.000Z",
+   "home": "ATL",
+   "away": "DET",
+   "homeScore": 112,
+   "awayScore": 120
+  },
+  {
+   "type": "regular",
+   "startUtc": "2025-11-21T01:00:00.000Z",
+   "home": "SAS",
+   "away": "ATL",
+   "homeScore": 135,
+   "awayScore": 126
+  },
+  {
+   "type": "regular",
+   "startUtc": "2025-11-23T00:00:00.000Z",
+   "home": "NOP",
+   "away": "ATL",
+   "homeScore": 98,
+   "awayScore": 115
+  },
+  {
+   "type": "regular",
+   "startUtc": "2025-11-23T23:00:00.000Z",
+   "home": "ATL",
+   "away": "CHA",
+   "homeScore": 113,
+   "awayScore": 110
+  },
+  {
+   "type": "regular",
+   "startUtc": "2025-11-26T00:00:00.000Z",
+   "home": "WAS",
+   "away": "ATL",
+   "homeScore": 132,
+   "awayScore": 113
+  },
+  {
+   "type": "regular",
+   "startUtc": "2025-11-29T00:30:00.000Z",
+   "home": "ATL",
+   "away": "CLE",
+   "homeScore": 130,
+   "awayScore": 123
+  },
+  {
+   "type": "regular",
+   "startUtc": "2025-11-30T23:00:00.000Z",
+   "home": "PHI",
+   "away": "ATL",
+   "homeScore": 134,
+   "awayScore": 142
+  },
+  {
+   "type": "regular",
+   "startUtc": "2025-12-02T00:00:00.000Z",
+   "home": "DET",
+   "away": "ATL",
+   "homeScore": 99,
+   "awayScore": 98
+  },
+  {
+   "type": "regular",
+   "startUtc": "2025-12-04T00:30:00.000Z",
+   "home": "ATL",
+   "away": "LAC",
+   "homeScore": 92,
+   "awayScore": 115
+  },
+  {
+   "type": "regular",
+   "startUtc": "2025-12-06T00:30:00.000Z",
+   "home": "ATL",
+   "away": "DEN",
+   "homeScore": 133,
+   "awayScore": 134
+  },
+  {
+   "type": "regular",
+   "startUtc": "2025-12-07T00:00:00.000Z",
+   "home": "WAS",
+   "away": "ATL",
+   "homeScore": 116,
+   "awayScore": 131
+  },
+  {
+   "type": "regular",
+   "startUtc": "2025-12-13T00:00:00.000Z",
+   "home": "DET",
+   "away": "ATL",
+   "homeScore": 142,
+   "awayScore": 115
+  },
+  {
+   "type": "regular",
+   "startUtc": "2025-12-14T23:00:00.000Z",
+   "home": "ATL",
+   "away": "PHI",
+   "homeScore": 120,
+   "awayScore": 117
+  },
+  {
+   "type": "regular",
+   "startUtc": "2025-12-19T00:00:00.000Z",
+   "home": "CHA",
+   "away": "ATL",
+   "homeScore": 133,
+   "awayScore": 126
+  },
+  {
+   "type": "regular",
+   "startUtc": "2025-12-20T00:30:00.000Z",
+   "home": "ATL",
+   "away": "SAS",
+   "homeScore": 98,
+   "awayScore": 126
+  },
+  {
+   "type": "regular",
+   "startUtc": "2025-12-21T20:30:00.000Z",
+   "home": "ATL",
+   "away": "CHI",
+   "homeScore": 150,
+   "awayScore": 152
+  },
+  {
+   "type": "regular",
+   "startUtc": "2025-12-24T00:30:00.000Z",
+   "home": "ATL",
+   "away": "CHI",
+   "homeScore": 123,
+   "awayScore": 126
+  },
+  {
+   "type": "regular",
+   "startUtc": "2025-12-27T00:00:00.000Z",
+   "home": "ATL",
+   "away": "MIA",
+   "homeScore": 111,
+   "awayScore": 126
+  },
+  {
+   "type": "regular",
+   "startUtc": "2025-12-28T01:00:00.000Z",
+   "home": "ATL",
+   "away": "NYK",
+   "homeScore": 125,
+   "awayScore": 128
+  },
+  {
+   "type": "regular",
+   "startUtc": "2025-12-30T01:00:00.000Z",
+   "home": "OKC",
+   "away": "ATL",
+   "homeScore": 140,
+   "awayScore": 129
+  },
+  {
+   "type": "regular",
+   "startUtc": "2025-12-31T20:00:00.000Z",
+   "home": "ATL",
+   "away": "MIN",
+   "homeScore": 126,
+   "awayScore": 102
+  },
+  {
+   "type": "regular",
+   "startUtc": "2026-01-03T00:30:00.000Z",
+   "home": "NYK",
+   "away": "ATL",
+   "homeScore": 99,
+   "awayScore": 111
+  },
+  {
+   "type": "regular",
+   "startUtc": "2026-01-04T00:30:00.000Z",
+   "home": "TOR",
+   "away": "ATL",
+   "homeScore": 134,
+   "awayScore": 117
+  },
+  {
+   "type": "regular",
+   "startUtc": "2026-01-06T00:30:00.000Z",
+   "home": "TOR",
+   "away": "ATL",
+   "homeScore": 118,
+   "awayScore": 100
+  },
+  {
+   "type": "regular",
+   "startUtc": "2026-01-08T00:30:00.000Z",
+   "home": "ATL",
+   "away": "NOP",
+   "homeScore": 117,
+   "awayScore": 100
+  },
+  {
+   "type": "regular",
+   "startUtc": "2026-01-10T02:00:00.000Z",
+   "home": "DEN",
+   "away": "ATL",
+   "homeScore": 87,
+   "awayScore": 110
+  },
+  {
+   "type": "regular",
+   "startUtc": "2026-01-12T01:30:00.000Z",
+   "home": "GSW",
+   "away": "ATL",
+   "homeScore": 111,
+   "awayScore": 124
+  },
+  {
+   "type": "regular",
+   "startUtc": "2026-01-14T03:30:00.000Z",
+   "home": "LAL",
+   "away": "ATL",
+   "homeScore": 141,
+   "awayScore": 116
+  },
+  {
+   "type": "regular",
+   "startUtc": "2026-01-16T03:00:00.000Z",
+   "home": "POR",
+   "away": "ATL",
+   "homeScore": 117,
+   "awayScore": 101
+  },
+  {
+   "type": "regular",
+   "startUtc": "2026-01-18T00:30:00.000Z",
+   "home": "ATL",
+   "away": "BOS",
+   "homeScore": 106,
+   "awayScore": 132
+  },
+  {
+   "type": "regular",
+   "startUtc": "2026-01-19T18:00:00.000Z",
+   "home": "ATL",
+   "away": "MIL",
+   "homeScore": 110,
+   "awayScore": 112
+  },
+  {
+   "type": "regular",
+   "startUtc": "2026-01-22T01:00:00.000Z",
+   "home": "MEM",
+   "away": "ATL",
+   "homeScore": 122,
+   "awayScore": 124
+  },
+  {
+   "type": "regular",
+   "startUtc": "2026-01-24T00:30:00.000Z",
+   "home": "ATL",
+   "away": "PHX",
+   "homeScore": 110,
+   "awayScore": 103
+  },
+  {
+   "type": "regular",
+   "startUtc": "2026-01-26T18:30:00.000Z",
+   "home": "ATL",
+   "away": "IND",
+   "homeScore": 132,
+   "awayScore": 116
+  },
+  {
+   "type": "regular",
+   "startUtc": "2026-01-29T00:30:00.000Z",
+   "home": "BOS",
+   "away": "ATL",
+   "homeScore": 106,
+   "awayScore": 117
+  },
+  {
+   "type": "regular",
+   "startUtc": "2026-01-30T01:00:00.000Z",
+   "home": "ATL",
+   "away": "HOU",
+   "homeScore": 86,
+   "awayScore": 104
+  },
+  {
+   "type": "regular",
+   "startUtc": "2026-02-01T00:00:00.000Z",
+   "home": "IND",
+   "away": "ATL",
+   "homeScore": 129,
+   "awayScore": 124
+  },
+  {
+   "type": "regular",
+   "startUtc": "2026-02-04T00:30:00.000Z",
+   "home": "MIA",
+   "away": "ATL",
+   "homeScore": 115,
+   "awayScore": 127
+  },
+  {
+   "type": "regular",
+   "startUtc": "2026-02-06T00:30:00.000Z",
+   "home": "ATL",
+   "away": "UTA",
+   "homeScore": 121,
+   "awayScore": 119
+  },
+  {
+   "type": "regular",
+   "startUtc": "2026-02-08T00:30:00.000Z",
+   "home": "ATL",
+   "away": "CHA",
+   "homeScore": 119,
+   "awayScore": 126
+  },
+  {
+   "type": "regular",
+   "startUtc": "2026-02-10T01:00:00.000Z",
+   "home": "MIN",
+   "away": "ATL",
+   "homeScore": 138,
+   "awayScore": 116
+  },
+  {
+   "type": "regular",
+   "startUtc": "2026-02-12T00:00:00.000Z",
+   "home": "CHA",
+   "away": "ATL",
+   "homeScore": 110,
+   "awayScore": 107
+  },
+  {
+   "type": "regular",
+   "startUtc": "2026-02-20T00:00:00.000Z",
+   "home": "PHI",
+   "away": "ATL",
+   "homeScore": 107,
+   "awayScore": 117
+  },
+  {
+   "type": "regular",
+   "startUtc": "2026-02-21T00:30:00.000Z",
+   "home": "ATL",
+   "away": "MIA",
+   "homeScore": 97,
+   "awayScore": 128
+  },
+  {
+   "type": "regular",
+   "startUtc": "2026-02-22T20:30:00.000Z",
+   "home": "ATL",
+   "away": "BKN",
+   "homeScore": 115,
+   "awayScore": 104
+  },
+  {
+   "type": "regular",
+   "startUtc": "2026-02-25T00:30:00.000Z",
+   "home": "ATL",
+   "away": "WAS",
+   "homeScore": 119,
+   "awayScore": 98
+  },
+  {
+   "type": "regular",
+   "startUtc": "2026-02-27T00:30:00.000Z",
+   "home": "ATL",
+   "away": "WAS",
+   "homeScore": 126,
+   "awayScore": 96
+  },
+  {
+   "type": "regular",
+   "startUtc": "2026-03-01T23:00:00.000Z",
+   "home": "ATL",
+   "away": "POR",
+   "homeScore": 135,
+   "awayScore": 101
+  },
+  {
+   "type": "regular",
+   "startUtc": "2026-03-05T02:30:00.000Z",
+   "home": "MIL",
+   "away": "ATL",
+   "homeScore": 113,
+   "awayScore": 131
+  },
+  {
+   "type": "regular",
+   "startUtc": "2026-03-07T23:00:00.000Z",
+   "home": "ATL",
+   "away": "PHI",
+   "homeScore": 125,
+   "awayScore": 116
+  },
+  {
+   "type": "regular",
+   "startUtc": "2026-03-10T23:30:00.000Z",
+   "home": "ATL",
+   "away": "DAL",
+   "homeScore": 124,
+   "awayScore": 112
+  },
+  {
+   "type": "regular",
+   "startUtc": "2026-03-12T23:30:00.000Z",
+   "home": "ATL",
+   "away": "BKN",
+   "homeScore": 108,
+   "awayScore": 97
+  },
+  {
+   "type": "regular",
+   "startUtc": "2026-03-14T19:00:00.000Z",
+   "home": "ATL",
+   "away": "MIL",
+   "homeScore": 122,
+   "awayScore": 99
+  },
+  {
+   "type": "regular",
+   "startUtc": "2026-03-16T23:00:00.000Z",
+   "home": "ATL",
+   "away": "ORL",
+   "homeScore": 124,
+   "awayScore": 112
+  },
+  {
+   "type": "regular",
+   "startUtc": "2026-03-19T00:30:00.000Z",
+   "home": "DAL",
+   "away": "ATL",
+   "homeScore": 120,
+   "awayScore": 135
+  },
+  {
+   "type": "regular",
+   "startUtc": "2026-03-21T00:00:00.000Z",
+   "home": "HOU",
+   "away": "ATL",
+   "homeScore": 117,
+   "awayScore": 95
+  },
+  {
+   "type": "regular",
+   "startUtc": "2026-03-22T00:00:00.000Z",
+   "home": "ATL",
+   "away": "GSW",
+   "homeScore": 126,
+   "awayScore": 110
+  },
+  {
+   "type": "regular",
+   "startUtc": "2026-03-23T23:30:00.000Z",
+   "home": "ATL",
+   "away": "MEM",
+   "homeScore": 146,
+   "awayScore": 107
+  },
+  {
+   "type": "regular",
+   "startUtc": "2026-03-25T23:00:00.000Z",
+   "home": "DET",
+   "away": "ATL",
+   "homeScore": 129,
+   "awayScore": 130
+  },
+  {
+   "type": "regular",
+   "startUtc": "2026-03-27T23:30:00.000Z",
+   "home": "BOS",
+   "away": "ATL",
+   "homeScore": 109,
+   "awayScore": 102
+  },
+  {
+   "type": "regular",
+   "startUtc": "2026-03-28T23:30:00.000Z",
+   "home": "ATL",
+   "away": "SAC",
+   "homeScore": 123,
+   "awayScore": 113
+  },
+  {
+   "type": "regular",
+   "startUtc": "2026-03-30T23:30:00.000Z",
+   "home": "ATL",
+   "away": "BOS",
+   "homeScore": 112,
+   "awayScore": 102
+  },
+  {
+   "type": "regular",
+   "startUtc": "2026-04-01T23:00:00.000Z",
+   "home": "ORL",
+   "away": "ATL",
+   "homeScore": 101,
+   "awayScore": 130
+  },
+  {
+   "type": "regular",
+   "startUtc": "2026-04-03T23:30:00.000Z",
+   "home": "BKN",
+   "away": "ATL",
+   "homeScore": 107,
+   "awayScore": 141
+  },
+  {
+   "type": "regular",
+   "startUtc": "2026-04-06T23:00:00.000Z",
+   "home": "ATL",
+   "away": "NYK",
+   "homeScore": 105,
+   "awayScore": 108
+  },
+  {
+   "type": "regular",
+   "startUtc": "2026-04-08T23:00:00.000Z",
+   "home": "CLE",
+   "away": "ATL",
+   "homeScore": 122,
+   "awayScore": 116
+  },
+  {
+   "type": "regular",
+   "startUtc": "2026-04-10T23:00:00.000Z",
+   "home": "ATL",
+   "away": "CLE",
+   "homeScore": 124,
+   "awayScore": 102
+  },
+  {
+   "type": "regular",
+   "startUtc": "2026-04-12T22:00:00.000Z",
+   "home": "MIA",
+   "away": "ATL",
+   "homeScore": 143,
+   "awayScore": 117
+  },
+  {
+   "type": "playoffs",
+   "startUtc": "2026-04-18T22:00:00.000Z",
+   "home": "NYK",
+   "away": "ATL",
+   "homeScore": 113,
+   "awayScore": 102
+  },
+  {
+   "type": "playoffs",
+   "startUtc": "2026-04-21T00:00:00.000Z",
+   "home": "NYK",
+   "away": "ATL",
+   "homeScore": 106,
+   "awayScore": 107
+  },
+  {
+   "type": "playoffs",
+   "startUtc": "2026-04-23T23:00:00.000Z",
+   "home": "ATL",
+   "away": "NYK",
+   "homeScore": 109,
+   "awayScore": 108
+  },
+  {
+   "type": "playoffs",
+   "startUtc": "2026-04-25T22:00:00.000Z",
+   "home": "ATL",
+   "away": "NYK",
+   "homeScore": 98,
+   "awayScore": 114
+  },
+  {
+   "type": "playoffs",
+   "startUtc": "2026-04-29T00:00:00.000Z",
+   "home": "NYK",
+   "away": "ATL",
+   "homeScore": 126,
+   "awayScore": 97
+  },
+  {
+   "type": "playoffs",
+   "startUtc": "2026-04-30T23:00:00.000Z",
+   "home": "ATL",
+   "away": "NYK",
+   "homeScore": 89,
+   "awayScore": 140
+  }
+ ]
+}

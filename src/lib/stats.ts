@@ -1,6 +1,6 @@
 // Stat columns for the player tracker, computed from counting totals.
 
-import type { GameLogEntry, StatTotals } from './types.ts'
+import type { Game, GameLogEntry, PastGame, StatTotals } from './types.ts'
 
 export type StatMode = 'perGame' | 'totals'
 
@@ -101,3 +101,34 @@ export function sumGameLog(rows: GameLogEntry[], throughTeamGame = Infinity): St
   total.minutes = Math.round(total.minutes * 10) / 10
   return total
 }
+
+export interface Scoring {
+  games: number
+  /** Per game. */
+  pointsFor: number
+  pointsAgainst: number
+  margin: number
+}
+
+/**
+ * Points scored and allowed per game, and the average margin, over a team's finished regular
+ * season games (NBA-06). Undefined before any are played.
+ */
+export function scoring(games: ({ team: number; opponent: number } | undefined)[]): Scoring | undefined {
+  const scores = games.filter((s): s is { team: number; opponent: number } => !!s)
+  if (scores.length === 0) return undefined
+  const pointsFor = scores.reduce((n, s) => n + s.team, 0) / scores.length
+  const pointsAgainst = scores.reduce((n, s) => n + s.opponent, 0) / scores.length
+  return { games: scores.length, pointsFor, pointsAgainst, margin: pointsFor - pointsAgainst }
+}
+
+/** This season's finished regular season games, as the team's score and its opponent's. */
+export const seasonScores = (games: Game[]) =>
+  games.filter((g) => g.type === 'regular' && g.status === 'final').map((g) => g.score)
+
+/** Last season's regular season results from `abbr`'s side. */
+export const pastScores = (games: PastGame[], abbr: string) =>
+  games
+    .filter((g) => g.type === 'regular' && (g.home === abbr || g.away === abbr))
+    .map((g) => (g.home === abbr ? { team: g.homeScore, opponent: g.awayScore } : { team: g.awayScore, opponent: g.homeScore }))
+

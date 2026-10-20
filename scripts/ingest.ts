@@ -27,6 +27,7 @@ import type {
   GameLog,
   GameLogsFile,
   HeadToHeadFile,
+  LastSeasonFile,
   MetaFile,
   Player,
   PlayersFile,
@@ -135,6 +136,10 @@ for (const abbr of teams.filter((a) => !lastResults[a])) {
   })
 }
 write(resultsPath, lastResults, { compact: true })
+// Published for the Games page's last-season results (NBA-03).
+for (const abbr of teams.filter((a) => lastResults[a])) {
+  write(join(teamDir(abbr), 'last-season.json'), { season: last.label, games: lastResults[abbr] } satisfies LastSeasonFile)
+}
 
 const h2hByTeam: { [abbr: string]: HeadToHeadFile['opponents'] } = {}
 if (league) {

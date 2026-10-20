@@ -3677,3 +3677,69 @@ main,
     display: none;
   }
 }
+
+/* The game page before tip-off: the list row's details in a card (NBA-04). */
+.game-page-details {
+  margin-top: 16px;
+  padding: 14px 16px 16px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-card);
+  background: var(--surface);
+}
+
+.game-page-details .game-broadcasts {
+  justify-content: flex-start;
+  margin-bottom: 10px;
+}
+
+/* Last season's results aren't links, so they don't highlight like the rows that open. */
+.game.past .game-summary:hover {
+  background: none;
+}
+
+/* Team summary: scoring line and the conference table (NBA-05, NBA-06). */
+.team-scoring {
+  flex-basis: 100%;
+  font-variant-numeric: tabular-nums;
+}
+
+.standings-disclosure {
+  flex-basis: 100%;
+}
+
+.standings-disclosure summary {
+  display: inline-flex;
+  align-items: center;
+  min-height: 40px;
+  color: var(--skyline-text);
+  font-weight: var(--w-strong);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  cursor: pointer;
+}
+
+.conference-standings {
+  overflow-x: auto;
+  margin-top: 4px;
+}
+
+.conference-standings .rank {
+  width: 1.5em;
+  color: var(--muted);
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+.conference-standings td {
+  font-variant-numeric: tabular-nums;
+}
+
+.standings-team {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.conference-standings p {
+  margin: 8px 0 0;
+}
