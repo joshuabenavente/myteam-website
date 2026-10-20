@@ -106,8 +106,6 @@ export interface PreviewInputs {
   results: FinalGame[]
   absences: { [abbr: string]: Absence[] }
   players?: Player[]
-  /** The team's chance of winning (0-100) from ESPN's matchup predictor. */
-  winProbability?: number
 }
 
 export function buildFacts(i: PreviewInputs) {
@@ -148,10 +146,6 @@ export function buildFacts(i: PreviewInputs) {
       followedTeam: absenceFacts(absencesForGame(i.absences[team], game), i.players),
       opponent: absenceFacts(absencesForGame(i.absences[opp], game)),
     },
-    // Rounded so small model updates don't trigger a rewrite.
-    ...(i.winProbability !== undefined && {
-      espnMatchupPredictorFollowedTeamWinChance: `${Math.round(i.winProbability / 5) * 5}%`,
-    }),
   }
 }
 
@@ -163,7 +157,7 @@ Write exactly three sentences of plain prose: no markdown, headings, lists or em
 
 Use only the facts in the user's message, and never infer anything beyond them about either team's schedule, roster, results or history. Records, standings and absences are as of today. If either team has games still to play before this one, those come first, so don't call this game that team's season opener or say how the teams will look at tip-off; describe where things stand now instead. Call this game a team's opener only if that team has no games still to play before it and has not played yet. Don't mention the other games still to play; they're only there so you don't call this an opener. Quote series results as worded in the facts, and write plain, natural sentences. Refer to seasons only by the labels in the facts. Don't add statistics, player roles, storylines, coaches or history that aren't there; your knowledge of rosters may be out of date, so if a player's importance isn't shown by the numbers given, don't characterize it. If a team hasn't played yet this season, say so naturally (for example "both teams open their seasons") instead of quoting 0-0 records. Skip anything that adds nothing, such as an empty absence list.
 
-Don't mention tip-off time or TV channels; the app shows those. If a win chance from ESPN's matchup predictor is given, you may mention it once, attributed to ESPN; don't give betting advice.`
+Don't mention tip-off time or TV channels; the app shows those. Don't predict the result or give odds or betting advice.`
 
 /** Changes whenever the instructions or model do, so previews are rewritten after a prompt change. */
 export const PROMPT_VERSION = hashFacts({ SYSTEM, MODEL })

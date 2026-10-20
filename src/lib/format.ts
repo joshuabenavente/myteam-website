@@ -99,3 +99,7 @@ export function monthGrid({ year, month }: Month): (string | null)[][] {
   for (let i = 0; i < cells.length; i += 7) weeks.push(cells.slice(i, i + 7))
   return weeks
 }
+
+/** "Oct 20, 3:15 PM MDT": when a data file last changed, in the viewer's time zone. */
+export const formatUpdated = (iso: string) =>
+  new Date(iso).toLocaleString('en-US', { month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit', timeZoneName: 'short' })

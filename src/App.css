@@ -2492,6 +2492,10 @@ main {
   white-space: nowrap;
 }
 
+.injury-updated {
+  margin: 10px 0 0;
+}
+
 .game-updated {
   min-height: 1.4em;
   margin: 8px 0 18px;

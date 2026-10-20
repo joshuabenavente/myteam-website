@@ -1,7 +1,7 @@
 import { useState, type CSSProperties } from 'react'
 import { absencesForGame, availabilityLabel } from '../lib/availability.ts'
 import type { AppData } from '../lib/data.ts'
-import { formatGameDate, formatGameTime, formatRecord } from '../lib/format.ts'
+import { formatGameDate, formatGameTime, formatRecord, formatUpdated } from '../lib/format.ts'
 import {
   BOX_COLUMNS,
   periodLabel,
@@ -98,6 +98,16 @@ function GameView({ team, game, data, timeZone }: { team: string; game?: Game; d
         }))
       : [])
 
+  // Where the injury lists come from: ESPN's live game report once it has one, otherwise the
+  // site's own report, with when it last changed.
+  const fromEspn = !!(left?.injuries?.length || right?.injuries?.length)
+  const anyListed = injuriesFor(team, left).length + injuriesFor(opponent, right).length > 0
+  const injuryNote = !anyListed
+    ? undefined
+    : fromEspn
+      ? 'Injury report from ESPN'
+      : data.availability && `Injury report updated ${formatUpdated(data.availability.updatedAt)}`
+
   return (
     <div className="game-page" style={style}>
       <BackLink />
@@ -132,6 +142,7 @@ function GameView({ team, game, data, timeZone }: { team: string; game?: Game; d
         <Injuries side="right" team={oppTeam?.name ?? opponent} list={injuriesFor(opponent, right)} />
       </section>
 
+      {injuryNote && <p className="injury-updated muted small">{injuryNote}</p>}
       {s && <LiveAnnouncer score={announceable(s)} />}
       <p className="game-updated muted small" aria-live="off">
         {status.failed && !s
@@ -268,7 +279,7 @@ function Injuries({ side, team, list }: { side: 'left' | 'right'; team: string; 
   if (list.length === 0) return <div className={`sb-injuries ${side} empty`} />
   return (
     <div className={`sb-injuries ${side}`}>
-      <h2>{team} not available</h2>
+      <h2>{team} injury report</h2>
       <ul>
         {list.map((i) => (
           <li key={i.name}>

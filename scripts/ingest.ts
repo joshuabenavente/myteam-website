@@ -19,7 +19,6 @@ import Anthropic from '@anthropic-ai/sdk'
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs'
 import { dirname, join } from 'node:path'
 import { nextGames } from '../src/lib/availability.ts'
-import { parseScoreboard, scoreboardUrl } from '../src/lib/scoreboard.ts'
 import { previousSeason, seasonForDate } from '../src/lib/season.ts'
 import { sumGameLog } from '../src/lib/stats.ts'
 import { bbrefAbbr, espnSlug, TEAMS, TEAMS_BY_ABBR } from '../src/lib/teams.ts'
@@ -38,7 +37,7 @@ import type {
   TrackedGameType,
 } from '../src/lib/types.ts'
 import { gameLogUrl, parseGameLog, parseRoster } from './lib/bbref.ts'
-import { parseEspnResults, winProbability, type EspnScheduleJson, type EspnSummaryJson } from './lib/espn.ts'
+import { parseEspnResults, type EspnScheduleJson } from './lib/espn.ts'
 import { getBbref, getJson, NBA_HEADERS } from './lib/http.ts'
 import { nameKey, parseEspnRoster, type EspnPlayerInfo, type EspnRosterJson } from './lib/espnRoster.ts'
 import { parseInjuries, type EspnInjuriesJson } from './lib/injuries.ts'
@@ -54,7 +53,6 @@ const ESPN_SCHEDULE_URL = (abbr: string, endYear: number, seasonType: number) =>
   `${ESPN}/teams/${espnSlug(TEAMS_BY_ABBR[abbr])}/schedule?season=${endYear}&seasontype=${seasonType}`
 const ESPN_ROSTER_URL = (abbr: string) => `${ESPN}/teams/${espnSlug(TEAMS_BY_ABBR[abbr])}/roster`
 const ESPN_INJURIES_URL = `${ESPN}/injuries`
-const ESPN_SUMMARY_URL = (eventId: string) => `${ESPN}/summary?event=${eventId}`
 const BBREF_TEAM_URL = (abbr: string, endYear: number) =>
   `https://www.basketball-reference.com/teams/${bbrefAbbr(abbr)}/${endYear}.html`
 
@@ -282,27 +280,6 @@ const absences = await step('ESPN injuries', async () => {
 if (league && absences && process.env.ANTHROPIC_API_KEY) {
   const client = new Anthropic()
   const spent = { input: 0, output: 0, calls: 0 }
-  // ESPN scoreboards (one per date) and summaries, shared by both teams in a game.
-  const scoreboards = new Map<string, Promise<unknown>>()
-  const summaries = new Map<string, Promise<EspnSummaryJson>>()
-  const once = <T>(map: Map<string, Promise<T>>, key: string, get: () => Promise<T>) => {
-    if (!map.has(key)) map.set(key, get())
-    return map.get(key)!
-  }
-
-  /** ESPN's matchup predictor for the team (optional). */
-  async function winChance(abbr: string, startUtc: string): Promise<number | undefined> {
-    try {
-      const url = scoreboardUrl(startUtc)
-      const eventId = parseScoreboard(await once(scoreboards, url, () => getJson(url)), abbr)?.eventId
-      if (!eventId) return undefined
-      return winProbability(await once(summaries, eventId, () => getJson<EspnSummaryJson>(ESPN_SUMMARY_URL(eventId))), abbr)
-    } catch (err) {
-      console.warn(`  ESPN predictor unavailable for ${abbr}: ${(err as Error).message}`)
-      return undefined
-    }
-  }
-
   for (const abbr of teams) {
     await step(`${abbr} preview`, async () => {
       const schedule = teamGames(league.games, abbr)
@@ -331,7 +308,6 @@ if (league && absences && process.env.ANTHROPIC_API_KEY) {
           results: [...finals, ...(lastResults[abbr] ?? [])],
           absences,
           players,
-          winProbability: await winChance(abbr, game.startUtc),
         })
         const factsHash = hashFacts({ facts, prompt: PROMPT_VERSION })
         if (previous[game.id]?.factsHash === factsHash) {

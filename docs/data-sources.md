@@ -15,7 +15,6 @@ Chosen from the phase 1 probe (`scripts/probe-sources.ts`), run from GitHub Acti
 | Live score (in the browser) | ESPN `apis/site/v2/sports/basketball/nba/scoreboard?dates=<YYYYMMDD Eastern>` | Fetched by the page, not by ingest: ESPN sends `Access-Control-Allow-Origin: *` (checked 2026-10-13); the NBA's `liveData` scoreboard returns 403 to other sites. Polled every 30 s from 15 min before tip-off until the final (4.5 h cap), only while the page is visible. `?live=<TEAM>` on the site watches another team's game today for testing. |
 | Game page: box scores, play-by-play, injuries | ESPN `apis/site/v2/sports/basketball/nba/summary?event=<id>` | Also fetched by the page (`Access-Control-Allow-Origin: *`, checked 2026-10-13). The event ID comes from the scoreboard for the game's Eastern date. Refreshed every 20 s around the game; finished games load once. |
 | Team colors | ESPN `apis/site/v2/sports/basketball/nba/teams` (`color`, `alternateColor`) | Copied into `src/lib/teamColors.ts` (2026-10-13). |
-| Win probability (preview fact) | ESPN `summary?event=<id>` → `predictor` | ESPN event IDs are matched from ESPN's team schedule by opponent and start time. |
 
 **Rejected:** stats.nba.com times out from GitHub Actions runners (all three endpoints hung).
 

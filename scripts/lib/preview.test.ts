@@ -54,7 +54,6 @@ const facts = buildFacts({
       lastFull: { regular: { games: 10, started: 10, minutes: 350, points: 277, rebounds: 0, assists: 0, steals: 0, blocks: 0, turnovers: 0, fgMade: 0, fgAttempted: 0, threeMade: 0, threeAttempted: 0, ftMade: 0, ftAttempted: 0 } },
     },
   ],
-  winProbability: 61.4,
 })
 
 it('describes the matchup, form and history', () => {
@@ -72,7 +71,8 @@ it('describes the matchup, form and history', () => {
   expect(facts.opponent).toMatchObject({ gamesStillToPlayBeforeThisOne: 1 })
   // 01:30 UTC on Oct 23 is the evening of Oct 22 in Denver.
   expect(facts.lastMeeting).toEqual({ date: '2026-10-22', where: 'in Oklahoma City', type: 'regular season', result: 'Nuggets lost 110-101' })
-  expect(facts.espnMatchupPredictorFollowedTeamWinChance).toBe('60%')
+  // No forecasts: previews use only facts the site shows.
+  expect(JSON.stringify(facts)).not.toMatch(/predictor|win ?chance|probability/i)
 })
 
 it('lists absences that still apply, with Denver players averages', () => {

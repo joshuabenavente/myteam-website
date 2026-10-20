@@ -56,20 +56,3 @@ export function findEspnEventId(json: EspnTeamScheduleJson, opponent: string, st
     return abbrs?.includes(opponent) && Math.abs(Date.parse(e.date) - start) < 12 * 3600_000
   })?.id
 }
-
-export interface EspnSummaryJson {
-  header?: { competitions?: { competitors: EspnCompetitor[] }[] }
-  predictor?: {
-    homeTeam?: { gameProjection?: string }
-    awayTeam?: { gameProjection?: string }
-  } | null
-}
-
-/** A team's win probability (0-100) from ESPN's matchup predictor, if published. */
-export function winProbability(json: EspnSummaryJson, abbr: string): number | undefined {
-  const competitors = json.header?.competitions?.[0]?.competitors ?? []
-  const side = competitors.find((c) => fromEspnAbbr(c.team.abbreviation) === abbr)?.homeAway
-  const value = side && json.predictor?.[side === 'home' ? 'homeTeam' : 'awayTeam']?.gameProjection
-  const n = Number(value)
-  return value && Number.isFinite(n) ? n : undefined
-}

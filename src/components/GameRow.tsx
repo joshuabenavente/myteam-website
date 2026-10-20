@@ -2,15 +2,7 @@ import { useEffect, useRef, useState } from 'react'
 import { absencesForGame, availabilityLabel, isGameTimeDecision, isPastDue, nextGames } from '../lib/availability.ts'
 import { channelsFor } from '../lib/channels.ts'
 import type { AppData } from '../lib/data.ts'
-import {
-  finishedSeriesSummary,
-  formatGameDate,
-  formatGameTime,
-  formatRecord,
-  hasGames,
-  ordinal,
-  seriesSummary,
-} from '../lib/format.ts'
+import { finishedSeriesSummary, formatGameDate, formatGameTime, formatRecord, formatUpdated, hasGames, ordinal, seriesSummary } from '../lib/format.ts'
 import { liveFor, useLive } from '../lib/live.ts'
 import { routeHref } from '../lib/route.ts'
 import { useTeam } from '../lib/team.ts'
@@ -127,7 +119,7 @@ export function GameDetails({ game, data }: { game: Game; data: AppData }) {
             <Icon name="preview" size={14} /> Preview
           </h3>
           <p>{preview.text}</p>
-          <p className="preview-credit muted small">Written by Claude from the stats on this page.</p>
+          <p className="preview-credit muted small">Written by Claude using only the team records, matchup history and injury report.</p>
         </div>
       )}
       <GamePageLink game={game} />
@@ -153,13 +145,7 @@ function GamePageLink({ game }: { game: Game }) {
 
 function InjuryReport({ game, availability }: { game: Game; availability: AvailabilityFile }) {
   const team = useTeam()
-  const updated = new Date(availability.updatedAt).toLocaleString('en-US', {
-    month: 'short',
-    day: 'numeric',
-    hour: 'numeric',
-    minute: '2-digit',
-    timeZoneName: 'short',
-  })
+  const updated = formatUpdated(availability.updatedAt)
   return (
     <div className="not-available">
       <h3>
