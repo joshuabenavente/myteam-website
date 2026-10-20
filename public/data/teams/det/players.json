@@ -1,7 +1,7 @@
 {
  "season": "2026-27",
  "lastSeason": "2025-26",
- "updatedAt": "2026-10-20T05:17:48.954Z",
+ "updatedAt": "2026-10-20T11:17:47.401Z",
  "teamGamesPlayed": {
   "regular": 0,
   "playoffs": 0
@@ -799,57 +799,6 @@
    "lastToDate": {}
   },
   {
-   "id": "onyenug01",
-   "name": "Ugonna Onyenso",
-   "position": "C",
-   "twoWay": true,
-   "bio": {
-    "height": "7' 0\"",
-    "weight": 236,
-    "birthDate": "2004-09-25",
-    "experience": 0,
-    "college": "Virginia",
-    "birthPlace": "Owerri, Nigeria"
-   },
-   "number": "34",
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5037878.png",
-   "current": {},
-   "lastFull": {},
-   "lastToDate": {}
-  },
-  {
-   "id": "ukomajo01",
-   "name": "John Ukomadu",
-   "position": "F",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 7\"",
-    "weight": 195,
-    "birthDate": "2001-10-30",
-    "experience": 0,
-    "college": "Vincennes University, Macomb Community College, Eastern Kentucky University"
-   },
-   "current": {},
-   "lastFull": {},
-   "lastToDate": {}
-  },
-  {
-   "id": "willibr05",
-   "name": "Brice Williams",
-   "position": "G",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 5\"",
-    "weight": 214,
-    "birthDate": "2001-07-05",
-    "experience": 0,
-    "college": "UNC Charlotte, Nebraska"
-   },
-   "current": {},
-   "lastFull": {},
-   "lastToDate": {}
-  },
-  {
    "id": "okorieb01",
    "name": "Ebuka Okorie",
    "position": "G",
@@ -864,6 +813,25 @@
    },
    "number": "23",
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5258459.png",
+   "current": {},
+   "lastFull": {},
+   "lastToDate": {}
+  },
+  {
+   "id": "onyenug01",
+   "name": "Ugonna Onyenso",
+   "position": "C",
+   "twoWay": true,
+   "bio": {
+    "height": "7' 0\"",
+    "weight": 236,
+    "birthDate": "2004-09-25",
+    "experience": 0,
+    "college": "Virginia",
+    "birthPlace": "Owerri, Nigeria"
+   },
+   "number": "34",
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5037878.png",
    "current": {},
    "lastFull": {},
    "lastToDate": {}

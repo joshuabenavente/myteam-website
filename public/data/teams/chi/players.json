@@ -1,7 +1,7 @@
 {
  "season": "2026-27",
  "lastSeason": "2025-26",
- "updatedAt": "2026-10-20T05:17:40.976Z",
+ "updatedAt": "2026-10-20T11:17:39.417Z",
  "teamGamesPlayed": {
   "regular": 0,
   "playoffs": 0
@@ -464,74 +464,6 @@
    "lastToDate": {}
   },
   {
-   "id": "peterdr01",
-   "name": "Drew Peterson",
-   "position": "G",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 8\"",
-    "weight": 205,
-    "birthDate": "1999-11-09",
-    "experience": 3,
-    "college": "Rice University, USC"
-   },
-   "current": {},
-   "lastFull": {
-    "regular": {
-     "games": 6,
-     "started": 0,
-     "minutes": 64.3,
-     "points": 5,
-     "rebounds": 9,
-     "assists": 2,
-     "steals": 3,
-     "blocks": 1,
-     "turnovers": 0,
-     "fgMade": 2,
-     "fgAttempted": 16,
-     "threeMade": 0,
-     "threeAttempted": 12,
-     "ftMade": 1,
-     "ftAttempted": 2
-    }
-   },
-   "lastToDate": {}
-  },
-  {
-   "id": "robinor01",
-   "name": "Orlando Robinson",
-   "position": "F",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 10\"",
-    "weight": 235,
-    "birthDate": "2000-07-10",
-    "experience": 4,
-    "college": "Fresno State"
-   },
-   "current": {},
-   "lastFull": {
-    "regular": {
-     "games": 4,
-     "started": 1,
-     "minutes": 24.8,
-     "points": 7,
-     "rebounds": 4,
-     "assists": 3,
-     "steals": 1,
-     "blocks": 0,
-     "turnovers": 0,
-     "fgMade": 3,
-     "fgAttempted": 5,
-     "threeMade": 1,
-     "threeAttempted": 2,
-     "ftMade": 0,
-     "ftAttempted": 0
-    }
-   },
-   "lastToDate": {}
-  },
-  {
    "id": "essenno01",
    "name": "Noa Essengue",
    "position": "F",
@@ -564,38 +496,6 @@
      "ftAttempted": 0
     }
    },
-   "lastToDate": {}
-  },
-  {
-   "id": "bridgja01",
-   "name": "Jalen Bridges",
-   "position": "F",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 7\"",
-    "weight": 225,
-    "birthDate": "2001-05-14",
-    "experience": 1,
-    "college": "West Virginia, Baylor"
-   },
-   "current": {},
-   "lastFull": {},
-   "lastToDate": {}
-  },
-  {
-   "id": "bostobr01",
-   "name": "Brandon Boston Jr.",
-   "position": "G-F",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 6\"",
-    "weight": 188,
-    "birthDate": "2001-11-28",
-    "experience": 4,
-    "college": "Kentucky"
-   },
-   "current": {},
-   "lastFull": {},
    "lastToDate": {}
   },
   {
