@@ -1,7 +1,7 @@
 {
  "season": "2026-27",
  "lastSeason": "2025-26",
- "updatedAt": "2026-10-20T06:17:37.449Z",
+ "updatedAt": "2026-10-20T12:17:32.976Z",
  "teamGamesPlayed": {
   "regular": 0,
   "playoffs": 0
@@ -502,40 +502,6 @@
    "lastToDate": {}
   },
   {
-   "id": "nancepe01",
-   "name": "Pete Nance",
-   "position": "F",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 9\"",
-    "weight": 225,
-    "birthDate": "2000-02-19",
-    "experience": 3,
-    "college": "Northwestern, UNC"
-   },
-   "current": {},
-   "lastFull": {
-    "regular": {
-     "games": 47,
-     "started": 6,
-     "minutes": 737.1,
-     "points": 254,
-     "rebounds": 125,
-     "assists": 48,
-     "steals": 14,
-     "blocks": 14,
-     "turnovers": 26,
-     "fgMade": 100,
-     "fgAttempted": 194,
-     "threeMade": 50,
-     "threeAttempted": 119,
-     "ftMade": 4,
-     "ftAttempted": 11
-    }
-   },
-   "lastToDate": {}
-  },
-  {
    "id": "joneska03",
    "name": "Kam Jones",
    "position": "G",
@@ -607,73 +573,6 @@
      "ftAttempted": 26
     }
    },
-   "lastToDate": {}
-  },
-  {
-   "id": "broomjo01",
-   "name": "Johni Broome",
-   "position": "F-C",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 9\"",
-    "weight": 244,
-    "birthDate": "2002-07-19",
-    "experience": 1,
-    "college": "Morehead State University, Auburn"
-   },
-   "current": {},
-   "lastFull": {
-    "regular": {
-     "games": 11,
-     "started": 0,
-     "minutes": 54.9,
-     "points": 10,
-     "rebounds": 16,
-     "assists": 4,
-     "steals": 3,
-     "blocks": 2,
-     "turnovers": 3,
-     "fgMade": 4,
-     "fgAttempted": 24,
-     "threeMade": 0,
-     "threeAttempted": 5,
-     "ftMade": 2,
-     "ftAttempted": 6
-    },
-    "playoffs": {
-     "games": 2,
-     "started": 0,
-     "minutes": 7.8,
-     "points": 7,
-     "rebounds": 2,
-     "assists": 1,
-     "steals": 0,
-     "blocks": 0,
-     "turnovers": 0,
-     "fgMade": 3,
-     "fgAttempted": 6,
-     "threeMade": 1,
-     "threeAttempted": 4,
-     "ftMade": 0,
-     "ftAttempted": 0
-    }
-   },
-   "lastToDate": {}
-  },
-  {
-   "id": "stephja02",
-   "name": "Jake Stephens",
-   "position": "C",
-   "twoWay": false,
-   "bio": {
-    "height": "7' 0\"",
-    "weight": 275,
-    "birthDate": "1999-11-05",
-    "experience": 0,
-    "college": "Virginia Military Institute, Chattanooga"
-   },
-   "current": {},
-   "lastFull": {},
    "lastToDate": {}
   },
   {

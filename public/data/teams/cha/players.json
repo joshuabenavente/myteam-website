@@ -1,7 +1,7 @@
 {
  "season": "2026-27",
  "lastSeason": "2025-26",
- "updatedAt": "2026-10-20T06:17:45.265Z",
+ "updatedAt": "2026-10-20T12:17:40.800Z",
  "teamGamesPlayed": {
   "regular": 0,
   "playoffs": 0
@@ -554,40 +554,6 @@
    "lastToDate": {}
   },
   {
-   "id": "connapa01",
-   "name": "Pat Connaughton",
-   "position": "G",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 5\"",
-    "weight": 209,
-    "birthDate": "1993-01-06",
-    "experience": 11,
-    "college": "Notre Dame"
-   },
-   "current": {},
-   "lastFull": {
-    "regular": {
-     "games": 42,
-     "started": 0,
-     "minutes": 297.1,
-     "points": 110,
-     "rebounds": 61,
-     "assists": 18,
-     "steals": 11,
-     "blocks": 1,
-     "turnovers": 11,
-     "fgMade": 38,
-     "fgAttempted": 85,
-     "threeMade": 21,
-     "threeAttempted": 52,
-     "ftMade": 13,
-     "ftAttempted": 20
-    }
-   },
-   "lastToDate": {}
-  },
-  {
    "id": "hallpj01",
    "name": "PJ Hall",
    "position": "F",
@@ -622,38 +588,6 @@
      "ftAttempted": 29
     }
    },
-   "lastToDate": {}
-  },
-  {
-   "id": "wrighla02",
-   "name": "Latrell Wrightsell Jr.",
-   "position": "G",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 3\"",
-    "weight": 189,
-    "birthDate": "1999-05-18",
-    "experience": 0,
-    "college": "Cal State Fullerton, Alabama"
-   },
-   "current": {},
-   "lastFull": {},
-   "lastToDate": {}
-  },
-  {
-   "id": "joineja01",
-   "name": "Jarkel Joiner",
-   "position": "G",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 1\"",
-    "weight": 180,
-    "birthDate": "1999-05-20",
-    "experience": 0,
-    "college": "Cal State-Bakersfield, Ole Miss, NC State"
-   },
-   "current": {},
-   "lastFull": {},
    "lastToDate": {}
   },
   {

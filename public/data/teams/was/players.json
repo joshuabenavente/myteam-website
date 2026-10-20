@@ -1,7 +1,7 @@
 {
  "season": "2026-27",
  "lastSeason": "2025-26",
- "updatedAt": "2026-10-20T06:17:53.202Z",
+ "updatedAt": "2026-10-20T12:17:48.788Z",
  "teamGamesPlayed": {
   "regular": 0,
   "playoffs": 0
@@ -575,112 +575,10 @@
    "lastToDate": {}
   },
   {
-   "id": "willial06",
-   "name": "Alondes Williams",
-   "position": "G",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 4\"",
-    "weight": 210,
-    "birthDate": "1999-06-19",
-    "experience": 4,
-    "college": "Triton College, Oklahoma, Wake Forest"
-   },
-   "current": {},
-   "lastFull": {
-    "regular": {
-     "games": 4,
-     "started": 0,
-     "minutes": 100.8,
-     "points": 44,
-     "rebounds": 25,
-     "assists": 12,
-     "steals": 3,
-     "blocks": 3,
-     "turnovers": 5,
-     "fgMade": 16,
-     "fgAttempted": 26,
-     "threeMade": 5,
-     "threeAttempted": 14,
-     "ftMade": 7,
-     "ftAttempted": 8
-    }
-   },
-   "lastToDate": {}
-  },
-  {
-   "id": "livinch01",
-   "name": "Chris Livingston",
-   "position": "F",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 6\"",
-    "weight": 220,
-    "birthDate": "2003-10-15",
-    "experience": 3,
-    "college": "Kentucky"
-   },
-   "current": {},
-   "lastFull": {
-    "regular": {
-     "games": 3,
-     "started": 0,
-     "minutes": 17.5,
-     "points": 9,
-     "rebounds": 3,
-     "assists": 1,
-     "steals": 1,
-     "blocks": 0,
-     "turnovers": 0,
-     "fgMade": 4,
-     "fgAttempted": 7,
-     "threeMade": 0,
-     "threeAttempted": 3,
-     "ftMade": 1,
-     "ftAttempted": 1
-    }
-   },
-   "lastToDate": {}
-  },
-  {
-   "id": "keelstr01",
-   "name": "Trevor Keels",
-   "position": "G",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 3\"",
-    "weight": 215,
-    "birthDate": "2003-08-26",
-    "experience": 2,
-    "college": "Duke"
-   },
-   "current": {},
-   "lastFull": {
-    "regular": {
-     "games": 8,
-     "started": 0,
-     "minutes": 15,
-     "points": 8,
-     "rebounds": 2,
-     "assists": 0,
-     "steals": 1,
-     "blocks": 0,
-     "turnovers": 0,
-     "fgMade": 3,
-     "fgAttempted": 12,
-     "threeMade": 2,
-     "threeAttempted": 9,
-     "ftMade": 0,
-     "ftAttempted": 0
-    }
-   },
-   "lastToDate": {}
-  },
-  {
    "id": "beekmre01",
    "name": "Reece Beekman",
    "position": "G",
-   "twoWay": false,
+   "twoWay": true,
    "bio": {
     "height": "6' 3\"",
     "weight": 190,

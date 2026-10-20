@@ -1,7 +1,7 @@
 {
  "season": "2026-27",
  "lastSeason": "2025-26",
- "updatedAt": "2026-10-20T06:17:49.212Z",
+ "updatedAt": "2026-10-20T12:17:44.806Z",
  "teamGamesPlayed": {
   "regular": 0,
   "playoffs": 0
@@ -744,91 +744,6 @@
    "lastToDate": {}
   },
   {
-   "id": "branhma01",
-   "name": "Malaki Branham",
-   "position": "G",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 4\"",
-    "weight": 180,
-    "birthDate": "2003-05-12",
-    "experience": 4,
-    "college": "Ohio State"
-   },
-   "current": {},
-   "lastFull": {
-    "regular": {
-     "games": 28,
-     "started": 0,
-     "minutes": 275.6,
-     "points": 128,
-     "rebounds": 44,
-     "assists": 23,
-     "steals": 10,
-     "blocks": 3,
-     "turnovers": 15,
-     "fgMade": 43,
-     "fgAttempted": 91,
-     "threeMade": 14,
-     "threeAttempted": 37,
-     "ftMade": 28,
-     "ftAttempted": 34
-    }
-   },
-   "lastToDate": {}
-  },
-  {
-   "id": "davisjd01",
-   "name": "JD Davison",
-   "position": "G",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 1\"",
-    "weight": 195,
-    "birthDate": "2002-10-03",
-    "experience": 4,
-    "college": "Alabama"
-   },
-   "current": {},
-   "lastFull": {
-    "regular": {
-     "games": 28,
-     "started": 0,
-     "minutes": 218.7,
-     "points": 69,
-     "rebounds": 34,
-     "assists": 35,
-     "steals": 6,
-     "blocks": 6,
-     "turnovers": 7,
-     "fgMade": 24,
-     "fgAttempted": 64,
-     "threeMade": 8,
-     "threeAttempted": 32,
-     "ftMade": 13,
-     "ftAttempted": 19
-    },
-    "playoffs": {
-     "games": 2,
-     "started": 0,
-     "minutes": 5.2,
-     "points": 2,
-     "rebounds": 2,
-     "assists": 0,
-     "steals": 0,
-     "blocks": 0,
-     "turnovers": 2,
-     "fgMade": 0,
-     "fgAttempted": 0,
-     "threeMade": 0,
-     "threeAttempted": 0,
-     "ftMade": 2,
-     "ftAttempted": 2
-    }
-   },
-   "lastToDate": {}
-  },
-  {
    "id": "moralal01",
    "name": "Alex Morales",
    "position": "G",
@@ -900,22 +815,6 @@
      "ftAttempted": 1
     }
    },
-   "lastToDate": {}
-  },
-  {
-   "id": "knoxke01",
-   "name": "Kevin Knox",
-   "position": "F",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 8\"",
-    "weight": 215,
-    "birthDate": "1999-08-11",
-    "experience": 7,
-    "college": "Kentucky"
-   },
-   "current": {},
-   "lastFull": {},
    "lastToDate": {}
   },
   {
