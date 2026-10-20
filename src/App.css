@@ -3620,6 +3620,13 @@ main,
   background: rgb(255 255 255 / 10%);
 }
 
+/* A chip's size, before its text is known. */
+.hero-chip.chip-loading {
+  color: transparent;
+  background: rgb(255 255 255 / 10%);
+  border-color: transparent;
+}
+
 .bone-line {
   width: 40%;
   height: 14px;

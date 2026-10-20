@@ -6,6 +6,7 @@ import { chipStatus, countdownLabel, daysUntil, headlineChannel, headlineGame, l
 import { liveFor, useLive } from '../lib/live.ts'
 import { nameKey } from '../lib/names.ts'
 import { routeHref, type Route } from '../lib/route.ts'
+import { seasonForDate } from '../lib/season.ts'
 import { useTeam } from '../lib/team.ts'
 import { dotColor, teamTheme } from '../lib/teamColors.ts'
 import { TEAMS_BY_ABBR } from '../lib/teams.ts'
@@ -32,7 +33,7 @@ export function SiteHeader({ route, data, timeZone, onShowGame }: Props) {
   const team = useTeam()
   // The Games page header keeps its full size while the data loads, so nothing jumps when it arrives.
   const full = route.page === 'games'
-  const roster = route.page === 'players' && !!data
+  const roster = route.page === 'players'
   const headerRef = useRef<HTMLElement>(null)
   const nav = (
     <nav className="page-nav" aria-label="Pages">
@@ -285,8 +286,10 @@ function NextGameLoading() {
   )
 }
 
-function RosterIntro({ data }: { data: AppData }) {
-  const { players, season } = data.players
+/** Drawn before the data arrives too (a stand-in chip for the counts), so the roster doesn't jump down. */
+function RosterIntro({ data }: { data?: AppData }) {
+  const players = data?.players.players ?? []
+  const season = data?.players.season ?? seasonForDate(new Date()).label
   const twoWay = players.filter((p) => p.twoWay).length
   return (
     <section className="hero-page">
@@ -301,6 +304,11 @@ function RosterIntro({ data }: { data: AppData }) {
         </span>
       </h1>
       <ul className="hero-chips" aria-label="Roster">
+        {!data && (
+          <li className="hero-chip soft chip-loading" aria-hidden="true">
+            00 players
+          </li>
+        )}
         {players.length > 0 && <li className="hero-chip soft">{players.length} players</li>}
         {twoWay > 0 && <li className="hero-chip outline">{twoWay} on two-way contracts</li>}
       </ul>

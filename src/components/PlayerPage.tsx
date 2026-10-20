@@ -91,7 +91,8 @@ function PlayerView({ player, data, timeZone }: { player: Player; data: AppData;
 
         <div className="hero-photo">
           {player.headshot ? (
-            <img src={player.headshot} alt="" />
+            // ESPN's headshots are 600x436; the size holds the photo's space while it loads.
+            <img src={player.headshot} alt="" width={600} height={436} />
           ) : (
             <svg viewBox="0 0 600 436" aria-hidden="true">
               <circle cx="300" cy="170" r="95" />
