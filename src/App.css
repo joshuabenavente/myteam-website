@@ -3526,13 +3526,9 @@ a.mini-game:hover {
   background: rgb(255 255 255 / 20%);
 }
 
-/* The footer's Ko-fi link, as a pill like the install button. */
+/* The footer's Ko-fi link, as a pill like the install button, last in the footer. */
 .footer-inner p.support {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 8px 12px;
-  margin: 16px 0 14px;
+  margin: 18px 0 0;
 }
 
 .support-link {
