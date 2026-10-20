@@ -3184,6 +3184,22 @@ a.mini-game:hover {
   min-width: 110px;
 }
 
+/* Tablets and phones on their side: Games, Players and Today don't fit between the logo and the
+   team pill, so the switcher gets its own row (full width on phones, below). */
+@media (max-width: 980px) {
+  .site-header.cards .header-top {
+    grid-template-columns: minmax(0, 1fr) auto;
+    grid-template-areas:
+      'brand actions'
+      'nav nav';
+    row-gap: 14px;
+  }
+
+  .site-header.cards .page-nav {
+    justify-self: start;
+  }
+}
+
 .cards-hero {
   display: grid;
   grid-template-columns: minmax(0, 0.95fr) minmax(0, 2fr);
@@ -3337,6 +3353,7 @@ a.mini-game:hover {
   }
 
   .site-header.cards .page-nav {
+    justify-self: stretch;
     width: 100%;
     margin: 0;
   }
@@ -3548,10 +3565,161 @@ main,
   padding-bottom: calc(48px + env(safe-area-inset-bottom));
 }
 
-/* Mid widths (tablets, phones on their side): long names shorten to the nickname too, so the
-   team pill stays clear of the page switcher. */
+/* --- Every game on a day (/today) --- */
+
+.day-cards {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+  margin: 8px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.day-card {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 100%;
+  padding: 14px 16px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-card);
+  background: var(--surface);
+  color: var(--text);
+  text-decoration: none;
+}
+
+.day-card:hover {
+  border-color: var(--muted);
+}
+
+.day-card.mine {
+  border-color: var(--skyline-text);
+  box-shadow: inset 0 0 0 1px var(--skyline-text);
+}
+
+.day-card-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  min-height: 24px;
+}
+
+.day-status {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.875rem;
+  font-weight: var(--w-bold);
+  font-variant-numeric: tabular-nums;
+}
+
+.day-status.live {
+  color: var(--loss);
+}
+
+.day-status.final,
+.day-status.pending,
+.day-status.postponed {
+  color: var(--muted);
+}
+
+.day-tag {
+  padding: 2px 8px;
+  border-radius: 999px;
+  background: var(--hover);
+  color: var(--muted);
+  font-size: 0.72rem;
+  font-weight: var(--w-strong);
+  white-space: nowrap;
+}
+
+.day-team {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1.05rem;
+  font-weight: var(--w-bold);
+}
+
+.day-team .logo,
+.day-team .logo-fallback {
+  flex: none;
+}
+
+.day-team-name {
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.day-at {
+  color: var(--muted);
+  font-weight: var(--w-regular);
+}
+
+.day-score {
+  font-size: 1.35rem;
+  font-weight: 800;
+  font-variant-numeric: tabular-nums;
+}
+
+.day-team.lost {
+  color: var(--muted);
+}
+
+.day-card-foot {
+  margin-top: auto;
+  padding-top: 8px;
+  border-top: 1px solid var(--border);
+  color: var(--muted);
+  font-size: 0.8125rem;
+}
+
+.day-empty {
+  padding: 24px 0;
+  font-size: 1.05rem;
+}
+
+.day-empty p {
+  margin: 0 0 8px;
+}
+
+.day-next {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--skyline-text);
+  font-weight: var(--w-bold);
+  text-underline-offset: 3px;
+}
+
 @media (max-width: 900px) {
-  .team-pill.long .team-pill-city {
-    display: none;
+  .day-cards {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
+}
+
+@media (max-width: 560px) {
+  .day-cards {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 10px;
+  }
+}
+
+.picker-today {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin: 14px 12px 0 0;
+  min-height: 40px;
+  padding: 0 16px;
+  border-radius: 999px;
+  background: var(--sunshine);
+  color: var(--accent-text);
+  font-weight: var(--w-bold);
+  text-decoration: none;
 }

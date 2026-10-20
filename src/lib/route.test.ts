@@ -28,3 +28,10 @@ it('forwards old #/ links to Denver', () => {
   expect(legacyPath('')).toBeUndefined()
   expect(legacyPath('#main')).toBeUndefined()
 })
+
+it('has a page for each day', () => {
+  expect(parseRoute('/today')).toEqual({ page: 'day', day: 'today' })
+  expect(parseRoute('/tomorrow')).toEqual({ page: 'day', day: 'tomorrow' })
+  expect(parseRoute('/yesterday/')).toEqual({ page: 'day', day: 'yesterday' })
+  expect(routeHref({ page: 'day', day: 'tomorrow' })).toBe('/tomorrow')
+})

@@ -47,6 +47,9 @@ export function SiteHeader({ route, data, timeZone, onShowGame }: Props) {
       >
         <Icon name="players" /> Players
       </a>
+      <a href={routeHref({ page: 'day', day: 'today' })}>
+        <Icon name="today" /> Today
+      </a>
     </nav>
   )
   return (

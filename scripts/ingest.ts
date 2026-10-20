@@ -24,6 +24,7 @@ import { previousSeason, seasonForDate } from '../src/lib/season.ts'
 import { bbrefAbbr, espnSlug, TEAMS, TEAMS_BY_ABBR } from '../src/lib/teams.ts'
 import type {
   AvailabilityFile,
+  DaysFile,
   GameLog,
   GameLogsFile,
   HeadToHeadFile,
@@ -41,7 +42,7 @@ import { parseEspnResults, winProbability, type EspnScheduleJson, type EspnSumma
 import { getBbref, getJson, NBA_HEADERS } from './lib/http.ts'
 import { nameKey, parseEspnRoster, type EspnPlayerInfo, type EspnRosterJson } from './lib/espnRoster.ts'
 import { parseInjuries, type EspnInjuriesJson } from './lib/injuries.ts'
-import { parseLeagueSchedule, teamGames, type NbaScheduleJson } from './lib/nba.ts'
+import { dayGames, parseLeagueSchedule, teamGames, type NbaScheduleJson } from './lib/nba.ts'
 import { buildFacts, hashFacts, PROMPT_VERSION, writePreview } from './lib/preview.ts'
 import { computeStandings, headToHead, type FinalGame } from './lib/standings.ts'
 
@@ -113,6 +114,8 @@ if (league) {
   finals = league.games.filter((g) => g.status === 'final')
   standings = computeStandings(finals)
   write(join(OUT_DIR, 'standings.json'), { season: current.label, teams: standings } satisfies StandingsFile)
+  // Every team's games around today, for the league-wide day view (/today).
+  write(join(OUT_DIR, 'days.json'), { season: current.label, games: dayGames(league.games) } satisfies DaysFile)
   for (const abbr of teams) {
     write(join(teamDir(abbr), 'schedule.json'), {
       season: current.label,

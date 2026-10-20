@@ -65,20 +65,22 @@ export function parseStatus(status: EspnStatus = {}): Pick<LiveScore, 'state' | 
   return { state: 'pre', detail: 'Starting soon', milestone: 'Starting soon' }
 }
 
-/** The game in a scoreboard that the given team (NBA tricode) is playing, if any. */
-export function parseScoreboard(json: unknown, team: string): LiveScore | undefined {
-  for (const event of (json as EspnScoreboard)?.events ?? []) {
+/** Every game on a scoreboard. */
+export function parseScoreboardGames(json: unknown): LiveScore[] {
+  return ((json as EspnScoreboard)?.events ?? []).map((event) => {
     const comp = event.competitions?.[0]
     const sides = comp?.competitors ?? []
-    const abbrs = sides.map((c) => fromEspnAbbr(c.team?.abbreviation ?? ''))
-    if (!abbrs.includes(team)) continue
     const side = (where: string) => {
       const c = sides.find((x) => x.homeAway === where)
       return { abbr: fromEspnAbbr(c?.team?.abbreviation ?? '') ?? '?', score: Number(c?.score) || 0 }
     }
     return { ...parseStatus(comp?.status), eventId: event.id, away: side('away'), home: side('home') }
-  }
-  return undefined
+  })
+}
+
+/** The game in a scoreboard that the given team (NBA tricode) is playing, if any. */
+export function parseScoreboard(json: unknown, team: string): LiveScore | undefined {
+  return parseScoreboardGames(json).find((g) => g.home.abbr === team || g.away.abbr === team)
 }
 
 /** ESPN's scoreboard days are US Eastern dates, "YYYYMMDD". */

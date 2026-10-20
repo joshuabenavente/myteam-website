@@ -2,7 +2,7 @@
 
 import { gameTypeFromNbaId } from '../../src/lib/season.ts'
 import { TEAMS_BY_ABBR } from '../../src/lib/teams.ts'
-import type { Broadcast, Game, TrackedGameType } from '../../src/lib/types.ts'
+import type { Broadcast, DayGame, Game, TrackedGameType } from '../../src/lib/types.ts'
 
 interface NbaBroadcaster {
   broadcasterDisplay: string
@@ -79,25 +79,58 @@ export function parseLeagueSchedule(json: NbaScheduleJson): { season: string; ga
   return { season: json.leagueSchedule.seasonYear, games }
 }
 
+/** TV and streaming (not radio) from the given broadcaster lists, without repeats. */
+function broadcasts(raw: NbaGame, keys: string[], scope: Broadcast['scope'], out: Broadcast[] = []): Broadcast[] {
+  for (const key of keys) {
+    for (const b of raw.broadcasters?.[key] ?? []) {
+      if (b.broadcasterMedia === 'radio' || out.some((x) => x.name === b.broadcasterDisplay)) continue
+      out.push({ name: b.broadcasterDisplay, scope, kind: b.broadcasterMedia === 'ott' ? 'stream' : 'tv' })
+    }
+  }
+  return out
+}
+
+const national = (raw: NbaGame) => broadcasts(raw, ['nationalBroadcasters', 'nationalOttBroadcasters'], 'national')
+const local = (raw: NbaGame, side: 'home' | 'away') => broadcasts(raw, [`${side}TvBroadcasters`, `${side}OttBroadcasters`], 'local')
+
 /**
  * National TV/streaming plus the team's own local broadcasts. The opponent's local
  * channels and radio are left out.
  */
 export function teamBroadcasts(raw: NbaGame, teamId: number): Broadcast[] {
-  const lists = raw.broadcasters ?? {}
   const side = raw.homeTeam.teamId === teamId ? 'home' : 'away'
-  const out: Broadcast[] = []
-  const add = (key: string, scope: Broadcast['scope']) => {
-    for (const b of lists[key] ?? []) {
-      if (b.broadcasterMedia === 'radio' || out.some((x) => x.name === b.broadcasterDisplay)) continue
-      out.push({ name: b.broadcasterDisplay, scope, kind: b.broadcasterMedia === 'ott' ? 'stream' : 'tv' })
-    }
-  }
-  add('nationalBroadcasters', 'national')
-  add('nationalOttBroadcasters', 'national')
-  add(`${side}TvBroadcasters`, 'local')
-  add(`${side}OttBroadcasters`, 'local')
-  return out
+  return broadcasts(raw, [`${side}TvBroadcasters`, `${side}OttBroadcasters`], 'local', national(raw))
+}
+
+const DAY_MS = 24 * 60 * 60 * 1000
+
+/**
+ * Every game from 2 days before `now` to 14 days after, for the league-wide day view. The app
+ * picks yesterday, today and tomorrow in the viewer's time zone, and the next game day when a
+ * day has none.
+ */
+export function dayGames(games: LeagueGame[], now = Date.now()): DayGame[] {
+  return games
+    .filter((g) => {
+      const t = Date.parse(g.startUtc)
+      return t >= now - 2 * DAY_MS && t <= now + 14 * DAY_MS
+    })
+    .map((g) => {
+      const label = [g.raw.gameLabel, g.raw.gameSubLabel, g.raw.seriesText].filter(Boolean).join(' - ')
+      return {
+        id: g.id,
+        type: g.type,
+        startUtc: g.startUtc,
+        home: g.home,
+        away: g.away,
+        status: g.status,
+        ...(g.status !== 'scheduled' && { score: { home: g.homeScore, away: g.awayScore } }),
+        broadcasts: { national: national(g.raw), home: local(g.raw, 'home'), away: local(g.raw, 'away') },
+        ...(label && { label }),
+        ...(/tbd/i.test(g.raw.gameStatusText) && { timeTbd: true }),
+        ...(g.raw.isNeutral && g.raw.arenaCity && { neutralSite: g.raw.arenaCity }),
+      }
+    })
 }
 
 /** The team's games in the app's Game shape. */

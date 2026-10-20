@@ -1,6 +1,7 @@
 // Path routing:
 //   /                          team picker (or straight to the saved team)
 //   /teams                     team picker, always
+//   /today                     every game today (also /yesterday, /tomorrow)
 //   /<team>                    games, e.g. /denver-nuggets
 //   /<team>/players            roster
 //   /<team>/players/<id>       one player's page
@@ -10,6 +11,7 @@
 // team page and serves deeper pages through 404.html (see vite.config.ts).
 
 import { useEffect, useState } from 'react'
+import { DAYS, type DayName } from './day.ts'
 
 export type Page =
   | { page: 'games' }
@@ -17,12 +19,13 @@ export type Page =
   | { page: 'players' }
   | { page: 'player'; id: string }
 
-export type Route = { page: 'home' } | { page: 'picker' } | (Page & { team: string })
+export type Route = { page: 'home' } | { page: 'picker' } | { page: 'day'; day: DayName } | (Page & { team: string })
 
 export function parseRoute(pathname: string): Route {
   const [team, section, id] = pathname.split('/').filter(Boolean).map(decodeURIComponent)
   if (!team) return { page: 'home' }
   if (team === 'teams') return { page: 'picker' }
+  if ((DAYS as readonly string[]).includes(team)) return { page: 'day', day: team as DayName }
   if (section === 'players') return id ? { page: 'player', team, id } : { page: 'players', team }
   if (section === 'games' && id) return { page: 'game', team, id }
   return { page: 'games', team }
@@ -32,9 +35,13 @@ export function parseRoute(pathname: string): Route {
 const currentTeam = () => (typeof window === 'undefined' ? '' : (parseRoute(window.location.pathname) as { team?: string }).team ?? '')
 
 /** A page's address; within the current team unless `team` is given. */
-export function routeHref(r: Page | { page: 'picker' } | { page: 'home' }, team = currentTeam()): string {
+export function routeHref(
+  r: Page | { page: 'picker' } | { page: 'home' } | { page: 'day'; day: DayName },
+  team = currentTeam(),
+): string {
   if (r.page === 'home') return '/'
   if (r.page === 'picker') return '/teams'
+  if (r.page === 'day') return `/${r.day}`
   const base = `/${team}`
   if (r.page === 'games') return base
   if (r.page === 'game') return `${base}/games/${r.id}`

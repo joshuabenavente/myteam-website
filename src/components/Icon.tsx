@@ -8,6 +8,7 @@ import {
   Clock,
   Download,
   House,
+  LayoutGrid,
   List,
   MonitorPlay,
   Plane,
@@ -38,6 +39,7 @@ const ICONS = {
   switch: ArrowLeftRight,
   search: Search,
   download: Download,
+  today: LayoutGrid,
   offline: WifiOff,
 } satisfies Record<string, LucideIcon>
 

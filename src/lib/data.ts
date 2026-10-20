@@ -3,6 +3,7 @@
 import { useEffect, useState } from 'react'
 import type {
   AvailabilityFile,
+  DaysFile,
   GameLogsFile,
   HeadToHeadFile,
   MetaFile,
@@ -25,6 +26,12 @@ export interface AppData {
   /** No connection: the installed app is showing the copy it saved last time. */
   offline?: boolean
 }
+
+/** fetch() rejects (rather than answering with an error) when there's no connection. */
+const loadError = (err: Error, what: string) =>
+  err instanceof TypeError
+    ? `Couldn't reach myteam.fans. You may be offline, and ${what} hasn't been saved on this device yet.`
+    : err.message
 
 /** Set when the service worker answers with a saved copy because the network is down. */
 let servedOffline = false
@@ -81,21 +88,35 @@ export function useAppData(abbr: string | undefined): { data?: AppData; error?: 
           },
         })
       })
-      .catch((err: Error) => {
-        if (stale) return
-        // fetch() rejects (rather than answering with an error) when there's no connection.
-        const message =
-          err instanceof TypeError
-            ? "Couldn't reach myteam.fans. You may be offline, and this team hasn't been saved on this device yet."
-            : err.message
-        setState({ abbr, error: message })
-      })
+      .catch((err: Error) => !stale && setState({ abbr, error: loadError(err, 'this team') }))
     return () => {
       stale = true
     }
   }, [abbr])
   // Don't show one team's data under another's address while the new team loads.
   return state.abbr === abbr ? { data: state.data, error: state.error } : {}
+}
+
+export interface DaysData {
+  days: DaysFile
+  meta: MetaFile
+  offline?: boolean
+}
+
+/** Every team's games around today, for /today. */
+export function useDaysData(): { data?: DaysData; error?: string } {
+  const [state, setState] = useState<{ data?: DaysData; error?: string }>({})
+  useEffect(() => {
+    let stale = false
+    servedOffline = false
+    Promise.all([load<DaysFile>('days'), load<MetaFile>('meta')])
+      .then(([days, meta]) => !stale && setState({ data: { days, meta, offline: servedOffline } }))
+      .catch((err: Error) => !stale && setState({ error: loadError(err, "today's games") }))
+    return () => {
+      stale = true
+    }
+  }, [])
+  return state
 }
 
 const gameLogs = new Map<string, Promise<GameLogsFile | undefined>>()
