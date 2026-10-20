@@ -2325,6 +2325,25 @@ main {
   filter: brightness(1.1);
 }
 
+/* "Add to calendar": a quieter pill than the game page link. */
+.calendar-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 40px;
+  margin: 4px 8px 10px 0;
+  padding: 0 14px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  color: var(--link-text);
+  font-weight: var(--w-strong);
+  text-decoration: none;
+}
+
+.calendar-link:hover {
+  background: var(--hover);
+}
+
 .game-page .back-link {
   margin-bottom: 16px;
 }

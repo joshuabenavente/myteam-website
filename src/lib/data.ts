@@ -119,3 +119,20 @@ export function useGameLogs(abbr: string): GameLogsFile | undefined {
   }, [abbr])
   return logs?.abbr === abbr ? logs.file : undefined
 }
+
+const playerFiles = new Map<string, Promise<PlayersFile | undefined>>()
+
+/** Another team's players (the opponent on a game page), loaded on first use; undefined until then. */
+export function usePlayersFile(abbr: string | undefined): PlayersFile | undefined {
+  const [loaded, setLoaded] = useState<{ abbr: string; file?: PlayersFile }>()
+  useEffect(() => {
+    if (!abbr) return
+    if (!playerFiles.has(abbr)) playerFiles.set(abbr, loadOptional<PlayersFile>(teamFile(abbr, 'players')))
+    let stale = false
+    playerFiles.get(abbr)!.then((file) => !stale && setLoaded({ abbr, file }))
+    return () => {
+      stale = true
+    }
+  }, [abbr])
+  return loaded && loaded.abbr === abbr ? loaded.file : undefined
+}

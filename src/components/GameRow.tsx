@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from 'react'
 import { absencesForGame, availabilityLabel, isGameTimeDecision, isPastDue, nextGames } from '../lib/availability.ts'
+import { canAddToCalendar, gameIcs, gameIcsName } from '../lib/calendar.ts'
 import { channelsFor } from '../lib/channels.ts'
 import type { AppData } from '../lib/data.ts'
 import { finishedSeriesSummary, formatGameDate, formatGameTime, formatRecord, formatUpdated, hasGames, ordinal, seriesSummary } from '../lib/format.ts'
@@ -135,6 +136,7 @@ export function GameDetails({ game, data, onGamePage = false }: { game: Game; da
           <p className="preview-credit muted small">Written by Claude using only the team records, matchup history and injury report.</p>
         </div>
       )}
+      {canAddToCalendar(game) && <CalendarLink game={game} team={team.abbr} />}
       {!onGamePage && <GamePageLink game={game} />}
       <StandingsTable abbrs={[team.abbr, game.opponent]} standings={data.standings.teams} />
       <SeasonSeries opponent={game.opponent} h2h={data.h2h} />
@@ -144,6 +146,19 @@ export function GameDetails({ game, data, onGamePage = false }: { game: Game; da
 }
 
 /** Link to the game page once the game has started (live) or finished (box score). */
+/** A one-event calendar file, made on the spot: no account or server (src/lib/calendar.ts). */
+function CalendarLink({ game, team }: { game: Game; team: string }) {
+  return (
+    <a
+      className="calendar-link"
+      download={gameIcsName(game, team)}
+      href={`data:text/calendar;charset=utf-8,${encodeURIComponent(gameIcs(game, team))}`}
+    >
+      <Icon name="calendar" size={14} /> Add to calendar
+    </a>
+  )
+}
+
 function GamePageLink({ game }: { game: Game }) {
   const live = liveFor(useLive(), game.id)
   const on = game.status === 'live' || live?.state === 'in' || live?.state === 'delayed'

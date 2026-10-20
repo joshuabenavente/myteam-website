@@ -1,6 +1,6 @@
 import { useState, type CSSProperties } from 'react'
 import { absencesForGame, availabilityLabel } from '../lib/availability.ts'
-import type { AppData } from '../lib/data.ts'
+import { usePlayersFile, type AppData } from '../lib/data.ts'
 import { formatGameDate, formatGameTime, formatRecord, formatUpdated } from '../lib/format.ts'
 import {
   BOX_COLUMNS,
@@ -13,11 +13,11 @@ import {
   type TeamSide,
 } from '../lib/gameSummary.ts'
 import { staleMinutes, type LiveScore } from '../lib/live.ts'
-import { nameKey } from '../lib/names.ts'
+import { idsByName, nameKey } from '../lib/names.ts'
 import { routeHref } from '../lib/route.ts'
 import { matchupColors } from '../lib/teamColors.ts'
-import { TEAMS_BY_ABBR } from '../lib/teams.ts'
-import type { Game, Player } from '../lib/types.ts'
+import { TEAMS_BY_ABBR, teamSlug } from '../lib/teams.ts'
+import type { Game } from '../lib/types.ts'
 import { useTeam } from '../lib/team.ts'
 import { useGameSummary } from '../lib/useGameSummary.ts'
 import { Broadcasts, GameDetails } from './GameRow.tsx'
@@ -70,6 +70,8 @@ function GameView({ team, game, data, timeZone }: { team: string; game?: Game; d
   const left = s ? (s.home.abbr === team ? s.home : s.away) : undefined
   const right = s ? (s.home.abbr === team ? s.away : s.home) : undefined
   const opponent = right?.abbr ?? game?.opponent
+  // The other team's players, so its names link to their profiles too.
+  const opponentPlayers = usePlayersFile(opponent)
   const leftHome = s ? s.home.abbr === team : !!game?.home
   const stale = staleMinutes(status)
   const started = !!s && s.state !== 'pre' && s.state !== 'postponed'
@@ -92,7 +94,9 @@ function GameView({ team, game, data, timeZone }: { team: string; game?: Game; d
   } as CSSProperties
   const oppTeam = TEAMS_BY_ABBR[opponent]
 
-  const rosterIds = new Map(data.players.players.map((p) => [nameKey(p.name), p.id]))
+  const rosterIds = idsByName(data.players.players)
+  const opponentIds = idsByName(opponentPlayers?.players ?? [])
+  const opponentSlug = opponent ? teamSlug(TEAMS_BY_ABBR[opponent]) : undefined
 
   // Before ESPN answers (or if it can't), fall back to the schedule's injury report.
   const injuriesFor = (abbr: string, side?: TeamSide): InjuryListing[] =>
@@ -146,7 +150,7 @@ function GameView({ team, game, data, timeZone }: { team: string; game?: Game; d
           started={started}
         />
         <Injuries side="left" abbr={team} team={TEAMS_BY_ABBR[team]?.name ?? team} list={injuriesFor(team, left)} rosterIds={rosterIds} />
-        <Injuries side="right" abbr={opponent} team={oppTeam?.name ?? opponent} list={injuriesFor(opponent, right)} />
+        <Injuries side="right" abbr={opponent} team={oppTeam?.name ?? opponent} list={injuriesFor(opponent, right)} rosterIds={opponentIds} teamSlug={opponentSlug} />
       </section>
 
       {injuryNote && <p className="injury-updated muted small">{injuryNote}</p>}
@@ -161,7 +165,7 @@ function GameView({ team, game, data, timeZone }: { team: string; game?: Game; d
               : ''}
       </p>
 
-      {started && left && right && <BoxScores left={left} right={right} players={data.players.players} team={team} />}
+      {started && left && right && <BoxScores left={left} right={right} ids={rosterIds} opponentIds={opponentIds} opponentSlug={opponentSlug} />}
       {started && s && s.plays.length > 0 && <PlayByPlay summary={s} left={left!} right={right!} />}
       {/* Before tip-off: the same channels and details as the game's row in the list (NBA-04). */}
       {game && !started && (
@@ -290,23 +294,24 @@ function LineScore({ left, right }: { left: TeamSide; right: TeamSide }) {
 }
 
 /** Pills like the team page's, on the dark panel; the followed team's link to the player's page. */
-function Injuries(props: { side: 'left' | 'right'; abbr: string; team: string; list: InjuryListing[]; rosterIds?: Map<string, string> }) {
-  const { side, abbr, team, list, rosterIds } = props
+function Injuries(props: { side: 'left' | 'right'; abbr: string; team: string; list: InjuryListing[]; rosterIds?: Map<string, string>; teamSlug?: string }) {
+  const { side, abbr, team, list, rosterIds, teamSlug: slug } = props
   if (list.length === 0) return <div className={`sb-injuries ${side} empty`} />
   return (
     <div className={`sb-injuries ${side}`}>
       <h2>{team} injury report</h2>
       <ul className="hero-chips" aria-label={`${team} injury report`}>
         {list.map((i) => (
-          <InjuryChip key={i.name} abbr={abbr} background={PANEL} name={i.name} status={i.status} detail={i.detail} playerId={rosterIds?.get(nameKey(i.name))} />
+          <InjuryChip key={i.name} abbr={abbr} background={PANEL} name={i.name} status={i.status} detail={i.detail} playerId={rosterIds?.get(nameKey(i.name))} teamSlug={slug} />
         ))}
       </ul>
     </div>
   )
 }
 
-function BoxScores(props: { left: TeamSide; right: TeamSide; players: Player[]; team: string }) {
-  const { left, right, players, team } = props
+/** `ids`: the followed team's players by name; `opponentIds`: the other team's, whose pages live under its own address. */
+function BoxScores(props: { left: TeamSide; right: TeamSide; ids: Map<string, string>; opponentIds: Map<string, string>; opponentSlug?: string }) {
+  const { left, right, ids, opponentIds, opponentSlug } = props
   const [shown, setShown] = useState<'left' | 'right'>('left')
   return (
     <section className="box-scores" aria-labelledby="box-heading">
@@ -321,20 +326,19 @@ function BoxScores(props: { left: TeamSide; right: TeamSide; players: Player[]; 
           ))}
         </div>
       </div>
-      <BoxTable side={left} position="left" hiddenOnPhone={shown !== 'left'} links={left.abbr === team ? players : undefined} />
-      <BoxTable side={right} position="right" hiddenOnPhone={shown !== 'right'} />
+      <BoxTable side={left} position="left" hiddenOnPhone={shown !== 'left'} ids={ids} />
+      <BoxTable side={right} position="right" hiddenOnPhone={shown !== 'right'} ids={opponentIds} slug={opponentSlug} />
     </section>
   )
 }
 
-function BoxTable(props: { side: TeamSide; position: 'left' | 'right'; hiddenOnPhone: boolean; links?: Player[] }) {
-  const { side, position, hiddenOnPhone, links } = props
+function BoxTable(props: { side: TeamSide; position: 'left' | 'right'; hiddenOnPhone: boolean; ids?: Map<string, string>; slug?: string }) {
+  const { side, position, hiddenOnPhone, ids, slug } = props
   const t = TEAMS_BY_ABBR[side.abbr]
   const starters = side.players.filter((p) => p.starter)
   const bench = side.players.filter((p) => !p.starter)
-  const byKey = new Map((links ?? []).map((p) => [nameKey(p.name), p.id]))
   const name = (p: BoxPlayer) => {
-    const id = byKey.get(nameKey(p.name))
+    const id = ids?.get(nameKey(p.name))
     const label = (
       <>
         <span className="box-full">{p.name}</span>
@@ -343,7 +347,7 @@ function BoxTable(props: { side: TeamSide; position: 'left' | 'right'; hiddenOnP
         </span>
       </>
     )
-    return id ? <a href={routeHref({ page: 'player', id })}>{label}</a> : label
+    return id ? <a href={routeHref({ page: 'player', id }, slug)}>{label}</a> : label
   }
   const row = (p: BoxPlayer) => (
     <tr key={p.id}>
