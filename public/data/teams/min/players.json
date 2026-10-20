@@ -1,7 +1,7 @@
 {
  "season": "2026-27",
  "lastSeason": "2025-26",
- "updatedAt": "2026-10-20T07:17:43.529Z",
+ "updatedAt": "2026-10-20T13:18:03.583Z",
  "teamGamesPlayed": {
   "regular": 0,
   "playoffs": 0
@@ -617,74 +617,6 @@
    "lastToDate": {}
   },
   {
-   "id": "timmedr01",
-   "name": "Drew Timme",
-   "position": "F",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 9\"",
-    "weight": 235,
-    "birthDate": "2000-09-09",
-    "experience": 2,
-    "college": "Gonzaga"
-   },
-   "current": {},
-   "lastFull": {
-    "regular": {
-     "games": 27,
-     "started": 1,
-     "minutes": 235.3,
-     "points": 92,
-     "rebounds": 33,
-     "assists": 23,
-     "steals": 6,
-     "blocks": 0,
-     "turnovers": 13,
-     "fgMade": 38,
-     "fgAttempted": 66,
-     "threeMade": 11,
-     "threeAttempted": 25,
-     "ftMade": 5,
-     "ftAttempted": 9
-    }
-   },
-   "lastToDate": {}
-  },
-  {
-   "id": "reevean01",
-   "name": "Antonio Reeves",
-   "position": "G",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 5\"",
-    "weight": 205,
-    "birthDate": "2000-11-20",
-    "experience": 2,
-    "college": "Illinois State, Kentucky"
-   },
-   "current": {},
-   "lastFull": {
-    "regular": {
-     "games": 10,
-     "started": 0,
-     "minutes": 67.8,
-     "points": 27,
-     "rebounds": 8,
-     "assists": 3,
-     "steals": 1,
-     "blocks": 0,
-     "turnovers": 1,
-     "fgMade": 10,
-     "fgAttempted": 20,
-     "threeMade": 7,
-     "threeAttempted": 13,
-     "ftMade": 0,
-     "ftAttempted": 0
-    }
-   },
-   "lastToDate": {}
-  },
-  {
    "id": "pullizy01",
    "name": "Zyon Pullin",
    "position": "G",
@@ -716,40 +648,6 @@
      "threeMade": 1,
      "threeAttempted": 3,
      "ftMade": 4,
-     "ftAttempted": 4
-    }
-   },
-   "lastToDate": {}
-  },
-  {
-   "id": "freemen01",
-   "name": "Enrique Freeman",
-   "position": "F",
-   "twoWay": true,
-   "bio": {
-    "height": "6' 9\"",
-    "weight": 220,
-    "birthDate": "2000-07-29",
-    "experience": 2,
-    "college": "University of Akron"
-   },
-   "current": {},
-   "lastFull": {
-    "regular": {
-     "games": 4,
-     "started": 0,
-     "minutes": 37.2,
-     "points": 13,
-     "rebounds": 10,
-     "assists": 2,
-     "steals": 2,
-     "blocks": 3,
-     "turnovers": 2,
-     "fgMade": 4,
-     "fgAttempted": 8,
-     "threeMade": 2,
-     "threeAttempted": 4,
-     "ftMade": 3,
      "ftAttempted": 4
     }
    },
@@ -791,40 +689,6 @@
    "lastToDate": {}
   },
   {
-   "id": "omierno01",
-   "name": "Norchad Omier",
-   "position": "F",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 7\"",
-    "weight": 248,
-    "birthDate": "2001-08-28",
-    "experience": 1,
-    "college": "Arkansas State University, Miami (FL), Baylor"
-   },
-   "current": {},
-   "lastFull": {
-    "regular": {
-     "games": 6,
-     "started": 0,
-     "minutes": 23.8,
-     "points": 17,
-     "rebounds": 7,
-     "assists": 2,
-     "steals": 1,
-     "blocks": 0,
-     "turnovers": 0,
-     "fgMade": 7,
-     "fgAttempted": 10,
-     "threeMade": 0,
-     "threeAttempted": 1,
-     "ftMade": 3,
-     "ftAttempted": 3
-    }
-   },
-   "lastToDate": {}
-  },
-  {
    "id": "evansis01",
    "name": "Isaiah Evans",
    "position": "G",
@@ -839,21 +703,6 @@
    },
    "number": "33",
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5061585.png",
-   "current": {},
-   "lastFull": {},
-   "lastToDate": {}
-  },
-  {
-   "id": "martike04",
-   "name": "KJ Martin",
-   "position": "F",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 6\"",
-    "weight": 215,
-    "birthDate": "2001-01-06",
-    "experience": 5
-   },
    "current": {},
    "lastFull": {},
    "lastToDate": {}

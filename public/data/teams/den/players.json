@@ -1,7 +1,7 @@
 {
  "season": "2026-27",
  "lastSeason": "2025-26",
- "updatedAt": "2026-10-20T07:17:39.458Z",
+ "updatedAt": "2026-10-20T13:17:59.557Z",
  "teamGamesPlayed": {
   "regular": 0,
   "playoffs": 0
@@ -695,67 +695,20 @@
    "lastToDate": {}
   },
   {
-   "id": "milleem01",
-   "name": "Emanuel Miller",
-   "position": "F",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 5\"",
-    "weight": 215,
-    "birthDate": "2000-06-19",
-    "experience": 2,
-    "college": "Texas A&M, TCU"
-   },
-   "current": {},
-   "lastFull": {
-    "regular": {
-     "games": 5,
-     "started": 0,
-     "minutes": 33.1,
-     "points": 15,
-     "rebounds": 3,
-     "assists": 4,
-     "steals": 2,
-     "blocks": 0,
-     "turnovers": 0,
-     "fgMade": 6,
-     "fgAttempted": 13,
-     "threeMade": 2,
-     "threeAttempted": 6,
-     "ftMade": 1,
-     "ftAttempted": 2
-    }
-   },
-   "lastToDate": {}
-  },
-  {
-   "id": "hawkico03",
-   "name": "Coleman Hawkins",
+   "id": "brazitr01",
+   "name": "Trevon Brazile",
    "position": "F",
    "twoWay": false,
    "bio": {
     "height": "6' 10\"",
-    "weight": 225,
-    "birthDate": "2001-12-10",
+    "weight": 220,
+    "birthDate": "2003-01-07",
     "experience": 0,
-    "college": "Illinois, Kansas State"
+    "college": "Arkansas",
+    "birthPlace": "Springfield, MO"
    },
-   "current": {},
-   "lastFull": {},
-   "lastToDate": {}
-  },
-  {
-   "id": "goodwda02",
-   "name": "Dane Goodwin",
-   "position": "G",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 6\"",
-    "weight": 200,
-    "birthDate": "1999-12-28",
-    "experience": 0,
-    "college": "Notre Dame"
-   },
+   "number": "7",
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4698719.png",
    "current": {},
    "lastFull": {},
    "lastToDate": {}
@@ -775,25 +728,6 @@
    },
    "number": "13",
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4565698.png",
-   "current": {},
-   "lastFull": {},
-   "lastToDate": {}
-  },
-  {
-   "id": "brazitr01",
-   "name": "Trevon Brazile",
-   "position": "F",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 10\"",
-    "weight": 220,
-    "birthDate": "2003-01-07",
-    "experience": 0,
-    "college": "Arkansas",
-    "birthPlace": "Springfield, MO"
-   },
-   "number": "7",
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4698719.png",
    "current": {},
    "lastFull": {},
    "lastToDate": {}

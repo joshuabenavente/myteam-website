@@ -1,7 +1,7 @@
 {
  "season": "2026-27",
  "lastSeason": "2025-26",
- "updatedAt": "2026-10-20T07:17:35.676Z",
+ "updatedAt": "2026-10-20T13:17:55.938Z",
  "teamGamesPlayed": {
   "regular": 0,
   "playoffs": 0
@@ -465,40 +465,6 @@
    "lastToDate": {}
   },
   {
-   "id": "mbengbe01",
-   "name": "Bez Mbeng",
-   "position": "G",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 4\"",
-    "weight": 200,
-    "birthDate": "2003-05-02",
-    "experience": 1,
-    "college": "Yale"
-   },
-   "current": {},
-   "lastFull": {
-    "regular": {
-     "games": 15,
-     "started": 5,
-     "minutes": 492.2,
-     "points": 122,
-     "rebounds": 57,
-     "assists": 62,
-     "steals": 34,
-     "blocks": 5,
-     "turnovers": 22,
-     "fgMade": 50,
-     "fgAttempted": 100,
-     "threeMade": 6,
-     "threeAttempted": 31,
-     "ftMade": 16,
-     "ftAttempted": 25
-    }
-   },
-   "lastToDate": {}
-  },
-  {
    "id": "gardnmy01",
    "name": "Myron Gardner",
    "position": "G",
@@ -644,57 +610,6 @@
    "lastToDate": {}
   },
   {
-   "id": "donaltr01",
-   "name": "Tre Donaldson",
-   "position": "G",
-   "twoWay": true,
-   "bio": {
-    "height": "6' 2\"",
-    "weight": 210,
-    "birthDate": "2003-12-11",
-    "experience": 0,
-    "college": "Miami",
-    "birthPlace": "Tallahassee, FL"
-   },
-   "number": "24",
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4837356.png",
-   "current": {},
-   "lastFull": {},
-   "lastToDate": {}
-  },
-  {
-   "id": "kelleky01",
-   "name": "Kylor Kelley",
-   "position": "F",
-   "twoWay": false,
-   "bio": {
-    "height": "7' 0\"",
-    "weight": 215,
-    "birthDate": "1997-08-26",
-    "experience": 1,
-    "college": "Oregon State"
-   },
-   "current": {},
-   "lastFull": {},
-   "lastToDate": {}
-  },
-  {
-   "id": "madsega01",
-   "name": "Gabe Madsen",
-   "position": "G",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 6\"",
-    "weight": 200,
-    "birthDate": "2001-05-01",
-    "experience": 0,
-    "college": "Cincinnati, Utah"
-   },
-   "current": {},
-   "lastFull": {},
-   "lastToDate": {}
-  },
-  {
    "id": "conwery01",
    "name": "Ryan Conwell",
    "position": "G",
@@ -709,6 +624,25 @@
    },
    "number": "4",
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5107157.png",
+   "current": {},
+   "lastFull": {},
+   "lastToDate": {}
+  },
+  {
+   "id": "donaltr01",
+   "name": "Tre Donaldson",
+   "position": "G",
+   "twoWay": true,
+   "bio": {
+    "height": "6' 2\"",
+    "weight": 210,
+    "birthDate": "2003-12-11",
+    "experience": 0,
+    "college": "Miami",
+    "birthPlace": "Tallahassee, FL"
+   },
+   "number": "24",
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4837356.png",
    "current": {},
    "lastFull": {},
    "lastToDate": {}

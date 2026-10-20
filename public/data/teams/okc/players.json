@@ -1,7 +1,7 @@
 {
  "season": "2026-27",
  "lastSeason": "2025-26",
- "updatedAt": "2026-10-20T07:17:47.449Z",
+ "updatedAt": "2026-10-20T13:18:07.566Z",
  "teamGamesPlayed": {
   "regular": 0,
   "playoffs": 0
@@ -636,89 +636,6 @@
    "lastToDate": {}
   },
   {
-   "id": "maraad01",
-   "name": "Aday Mara",
-   "position": "C",
-   "twoWay": false,
-   "bio": {
-    "height": "7' 3\"",
-    "weight": 262,
-    "birthDate": "2005-04-07",
-    "experience": 0,
-    "college": "Michigan",
-    "birthPlace": "Zaragoza, Spain"
-   },
-   "number": "15",
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5174983.png",
-   "current": {},
-   "lastFull": {},
-   "lastToDate": {}
-  },
-  {
-   "id": "pritcan01",
-   "name": "Anthony Pritchard",
-   "position": "G",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 2\"",
-    "weight": 185,
-    "birthDate": "2003-05-06",
-    "experience": 0,
-    "college": "Tulsa, Central Michigan University"
-   },
-   "current": {},
-   "lastFull": {},
-   "lastToDate": {}
-  },
-  {
-   "id": "holifan01",
-   "name": "Andrew Holifield",
-   "position": "F",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 10\"",
-    "weight": 185,
-    "birthDate": "2004-02-02",
-    "experience": 0,
-    "college": "Jarvis Christian College, Ranger College, Lamar"
-   },
-   "current": {},
-   "lastFull": {},
-   "lastToDate": {}
-  },
-  {
-   "id": "smithzh01",
-   "name": "Zhaire Smith",
-   "position": "G",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 4\"",
-    "weight": 205,
-    "birthDate": "1999-06-04",
-    "experience": 2,
-    "college": "Texas Tech"
-   },
-   "current": {},
-   "lastFull": {},
-   "lastToDate": {}
-  },
-  {
-   "id": "tillych01",
-   "name": "Christoph Tilly",
-   "position": "C",
-   "twoWay": false,
-   "bio": {
-    "height": "7' 0\"",
-    "weight": 240,
-    "birthDate": "2003-01-28",
-    "experience": 0,
-    "college": "Santa Clara, Ohio State"
-   },
-   "current": {},
-   "lastFull": {},
-   "lastToDate": {}
-  },
-  {
    "id": "owehot01",
    "name": "Otega Oweh",
    "position": "G",
@@ -771,6 +688,25 @@
    },
    "number": "14",
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5241364.png",
+   "current": {},
+   "lastFull": {},
+   "lastToDate": {}
+  },
+  {
+   "id": "maraad01",
+   "name": "Aday Mara",
+   "position": "C",
+   "twoWay": false,
+   "bio": {
+    "height": "7' 3\"",
+    "weight": 262,
+    "birthDate": "2005-04-07",
+    "experience": 0,
+    "college": "Michigan",
+    "birthPlace": "Zaragoza, Spain"
+   },
+   "number": "15",
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5174983.png",
    "current": {},
    "lastFull": {},
    "lastToDate": {}
