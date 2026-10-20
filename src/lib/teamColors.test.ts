@@ -59,3 +59,13 @@ it('keeps the logo dot visible on the header and the app icon tile', () => {
   }
   expect(dotColor('XXX', '#000000')).toBe(BRAND_DOT)
 })
+
+it('keeps links and headings readable on the page in both modes', () => {
+  for (const t of TEAMS) {
+    const { link, linkDark } = teamTheme(t.abbr)
+    for (const bg of ['#ffffff', '#f5f6f8']) expect(contrast(link, bg), `${t.abbr} link on ${bg}`).toBeGreaterThanOrEqual(4.5)
+    for (const bg of ['#000000', '#1c1c1f']) expect(contrast(linkDark, bg), `${t.abbr} dark link on ${bg}`).toBeGreaterThanOrEqual(4.5)
+  }
+  // Teams that already pass keep their colors exactly.
+  expect(teamTheme('DEN')).toMatchObject({ link: '#1d428a', linkDark: '#fec524' })
+})

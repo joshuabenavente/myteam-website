@@ -14,7 +14,10 @@
   --border: #dde1e7;
   --hover: #f0f2f6;
   --heading: var(--midnight);
-  --skyline-text: var(--skyline);
+  /* Text-safe team colors for links and headings on the page; set per team (src/lib/team.ts). */
+  --link: #1d428a;
+  --link-dark: #fec524;
+  --skyline-text: var(--link);
   --win: #1a7f37;
   --loss: var(--flatirons);
   --chip-local-bg: var(--midnight);
@@ -30,7 +33,7 @@
   --selected-bg: var(--midnight);
   --selected-text: #fff;
   --table-head-bg: #eef1f6;
-  --focus: var(--skyline);
+  --focus: var(--link);
   /* The navy header, also used by the player card, the radar card and the footer. */
   --navy-gradient: linear-gradient(120deg, var(--midnight) 0%, color-mix(in srgb, var(--midnight) 45%, var(--skyline)) 58%, var(--skyline) 100%);
 
@@ -57,8 +60,8 @@
     --muted: #a1a1aa;
     --border: #2e2e33;
     --hover: #26262a;
-    --heading: var(--sunshine);
-    --skyline-text: var(--sunshine);
+    --heading: var(--link-dark);
+    --skyline-text: var(--link-dark);
     --win: #4ac26b;
     --loss: #ff7b8a;
     --chip-local-bg: var(--sunshine);
@@ -73,7 +76,7 @@
     --selected-bg: var(--sunshine);
     --selected-text: var(--accent-text);
     --table-head-bg: #26262a;
-    --focus: var(--sunshine);
+    --focus: var(--link-dark);
   }
 }
 

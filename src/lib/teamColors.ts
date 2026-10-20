@@ -107,11 +107,30 @@ export interface TeamTheme {
   accentText: string
   /** The myteam.fans logo's dot, visible on `dark`. */
   dot: string
+  /** Links, headings and focus rings on the page itself: light mode, then dark mode. */
+  link: string
+  linkDark: string
 }
 
-const DENVER: TeamTheme = { dark: NAVY, mid: '#1d428a', accent: GOLD, accentText: NAVY, dot: GOLD }
+/** The page backgrounds links sit on (src/index.css): the darker light one, the lighter dark one. */
+const PAGE_LIGHT = '#f5f6f8'
+const SURFACE_DARK = '#1c1c1f'
+
+/**
+ * Text-safe versions of the team's colors for the page: the header's mid color darkened, and the
+ * accent lightened, only as far as 4.5:1 needs.
+ */
+function withLinks(theme: Omit<TeamTheme, 'link' | 'linkDark'>): TeamTheme {
+  let link = theme.mid
+  for (let i = 0; contrast(link, PAGE_LIGHT) < 4.5 && i < 20; i++) link = mix(link, '#000000', 0.05)
+  let linkDark = theme.accent
+  for (let i = 0; contrast(linkDark, SURFACE_DARK) < 4.5 && i < 20; i++) linkDark = mix(linkDark, '#ffffff', 0.05)
+  return { ...theme, link, linkDark }
+}
+
+const DENVER = withLinks({ dark: NAVY, mid: '#1d428a', accent: GOLD, accentText: NAVY, dot: GOLD })
 /** For pages without a team (the team picker). */
-export const NEUTRAL_THEME: TeamTheme = { dark: '#0f172a', mid: '#334155', accent: '#facc15', accentText: '#0f172a', dot: '#F04B32' }
+export const NEUTRAL_THEME = withLinks({ dark: '#0f172a', mid: '#334155', accent: '#facc15', accentText: '#0f172a', dot: '#F04B32' })
 
 /**
  * A team's site colors from its two team colors. The header uses the darker one (made dark
@@ -138,7 +157,7 @@ export function teamTheme(abbr: string): TeamTheme {
     dark = mix(mid, '#000000', k)
   }
   for (let i = 0; contrast(accent, dark) < 4.5 && i < 20; i++) accent = mix(accent, '#ffffff', 0.08)
-  return { dark, mid, accent, accentText: readableOn(accent), dot: dotColor(abbr, dark) }
+  return withLinks({ dark, mid, accent, accentText: readableOn(accent), dot: dotColor(abbr, dark) })
 }
 
 /** The logo dot's default (the team picker and anywhere without a team), from the brand files. */

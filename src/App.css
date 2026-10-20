@@ -3570,3 +3570,94 @@ main,
     display: none;
   }
 }
+
+/* "Last game: W 114–108 vs PHX" under the countdown. */
+.last-result {
+  display: inline-block;
+  margin-top: 14px;
+  color: rgb(255 255 255 / 85%);
+  font-size: 0.95rem;
+  font-variant-numeric: tabular-nums;
+  text-decoration-color: rgb(255 255 255 / 40%);
+  text-underline-offset: 3px;
+}
+
+.last-result strong {
+  color: #fff;
+}
+
+/* --- Loading placeholders: plain gray shapes in the final layout (no shimmer, so no motion) --- */
+
+.bone {
+  display: block;
+  border-radius: 12px;
+  background: var(--hover);
+}
+
+.site-header .bone {
+  background: rgb(255 255 255 / 10%);
+}
+
+.bone-line {
+  width: 40%;
+  height: 14px;
+}
+
+.bone-count {
+  width: 70%;
+  height: 150px;
+  margin-top: 14px;
+}
+
+.bone-chips {
+  width: 85%;
+  height: 36px;
+  margin-top: 12px;
+  border-radius: 999px;
+}
+
+.bone-chips:first-of-type,
+.bone-count + .bone-chips {
+  margin-top: 22px;
+}
+
+.bone-chips.short {
+  width: 55%;
+}
+
+.cards-hero.loading .up-cards {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+  margin-top: 14px;
+}
+
+.bone-card {
+  height: 124px;
+  border-radius: 16px;
+}
+
+.list-loading {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 16px;
+}
+
+.bone-row {
+  height: 72px;
+}
+
+@media (max-width: 760px) {
+  .bone-count {
+    height: 56px;
+  }
+
+  .cards-hero.loading .up-cards {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  }
+
+  .cards-hero.loading .bone-card:nth-child(3) {
+    display: none;
+  }
+}

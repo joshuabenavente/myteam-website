@@ -1,5 +1,5 @@
 import { expect, it } from 'vitest'
-import { countdownLabel, headlineChannel, headlineGame, listedFor, shortName } from './hero'
+import { countdownLabel, headlineChannel, headlineGame, lastResult, listedFor, shortName } from './hero'
 
 it('headlines a live game, otherwise the next scheduled one', () => {
   const statuses = (s: string[]) => s.map((status, i) => ({ id: String(i), status }))
@@ -58,4 +58,16 @@ it('skips a game still marked scheduled hours after it must have ended', () => {
   expect(headlineGame(games, Date.parse('2026-10-23T04:00:00Z'))?.id).toBe('a')
   // The next morning the data hasn't caught up; game b is next.
   expect(headlineGame(games, Date.parse('2026-10-23T15:00:00Z'))?.id).toBe('b')
+})
+
+it('finds the last finished game', () => {
+  const g = (id: string, startUtc: string, status: 'final' | 'scheduled', score?: { team: number; opponent: number }) => ({ id, startUtc, status, score })
+  expect(lastResult([g('1', '2026-10-23T01:30:00Z', 'scheduled')])).toBeUndefined()
+  expect(
+    lastResult([
+      g('2', '2026-10-25T01:00:00Z', 'final', { team: 114, opponent: 108 }),
+      g('1', '2026-10-23T01:30:00Z', 'final', { team: 99, opponent: 101 }),
+      g('3', '2026-10-27T01:00:00Z', 'scheduled'),
+    ])?.id,
+  ).toBe('2')
 })

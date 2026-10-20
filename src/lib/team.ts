@@ -35,6 +35,8 @@ export function applyTheme(theme: TeamTheme = NEUTRAL_THEME) {
   root.setProperty('--sunshine', theme.accent)
   root.setProperty('--accent-text', theme.accentText)
   root.setProperty('--team-dot', theme.dot)
+  root.setProperty('--link', theme.link)
+  root.setProperty('--link-dark', theme.linkDark)
   setFavicon(theme.dot)
   document.querySelector('meta[name="theme-color"]')?.setAttribute('content', theme.dark)
 }

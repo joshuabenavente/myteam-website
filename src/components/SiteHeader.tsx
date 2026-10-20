@@ -2,7 +2,7 @@ import { useRef, useState, type CSSProperties } from 'react'
 import type { AppData } from '../lib/data.ts'
 import { formatGameDate, formatGameTime, timeZoneAbbr } from '../lib/format.ts'
 import { nextGames } from '../lib/availability.ts'
-import { chipStatus, countdownLabel, daysUntil, headlineChannel, headlineGame, listedFor, shortName } from '../lib/hero.ts'
+import { chipStatus, countdownLabel, daysUntil, headlineChannel, headlineGame, lastResult, listedFor, shortName } from '../lib/hero.ts'
 import { liveFor, useLive } from '../lib/live.ts'
 import { nameKey } from '../lib/names.ts'
 import { routeHref, type Route } from '../lib/route.ts'
@@ -30,7 +30,8 @@ interface Props {
 /** The team-colored header: logo, season and team pills, page switcher, and on the Games page the countdown and next games. */
 export function SiteHeader({ route, data, timeZone, onShowGame }: Props) {
   const team = useTeam()
-  const full = route.page === 'games' && !!data
+  // The Games page header keeps its full size while the data loads, so nothing jumps when it arrives.
+  const full = route.page === 'games'
   const roster = route.page === 'players' && !!data
   const headerRef = useRef<HTMLElement>(null)
   const nav = (
@@ -79,7 +80,7 @@ export function SiteHeader({ route, data, timeZone, onShowGame }: Props) {
 
           {/* The Games page's heading sits here so it comes before the next game's. */}
           {route.page === 'games' && <h1 className="sr-only">Games</h1>}
-          {full && <NextGame data={data} timeZone={timeZone} onShowGame={onShowGame} />}
+          {full && (data ? <NextGame data={data} timeZone={timeZone} onShowGame={onShowGame} /> : <NextGameLoading />)}
           {roster && <RosterIntro data={data} />}
 
         </div>
@@ -150,6 +151,7 @@ function NextGame({ data, timeZone, onShowGame }: { data: AppData; timeZone: str
   const opener = !!us && us.wins + us.losses === 0 && game.type === 'regular'
   const days = daysUntil(game, now, timeZone)
   const upcoming = nextGames(data.schedule.games, 3)
+  const last = lastResult(data.schedule.games)
   return (
     <section className="cards-hero" aria-labelledby="hero-game-heading">
       <div className="countdown">
@@ -180,6 +182,16 @@ function NextGame({ data, timeZone, onShowGame }: { data: AppData; timeZone: str
             </span>
           </div>
         </div>
+        {/* The last result stays in view until the next game starts (the live pill shows that one). */}
+        {last && !showPill && (
+          <a className="last-result" href={routeHref({ page: 'game', id: last.id })}>
+            Last game:{' '}
+            <strong>
+              {last.score.team > last.score.opponent ? 'W' : 'L'} {last.score.team}–{last.score.opponent}
+            </strong>{' '}
+            {last.home ? 'vs' : 'at'} {last.opponent}
+          </a>
+        )}
         <ul className="hero-chips" aria-label="About this game">
           {testLive && <LivePill live={testLive} started href={routeHref({ page: 'game', id: 'live' })} />}
           {showPill && watch && (
@@ -247,6 +259,28 @@ function InjuryChip(props: { abbr: string; followed: string; absence: Absence; p
         text
       )}
     </li>
+  )
+}
+
+/** Gray shapes where the countdown and next-up cards will be. */
+function NextGameLoading() {
+  return (
+    <div className="cards-hero loading" aria-hidden="true">
+      <div className="countdown">
+        <span className="bone bone-line" />
+        <span className="bone bone-count" />
+        <span className="bone bone-chips" />
+        <span className="bone bone-chips short" />
+      </div>
+      <div className="next-up">
+        <span className="bone bone-line" />
+        <div className="up-cards">
+          <span className="bone bone-card" />
+          <span className="bone bone-card" />
+          <span className="bone bone-card" />
+        </div>
+      </div>
+    </div>
   )
 }
 

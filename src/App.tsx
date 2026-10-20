@@ -86,7 +86,7 @@ function TeamSite({ route, team }: { route: Extract<Route, { team: string }>; te
       <main id="main" tabIndex={-1}>
         {data?.offline && <OfflineNote updatedAt={data.meta.updatedAt} />}
         {error && <p className="placeholder error">{error}</p>}
-        {!data && !error && <p className="placeholder">Loading…</p>}
+        {!data && !error && <ListLoading />}
 
         {data && route.page === 'games' && (
           <section>
@@ -141,6 +141,18 @@ function OfflineNote({ updatedAt }: { updatedAt: string }) {
       <Icon name="offline" size={16} />
       Offline · showing data from {label}
     </p>
+  )
+}
+
+/** Gray rows where the list will be, so the page keeps its shape while the data loads. */
+function ListLoading() {
+  return (
+    <div className="list-loading" role="status">
+      <span className="sr-only">Loading…</span>
+      {Array.from({ length: 6 }, (_, i) => (
+        <span key={i} className="bone bone-row" aria-hidden="true" />
+      ))}
+    </div>
   )
 }
 
