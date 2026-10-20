@@ -1,7 +1,7 @@
 // Parse basketball-reference team roster and player game log pages.
 
 import * as cheerio from 'cheerio'
-import type { GameLogEntry, PlayerBio, StatTotals, TrackedGameType } from '../../src/lib/types.ts'
+import type { GameLogEntry, PlayerBio, TrackedGameType } from '../../src/lib/types.ts'
 
 /** Some basketball-reference tables are shipped inside HTML comments; unwrap them. */
 function load(html: string) {
@@ -102,36 +102,6 @@ export function parseGameLog(html: string): { [K in TrackedGameType]: GameLogRow
         ]
       })
   return { regular: parse(TABLES.regular), playoffs: parse(TABLES.playoffs) }
-}
-
-/** Sum game log rows, optionally only through a team game number. Undefined if no games. */
-export function sumGameLog(rows: GameLogRow[], throughTeamGame = Infinity): StatTotals | undefined {
-  const included = rows.filter((r) => r.teamGame <= throughTeamGame)
-  if (!included.length) return undefined
-  const total: StatTotals = {
-    games: included.length,
-    started: included.filter((r) => r.started).length,
-    minutes: 0,
-    points: 0,
-    rebounds: 0,
-    assists: 0,
-    steals: 0,
-    blocks: 0,
-    turnovers: 0,
-    fgMade: 0,
-    fgAttempted: 0,
-    threeMade: 0,
-    threeAttempted: 0,
-    ftMade: 0,
-    ftAttempted: 0,
-  }
-  for (const r of included) {
-    for (const key of Object.keys(total) as (keyof StatTotals)[]) {
-      if (key !== 'games' && key !== 'started') total[key] += r[key]
-    }
-  }
-  total.minutes = Math.round(total.minutes * 10) / 10
-  return total
 }
 
 export function gameLogUrl(playerId: string, seasonEndYear: number): string {

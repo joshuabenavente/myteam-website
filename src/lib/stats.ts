@@ -1,6 +1,6 @@
 // Stat columns for the player tracker, computed from counting totals.
 
-import type { StatTotals } from './types.ts'
+import type { GameLogEntry, StatTotals } from './types.ts'
 
 export type StatMode = 'perGame' | 'totals'
 
@@ -70,4 +70,34 @@ export function change(col: StatColumn, current: number, previous: number, mode:
   if (Number(shown) === 0) return { text: '0', direction: 'same', good: undefined }
   const up = diff > 0
   return { text: shown, direction: up ? 'up' : 'down', good: up === col.higherIsBetter }
+}
+
+/** Sum game log rows, optionally only through a team game number. Undefined if no games. */
+export function sumGameLog(rows: GameLogEntry[], throughTeamGame = Infinity): StatTotals | undefined {
+  const included = rows.filter((r) => r.teamGame <= throughTeamGame)
+  if (!included.length) return undefined
+  const total: StatTotals = {
+    games: included.length,
+    started: included.filter((r) => r.started).length,
+    minutes: 0,
+    points: 0,
+    rebounds: 0,
+    assists: 0,
+    steals: 0,
+    blocks: 0,
+    turnovers: 0,
+    fgMade: 0,
+    fgAttempted: 0,
+    threeMade: 0,
+    threeAttempted: 0,
+    ftMade: 0,
+    ftAttempted: 0,
+  }
+  for (const r of included) {
+    for (const key of Object.keys(total) as (keyof StatTotals)[]) {
+      if (key !== 'games' && key !== 'started') total[key] += r[key]
+    }
+  }
+  total.minutes = Math.round(total.minutes * 10) / 10
+  return total
 }

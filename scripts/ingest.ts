@@ -21,6 +21,7 @@ import { dirname, join } from 'node:path'
 import { nextGames } from '../src/lib/availability.ts'
 import { parseScoreboard, scoreboardUrl } from '../src/lib/scoreboard.ts'
 import { previousSeason, seasonForDate } from '../src/lib/season.ts'
+import { sumGameLog } from '../src/lib/stats.ts'
 import { bbrefAbbr, espnSlug, TEAMS, TEAMS_BY_ABBR } from '../src/lib/teams.ts'
 import type {
   AvailabilityFile,
@@ -36,7 +37,7 @@ import type {
   StandingsFile,
   TrackedGameType,
 } from '../src/lib/types.ts'
-import { gameLogUrl, parseGameLog, parseRoster, sumGameLog } from './lib/bbref.ts'
+import { gameLogUrl, parseGameLog, parseRoster } from './lib/bbref.ts'
 import { parseEspnResults, winProbability, type EspnScheduleJson, type EspnSummaryJson } from './lib/espn.ts'
 import { getBbref, getJson, NBA_HEADERS } from './lib/http.ts'
 import { nameKey, parseEspnRoster, type EspnPlayerInfo, type EspnRosterJson } from './lib/espnRoster.ts'

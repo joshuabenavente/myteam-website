@@ -1,6 +1,7 @@
 import { readFileSync } from 'node:fs'
 import { describe, expect, it } from 'vitest'
-import { gameLogUrl, parseGameLog, parseRoster, sumGameLog } from './bbref'
+import { sumGameLog } from '../../src/lib/stats'
+import { gameLogUrl, parseGameLog, parseRoster } from './bbref'
 
 const fixture = (name: string) => readFileSync(new URL(`./__fixtures__/${name}`, import.meta.url), 'utf8')
 

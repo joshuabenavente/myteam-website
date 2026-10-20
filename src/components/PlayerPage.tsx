@@ -4,13 +4,16 @@ import { useGameLogs, type AppData } from '../lib/data.ts'
 import { formatGameDate, formatGameTime } from '../lib/format.ts'
 import { routeHref } from '../lib/route.ts'
 import { useTeam } from '../lib/team.ts'
-import { COLUMNS, change } from '../lib/stats.ts'
+import { COLUMNS, change, sumGameLog } from '../lib/stats.ts'
 import { TEAMS_BY_ABBR } from '../lib/teams.ts'
 import type { GameLogEntry, Player, StatTotals, TrackedGameType } from '../lib/types.ts'
 import { Broadcasts } from './GameRow.tsx'
 import { Icon } from './Icon.tsx'
 import { RadarChart } from './RadarChart.tsx'
 import { TeamLogo } from './TeamLogo.tsx'
+
+/** Games in the stat strip's recent-form row. */
+const RECENT = 5
 
 // The hero's stat strip: a focused subset of the tracker's columns.
 const STRIP = ['games', 'minutes', 'points', 'rebounds', 'assists', 'fgPct', 'threePct', 'ftPct']
@@ -52,8 +55,15 @@ function PlayerView({ player, data, timeZone }: { player: Player; data: AppData;
   const [first, ...rest] = player.name.split(' ')
   const bio = player.bio ?? {}
 
+  // Recent form: the last 5 games this season, with arrows against the season so far. Only once
+  // there are more than 5 games, otherwise it would just repeat the season row.
+  const logs = useGameLogs(team.abbr)
+  const thisSeason = logs?.players[player.id]?.current[type] ?? []
+  const lastFive = thisSeason.length > RECENT ? sumGameLog(thisSeason.slice(-RECENT)) : undefined
+
   const rows: { label: string; short?: string; stats?: StatTotals; compareTo?: StatTotals }[] = [
     { label: season, stats: player.current[type], compareTo: player.lastToDate[type] ?? player.lastFull[type] },
+    ...(lastFive ? [{ label: `Last ${RECENT} games`, short: `Last ${RECENT}`, stats: lastFive, compareTo: player.current[type] }] : []),
     ...(teamGamesPlayed[type] > 0
       ? [
           {
