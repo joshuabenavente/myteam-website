@@ -4,18 +4,13 @@ import { InstallApp } from './InstallApp.tsx'
 /** The owner's Ko-fi page, for the footer's support link. */
 const KOFI_URL = 'https://ko-fi.com/soapod'
 
-/** Site name, contact address, data credits and a support link. */
+/** Site name, data credits and a support link. */
 export function SiteFooter({ updatedAt }: { updatedAt?: string }) {
-  // Put together in the browser, so the address isn't sitting in the page source for scrapers.
-  const email = ['contact', 'myteam.fans'].join('@')
   return (
     <footer className="site-footer">
       <div className="footer-inner">
         <Wordmark height={22} className="footer-wordmark" />
         <InstallApp />
-        <p>
-          <a href={`mailto:${email}`}>{email}</a>
-        </p>
         <p>
           {updatedAt &&
             `Updated ${new Date(updatedAt).toLocaleString('en-US', { dateStyle: 'medium', timeStyle: 'short' })}. `}
