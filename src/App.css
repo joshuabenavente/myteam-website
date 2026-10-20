@@ -3547,8 +3547,18 @@ a.mini-game:hover {
 }
 
 /* The footer's Ko-fi link, as a pill like the install button, last in the footer. */
-.footer-inner p.support {
-  margin: 18px 0 0;
+/* The install and support pills side by side; on a narrow phone the second wraps below. */
+.footer-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px 12px;
+  margin-top: 18px;
+}
+
+.footer-actions .install-app,
+.footer-actions .install-tip {
+  margin: 0;
 }
 
 .support-link {
