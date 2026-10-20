@@ -1,7 +1,7 @@
 {
  "season": "2026-27",
  "lastSeason": "2025-26",
- "updatedAt": "2026-10-20T02:17:46.485Z",
+ "updatedAt": "2026-10-20T08:17:48.133Z",
  "teamGamesPlayed": {
   "regular": 0,
   "playoffs": 0
@@ -799,33 +799,20 @@
    "lastToDate": {}
   },
   {
-   "id": "taitjan01",
-   "name": "Aniwaniwa Tait-Jones",
-   "position": "F",
+   "id": "carrca01",
+   "name": "Cameron Carr",
+   "position": "G",
    "twoWay": false,
    "bio": {
-    "height": "6' 6\"",
-    "weight": 200,
-    "birthDate": "2001-01-05",
+    "height": "6' 5\"",
+    "weight": 184,
+    "birthDate": "2004-11-21",
     "experience": 0,
-    "college": "Hawaii–Hilo, UC San Diego"
+    "college": "Baylor",
+    "birthPlace": "Eden Prairie, MN"
    },
-   "current": {},
-   "lastFull": {},
-   "lastToDate": {}
-  },
-  {
-   "id": "castrra01",
-   "name": "Rafael Castro",
-   "position": "C",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 11\"",
-    "weight": 224,
-    "birthDate": "2003-03-30",
-    "experience": 0,
-    "college": "Providence, George Washington"
-   },
+   "number": "43",
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5113969.png",
    "current": {},
    "lastFull": {},
    "lastToDate": {}
@@ -845,25 +832,6 @@
    },
    "number": "47",
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4433599.png",
-   "current": {},
-   "lastFull": {},
-   "lastToDate": {}
-  },
-  {
-   "id": "carrca01",
-   "name": "Cameron Carr",
-   "position": "G",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 5\"",
-    "weight": 184,
-    "birthDate": "2004-11-21",
-    "experience": 0,
-    "college": "Baylor",
-    "birthPlace": "Eden Prairie, MN"
-   },
-   "number": "43",
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5113969.png",
    "current": {},
    "lastFull": {},
    "lastToDate": {}

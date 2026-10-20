@@ -1,7 +1,7 @@
 {
  "season": "2026-27",
  "lastSeason": "2025-26",
- "updatedAt": "2026-10-20T02:17:50.407Z",
+ "updatedAt": "2026-10-20T08:17:52.129Z",
  "teamGamesPlayed": {
   "regular": 0,
   "playoffs": 0
@@ -712,40 +712,6 @@
    "lastToDate": {}
   },
   {
-   "id": "chandke01",
-   "name": "Kennedy Chandler",
-   "position": "G",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 0\"",
-    "weight": 170,
-    "birthDate": "2002-09-16",
-    "experience": 2,
-    "college": "Tennessee"
-   },
-   "current": {},
-   "lastFull": {
-    "regular": {
-     "games": 11,
-     "started": 2,
-     "minutes": 355.2,
-     "points": 165,
-     "rebounds": 37,
-     "assists": 74,
-     "steals": 11,
-     "blocks": 2,
-     "turnovers": 23,
-     "fgMade": 61,
-     "fgAttempted": 137,
-     "threeMade": 15,
-     "threeAttempted": 38,
-     "ftMade": 28,
-     "ftAttempted": 43
-    }
-   },
-   "lastToDate": {}
-  },
-  {
    "id": "reathdu01",
    "name": "Duop Reath",
    "position": "C",
@@ -778,57 +744,6 @@
      "threeAttempted": 55,
      "ftMade": 5,
      "ftAttempted": 6
-    }
-   },
-   "lastToDate": {}
-  },
-  {
-   "id": "highsha01",
-   "name": "Haywood Highsmith",
-   "position": "F",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 5\"",
-    "weight": 220,
-    "birthDate": "1996-12-09",
-    "experience": 6,
-    "college": "Wheeling University"
-   },
-   "current": {},
-   "lastFull": {
-    "regular": {
-     "games": 7,
-     "started": 0,
-     "minutes": 90.7,
-     "points": 38,
-     "rebounds": 13,
-     "assists": 7,
-     "steals": 4,
-     "blocks": 0,
-     "turnovers": 0,
-     "fgMade": 12,
-     "fgAttempted": 23,
-     "threeMade": 8,
-     "threeAttempted": 14,
-     "ftMade": 6,
-     "ftAttempted": 7
-    },
-    "playoffs": {
-     "games": 2,
-     "started": 0,
-     "minutes": 11.3,
-     "points": 0,
-     "rebounds": 3,
-     "assists": 1,
-     "steals": 0,
-     "blocks": 0,
-     "turnovers": 2,
-     "fgMade": 0,
-     "fgAttempted": 2,
-     "threeMade": 0,
-     "threeAttempted": 2,
-     "ftMade": 0,
-     "ftAttempted": 0
     }
    },
    "lastToDate": {}
@@ -916,21 +831,6 @@
    },
    "number": "18",
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5041953.png",
-   "current": {},
-   "lastFull": {},
-   "lastToDate": {}
-  },
-  {
-   "id": "wheelph02",
-   "name": "Phillip Wheeler",
-   "position": "F",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 8\"",
-    "weight": 185,
-    "birthDate": "2002-04-23",
-    "experience": 1
-   },
    "current": {},
    "lastFull": {},
    "lastToDate": {}

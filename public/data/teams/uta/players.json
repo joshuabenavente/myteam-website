@@ -1,7 +1,7 @@
 {
  "season": "2026-27",
  "lastSeason": "2025-26",
- "updatedAt": "2026-10-20T02:17:34.690Z",
+ "updatedAt": "2026-10-20T08:17:36.379Z",
  "teamGamesPlayed": {
   "regular": 0,
   "playoffs": 0
@@ -485,6 +485,60 @@
    "lastToDate": {}
   },
   {
+   "id": "bradlto01",
+   "name": "Tony Bradley",
+   "position": "F-C",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 10\"",
+    "weight": 248,
+    "birthDate": "1998-01-08",
+    "experience": 8,
+    "college": "North Carolina",
+    "birthPlace": "Bartow, FL"
+   },
+   "number": "13",
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4065673.png",
+   "current": {},
+   "lastFull": {
+    "regular": {
+     "games": 41,
+     "started": 4,
+     "minutes": 450.6,
+     "points": 162,
+     "rebounds": 116,
+     "assists": 22,
+     "steals": 6,
+     "blocks": 7,
+     "turnovers": 18,
+     "fgMade": 64,
+     "fgAttempted": 117,
+     "threeMade": 2,
+     "threeAttempted": 4,
+     "ftMade": 32,
+     "ftAttempted": 43
+    },
+    "playoffs": {
+     "games": 4,
+     "started": 0,
+     "minutes": 40.7,
+     "points": 11,
+     "rebounds": 11,
+     "assists": 3,
+     "steals": 2,
+     "blocks": 3,
+     "turnovers": 1,
+     "fgMade": 3,
+     "fgAttempted": 4,
+     "threeMade": 1,
+     "threeAttempted": 1,
+     "ftMade": 4,
+     "ftAttempted": 6
+    }
+   },
+   "lastToDate": {}
+  },
+  {
    "id": "hinsobl01",
    "name": "Blake Hinson",
    "position": "F",
@@ -599,7 +653,7 @@
    "id": "ingraha01",
    "name": "Harrison Ingram",
    "position": "F",
-   "twoWay": false,
+   "twoWay": true,
    "bio": {
     "height": "6' 5\"",
     "weight": 230,
@@ -630,38 +684,6 @@
      "ftAttempted": 0
     }
    },
-   "lastToDate": {}
-  },
-  {
-   "id": "batesta01",
-   "name": "Tamar Bates",
-   "position": "G",
-   "twoWay": true,
-   "bio": {
-    "height": "6' 4\"",
-    "weight": 195,
-    "birthDate": "2003-02-21",
-    "experience": 0,
-    "college": "Indiana, Missouri"
-   },
-   "current": {},
-   "lastFull": {},
-   "lastToDate": {}
-  },
-  {
-   "id": "aidoojo01",
-   "name": "Jonas Aidoo",
-   "position": "F-C",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 11\"",
-    "weight": 240,
-    "birthDate": "2002-12-10",
-    "experience": 0,
-    "college": "Tennessee, Arkansas"
-   },
-   "current": {},
-   "lastFull": {},
    "lastToDate": {}
   },
   {

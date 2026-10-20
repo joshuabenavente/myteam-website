@@ -1,7 +1,7 @@
 {
  "season": "2026-27",
  "lastSeason": "2025-26",
- "updatedAt": "2026-10-20T02:17:42.354Z",
+ "updatedAt": "2026-10-20T08:17:44.134Z",
  "teamGamesPlayed": {
   "regular": 0,
   "playoffs": 0
@@ -516,6 +516,43 @@
    "lastToDate": {}
   },
   {
+   "id": "chrisca02",
+   "name": "Cam Christie",
+   "position": "G",
+   "twoWay": true,
+   "bio": {
+    "height": "6' 5\"",
+    "weight": 190,
+    "birthDate": "2005-07-24",
+    "experience": 2,
+    "college": "Minnesota",
+    "birthPlace": "Arlington Heights, IL"
+   },
+   "number": "24",
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4845363.png",
+   "current": {},
+   "lastFull": {
+    "regular": {
+     "games": 55,
+     "started": 0,
+     "minutes": 480.3,
+     "points": 156,
+     "rebounds": 78,
+     "assists": 31,
+     "steals": 16,
+     "blocks": 3,
+     "turnovers": 22,
+     "fgMade": 53,
+     "fgAttempted": 139,
+     "threeMade": 12,
+     "threeAttempted": 49,
+     "ftMade": 38,
+     "ftAttempted": 50
+    }
+   },
+   "lastToDate": {}
+  },
+  {
    "id": "konanya01",
    "name": "Yanic Konan Niederhäuser",
    "position": "F",
@@ -548,57 +585,6 @@
      "threeAttempted": 5,
      "ftMade": 47,
      "ftAttempted": 62
-    }
-   },
-   "lastToDate": {}
-  },
-  {
-   "id": "weslebl01",
-   "name": "Blake Wesley",
-   "position": "G",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 4\"",
-    "weight": 190,
-    "birthDate": "2003-03-16",
-    "experience": 4,
-    "college": "Notre Dame"
-   },
-   "current": {},
-   "lastFull": {
-    "regular": {
-     "games": 31,
-     "started": 0,
-     "minutes": 361.2,
-     "points": 148,
-     "rebounds": 39,
-     "assists": 62,
-     "steals": 16,
-     "blocks": 5,
-     "turnovers": 31,
-     "fgMade": 56,
-     "fgAttempted": 124,
-     "threeMade": 10,
-     "threeAttempted": 36,
-     "ftMade": 26,
-     "ftAttempted": 47
-    },
-    "playoffs": {
-     "games": 4,
-     "started": 0,
-     "minutes": 4.6,
-     "points": 1,
-     "rebounds": 0,
-     "assists": 0,
-     "steals": 0,
-     "blocks": 0,
-     "turnovers": 1,
-     "fgMade": 0,
-     "fgAttempted": 0,
-     "threeMade": 0,
-     "threeAttempted": 0,
-     "ftMade": 1,
-     "ftAttempted": 2
     }
    },
    "lastToDate": {}
@@ -695,75 +681,6 @@
    "lastToDate": {}
   },
   {
-   "id": "telfoja01",
-   "name": "Jahmyl Telfort",
-   "position": "G",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 7\"",
-    "weight": 225,
-    "birthDate": "2001-04-30",
-    "experience": 1,
-    "college": "Northeastern University, Butler"
-   },
-   "current": {},
-   "lastFull": {
-    "regular": {
-     "games": 8,
-     "started": 0,
-     "minutes": 32.2,
-     "points": 1,
-     "rebounds": 3,
-     "assists": 1,
-     "steals": 1,
-     "blocks": 0,
-     "turnovers": 1,
-     "fgMade": 0,
-     "fgAttempted": 4,
-     "threeMade": 0,
-     "threeAttempted": 4,
-     "ftMade": 1,
-     "ftAttempted": 4
-    }
-   },
-   "lastToDate": {}
-  },
-  {
-   "id": "wagleke01",
-   "name": "Keaton Wagler",
-   "position": "G",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 5\"",
-    "weight": 188,
-    "birthDate": "2007-02-03",
-    "experience": 0,
-    "college": "Illinois",
-    "birthPlace": "Shawnee, KS"
-   },
-   "number": "1",
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5254165.png",
-   "current": {},
-   "lastFull": {},
-   "lastToDate": {}
-  },
-  {
-   "id": "onimi01",
-   "name": "Miye Oni",
-   "position": "G",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 5\"",
-    "weight": 206,
-    "birthDate": "1997-08-04",
-    "experience": 3,
-    "college": "Yale"
-   },
-   "current": {},
-   "lastFull": {},
-   "lastToDate": {}
-  },
-  {
    "id": "milleba01",
    "name": "Baba Miller",
    "position": "F",
@@ -797,6 +714,25 @@
    },
    "number": "12",
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5105832.png",
+   "current": {},
+   "lastFull": {},
+   "lastToDate": {}
+  },
+  {
+   "id": "wagleke01",
+   "name": "Keaton Wagler",
+   "position": "G",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 5\"",
+    "weight": 188,
+    "birthDate": "2007-02-03",
+    "experience": 0,
+    "college": "Illinois",
+    "birthPlace": "Shawnee, KS"
+   },
+   "number": "1",
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5254165.png",
    "current": {},
    "lastFull": {},
    "lastToDate": {}
