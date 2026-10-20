@@ -5,6 +5,21 @@ import { mkdirSync, readdirSync, readFileSync, writeFileSync } from 'node:fs'
 import { join } from 'node:path'
 import { defineConfig, type Plugin } from 'vite'
 import { iconSvg } from './src/lib/brand.ts'
+import {
+  gameHead,
+  gameSnapshot,
+  headTags,
+  pickerHead,
+  pickerSnapshot,
+  playerHead,
+  playerSnapshot,
+  rosterHead,
+  rosterSnapshot,
+  teamHead,
+  teamSnapshot,
+  type Head,
+} from './src/lib/seo.ts'
+import type { MetaFile, PlayersFile, PreviewsFile, ScheduleFile, StandingsFile } from './src/lib/types.ts'
 import { BRAND_DOT, NEUTRAL_THEME, teamTheme } from './src/lib/teamColors.ts'
 import { TEAMS, teamSlug } from './src/lib/teams.ts'
 
@@ -59,10 +74,21 @@ function serviceWorker() {
   writeFileSync(join(DIST, 'sw.js'), sw)
 }
 
+const readJson = <T,>(path: string): T | undefined => {
+  try {
+    return JSON.parse(readFileSync(join(DIST, 'data', path), 'utf8')) as T
+  } catch {
+    return undefined
+  }
+}
+
 /**
- * GitHub Pages only serves files that exist. Write a copy of index.html for each team page
- * (/denver-nuggets, /denver-nuggets/players) with its own title, color, manifest and home screen
- * icon, and a 404.html that loads the app for deeper addresses (player and game pages).
+ * GitHub Pages only serves files that exist. Write a page for every address the app has: the
+ * picker, each team's games and roster, and each current player and game (SEO-02). Each page has
+ * its own title, description and canonical address, and a plain-HTML snapshot of its content
+ * that the app replaces when it starts (src/lib/seo.ts). Pages are written as /x.html, which
+ * GitHub Pages serves at /x without a redirect, and as /x/index.html where /x/ has pages below
+ * it. 404.html loads the app for anything else and is kept out of search results.
  */
 function teamPages(): Plugin {
   return {
@@ -70,27 +96,59 @@ function teamPages(): Plugin {
     apply: 'build',
     closeBundle() {
       const html = readFileSync(join(DIST, 'index.html'), 'utf8')
-      const page = (title: string, color: string, slug?: string, key = 'app') =>
+      const page = (head: Head, body: string, color: string, slug?: string, key = 'app') =>
         html
-          .replace(/<title>.*<\/title>/, `<title>${title}</title>`)
+          .replace(/\s*<meta name="description"[^>]*>/, '')
+          .replace(/<title>.*<\/title>/, headTags(head))
           .replace(/(<meta name="theme-color" content=")[^"]*/, `$1${color}`)
           .replace(/(<link rel="manifest" href=")[^"]*/, `$1/${slug ? `${slug}/` : ''}manifest.webmanifest`)
           .replace(/(<link rel="apple-touch-icon" href=")[^"]*/, `$1/icons/${key}-180.png`)
-      const out = (path: string, content: string) => {
-        mkdirSync(join(DIST, path), { recursive: true })
-        writeFileSync(join(DIST, path, 'index.html'), content)
+          .replace('<div id="root"></div>', () => `<div id="root">${body}</div>`)
+      // "/x" -> x.html; with `folder`, also x/index.html for the "/x/" address.
+      const out = (path: string, content: string, folder = false) => {
+        mkdirSync(join(DIST, path, '..'), { recursive: true })
+        writeFileSync(join(DIST, `${path}.html`), content)
+        if (folder) {
+          mkdirSync(join(DIST, path), { recursive: true })
+          writeFileSync(join(DIST, path, 'index.html'), content)
+        }
       }
+
+      const meta = readJson<MetaFile>('meta.json')
+      const standings = readJson<StandingsFile>('standings.json')?.teams ?? {}
+      const updatedAt = meta?.updatedAt ?? new Date().toISOString()
+      const now = new Date()
+      let count = 0
+
       appFiles('app', undefined, BRAND_DOT, NEUTRAL_THEME.dark)
+      const picker = page(pickerHead(), pickerSnapshot(), NEUTRAL_THEME.dark)
+      writeFileSync(join(DIST, 'index.html'), picker)
+      out('teams', picker, true)
       for (const t of TEAMS) {
         const slug = teamSlug(t)
         const theme = teamTheme(t.abbr)
         const key = t.abbr.toLowerCase()
+        const teamPage = (head: Head, body: string) => page(head, body, theme.dark, slug, key)
         appFiles(key, slug, theme.dot, theme.dark)
-        out(slug, page(`${t.city} ${t.name} · myteam.fans`, theme.dark, slug, key))
-        out(`${slug}/players`, page(`Roster · ${t.city} ${t.name} · myteam.fans`, theme.dark, slug, key))
+        const schedule = readJson<ScheduleFile>(`teams/${key}/schedule.json`)
+        const players = readJson<PlayersFile>(`teams/${key}/players.json`)
+        const previews = readJson<PreviewsFile>(`teams/${key}/previews.json`)
+        const season = schedule?.season ?? meta?.season ?? ''
+        const games = schedule?.games ?? []
+        out(slug, teamPage(teamHead(t, season, games, now), teamSnapshot(t, season, games, standings, updatedAt, now)), true)
+        if (players) out(`${slug}/players`, teamPage(rosterHead(t, players), rosterSnapshot(t, players, updatedAt)), true)
+        for (const p of players?.players ?? []) {
+          out(`${slug}/players/${p.id}`, teamPage(playerHead(t, p, players!), playerSnapshot(t, p, players!, updatedAt)))
+          count++
+        }
+        for (const g of games) {
+          out(`${slug}/games/${g.id}`, teamPage(gameHead(t, g), gameSnapshot(t, g, previews, updatedAt)))
+          count++
+        }
       }
-      out('teams', page('Pick your team · myteam.fans', NEUTRAL_THEME.dark))
-      writeFileSync(join(DIST, '404.html'), html)
+      // Unknown addresses: the app shell, which says the page wasn't found.
+      writeFileSync(join(DIST, '404.html'), html.replace('<meta charset="UTF-8" />', '<meta charset="UTF-8" />\n    <meta name="robots" content="noindex" />'))
+      console.log(`team-pages: ${count} player and game pages`)
       serviceWorker()
     },
   }

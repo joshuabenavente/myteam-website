@@ -14,6 +14,8 @@ import { timeZoneAbbr } from './lib/format.ts'
 import { headlineGame } from './lib/hero.ts'
 import { LiveContext } from './lib/live.ts'
 import { navigate, useRoute, type Route } from './lib/route.ts'
+import { applyHead, snapshotFor } from './lib/head.ts'
+import { gameHead, playerHead, rosterHead, teamHead, type Head } from './lib/seo.ts'
 import { applyTheme, savedTeam, saveTeam, setAppIcons, TeamContext, teamFromSlug, type CurrentTeam } from './lib/team.ts'
 import { TEAMS_BY_ABBR } from './lib/teams.ts'
 import { useLiveScore } from './lib/useLiveScore.ts'
@@ -71,10 +73,13 @@ function TeamSite({ route, team }: { route: Extract<Route, { team: string }>; te
     if (!savedTeam()) saveTeam(team.slug)
   }, [team])
 
-  // A title per page, for browser history, tabs and screen readers.
+  // A title, description and canonical address per page, for search, history, tabs and screen readers.
   useEffect(() => {
-    document.title = [pageTitle(route, team, data), team.fullName, 'myteam.fans'].filter(Boolean).join(' · ')
+    const head = pageHead(route, team, data)
+    if (head) applyHead(head)
+    else document.title = `${team.fullName} · myteam.fans`
   }, [route, team, data])
+  const snapshot = error ? snapshotFor(window.location.pathname) : undefined
 
   return (
     <LiveContext.Provider value={live}>
@@ -85,7 +90,17 @@ function TeamSite({ route, team }: { route: Extract<Route, { team: string }>; te
 
       <main id="main" tabIndex={-1}>
         {data?.offline && <OfflineNote updatedAt={data.meta.updatedAt} />}
-        {error && <p className="placeholder error">{error}</p>}
+        {error && !snapshot && <p className="placeholder error">{error}</p>}
+        {snapshot && (
+          <>
+            <p className="offline-note" role="status">
+              <Icon name="offline" size={16} />
+              Couldn't load the latest data. This is the page as last published.
+            </p>
+            {/* Built by seo.ts from escaped data. */}
+            <div dangerouslySetInnerHTML={{ __html: snapshot }} />
+          </>
+        )}
         {!data && !error && <ListLoading />}
 
         {data && route.page === 'games' && (
@@ -156,14 +171,17 @@ function ListLoading() {
   )
 }
 
-function pageTitle(route: Route, team: CurrentTeam, data?: AppData): string | undefined {
-  if (route.page === 'players') return 'Roster'
-  if (route.page === 'player') return data?.players.players.find((p) => p.id === route.id)?.name ?? 'Player'
-  if (route.page === 'game') {
-    const g = data?.schedule.games.find((x) => x.id === route.id)
-    return g ? `${team.abbr} ${g.home ? 'vs' : 'at'} ${g.opponent}` : 'Game'
+/** The page's head (seo.ts), once its data is here; undefined while loading or not found. */
+function pageHead(route: Extract<Route, { team: string }>, team: CurrentTeam, data?: AppData): Head | undefined {
+  if (!data) return undefined
+  if (route.page === 'games') return teamHead(team, data.schedule.season, data.schedule.games)
+  if (route.page === 'players') return rosterHead(team, data.players)
+  if (route.page === 'player') {
+    const p = data.players.players.find((x) => x.id === route.id)
+    return p && playerHead(team, p, data.players)
   }
-  return undefined
+  const g = data.schedule.games.find((x) => x.id === route.id)
+  return g && gameHead(team, g)
 }
 
 export default App

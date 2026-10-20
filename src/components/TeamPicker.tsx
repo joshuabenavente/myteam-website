@@ -1,5 +1,7 @@
 import { useEffect, useState, type CSSProperties } from 'react'
 import { routeHref } from '../lib/route.ts'
+import { applyHead } from '../lib/head.ts'
+import { pickerHead } from '../lib/seo.ts'
 import { applyTheme, savedTeam, saveTeam, setAppIcons } from '../lib/team.ts'
 import { TEAM_COLORS } from '../lib/teamColors.ts'
 import { TEAMS, teamSlug, type Team } from '../lib/teams.ts'
@@ -22,7 +24,7 @@ export function TeamPicker({ unknown }: { unknown?: string }) {
   useEffect(() => {
     applyTheme()
     setAppIcons()
-    document.title = 'Pick your team · myteam.fans'
+    applyHead(pickerHead())
   }, [])
 
   const q = query.trim().toLowerCase()

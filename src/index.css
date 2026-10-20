@@ -132,3 +132,31 @@ select {
 #root {
   overflow-x: clip;
 }
+
+/* Each page's plain-HTML snapshot (src/lib/seo.ts): for search engines and browsers without
+   JavaScript. The app replaces it, so it's hidden when the app will run, and it's shown again
+   under a note if the app's data can't load. */
+.js #root > .snapshot {
+  display: none;
+}
+
+.snapshot {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 16px;
+  color: var(--text);
+  line-height: 1.5;
+}
+
+.snapshot a {
+  color: var(--link-text);
+}
+
+.snapshot ul {
+  padding-left: 1.2em;
+}
+
+.snapshot-asof {
+  color: var(--muted);
+  font-size: 0.9rem;
+}
