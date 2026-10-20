@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-20T16:17:50.849Z",
+ "updatedAt": "2026-10-20T17:17:58.579Z",
  "teams": {
   "ATL": [
    {
@@ -80,6 +80,20 @@
    }
   ],
   "CHI": [
+   {
+    "name": "Dailyn Swain",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Illness",
+    "returnDate": "2026-10-23"
+   },
+   {
+    "name": "Jordan Hawkins",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Illness",
+    "returnDate": "2026-10-23"
+   },
    {
     "name": "Nic Claxton",
     "status": "Out",
@@ -388,6 +402,13 @@
     "gameTimeDecision": true,
     "reason": "Illness",
     "returnDate": "2026-10-21"
+   },
+   {
+    "name": "Vladislav Goldin",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Ankle",
+    "returnDate": "2026-10-21"
    }
   ],
   "MIL": [
@@ -664,6 +685,13 @@
   ],
   "WAS": [
    {
+    "name": "AJ Dybantsa",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Ankle (sprain)",
+    "returnDate": "2026-10-23"
+   },
+   {
     "name": "Jamir Watkins",
     "status": "Out",
     "gameTimeDecision": false,
@@ -676,13 +704,6 @@
     "gameTimeDecision": false,
     "reason": "Hip",
     "returnDate": "2026-11-02"
-   },
-   {
-    "name": "AJ Dybantsa",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Ankle (sprain)",
-    "returnDate": "2026-10-21"
    }
   ]
  }
