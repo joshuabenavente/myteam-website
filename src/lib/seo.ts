@@ -126,12 +126,32 @@ const esc = (s: string) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replac
 const link = (href: string, text: string) => `<a href="${esc(href)}">${esc(text)}</a>`
 const list = (items: string[]) => `<ul>${items.map((i) => `<li>${i}</li>`).join('')}</ul>`
 
-/** Head tags for a page; replaces the shell's title and description. */
-export function headTags(head: Head): string {
+/** The picture shown with shared links, written by the build (vite.config.ts). */
+export const SHARE_IMAGE = { path: '/share.png', width: 1200, height: 630 }
+
+/** Only on the picker: the site's name and address for search engines (SEO-09). */
+export const websiteJsonLd = () => ({ '@context': 'https://schema.org', '@type': 'WebSite', name: 'myteam.fans', url: `${SITE}/` })
+
+/** Head tags for a page; replaces the shell's title and description. Includes sharing tags (SEO-10). */
+export function headTags(head: Head, { jsonLd }: { jsonLd?: object } = {}): string {
+  const url = `${SITE}${head.path}`
+  const og = (property: string, content: string | number) => `<meta property="og:${property}" content="${esc(String(content))}" />`
   return [
     `<title>${esc(head.title)}</title>`,
     `<meta name="description" content="${esc(head.description)}" />`,
-    `<link rel="canonical" href="${SITE}${head.path}" />`,
+    `<link rel="canonical" href="${url}" />`,
+    og('type', 'website'),
+    og('site_name', 'myteam.fans'),
+    og('title', head.title.replace(/ · myteam\.fans$/, '')),
+    og('description', head.description),
+    og('url', url),
+    og('image', `${SITE}${SHARE_IMAGE.path}`),
+    og('image:width', SHARE_IMAGE.width),
+    og('image:height', SHARE_IMAGE.height),
+    og('image:alt', 'myteam.fans'),
+    `<meta name="twitter:card" content="summary_large_image" />`,
+    // JSON in a script element: escape "<" so the data can't close it.
+    ...(jsonLd ? [`<script type="application/ld+json">${JSON.stringify(jsonLd).replace(/</g, '\\u003c')}</script>`] : []),
   ].join('\n    ')
 }
 

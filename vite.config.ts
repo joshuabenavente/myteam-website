@@ -4,7 +4,7 @@ import { createHash } from 'node:crypto'
 import { mkdirSync, readdirSync, readFileSync, writeFileSync } from 'node:fs'
 import { join } from 'node:path'
 import { defineConfig, type Plugin } from 'vite'
-import { iconSvg } from './src/lib/brand.ts'
+import { iconSvg, shareImageSvg } from './src/lib/brand.ts'
 import {
   gameHead,
   gameSnapshot,
@@ -14,10 +14,16 @@ import {
   playerHead,
   playerSnapshot,
   rosterHead,
+  robotsTxt,
   rosterSnapshot,
+  SHARE_IMAGE,
+  sitemapGame,
+  sitemapXml,
   teamHead,
   teamSnapshot,
+  websiteJsonLd,
   type Head,
+  type SitemapEntry,
 } from './src/lib/seo.ts'
 import type { MetaFile, PlayersFile, PreviewsFile, ScheduleFile, StandingsFile } from './src/lib/types.ts'
 import { BRAND_DOT, NEUTRAL_THEME, teamTheme } from './src/lib/teamColors.ts'
@@ -96,10 +102,10 @@ function teamPages(): Plugin {
     apply: 'build',
     closeBundle() {
       const html = readFileSync(join(DIST, 'index.html'), 'utf8')
-      const page = (head: Head, body: string, color: string, slug?: string, key = 'app') =>
+      const page = (head: Head, body: string, color: string, slug?: string, key = 'app', jsonLd?: object) =>
         html
           .replace(/\s*<meta name="description"[^>]*>/, '')
-          .replace(/<title>.*<\/title>/, headTags(head))
+          .replace(/<title>.*<\/title>/, () => headTags(head, { jsonLd }))
           .replace(/(<meta name="theme-color" content=")[^"]*/, `$1${color}`)
           .replace(/(<link rel="manifest" href=")[^"]*/, `$1/${slug ? `${slug}/` : ''}manifest.webmanifest`)
           .replace(/(<link rel="apple-touch-icon" href=")[^"]*/, `$1/icons/${key}-180.png`)
@@ -119,9 +125,12 @@ function teamPages(): Plugin {
       const updatedAt = meta?.updatedAt ?? new Date().toISOString()
       const now = new Date()
       let count = 0
+      // Canonical, indexable pages only (SEO-06): no /teams, no away-team copies of games.
+      const sitemap: SitemapEntry[] = [{ path: '/' }]
+      const latest = (dates: string[]) => dates.sort().at(-1)
 
       appFiles('app', undefined, BRAND_DOT, NEUTRAL_THEME.dark)
-      const picker = page(pickerHead(), pickerSnapshot(), NEUTRAL_THEME.dark)
+      const picker = page(pickerHead(), pickerSnapshot(), NEUTRAL_THEME.dark, undefined, 'app', websiteJsonLd())
       writeFileSync(join(DIST, 'index.html'), picker)
       out('teams', picker, true)
       for (const t of TEAMS) {
@@ -135,20 +144,32 @@ function teamPages(): Plugin {
         const previews = readJson<PreviewsFile>(`teams/${key}/previews.json`)
         const season = schedule?.season ?? meta?.season ?? ''
         const games = schedule?.games ?? []
+        const finals = games.filter((g) => g.status === 'final').map((g) => g.startUtc)
+        // Stats change only once games are played; before that, a refresh isn't new content.
+        const statsDate = players && players.teamGamesPlayed.regular + players.teamGamesPlayed.playoffs > 0 ? players.updatedAt : undefined
         out(slug, teamPage(teamHead(t, season, games, now), teamSnapshot(t, season, games, standings, updatedAt, now)), true)
-        if (players) out(`${slug}/players`, teamPage(rosterHead(t, players), rosterSnapshot(t, players, updatedAt)), true)
+        sitemap.push({ path: `/${slug}`, lastmod: latest(finals) })
+        if (players) {
+          out(`${slug}/players`, teamPage(rosterHead(t, players), rosterSnapshot(t, players, updatedAt)), true)
+          sitemap.push({ path: `/${slug}/players`, lastmod: statsDate })
+        }
         for (const p of players?.players ?? []) {
           out(`${slug}/players/${p.id}`, teamPage(playerHead(t, p, players!), playerSnapshot(t, p, players!, updatedAt)))
+          sitemap.push({ path: `/${slug}/players/${p.id}`, lastmod: statsDate })
           count++
         }
         for (const g of games) {
           out(`${slug}/games/${g.id}`, teamPage(gameHead(t, g), gameSnapshot(t, g, previews, updatedAt)))
+          if (g.home && sitemapGame(g, now)) sitemap.push({ path: `/${slug}/games/${g.id}`, lastmod: g.status === 'final' ? g.startUtc : undefined })
           count++
         }
       }
       // Unknown addresses: the app shell, which says the page wasn't found.
       writeFileSync(join(DIST, '404.html'), html.replace('<meta charset="UTF-8" />', '<meta charset="UTF-8" />\n    <meta name="robots" content="noindex" />'))
-      console.log(`team-pages: ${count} player and game pages`)
+      writeFileSync(join(DIST, 'sitemap.xml'), sitemapXml(sitemap))
+      writeFileSync(join(DIST, 'robots.txt'), robotsTxt())
+      writeFileSync(join(DIST, SHARE_IMAGE.path), new Resvg(shareImageSvg(BRAND_DOT)).render().asPng())
+      console.log(`team-pages: ${count} player and game pages; ${sitemap.length} in the sitemap`)
       serviceWorker()
     },
   }

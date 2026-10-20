@@ -25,3 +25,16 @@ export const iconSvg = (dot: string, { fullBleed = false } = {}) =>
   `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 224 224"><rect width="224" height="224"${fullBleed ? '' : ' rx="48"'} fill="#101820"/>` +
   `<path d="${GLYPHS.m}" transform="translate(33 158) scale(0.064 -0.064)" fill="#fff"/>` +
   `<circle cx="150.84" cy="146" r="13" fill="${dot}"/></svg>`
+
+/** The picture shown with shared links (1200×630): the wordmark on the icon's dark tile color. */
+export const shareImageSvg = (dot: string) => {
+  const s = 1.2
+  const [w, h] = [751 * s, 122 * s]
+  const [x, y] = [(1200 - w) / 2 - 25 * s, (630 - h) / 2 - 28 * s]
+  return (
+    `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630"><rect width="1200" height="630" fill="#101820"/>` +
+    `<g transform="translate(${x} ${y}) scale(${s})"><g fill="#fff">` +
+    LETTERS.map(([c, lx]) => `<path d="${GLYPHS[c]}" transform="translate(${lx} 123) scale(0.064 -0.064)"/>`).join('') +
+    `</g><circle cx="506.624" cy="111" r="9.5" fill="${dot}"/></g></svg>`
+  )
+}

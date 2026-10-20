@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { gameHead, gamePath, gameSnapshot, headTags, pickerSnapshot, playerHead, rosterSnapshot, sitemapGame, sitemapXml, teamHead } from './seo'
+import { websiteJsonLd, gameHead, gamePath, gameSnapshot, headTags, pickerSnapshot, playerHead, rosterSnapshot, sitemapGame, sitemapXml, teamHead } from './seo'
 import { TEAMS_BY_ABBR } from './teams'
 import type { Game, Player, PlayersFile } from './types'
 
@@ -78,6 +78,22 @@ describe('snapshots', () => {
 
   it("never shows a live score, only that it's in progress", () => {
     expect(gameSnapshot(DEN, game({ status: 'live', score: { team: 50, opponent: 48 } }), undefined, '2026-10-20T04:00:00Z')).not.toContain('50')
+  })
+})
+
+describe('sharing and structured data', () => {
+  it('gives every page sharing tags for its own address', () => {
+    const tags = headTags(teamHead(DEN, '2026-27', []))
+    expect(tags).toContain('<meta property="og:url" content="https://myteam.fans/denver-nuggets" />')
+    expect(tags).toContain('<meta property="og:title" content="Denver Nuggets Schedule &amp; Scores 2026-27" />')
+    expect(tags).toContain('<meta property="og:image" content="https://myteam.fans/share.png" />')
+    expect(tags).not.toContain('ld+json')
+  })
+
+  it('adds the WebSite markup where asked, safe inside a script element', () => {
+    const tags = headTags(teamHead(DEN, '2026-27', []), { jsonLd: { ...websiteJsonLd(), name: '</script>' } })
+    expect(tags).toContain('"@type":"WebSite"')
+    expect(tags).toContain('\\u003c/script>')
   })
 })
 
