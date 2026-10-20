@@ -2480,6 +2480,10 @@ main {
   opacity: 0.85;
 }
 
+.sb-inj-label {
+  white-space: nowrap;
+}
+
 .game-updated {
   min-height: 1.4em;
   margin: 8px 0 18px;

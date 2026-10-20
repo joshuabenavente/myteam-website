@@ -148,3 +148,20 @@ If a recommendation conflicts with the existing architecture, requires an unappr
 Implement changes in small, verifiable groups. Run available checks and inspect affected pages before proceeding.
 
 At completion, report each task's implementation status, files changed, tests performed, and any outstanding concerns.
+
+## 13. Status updates
+
+- **VIS-002 — done (option B), owner-approved October 2026.** A comparison on identical dense injury
+  lists (Lakers–Warriors and Nuggets–Thunder; 320, 350, 390 px and desktop; light and dark) found
+  "Day-to-day" breaking at its hyphen across lines in 5 of 13 entries at 320–350 px and 1 at 390 px.
+  The fix keeps the status word on one line (`sb-inj-label` in `src/components/GamePage.tsx` and
+  `src/App.css`). It removed every split at a cost of 16 px card height at 320–350 px and none at
+  390 px or desktop; both teams stay side by side at the same text size with every entry. The
+  stacked-status candidate also fixed the splits but cost 62 px at 320 px, so it wasn't used.
+- **VIS-001 — waiting on human review.** The study protocol and today's measurements are in
+  [HUMAN_REVIEW.md](HUMAN_REVIEW.md).
+- **VIS-003 — closed.** No player-comparison use case is planned.
+- **New, to be looked into separately:** on matchup cards where one team color is dark and the
+  other light (e.g. Lakers purple and gold), the dark team's light text can run into the color
+  blend in the middle of the card, where contrast drops. Not yet assessed or approved.
+

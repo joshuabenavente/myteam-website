@@ -274,7 +274,8 @@ function Injuries({ side, team, list }: { side: 'left' | 'right'; team: string; 
           <li key={i.name}>
             <span className="sb-inj-name">{i.name}</span>{' '}
             <span className="sb-inj-status">
-              {availabilityLabel(i)}
+              {/* "Day-to-day" never breaks at its hyphen on narrow phones (VIS-002). */}
+              <span className="sb-inj-label">{availabilityLabel(i)}</span>
               {i.detail && ` · ${i.detail}`}
             </span>
           </li>
