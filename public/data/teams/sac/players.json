@@ -1,7 +1,7 @@
 {
  "season": "2026-27",
  "lastSeason": "2025-26",
- "updatedAt": "2026-10-20T03:17:35.253Z",
+ "updatedAt": "2026-10-20T09:17:39.189Z",
  "teamGamesPlayed": {
   "regular": 0,
   "playoffs": 0
@@ -465,91 +465,6 @@
    "lastToDate": {}
   },
   {
-   "id": "newtotr01",
-   "name": "Tristen Newton",
-   "position": "G",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 5\"",
-    "weight": 202,
-    "birthDate": "2001-04-26",
-    "experience": 2,
-    "college": "East Carolina University, UConn"
-   },
-   "current": {},
-   "lastFull": {
-    "regular": {
-     "games": 1,
-     "started": 0,
-     "minutes": 12,
-     "points": 12,
-     "rebounds": 3,
-     "assists": 0,
-     "steals": 1,
-     "blocks": 0,
-     "turnovers": 0,
-     "fgMade": 4,
-     "fgAttempted": 9,
-     "threeMade": 2,
-     "threeAttempted": 5,
-     "ftMade": 2,
-     "ftAttempted": 3
-    }
-   },
-   "lastToDate": {}
-  },
-  {
-   "id": "acuffda01",
-   "name": "Darius Acuff Jr.",
-   "position": "G",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 2\"",
-    "weight": 186,
-    "birthDate": "2006-11-16",
-    "experience": 0,
-    "college": "Arkansas",
-    "birthPlace": "Detroit, MI"
-   },
-   "number": "5",
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5142620.png",
-   "current": {},
-   "lastFull": {},
-   "lastToDate": {}
-  },
-  {
-   "id": "lakhivi01",
-   "name": "Viktor Lakhin",
-   "position": "F",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 11\"",
-    "weight": 247,
-    "birthDate": "2001-07-30",
-    "experience": 0,
-    "college": "Cincinnati, Clemson"
-   },
-   "current": {},
-   "lastFull": {},
-   "lastToDate": {}
-  },
-  {
-   "id": "paytoel01",
-   "name": "Elfrid Payton",
-   "position": "G",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 3\"",
-    "weight": 195,
-    "birthDate": "1994-02-22",
-    "experience": 9,
-    "college": "Louisiana"
-   },
-   "current": {},
-   "lastFull": {},
-   "lastToDate": {}
-  },
-  {
    "id": "simmobe01",
    "name": "Ben Simmons",
    "position": "G-F",
@@ -618,6 +533,25 @@
    },
    "number": "33",
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4917149.png",
+   "current": {},
+   "lastFull": {},
+   "lastToDate": {}
+  },
+  {
+   "id": "acuffda01",
+   "name": "Darius Acuff Jr.",
+   "position": "G",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 2\"",
+    "weight": 186,
+    "birthDate": "2006-11-16",
+    "experience": 0,
+    "college": "Arkansas",
+    "birthPlace": "Detroit, MI"
+   },
+   "number": "5",
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5142620.png",
    "current": {},
    "lastFull": {},
    "lastToDate": {}

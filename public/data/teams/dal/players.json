@@ -1,7 +1,7 @@
 {
  "season": "2026-27",
  "lastSeason": "2025-26",
- "updatedAt": "2026-10-20T03:17:38.849Z",
+ "updatedAt": "2026-10-20T09:17:42.967Z",
  "teamGamesPlayed": {
   "regular": 0,
   "playoffs": 0
@@ -498,40 +498,6 @@
    "lastToDate": {}
   },
   {
-   "id": "poulajo01",
-   "name": "John Poulakidas",
-   "position": "G",
-   "twoWay": true,
-   "bio": {
-    "height": "6' 6\"",
-    "weight": 205,
-    "birthDate": "2003-04-04",
-    "experience": 1,
-    "college": "Yale"
-   },
-   "current": {},
-   "lastFull": {
-    "regular": {
-     "games": 13,
-     "started": 0,
-     "minutes": 253.3,
-     "points": 115,
-     "rebounds": 30,
-     "assists": 11,
-     "steals": 7,
-     "blocks": 4,
-     "turnovers": 4,
-     "fgMade": 39,
-     "fgAttempted": 91,
-     "threeMade": 31,
-     "threeAttempted": 77,
-     "ftMade": 6,
-     "ftAttempted": 7
-    }
-   },
-   "lastToDate": {}
-  },
-  {
    "id": "livelde01",
    "name": "Dereck Lively II",
    "position": "C",
@@ -566,22 +532,6 @@
      "ftAttempted": 10
     }
    },
-   "lastToDate": {}
-  },
-  {
-   "id": "lundyse01",
-   "name": "Seth Lundy",
-   "position": "G-F",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 4\"",
-    "weight": 220,
-    "birthDate": "2000-04-02",
-    "experience": 1,
-    "college": "Penn State"
-   },
-   "current": {},
-   "lastFull": {},
    "lastToDate": {}
   },
   {
