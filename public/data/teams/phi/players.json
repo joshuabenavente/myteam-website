@@ -1,7 +1,7 @@
 {
  "season": "2026-27",
  "lastSeason": "2025-26",
- "updatedAt": "2026-10-20T04:17:53.824Z",
+ "updatedAt": "2026-10-20T10:17:51.246Z",
  "teamGamesPlayed": {
   "regular": 0,
   "playoffs": 0
@@ -744,75 +744,6 @@
    "lastToDate": {}
   },
   {
-   "id": "jonesdi01",
-   "name": "Dillon Jones",
-   "position": "F",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 5\"",
-    "weight": 235,
-    "birthDate": "2001-10-29",
-    "experience": 2,
-    "college": "Weber State"
-   },
-   "current": {},
-   "lastFull": {
-    "regular": {
-     "games": 7,
-     "started": 0,
-     "minutes": 39.5,
-     "points": 9,
-     "rebounds": 7,
-     "assists": 4,
-     "steals": 3,
-     "blocks": 0,
-     "turnovers": 0,
-     "fgMade": 2,
-     "fgAttempted": 9,
-     "threeMade": 1,
-     "threeAttempted": 5,
-     "ftMade": 4,
-     "ftAttempted": 4
-    }
-   },
-   "lastToDate": {}
-  },
-  {
-   "id": "fallta01",
-   "name": "Tacko Fall",
-   "position": "C",
-   "twoWay": false,
-   "bio": {
-    "height": "7' 6\"",
-    "weight": 299,
-    "birthDate": "1995-12-10",
-    "experience": 3,
-    "college": "UCF",
-    "birthPlace": "Dakar, Senegal"
-   },
-   "number": "99",
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3904625.png",
-   "current": {},
-   "lastFull": {},
-   "lastToDate": {}
-  },
-  {
-   "id": "nelsoja02",
-   "name": "Jameer Nelson Jr.",
-   "position": "G",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 1\"",
-    "weight": 190,
-    "birthDate": "2001-08-07",
-    "experience": 0,
-    "college": "George Washington, University of Delaware, TCU"
-   },
-   "current": {},
-   "lastFull": {},
-   "lastToDate": {}
-  },
-  {
    "id": "philola01",
    "name": "Labaron Philon Jr.",
    "position": "G",
@@ -827,6 +758,25 @@
    },
    "number": "00",
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4873090.png",
+   "current": {},
+   "lastFull": {},
+   "lastToDate": {}
+  },
+  {
+   "id": "fallta01",
+   "name": "Tacko Fall",
+   "position": "C",
+   "twoWay": true,
+   "bio": {
+    "height": "7' 6\"",
+    "weight": 299,
+    "birthDate": "1995-12-10",
+    "experience": 3,
+    "college": "UCF",
+    "birthPlace": "Dakar, Senegal"
+   },
+   "number": "99",
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3904625.png",
    "current": {},
    "lastFull": {},
    "lastToDate": {}

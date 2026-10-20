@@ -1,7 +1,7 @@
 {
  "season": "2026-27",
  "lastSeason": "2025-26",
- "updatedAt": "2026-10-20T04:17:41.891Z",
+ "updatedAt": "2026-10-20T10:17:39.252Z",
  "teamGamesPlayed": {
   "regular": 0,
   "playoffs": 0
@@ -603,7 +603,7 @@
    "id": "cartede02",
    "name": "Devin Carter",
    "position": "G",
-   "twoWay": false,
+   "twoWay": true,
    "bio": {
     "height": "6' 2\"",
     "weight": 188,
@@ -799,56 +799,6 @@
    "lastToDate": {}
   },
   {
-   "id": "grayha01",
-   "name": "Hayden Gray",
-   "position": "G",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 4\"",
-    "weight": 190,
-    "birthDate": "2003-05-11",
-    "experience": 1,
-    "college": "UC San Diego"
-   },
-   "current": {},
-   "lastFull": {
-    "regular": {
-     "games": 1,
-     "started": 0,
-     "minutes": 24.8,
-     "points": 6,
-     "rebounds": 0,
-     "assists": 1,
-     "steals": 1,
-     "blocks": 1,
-     "turnovers": 1,
-     "fgMade": 2,
-     "fgAttempted": 3,
-     "threeMade": 0,
-     "threeAttempted": 1,
-     "ftMade": 2,
-     "ftAttempted": 2
-    }
-   },
-   "lastToDate": {}
-  },
-  {
-   "id": "mcgloga01",
-   "name": "Gabe McGlothan",
-   "position": "F",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 6\"",
-    "weight": 235,
-    "birthDate": "1999-03-03",
-    "experience": 0,
-    "college": "SE Missouri State, Grand Canyon University"
-   },
-   "current": {},
-   "lastFull": {},
-   "lastToDate": {}
-  },
-  {
    "id": "mitchdi01",
    "name": "Dillon Mitchell",
    "position": "F",
@@ -863,38 +813,6 @@
    },
    "number": "20",
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5106283.png",
-   "current": {},
-   "lastFull": {},
-   "lastToDate": {}
-  },
-  {
-   "id": "devritu01",
-   "name": "Tucker DeVries",
-   "position": "G-F",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 7\"",
-    "weight": 225,
-    "birthDate": "2002-12-07",
-    "experience": 0,
-    "college": "Drake University, West Virginia, Indiana"
-   },
-   "current": {},
-   "lastFull": {},
-   "lastToDate": {}
-  },
-  {
-   "id": "uzanmi01",
-   "name": "Milos Uzan",
-   "position": "G",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 4\"",
-    "weight": 185,
-    "birthDate": "2002-12-26",
-    "experience": 0,
-    "college": "Oklahoma, Houston"
-   },
    "current": {},
    "lastFull": {},
    "lastToDate": {}

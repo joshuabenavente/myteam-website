@@ -1,7 +1,7 @@
 {
  "season": "2026-27",
  "lastSeason": "2025-26",
- "updatedAt": "2026-10-20T04:17:49.939Z",
+ "updatedAt": "2026-10-20T10:17:47.192Z",
  "teamGamesPlayed": {
   "regular": 0,
   "playoffs": 0
@@ -219,57 +219,6 @@
      "threeAttempted": 90,
      "ftMade": 76,
      "ftAttempted": 89
-    }
-   },
-   "lastToDate": {}
-  },
-  {
-   "id": "brownbr01",
-   "name": "Bruce Brown",
-   "position": "G-F",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 4\"",
-    "weight": 202,
-    "birthDate": "1996-08-15",
-    "experience": 8,
-    "college": "Miami (FL)"
-   },
-   "current": {},
-   "lastFull": {
-    "regular": {
-     "games": 82,
-     "started": 4,
-     "minutes": 1998.2,
-     "points": 649,
-     "rebounds": 318,
-     "assists": 174,
-     "steals": 85,
-     "blocks": 20,
-     "turnovers": 91,
-     "fgMade": 248,
-     "fgAttempted": 522,
-     "threeMade": 57,
-     "threeAttempted": 148,
-     "ftMade": 96,
-     "ftAttempted": 126
-    },
-    "playoffs": {
-     "games": 6,
-     "started": 0,
-     "minutes": 116.2,
-     "points": 38,
-     "rebounds": 16,
-     "assists": 10,
-     "steals": 10,
-     "blocks": 0,
-     "turnovers": 9,
-     "fgMade": 15,
-     "fgAttempted": 34,
-     "threeMade": 3,
-     "threeAttempted": 11,
-     "ftMade": 5,
-     "ftAttempted": 9
     }
    },
    "lastToDate": {}

@@ -1,7 +1,7 @@
 {
  "season": "2026-27",
  "lastSeason": "2025-26",
- "updatedAt": "2026-10-20T04:17:38.017Z",
+ "updatedAt": "2026-10-20T10:17:35.384Z",
  "teamGamesPlayed": {
   "regular": 0,
   "playoffs": 0
@@ -692,41 +692,6 @@
    "lastToDate": {}
   },
   {
-   "id": "quainja01",
-   "name": "Jayden Quaintance",
-   "position": "F",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 10\"",
-    "weight": 255,
-    "birthDate": "2007-07-11",
-    "experience": 0,
-    "college": "Kentucky",
-    "birthPlace": "Cleveland, OH"
-   },
-   "number": "22",
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5101845.png",
-   "current": {},
-   "lastFull": {},
-   "lastToDate": {}
-  },
-  {
-   "id": "brownke03",
-   "name": "Kendall Brown",
-   "position": "G-F",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 6\"",
-    "weight": 205,
-    "birthDate": "2003-05-11",
-    "experience": 2,
-    "college": "Baylor"
-   },
-   "current": {},
-   "lastFull": {},
-   "lastToDate": {}
-  },
-  {
    "id": "brownma05",
    "name": "Maliq Brown",
    "position": "F",
@@ -779,6 +744,25 @@
    },
    "number": "10",
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5105809.png",
+   "current": {},
+   "lastFull": {},
+   "lastToDate": {}
+  },
+  {
+   "id": "quainja01",
+   "name": "Jayden Quaintance",
+   "position": "F",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 10\"",
+    "weight": 255,
+    "birthDate": "2007-07-11",
+    "experience": 0,
+    "college": "Kentucky",
+    "birthPlace": "Cleveland, OH"
+   },
+   "number": "22",
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5101845.png",
    "current": {},
    "lastFull": {},
    "lastToDate": {}
