@@ -22,6 +22,7 @@ import { useTeam } from '../lib/team.ts'
 import { useGameSummary } from '../lib/useGameSummary.ts'
 import { Broadcasts, GameDetails } from './GameRow.tsx'
 import { Icon } from './Icon.tsx'
+import { InjuryChip } from './InjuryChip.tsx'
 import { LiveAnnouncer } from './LivePill.tsx'
 import { TeamLogo } from './TeamLogo.tsx'
 
@@ -59,6 +60,9 @@ function BackLink() {
   )
 }
 
+/** The injury panel's color, for choosing a dot that shows on it (see .sb-injuries in App.css). */
+const PANEL = '#0f1626'
+
 function GameView({ team, game, data, timeZone }: { team: string; game?: Game; data: AppData; timeZone: string }) {
   const status = useGameSummary(team, game?.startUtc)
   const s = status.summary
@@ -87,6 +91,8 @@ function GameView({ team, game, data, timeZone }: { team: string; game?: Game; d
     '--right-text': rc.text,
   } as CSSProperties
   const oppTeam = TEAMS_BY_ABBR[opponent]
+
+  const rosterIds = new Map(data.players.players.map((p) => [nameKey(p.name), p.id]))
 
   // Before ESPN answers (or if it can't), fall back to the schedule's injury report.
   const injuriesFor = (abbr: string, side?: TeamSide): InjuryListing[] =>
@@ -139,8 +145,8 @@ function GameView({ team, game, data, timeZone }: { team: string; game?: Game; d
           light={rc.text !== '#ffffff'}
           started={started}
         />
-        <Injuries side="left" team={TEAMS_BY_ABBR[team]?.name ?? team} list={injuriesFor(team, left)} />
-        <Injuries side="right" team={oppTeam?.name ?? opponent} list={injuriesFor(opponent, right)} />
+        <Injuries side="left" abbr={team} team={TEAMS_BY_ABBR[team]?.name ?? team} list={injuriesFor(team, left)} rosterIds={rosterIds} />
+        <Injuries side="right" abbr={opponent} team={oppTeam?.name ?? opponent} list={injuriesFor(opponent, right)} />
       </section>
 
       {injuryNote && <p className="injury-updated muted small">{injuryNote}</p>}
@@ -283,21 +289,16 @@ function LineScore({ left, right }: { left: TeamSide; right: TeamSide }) {
   )
 }
 
-function Injuries({ side, team, list }: { side: 'left' | 'right'; team: string; list: InjuryListing[] }) {
+/** Pills like the team page's, on the dark panel; the followed team's link to the player's page. */
+function Injuries(props: { side: 'left' | 'right'; abbr: string; team: string; list: InjuryListing[]; rosterIds?: Map<string, string> }) {
+  const { side, abbr, team, list, rosterIds } = props
   if (list.length === 0) return <div className={`sb-injuries ${side} empty`} />
   return (
     <div className={`sb-injuries ${side}`}>
       <h2>{team} injury report</h2>
-      <ul>
+      <ul className="hero-chips" aria-label={`${team} injury report`}>
         {list.map((i) => (
-          <li key={i.name}>
-            <span className="sb-inj-name">{i.name}</span>{' '}
-            <span className="sb-inj-status">
-              {/* "Day-to-day" never breaks at its hyphen on narrow phones (VIS-002). */}
-              <span className="sb-inj-label">{availabilityLabel(i)}</span>
-              {i.detail && ` · ${i.detail}`}
-            </span>
-          </li>
+          <InjuryChip key={i.name} abbr={abbr} background={PANEL} name={i.name} status={i.status} detail={i.detail} playerId={rosterIds?.get(nameKey(i.name))} />
         ))}
       </ul>
     </div>

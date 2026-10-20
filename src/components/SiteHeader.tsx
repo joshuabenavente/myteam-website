@@ -1,17 +1,17 @@
-import { useRef, useState, type CSSProperties } from 'react'
+import { useRef, useState } from 'react'
 import type { AppData } from '../lib/data.ts'
 import { formatGameDate, formatGameTime, timeZoneAbbr } from '../lib/format.ts'
 import { nextGames } from '../lib/availability.ts'
-import { chipStatus, countdownLabel, daysUntil, headlineChannel, headlineGame, lastResult, listedFor, shortName } from '../lib/hero.ts'
+import { countdownLabel, daysUntil, headlineChannel, headlineGame, lastResult, listedFor } from '../lib/hero.ts'
 import { liveFor, useLive } from '../lib/live.ts'
 import { nameKey } from '../lib/names.ts'
 import { routeHref, type Route } from '../lib/route.ts'
 import { seasonForDate } from '../lib/season.ts'
 import { useTeam } from '../lib/team.ts'
-import { dotColor, teamTheme } from '../lib/teamColors.ts'
+import { teamTheme } from '../lib/teamColors.ts'
 import { TEAMS_BY_ABBR } from '../lib/teams.ts'
-import type { Absence } from '../lib/types.ts'
 import { BrandIcon, Wordmark } from './Brand.tsx'
+import { InjuryChip } from './InjuryChip.tsx'
 import { Icon } from './Icon.tsx'
 import { LiveAnnouncer, LivePill } from './LivePill.tsx'
 import { MiniBar } from './MiniBar.tsx'
@@ -133,10 +133,10 @@ function NextGame({ data, timeZone, onShowGame }: { data: AppData; timeZone: str
   const injuryChips = (
     <>
             {ours.slice(0, CHIPS_PER_TEAM).map((a) => (
-              <InjuryChip key={a.name} abbr={team.abbr} followed={team.abbr} absence={a} playerId={rosterIds.get(nameKey(a.name))} />
+              <InjuryChip key={a.name} abbr={team.abbr} background={teamTheme(team.abbr).dark} name={a.name} status={a.status} playerId={rosterIds.get(nameKey(a.name))} />
             ))}
             {theirs.slice(0, CHIPS_PER_TEAM).map((a) => (
-              <InjuryChip key={a.name} abbr={game.opponent} followed={team.abbr} absence={a} />
+              <InjuryChip key={a.name} abbr={game.opponent} background={teamTheme(team.abbr).dark} name={a.name} status={a.status} />
             ))}
             {hidden > 0 && (
               <li>
@@ -232,35 +232,6 @@ function NextGame({ data, timeZone, onShowGame }: { data: AppData; timeZone: str
         </div>
       )}
     </section>
-  )
-}
-
-function InjuryChip(props: { abbr: string; followed: string; absence: Absence; playerId?: string }) {
-  const { abbr, followed, absence, playerId } = props
-  // A neutral chip with a dot in the team's color, so no team's colors sit on another's header.
-  // The same rule as the logo's dot: a team color that shows on this header.
-  const dot = dotColor(abbr, teamTheme(followed).dark)
-  const team = TEAMS_BY_ABBR[abbr]
-  const text = (
-    <>
-      <span className="chip-dot" aria-hidden="true" />
-      <span className="sr-only">{team.name}: </span>
-      {shortName(absence.name)} {chipStatus(absence)}
-    </>
-  )
-  return (
-    <li
-      className="hero-chip team"
-      style={{ '--chip-fill': dot } as CSSProperties}
-    >
-      {playerId ? (
-        <a className="hero-chip-link" href={routeHref({ page: 'player', id: playerId })}>
-          {text}
-        </a>
-      ) : (
-        text
-      )}
-    </li>
   )
 }
 

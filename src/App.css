@@ -11,6 +11,16 @@
   box-shadow: 0 10px 30px rgb(8 16 32 / 18%);
 }
 
+/* Team and game pages: one soft highlight from the top-left, falling off to the team's dark.
+   (The team picker keeps its accent glow.) The sticky bar and footer match. */
+.site-header:not(.picker-header),
+.mini-bar,
+.site-footer {
+  background:
+    radial-gradient(120% 75% at 18% -12%, color-mix(in srgb, var(--skyline) 78%, #fff 6%) 0%, transparent 62%),
+    linear-gradient(180deg, color-mix(in srgb, var(--midnight) 62%, var(--skyline)) 0%, var(--midnight) 100%);
+}
+
 .header-inner {
   position: relative;
   z-index: 1;
@@ -321,6 +331,10 @@ button.hero-chip:hover {
 @media (max-width: 760px) {
   .site-header {
     border-radius: 0 0 28px 28px;
+  }
+
+  /* The team picker's phone version of its glow (other pages: see .site-header:not(.picker-header)). */
+  .site-header.picker-header {
     background:
       radial-gradient(200px circle at 85% 22%, color-mix(in srgb, var(--sunshine) 26%, transparent), transparent),
       linear-gradient(165deg, var(--midnight) 0%, color-mix(in srgb, var(--midnight) 45%, var(--skyline)) 58%, var(--skyline) 100%);
@@ -2474,28 +2488,33 @@ main {
   opacity: 0.85;
 }
 
-.sb-injuries ul {
+.sb-injuries .hero-chips {
+  gap: 6px;
   margin: 0;
-  padding: 0;
-  list-style: none;
-  font-size: 0.85rem;
-  line-height: 1.35;
 }
 
-.sb-injuries li + li {
-  margin-top: 4px;
+/* The team page's pills, a little smaller for the half-width panels; a long name wraps. */
+.sb-injuries .hero-chip {
+  min-height: 30px;
+  padding: 4px 10px 4px 9px;
+  border-radius: 16px;
+  font-size: 0.8125rem;
+  line-height: 1.25;
+  white-space: normal;
 }
 
-.sb-inj-name {
-  font-weight: var(--w-strong);
+.chip-text {
+  min-width: 0;
 }
 
-.sb-inj-status {
-  opacity: 0.85;
-}
-
-.sb-inj-label {
+/* "day-to-day" never breaks at its hyphens on narrow phones (VIS-002). */
+.chip-status {
   white-space: nowrap;
+}
+
+.sb-injuries .chip-dot {
+  width: 10px;
+  height: 10px;
 }
 
 .injury-updated {
@@ -2752,10 +2771,6 @@ main {
 
   .sb-injuries.right {
     text-align: left;
-  }
-
-  .sb-injuries ul {
-    font-size: 0.78rem;
   }
 
   .box-switch {
