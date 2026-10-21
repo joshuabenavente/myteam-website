@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-21T14:17:52.304Z",
+ "updatedAt": "2026-10-21T15:17:56.005Z",
  "teams": {
   "ATL": [
    {
@@ -195,7 +195,7 @@
   "DET": [
    {
     "name": "Taurean Prince",
-    "status": "Out",
+    "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Personal",
     "returnDate": "2026-10-23"
@@ -458,17 +458,17 @@
     "returnDate": "2026-11-02"
    },
    {
-    "name": "Tacko Fall",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Hip",
-    "returnDate": "2026-10-22"
-   },
-   {
     "name": "Dean Wade",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Ankle (sprain)",
+    "returnDate": "2026-10-22"
+   },
+   {
+    "name": "Tacko Fall",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Hip",
     "returnDate": "2026-10-22"
    }
   ],
@@ -565,7 +565,7 @@
    },
    {
     "name": "Tobias Harris",
-    "status": "Out",
+    "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Calf (strain)",
     "returnDate": "2026-10-23"
