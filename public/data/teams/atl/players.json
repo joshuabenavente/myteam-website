@@ -1,7 +1,7 @@
 {
  "season": "2026-27",
  "lastSeason": "2025-26",
- "updatedAt": "2026-10-21T06:17:37.813Z",
+ "updatedAt": "2026-10-21T12:17:41.820Z",
  "teamGamesPlayed": {
   "regular": 0,
   "playoffs": 0
@@ -10,7 +10,7 @@
   {
    "id": "alexani01",
    "name": "Nickeil Alexander-Walker",
-   "position": "G",
+   "position": "SG",
    "twoWay": false,
    "bio": {
     "height": "6' 5\"",
@@ -64,7 +64,7 @@
   {
    "id": "johnsja05",
    "name": "Jalen Johnson",
-   "position": "F",
+   "position": "SF",
    "twoWay": false,
    "bio": {
     "height": "6' 8\"",
@@ -118,7 +118,7 @@
   {
    "id": "daniedy01",
    "name": "Dyson Daniels",
-   "position": "G",
+   "position": "SG",
    "twoWay": false,
    "bio": {
     "height": "6' 7\"",
@@ -171,7 +171,7 @@
   {
    "id": "okongon01",
    "name": "Onyeka Okongwu",
-   "position": "C-F",
+   "position": "C",
    "twoWay": false,
    "bio": {
     "height": "6' 10\"",
@@ -225,7 +225,7 @@
   {
    "id": "mccolcj01",
    "name": "CJ McCollum",
-   "position": "G",
+   "position": "PG",
    "twoWay": false,
    "bio": {
     "height": "6' 3\"",
@@ -279,7 +279,7 @@
   {
    "id": "dortlu01",
    "name": "Luguentz Dort",
-   "position": "G",
+   "position": "SF",
    "twoWay": false,
    "bio": {
     "height": "6' 4\"",
@@ -370,7 +370,7 @@
   {
    "id": "wiggiaa01",
    "name": "Aaron Wiggins",
-   "position": "G",
+   "position": "SG",
    "twoWay": false,
    "bio": {
     "height": "6' 5\"",
@@ -424,7 +424,7 @@
   {
    "id": "gueyemo02",
    "name": "Mouhamed Gueye",
-   "position": "F",
+   "position": "PF",
    "twoWay": false,
    "bio": {
     "height": "6' 11\"",
@@ -478,7 +478,7 @@
   {
    "id": "kispeco01",
    "name": "Corey Kispert",
-   "position": "G-F",
+   "position": "SF",
    "twoWay": false,
    "bio": {
     "height": "6' 6\"",
@@ -532,7 +532,7 @@
   {
    "id": "wilsoja03",
    "name": "Jalen Wilson",
-   "position": "F",
+   "position": "PF",
    "twoWay": true,
    "bio": {
     "height": "6' 6\"",
@@ -569,7 +569,7 @@
   {
    "id": "finnedo01",
    "name": "Dorian Finney-Smith",
-   "position": "F",
+   "position": "PF",
    "twoWay": false,
    "bio": {
     "height": "6' 7\"",
@@ -623,7 +623,7 @@
   {
    "id": "newelas01",
    "name": "Asa Newell",
-   "position": "F",
+   "position": "PF",
    "twoWay": false,
    "bio": {
     "height": "6' 11\"",
@@ -677,7 +677,7 @@
   {
    "id": "dennira01",
    "name": "RayJ Dennis",
-   "position": "G",
+   "position": "PG",
    "twoWay": true,
    "bio": {
     "height": "6' 2\"",
@@ -714,7 +714,7 @@
   {
    "id": "gilbeke01",
    "name": "Keshon Gilbert",
-   "position": "G",
+   "position": "SG",
    "twoWay": true,
    "bio": {
     "height": "6' 4\"",
@@ -751,7 +751,7 @@
   {
    "id": "ejiofzu01",
    "name": "Zuby Ejiofor",
-   "position": "F",
+   "position": "PF",
    "twoWay": false,
    "bio": {
     "height": "6' 8\"",
@@ -789,7 +789,7 @@
   {
    "id": "flemiki01",
    "name": "Kingston Flemings",
-   "position": "G",
+   "position": "PG",
    "twoWay": false,
    "bio": {
     "height": "6' 3\"",

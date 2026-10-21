@@ -1,7 +1,7 @@
 {
  "season": "2026-27",
  "lastSeason": "2025-26",
- "updatedAt": "2026-10-21T06:17:33.929Z",
+ "updatedAt": "2026-10-21T12:17:37.948Z",
  "teamGamesPlayed": {
   "regular": 0,
   "playoffs": 0
@@ -10,7 +10,7 @@
   {
    "id": "rolliry01",
    "name": "Ryan Rollins",
-   "position": "G",
+   "position": "PG",
    "twoWay": false,
    "bio": {
     "height": "6' 3\"",
@@ -47,7 +47,7 @@
   {
    "id": "greenaj01",
    "name": "A.J. Green",
-   "position": "G",
+   "position": "SG",
    "twoWay": false,
    "bio": {
     "height": "6' 4\"",
@@ -84,7 +84,7 @@
   {
    "id": "jaqueja01",
    "name": "Jaime Jaquez Jr.",
-   "position": "G-F",
+   "position": "SF",
    "twoWay": false,
    "bio": {
     "height": "6' 6\"",
@@ -121,7 +121,7 @@
   {
    "id": "turnemy01",
    "name": "Myles Turner",
-   "position": "C-F",
+   "position": "C",
    "twoWay": false,
    "bio": {
     "height": "6' 11\"",
@@ -158,7 +158,7 @@
   {
    "id": "kuzmaky01",
    "name": "Kyle Kuzma",
-   "position": "F",
+   "position": "PF",
    "twoWay": false,
    "bio": {
     "height": "6' 8\"",
@@ -232,7 +232,7 @@
   {
    "id": "trentga02",
    "name": "Gary Trent Jr.",
-   "position": "G",
+   "position": "SG",
    "twoWay": false,
    "bio": {
     "height": "6' 5\"",
@@ -269,7 +269,7 @@
   {
    "id": "simsje01",
    "name": "Jericho Sims",
-   "position": "F-C",
+   "position": "C",
    "twoWay": false,
    "bio": {
     "height": "6' 10\"",
@@ -304,43 +304,9 @@
    "lastToDate": {}
   },
   {
-   "id": "porteke02",
-   "name": "Kevin Porter Jr.",
-   "position": "G",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 5\"",
-    "weight": 203,
-    "birthDate": "2000-05-04",
-    "experience": 6,
-    "college": "USC"
-   },
-   "current": {},
-   "lastFull": {
-    "regular": {
-     "games": 38,
-     "started": 36,
-     "minutes": 1261.3,
-     "points": 661,
-     "rebounds": 198,
-     "assists": 280,
-     "steals": 83,
-     "blocks": 19,
-     "turnovers": 110,
-     "fgMade": 239,
-     "fgAttempted": 514,
-     "threeMade": 46,
-     "threeAttempted": 143,
-     "ftMade": 137,
-     "ftAttempted": 156
-    }
-   },
-   "lastToDate": {}
-  },
-  {
    "id": "leverca01",
    "name": "Caris LeVert",
-   "position": "G-F",
+   "position": "SG",
    "twoWay": false,
    "bio": {
     "height": "6' 7\"",
@@ -394,7 +360,7 @@
   {
    "id": "diengou01",
    "name": "Ousmane Dieng",
-   "position": "F",
+   "position": "C",
    "twoWay": false,
    "bio": {
     "height": "6' 9\"",
@@ -430,7 +396,7 @@
   {
    "id": "herroty01",
    "name": "Tyler Herro",
-   "position": "G",
+   "position": "SG",
    "twoWay": false,
    "bio": {
     "height": "6' 5\"",
@@ -467,7 +433,7 @@
   {
    "id": "jakucka01",
    "name": "Kasparas Jakučionis",
-   "position": "G",
+   "position": "SG",
    "twoWay": false,
    "bio": {
     "height": "6' 5\"",
@@ -504,7 +470,7 @@
   {
    "id": "joneska03",
    "name": "Kam Jones",
-   "position": "G",
+   "position": "SG",
    "twoWay": true,
    "bio": {
     "height": "6' 4\"",
@@ -541,7 +507,7 @@
   {
    "id": "ryanco01",
    "name": "Cormac Ryan",
-   "position": "G",
+   "position": "SG",
    "twoWay": true,
    "bio": {
     "height": "6' 5\"",
@@ -578,7 +544,7 @@
   {
    "id": "amentna01",
    "name": "Nate Ament",
-   "position": "F",
+   "position": "SF",
    "twoWay": false,
    "bio": {
     "height": "6' 10\"",
@@ -597,7 +563,7 @@
   {
    "id": "burribr01",
    "name": "Brayden Burries",
-   "position": "G",
+   "position": "SG",
    "twoWay": false,
    "bio": {
     "height": "6' 4\"",
@@ -616,7 +582,7 @@
   {
    "id": "markobo01",
    "name": "Bogoljub Markovic",
-   "position": "F",
+   "position": "PF",
    "twoWay": false,
    "bio": {
     "height": "6' 11\"",

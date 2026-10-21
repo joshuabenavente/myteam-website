@@ -1,7 +1,7 @@
 {
  "season": "2026-27",
  "lastSeason": "2025-26",
- "updatedAt": "2026-10-21T06:17:45.807Z",
+ "updatedAt": "2026-10-21T12:17:49.784Z",
  "teamGamesPlayed": {
   "regular": 0,
   "playoffs": 0
@@ -10,7 +10,7 @@
   {
    "id": "banede01",
    "name": "Desmond Bane",
-   "position": "G",
+   "position": "SG",
    "twoWay": false,
    "bio": {
     "height": "6' 6\"",
@@ -64,7 +64,7 @@
   {
    "id": "banchpa01",
    "name": "Paolo Banchero",
-   "position": "F",
+   "position": "PF",
    "twoWay": false,
    "bio": {
     "height": "6' 10\"",
@@ -172,7 +172,7 @@
   {
    "id": "blackan01",
    "name": "Anthony Black",
-   "position": "G",
+   "position": "PG",
    "twoWay": false,
    "bio": {
     "height": "6' 7\"",
@@ -226,7 +226,7 @@
   {
    "id": "dasiltr01",
    "name": "Tristan Da Silva",
-   "position": "F",
+   "position": "SF",
    "twoWay": false,
    "bio": {
     "height": "6' 8\"",
@@ -334,7 +334,7 @@
   {
    "id": "suggsja01",
    "name": "Jalen Suggs",
-   "position": "G",
+   "position": "PG",
    "twoWay": false,
    "bio": {
     "height": "6' 5\"",
@@ -388,7 +388,7 @@
   {
    "id": "wagnefr01",
    "name": "Franz Wagner",
-   "position": "G-F",
+   "position": "SF",
    "twoWay": false,
    "bio": {
     "height": "6' 10\"",
@@ -495,7 +495,7 @@
   {
    "id": "carteje01",
    "name": "Jevon Carter",
-   "position": "G",
+   "position": "PG",
    "twoWay": false,
    "bio": {
     "height": "6' 0\"",
@@ -549,7 +549,7 @@
   {
    "id": "pendano01",
    "name": "Noah Penda",
-   "position": "G-F",
+   "position": "SF",
    "twoWay": false,
    "bio": {
     "height": "6' 7\"",
@@ -601,7 +601,7 @@
   {
    "id": "richaja02",
    "name": "Jase Richardson",
-   "position": "G",
+   "position": "SG",
    "twoWay": false,
    "bio": {
     "height": "6' 1\"",
@@ -655,7 +655,7 @@
   {
    "id": "isaacjo01",
    "name": "Jonathan Isaac",
-   "position": "F",
+   "position": "PF",
    "twoWay": false,
    "bio": {
     "height": "6' 10\"",
@@ -692,7 +692,7 @@
   {
    "id": "cainja01",
    "name": "Jamal Cain",
-   "position": "F",
+   "position": "SF",
    "twoWay": false,
    "bio": {
     "height": "6' 7\"",
@@ -746,7 +746,7 @@
   {
    "id": "moralal01",
    "name": "Alex Morales",
-   "position": "G",
+   "position": "PG",
    "twoWay": true,
    "bio": {
     "height": "6' 6\"",
@@ -783,7 +783,7 @@
   {
    "id": "castlco01",
    "name": "Colin Castleton",
-   "position": "F",
+   "position": "C",
    "twoWay": true,
    "bio": {
     "height": "6' 10\"",
@@ -820,7 +820,7 @@
   {
    "id": "nelsoiz01",
    "name": "Izaiyah Nelson",
-   "position": "F",
+   "position": "PF",
    "twoWay": true,
    "bio": {
     "height": "6' 8\"",

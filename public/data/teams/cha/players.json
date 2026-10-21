@@ -1,7 +1,7 @@
 {
  "season": "2026-27",
  "lastSeason": "2025-26",
- "updatedAt": "2026-10-21T06:17:41.847Z",
+ "updatedAt": "2026-10-21T12:17:45.823Z",
  "teamGamesPlayed": {
   "regular": 0,
   "playoffs": 0
@@ -10,7 +10,7 @@
   {
    "id": "knuepko01",
    "name": "Kon Knueppel",
-   "position": "G-F",
+   "position": "SF",
    "twoWay": false,
    "bio": {
     "height": "6' 6\"",
@@ -47,7 +47,7 @@
   {
    "id": "onealro01",
    "name": "Royce O'Neale",
-   "position": "F",
+   "position": "SF",
    "twoWay": false,
    "bio": {
     "height": "6' 6\"",
@@ -101,7 +101,7 @@
   {
    "id": "reidna01",
    "name": "Naz Reid",
-   "position": "F",
+   "position": "C",
    "twoWay": false,
    "bio": {
     "height": "6' 9\"",
@@ -155,7 +155,7 @@
   {
    "id": "millebr02",
    "name": "Brandon Miller",
-   "position": "F-G",
+   "position": "SF",
    "twoWay": false,
    "bio": {
     "height": "6' 7\"",
@@ -192,7 +192,7 @@
   {
    "id": "diabamo01",
    "name": "Moussa Diabaté",
-   "position": "F",
+   "position": "C",
    "twoWay": false,
    "bio": {
     "height": "6' 10\"",
@@ -229,7 +229,7 @@
   {
    "id": "jamessi01",
    "name": "Sion James",
-   "position": "G",
+   "position": "SG",
    "twoWay": false,
    "bio": {
     "height": "6' 5\"",
@@ -266,7 +266,7 @@
   {
    "id": "schrode01",
    "name": "Dennis Schröder",
-   "position": "G",
+   "position": "PG",
    "twoWay": false,
    "bio": {
     "height": "6' 1\"",
@@ -356,7 +356,7 @@
   {
    "id": "allengr01",
    "name": "Grayson Allen",
-   "position": "G",
+   "position": "SG",
    "twoWay": false,
    "bio": {
     "height": "6' 3\"",
@@ -410,7 +410,7 @@
   {
    "id": "whiteco01",
    "name": "Coby White",
-   "position": "G",
+   "position": "SG",
    "twoWay": false,
    "bio": {
     "height": "6' 4\"",
@@ -447,7 +447,7 @@
   {
    "id": "willigr01",
    "name": "Grant Williams",
-   "position": "F",
+   "position": "PF",
    "twoWay": false,
    "bio": {
     "height": "6' 7\"",
@@ -484,7 +484,7 @@
   {
    "id": "salauti01",
    "name": "Tidjane Salaün",
-   "position": "F",
+   "position": "PF",
    "twoWay": false,
    "bio": {
     "height": "6' 10\"",
@@ -519,7 +519,7 @@
   {
    "id": "mcneeli01",
    "name": "Liam McNeeley",
-   "position": "G-F",
+   "position": "SF",
    "twoWay": false,
    "bio": {
     "height": "6' 7\"",
@@ -556,7 +556,7 @@
   {
    "id": "hallpj01",
    "name": "PJ Hall",
-   "position": "F",
+   "position": "C",
    "twoWay": true,
    "bio": {
     "height": "6' 8\"",
@@ -593,7 +593,7 @@
   {
    "id": "steinha02",
    "name": "Hannes Steinbach",
-   "position": "F",
+   "position": "PF",
    "twoWay": false,
    "bio": {
     "height": "6' 10\"",
@@ -612,7 +612,7 @@
   {
    "id": "anderch02",
    "name": "Christian Anderson Jr.",
-   "position": "G",
+   "position": "PG",
    "twoWay": false,
    "bio": {
     "height": "6' 1\"",
@@ -631,7 +631,7 @@
   {
    "id": "ajayimi01",
    "name": "Michael Ajayi",
-   "position": "F",
+   "position": "SF",
    "twoWay": true,
    "bio": {
     "height": "6' 7\"",
@@ -647,7 +647,7 @@
   {
    "id": "bosweky01",
    "name": "Kylan Boswell",
-   "position": "G",
+   "position": "PG",
    "twoWay": true,
    "bio": {
     "height": "6' 1\"",
