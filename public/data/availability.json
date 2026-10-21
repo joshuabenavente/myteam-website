@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-21T20:17:51.706Z",
+ "updatedAt": "2026-10-21T21:17:56.611Z",
  "teams": {
   "ATL": [
    {
@@ -125,18 +125,23 @@
     "returnDate": "2026-11-16"
    },
    {
-    "name": "Khalifa Diop",
+    "name": "Jarrett Allen",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Knee",
     "returnDate": "2026-10-22"
    },
    {
+    "name": "Khalifa Diop",
+    "status": "Day-To-Day",
+    "gameTimeDecision": false,
+    "reason": "Knee",
+    "returnDate": "2026-10-24"
+   },
+   {
     "name": "Sam Merrill",
     "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Elbow (soreness)",
-    "returnDate": "2026-10-22"
+    "gameTimeDecision": false
    }
   ],
   "DAL": [
@@ -458,17 +463,17 @@
     "returnDate": "2026-11-02"
    },
    {
+    "name": "Tacko Fall",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Hip",
+    "returnDate": "2026-10-24"
+   },
+   {
     "name": "Dean Wade",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Ankle (sprain)",
-    "returnDate": "2026-10-22"
-   },
-   {
-    "name": "Tacko Fall",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Hip",
     "returnDate": "2026-10-22"
    }
   ],
