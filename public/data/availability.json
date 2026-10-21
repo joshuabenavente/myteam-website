@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-21T16:22:25.904Z",
+ "updatedAt": "2026-10-21T18:17:51.116Z",
  "teams": {
   "ATL": [
    {
@@ -67,6 +67,13 @@
   ],
   "CHI": [
    {
+    "name": "Jordan Hawkins",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Illness",
+    "returnDate": "2026-10-23"
+   },
+   {
     "name": "Nic Claxton",
     "status": "Out",
     "gameTimeDecision": false,
@@ -76,22 +83,15 @@
    {
     "name": "Dailyn Swain",
     "status": "Day-To-Day",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Illness",
-    "returnDate": "2026-10-21"
+    "returnDate": "2026-10-23"
    },
    {
     "name": "Isaac Okoro",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Knee",
-    "returnDate": "2026-10-21"
-   },
-   {
-    "name": "Jordan Hawkins",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Illness",
     "returnDate": "2026-10-21"
    },
    {
