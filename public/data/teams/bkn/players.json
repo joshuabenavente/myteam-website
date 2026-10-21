@@ -1,7 +1,7 @@
 {
  "season": "2026-27",
  "lastSeason": "2025-26",
- "updatedAt": "2026-10-21T04:18:51.575Z",
+ "updatedAt": "2026-10-21T10:19:59.700Z",
  "teamGamesPlayed": {
   "regular": 0,
   "playoffs": 0
@@ -10,7 +10,7 @@
   {
    "id": "randlju01",
    "name": "Julius Randle",
-   "position": "F-C",
+   "position": "PF",
    "twoWay": false,
    "bio": {
     "height": "6' 9\"",
@@ -64,7 +64,7 @@
   {
    "id": "clownno01",
    "name": "Noah Clowney",
-   "position": "F",
+   "position": "PF",
    "twoWay": false,
    "bio": {
     "height": "6' 10\"",
@@ -101,7 +101,7 @@
   {
    "id": "portemi01",
    "name": "Michael Porter Jr.",
-   "position": "F",
+   "position": "SF",
    "twoWay": false,
    "bio": {
     "height": "6' 10\"",
@@ -138,7 +138,7 @@
   {
    "id": "mannte01",
    "name": "Terance Mann",
-   "position": "G-F",
+   "position": "SG",
    "twoWay": false,
    "bio": {
     "height": "6' 6\"",
@@ -175,7 +175,7 @@
   {
    "id": "elliske01",
    "name": "Keon Ellis",
-   "position": "G",
+   "position": "SG",
    "twoWay": false,
    "bio": {
     "height": "6' 4\"",
@@ -229,7 +229,7 @@
   {
    "id": "poweldr01",
    "name": "Drake Powell",
-   "position": "G-F",
+   "position": "SG",
    "twoWay": false,
    "bio": {
     "height": "6' 5\"",
@@ -266,7 +266,7 @@
   {
    "id": "demineg01",
    "name": "Egor Dëmin",
-   "position": "G",
+   "position": "PG",
    "twoWay": false,
    "bio": {
     "height": "6' 8\"",
@@ -303,7 +303,7 @@
   {
    "id": "traorno01",
    "name": "Nolan Traoré",
-   "position": "G",
+   "position": "PG",
    "twoWay": false,
    "bio": {
     "height": "6' 3\"",
@@ -339,7 +339,7 @@
   {
    "id": "wolfda01",
    "name": "Danny Wolf",
-   "position": "F-C",
+   "position": "PF",
    "twoWay": false,
    "bio": {
     "height": "6' 11\"",
@@ -413,7 +413,7 @@
   {
    "id": "sarafbe01",
    "name": "Ben Saraf",
-   "position": "G",
+   "position": "SG",
    "twoWay": false,
    "bio": {
     "height": "6' 6\"",
@@ -448,7 +448,7 @@
   {
    "id": "minotjo01",
    "name": "Josh Minott",
-   "position": "F",
+   "position": "SF",
    "twoWay": false,
    "bio": {
     "height": "6' 8\"",
@@ -485,7 +485,7 @@
   {
    "id": "wagnemo01",
    "name": "Moritz Wagner",
-   "position": "F-C",
+   "position": "C",
    "twoWay": false,
    "bio": {
     "height": "6' 11\"",
@@ -539,7 +539,7 @@
   {
    "id": "johnsch06",
    "name": "Chaney Johnson",
-   "position": "G",
+   "position": "SF",
    "twoWay": true,
    "bio": {
     "height": "6' 8\"",
@@ -576,7 +576,7 @@
   {
    "id": "nelsogr02",
    "name": "Grant Nelson",
-   "position": "F",
+   "position": "SF",
    "twoWay": true,
    "bio": {
     "height": "6' 11\"",
@@ -613,7 +613,7 @@
   {
    "id": "bilodty01",
    "name": "Tyler Bilodeau",
-   "position": "F",
+   "position": "PF",
    "twoWay": true,
    "bio": {
     "height": "6' 8\"",
@@ -632,7 +632,7 @@
   {
    "id": "jeffejo01",
    "name": "Joshua Jefferson",
-   "position": "F",
+   "position": "PF",
    "twoWay": false,
    "bio": {
     "height": "6' 8\"",
@@ -651,7 +651,7 @@
   {
    "id": "brownmi02",
    "name": "Mikel Brown Jr.",
-   "position": "G",
+   "position": "PG",
    "twoWay": false,
    "bio": {
     "height": "6' 5\"",
