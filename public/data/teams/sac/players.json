@@ -1,7 +1,7 @@
 {
  "season": "2026-27",
  "lastSeason": "2025-26",
- "updatedAt": "2026-10-21T03:17:32.929Z",
+ "updatedAt": "2026-10-21T09:17:37.528Z",
  "teamGamesPlayed": {
   "regular": 0,
   "playoffs": 0
@@ -10,7 +10,7 @@
   {
    "id": "raynama01",
    "name": "Maxime Raynaud",
-   "position": "F",
+   "position": "C",
    "twoWay": false,
    "bio": {
     "height": "7' 1\"",
@@ -47,7 +47,7 @@
   {
    "id": "cliffni01",
    "name": "Nique Clifford",
-   "position": "G",
+   "position": "SG",
    "twoWay": false,
    "bio": {
     "height": "6' 5\"",
@@ -84,7 +84,7 @@
   {
    "id": "achiupr01",
    "name": "Precious Achiuwa",
-   "position": "F",
+   "position": "C",
    "twoWay": false,
    "bio": {
     "height": "6' 8\"",
@@ -121,7 +121,7 @@
   {
    "id": "monkma01",
    "name": "Malik Monk",
-   "position": "G",
+   "position": "SG",
    "twoWay": false,
    "bio": {
     "height": "6' 3\"",
@@ -158,7 +158,7 @@
   {
    "id": "lavinza01",
    "name": "Zach LaVine",
-   "position": "G-F",
+   "position": "SG",
    "twoWay": false,
    "bio": {
     "height": "6' 5\"",
@@ -195,7 +195,7 @@
   {
    "id": "huntede01",
    "name": "De'Andre Hunter",
-   "position": "F",
+   "position": "SF",
    "twoWay": false,
    "bio": {
     "height": "6' 7\"",
@@ -232,7 +232,7 @@
   {
    "id": "plowdda01",
    "name": "Daeqwon Plowden",
-   "position": "G",
+   "position": "SG",
    "twoWay": false,
    "bio": {
     "height": "6' 6\"",
@@ -269,7 +269,7 @@
   {
    "id": "murrake02",
    "name": "Keegan Murray",
-   "position": "F",
+   "position": "PF",
    "twoWay": false,
    "bio": {
     "height": "6' 8\"",
@@ -306,7 +306,7 @@
   {
    "id": "sabondo01",
    "name": "Domantas Sabonis",
-   "position": "C-F",
+   "position": "C",
    "twoWay": false,
    "bio": {
     "height": "6' 10\"",
@@ -343,7 +343,7 @@
   {
    "id": "blackle01",
    "name": "Leaky Black",
-   "position": "F",
+   "position": "SF",
    "twoWay": true,
    "bio": {
     "height": "6' 6\"",
@@ -413,7 +413,7 @@
   {
    "id": "mogbojo01",
    "name": "Jonathan Mogbo",
-   "position": "F",
+   "position": "PF",
    "twoWay": true,
    "bio": {
     "height": "6' 9\"",
@@ -465,55 +465,20 @@
    "lastToDate": {}
   },
   {
-   "id": "simmobe01",
-   "name": "Ben Simmons",
-   "position": "G-F",
+   "id": "acuffda01",
+   "name": "Darius Acuff Jr.",
+   "position": "PG",
    "twoWay": false,
    "bio": {
-    "height": "6' 10\"",
-    "weight": 240,
-    "birthDate": "1996-07-20",
-    "experience": 7,
-    "college": "LSU",
-    "birthPlace": "Melbourne, VIC"
-   },
-   "number": "25",
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3907387.png",
-   "current": {},
-   "lastFull": {},
-   "lastToDate": {}
-  },
-  {
-   "id": "flaglad01",
-   "name": "Adam Flagler",
-   "position": "G",
-   "twoWay": true,
-   "bio": {
-    "height": "6' 1\"",
-    "weight": 180,
-    "birthDate": "1999-12-01",
-    "experience": 2,
-    "college": "Presbyterian College, Baylor"
-   },
-   "current": {},
-   "lastFull": {},
-   "lastToDate": {}
-  },
-  {
-   "id": "sharpem01",
-   "name": "Emanuel Sharp",
-   "position": "G",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 3\"",
-    "weight": 208,
-    "birthDate": "2004-03-07",
+    "height": "6' 2\"",
+    "weight": 186,
+    "birthDate": "2006-11-16",
     "experience": 0,
-    "college": "Houston",
-    "birthPlace": "Tel Aviv, Israel"
+    "college": "Arkansas",
+    "birthPlace": "Detroit, MI"
    },
-   "number": "34",
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5106058.png",
+   "number": "5",
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5142620.png",
    "current": {},
    "lastFull": {},
    "lastToDate": {}
@@ -521,7 +486,7 @@
   {
    "id": "karabal01",
    "name": "Alex Karaban",
-   "position": "F",
+   "position": "SF",
    "twoWay": false,
    "bio": {
     "height": "6' 7\"",
@@ -538,20 +503,39 @@
    "lastToDate": {}
   },
   {
-   "id": "acuffda01",
-   "name": "Darius Acuff Jr.",
-   "position": "G",
+   "id": "sharpem01",
+   "name": "Emanuel Sharp",
+   "position": "SG",
    "twoWay": false,
    "bio": {
-    "height": "6' 2\"",
-    "weight": 186,
-    "birthDate": "2006-11-16",
+    "height": "6' 3\"",
+    "weight": 208,
+    "birthDate": "2004-03-07",
     "experience": 0,
-    "college": "Arkansas",
-    "birthPlace": "Detroit, MI"
+    "college": "Houston",
+    "birthPlace": "Tel Aviv, Israel"
    },
-   "number": "5",
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5142620.png",
+   "number": "34",
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5106058.png",
+   "current": {},
+   "lastFull": {},
+   "lastToDate": {}
+  },
+  {
+   "id": "simmobe01",
+   "name": "Ben Simmons",
+   "position": "PG",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 10\"",
+    "weight": 240,
+    "birthDate": "1996-07-20",
+    "experience": 7,
+    "college": "LSU",
+    "birthPlace": "Melbourne, VIC"
+   },
+   "number": "25",
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3907387.png",
    "current": {},
    "lastFull": {},
    "lastToDate": {}

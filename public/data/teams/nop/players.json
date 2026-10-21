@@ -1,7 +1,7 @@
 {
  "season": "2026-27",
  "lastSeason": "2025-26",
- "updatedAt": "2026-10-21T03:17:48.656Z",
+ "updatedAt": "2026-10-21T09:17:53.453Z",
  "teamGamesPlayed": {
   "regular": 0,
   "playoffs": 0
@@ -10,7 +10,7 @@
   {
    "id": "murphtr02",
    "name": "Trey Murphy III",
-   "position": "F",
+   "position": "SF",
    "twoWay": false,
    "bio": {
     "height": "6' 8\"",
@@ -47,7 +47,7 @@
   {
    "id": "beysa01",
    "name": "Saddiq Bey",
-   "position": "F",
+   "position": "SF",
    "twoWay": false,
    "bio": {
     "height": "6' 8\"",
@@ -84,7 +84,7 @@
   {
    "id": "fearsje01",
    "name": "Jeremiah Fears",
-   "position": "G",
+   "position": "PG",
    "twoWay": false,
    "bio": {
     "height": "6' 3\"",
@@ -121,7 +121,7 @@
   {
    "id": "queende01",
    "name": "Derik Queen",
-   "position": "F-C",
+   "position": "C",
    "twoWay": false,
    "bio": {
     "height": "6' 9\"",
@@ -158,7 +158,7 @@
   {
    "id": "willizi01",
    "name": "Zion Williamson",
-   "position": "F-C",
+   "position": "PF",
    "twoWay": false,
    "bio": {
     "height": "6' 6\"",
@@ -195,7 +195,7 @@
   {
    "id": "mathube01",
    "name": "Bennedict Mathurin",
-   "position": "G-F",
+   "position": "SF",
    "twoWay": false,
    "bio": {
     "height": "6' 5\"",
@@ -232,7 +232,7 @@
   {
    "id": "joneshe01",
    "name": "Herbert Jones",
-   "position": "F",
+   "position": "SF",
    "twoWay": false,
    "bio": {
     "height": "6' 7\"",
@@ -306,7 +306,7 @@
   {
    "id": "poolejo01",
    "name": "Jordan Poole",
-   "position": "G",
+   "position": "SG",
    "twoWay": false,
    "bio": {
     "height": "6' 4\"",
@@ -343,7 +343,7 @@
   {
    "id": "matkoka01",
    "name": "Karlo Matković",
-   "position": "F-C",
+   "position": "PF",
    "twoWay": false,
    "bio": {
     "height": "6' 10\"",
@@ -378,7 +378,7 @@
   {
    "id": "mcgowbr01",
    "name": "Bryce McGowens",
-   "position": "G-F",
+   "position": "SG",
    "twoWay": false,
    "bio": {
     "height": "6' 6\"",
@@ -415,7 +415,7 @@
   {
    "id": "watfotr01",
    "name": "Trendon Watford",
-   "position": "F",
+   "position": "PF",
    "twoWay": false,
    "bio": {
     "height": "6' 8\"",
@@ -469,7 +469,7 @@
   {
    "id": "johnsaj01",
    "name": "AJ Johnson",
-   "position": "G",
+   "position": "SG",
    "twoWay": false,
    "bio": {
     "height": "6' 5\"",
@@ -505,7 +505,7 @@
   {
    "id": "reeseju01",
    "name": "Julian Reese",
-   "position": "F",
+   "position": "SF",
    "twoWay": true,
    "bio": {
     "height": "6' 9\"",
@@ -542,7 +542,7 @@
   {
    "id": "murrade01",
    "name": "Dejounte Murray",
-   "position": "G",
+   "position": "PG",
    "twoWay": false,
    "bio": {
     "height": "6' 4\"",
@@ -616,7 +616,7 @@
   {
    "id": "diama01",
    "name": "Malik Dia",
-   "position": "F",
+   "position": "PF",
    "twoWay": true,
    "bio": {
     "height": "6' 9\"",
@@ -635,7 +635,7 @@
   {
    "id": "pierrja01",
    "name": "Jaron Pierre Jr.",
-   "position": "G",
+   "position": "SG",
    "twoWay": true,
    "bio": {
     "height": "6' 6\"",

@@ -1,7 +1,7 @@
 {
  "season": "2026-27",
  "lastSeason": "2025-26",
- "updatedAt": "2026-10-21T03:17:40.713Z",
+ "updatedAt": "2026-10-21T09:17:45.321Z",
  "teamGamesPlayed": {
   "regular": 0,
   "playoffs": 0
@@ -10,7 +10,7 @@
   {
    "id": "thompam01",
    "name": "Amen Thompson",
-   "position": "G-F",
+   "position": "SF",
    "twoWay": false,
    "bio": {
     "height": "6' 7\"",
@@ -63,7 +63,7 @@
   {
    "id": "duranke01",
    "name": "Kevin Durant",
-   "position": "F-G",
+   "position": "PF",
    "twoWay": false,
    "bio": {
     "height": "6' 11\"",
@@ -117,7 +117,7 @@
   {
    "id": "smithja05",
    "name": "Jabari Smith Jr.",
-   "position": "F-C",
+   "position": "PF",
    "twoWay": false,
    "bio": {
     "height": "6' 11\"",
@@ -171,7 +171,7 @@
   {
    "id": "sengual01",
    "name": "Alperen Şengün",
-   "position": "C-F",
+   "position": "C",
    "twoWay": false,
    "bio": {
     "height": "6' 11\"",
@@ -224,7 +224,7 @@
   {
    "id": "sheppre01",
    "name": "Reed Sheppard",
-   "position": "G",
+   "position": "PG",
    "twoWay": false,
    "bio": {
     "height": "6' 2\"",
@@ -278,7 +278,7 @@
   {
    "id": "smartma01",
    "name": "Marcus Smart",
-   "position": "G",
+   "position": "PG",
    "twoWay": false,
    "bio": {
     "height": "6' 3\"",
@@ -332,7 +332,7 @@
   {
    "id": "easonta01",
    "name": "Tari Eason",
-   "position": "F",
+   "position": "PF",
    "twoWay": false,
    "bio": {
     "height": "6' 8\"",
@@ -476,7 +476,7 @@
   {
    "id": "bogdabo01",
    "name": "Bogdan Bogdanović",
-   "position": "G",
+   "position": "SG",
    "twoWay": false,
    "bio": {
     "height": "6' 5\"",
@@ -512,8 +512,8 @@
   {
    "id": "tshieos01",
    "name": "Oscar Tshiebwe",
-   "position": "F",
-   "twoWay": false,
+   "position": "C",
+   "twoWay": true,
    "bio": {
     "height": "6' 8\"",
     "weight": 255,
@@ -549,8 +549,8 @@
   {
    "id": "phillju01",
    "name": "Julian Phillips",
-   "position": "F",
-   "twoWay": false,
+   "position": "SF",
+   "twoWay": true,
    "bio": {
     "height": "6' 6\"",
     "weight": 198,
@@ -603,7 +603,7 @@
   {
    "id": "tateja01",
    "name": "Jae'Sean Tate",
-   "position": "F",
+   "position": "SF",
    "twoWay": false,
    "bio": {
     "height": "6' 4\"",
@@ -657,7 +657,7 @@
   {
    "id": "crawfis01",
    "name": "Isaiah Crawford",
-   "position": "F",
+   "position": "SF",
    "twoWay": false,
    "bio": {
     "height": "6' 6\"",
@@ -692,62 +692,9 @@
    "lastToDate": {}
   },
   {
-   "id": "pedulse01",
-   "name": "Sean Pedulla",
-   "position": "G",
-   "twoWay": true,
-   "bio": {
-    "height": "6' 1\"",
-    "weight": 195,
-    "birthDate": "2002-10-10",
-    "experience": 1,
-    "college": "Virginia Tech, Ole Miss"
-   },
-   "current": {},
-   "lastFull": {
-    "regular": {
-     "games": 7,
-     "started": 0,
-     "minutes": 31.1,
-     "points": 13,
-     "rebounds": 3,
-     "assists": 5,
-     "steals": 0,
-     "blocks": 0,
-     "turnovers": 1,
-     "fgMade": 5,
-     "fgAttempted": 15,
-     "threeMade": 3,
-     "threeAttempted": 10,
-     "ftMade": 0,
-     "ftAttempted": 0
-    }
-   },
-   "lastToDate": {}
-  },
-  {
-   "id": "copelqu01",
-   "name": "Quadir Copeland",
-   "position": "G",
-   "twoWay": true,
-   "bio": {
-    "height": "6' 6\"",
-    "weight": 220,
-    "birthDate": "2003-09-01",
-    "experience": 0,
-    "college": "NC State",
-    "birthPlace": "Philadelphia, PA"
-   },
-   "number": "25",
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4683860.png",
-   "current": {},
-   "lastFull": {},
-   "lastToDate": {}
-  },
-  {
    "id": "thornbr01",
    "name": "Bruce Thornton",
-   "position": "G",
+   "position": "PG",
    "twoWay": false,
    "bio": {
     "height": "6' 0\"",
@@ -764,9 +711,28 @@
    "lastToDate": {}
   },
   {
+   "id": "copelqu01",
+   "name": "Quadir Copeland",
+   "position": "PG",
+   "twoWay": true,
+   "bio": {
+    "height": "6' 6\"",
+    "weight": 220,
+    "birthDate": "2003-09-01",
+    "experience": 0,
+    "college": "NC State",
+    "birthPlace": "Philadelphia, PA"
+   },
+   "number": "25",
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4683860.png",
+   "current": {},
+   "lastFull": {},
+   "lastToDate": {}
+  },
+  {
    "id": "vanvlfr01",
    "name": "Fred VanVleet",
-   "position": "G",
+   "position": "PG",
    "twoWay": false,
    "bio": {
     "height": "6' 0\"",

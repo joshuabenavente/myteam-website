@@ -1,7 +1,7 @@
 {
  "season": "2026-27",
  "lastSeason": "2025-26",
- "updatedAt": "2026-10-21T03:17:44.656Z",
+ "updatedAt": "2026-10-21T09:17:49.388Z",
  "teamGamesPlayed": {
   "regular": 0,
   "playoffs": 0
@@ -10,7 +10,7 @@
   {
    "id": "wellsja01",
    "name": "Jaylen Wells",
-   "position": "F",
+   "position": "SG",
    "twoWay": false,
    "bio": {
     "height": "6' 7\"",
@@ -47,7 +47,7 @@
   {
    "id": "spencca01",
    "name": "Cam Spencer",
-   "position": "G",
+   "position": "SG",
    "twoWay": false,
    "bio": {
     "height": "6' 3\"",
@@ -84,7 +84,7 @@
   {
    "id": "grantje01",
    "name": "Jerami Grant",
-   "position": "F",
+   "position": "PF",
    "twoWay": false,
    "bio": {
     "height": "6' 7\"",
@@ -138,7 +138,7 @@
   {
    "id": "cowarce01",
    "name": "Cedric Coward",
-   "position": "F-G",
+   "position": "SG",
    "twoWay": false,
    "bio": {
     "height": "6' 5\"",
@@ -173,43 +173,9 @@
    "lastToDate": {}
   },
   {
-   "id": "claytwa01",
-   "name": "Walter Clayton",
-   "position": "G",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 4\"",
-    "weight": 195,
-    "birthDate": "2003-03-06",
-    "experience": 1,
-    "college": "Iona College, Florida"
-   },
-   "current": {},
-   "lastFull": {
-    "regular": {
-     "games": 69,
-     "started": 6,
-     "minutes": 1411.2,
-     "points": 538,
-     "rebounds": 139,
-     "assists": 279,
-     "steals": 44,
-     "blocks": 19,
-     "turnovers": 116,
-     "fgMade": 177,
-     "fgAttempted": 461,
-     "threeMade": 75,
-     "threeAttempted": 244,
-     "ftMade": 109,
-     "ftAttempted": 121
-    }
-   },
-   "lastToDate": {}
-  },
-  {
    "id": "murrakr01",
    "name": "Kris Murray",
-   "position": "F",
+   "position": "SF",
    "twoWay": false,
    "bio": {
     "height": "6' 8\"",
@@ -263,7 +229,7 @@
   {
    "id": "stewais01",
    "name": "Isaiah Stewart",
-   "position": "F-C",
+   "position": "C",
    "twoWay": false,
    "bio": {
     "height": "6' 8\"",
@@ -317,7 +283,7 @@
   {
    "id": "jacksgg01",
    "name": "GG Jackson II",
-   "position": "F",
+   "position": "PF",
    "twoWay": false,
    "bio": {
     "height": "6' 9\"",
@@ -354,7 +320,7 @@
   {
    "id": "postqu01",
    "name": "Quinten Post",
-   "position": "F",
+   "position": "C",
    "twoWay": false,
    "bio": {
     "height": "7' 0\"",
@@ -391,7 +357,7 @@
   {
    "id": "hendrta01",
    "name": "Taylor Hendricks",
-   "position": "F",
+   "position": "PF",
    "twoWay": false,
    "bio": {
     "height": "6' 9\"",
@@ -428,7 +394,7 @@
   {
    "id": "prospol01",
    "name": "Olivier-Maxence Prosper",
-   "position": "F",
+   "position": "PF",
    "twoWay": false,
    "bio": {
     "height": "6' 7\"",
@@ -463,43 +429,9 @@
    "lastToDate": {}
   },
   {
-   "id": "peavymi01",
-   "name": "Micah Peavy",
-   "position": "G",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 7\"",
-    "weight": 215,
-    "birthDate": "2001-07-16",
-    "experience": 1,
-    "college": "Texas Tech, TCU, Georgetown"
-   },
-   "current": {},
-   "lastFull": {
-    "regular": {
-     "games": 61,
-     "started": 4,
-     "minutes": 913.5,
-     "points": 262,
-     "rebounds": 117,
-     "assists": 61,
-     "steals": 43,
-     "blocks": 9,
-     "turnovers": 20,
-     "fgMade": 106,
-     "fgAttempted": 275,
-     "threeMade": 28,
-     "threeAttempted": 108,
-     "ftMade": 22,
-     "ftAttempted": 29
-    }
-   },
-   "lastToDate": {}
-  },
-  {
    "id": "smallja01",
    "name": "Javon Small",
-   "position": "G",
+   "position": "PG",
    "twoWay": true,
    "bio": {
     "height": "6' 1\"",
@@ -536,7 +468,7 @@
   {
    "id": "mashaja01",
    "name": "Jahmai Mashack",
-   "position": "G",
+   "position": "SG",
    "twoWay": true,
    "bio": {
     "height": "6' 3\"",
@@ -573,7 +505,7 @@
   {
    "id": "jeromty01",
    "name": "Ty Jerome",
-   "position": "G",
+   "position": "SG",
    "twoWay": false,
    "bio": {
     "height": "6' 5\"",
@@ -647,7 +579,7 @@
   {
    "id": "pippesc02",
    "name": "Scotty Pippen Jr.",
-   "position": "G",
+   "position": "PG",
    "twoWay": false,
    "bio": {
     "height": "6' 2\"",
@@ -684,7 +616,7 @@
   {
    "id": "coopeca02",
    "name": "Carson Cooper",
-   "position": "C",
+   "position": "PF",
    "twoWay": true,
    "bio": {
     "height": "6' 11\"",
@@ -703,7 +635,7 @@
   {
    "id": "lopezka01",
    "name": "Karim López",
-   "position": "F",
+   "position": "SF",
    "twoWay": false,
    "bio": {
     "height": "6' 8\"",
@@ -721,7 +653,7 @@
   {
    "id": "boozeca02",
    "name": "Cameron Boozer",
-   "position": "F",
+   "position": "PF",
    "twoWay": false,
    "bio": {
     "height": "6' 8\"",

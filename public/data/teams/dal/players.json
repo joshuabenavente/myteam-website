@@ -1,7 +1,7 @@
 {
  "season": "2026-27",
  "lastSeason": "2025-26",
- "updatedAt": "2026-10-21T03:17:36.640Z",
+ "updatedAt": "2026-10-21T09:17:41.403Z",
  "teamGamesPlayed": {
   "regular": 0,
   "playoffs": 0
@@ -10,7 +10,7 @@
   {
    "id": "flaggco01",
    "name": "Cooper Flagg",
-   "position": "F-G",
+   "position": "SF",
    "twoWay": false,
    "bio": {
     "height": "6' 9\"",
@@ -47,7 +47,7 @@
   {
    "id": "chrisma02",
    "name": "Max Christie",
-   "position": "G",
+   "position": "SG",
    "twoWay": false,
    "bio": {
     "height": "6' 5\"",
@@ -84,7 +84,7 @@
   {
    "id": "marshna01",
    "name": "Naji Marshall",
-   "position": "F",
+   "position": "SF",
    "twoWay": false,
    "bio": {
     "height": "6' 6\"",
@@ -121,7 +121,7 @@
   {
    "id": "washipj01",
    "name": "P.J. Washington",
-   "position": "F",
+   "position": "PF",
    "twoWay": false,
    "bio": {
     "height": "6' 7\"",
@@ -158,7 +158,7 @@
   {
    "id": "risacza01",
    "name": "Zaccharie Risacher",
-   "position": "F",
+   "position": "SF",
    "twoWay": false,
    "bio": {
     "height": "6' 8\"",
@@ -210,7 +210,7 @@
   {
    "id": "aldamsa01",
    "name": "Santi Aldama",
-   "position": "F-C",
+   "position": "PF",
    "twoWay": false,
    "bio": {
     "height": "7' 0\"",
@@ -247,7 +247,7 @@
   {
    "id": "gaffoda01",
    "name": "Daniel Gafford",
-   "position": "C-F",
+   "position": "C",
    "twoWay": false,
    "bio": {
     "height": "6' 10\"",
@@ -282,43 +282,9 @@
    "lastToDate": {}
   },
   {
-   "id": "poweldw01",
-   "name": "Dwight Powell",
-   "position": "F-C",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 10\"",
-    "weight": 240,
-    "birthDate": "1991-07-20",
-    "experience": 12,
-    "college": "Stanford"
-   },
-   "current": {},
-   "lastFull": {
-    "regular": {
-     "games": 63,
-     "started": 12,
-     "minutes": 905.2,
-     "points": 210,
-     "rebounds": 257,
-     "assists": 68,
-     "steals": 34,
-     "blocks": 21,
-     "turnovers": 41,
-     "fgMade": 65,
-     "fgAttempted": 101,
-     "threeMade": 2,
-     "threeAttempted": 7,
-     "ftMade": 78,
-     "ftAttempted": 112
-    }
-   },
-   "lastToDate": {}
-  },
-  {
    "id": "martica02",
    "name": "Caleb Martin",
-   "position": "F",
+   "position": "SF",
    "twoWay": false,
    "bio": {
     "height": "6' 5\"",
@@ -355,7 +321,7 @@
   {
    "id": "howarje01",
    "name": "Jett Howard",
-   "position": "G",
+   "position": "SF",
    "twoWay": true,
    "bio": {
     "height": "6' 8\"",
@@ -408,7 +374,7 @@
   },
   {
    "id": "cissemo01",
-   "name": "Moussa Cisse",
+   "name": "Moussa Cissé",
    "position": "C",
    "twoWay": false,
    "bio": {
@@ -446,7 +412,7 @@
   {
    "id": "sassema01",
    "name": "Marcus Sasser",
-   "position": "G",
+   "position": "PG",
    "twoWay": false,
    "bio": {
     "height": "6' 1\"",
@@ -537,7 +503,7 @@
   {
    "id": "biberta01",
    "name": "Tarik Biberovic",
-   "position": "F",
+   "position": "SF",
    "twoWay": false,
    "bio": {
     "height": "6' 7\"",
@@ -555,7 +521,7 @@
   {
    "id": "johnsmo01",
    "name": "Morez Johnson Jr.",
-   "position": "F",
+   "position": "PF",
    "twoWay": false,
    "bio": {
     "height": "6' 9\"",
@@ -574,7 +540,7 @@
   {
    "id": "delarse01",
    "name": "Sergio de Larrea",
-   "position": "G",
+   "position": "PG",
    "twoWay": false,
    "bio": {
     "height": "6' 7\"",
@@ -592,7 +558,7 @@
   {
    "id": "lawalto01",
    "name": "Tobi Lawal",
-   "position": "F",
+   "position": "PF",
    "twoWay": true,
    "bio": {
     "height": "6' 8\"",
@@ -611,7 +577,7 @@
   {
    "id": "irvinky01",
    "name": "Kyrie Irving",
-   "position": "G",
+   "position": "SG",
    "twoWay": false,
    "bio": {
     "height": "6' 2\"",
