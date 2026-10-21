@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-21T22:22:23.979Z",
+ "updatedAt": "2026-10-21T23:19:02.119Z",
  "teams": {
   "ATL": [
    {
@@ -127,6 +127,13 @@
     "returnDate": "2026-10-23"
    },
    {
+    "name": "Jett Howard",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Calf",
+    "returnDate": "2026-10-23"
+   },
+   {
     "name": "Santi Aldama",
     "status": "Out",
     "gameTimeDecision": false,
@@ -139,13 +146,6 @@
     "gameTimeDecision": false,
     "reason": "Heel",
     "returnDate": "2026-10-23"
-   },
-   {
-    "name": "Jett Howard",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Calf",
-    "returnDate": "2026-10-21"
    }
   ],
   "DEN": [
@@ -328,10 +328,10 @@
   "MEM": [
    {
     "name": "Isaiah Stewart",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
+    "status": "Out",
+    "gameTimeDecision": false,
     "reason": "Ankle",
-    "returnDate": "2026-10-21"
+    "returnDate": "2026-10-23"
    }
   ],
   "MIN": [
