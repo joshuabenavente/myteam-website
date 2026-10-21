@@ -78,7 +78,7 @@ export function SiteHeader({ route, data, timeZone, onShowGame }: Props) {
         <div className="header-inner">
           <div className="header-top">
             <a className="brand" href={routeHref({ page: 'games' })}>
-              {/* Icon and wordmark on wide screens; just the icon on phones. */}
+              {/* Wordmark on wide screens; just the icon on phones. */}
               <BrandIcon size={36} glass className="brand-narrow" />
               <Wordmark height={30} className="brand-wide" decorative />
               <span className="sr-only">myteam.fans, {team.fullName} home</span>
