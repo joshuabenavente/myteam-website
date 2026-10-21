@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-21T18:17:51.116Z",
+ "updatedAt": "2026-10-21T19:19:07.935Z",
  "teams": {
   "ATL": [
    {
@@ -67,11 +67,18 @@
   ],
   "CHI": [
    {
+    "name": "Dailyn Swain",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Illness",
+    "returnDate": "2026-10-24"
+   },
+   {
     "name": "Jordan Hawkins",
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Illness",
-    "returnDate": "2026-10-23"
+    "returnDate": "2026-10-24"
    },
    {
     "name": "Nic Claxton",
@@ -79,13 +86,6 @@
     "gameTimeDecision": false,
     "reason": "Hamstring",
     "returnDate": "2026-11-04"
-   },
-   {
-    "name": "Dailyn Swain",
-    "status": "Day-To-Day",
-    "gameTimeDecision": false,
-    "reason": "Illness",
-    "returnDate": "2026-10-23"
    },
    {
     "name": "Isaac Okoro",
@@ -210,6 +210,13 @@
     "returnDate": "2026-10-23"
    },
    {
+    "name": "Charles Bassey",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Knee",
+    "returnDate": "2026-10-23"
+   },
+   {
     "name": "Jimmy Butler III",
     "status": "Out",
     "gameTimeDecision": false,
@@ -220,7 +227,7 @@
     "name": "Kristaps Porzingis",
     "status": "Out",
     "gameTimeDecision": false,
-    "reason": "Undisclosed",
+    "reason": "Illness",
     "returnDate": "2026-12-01"
    },
    {
@@ -229,13 +236,6 @@
     "gameTimeDecision": false,
     "reason": "Knee (surgery)",
     "returnDate": "2026-12-01"
-   },
-   {
-    "name": "Charles Bassey",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Knee",
-    "returnDate": "2026-10-21"
    },
    {
     "name": "Stephen Curry",
