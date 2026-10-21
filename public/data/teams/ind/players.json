@@ -1,7 +1,7 @@
 {
  "season": "2026-27",
  "lastSeason": "2025-26",
- "updatedAt": "2026-10-21T05:19:05.427Z",
+ "updatedAt": "2026-10-21T11:19:04.290Z",
  "teamGamesPlayed": {
   "regular": 0,
   "playoffs": 0
@@ -10,7 +10,7 @@
   {
    "id": "siakapa01",
    "name": "Pascal Siakam",
-   "position": "F-C",
+   "position": "PF",
    "twoWay": false,
    "bio": {
     "height": "6' 8\"",
@@ -47,7 +47,7 @@
   {
    "id": "walkeja02",
    "name": "Jarace Walker",
-   "position": "F",
+   "position": "PF",
    "twoWay": false,
    "bio": {
     "height": "6' 7\"",
@@ -84,7 +84,7 @@
   {
    "id": "nembhan01",
    "name": "Andrew Nembhard",
-   "position": "G",
+   "position": "SG",
    "twoWay": false,
    "bio": {
     "height": "6' 4\"",
@@ -121,7 +121,7 @@
   {
    "id": "huffja01",
    "name": "Jay Huff",
-   "position": "C-F",
+   "position": "C",
    "twoWay": false,
    "bio": {
     "height": "7' 1\"",
@@ -158,7 +158,7 @@
   {
    "id": "oubreke01",
    "name": "Kelly Oubre Jr.",
-   "position": "F",
+   "position": "SF",
    "twoWay": false,
    "bio": {
     "height": "6' 8\"",
@@ -248,7 +248,7 @@
   {
    "id": "sheppbe01",
    "name": "Ben Sheppard",
-   "position": "G",
+   "position": "SG",
    "twoWay": false,
    "bio": {
     "height": "6' 6\"",
@@ -285,7 +285,7 @@
   {
    "id": "nesmiaa01",
    "name": "Aaron Nesmith",
-   "position": "G-F",
+   "position": "SF",
    "twoWay": false,
    "bio": {
     "height": "6' 5\"",
@@ -322,7 +322,7 @@
   {
    "id": "brownko01",
    "name": "Kobe Brown",
-   "position": "G-F",
+   "position": "PF",
    "twoWay": true,
    "bio": {
     "height": "6' 7\"",
@@ -359,7 +359,7 @@
   {
    "id": "mccontj01",
    "name": "T.J. McConnell",
-   "position": "G",
+   "position": "PG",
    "twoWay": false,
    "bio": {
     "height": "6' 1\"",
@@ -396,7 +396,7 @@
   {
    "id": "jacksqu01",
    "name": "Quenton Jackson",
-   "position": "G",
+   "position": "PG",
    "twoWay": false,
    "bio": {
     "height": "6' 4\"",
@@ -433,7 +433,7 @@
   {
    "id": "furphjo01",
    "name": "Johnny Furphy",
-   "position": "G-F",
+   "position": "SG",
    "twoWay": false,
    "bio": {
     "height": "6' 8\"",
@@ -470,7 +470,7 @@
   {
    "id": "nancela02",
    "name": "Larry Nance Jr.",
-   "position": "F-C",
+   "position": "PF",
    "twoWay": false,
    "bio": {
     "height": "6' 6\"",
@@ -524,7 +524,7 @@
   {
    "id": "toppiob01",
    "name": "Obi Toppin",
-   "position": "F",
+   "position": "PF",
    "twoWay": false,
    "bio": {
     "height": "6' 9\"",
@@ -561,7 +561,7 @@
   {
    "id": "slawsja01",
    "name": "Jalen Slawson",
-   "position": "F",
+   "position": "SF",
    "twoWay": true,
    "bio": {
     "height": "6' 7\"",
@@ -598,7 +598,7 @@
   {
    "id": "smithbr01",
    "name": "Braden Smith",
-   "position": "G",
+   "position": "PG",
    "twoWay": true,
    "bio": {
     "height": "5' 10\"",
@@ -617,7 +617,7 @@
   {
    "id": "halibty01",
    "name": "Tyrese Haliburton",
-   "position": "G",
+   "position": "PG",
    "twoWay": false,
    "bio": {
     "height": "6' 5\"",

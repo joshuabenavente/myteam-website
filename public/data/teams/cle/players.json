@@ -1,7 +1,7 @@
 {
  "season": "2026-27",
  "lastSeason": "2025-26",
- "updatedAt": "2026-10-21T05:17:45.323Z",
+ "updatedAt": "2026-10-21T11:17:44.067Z",
  "teamGamesPlayed": {
   "regular": 0,
   "playoffs": 0
@@ -10,7 +10,7 @@
   {
    "id": "hardeja01",
    "name": "James Harden",
-   "position": "G",
+   "position": "PG",
    "twoWay": false,
    "bio": {
     "height": "6' 5\"",
@@ -64,7 +64,7 @@
   {
    "id": "mitchdo01",
    "name": "Donovan Mitchell",
-   "position": "G",
+   "position": "SG",
    "twoWay": false,
    "bio": {
     "height": "6' 2\"",
@@ -118,7 +118,7 @@
   {
    "id": "mobleev01",
    "name": "Evan Mobley",
-   "position": "F-C",
+   "position": "PF",
    "twoWay": false,
    "bio": {
     "height": "6' 11\"",
@@ -172,7 +172,7 @@
   {
    "id": "tysonja01",
    "name": "Jaylon Tyson",
-   "position": "G",
+   "position": "SG",
    "twoWay": false,
    "bio": {
     "height": "6' 6\"",
@@ -226,7 +226,7 @@
   {
    "id": "watsope01",
    "name": "Peyton Watson",
-   "position": "G-F",
+   "position": "SF",
    "twoWay": false,
    "bio": {
     "height": "6' 8\"",
@@ -263,7 +263,7 @@
   {
    "id": "allenja01",
    "name": "Jarrett Allen",
-   "position": "C-F",
+   "position": "C",
    "twoWay": false,
    "bio": {
     "height": "6' 9\"",
@@ -317,7 +317,7 @@
   {
    "id": "merrisa01",
    "name": "Sam Merrill",
-   "position": "G",
+   "position": "SG",
    "twoWay": false,
    "bio": {
     "height": "6' 4\"",
@@ -371,7 +371,7 @@
   {
    "id": "portecr01",
    "name": "Craig Porter Jr.",
-   "position": "G",
+   "position": "PG",
    "twoWay": false,
    "bio": {
     "height": "6' 1\"",
@@ -425,7 +425,7 @@
   {
    "id": "tomlina01",
    "name": "Nae'Qwan Tomlin",
-   "position": "F",
+   "position": "PF",
    "twoWay": false,
    "bio": {
     "height": "6' 8\"",
@@ -533,7 +533,7 @@
   {
    "id": "proctty01",
    "name": "Tyrese Proctor",
-   "position": "G",
+   "position": "PG",
    "twoWay": false,
    "bio": {
     "height": "6' 4\"",
@@ -587,7 +587,7 @@
   {
    "id": "enarutr01",
    "name": "Tristan Enaruna",
-   "position": "F",
+   "position": "SF",
    "twoWay": true,
    "bio": {
     "height": "6' 8\"",
@@ -624,7 +624,7 @@
   {
    "id": "minixri01",
    "name": "Riley Minix",
-   "position": "G",
+   "position": "SF",
    "twoWay": true,
    "bio": {
     "height": "6' 7\"",
@@ -697,7 +697,7 @@
   {
    "id": "hezonma01",
    "name": "Mario Hezonja",
-   "position": "F-G",
+   "position": "PF",
    "twoWay": false,
    "bio": {
     "height": "6' 8\"",
@@ -715,7 +715,7 @@
   {
    "id": "thomame01",
    "name": "Meleek Thomas",
-   "position": "G",
+   "position": "SG",
    "twoWay": false,
    "bio": {
     "height": "6' 3\"",

@@ -1,7 +1,7 @@
 {
  "season": "2026-27",
  "lastSeason": "2025-26",
- "updatedAt": "2026-10-21T05:17:37.451Z",
+ "updatedAt": "2026-10-21T11:17:36.218Z",
  "teamGamesPlayed": {
   "regular": 0,
   "playoffs": 0
@@ -10,7 +10,7 @@
   {
    "id": "barnesc01",
    "name": "Scottie Barnes",
-   "position": "G-F",
+   "position": "PF",
    "twoWay": false,
    "bio": {
     "height": "6' 8\"",
@@ -64,7 +64,7 @@
   {
    "id": "quickim01",
    "name": "Immanuel Quickley",
-   "position": "G",
+   "position": "PG",
    "twoWay": false,
    "bio": {
     "height": "6' 2\"",
@@ -101,7 +101,7 @@
   {
    "id": "leonaka01",
    "name": "Kawhi Leonard",
-   "position": "F",
+   "position": "SF",
    "twoWay": false,
    "bio": {
     "height": "6' 6\"",
@@ -138,7 +138,7 @@
   {
    "id": "sheadja01",
    "name": "Jamal Shead",
-   "position": "G",
+   "position": "PG",
    "twoWay": false,
    "bio": {
     "height": "6' 1\"",
@@ -192,7 +192,7 @@
   {
    "id": "barrerj01",
    "name": "RJ Barrett",
-   "position": "G-F",
+   "position": "SF",
    "twoWay": false,
    "bio": {
     "height": "6' 6\"",
@@ -246,7 +246,7 @@
   {
    "id": "walteja01",
    "name": "Ja'Kobe Walter",
-   "position": "G",
+   "position": "SG",
    "twoWay": false,
    "bio": {
     "height": "6' 4\"",
@@ -300,7 +300,7 @@
   {
    "id": "murraco01",
    "name": "Collin Murray-Boyles",
-   "position": "F",
+   "position": "PF",
    "twoWay": false,
    "bio": {
     "height": "6' 7\"",
@@ -408,7 +408,7 @@
   {
    "id": "anderky01",
    "name": "Kyle Anderson",
-   "position": "F-G",
+   "position": "SF",
    "twoWay": false,
    "bio": {
     "height": "6' 8\"",
@@ -462,7 +462,7 @@
   {
    "id": "battlja01",
    "name": "Jamison Battle",
-   "position": "F",
+   "position": "SF",
    "twoWay": false,
    "bio": {
     "height": "6' 7\"",
@@ -516,7 +516,7 @@
   {
    "id": "jackstr02",
    "name": "Trayce Jackson-Davis",
-   "position": "F",
+   "position": "C",
    "twoWay": false,
    "bio": {
     "height": "6' 9\"",
@@ -570,7 +570,7 @@
   {
    "id": "smithma02",
    "name": "Malachi Smith",
-   "position": "G",
+   "position": "SG",
    "twoWay": true,
    "bio": {
     "height": "6' 4\"",
@@ -607,7 +607,7 @@
   {
    "id": "martial01",
    "name": "Alijah Martin",
-   "position": "G",
+   "position": "SG",
    "twoWay": false,
    "bio": {
     "height": "6' 2\"",
@@ -644,7 +644,7 @@
   {
    "id": "graveal01",
    "name": "Allen Graves",
-   "position": "F",
+   "position": "PF",
    "twoWay": false,
    "bio": {
     "height": "6' 8\"",
@@ -663,7 +663,7 @@
   {
    "id": "bradlja02",
    "name": "Jaden Bradley",
-   "position": "G",
+   "position": "PG",
    "twoWay": false,
    "bio": {
     "height": "6' 3\"",
