@@ -1,7 +1,7 @@
 {
  "season": "2026-27",
  "lastSeason": "2025-26",
- "updatedAt": "2026-10-21T08:17:41.155Z",
+ "updatedAt": "2026-10-21T14:17:44.168Z",
  "teamGamesPlayed": {
   "regular": 0,
   "playoffs": 0
@@ -10,7 +10,7 @@
   {
    "id": "ingrabr01",
    "name": "Brandon Ingram",
-   "position": "F",
+   "position": "SF",
    "twoWay": false,
    "bio": {
     "height": "6' 8\"",
@@ -64,7 +64,7 @@
   {
    "id": "dunnkr01",
    "name": "Kris Dunn",
-   "position": "G",
+   "position": "PG",
    "twoWay": false,
    "bio": {
     "height": "6' 3\"",
@@ -101,7 +101,7 @@
   {
    "id": "hachiru01",
    "name": "Rui Hachimura",
-   "position": "F",
+   "position": "PF",
    "twoWay": false,
    "bio": {
     "height": "6' 8\"",
@@ -192,7 +192,7 @@
   {
    "id": "sandeko01",
    "name": "Kobe Sanders",
-   "position": "G",
+   "position": "SG",
    "twoWay": false,
    "bio": {
     "height": "6' 8\"",
@@ -229,7 +229,7 @@
   {
    "id": "jonesde02",
    "name": "Derrick Jones Jr.",
-   "position": "F",
+   "position": "SF",
    "twoWay": false,
    "bio": {
     "height": "6' 6\"",
@@ -266,7 +266,7 @@
   {
    "id": "garlada01",
    "name": "Darius Garland",
-   "position": "G",
+   "position": "PG",
    "twoWay": false,
    "bio": {
     "height": "6' 1\"",
@@ -303,7 +303,7 @@
   {
    "id": "millejo02",
    "name": "Jordan Miller",
-   "position": "G",
+   "position": "SF",
    "twoWay": false,
    "bio": {
     "height": "6' 5\"",
@@ -373,7 +373,7 @@
   {
    "id": "dickgr01",
    "name": "Gradey Dick",
-   "position": "G",
+   "position": "SG",
    "twoWay": false,
    "bio": {
     "height": "6' 7\"",
@@ -427,7 +427,7 @@
   {
    "id": "jacksis01",
    "name": "Isaiah Jackson",
-   "position": "C-F",
+   "position": "C",
    "twoWay": false,
    "bio": {
     "height": "6' 8\"",
@@ -464,7 +464,7 @@
   {
    "id": "pickeja02",
    "name": "Jalen Pickett",
-   "position": "G",
+   "position": "SG",
    "twoWay": true,
    "bio": {
     "height": "6' 2\"",
@@ -518,7 +518,7 @@
   {
    "id": "chrisca02",
    "name": "Cam Christie",
-   "position": "G",
+   "position": "SG",
    "twoWay": true,
    "bio": {
     "height": "6' 5\"",
@@ -555,7 +555,7 @@
   {
    "id": "konanya01",
    "name": "Yanic Konan Niederhäuser",
-   "position": "F",
+   "position": "C",
    "twoWay": false,
    "bio": {
     "height": "6' 11\"",
@@ -592,7 +592,7 @@
   {
    "id": "strusma01",
    "name": "Max Strus",
-   "position": "G",
+   "position": "SF",
    "twoWay": false,
    "bio": {
     "height": "6' 5\"",
@@ -646,7 +646,7 @@
   {
    "id": "bealbr01",
    "name": "Bradley Beal",
-   "position": "G",
+   "position": "SG",
    "twoWay": false,
    "bio": {
     "height": "6' 4\"",
@@ -683,7 +683,7 @@
   {
    "id": "milleba01",
    "name": "Baba Miller",
-   "position": "F",
+   "position": "SF",
    "twoWay": false,
    "bio": {
     "height": "6' 11\"",
@@ -721,7 +721,7 @@
   {
    "id": "wagleke01",
    "name": "Keaton Wagler",
-   "position": "G",
+   "position": "SG",
    "twoWay": false,
    "bio": {
     "height": "6' 5\"",

@@ -1,7 +1,7 @@
 {
  "season": "2026-27",
  "lastSeason": "2025-26",
- "updatedAt": "2026-10-21T08:17:49.112Z",
+ "updatedAt": "2026-10-21T14:17:52.176Z",
  "teamGamesPlayed": {
   "regular": 0,
   "playoffs": 0
@@ -10,7 +10,7 @@
   {
    "id": "bridgmi02",
    "name": "Miles Bridges",
-   "position": "G-F",
+   "position": "SF",
    "twoWay": false,
    "bio": {
     "height": "6' 7\"",
@@ -47,7 +47,7 @@
   {
    "id": "gilleco01",
    "name": "Collin Gillespie",
-   "position": "G",
+   "position": "PG",
    "twoWay": false,
    "bio": {
     "height": "6' 1\"",
@@ -101,7 +101,7 @@
   {
    "id": "bookede01",
    "name": "Devin Booker",
-   "position": "G",
+   "position": "SG",
    "twoWay": false,
    "bio": {
     "height": "6' 5\"",
@@ -155,7 +155,7 @@
   {
    "id": "ighodos01",
    "name": "Oso Ighodaro",
-   "position": "F",
+   "position": "PF",
    "twoWay": false,
    "bio": {
     "height": "6' 11\"",
@@ -209,7 +209,7 @@
   {
    "id": "brookdi01",
    "name": "Dillon Brooks",
-   "position": "F-G",
+   "position": "SF",
    "twoWay": false,
    "bio": {
     "height": "6' 7\"",
@@ -263,7 +263,7 @@
   {
    "id": "kennalu01",
    "name": "Luke Kennard",
-   "position": "G",
+   "position": "SG",
    "twoWay": false,
    "bio": {
     "height": "6' 5\"",
@@ -317,7 +317,7 @@
   {
    "id": "goodwjo01",
    "name": "Jordan Goodwin",
-   "position": "G",
+   "position": "PG",
    "twoWay": false,
    "bio": {
     "height": "6' 3\"",
@@ -408,7 +408,7 @@
   {
    "id": "dunnry01",
    "name": "Ryan Dunn",
-   "position": "F",
+   "position": "SF",
    "twoWay": false,
    "bio": {
     "height": "6' 7\"",
@@ -462,7 +462,7 @@
   {
    "id": "spencpa01",
    "name": "Pat Spencer",
-   "position": "G",
+   "position": "PG",
    "twoWay": true,
    "bio": {
     "height": "6' 2\"",
@@ -499,7 +499,7 @@
   {
    "id": "greenja05",
    "name": "Jalen Green",
-   "position": "G",
+   "position": "SG",
    "twoWay": false,
    "bio": {
     "height": "6' 4\"",
@@ -552,7 +552,7 @@
   {
    "id": "flemira01",
    "name": "Rasheer Fleming",
-   "position": "F",
+   "position": "PF",
    "twoWay": false,
    "bio": {
     "height": "6' 9\"",
@@ -606,7 +606,7 @@
   {
    "id": "bouyeja01",
    "name": "Jamaree Bouyea",
-   "position": "G",
+   "position": "PG",
    "twoWay": false,
    "bio": {
     "height": "6' 2\"",
@@ -715,7 +715,7 @@
    "id": "reathdu01",
    "name": "Duop Reath",
    "position": "C",
-   "twoWay": false,
+   "twoWay": true,
    "bio": {
     "height": "6' 9\"",
     "weight": 245,
@@ -749,69 +749,37 @@
    "lastToDate": {}
   },
   {
-   "id": "breako01",
-   "name": "Koby Brea",
-   "position": "G",
+   "id": "timmedr01",
+   "name": "Drew Timme",
+   "position": "PF",
    "twoWay": true,
    "bio": {
-    "height": "6' 5\"",
-    "weight": 215,
-    "birthDate": "2002-11-06",
-    "experience": 1,
-    "college": "Dayton, Kentucky"
+    "height": "6' 10\"",
+    "weight": 235,
+    "birthDate": "2000-09-09",
+    "experience": 2,
+    "college": "Gonzaga",
+    "birthPlace": "Richardson, TX"
    },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4431695.png",
    "current": {},
    "lastFull": {
     "regular": {
-     "games": 12,
-     "started": 0,
-     "minutes": 84,
-     "points": 45,
-     "rebounds": 8,
-     "assists": 10,
-     "steals": 1,
+     "games": 27,
+     "started": 1,
+     "minutes": 235.3,
+     "points": 92,
+     "rebounds": 33,
+     "assists": 23,
+     "steals": 6,
      "blocks": 0,
-     "turnovers": 4,
-     "fgMade": 15,
-     "fgAttempted": 36,
-     "threeMade": 13,
-     "threeAttempted": 30,
-     "ftMade": 2,
-     "ftAttempted": 2
-    }
-   },
-   "lastToDate": {}
-  },
-  {
-   "id": "huntlcj01",
-   "name": "CJ Huntley",
-   "position": "F",
-   "twoWay": true,
-   "bio": {
-    "height": "6' 11\"",
-    "weight": 230,
-    "birthDate": "2002-01-06",
-    "experience": 1,
-    "college": "Appalachian State University"
-   },
-   "current": {},
-   "lastFull": {
-    "regular": {
-     "games": 4,
-     "started": 0,
-     "minutes": 40.5,
-     "points": 12,
-     "rebounds": 5,
-     "assists": 2,
-     "steals": 1,
-     "blocks": 0,
-     "turnovers": 0,
-     "fgMade": 6,
-     "fgAttempted": 11,
-     "threeMade": 0,
-     "threeAttempted": 3,
-     "ftMade": 0,
-     "ftAttempted": 0
+     "turnovers": 13,
+     "fgMade": 38,
+     "fgAttempted": 66,
+     "threeMade": 11,
+     "threeAttempted": 25,
+     "ftMade": 5,
+     "ftAttempted": 9
     }
    },
    "lastToDate": {}
@@ -819,7 +787,7 @@
   {
    "id": "peatko01",
    "name": "Koa Peat",
-   "position": "F",
+   "position": "PF",
    "twoWay": false,
    "bio": {
     "height": "6' 8\"",

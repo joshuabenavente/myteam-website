@@ -1,7 +1,7 @@
 {
  "season": "2026-27",
  "lastSeason": "2025-26",
- "updatedAt": "2026-10-21T08:17:33.321Z",
+ "updatedAt": "2026-10-21T14:17:36.728Z",
  "teamGamesPlayed": {
   "regular": 0,
   "playoffs": 0
@@ -10,7 +10,7 @@
   {
    "id": "baileac01",
    "name": "Ace Bailey",
-   "position": "G-F",
+   "position": "SF",
    "twoWay": false,
    "bio": {
     "height": "6' 9\"",
@@ -47,7 +47,7 @@
   {
    "id": "filipky01",
    "name": "Kyle Filipowski",
-   "position": "F-C",
+   "position": "C",
    "twoWay": false,
    "bio": {
     "height": "6' 11\"",
@@ -84,7 +84,7 @@
   {
    "id": "georgke01",
    "name": "Keyonte George",
-   "position": "G",
+   "position": "PG",
    "twoWay": false,
    "bio": {
     "height": "6' 4\"",
@@ -121,7 +121,7 @@
   {
    "id": "sensabr01",
    "name": "Brice Sensabaugh",
-   "position": "F",
+   "position": "SF",
    "twoWay": false,
    "bio": {
     "height": "6' 6\"",
@@ -158,7 +158,7 @@
   {
    "id": "colliis01",
    "name": "Isaiah Collier",
-   "position": "G",
+   "position": "PG",
    "twoWay": false,
    "bio": {
     "height": "6' 4\"",
@@ -195,7 +195,7 @@
   {
    "id": "jacksja02",
    "name": "Jaren Jackson Jr.",
-   "position": "F",
+   "position": "C",
    "twoWay": false,
    "bio": {
     "height": "6' 10\"",
@@ -232,7 +232,7 @@
   {
    "id": "markkla01",
    "name": "Lauri Markkanen",
-   "position": "F-C",
+   "position": "PF",
    "twoWay": false,
    "bio": {
     "height": "7' 1\"",
@@ -269,7 +269,7 @@
   {
    "id": "okogijo01",
    "name": "Josh Okogie",
-   "position": "G",
+   "position": "SG",
    "twoWay": false,
    "bio": {
     "height": "6' 4\"",
@@ -323,7 +323,7 @@
   {
    "id": "hayesja02",
    "name": "Jaxson Hayes",
-   "position": "F",
+   "position": "C",
    "twoWay": false,
    "bio": {
     "height": "7' 0\"",
@@ -377,7 +377,7 @@
   {
    "id": "mykhasv01",
    "name": "Svi Mykhailiuk",
-   "position": "G-F",
+   "position": "SF",
    "twoWay": false,
    "bio": {
     "height": "6' 7\"",
@@ -450,7 +450,7 @@
   {
    "id": "greenjo02",
    "name": "Josh Green",
-   "position": "G-F",
+   "position": "SG",
    "twoWay": false,
    "bio": {
     "height": "6' 6\"",
@@ -487,7 +487,7 @@
   {
    "id": "bradlto01",
    "name": "Tony Bradley",
-   "position": "F-C",
+   "position": "C",
    "twoWay": false,
    "bio": {
     "height": "6' 10\"",
@@ -541,7 +541,7 @@
   {
    "id": "hinsobl01",
    "name": "Blake Hinson",
-   "position": "F",
+   "position": "SF",
    "twoWay": true,
    "bio": {
     "height": "6' 8\"",
@@ -578,7 +578,7 @@
   {
    "id": "alexatr01",
    "name": "Trey Alexander",
-   "position": "G",
+   "position": "SG",
    "twoWay": true,
    "bio": {
     "height": "6' 5\"",
@@ -652,7 +652,7 @@
   {
    "id": "ingraha01",
    "name": "Harrison Ingram",
-   "position": "F",
+   "position": "SF",
    "twoWay": true,
    "bio": {
     "height": "6' 5\"",
@@ -689,7 +689,7 @@
   {
    "id": "peterda02",
    "name": "Darryn Peterson",
-   "position": "G",
+   "position": "SG",
    "twoWay": false,
    "bio": {
     "height": "6' 5\"",

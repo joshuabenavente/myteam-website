@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-21T03:17:48.731Z",
+ "updatedAt": "2026-10-21T14:17:52.304Z",
  "teams": {
   "ATL": [
    {
@@ -196,7 +196,7 @@
    {
     "name": "Taurean Prince",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Personal",
     "returnDate": "2026-10-23"
    }
@@ -391,13 +391,6 @@
   ],
   "OKC": [
    {
-    "name": "Nikola Topic",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Back (surgery)",
-    "returnDate": "2026-10-22"
-   },
-   {
     "name": "Otega Oweh",
     "status": "Out",
     "gameTimeDecision": false,
@@ -405,9 +398,16 @@
     "returnDate": "2027-07-01"
    },
    {
+    "name": "Nikola Topic",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Back (surgery)",
+    "returnDate": "2026-10-22"
+   },
+   {
     "name": "Thomas Sorber",
-    "status": "Out",
-    "gameTimeDecision": false,
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
     "reason": "Knee (surgery)",
     "returnDate": "2026-10-22"
    }
@@ -566,7 +566,7 @@
    {
     "name": "Tobias Harris",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Calf (strain)",
     "returnDate": "2026-10-23"
    }

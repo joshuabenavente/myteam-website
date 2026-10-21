@@ -1,7 +1,7 @@
 {
  "season": "2026-27",
  "lastSeason": "2025-26",
- "updatedAt": "2026-10-21T08:17:37.163Z",
+ "updatedAt": "2026-10-21T14:17:40.181Z",
  "teamGamesPlayed": {
   "regular": 0,
   "playoffs": 0
@@ -10,7 +10,7 @@
   {
    "id": "podzibr01",
    "name": "Brandin Podziemski",
-   "position": "G",
+   "position": "SG",
    "twoWay": false,
    "bio": {
     "height": "6' 4\"",
@@ -47,7 +47,7 @@
   {
    "id": "greendr01",
    "name": "Draymond Green",
-   "position": "F",
+   "position": "PF",
    "twoWay": false,
    "bio": {
     "height": "6' 6\"",
@@ -84,7 +84,7 @@
   {
    "id": "moodymo01",
    "name": "Moses Moody",
-   "position": "G",
+   "position": "SG",
    "twoWay": false,
    "bio": {
     "height": "6' 5\"",
@@ -121,7 +121,7 @@
   {
    "id": "willibr03",
    "name": "Brandon Williams",
-   "position": "G",
+   "position": "PG",
    "twoWay": false,
    "bio": {
     "height": "6' 1\"",
@@ -158,7 +158,7 @@
   {
    "id": "santogu01",
    "name": "Gui Santos",
-   "position": "F",
+   "position": "PF",
    "twoWay": false,
    "bio": {
     "height": "6' 7\"",
@@ -194,7 +194,7 @@
   {
    "id": "richawi02",
    "name": "Will Richard",
-   "position": "G",
+   "position": "SG",
    "twoWay": false,
    "bio": {
     "height": "6' 3\"",
@@ -231,7 +231,7 @@
   {
    "id": "curryst01",
    "name": "Stephen Curry",
-   "position": "G",
+   "position": "PG",
    "twoWay": false,
    "bio": {
     "height": "6' 2\"",
@@ -268,7 +268,7 @@
   {
    "id": "butleji01",
    "name": "Jimmy Butler",
-   "position": "F-G",
+   "position": "SF",
    "twoWay": false,
    "bio": {
     "height": "6' 6\"",
@@ -305,7 +305,7 @@
   {
    "id": "paytoga02",
    "name": "Gary Payton II",
-   "position": "G",
+   "position": "SG",
    "twoWay": false,
    "bio": {
     "height": "6' 2\"",
@@ -342,7 +342,7 @@
   {
    "id": "meltode01",
    "name": "De'Anthony Melton",
-   "position": "G",
+   "position": "PG",
    "twoWay": false,
    "bio": {
     "height": "6' 2\"",
@@ -379,7 +379,7 @@
   {
    "id": "horfoal01",
    "name": "Al Horford",
-   "position": "C-F",
+   "position": "C",
    "twoWay": false,
    "bio": {
     "height": "6' 8\"",
@@ -416,7 +416,7 @@
   {
    "id": "porzikr01",
    "name": "Kristaps Porziņģis",
-   "position": "C-F",
+   "position": "C",
    "twoWay": false,
    "bio": {
     "height": "7' 2\"",
@@ -452,7 +452,7 @@
   {
    "id": "cryerlj01",
    "name": "LJ Cryer",
-   "position": "G",
+   "position": "PG",
    "twoWay": true,
    "bio": {
     "height": "6' 0\"",
@@ -489,7 +489,7 @@
   {
    "id": "leonsma01",
    "name": "Malevy Leons",
-   "position": "F",
+   "position": "SF",
    "twoWay": true,
    "bio": {
     "height": "6' 9\"",
@@ -581,7 +581,7 @@
   {
    "id": "niangge01",
    "name": "Georges Niang",
-   "position": "F",
+   "position": "PF",
    "twoWay": false,
    "bio": {
     "height": "6' 6\"",
@@ -600,7 +600,7 @@
   {
    "id": "lendeya01",
    "name": "Yaxel Lendeborg",
-   "position": "F",
+   "position": "SF",
    "twoWay": false,
    "bio": {
     "height": "6' 9\"",

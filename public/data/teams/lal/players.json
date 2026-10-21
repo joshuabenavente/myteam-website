@@ -1,7 +1,7 @@
 {
  "season": "2026-27",
  "lastSeason": "2025-26",
- "updatedAt": "2026-10-21T08:17:45.133Z",
+ "updatedAt": "2026-10-21T14:17:48.180Z",
  "teamGamesPlayed": {
   "regular": 0,
   "playoffs": 0
@@ -10,7 +10,7 @@
   {
    "id": "doncilu01",
    "name": "Luka Dončić",
-   "position": "G-F",
+   "position": "PG",
    "twoWay": false,
    "bio": {
     "height": "6' 8\"",
@@ -46,7 +46,7 @@
   {
    "id": "grimequ01",
    "name": "Quentin Grimes",
-   "position": "G-F",
+   "position": "SG",
    "twoWay": false,
    "bio": {
     "height": "6' 4\"",
@@ -100,7 +100,7 @@
   {
    "id": "laravja01",
    "name": "Jake LaRavia",
-   "position": "F",
+   "position": "PF",
    "twoWay": false,
    "bio": {
     "height": "6' 7\"",
@@ -154,7 +154,7 @@
   {
    "id": "reaveau01",
    "name": "Austin Reaves",
-   "position": "G",
+   "position": "SG",
    "twoWay": false,
    "bio": {
     "height": "6' 5\"",
@@ -208,7 +208,7 @@
   {
    "id": "mamuksa01",
    "name": "Sandro Mamukelashvili",
-   "position": "C-F",
+   "position": "PF",
    "twoWay": false,
    "bio": {
     "height": "6' 9\"",
@@ -262,7 +262,7 @@
   {
    "id": "sextoco01",
    "name": "Collin Sexton",
-   "position": "G",
+   "position": "SG",
    "twoWay": false,
    "bio": {
     "height": "6' 3\"",
@@ -299,7 +299,7 @@
   {
    "id": "willizi02",
    "name": "Ziaire Williams",
-   "position": "F",
+   "position": "SF",
    "twoWay": false,
    "bio": {
     "height": "6' 9\"",
@@ -336,7 +336,7 @@
   {
    "id": "vandeja01",
    "name": "Jarred Vanderbilt",
-   "position": "F",
+   "position": "PF",
    "twoWay": false,
    "bio": {
     "height": "6' 8\"",
@@ -390,7 +390,7 @@
   {
    "id": "hardyja02",
    "name": "Jaden Hardy",
-   "position": "G",
+   "position": "SG",
    "twoWay": false,
    "bio": {
     "height": "6' 3\"",
@@ -424,60 +424,9 @@
    "lastToDate": {}
   },
   {
-   "id": "knechda01",
-   "name": "Dalton Knecht",
-   "position": "G",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 6\"",
-    "weight": 215,
-    "birthDate": "2001-04-19",
-    "experience": 2,
-    "college": "Northeastern Junior College, University of Northern Colorado, Tennessee"
-   },
-   "current": {},
-   "lastFull": {
-    "regular": {
-     "games": 54,
-     "started": 1,
-     "minutes": 553.6,
-     "points": 228,
-     "rebounds": 75,
-     "assists": 21,
-     "steals": 11,
-     "blocks": 11,
-     "turnovers": 23,
-     "fgMade": 87,
-     "fgAttempted": 191,
-     "threeMade": 38,
-     "threeAttempted": 111,
-     "ftMade": 16,
-     "ftAttempted": 22
-    },
-    "playoffs": {
-     "games": 5,
-     "started": 0,
-     "minutes": 18.1,
-     "points": 10,
-     "rebounds": 6,
-     "assists": 3,
-     "steals": 0,
-     "blocks": 0,
-     "turnovers": 1,
-     "fgMade": 3,
-     "fgAttempted": 8,
-     "threeMade": 2,
-     "threeAttempted": 5,
-     "ftMade": 2,
-     "ftAttempted": 2
-    }
-   },
-   "lastToDate": {}
-  },
-  {
    "id": "thybuma01",
    "name": "Matisse Thybulle",
-   "position": "G",
+   "position": "SG",
    "twoWay": false,
    "bio": {
     "height": "6' 5\"",
@@ -531,7 +480,7 @@
   {
    "id": "jamesbr02",
    "name": "Bronny James",
-   "position": "G",
+   "position": "SG",
    "twoWay": false,
    "bio": {
     "height": "6' 2\"",
@@ -636,7 +585,7 @@
   {
    "id": "looneke01",
    "name": "Kevon Looney",
-   "position": "F-C",
+   "position": "C",
    "twoWay": false,
    "bio": {
     "height": "6' 9\"",
@@ -710,7 +659,7 @@
   {
    "id": "thierad01",
    "name": "Adou Thiero",
-   "position": "G-F",
+   "position": "SF",
    "twoWay": false,
    "bio": {
     "height": "6' 8\"",
@@ -764,7 +713,7 @@
   {
    "id": "manonch01",
    "name": "Chris Mañon",
-   "position": "G",
+   "position": "SG",
    "twoWay": true,
    "bio": {
     "height": "6' 4\"",
@@ -801,7 +750,7 @@
   {
    "id": "carrca01",
    "name": "Cameron Carr",
-   "position": "G",
+   "position": "SG",
    "twoWay": false,
    "bio": {
     "height": "6' 5\"",
