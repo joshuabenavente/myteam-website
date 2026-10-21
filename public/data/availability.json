@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-21T00:17:50.082Z",
+ "updatedAt": "2026-10-21T01:17:50.160Z",
  "teams": {
   "ATL": [
    {
@@ -167,6 +167,13 @@
     "gameTimeDecision": false,
     "reason": "Heel",
     "returnDate": "2026-10-23"
+   },
+   {
+    "name": "Jett Howard",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Calf",
+    "returnDate": "2026-10-21"
    }
   ],
   "DEN": [
@@ -478,13 +485,6 @@
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Knee (strain)",
-    "returnDate": "2026-10-21"
-   },
-   {
-    "name": "Oso Ighodaro",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Hip (soreness)",
     "returnDate": "2026-10-21"
    }
   ],
