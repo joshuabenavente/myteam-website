@@ -1,9 +1,9 @@
 {
  "season": "2026-27",
  "lastSeason": "2025-26",
- "updatedAt": "2026-10-21T01:17:46.062Z",
+ "updatedAt": "2026-10-21T07:18:56.748Z",
  "teamGamesPlayed": {
-  "regular": 0,
+  "regular": 1,
   "playoffs": 0
  },
  "players": [
@@ -59,7 +59,25 @@
      "ftAttempted": 148
     }
    },
-   "lastToDate": {}
+   "lastToDate": {
+    "regular": {
+     "games": 1,
+     "started": 1,
+     "minutes": 47.2,
+     "points": 35,
+     "rebounds": 5,
+     "assists": 5,
+     "steals": 2,
+     "blocks": 2,
+     "turnovers": 3,
+     "fgMade": 12,
+     "fgAttempted": 26,
+     "threeMade": 1,
+     "threeAttempted": 9,
+     "ftMade": 10,
+     "ftAttempted": 14
+    }
+   }
   },
   {
    "id": "wallaca01",
@@ -113,7 +131,25 @@
      "ftAttempted": 8
     }
    },
-   "lastToDate": {}
+   "lastToDate": {
+    "regular": {
+     "games": 1,
+     "started": 1,
+     "minutes": 41.7,
+     "points": 14,
+     "rebounds": 7,
+     "assists": 5,
+     "steals": 4,
+     "blocks": 0,
+     "turnovers": 2,
+     "fgMade": 5,
+     "fgAttempted": 10,
+     "threeMade": 3,
+     "threeAttempted": 8,
+     "ftMade": 1,
+     "ftAttempted": 2
+    }
+   }
   },
   {
    "id": "holmgch01",
@@ -167,7 +203,25 @@
      "ftAttempted": 52
     }
    },
-   "lastToDate": {}
+   "lastToDate": {
+    "regular": {
+     "games": 1,
+     "started": 1,
+     "minutes": 38.5,
+     "points": 28,
+     "rebounds": 7,
+     "assists": 2,
+     "steals": 0,
+     "blocks": 0,
+     "turnovers": 3,
+     "fgMade": 11,
+     "fgAttempted": 17,
+     "threeMade": 2,
+     "threeAttempted": 5,
+     "ftMade": 4,
+     "ftAttempted": 4
+    }
+   }
   },
   {
    "id": "mitchaj01",
@@ -221,7 +275,25 @@
      "ftAttempted": 30
     }
    },
-   "lastToDate": {}
+   "lastToDate": {
+    "regular": {
+     "games": 1,
+     "started": 0,
+     "minutes": 14.6,
+     "points": 16,
+     "rebounds": 2,
+     "assists": 2,
+     "steals": 0,
+     "blocks": 1,
+     "turnovers": 0,
+     "fgMade": 6,
+     "fgAttempted": 12,
+     "threeMade": 3,
+     "threeAttempted": 6,
+     "ftMade": 1,
+     "ftAttempted": 1
+    }
+   }
   },
   {
    "id": "willija07",
@@ -275,7 +347,25 @@
      "ftAttempted": 6
     }
    },
-   "lastToDate": {}
+   "lastToDate": {
+    "regular": {
+     "games": 1,
+     "started": 0,
+     "minutes": 12.9,
+     "points": 2,
+     "rebounds": 0,
+     "assists": 1,
+     "steals": 1,
+     "blocks": 0,
+     "turnovers": 0,
+     "fgMade": 1,
+     "fgAttempted": 5,
+     "threeMade": 0,
+     "threeAttempted": 4,
+     "ftMade": 0,
+     "ftAttempted": 0
+    }
+   }
   },
   {
    "id": "mccaija01",
@@ -382,7 +472,25 @@
      "ftAttempted": 30
     }
    },
-   "lastToDate": {}
+   "lastToDate": {
+    "regular": {
+     "games": 1,
+     "started": 1,
+     "minutes": 36.9,
+     "points": 6,
+     "rebounds": 8,
+     "assists": 5,
+     "steals": 2,
+     "blocks": 0,
+     "turnovers": 1,
+     "fgMade": 2,
+     "fgAttempted": 5,
+     "threeMade": 0,
+     "threeAttempted": 1,
+     "ftMade": 2,
+     "ftAttempted": 2
+    }
+   }
   },
   {
    "id": "carusal01",
@@ -436,7 +544,25 @@
      "ftAttempted": 27
     }
    },
-   "lastToDate": {}
+   "lastToDate": {
+    "regular": {
+     "games": 1,
+     "started": 0,
+     "minutes": 30.2,
+     "points": 8,
+     "rebounds": 2,
+     "assists": 3,
+     "steals": 2,
+     "blocks": 1,
+     "turnovers": 0,
+     "fgMade": 3,
+     "fgAttempted": 9,
+     "threeMade": 2,
+     "threeAttempted": 6,
+     "ftMade": 0,
+     "ftAttempted": 0
+    }
+   }
   },
   {
    "id": "willija06",
@@ -581,7 +707,25 @@
      "ftAttempted": 10
     }
    },
-   "lastToDate": {}
+   "lastToDate": {
+    "regular": {
+     "games": 1,
+     "started": 0,
+     "minutes": 2.3,
+     "points": 0,
+     "rebounds": 0,
+     "assists": 0,
+     "steals": 0,
+     "blocks": 0,
+     "turnovers": 0,
+     "fgMade": 0,
+     "fgAttempted": 0,
+     "threeMade": 0,
+     "threeAttempted": 0,
+     "ftMade": 0,
+     "ftAttempted": 0
+    }
+   }
   },
   {
    "id": "topicni01",
