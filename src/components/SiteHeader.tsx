@@ -17,6 +17,7 @@ import { Icon } from './Icon.tsx'
 import { LiveAnnouncer, LivePill } from './LivePill.tsx'
 import { MiniBar } from './MiniBar.tsx'
 import { TeamLogo } from './TeamLogo.tsx'
+import { GradientControls } from './GradientControls.tsx'
 
 /** Injury chips per team; the rest are behind "+N more". */
 const CHIPS_PER_TEAM = 2
@@ -63,14 +64,22 @@ export function SiteHeader({ route, data, timeZone, onShowGame }: Props) {
     <>
       <header
         ref={headerRef}
-        className={`site-header cards ${full ? 'full' : roster ? 'page' : 'compact'}`}
+        data-team={team.abbr}
+        className={`site-header cards ${full || roster ? 'team-atmosphere ' : ''}${full ? 'full' : roster ? 'page' : 'compact'}`}
       >
+        {(full || roster) && (
+          <div className="header-atmosphere" aria-hidden="true">
+            <span className="atmosphere-cloud cloud-main" />
+            <span className="atmosphere-cloud cloud-light" />
+            <span className="atmosphere-cloud cloud-accent" />
+          </div>
+        )}
         <div className="header-inner">
           <div className="header-top">
             <a className="brand" href={routeHref({ page: 'games' })}>
-              {/* The wordmark on wide screens; the icon on phones, leaving the team pill room for the full name. */}
-              <Wordmark height={30} className="brand-wide" decorative />
+              {/* Icon and wordmark on wide screens; just the icon on phones. */}
               <BrandIcon size={36} glass className="brand-narrow" />
+              <Wordmark height={30} className="brand-wide" decorative />
               <span className="sr-only">myteam.fans, {team.fullName} home</span>
             </a>
             <div className="header-actions">
@@ -94,6 +103,9 @@ export function SiteHeader({ route, data, timeZone, onShowGame }: Props) {
 
         </div>
       </header>
+      {(full || roster) && new URLSearchParams(window.location.search).get('tune') === '1' && (
+        <GradientControls headerRef={headerRef} team={team.abbr} color={team.theme.mid} accent={team.theme.accent} />
+      )}
       <MiniBar headerRef={headerRef} route={route} data={data} timeZone={timeZone} />
     </>
   )

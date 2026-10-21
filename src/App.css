@@ -1,3 +1,45 @@
+/* Preview-only gradient controls, enabled with ?tune=1. */
+.gradient-tuner {
+  position: fixed;
+  z-index: 100;
+  right: max(16px, env(safe-area-inset-right));
+  bottom: max(16px, env(safe-area-inset-bottom));
+  width: min(310px, calc(100vw - 32px));
+  color: #f4f4f5;
+  font-size: 14px;
+  color-scheme: dark;
+}
+.gradient-tuner button {
+  min-height: 44px;
+  border: 1px solid #595b63;
+  border-radius: 8px;
+  padding: 8px 12px;
+  background: #25272e;
+  color: #fff;
+  cursor: pointer;
+}
+.gradient-tuner-toggle { width: 100%; }
+.gradient-tuner-panel {
+  max-height: min(65vh, 620px);
+  overflow-y: auto;
+  padding: 18px;
+  margin-top: 8px;
+  border: 1px solid #595b63;
+  border-radius: 12px;
+  background: #181a20;
+  box-shadow: 0 8px 32px #0006;
+}
+.gradient-tuner-panel p { margin: 8px 0 14px; color: #bfc2cc; font-size: 12px; }
+.gradient-tuner-panel label { display: block; margin-top: 12px; }
+.gradient-tuner-panel label > span { display: flex; justify-content: space-between; gap: 8px; }
+.gradient-tuner-panel output { font-variant-numeric: tabular-nums; color: #d0d3df; }
+.gradient-tuner-panel input[type='range'] { width: 100%; min-height: 32px; accent-color: #a6b8fc; }
+.gradient-tuner-panel .gradient-color { display: flex; align-items: center; justify-content: space-between; min-height: 44px; }
+.gradient-tuner-panel input[type='color'] { width: 56px; height: 36px; }
+.gradient-tuner-panel .gradient-pause { display: flex; gap: 8px; align-items: center; min-height: 44px; }
+.gradient-tuner-actions { display: flex; gap: 8px; margin-top: 12px; }
+.gradient-tuner-panel textarea { width: 100%; box-sizing: border-box; margin-top: 8px; background: #101116; color: #fff; border: 1px solid #595b63; }
+
 /* Header: navy gradient with a gold glow and faint ridges. The Games page shows the next game;
    other pages get the compact version (brand row and page switcher). */
 
@@ -27,6 +69,107 @@
   max-width: 1100px;
   margin: 0 auto;
   padding: 28px 16px 86px;
+}
+
+/* Independent, overlapping color fields stretch and drift behind a fixed veil.
+   Grain and text stay still; only the decorative fields are animated. */
+.site-header.team-atmosphere {
+  --atmosphere-color: var(--skyline);
+  isolation: isolate;
+  background: var(--midnight);
+}
+
+.team-atmosphere[data-team='DEN'] { --atmosphere-color: #245fe5; }
+.team-atmosphere[data-team='BOS'] { --atmosphere-color: #009b65; }
+.team-atmosphere[data-team='LAL'] { --atmosphere-color: #823dd6; }
+
+.header-atmosphere,
+.site-header.team-atmosphere::after {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.header-atmosphere {
+  overflow: hidden;
+  filter: brightness(var(--atmosphere-strength, 1));
+}
+
+.header-atmosphere::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: url('/textures/header-grain.svg');
+  opacity: var(--atmosphere-grain, 0.13);
+}
+
+.atmosphere-cloud {
+  position: absolute;
+  display: block;
+  width: calc(85% * var(--atmosphere-spread, 1));
+  height: calc(140% * var(--atmosphere-spread, 1));
+  right: -20%;
+  top: -30%;
+  border-radius: 43% 57% 65% 35% / 55% 38% 62% 45%;
+  filter: blur(26px);
+  background: radial-gradient(ellipse, var(--atmosphere-color) 8%, transparent 68%);
+  transform: translate3d(0, 0, 0) rotate(-14deg);
+}
+
+.cloud-main {
+  right: -8%;
+  top: -18%;
+  background: radial-gradient(ellipse, var(--atmosphere-color) 22%, transparent 70%);
+}
+
+.cloud-light {
+  width: calc(65% * var(--atmosphere-spread, 1));
+  height: calc(105% * var(--atmosphere-spread, 1));
+  right: -10%;
+  top: -50%;
+  background: radial-gradient(ellipse, color-mix(in srgb, var(--atmosphere-color) 65%, #fff) 5%, transparent 68%);
+  opacity: 0.8;
+}
+
+.cloud-accent {
+  width: calc(48% * var(--atmosphere-spread, 1));
+  height: calc(90% * var(--atmosphere-spread, 1));
+  right: -25%;
+  top: -48%;
+  background: radial-gradient(ellipse, var(--atmosphere-accent, var(--sunshine)) 8%, transparent 67%);
+  opacity: 0.6;
+}
+
+.site-header.team-atmosphere::after {
+  content: '';
+  background:
+    linear-gradient(to top, var(--midnight), transparent 55%),
+    linear-gradient(90deg, color-mix(in srgb, var(--midnight) 88%, transparent), color-mix(in srgb, var(--midnight) 35%, transparent) 48%, transparent 85%);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .cloud-main {
+    animation: atmosphere-flow calc(23s * var(--atmosphere-tempo, 1)) ease-in-out infinite alternate;
+  }
+  .cloud-light {
+    animation: atmosphere-flow calc(31s * var(--atmosphere-tempo, 1)) ease-in-out -12s infinite alternate-reverse;
+  }
+  .cloud-accent {
+    animation: atmosphere-flow calc(37s * var(--atmosphere-tempo, 1)) ease-in-out -7s infinite alternate;
+  }
+  .team-atmosphere .atmosphere-cloud {
+    animation-play-state: var(--atmosphere-play, running);
+  }
+}
+
+@keyframes atmosphere-flow {
+  50% {
+    transform: translate3d(calc(-5% * var(--atmosphere-drift, 1)), calc(5% * var(--atmosphere-drift, 1)), 0) rotate(calc(-14deg + 18deg * var(--atmosphere-drift, 1))) scale(calc(1 + 0.08 * var(--atmosphere-drift, 1)), calc(1 - 0.08 * var(--atmosphere-drift, 1)));
+  }
+  to {
+    transform: translate3d(calc(4% * var(--atmosphere-drift, 1)), calc(9% * var(--atmosphere-drift, 1)), 0) rotate(calc(-14deg + 27deg * var(--atmosphere-drift, 1))) scale(calc(1 - 0.06 * var(--atmosphere-drift, 1)), calc(1 + 0.12 * var(--atmosphere-drift, 1)));
+  }
 }
 
 .site-header.full .header-inner {
@@ -85,6 +228,13 @@
   gap: 8px;
 }
 
+.team-pill,
+.page-nav {
+  background: color-mix(in srgb, var(--midnight) 72%, transparent);
+  backdrop-filter: blur(6px);
+  box-shadow: inset 0 0 0 1px rgb(255 255 255 / 10%);
+}
+
 .team-pill {
   display: inline-flex;
   min-width: 0;
@@ -93,7 +243,7 @@
   min-height: 40px;
   padding: 0 12px 0 6px;
   border-radius: 999px;
-  border: 1px solid rgb(255 255 255 / 24%);
+  border: 1px solid transparent;
   color: #fff;
   font-weight: 700;
   white-space: nowrap;
@@ -103,7 +253,9 @@
 /* Only where there's a pointer: phones keep a tapped link "hovered". */
 @media (hover: hover) {
   .team-pill:hover {
-    background: rgb(255 255 255 / 10%);
+    background:
+      linear-gradient(rgb(255 255 255 / 8%), rgb(255 255 255 / 8%)),
+      color-mix(in srgb, var(--midnight) 72%, transparent);
   }
 }
 
@@ -122,7 +274,10 @@
   color: #fff;
 }
 
-.footer-wordmark {
+.footer-brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
   margin-bottom: 10px;
 }
 
@@ -132,7 +287,7 @@
 }
 
 .brand-narrow {
-  display: none;
+  display: block;
 }
 
 .brand {
@@ -296,10 +451,7 @@ button.hero-chip:hover {
   height: 52px;
   padding: 4px;
   box-sizing: border-box;
-  box-shadow: inset 0 0 0 1px rgb(255 255 255 / 10%);
   border-radius: 999px;
-  background: color-mix(in srgb, var(--midnight) 72%, transparent);
-  backdrop-filter: blur(6px);
 }
 
 .page-nav a {
@@ -2061,57 +2213,6 @@ main {
   margin-bottom: 0;
 }
 
-.channel-guide {
-  font-size: 0.85rem;
-  color: var(--muted);
-}
-
-.channel-guide summary {
-  text-decoration: underline;
-  text-underline-offset: 3px;
-  cursor: pointer;
-  min-height: 40px;
-  display: flex;
-  align-items: center;
-  color: var(--skyline-text);
-}
-
-.channel-guide[open] {
-  flex-basis: 100%;
-  padding: 4px 12px 12px;
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: var(--radius-card);
-}
-
-.channel-guide p {
-  margin: 4px 0 8px;
-}
-
-.channel-guide .chip {
-  display: inline-flex;
-}
-
-.channel-guide dl {
-  display: grid;
-  grid-template-columns: auto 1fr;
-  gap: 4px 12px;
-  margin: 0;
-}
-
-.channel-guide dl div {
-  display: contents;
-}
-
-.channel-guide dt {
-  font-weight: var(--w-strong);
-  color: var(--text);
-}
-
-.channel-guide dd {
-  margin: 0;
-}
-
 .tbd-note {
   margin: 0 0 8px;
   padding: 10px 14px;
@@ -2882,14 +2983,6 @@ main:focus {
 
 .show-all:hover {
   background: var(--hover);
-}
-
-.channel-guide h3 {
-  margin: 12px 0 6px;
-  font-size: 0.75rem;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: var(--muted);
 }
 
 /* --- sticky mini bar (shown once the header scrolls away) --- */

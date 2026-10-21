@@ -1,8 +1,7 @@
 import { useState } from 'react'
-import { channelsFor } from '../lib/channels.ts'
 import { formatGameDate, groupByMonth } from '../lib/format.ts'
 import type { AppData } from '../lib/data.ts'
-import { possessive, useTeam } from '../lib/team.ts'
+import { useTeam } from '../lib/team.ts'
 import { TEAMS_BY_ABBR } from '../lib/teams.ts'
 import type { PastGame } from '../lib/types.ts'
 import { unscheduledGames } from '../lib/availability.ts'
@@ -17,42 +16,6 @@ export function TbdNote({ count }: { count: number }) {
       </strong>{' '}
       — the NBA sets them after NBA Cup group play in early December.
     </p>
-  )
-}
-
-/** Explains the channel names and the local/national styling. */
-function ChannelGuide({ data }: { data: AppData }) {
-  const team = useTeam()
-  const explained = { local: new Map<string, string>(), national: new Map<string, string>() }
-  for (const g of data.schedule.games) {
-    for (const c of channelsFor(g.broadcasts)) if (c.explain) explained[c.scope].set(c.label, c.explain)
-  }
-  const list = (m: Map<string, string>) => (
-    <dl>
-      {[...m].map(([label, explain]) => (
-        <div key={label}>
-          <dt>{label}</dt>
-          <dd>{explain}</dd>
-        </div>
-      ))}
-    </dl>
-  )
-  return (
-    <details className="channel-guide">
-      <summary>What do the channels mean?</summary>
-      <p>
-        <span className="chip local">Filled</span> channels are the {possessive(team.name)} local broadcasts;{' '}
-        <span className="chip national">outlined</span> ones are national and available everywhere.
-      </p>
-      <h3>Local</h3>
-      {list(explained.local)}
-      {explained.national.size > 0 && (
-        <>
-          <h3>National</h3>
-          {list(explained.national)}
-        </>
-      )}
-    </details>
   )
 }
 
@@ -137,7 +100,6 @@ export function GamesList({ data, timeZone, focusId }: Props) {
             </button>
           </div>
         )}
-        <ChannelGuide data={data} />
       </div>
 
       {showingLast ? (

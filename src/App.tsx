@@ -140,7 +140,7 @@ function TeamSite({ route, team }: { route: Extract<Route, { team: string }>; te
         )}
       </main>
 
-      {data && <SiteFooter updatedAt={data.meta.updatedAt} />}
+      {data && <SiteFooter />}
     </LiveContext.Provider>
   )
 }
