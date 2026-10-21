@@ -39,6 +39,7 @@
 .gradient-tuner-panel .gradient-pause { display: flex; gap: 8px; align-items: center; min-height: 44px; }
 .gradient-tuner-actions { display: flex; gap: 8px; margin-top: 12px; }
 .gradient-tuner-panel textarea { width: 100%; box-sizing: border-box; margin-top: 8px; background: #101116; color: #fff; border: 1px solid #595b63; }
+.gradient-tuner-panel select { width: 100%; min-height: 44px; margin-top: 8px; padding: 8px; border: 1px solid #595b63; border-radius: 8px; background: #25272e; color: #fff; font: inherit; }
 
 /* Header: navy gradient with a gold glow and faint ridges. The Games page shows the next game;
    other pages get the compact version (brand row and page switcher). */
@@ -75,13 +76,18 @@
    Grain and text stay still; only the decorative fields are animated. */
 .site-header.team-atmosphere {
   --atmosphere-color: var(--skyline);
+  --atmosphere-drift: 1.3;
+  --atmosphere-grain: 0.2;
   isolation: isolate;
   background: var(--midnight);
 }
 
 .team-atmosphere[data-team='DEN'] { --atmosphere-color: #245fe5; }
 .team-atmosphere[data-team='BOS'] { --atmosphere-color: #009b65; }
-.team-atmosphere[data-team='LAL'] { --atmosphere-color: #823dd6; }
+.team-atmosphere[data-team='LAL'] {
+  --atmosphere-color: #823dd6;
+  --atmosphere-accent: #fdb927;
+}
 
 .header-atmosphere,
 .site-header.team-atmosphere::after {
@@ -140,6 +146,39 @@
   background: radial-gradient(ellipse, var(--atmosphere-accent, var(--sunshine)) 8%, transparent 67%);
   opacity: 0.6;
 }
+
+/* Pattern geometry is independent of motion, so every preset also works paused. */
+[data-gradient-pattern='ribbons'] .atmosphere-cloud {
+  width: calc(130% * var(--atmosphere-spread, 1));
+  height: calc(40% * var(--atmosphere-spread, 1));
+  right: -30%;
+  filter: blur(18px);
+  rotate: -12deg;
+}
+[data-gradient-pattern='ribbons'] .cloud-main { top: 16%; }
+[data-gradient-pattern='ribbons'] .cloud-light { top: -16%; right: -14%; }
+[data-gradient-pattern='ribbons'] .cloud-accent { top: 52%; right: -55%; }
+
+[data-gradient-pattern='pools'] .atmosphere-cloud {
+  width: calc(53% * var(--atmosphere-spread, 1));
+  height: calc(100% * var(--atmosphere-spread, 1));
+  border-radius: 50%;
+  filter: blur(20px);
+}
+[data-gradient-pattern='pools'] .cloud-main { top: 14%; right: 8%; }
+[data-gradient-pattern='pools'] .cloud-light { top: -52%; right: 22%; }
+[data-gradient-pattern='pools'] .cloud-accent { top: -12%; right: -27%; }
+
+[data-gradient-pattern='diagonal'] .atmosphere-cloud {
+  width: calc(140% * var(--atmosphere-spread, 1));
+  height: calc(65% * var(--atmosphere-spread, 1));
+  right: -55%;
+  rotate: -28deg;
+  filter: blur(24px);
+}
+[data-gradient-pattern='diagonal'] .cloud-main { top: 18%; }
+[data-gradient-pattern='diagonal'] .cloud-light { top: -22%; right: -28%; }
+[data-gradient-pattern='diagonal'] .cloud-accent { top: 62%; right: -62%; }
 
 .site-header.team-atmosphere::after {
   content: '';

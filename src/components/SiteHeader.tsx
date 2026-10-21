@@ -65,6 +65,7 @@ export function SiteHeader({ route, data, timeZone, onShowGame }: Props) {
       <header
         ref={headerRef}
         data-team={team.abbr}
+        data-gradient-pattern="ribbons"
         className={`site-header cards ${full || roster ? 'team-atmosphere ' : ''}${full ? 'full' : roster ? 'page' : 'compact'}`}
       >
         {(full || roster) && (
