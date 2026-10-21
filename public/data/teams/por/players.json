@@ -1,7 +1,7 @@
 {
  "season": "2026-27",
  "lastSeason": "2025-26",
- "updatedAt": "2026-10-21T07:19:00.896Z",
+ "updatedAt": "2026-10-21T13:19:01.886Z",
  "teamGamesPlayed": {
   "regular": 0,
   "playoffs": 0
@@ -10,7 +10,7 @@
   {
    "id": "camarto01",
    "name": "Toumani Camara",
-   "position": "F",
+   "position": "PF",
    "twoWay": false,
    "bio": {
     "height": "6' 7\"",
@@ -64,7 +64,7 @@
   {
    "id": "avdijde01",
    "name": "Deni Avdija",
-   "position": "G-F",
+   "position": "SF",
    "twoWay": false,
    "bio": {
     "height": "6' 8\"",
@@ -171,7 +171,7 @@
   {
    "id": "holidjr01",
    "name": "Jrue Holiday",
-   "position": "G",
+   "position": "PG",
    "twoWay": false,
    "bio": {
     "height": "6' 4\"",
@@ -225,7 +225,7 @@
   {
    "id": "sharpsh01",
    "name": "Shaedon Sharpe",
-   "position": "G",
+   "position": "SG",
    "twoWay": false,
    "bio": {
     "height": "6' 5\"",
@@ -279,7 +279,7 @@
   {
    "id": "cissosi01",
    "name": "Sidy Cissoko",
-   "position": "G",
+   "position": "SF",
    "twoWay": false,
    "bio": {
     "height": "6' 6\"",
@@ -332,7 +332,7 @@
   {
    "id": "krejcvi01",
    "name": "Vít Krejčí",
-   "position": "G",
+   "position": "PG",
    "twoWay": false,
    "bio": {
     "height": "6' 8\"",
@@ -385,7 +385,7 @@
   {
    "id": "williro04",
    "name": "Robert Williams",
-   "position": "C-F",
+   "position": "C",
    "twoWay": false,
    "bio": {
     "height": "6' 9\"",
@@ -476,7 +476,7 @@
   {
    "id": "hendesc01",
    "name": "Scoot Henderson",
-   "position": "G",
+   "position": "PG",
    "twoWay": false,
    "bio": {
     "height": "6' 3\"",
@@ -529,7 +529,7 @@
   {
    "id": "moranja01",
    "name": "Ja Morant",
-   "position": "G",
+   "position": "PG",
    "twoWay": false,
    "bio": {
     "height": "6' 2\"",
@@ -655,7 +655,7 @@
   {
    "id": "youngch01",
    "name": "Chris Youngblood",
-   "position": "G",
+   "position": "SG",
    "twoWay": true,
    "bio": {
     "height": "6' 4\"",
@@ -692,7 +692,7 @@
   {
    "id": "tonjejo01",
    "name": "John Tonje",
-   "position": "G",
+   "position": "SG",
    "twoWay": true,
    "bio": {
     "height": "6' 5\"",
@@ -729,7 +729,7 @@
   {
    "id": "kentja01",
    "name": "Jayson Kent",
-   "position": "F",
+   "position": "SF",
    "twoWay": true,
    "bio": {
     "height": "6' 8\"",
@@ -766,7 +766,7 @@
   {
    "id": "lillada01",
    "name": "Damian Lillard",
-   "position": "G",
+   "position": "PG",
    "twoWay": false,
    "bio": {
     "height": "6' 2\"",

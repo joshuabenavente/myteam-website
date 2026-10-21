@@ -1,7 +1,7 @@
 {
  "season": "2026-27",
  "lastSeason": "2025-26",
- "updatedAt": "2026-10-21T07:18:56.748Z",
+ "updatedAt": "2026-10-21T13:18:57.705Z",
  "teamGamesPlayed": {
   "regular": 1,
   "playoffs": 0
@@ -10,7 +10,8 @@
   {
    "id": "gilgesh01",
    "name": "Shai Gilgeous-Alexander",
-   "position": "G",
+   "number": "2",
+   "position": "PG",
    "twoWay": false,
    "bio": {
     "height": "6' 6\"",
@@ -20,9 +21,26 @@
     "college": "Kentucky",
     "birthPlace": "Toronto, ON"
    },
-   "number": "2",
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4278073.png",
-   "current": {},
+   "current": {
+    "regular": {
+     "games": 1,
+     "started": 1,
+     "minutes": 36.1,
+     "points": 32,
+     "rebounds": 6,
+     "assists": 4,
+     "steals": 3,
+     "blocks": 3,
+     "turnovers": 2,
+     "fgMade": 13,
+     "fgAttempted": 27,
+     "threeMade": 3,
+     "threeAttempted": 7,
+     "ftMade": 3,
+     "ftAttempted": 4
+    }
+   },
    "lastFull": {
     "regular": {
      "games": 68,
@@ -80,81 +98,10 @@
    }
   },
   {
-   "id": "wallaca01",
-   "name": "Cason Wallace",
-   "position": "G",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 3\"",
-    "weight": 195,
-    "birthDate": "2003-11-07",
-    "experience": 3,
-    "college": "Kentucky",
-    "birthPlace": "Dallas, TX"
-   },
-   "number": "22",
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4683692.png",
-   "current": {},
-   "lastFull": {
-    "regular": {
-     "games": 77,
-     "started": 58,
-     "minutes": 2047.1,
-     "points": 660,
-     "rebounds": 238,
-     "assists": 200,
-     "steals": 150,
-     "blocks": 28,
-     "turnovers": 73,
-     "fgMade": 252,
-     "fgAttempted": 584,
-     "threeMade": 101,
-     "threeAttempted": 288,
-     "ftMade": 55,
-     "ftAttempted": 68
-    },
-    "playoffs": {
-     "games": 15,
-     "started": 2,
-     "minutes": 374.4,
-     "points": 129,
-     "rebounds": 57,
-     "assists": 36,
-     "steals": 32,
-     "blocks": 7,
-     "turnovers": 11,
-     "fgMade": 46,
-     "fgAttempted": 96,
-     "threeMade": 30,
-     "threeAttempted": 62,
-     "ftMade": 7,
-     "ftAttempted": 8
-    }
-   },
-   "lastToDate": {
-    "regular": {
-     "games": 1,
-     "started": 1,
-     "minutes": 41.7,
-     "points": 14,
-     "rebounds": 7,
-     "assists": 5,
-     "steals": 4,
-     "blocks": 0,
-     "turnovers": 2,
-     "fgMade": 5,
-     "fgAttempted": 10,
-     "threeMade": 3,
-     "threeAttempted": 8,
-     "ftMade": 1,
-     "ftAttempted": 2
-    }
-   }
-  },
-  {
    "id": "holmgch01",
    "name": "Chet Holmgren",
-   "position": "F-C",
+   "number": "7",
+   "position": "C",
    "twoWay": false,
    "bio": {
     "height": "7' 1\"",
@@ -164,9 +111,26 @@
     "college": "Gonzaga",
     "birthPlace": "Minneapolis, MN"
    },
-   "number": "7",
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4433255.png",
-   "current": {},
+   "current": {
+    "regular": {
+     "games": 1,
+     "started": 1,
+     "minutes": 30.5,
+     "points": 14,
+     "rebounds": 7,
+     "assists": 2,
+     "steals": 0,
+     "blocks": 4,
+     "turnovers": 1,
+     "fgMade": 3,
+     "fgAttempted": 8,
+     "threeMade": 0,
+     "threeAttempted": 1,
+     "ftMade": 8,
+     "ftAttempted": 8
+    }
+   },
    "lastFull": {
     "regular": {
      "games": 69,
@@ -224,278 +188,82 @@
    }
   },
   {
-   "id": "mitchaj01",
-   "name": "Ajay Mitchell",
-   "position": "G",
+   "id": "willija06",
+   "name": "Jalen Williams",
+   "number": "8",
+   "position": "SG",
    "twoWay": false,
    "bio": {
-    "height": "6' 4\"",
-    "weight": 190,
-    "birthDate": "2002-06-25",
-    "experience": 2,
-    "college": "UC Santa Barbara",
-    "birthPlace": "Liege, Belgium"
-   },
-   "number": "25",
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4900671.png",
-   "current": {},
-   "lastFull": {
-    "regular": {
-     "games": 57,
-     "started": 16,
-     "minutes": 1473.5,
-     "points": 774,
-     "rebounds": 190,
-     "assists": 206,
-     "steals": 71,
-     "blocks": 18,
-     "turnovers": 81,
-     "fgMade": 286,
-     "fgAttempted": 590,
-     "threeMade": 61,
-     "threeAttempted": 176,
-     "ftMade": 141,
-     "ftAttempted": 162
-    },
-    "playoffs": {
-     "games": 11,
-     "started": 7,
-     "minutes": 316.7,
-     "points": 166,
-     "rebounds": 41,
-     "assists": 47,
-     "steals": 17,
-     "blocks": 1,
-     "turnovers": 15,
-     "fgMade": 63,
-     "fgAttempted": 137,
-     "threeMade": 13,
-     "threeAttempted": 40,
-     "ftMade": 27,
-     "ftAttempted": 30
-    }
-   },
-   "lastToDate": {
-    "regular": {
-     "games": 1,
-     "started": 0,
-     "minutes": 14.6,
-     "points": 16,
-     "rebounds": 2,
-     "assists": 2,
-     "steals": 0,
-     "blocks": 1,
-     "turnovers": 0,
-     "fgMade": 6,
-     "fgAttempted": 12,
-     "threeMade": 3,
-     "threeAttempted": 6,
-     "ftMade": 1,
-     "ftAttempted": 1
-    }
-   }
-  },
-  {
-   "id": "willija07",
-   "name": "Jaylin Williams",
-   "position": "F",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 9\"",
-    "weight": 240,
-    "birthDate": "2002-06-29",
+    "height": "6' 5\"",
+    "weight": 211,
+    "birthDate": "2001-04-14",
     "experience": 4,
-    "college": "Arkansas",
-    "birthPlace": "Fort Smith, AR"
+    "college": "Santa Clara",
+    "birthPlace": "Gilbert, AZ"
    },
-   "number": "6",
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4432823.png",
-   "current": {},
-   "lastFull": {
-    "regular": {
-     "games": 65,
-     "started": 11,
-     "minutes": 1278.2,
-     "points": 469,
-     "rebounds": 358,
-     "assists": 158,
-     "steals": 31,
-     "blocks": 42,
-     "turnovers": 67,
-     "fgMade": 149,
-     "fgAttempted": 352,
-     "threeMade": 98,
-     "threeAttempted": 256,
-     "ftMade": 73,
-     "ftAttempted": 92
-    },
-    "playoffs": {
-     "games": 15,
-     "started": 0,
-     "minutes": 240.2,
-     "points": 74,
-     "rebounds": 62,
-     "assists": 22,
-     "steals": 8,
-     "blocks": 3,
-     "turnovers": 6,
-     "fgMade": 26,
-     "fgAttempted": 65,
-     "threeMade": 18,
-     "threeAttempted": 50,
-     "ftMade": 4,
-     "ftAttempted": 6
-    }
-   },
-   "lastToDate": {
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4593803.png",
+   "current": {
     "regular": {
      "games": 1,
-     "started": 0,
-     "minutes": 12.9,
-     "points": 2,
-     "rebounds": 0,
-     "assists": 1,
+     "started": 1,
+     "minutes": 29.9,
+     "points": 12,
+     "rebounds": 7,
+     "assists": 2,
      "steals": 1,
-     "blocks": 0,
+     "blocks": 1,
      "turnovers": 0,
-     "fgMade": 1,
-     "fgAttempted": 5,
-     "threeMade": 0,
-     "threeAttempted": 4,
-     "ftMade": 0,
-     "ftAttempted": 0
+     "fgMade": 5,
+     "fgAttempted": 16,
+     "threeMade": 1,
+     "threeAttempted": 2,
+     "ftMade": 1,
+     "ftAttempted": 2
     }
-   }
-  },
-  {
-   "id": "mccaija01",
-   "name": "Jared McCain",
-   "position": "G",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 3\"",
-    "weight": 195,
-    "birthDate": "2004-02-20",
-    "experience": 2,
-    "college": "Duke",
-    "birthPlace": "Sacramento, CA"
    },
-   "number": "3",
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4683778.png",
-   "current": {},
    "lastFull": {
     "regular": {
-     "games": 67,
-     "started": 3,
-     "minutes": 1159.9,
-     "points": 558,
-     "rebounds": 137,
-     "assists": 90,
-     "steals": 35,
-     "blocks": 5,
-     "turnovers": 56,
-     "fgMade": 204,
-     "fgAttempted": 480,
-     "threeMade": 99,
-     "threeAttempted": 257,
-     "ftMade": 51,
-     "ftAttempted": 59
+     "games": 33,
+     "started": 33,
+     "minutes": 936.3,
+     "points": 563,
+     "rebounds": 152,
+     "assists": 181,
+     "steals": 39,
+     "blocks": 9,
+     "turnovers": 63,
+     "fgMade": 216,
+     "fgAttempted": 446,
+     "threeMade": 23,
+     "threeAttempted": 77,
+     "ftMade": 108,
+     "ftAttempted": 129
     },
     "playoffs": {
-     "games": 15,
-     "started": 2,
-     "minutes": 258.4,
-     "points": 150,
-     "rebounds": 28,
-     "assists": 15,
+     "games": 5,
+     "started": 4,
+     "minutes": 107.2,
+     "points": 72,
+     "rebounds": 16,
+     "assists": 14,
      "steals": 5,
-     "blocks": 0,
-     "turnovers": 11,
-     "fgMade": 56,
-     "fgAttempted": 136,
-     "threeMade": 26,
-     "threeAttempted": 70,
-     "ftMade": 12,
-     "ftAttempted": 15
+     "blocks": 2,
+     "turnovers": 6,
+     "fgMade": 29,
+     "fgAttempted": 56,
+     "threeMade": 5,
+     "threeAttempted": 12,
+     "ftMade": 9,
+     "ftAttempted": 12
     }
    },
    "lastToDate": {}
   },
   {
-   "id": "harteis01",
-   "name": "Isaiah Hartenstein",
-   "position": "C-F",
-   "twoWay": false,
-   "bio": {
-    "height": "7' 0\"",
-    "weight": 250,
-    "birthDate": "1998-05-05",
-    "experience": 8,
-    "birthPlace": "Eugene, OR"
-   },
-   "number": "55",
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4222252.png",
-   "current": {},
-   "lastFull": {
-    "regular": {
-     "games": 47,
-     "started": 46,
-     "minutes": 1137.6,
-     "points": 432,
-     "rebounds": 443,
-     "assists": 166,
-     "steals": 48,
-     "blocks": 36,
-     "turnovers": 82,
-     "fgMade": 184,
-     "fgAttempted": 296,
-     "threeMade": 0,
-     "threeAttempted": 7,
-     "ftMade": 64,
-     "ftAttempted": 105
-    },
-    "playoffs": {
-     "games": 15,
-     "started": 15,
-     "minutes": 350.6,
-     "points": 137,
-     "rebounds": 125,
-     "assists": 39,
-     "steals": 12,
-     "blocks": 10,
-     "turnovers": 26,
-     "fgMade": 57,
-     "fgAttempted": 90,
-     "threeMade": 0,
-     "threeAttempted": 1,
-     "ftMade": 23,
-     "ftAttempted": 30
-    }
-   },
-   "lastToDate": {
-    "regular": {
-     "games": 1,
-     "started": 1,
-     "minutes": 36.9,
-     "points": 6,
-     "rebounds": 8,
-     "assists": 5,
-     "steals": 2,
-     "blocks": 0,
-     "turnovers": 1,
-     "fgMade": 2,
-     "fgAttempted": 5,
-     "threeMade": 0,
-     "threeAttempted": 1,
-     "ftMade": 2,
-     "ftAttempted": 2
-    }
-   }
-  },
-  {
    "id": "carusal01",
    "name": "Alex Caruso",
-   "position": "G",
+   "number": "9",
+   "position": "SG",
    "twoWay": false,
    "bio": {
     "height": "6' 5\"",
@@ -505,9 +273,26 @@
     "college": "Texas A&M",
     "birthPlace": "College Station, TX"
    },
-   "number": "9",
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/2991350.png",
-   "current": {},
+   "current": {
+    "regular": {
+     "games": 1,
+     "started": 0,
+     "minutes": 24.7,
+     "points": 9,
+     "rebounds": 6,
+     "assists": 1,
+     "steals": 1,
+     "blocks": 0,
+     "turnovers": 0,
+     "fgMade": 3,
+     "fgAttempted": 4,
+     "threeMade": 2,
+     "threeAttempted": 2,
+     "ftMade": 1,
+     "ftAttempted": 2
+    }
+   },
    "lastFull": {
     "regular": {
      "games": 56,
@@ -565,63 +350,478 @@
    }
   },
   {
-   "id": "willija06",
-   "name": "Jalen Williams",
-   "position": "G",
+   "id": "mitchaj01",
+   "name": "Ajay Mitchell",
+   "number": "25",
+   "position": "SG",
    "twoWay": false,
    "bio": {
-    "height": "6' 5\"",
-    "weight": 211,
-    "birthDate": "2001-04-14",
-    "experience": 4,
-    "college": "Santa Clara",
-    "birthPlace": "Gilbert, AZ"
+    "height": "6' 4\"",
+    "weight": 190,
+    "birthDate": "2002-06-25",
+    "experience": 2,
+    "college": "UC Santa Barbara",
+    "birthPlace": "Liege, Belgium"
    },
-   "number": "8",
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4593803.png",
-   "current": {},
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4900671.png",
+   "current": {
+    "regular": {
+     "games": 1,
+     "started": 0,
+     "minutes": 22.7,
+     "points": 4,
+     "rebounds": 5,
+     "assists": 6,
+     "steals": 0,
+     "blocks": 0,
+     "turnovers": 1,
+     "fgMade": 2,
+     "fgAttempted": 8,
+     "threeMade": 0,
+     "threeAttempted": 1,
+     "ftMade": 0,
+     "ftAttempted": 0
+    }
+   },
    "lastFull": {
     "regular": {
-     "games": 33,
-     "started": 33,
-     "minutes": 936.3,
-     "points": 563,
-     "rebounds": 152,
-     "assists": 181,
-     "steals": 39,
-     "blocks": 9,
-     "turnovers": 63,
-     "fgMade": 216,
-     "fgAttempted": 446,
-     "threeMade": 23,
-     "threeAttempted": 77,
-     "ftMade": 108,
-     "ftAttempted": 129
+     "games": 57,
+     "started": 16,
+     "minutes": 1473.5,
+     "points": 774,
+     "rebounds": 190,
+     "assists": 206,
+     "steals": 71,
+     "blocks": 18,
+     "turnovers": 81,
+     "fgMade": 286,
+     "fgAttempted": 590,
+     "threeMade": 61,
+     "threeAttempted": 176,
+     "ftMade": 141,
+     "ftAttempted": 162
     },
     "playoffs": {
-     "games": 5,
-     "started": 4,
-     "minutes": 107.2,
-     "points": 72,
-     "rebounds": 16,
-     "assists": 14,
+     "games": 11,
+     "started": 7,
+     "minutes": 316.7,
+     "points": 166,
+     "rebounds": 41,
+     "assists": 47,
+     "steals": 17,
+     "blocks": 1,
+     "turnovers": 15,
+     "fgMade": 63,
+     "fgAttempted": 137,
+     "threeMade": 13,
+     "threeAttempted": 40,
+     "ftMade": 27,
+     "ftAttempted": 30
+    }
+   },
+   "lastToDate": {
+    "regular": {
+     "games": 1,
+     "started": 0,
+     "minutes": 14.6,
+     "points": 16,
+     "rebounds": 2,
+     "assists": 2,
+     "steals": 0,
+     "blocks": 1,
+     "turnovers": 0,
+     "fgMade": 6,
+     "fgAttempted": 12,
+     "threeMade": 3,
+     "threeAttempted": 6,
+     "ftMade": 1,
+     "ftAttempted": 1
+    }
+   }
+  },
+  {
+   "id": "mccaija01",
+   "name": "Jared McCain",
+   "number": "3",
+   "position": "SG",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 3\"",
+    "weight": 195,
+    "birthDate": "2004-02-20",
+    "experience": 2,
+    "college": "Duke",
+    "birthPlace": "Sacramento, CA"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4683778.png",
+   "current": {
+    "regular": {
+     "games": 1,
+     "started": 0,
+     "minutes": 22.2,
+     "points": 20,
+     "rebounds": 2,
+     "assists": 2,
+     "steals": 1,
+     "blocks": 0,
+     "turnovers": 2,
+     "fgMade": 7,
+     "fgAttempted": 9,
+     "threeMade": 6,
+     "threeAttempted": 8,
+     "ftMade": 0,
+     "ftAttempted": 0
+    }
+   },
+   "lastFull": {
+    "regular": {
+     "games": 67,
+     "started": 3,
+     "minutes": 1159.9,
+     "points": 558,
+     "rebounds": 137,
+     "assists": 90,
+     "steals": 35,
+     "blocks": 5,
+     "turnovers": 56,
+     "fgMade": 204,
+     "fgAttempted": 480,
+     "threeMade": 99,
+     "threeAttempted": 257,
+     "ftMade": 51,
+     "ftAttempted": 59
+    },
+    "playoffs": {
+     "games": 15,
+     "started": 2,
+     "minutes": 258.4,
+     "points": 150,
+     "rebounds": 28,
+     "assists": 15,
      "steals": 5,
-     "blocks": 2,
-     "turnovers": 6,
-     "fgMade": 29,
-     "fgAttempted": 56,
-     "threeMade": 5,
-     "threeAttempted": 12,
-     "ftMade": 9,
-     "ftAttempted": 12
+     "blocks": 0,
+     "turnovers": 11,
+     "fgMade": 56,
+     "fgAttempted": 136,
+     "threeMade": 26,
+     "threeAttempted": 70,
+     "ftMade": 12,
+     "ftAttempted": 15
     }
    },
    "lastToDate": {}
   },
   {
+   "id": "wallaca01",
+   "name": "Cason Wallace",
+   "number": "22",
+   "position": "SG",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 3\"",
+    "weight": 195,
+    "birthDate": "2003-11-07",
+    "experience": 3,
+    "college": "Kentucky",
+    "birthPlace": "Dallas, TX"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4683692.png",
+   "current": {
+    "regular": {
+     "games": 1,
+     "started": 1,
+     "minutes": 19.3,
+     "points": 6,
+     "rebounds": 3,
+     "assists": 2,
+     "steals": 1,
+     "blocks": 0,
+     "turnovers": 1,
+     "fgMade": 3,
+     "fgAttempted": 8,
+     "threeMade": 0,
+     "threeAttempted": 4,
+     "ftMade": 0,
+     "ftAttempted": 0
+    }
+   },
+   "lastFull": {
+    "regular": {
+     "games": 77,
+     "started": 58,
+     "minutes": 2047.1,
+     "points": 660,
+     "rebounds": 238,
+     "assists": 200,
+     "steals": 150,
+     "blocks": 28,
+     "turnovers": 73,
+     "fgMade": 252,
+     "fgAttempted": 584,
+     "threeMade": 101,
+     "threeAttempted": 288,
+     "ftMade": 55,
+     "ftAttempted": 68
+    },
+    "playoffs": {
+     "games": 15,
+     "started": 2,
+     "minutes": 374.4,
+     "points": 129,
+     "rebounds": 57,
+     "assists": 36,
+     "steals": 32,
+     "blocks": 7,
+     "turnovers": 11,
+     "fgMade": 46,
+     "fgAttempted": 96,
+     "threeMade": 30,
+     "threeAttempted": 62,
+     "ftMade": 7,
+     "ftAttempted": 8
+    }
+   },
+   "lastToDate": {
+    "regular": {
+     "games": 1,
+     "started": 1,
+     "minutes": 41.7,
+     "points": 14,
+     "rebounds": 7,
+     "assists": 5,
+     "steals": 4,
+     "blocks": 0,
+     "turnovers": 2,
+     "fgMade": 5,
+     "fgAttempted": 10,
+     "threeMade": 3,
+     "threeAttempted": 8,
+     "ftMade": 1,
+     "ftAttempted": 2
+    }
+   }
+  },
+  {
+   "id": "harteis01",
+   "name": "Isaiah Hartenstein",
+   "number": "55",
+   "position": "C",
+   "twoWay": false,
+   "bio": {
+    "height": "7' 0\"",
+    "weight": 250,
+    "birthDate": "1998-05-05",
+    "experience": 8,
+    "birthPlace": "Eugene, OR"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4222252.png",
+   "current": {
+    "regular": {
+     "games": 1,
+     "started": 1,
+     "minutes": 17.4,
+     "points": 4,
+     "rebounds": 3,
+     "assists": 3,
+     "steals": 1,
+     "blocks": 1,
+     "turnovers": 2,
+     "fgMade": 2,
+     "fgAttempted": 4,
+     "threeMade": 0,
+     "threeAttempted": 0,
+     "ftMade": 0,
+     "ftAttempted": 0
+    }
+   },
+   "lastFull": {
+    "regular": {
+     "games": 47,
+     "started": 46,
+     "minutes": 1137.6,
+     "points": 432,
+     "rebounds": 443,
+     "assists": 166,
+     "steals": 48,
+     "blocks": 36,
+     "turnovers": 82,
+     "fgMade": 184,
+     "fgAttempted": 296,
+     "threeMade": 0,
+     "threeAttempted": 7,
+     "ftMade": 64,
+     "ftAttempted": 105
+    },
+    "playoffs": {
+     "games": 15,
+     "started": 15,
+     "minutes": 350.6,
+     "points": 137,
+     "rebounds": 125,
+     "assists": 39,
+     "steals": 12,
+     "blocks": 10,
+     "turnovers": 26,
+     "fgMade": 57,
+     "fgAttempted": 90,
+     "threeMade": 0,
+     "threeAttempted": 1,
+     "ftMade": 23,
+     "ftAttempted": 30
+    }
+   },
+   "lastToDate": {
+    "regular": {
+     "games": 1,
+     "started": 1,
+     "minutes": 36.9,
+     "points": 6,
+     "rebounds": 8,
+     "assists": 5,
+     "steals": 2,
+     "blocks": 0,
+     "turnovers": 1,
+     "fgMade": 2,
+     "fgAttempted": 5,
+     "threeMade": 0,
+     "threeAttempted": 1,
+     "ftMade": 2,
+     "ftAttempted": 2
+    }
+   }
+  },
+  {
+   "id": "willija07",
+   "name": "Jaylin Williams",
+   "number": "6",
+   "position": "PF",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 9\"",
+    "weight": 240,
+    "birthDate": "2002-06-29",
+    "experience": 4,
+    "college": "Arkansas",
+    "birthPlace": "Fort Smith, AR"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4432823.png",
+   "current": {
+    "regular": {
+     "games": 1,
+     "started": 0,
+     "minutes": 16.9,
+     "points": 5,
+     "rebounds": 4,
+     "assists": 1,
+     "steals": 0,
+     "blocks": 0,
+     "turnovers": 1,
+     "fgMade": 1,
+     "fgAttempted": 6,
+     "threeMade": 1,
+     "threeAttempted": 5,
+     "ftMade": 2,
+     "ftAttempted": 2
+    }
+   },
+   "lastFull": {
+    "regular": {
+     "games": 65,
+     "started": 11,
+     "minutes": 1278.2,
+     "points": 469,
+     "rebounds": 358,
+     "assists": 158,
+     "steals": 31,
+     "blocks": 42,
+     "turnovers": 67,
+     "fgMade": 149,
+     "fgAttempted": 352,
+     "threeMade": 98,
+     "threeAttempted": 256,
+     "ftMade": 73,
+     "ftAttempted": 92
+    },
+    "playoffs": {
+     "games": 15,
+     "started": 0,
+     "minutes": 240.2,
+     "points": 74,
+     "rebounds": 62,
+     "assists": 22,
+     "steals": 8,
+     "blocks": 3,
+     "turnovers": 6,
+     "fgMade": 26,
+     "fgAttempted": 65,
+     "threeMade": 18,
+     "threeAttempted": 50,
+     "ftMade": 4,
+     "ftAttempted": 6
+    }
+   },
+   "lastToDate": {
+    "regular": {
+     "games": 1,
+     "started": 0,
+     "minutes": 12.9,
+     "points": 2,
+     "rebounds": 0,
+     "assists": 1,
+     "steals": 1,
+     "blocks": 0,
+     "turnovers": 0,
+     "fgMade": 1,
+     "fgAttempted": 5,
+     "threeMade": 0,
+     "threeAttempted": 4,
+     "ftMade": 0,
+     "ftAttempted": 0
+    }
+   }
+  },
+  {
+   "id": "maraad01",
+   "name": "Aday Mara",
+   "number": "15",
+   "position": "C",
+   "twoWay": false,
+   "bio": {
+    "height": "7' 3\"",
+    "weight": 262,
+    "birthDate": "2005-04-07",
+    "experience": 0,
+    "college": "Michigan",
+    "birthPlace": "Zaragoza, Spain"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5174983.png",
+   "current": {
+    "regular": {
+     "games": 1,
+     "started": 0,
+     "minutes": 11.7,
+     "points": 7,
+     "rebounds": 2,
+     "assists": 1,
+     "steals": 0,
+     "blocks": 1,
+     "turnovers": 1,
+     "fgMade": 3,
+     "fgAttempted": 4,
+     "threeMade": 0,
+     "threeAttempted": 0,
+     "ftMade": 1,
+     "ftAttempted": 2
+    }
+   },
+   "lastFull": {},
+   "lastToDate": {}
+  },
+  {
    "id": "willike04",
    "name": "Kenrich Williams",
-   "position": "G-F",
+   "number": "34",
+   "position": "PF",
    "twoWay": false,
    "bio": {
     "height": "6' 7\"",
@@ -631,9 +831,26 @@
     "college": "TCU",
     "birthPlace": "Waco, TX"
    },
-   "number": "34",
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3133626.png",
-   "current": {},
+   "current": {
+    "regular": {
+     "games": 1,
+     "started": 0,
+     "minutes": 7.1,
+     "points": 3,
+     "rebounds": 2,
+     "assists": 0,
+     "steals": 0,
+     "blocks": 0,
+     "turnovers": 0,
+     "fgMade": 1,
+     "fgAttempted": 1,
+     "threeMade": 1,
+     "threeAttempted": 1,
+     "ftMade": 0,
+     "ftAttempted": 0
+    }
+   },
    "lastFull": {
     "regular": {
      "games": 56,
@@ -675,7 +892,8 @@
   {
    "id": "barnhbr01",
    "name": "Brooks Barnhizer",
-   "position": "G",
+   "number": "23",
+   "position": "SG",
    "twoWay": true,
    "bio": {
     "height": "6' 6\"",
@@ -685,9 +903,26 @@
     "college": "Northwestern",
     "birthPlace": "Lafayette, IN"
    },
-   "number": "23",
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4684208.png",
-   "current": {},
+   "current": {
+    "regular": {
+     "games": 1,
+     "started": 0,
+     "minutes": 0.8,
+     "points": 0,
+     "rebounds": 0,
+     "assists": 0,
+     "steals": 0,
+     "blocks": 0,
+     "turnovers": 0,
+     "fgMade": 0,
+     "fgAttempted": 0,
+     "threeMade": 0,
+     "threeAttempted": 0,
+     "ftMade": 0,
+     "ftAttempted": 0
+    }
+   },
    "lastFull": {
     "regular": {
      "games": 40,
@@ -728,9 +963,46 @@
    }
   },
   {
+   "id": "stirtbe01",
+   "name": "Bennett Stirtz",
+   "number": "14",
+   "position": "PG",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 4\"",
+    "weight": 190,
+    "birthDate": "2003-10-03",
+    "experience": 0,
+    "college": "Iowa",
+    "birthPlace": "Liberty, MO"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5241364.png",
+   "current": {
+    "regular": {
+     "games": 1,
+     "started": 0,
+     "minutes": 0.8,
+     "points": 0,
+     "rebounds": 0,
+     "assists": 0,
+     "steals": 0,
+     "blocks": 0,
+     "turnovers": 0,
+     "fgMade": 0,
+     "fgAttempted": 0,
+     "threeMade": 0,
+     "threeAttempted": 0,
+     "ftMade": 0,
+     "ftAttempted": 0
+    }
+   },
+   "lastFull": {},
+   "lastToDate": {}
+  },
+  {
    "id": "topicni01",
    "name": "Nikola Topić",
-   "position": "G",
+   "position": "PG",
    "twoWay": false,
    "bio": {
     "height": "6' 6\"",
@@ -780,20 +1052,20 @@
    "lastToDate": {}
   },
   {
-   "id": "owehot01",
-   "name": "Otega Oweh",
-   "position": "G",
-   "twoWay": true,
+   "id": "sorbeth01",
+   "name": "Thomas Sorber",
+   "position": "C",
+   "twoWay": false,
    "bio": {
-    "height": "6' 4\"",
-    "weight": 217,
-    "birthDate": "2003-06-21",
+    "height": "6' 9\"",
+    "weight": 250,
+    "birthDate": "2005-12-25",
     "experience": 0,
-    "college": "Kentucky",
-    "birthPlace": "Newark, NJ"
+    "college": "Georgetown",
+    "birthPlace": "Trenton, NJ"
    },
-   "number": "13",
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5106270.png",
+   "number": "12",
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5061603.png",
    "current": {},
    "lastFull": {},
    "lastToDate": {}
@@ -801,7 +1073,7 @@
   {
    "id": "dixjo01",
    "name": "Josh Dix",
-   "position": "G",
+   "position": "SG",
    "twoWay": true,
    "bio": {
     "height": "6' 5\"",
@@ -818,58 +1090,20 @@
    "lastToDate": {}
   },
   {
-   "id": "stirtbe01",
-   "name": "Bennett Stirtz",
-   "position": "G",
-   "twoWay": false,
+   "id": "owehot01",
+   "name": "Otega Oweh",
+   "position": "SG",
+   "twoWay": true,
    "bio": {
     "height": "6' 4\"",
-    "weight": 190,
-    "birthDate": "2003-10-03",
+    "weight": 217,
+    "birthDate": "2003-06-21",
     "experience": 0,
-    "college": "Iowa",
-    "birthPlace": "Liberty, MO"
+    "college": "Kentucky",
+    "birthPlace": "Newark, NJ"
    },
-   "number": "14",
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5241364.png",
-   "current": {},
-   "lastFull": {},
-   "lastToDate": {}
-  },
-  {
-   "id": "maraad01",
-   "name": "Aday Mara",
-   "position": "C",
-   "twoWay": false,
-   "bio": {
-    "height": "7' 3\"",
-    "weight": 262,
-    "birthDate": "2005-04-07",
-    "experience": 0,
-    "college": "Michigan",
-    "birthPlace": "Zaragoza, Spain"
-   },
-   "number": "15",
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5174983.png",
-   "current": {},
-   "lastFull": {},
-   "lastToDate": {}
-  },
-  {
-   "id": "sorbeth01",
-   "name": "Thomas Sorber",
-   "position": "F",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 9\"",
-    "weight": 250,
-    "birthDate": "2005-12-25",
-    "experience": 0,
-    "college": "Georgetown",
-    "birthPlace": "Trenton, NJ"
-   },
-   "number": "12",
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5061603.png",
+   "number": "13",
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5106270.png",
    "current": {},
    "lastFull": {},
    "lastToDate": {}

@@ -1,7 +1,7 @@
 {
  "season": "2026-27",
  "lastSeason": "2025-26",
- "updatedAt": "2026-10-21T07:17:36.673Z",
+ "updatedAt": "2026-10-21T13:17:37.835Z",
  "teamGamesPlayed": {
   "regular": 0,
   "playoffs": 0
@@ -10,7 +10,7 @@
   {
    "id": "adebaba01",
    "name": "Bam Adebayo",
-   "position": "C-F",
+   "position": "C",
    "twoWay": false,
    "bio": {
     "height": "6' 9\"",
@@ -47,7 +47,7 @@
   {
    "id": "hardati02",
    "name": "Tim Hardaway Jr.",
-   "position": "G",
+   "position": "SG",
    "twoWay": false,
    "bio": {
     "height": "6' 5\"",
@@ -101,7 +101,7 @@
   {
    "id": "wiggian01",
    "name": "Andrew Wiggins",
-   "position": "F-G",
+   "position": "SF",
    "twoWay": false,
    "bio": {
     "height": "6' 7\"",
@@ -138,7 +138,7 @@
   {
    "id": "mitchda01",
    "name": "Davion Mitchell",
-   "position": "G",
+   "position": "PG",
    "twoWay": false,
    "bio": {
     "height": "6' 0\"",
@@ -175,7 +175,7 @@
   {
    "id": "larsspe01",
    "name": "Pelle Larsson",
-   "position": "G",
+   "position": "SG",
    "twoWay": false,
    "bio": {
     "height": "6' 5\"",
@@ -212,7 +212,7 @@
   {
    "id": "portibo01",
    "name": "Bobby Portis",
-   "position": "F-C",
+   "position": "PF",
    "twoWay": false,
    "bio": {
     "height": "6' 9\"",
@@ -249,7 +249,7 @@
   {
    "id": "thompkl01",
    "name": "Klay Thompson",
-   "position": "G-F",
+   "position": "SF",
    "twoWay": false,
    "bio": {
     "height": "6' 5\"",
@@ -286,7 +286,7 @@
   {
    "id": "fontesi01",
    "name": "Simone Fontecchio",
-   "position": "F",
+   "position": "SF",
    "twoWay": false,
    "bio": {
     "height": "6' 7\"",
@@ -322,7 +322,7 @@
   {
    "id": "smithdr01",
    "name": "Dru Smith",
-   "position": "G",
+   "position": "SG",
    "twoWay": false,
    "bio": {
     "height": "6' 2\"",
@@ -359,7 +359,7 @@
   {
    "id": "antetgi01",
    "name": "Giannis Antetokounmpo",
-   "position": "F-G",
+   "position": "PF",
    "twoWay": false,
    "bio": {
     "height": "6' 11\"",
@@ -395,7 +395,7 @@
   {
    "id": "jovicni01",
    "name": "Nikola Jović",
-   "position": "G-F",
+   "position": "PF",
    "twoWay": false,
    "bio": {
     "height": "6' 10\"",
@@ -430,7 +430,7 @@
   {
    "id": "richani01",
    "name": "Nick Richards",
-   "position": "F-C",
+   "position": "C",
    "twoWay": false,
    "bio": {
     "height": "6' 11\"",
@@ -467,7 +467,7 @@
   {
    "id": "gardnmy01",
    "name": "Myron Gardner",
-   "position": "G",
+   "position": "SF",
    "twoWay": false,
    "bio": {
     "height": "6' 5\"",
@@ -504,7 +504,7 @@
   {
    "id": "johnske10",
    "name": "Keshad Johnson",
-   "position": "F",
+   "position": "SF",
    "twoWay": true,
    "bio": {
     "height": "6' 6\"",
@@ -575,7 +575,7 @@
   {
    "id": "goldivl01",
    "name": "Vladislav Goldin",
-   "position": "F-C",
+   "position": "C",
    "twoWay": true,
    "bio": {
     "height": "7' 0\"",
@@ -612,7 +612,7 @@
   {
    "id": "conwery01",
    "name": "Ryan Conwell",
-   "position": "G",
+   "position": "SG",
    "twoWay": false,
    "bio": {
     "height": "6' 3\"",

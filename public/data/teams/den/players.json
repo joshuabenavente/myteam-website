@@ -1,7 +1,7 @@
 {
  "season": "2026-27",
  "lastSeason": "2025-26",
- "updatedAt": "2026-10-21T07:17:40.603Z",
+ "updatedAt": "2026-10-21T13:17:41.672Z",
  "teamGamesPlayed": {
   "regular": 0,
   "playoffs": 0
@@ -10,7 +10,7 @@
   {
    "id": "murraja01",
    "name": "Jamal Murray",
-   "position": "G",
+   "position": "PG",
    "twoWay": false,
    "bio": {
     "height": "6' 4\"",
@@ -64,7 +64,7 @@
   {
    "id": "derozde01",
    "name": "DeMar DeRozan",
-   "position": "G-F",
+   "position": "SF",
    "twoWay": false,
    "bio": {
     "height": "6' 6\"",
@@ -101,7 +101,7 @@
   {
    "id": "jokicni01",
    "name": "Nikola Jokić",
-   "position": "C-F",
+   "position": "C",
    "twoWay": false,
    "bio": {
     "height": "6' 11\"",
@@ -154,7 +154,7 @@
   {
    "id": "johnsca02",
    "name": "Cameron Johnson",
-   "position": "F",
+   "position": "PF",
    "twoWay": false,
    "bio": {
     "height": "6' 8\"",
@@ -208,7 +208,7 @@
   {
    "id": "jonessp01",
    "name": "Spencer Jones",
-   "position": "F",
+   "position": "SF",
    "twoWay": false,
    "bio": {
     "height": "6' 7\"",
@@ -262,7 +262,7 @@
   {
    "id": "braunch01",
    "name": "Christian Braun",
-   "position": "G",
+   "position": "SG",
    "twoWay": false,
    "bio": {
     "height": "6' 6\"",
@@ -316,7 +316,7 @@
   {
    "id": "baglema01",
    "name": "Marvin Bagley III",
-   "position": "F-C",
+   "position": "PF",
    "twoWay": false,
    "bio": {
     "height": "6' 10\"",
@@ -353,7 +353,7 @@
   {
    "id": "nembhry01",
    "name": "Ryan Nembhard",
-   "position": "G",
+   "position": "PG",
    "twoWay": true,
    "bio": {
     "height": "5' 11\"",
@@ -390,7 +390,7 @@
   {
    "id": "gordoaa01",
    "name": "Aaron Gordon",
-   "position": "F",
+   "position": "PF",
    "twoWay": false,
    "bio": {
     "height": "6' 8\"",
@@ -444,7 +444,7 @@
   {
    "id": "jonesty01",
    "name": "Tyus Jones",
-   "position": "G",
+   "position": "PG",
    "twoWay": false,
    "bio": {
     "height": "6' 0\"",
@@ -498,7 +498,7 @@
   {
    "id": "strawju01",
    "name": "Julian Strawther",
-   "position": "F",
+   "position": "SG",
    "twoWay": false,
    "bio": {
     "height": "6' 6\"",
@@ -552,7 +552,7 @@
   {
    "id": "nnajize01",
    "name": "Zeke Nnaji",
-   "position": "F",
+   "position": "PF",
    "twoWay": false,
    "bio": {
     "height": "6' 10\"",
@@ -606,7 +606,7 @@
   {
    "id": "whitmca01",
    "name": "Cam Whitmore",
-   "position": "F",
+   "position": "SF",
    "twoWay": true,
    "bio": {
     "height": "6' 6\"",
@@ -643,7 +643,7 @@
   {
    "id": "holmeda01",
    "name": "DaRon Holmes",
-   "position": "F",
+   "position": "PF",
    "twoWay": false,
    "bio": {
     "height": "6' 9\"",
@@ -697,7 +697,7 @@
   {
    "id": "brazitr01",
    "name": "Trevon Brazile",
-   "position": "F",
+   "position": "PF",
    "twoWay": false,
    "bio": {
     "height": "6' 10\"",
@@ -716,7 +716,7 @@
   {
    "id": "hopkibr01",
    "name": "Bryce Hopkins",
-   "position": "F",
+   "position": "SF",
    "twoWay": true,
    "bio": {
     "height": "6' 7\"",
