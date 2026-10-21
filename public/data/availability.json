@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-20T23:19:06.226Z",
+ "updatedAt": "2026-10-21T00:17:50.082Z",
  "teams": {
   "ATL": [
    {
@@ -196,6 +196,13 @@
   ],
   "GSW": [
    {
+    "name": "Brandin Podziemski",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Back (soreness)",
+    "returnDate": "2026-10-23"
+   },
+   {
     "name": "Jimmy Butler III",
     "status": "Out",
     "gameTimeDecision": false,
@@ -215,13 +222,6 @@
     "gameTimeDecision": false,
     "reason": "Knee (surgery)",
     "returnDate": "2026-12-01"
-   },
-   {
-    "name": "Brandin Podziemski",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Back",
-    "returnDate": "2026-10-21"
    },
    {
     "name": "Charles Bassey",
@@ -326,37 +326,23 @@
   "LAL": [
    {
     "name": "Adou Thiero",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Undisclosed",
-    "returnDate": "2026-10-21"
-   },
-   {
-    "name": "Bronny James",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Illness",
-    "returnDate": "2026-10-21"
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Knee",
+    "returnDate": "2026-10-23"
    },
    {
     "name": "Cameron Carr",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Undisclosed (bruise)",
-    "returnDate": "2026-10-21"
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Oblique (strain)",
+    "returnDate": "2026-10-23"
    },
    {
     "name": "Collin Sexton",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
-    "reason": "Lower Leg",
-    "returnDate": "2026-10-21"
-   },
-   {
-    "name": "Jarred Vanderbilt",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Undisclosed",
+    "reason": "Calf",
     "returnDate": "2026-10-21"
    }
   ],
@@ -504,6 +490,20 @@
   ],
   "POR": [
    {
+    "name": "Branden Carlson",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Concussion",
+    "returnDate": "2026-10-23"
+   },
+   {
+    "name": "Chris Youngblood",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Ankle (soreness)",
+    "returnDate": "2026-10-23"
+   },
+   {
     "name": "Shaedon Sharpe",
     "status": "Out",
     "gameTimeDecision": false,
@@ -511,17 +511,10 @@
     "returnDate": "2027-03-02"
    },
    {
-    "name": "Chris Youngblood",
+    "name": "Deni Avdija",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
-    "reason": "Calf (soreness)",
-    "returnDate": "2026-10-21"
-   },
-   {
-    "name": "Jrue Holiday",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Hand (soreness)",
+    "reason": "Ankle",
     "returnDate": "2026-10-21"
    },
    {
