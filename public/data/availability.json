@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-21T21:17:56.611Z",
+ "updatedAt": "2026-10-21T22:22:23.979Z",
  "teams": {
   "ATL": [
    {
@@ -86,37 +86,16 @@
     "gameTimeDecision": false,
     "reason": "Hamstring",
     "returnDate": "2026-11-04"
-   },
-   {
-    "name": "Isaac Okoro",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Knee",
-    "returnDate": "2026-10-21"
-   },
-   {
-    "name": "Leonard Miller",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Groin",
-    "returnDate": "2026-10-21"
-   },
-   {
-    "name": "Tobe Awaka",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Knee",
-    "returnDate": "2026-10-21"
-   },
-   {
-    "name": "Zach Collins",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Toe (surgery)",
-    "returnDate": "2026-10-21"
    }
   ],
   "CLE": [
+   {
+    "name": "Khalifa Diop",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Knee",
+    "returnDate": "2026-10-24"
+   },
    {
     "name": "Nae'Qwan Tomlin",
     "status": "Out",
@@ -130,18 +109,6 @@
     "gameTimeDecision": true,
     "reason": "Knee",
     "returnDate": "2026-10-22"
-   },
-   {
-    "name": "Khalifa Diop",
-    "status": "Day-To-Day",
-    "gameTimeDecision": false,
-    "reason": "Knee",
-    "returnDate": "2026-10-24"
-   },
-   {
-    "name": "Sam Merrill",
-    "status": "Day-To-Day",
-    "gameTimeDecision": false
    }
   ],
   "DAL": [
@@ -367,24 +334,6 @@
     "returnDate": "2026-10-21"
    }
   ],
-  "MIA": [
-   {
-    "name": "Vladislav Goldin",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Ankle",
-    "returnDate": "2026-10-21"
-   }
-  ],
-  "MIL": [
-   {
-    "name": "Nate Ament",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Ankle (sprain)",
-    "returnDate": "2026-10-21"
-   }
-  ],
   "MIN": [
    {
     "name": "Donte DiVincenzo",
@@ -396,6 +345,13 @@
   ],
   "OKC": [
    {
+    "name": "Nikola Topic",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Back (surgery)",
+    "returnDate": "2026-10-26"
+   },
+   {
     "name": "Otega Oweh",
     "status": "Out",
     "gameTimeDecision": false,
@@ -403,18 +359,11 @@
     "returnDate": "2027-07-01"
    },
    {
-    "name": "Nikola Topic",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Back (surgery)",
-    "returnDate": "2026-10-22"
-   },
-   {
     "name": "Thomas Sorber",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
+    "status": "Out",
+    "gameTimeDecision": false,
     "reason": "Knee (surgery)",
-    "returnDate": "2026-10-22"
+    "returnDate": "2026-10-26"
    }
   ],
   "ORL": [
@@ -466,7 +415,7 @@
     "name": "Tacko Fall",
     "status": "Out",
     "gameTimeDecision": false,
-    "reason": "Hip",
+    "reason": "Quadriceps",
     "returnDate": "2026-10-24"
    },
    {
