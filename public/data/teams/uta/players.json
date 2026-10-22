@@ -1,327 +1,16 @@
 {
  "season": "2026-27",
  "lastSeason": "2025-26",
- "updatedAt": "2026-10-22T08:18:48.548Z",
+ "updatedAt": "2026-10-22T14:18:49.018Z",
  "teamGamesPlayed": {
   "regular": 1,
   "playoffs": 0
  },
  "players": [
   {
-   "id": "baileac01",
-   "name": "Ace Bailey",
-   "position": "SF",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 9\"",
-    "weight": 200,
-    "birthDate": "2006-08-13",
-    "experience": 1,
-    "college": "Rutgers",
-    "birthPlace": "Chattanooga, TN"
-   },
-   "number": "19",
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4873138.png",
-   "current": {},
-   "lastFull": {
-    "regular": {
-     "games": 72,
-     "started": 61,
-     "minutes": 1988.3,
-     "points": 993,
-     "rebounds": 302,
-     "assists": 131,
-     "steals": 60,
-     "blocks": 49,
-     "turnovers": 107,
-     "fgMade": 395,
-     "fgAttempted": 892,
-     "threeMade": 137,
-     "threeAttempted": 398,
-     "ftMade": 66,
-     "ftAttempted": 88
-    }
-   },
-   "lastToDate": {
-    "regular": {
-     "games": 1,
-     "started": 0,
-     "minutes": 20.2,
-     "points": 2,
-     "rebounds": 4,
-     "assists": 2,
-     "steals": 0,
-     "blocks": 0,
-     "turnovers": 1,
-     "fgMade": 1,
-     "fgAttempted": 5,
-     "threeMade": 0,
-     "threeAttempted": 2,
-     "ftMade": 0,
-     "ftAttempted": 0
-    }
-   }
-  },
-  {
-   "id": "filipky01",
-   "name": "Kyle Filipowski",
-   "position": "C",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 11\"",
-    "weight": 250,
-    "birthDate": "2003-11-07",
-    "experience": 2,
-    "college": "Duke",
-    "birthPlace": "Westtown, NY"
-   },
-   "number": "2",
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4684793.png",
-   "current": {},
-   "lastFull": {
-    "regular": {
-     "games": 77,
-     "started": 41,
-     "minutes": 1801.4,
-     "points": 879,
-     "rebounds": 552,
-     "assists": 198,
-     "steals": 73,
-     "blocks": 39,
-     "turnovers": 125,
-     "fgMade": 323,
-     "fgAttempted": 657,
-     "threeMade": 74,
-     "threeAttempted": 228,
-     "ftMade": 159,
-     "ftAttempted": 212
-    }
-   },
-   "lastToDate": {
-    "regular": {
-     "games": 1,
-     "started": 1,
-     "minutes": 24.5,
-     "points": 9,
-     "rebounds": 4,
-     "assists": 5,
-     "steals": 0,
-     "blocks": 1,
-     "turnovers": 0,
-     "fgMade": 4,
-     "fgAttempted": 10,
-     "threeMade": 1,
-     "threeAttempted": 6,
-     "ftMade": 0,
-     "ftAttempted": 0
-    }
-   }
-  },
-  {
-   "id": "georgke01",
-   "name": "Keyonte George",
-   "position": "PG",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 4\"",
-    "weight": 185,
-    "birthDate": "2003-11-08",
-    "experience": 3,
-    "college": "Baylor",
-    "birthPlace": "Lewisville, TX"
-   },
-   "number": "3",
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4433627.png",
-   "current": {},
-   "lastFull": {
-    "regular": {
-     "games": 54,
-     "started": 54,
-     "minutes": 1786.6,
-     "points": 1275,
-     "rebounds": 199,
-     "assists": 332,
-     "steals": 58,
-     "blocks": 14,
-     "turnovers": 166,
-     "fgMade": 402,
-     "fgAttempted": 881,
-     "threeMade": 134,
-     "threeAttempted": 361,
-     "ftMade": 337,
-     "ftAttempted": 378
-    }
-   },
-   "lastToDate": {
-    "regular": {
-     "games": 1,
-     "started": 1,
-     "minutes": 29.9,
-     "points": 16,
-     "rebounds": 2,
-     "assists": 9,
-     "steals": 2,
-     "blocks": 0,
-     "turnovers": 3,
-     "fgMade": 6,
-     "fgAttempted": 12,
-     "threeMade": 1,
-     "threeAttempted": 7,
-     "ftMade": 3,
-     "ftAttempted": 4
-    }
-   }
-  },
-  {
-   "id": "sensabr01",
-   "name": "Brice Sensabaugh",
-   "position": "SF",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 6\"",
-    "weight": 235,
-    "birthDate": "2003-10-30",
-    "experience": 3,
-    "college": "Ohio State",
-    "birthPlace": "Orlando, FL"
-   },
-   "number": "28",
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5105839.png",
-   "current": {},
-   "lastFull": {
-    "regular": {
-     "games": 75,
-     "started": 22,
-     "minutes": 1762.5,
-     "points": 1116,
-     "rebounds": 231,
-     "assists": 143,
-     "steals": 54,
-     "blocks": 12,
-     "turnovers": 124,
-     "fgMade": 394,
-     "fgAttempted": 857,
-     "threeMade": 162,
-     "threeAttempted": 442,
-     "ftMade": 166,
-     "ftAttempted": 201
-    }
-   },
-   "lastToDate": {
-    "regular": {
-     "games": 1,
-     "started": 0,
-     "minutes": 22.7,
-     "points": 20,
-     "rebounds": 4,
-     "assists": 2,
-     "steals": 1,
-     "blocks": 0,
-     "turnovers": 1,
-     "fgMade": 7,
-     "fgAttempted": 13,
-     "threeMade": 3,
-     "threeAttempted": 7,
-     "ftMade": 3,
-     "ftAttempted": 3
-    }
-   }
-  },
-  {
-   "id": "colliis01",
-   "name": "Isaiah Collier",
-   "position": "PG",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 4\"",
-    "weight": 210,
-    "birthDate": "2004-10-08",
-    "experience": 2,
-    "college": "USC",
-    "birthPlace": "Atlanta, GA"
-   },
-   "number": "8",
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4683766.png",
-   "current": {},
-   "lastFull": {
-    "regular": {
-     "games": 59,
-     "started": 19,
-     "minutes": 1517.5,
-     "points": 688,
-     "rebounds": 150,
-     "assists": 423,
-     "steals": 66,
-     "blocks": 20,
-     "turnovers": 148,
-     "fgMade": 255,
-     "fgAttempted": 515,
-     "threeMade": 27,
-     "threeAttempted": 100,
-     "ftMade": 151,
-     "ftAttempted": 209
-    }
-   },
-   "lastToDate": {}
-  },
-  {
-   "id": "jacksja02",
-   "name": "Jaren Jackson Jr.",
-   "position": "C",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 10\"",
-    "weight": 242,
-    "birthDate": "1999-09-15",
-    "experience": 8,
-    "college": "Michigan State",
-    "birthPlace": "Plainfield, NJ"
-   },
-   "number": "20",
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4277961.png",
-   "current": {},
-   "lastFull": {
-    "regular": {
-     "games": 48,
-     "started": 48,
-     "minutes": 1455.3,
-     "points": 931,
-     "rebounds": 272,
-     "assists": 94,
-     "steals": 53,
-     "blocks": 69,
-     "turnovers": 107,
-     "fgMade": 342,
-     "fgAttempted": 719,
-     "threeMade": 84,
-     "threeAttempted": 235,
-     "ftMade": 163,
-     "ftAttempted": 203
-    }
-   },
-   "lastToDate": {
-    "regular": {
-     "games": 1,
-     "started": 1,
-     "minutes": 26.6,
-     "points": 18,
-     "rebounds": 8,
-     "assists": 1,
-     "steals": 0,
-     "blocks": 6,
-     "turnovers": 5,
-     "fgMade": 7,
-     "fgAttempted": 14,
-     "threeMade": 0,
-     "threeAttempted": 4,
-     "ftMade": 4,
-     "ftAttempted": 4
-    }
-   }
-  },
-  {
    "id": "markkla01",
    "name": "Lauri Markkanen",
+   "number": "23",
    "position": "PF",
    "twoWay": false,
    "bio": {
@@ -332,9 +21,26 @@
     "college": "Arizona",
     "birthPlace": "Jyvaskyla, Finland"
    },
-   "number": "23",
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4066336.png",
-   "current": {},
+   "current": {
+    "regular": {
+     "games": 1,
+     "started": 1,
+     "minutes": 36.3,
+     "points": 18,
+     "rebounds": 9,
+     "assists": 3,
+     "steals": 0,
+     "blocks": 1,
+     "turnovers": 3,
+     "fgMade": 4,
+     "fgAttempted": 13,
+     "threeMade": 1,
+     "threeAttempted": 7,
+     "ftMade": 9,
+     "ftAttempted": 10
+    }
+   },
    "lastFull": {
     "regular": {
      "games": 42,
@@ -375,80 +81,192 @@
    }
   },
   {
-   "id": "okogijo01",
-   "name": "Josh Okogie",
+   "id": "peterda02",
+   "name": "Darryn Peterson",
+   "number": "22",
    "position": "SG",
    "twoWay": false,
    "bio": {
-    "height": "6' 4\"",
-    "weight": 213,
-    "birthDate": "1998-09-01",
-    "experience": 8,
-    "college": "Georgia Tech",
-    "birthPlace": "Lagos, Nigeria"
+    "height": "6' 5\"",
+    "weight": 199,
+    "birthDate": "2007-01-17",
+    "experience": 0,
+    "college": "Kansas",
+    "birthPlace": "Canton, OH"
    },
-   "number": "21",
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4065663.png",
-   "current": {},
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5041955.png",
+   "current": {
+    "regular": {
+     "games": 1,
+     "started": 1,
+     "minutes": 31.1,
+     "points": 9,
+     "rebounds": 4,
+     "assists": 3,
+     "steals": 0,
+     "blocks": 0,
+     "turnovers": 1,
+     "fgMade": 3,
+     "fgAttempted": 7,
+     "threeMade": 0,
+     "threeAttempted": 1,
+     "ftMade": 3,
+     "ftAttempted": 4
+    }
+   },
+   "lastFull": {},
+   "lastToDate": {}
+  },
+  {
+   "id": "georgke01",
+   "name": "Keyonte George",
+   "number": "3",
+   "position": "PG",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 4\"",
+    "weight": 185,
+    "birthDate": "2003-11-08",
+    "experience": 3,
+    "college": "Baylor",
+    "birthPlace": "Lewisville, TX"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4433627.png",
+   "current": {
+    "regular": {
+     "games": 1,
+     "started": 1,
+     "minutes": 28.6,
+     "points": 22,
+     "rebounds": 3,
+     "assists": 5,
+     "steals": 1,
+     "blocks": 0,
+     "turnovers": 2,
+     "fgMade": 7,
+     "fgAttempted": 12,
+     "threeMade": 4,
+     "threeAttempted": 6,
+     "ftMade": 4,
+     "ftAttempted": 7
+    }
+   },
    "lastFull": {
     "regular": {
-     "games": 78,
-     "started": 32,
-     "minutes": 1354.5,
-     "points": 353,
-     "rebounds": 200,
-     "assists": 69,
-     "steals": 63,
-     "blocks": 16,
-     "turnovers": 41,
-     "fgMade": 125,
-     "fgAttempted": 294,
-     "threeMade": 62,
-     "threeAttempted": 161,
-     "ftMade": 41,
-     "ftAttempted": 69
-    },
-    "playoffs": {
-     "games": 6,
-     "started": 2,
-     "minutes": 104.5,
-     "points": 29,
-     "rebounds": 14,
-     "assists": 5,
-     "steals": 7,
-     "blocks": 0,
-     "turnovers": 3,
-     "fgMade": 11,
-     "fgAttempted": 25,
-     "threeMade": 5,
-     "threeAttempted": 13,
-     "ftMade": 2,
-     "ftAttempted": 2
+     "games": 54,
+     "started": 54,
+     "minutes": 1786.6,
+     "points": 1275,
+     "rebounds": 199,
+     "assists": 332,
+     "steals": 58,
+     "blocks": 14,
+     "turnovers": 166,
+     "fgMade": 402,
+     "fgAttempted": 881,
+     "threeMade": 134,
+     "threeAttempted": 361,
+     "ftMade": 337,
+     "ftAttempted": 378
     }
    },
    "lastToDate": {
     "regular": {
      "games": 1,
-     "started": 0,
-     "minutes": 20,
-     "points": 8,
+     "started": 1,
+     "minutes": 29.9,
+     "points": 16,
      "rebounds": 2,
+     "assists": 9,
+     "steals": 2,
+     "blocks": 0,
+     "turnovers": 3,
+     "fgMade": 6,
+     "fgAttempted": 12,
+     "threeMade": 1,
+     "threeAttempted": 7,
+     "ftMade": 3,
+     "ftAttempted": 4
+    }
+   }
+  },
+  {
+   "id": "jacksja02",
+   "name": "Jaren Jackson Jr.",
+   "number": "20",
+   "position": "C",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 10\"",
+    "weight": 242,
+    "birthDate": "1999-09-15",
+    "experience": 8,
+    "college": "Michigan State",
+    "birthPlace": "Plainfield, NJ"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4277961.png",
+   "current": {
+    "regular": {
+     "games": 1,
+     "started": 1,
+     "minutes": 28.1,
+     "points": 15,
+     "rebounds": 5,
+     "assists": 2,
+     "steals": 1,
+     "blocks": 2,
+     "turnovers": 5,
+     "fgMade": 6,
+     "fgAttempted": 10,
+     "threeMade": 2,
+     "threeAttempted": 4,
+     "ftMade": 1,
+     "ftAttempted": 2
+    }
+   },
+   "lastFull": {
+    "regular": {
+     "games": 48,
+     "started": 48,
+     "minutes": 1455.3,
+     "points": 931,
+     "rebounds": 272,
+     "assists": 94,
+     "steals": 53,
+     "blocks": 69,
+     "turnovers": 107,
+     "fgMade": 342,
+     "fgAttempted": 719,
+     "threeMade": 84,
+     "threeAttempted": 235,
+     "ftMade": 163,
+     "ftAttempted": 203
+    }
+   },
+   "lastToDate": {
+    "regular": {
+     "games": 1,
+     "started": 1,
+     "minutes": 26.6,
+     "points": 18,
+     "rebounds": 8,
      "assists": 1,
      "steals": 0,
-     "blocks": 1,
-     "turnovers": 0,
-     "fgMade": 1,
-     "fgAttempted": 3,
-     "threeMade": 1,
-     "threeAttempted": 3,
-     "ftMade": 5,
-     "ftAttempted": 6
+     "blocks": 6,
+     "turnovers": 5,
+     "fgMade": 7,
+     "fgAttempted": 14,
+     "threeMade": 0,
+     "threeAttempted": 4,
+     "ftMade": 4,
+     "ftAttempted": 4
     }
    }
   },
   {
    "id": "hayesja02",
    "name": "Jaxson Hayes",
+   "number": "11",
    "position": "C",
    "twoWay": false,
    "bio": {
@@ -459,9 +277,26 @@
     "college": "Texas",
     "birthPlace": "Norman, OK"
    },
-   "number": "11",
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4397077.png",
-   "current": {},
+   "current": {
+    "regular": {
+     "games": 1,
+     "started": 1,
+     "minutes": 26.3,
+     "points": 5,
+     "rebounds": 5,
+     "assists": 3,
+     "steals": 2,
+     "blocks": 6,
+     "turnovers": 1,
+     "fgMade": 2,
+     "fgAttempted": 3,
+     "threeMade": 0,
+     "threeAttempted": 1,
+     "ftMade": 1,
+     "ftAttempted": 4
+    }
+   },
    "lastFull": {
     "regular": {
      "games": 66,
@@ -519,8 +354,82 @@
    }
   },
   {
+   "id": "baileac01",
+   "name": "Ace Bailey",
+   "number": "19",
+   "position": "SF",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 9\"",
+    "weight": 200,
+    "birthDate": "2006-08-13",
+    "experience": 1,
+    "college": "Rutgers",
+    "birthPlace": "Chattanooga, TN"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4873138.png",
+   "current": {
+    "regular": {
+     "games": 1,
+     "started": 0,
+     "minutes": 24.3,
+     "points": 12,
+     "rebounds": 5,
+     "assists": 3,
+     "steals": 0,
+     "blocks": 3,
+     "turnovers": 1,
+     "fgMade": 5,
+     "fgAttempted": 11,
+     "threeMade": 2,
+     "threeAttempted": 5,
+     "ftMade": 0,
+     "ftAttempted": 0
+    }
+   },
+   "lastFull": {
+    "regular": {
+     "games": 72,
+     "started": 61,
+     "minutes": 1988.3,
+     "points": 993,
+     "rebounds": 302,
+     "assists": 131,
+     "steals": 60,
+     "blocks": 49,
+     "turnovers": 107,
+     "fgMade": 395,
+     "fgAttempted": 892,
+     "threeMade": 137,
+     "threeAttempted": 398,
+     "ftMade": 66,
+     "ftAttempted": 88
+    }
+   },
+   "lastToDate": {
+    "regular": {
+     "games": 1,
+     "started": 0,
+     "minutes": 20.2,
+     "points": 2,
+     "rebounds": 4,
+     "assists": 2,
+     "steals": 0,
+     "blocks": 0,
+     "turnovers": 1,
+     "fgMade": 1,
+     "fgAttempted": 5,
+     "threeMade": 0,
+     "threeAttempted": 2,
+     "ftMade": 0,
+     "ftAttempted": 0
+    }
+   }
+  },
+  {
    "id": "mykhasv01",
    "name": "Svi Mykhailiuk",
+   "number": "10",
    "position": "SF",
    "twoWay": false,
    "bio": {
@@ -531,9 +440,26 @@
     "college": "Kansas",
     "birthPlace": "Cherkasy, Ukraine"
    },
-   "number": "10",
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3133602.png",
-   "current": {},
+   "current": {
+    "regular": {
+     "games": 1,
+     "started": 0,
+     "minutes": 19.4,
+     "points": 10,
+     "rebounds": 1,
+     "assists": 2,
+     "steals": 3,
+     "blocks": 0,
+     "turnovers": 0,
+     "fgMade": 4,
+     "fgAttempted": 5,
+     "threeMade": 2,
+     "threeAttempted": 3,
+     "ftMade": 0,
+     "ftAttempted": 0
+    }
+   },
    "lastFull": {
     "regular": {
      "games": 50,
@@ -570,6 +496,297 @@
      "threeAttempted": 4,
      "ftMade": 0,
      "ftAttempted": 0
+    }
+   }
+  },
+  {
+   "id": "colliis01",
+   "name": "Isaiah Collier",
+   "number": "8",
+   "position": "PG",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 4\"",
+    "weight": 210,
+    "birthDate": "2004-10-08",
+    "experience": 2,
+    "college": "USC",
+    "birthPlace": "Atlanta, GA"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4683766.png",
+   "current": {
+    "regular": {
+     "games": 1,
+     "started": 0,
+     "minutes": 15.7,
+     "points": 7,
+     "rebounds": 3,
+     "assists": 3,
+     "steals": 1,
+     "blocks": 0,
+     "turnovers": 3,
+     "fgMade": 2,
+     "fgAttempted": 7,
+     "threeMade": 0,
+     "threeAttempted": 1,
+     "ftMade": 3,
+     "ftAttempted": 5
+    }
+   },
+   "lastFull": {
+    "regular": {
+     "games": 59,
+     "started": 19,
+     "minutes": 1517.5,
+     "points": 688,
+     "rebounds": 150,
+     "assists": 423,
+     "steals": 66,
+     "blocks": 20,
+     "turnovers": 148,
+     "fgMade": 255,
+     "fgAttempted": 515,
+     "threeMade": 27,
+     "threeAttempted": 100,
+     "ftMade": 151,
+     "ftAttempted": 209
+    }
+   },
+   "lastToDate": {}
+  },
+  {
+   "id": "sensabr01",
+   "name": "Brice Sensabaugh",
+   "number": "28",
+   "position": "SF",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 6\"",
+    "weight": 235,
+    "birthDate": "2003-10-30",
+    "experience": 3,
+    "college": "Ohio State",
+    "birthPlace": "Orlando, FL"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5105839.png",
+   "current": {
+    "regular": {
+     "games": 1,
+     "started": 0,
+     "minutes": 13.6,
+     "points": 2,
+     "rebounds": 2,
+     "assists": 1,
+     "steals": 0,
+     "blocks": 0,
+     "turnovers": 2,
+     "fgMade": 1,
+     "fgAttempted": 4,
+     "threeMade": 0,
+     "threeAttempted": 2,
+     "ftMade": 0,
+     "ftAttempted": 0
+    }
+   },
+   "lastFull": {
+    "regular": {
+     "games": 75,
+     "started": 22,
+     "minutes": 1762.5,
+     "points": 1116,
+     "rebounds": 231,
+     "assists": 143,
+     "steals": 54,
+     "blocks": 12,
+     "turnovers": 124,
+     "fgMade": 394,
+     "fgAttempted": 857,
+     "threeMade": 162,
+     "threeAttempted": 442,
+     "ftMade": 166,
+     "ftAttempted": 201
+    }
+   },
+   "lastToDate": {
+    "regular": {
+     "games": 1,
+     "started": 0,
+     "minutes": 22.7,
+     "points": 20,
+     "rebounds": 4,
+     "assists": 2,
+     "steals": 1,
+     "blocks": 0,
+     "turnovers": 1,
+     "fgMade": 7,
+     "fgAttempted": 13,
+     "threeMade": 3,
+     "threeAttempted": 7,
+     "ftMade": 3,
+     "ftAttempted": 3
+    }
+   }
+  },
+  {
+   "id": "filipky01",
+   "name": "Kyle Filipowski",
+   "number": "2",
+   "position": "C",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 11\"",
+    "weight": 250,
+    "birthDate": "2003-11-07",
+    "experience": 2,
+    "college": "Duke",
+    "birthPlace": "Westtown, NY"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4684793.png",
+   "current": {
+    "regular": {
+     "games": 1,
+     "started": 0,
+     "minutes": 9,
+     "points": 3,
+     "rebounds": 0,
+     "assists": 0,
+     "steals": 1,
+     "blocks": 0,
+     "turnovers": 0,
+     "fgMade": 1,
+     "fgAttempted": 2,
+     "threeMade": 0,
+     "threeAttempted": 1,
+     "ftMade": 1,
+     "ftAttempted": 1
+    }
+   },
+   "lastFull": {
+    "regular": {
+     "games": 77,
+     "started": 41,
+     "minutes": 1801.4,
+     "points": 879,
+     "rebounds": 552,
+     "assists": 198,
+     "steals": 73,
+     "blocks": 39,
+     "turnovers": 125,
+     "fgMade": 323,
+     "fgAttempted": 657,
+     "threeMade": 74,
+     "threeAttempted": 228,
+     "ftMade": 159,
+     "ftAttempted": 212
+    }
+   },
+   "lastToDate": {
+    "regular": {
+     "games": 1,
+     "started": 1,
+     "minutes": 24.5,
+     "points": 9,
+     "rebounds": 4,
+     "assists": 5,
+     "steals": 0,
+     "blocks": 1,
+     "turnovers": 0,
+     "fgMade": 4,
+     "fgAttempted": 10,
+     "threeMade": 1,
+     "threeAttempted": 6,
+     "ftMade": 0,
+     "ftAttempted": 0
+    }
+   }
+  },
+  {
+   "id": "okogijo01",
+   "name": "Josh Okogie",
+   "number": "21",
+   "position": "SG",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 4\"",
+    "weight": 213,
+    "birthDate": "1998-09-01",
+    "experience": 8,
+    "college": "Georgia Tech",
+    "birthPlace": "Lagos, Nigeria"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4065663.png",
+   "current": {
+    "regular": {
+     "games": 1,
+     "started": 0,
+     "minutes": 7.6,
+     "points": 0,
+     "rebounds": 1,
+     "assists": 0,
+     "steals": 0,
+     "blocks": 0,
+     "turnovers": 0,
+     "fgMade": 0,
+     "fgAttempted": 1,
+     "threeMade": 0,
+     "threeAttempted": 1,
+     "ftMade": 0,
+     "ftAttempted": 0
+    }
+   },
+   "lastFull": {
+    "regular": {
+     "games": 78,
+     "started": 32,
+     "minutes": 1354.5,
+     "points": 353,
+     "rebounds": 200,
+     "assists": 69,
+     "steals": 63,
+     "blocks": 16,
+     "turnovers": 41,
+     "fgMade": 125,
+     "fgAttempted": 294,
+     "threeMade": 62,
+     "threeAttempted": 161,
+     "ftMade": 41,
+     "ftAttempted": 69
+    },
+    "playoffs": {
+     "games": 6,
+     "started": 2,
+     "minutes": 104.5,
+     "points": 29,
+     "rebounds": 14,
+     "assists": 5,
+     "steals": 7,
+     "blocks": 0,
+     "turnovers": 3,
+     "fgMade": 11,
+     "fgAttempted": 25,
+     "threeMade": 5,
+     "threeAttempted": 13,
+     "ftMade": 2,
+     "ftAttempted": 2
+    }
+   },
+   "lastToDate": {
+    "regular": {
+     "games": 1,
+     "started": 0,
+     "minutes": 20,
+     "points": 8,
+     "rebounds": 2,
+     "assists": 1,
+     "steals": 0,
+     "blocks": 1,
+     "turnovers": 0,
+     "fgMade": 1,
+     "fgAttempted": 3,
+     "threeMade": 1,
+     "threeAttempted": 3,
+     "ftMade": 5,
+     "ftAttempted": 6
     }
    }
   },
@@ -901,25 +1118,6 @@
      "ftAttempted": 0
     }
    }
-  },
-  {
-   "id": "peterda02",
-   "name": "Darryn Peterson",
-   "position": "SG",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 5\"",
-    "weight": 199,
-    "birthDate": "2007-01-17",
-    "experience": 0,
-    "college": "Kansas",
-    "birthPlace": "Canton, OH"
-   },
-   "number": "22",
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5041955.png",
-   "current": {},
-   "lastFull": {},
-   "lastToDate": {}
   }
  ]
 }

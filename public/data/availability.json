@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-22T05:22:24.985Z",
+ "updatedAt": "2026-10-22T14:23:57.846Z",
  "teams": {
   "ATL": [
    {
@@ -37,25 +37,25 @@
   ],
   "CHA": [
    {
-    "name": "Coby White",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Calf (strain)",
-    "returnDate": "2026-10-23"
-   },
-   {
-    "name": "Grant Williams",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Hamstring",
-    "returnDate": "2026-10-23"
-   },
-   {
     "name": "Kylan Boswell",
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Knee",
     "returnDate": "2026-11-02"
+   },
+   {
+    "name": "Coby White",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Calf (strain)",
+    "returnDate": "2026-10-23"
+   },
+   {
+    "name": "Grant Williams",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Hamstring",
+    "returnDate": "2026-10-23"
    },
    {
     "name": "Kon Knueppel",
@@ -113,17 +113,17 @@
   ],
   "DAL": [
    {
-    "name": "Dereck Lively II",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Foot (surgery)",
-    "returnDate": "2026-10-23"
-   },
-   {
     "name": "Caleb Martin",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Thumb (sprain)",
+    "returnDate": "2026-10-23"
+   },
+   {
+    "name": "Dereck Lively II",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Foot (surgery)",
     "returnDate": "2026-10-23"
    },
    {
@@ -246,7 +246,7 @@
    {
     "name": "Bradley Beal",
     "status": "Out",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Knee (inflammation)",
     "returnDate": "2026-11-08"
    },
@@ -437,18 +437,18 @@
   ],
   "POR": [
    {
-    "name": "Branden Carlson",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Concussion",
-    "returnDate": "2026-10-23"
-   },
-   {
     "name": "Shaedon Sharpe",
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Knee (surgery)",
     "returnDate": "2027-03-02"
+   },
+   {
+    "name": "Branden Carlson",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Concussion",
+    "returnDate": "2026-10-23"
    },
    {
     "name": "Chris Youngblood",
