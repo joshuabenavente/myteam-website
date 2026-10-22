@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-22T01:18:58.589Z",
+ "updatedAt": "2026-10-22T02:17:51.422Z",
  "teams": {
   "ATL": [
    {
@@ -449,13 +449,6 @@
     "gameTimeDecision": false,
     "reason": "Knee (surgery)",
     "returnDate": "2027-03-02"
-   },
-   {
-    "name": "Micah Potter",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Illness",
-    "returnDate": "2026-10-21"
    }
   ],
   "SAC": [
@@ -474,18 +467,18 @@
     "returnDate": "2026-11-02"
    },
    {
+    "name": "Malik Monk",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Ankle (soreness)",
+    "returnDate": "2026-10-23"
+   },
+   {
     "name": "Maxime Raynaud",
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Knee (dislocated)",
     "returnDate": "2026-11-02"
-   },
-   {
-    "name": "Malik Monk",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Ankle (soreness)",
-    "returnDate": "2026-10-21"
    }
   ],
   "SAS": [
