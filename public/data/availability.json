@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-22T00:17:51.491Z",
+ "updatedAt": "2026-10-22T01:18:58.589Z",
  "teams": {
   "ATL": [
    {
@@ -208,13 +208,6 @@
     "gameTimeDecision": false,
     "reason": "Knee (surgery)",
     "returnDate": "2026-12-01"
-   },
-   {
-    "name": "Stephen Curry",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Ankle (sprain)",
-    "returnDate": "2026-10-21"
    }
   ],
   "HOU": [
@@ -421,18 +414,18 @@
   ],
   "PHX": [
    {
+    "name": "Luke Kennard",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Knee (strain)",
+    "returnDate": "2026-10-24"
+   },
+   {
     "name": "Mark Williams",
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Shoulder (surgery)",
     "returnDate": "2027-02-03"
-   },
-   {
-    "name": "Luke Kennard",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Knee (strain)",
-    "returnDate": "2026-10-21"
    }
   ],
   "POR": [
@@ -456,13 +449,6 @@
     "gameTimeDecision": false,
     "reason": "Knee (surgery)",
     "returnDate": "2027-03-02"
-   },
-   {
-    "name": "Deni Avdija",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Ankle",
-    "returnDate": "2026-10-21"
    },
    {
     "name": "Micah Potter",
