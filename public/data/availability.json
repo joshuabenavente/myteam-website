@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-22T15:23:36.128Z",
+ "updatedAt": "2026-10-22T17:22:37.255Z",
  "teams": {
   "ATL": [
    {
@@ -529,6 +529,13 @@
   ],
   "WAS": [
    {
+    "name": "AJ Dybantsa",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Ankle (sprain)",
+    "returnDate": "2026-10-24"
+   },
+   {
     "name": "Jamir Watkins",
     "status": "Out",
     "gameTimeDecision": false,
@@ -541,13 +548,6 @@
     "gameTimeDecision": false,
     "reason": "Hip",
     "returnDate": "2026-11-02"
-   },
-   {
-    "name": "AJ Dybantsa",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Ankle (sprain)",
-    "returnDate": "2026-10-23"
    }
   ]
  }
