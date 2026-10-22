@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-22T04:23:34.572Z",
+ "updatedAt": "2026-10-22T05:22:24.985Z",
  "teams": {
   "ATL": [
    {
@@ -175,20 +175,6 @@
   ],
   "GSW": [
    {
-    "name": "Brandin Podziemski",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Back (soreness)",
-    "returnDate": "2026-10-23"
-   },
-   {
-    "name": "Charles Bassey",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Knee",
-    "returnDate": "2026-10-23"
-   },
-   {
     "name": "Jimmy Butler III",
     "status": "Out",
     "gameTimeDecision": false,
@@ -208,6 +194,20 @@
     "gameTimeDecision": false,
     "reason": "Knee (surgery)",
     "returnDate": "2026-12-01"
+   },
+   {
+    "name": "Brandin Podziemski",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Back (soreness)",
+    "returnDate": "2026-10-23"
+   },
+   {
+    "name": "Charles Bassey",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Knee",
+    "returnDate": "2026-10-23"
    }
   ],
   "HOU": [
@@ -246,7 +246,7 @@
    {
     "name": "Bradley Beal",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Knee (inflammation)",
     "returnDate": "2026-11-08"
    },
@@ -291,22 +291,22 @@
   "LAL": [
    {
     "name": "Adou Thiero",
-    "status": "Out",
-    "gameTimeDecision": false,
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
     "reason": "Knee",
     "returnDate": "2026-10-23"
    },
    {
     "name": "Cameron Carr",
-    "status": "Out",
-    "gameTimeDecision": false,
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
     "reason": "Oblique (strain)",
     "returnDate": "2026-10-23"
    },
    {
     "name": "Collin Sexton",
-    "status": "Out",
-    "gameTimeDecision": false,
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
     "reason": "Calf",
     "returnDate": "2026-10-23"
    }
@@ -414,18 +414,25 @@
   ],
   "PHX": [
    {
-    "name": "Luke Kennard",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Knee (strain)",
-    "returnDate": "2026-10-24"
-   },
-   {
     "name": "Mark Williams",
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Shoulder (surgery)",
     "returnDate": "2027-02-03"
+   },
+   {
+    "name": "Luke Kennard",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Knee (strain)",
+    "returnDate": "2026-10-24"
+   },
+   {
+    "name": "Oso Ighodaro",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Hip",
+    "returnDate": "2026-10-24"
    }
   ],
   "POR": [
@@ -437,18 +444,18 @@
     "returnDate": "2026-10-23"
    },
    {
-    "name": "Chris Youngblood",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Ankle (soreness)",
-    "returnDate": "2026-10-23"
-   },
-   {
     "name": "Shaedon Sharpe",
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Knee (surgery)",
     "returnDate": "2027-03-02"
+   },
+   {
+    "name": "Chris Youngblood",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Ankle (soreness)",
+    "returnDate": "2026-10-23"
    }
   ],
   "SAC": [
@@ -467,18 +474,18 @@
     "returnDate": "2026-11-02"
    },
    {
-    "name": "Malik Monk",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Ankle (soreness)",
-    "returnDate": "2026-10-23"
-   },
-   {
     "name": "Maxime Raynaud",
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Knee (dislocated)",
     "returnDate": "2026-11-02"
+   },
+   {
+    "name": "Malik Monk",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Ankle (soreness)",
+    "returnDate": "2026-10-23"
    }
   ],
   "SAS": [
