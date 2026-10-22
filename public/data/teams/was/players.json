@@ -1,15 +1,505 @@
 {
  "season": "2026-27",
  "lastSeason": "2025-26",
- "updatedAt": "2026-10-22T06:23:41.637Z",
+ "updatedAt": "2026-10-22T12:23:48.055Z",
  "teamGamesPlayed": {
   "regular": 1,
   "playoffs": 0
  },
  "players": [
   {
+   "id": "youngtr01",
+   "name": "Trae Young",
+   "number": "3",
+   "position": "PG",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 2\"",
+    "weight": 164,
+    "birthDate": "1998-09-19",
+    "experience": 8,
+    "college": "Oklahoma",
+    "birthPlace": "Lubbock, TX"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4277905.png",
+   "current": {
+    "regular": {
+     "games": 1,
+     "started": 1,
+     "minutes": 38.4,
+     "points": 20,
+     "rebounds": 0,
+     "assists": 13,
+     "steals": 2,
+     "blocks": 0,
+     "turnovers": 1,
+     "fgMade": 4,
+     "fgAttempted": 13,
+     "threeMade": 0,
+     "threeAttempted": 6,
+     "ftMade": 12,
+     "ftAttempted": 16
+    }
+   },
+   "lastFull": {
+    "regular": {
+     "games": 15,
+     "started": 15,
+     "minutes": 383.8,
+     "points": 269,
+     "rebounds": 30,
+     "assists": 120,
+     "steals": 13,
+     "blocks": 2,
+     "turnovers": 39,
+     "fgMade": 81,
+     "fgAttempted": 177,
+     "threeMade": 27,
+     "threeAttempted": 80,
+     "ftMade": 80,
+     "ftAttempted": 97
+    }
+   },
+   "lastToDate": {
+    "regular": {
+     "games": 1,
+     "started": 1,
+     "minutes": 34.3,
+     "points": 22,
+     "rebounds": 1,
+     "assists": 5,
+     "steals": 1,
+     "blocks": 0,
+     "turnovers": 2,
+     "fgMade": 5,
+     "fgAttempted": 14,
+     "threeMade": 1,
+     "threeAttempted": 7,
+     "ftMade": 11,
+     "ftAttempted": 13
+    }
+   }
+  },
+  {
+   "id": "davisan02",
+   "name": "Anthony Davis",
+   "number": "23",
+   "position": "PF",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 10\"",
+    "weight": 253,
+    "birthDate": "1993-03-11",
+    "experience": 14,
+    "college": "Kentucky",
+    "birthPlace": "Chicago, IL"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/6583.png",
+   "current": {
+    "regular": {
+     "games": 1,
+     "started": 1,
+     "minutes": 33.8,
+     "points": 34,
+     "rebounds": 12,
+     "assists": 4,
+     "steals": 2,
+     "blocks": 1,
+     "turnovers": 3,
+     "fgMade": 11,
+     "fgAttempted": 20,
+     "threeMade": 1,
+     "threeAttempted": 3,
+     "ftMade": 11,
+     "ftAttempted": 14
+    }
+   },
+   "lastFull": {
+    "regular": {
+     "games": 20,
+     "started": 20,
+     "minutes": 625.8,
+     "points": 407,
+     "rebounds": 221,
+     "assists": 56,
+     "steals": 22,
+     "blocks": 33,
+     "turnovers": 41,
+     "fgMade": 169,
+     "fgAttempted": 334,
+     "threeMade": 10,
+     "threeAttempted": 37,
+     "ftMade": 59,
+     "ftAttempted": 81
+    }
+   },
+   "lastToDate": {
+    "regular": {
+     "games": 1,
+     "started": 1,
+     "minutes": 32.5,
+     "points": 22,
+     "rebounds": 13,
+     "assists": 1,
+     "steals": 2,
+     "blocks": 1,
+     "turnovers": 0,
+     "fgMade": 7,
+     "fgAttempted": 22,
+     "threeMade": 2,
+     "threeAttempted": 4,
+     "ftMade": 6,
+     "ftAttempted": 6
+    }
+   }
+  },
+  {
+   "id": "coulibi01",
+   "name": "Bilal Coulibaly",
+   "number": "0",
+   "position": "SF",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 7\"",
+    "weight": 195,
+    "birthDate": "2004-07-26",
+    "experience": 3
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5104155.png",
+   "current": {
+    "regular": {
+     "games": 1,
+     "started": 1,
+     "minutes": 29,
+     "points": 11,
+     "rebounds": 2,
+     "assists": 1,
+     "steals": 4,
+     "blocks": 2,
+     "turnovers": 0,
+     "fgMade": 4,
+     "fgAttempted": 6,
+     "threeMade": 1,
+     "threeAttempted": 3,
+     "ftMade": 2,
+     "ftAttempted": 3
+    }
+   },
+   "lastFull": {
+    "regular": {
+     "games": 56,
+     "started": 56,
+     "minutes": 1468.3,
+     "points": 657,
+     "rebounds": 243,
+     "assists": 145,
+     "steals": 75,
+     "blocks": 54,
+     "turnovers": 81,
+     "fgMade": 230,
+     "fgAttempted": 541,
+     "threeMade": 65,
+     "threeAttempted": 204,
+     "ftMade": 132,
+     "ftAttempted": 177
+    }
+   },
+   "lastToDate": {}
+  },
+  {
+   "id": "georgky01",
+   "name": "Kyshawn George",
+   "number": "18",
+   "position": "SG",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 8\"",
+    "weight": 200,
+    "birthDate": "2003-12-12",
+    "experience": 2,
+    "college": "Miami",
+    "birthPlace": "Monthey, Switzerland"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5174563.png",
+   "current": {
+    "regular": {
+     "games": 1,
+     "started": 1,
+     "minutes": 28.7,
+     "points": 18,
+     "rebounds": 5,
+     "assists": 3,
+     "steals": 1,
+     "blocks": 1,
+     "turnovers": 4,
+     "fgMade": 8,
+     "fgAttempted": 14,
+     "threeMade": 1,
+     "threeAttempted": 6,
+     "ftMade": 1,
+     "ftAttempted": 1
+    }
+   },
+   "lastFull": {
+    "regular": {
+     "games": 48,
+     "started": 48,
+     "minutes": 1391.4,
+     "points": 710,
+     "rebounds": 245,
+     "assists": 214,
+     "steals": 48,
+     "blocks": 43,
+     "turnovers": 125,
+     "fgMade": 253,
+     "fgAttempted": 577,
+     "threeMade": 99,
+     "threeAttempted": 260,
+     "ftMade": 105,
+     "ftAttempted": 131
+    }
+   },
+   "lastToDate": {
+    "regular": {
+     "games": 1,
+     "started": 1,
+     "minutes": 32.1,
+     "points": 21,
+     "rebounds": 9,
+     "assists": 4,
+     "steals": 1,
+     "blocks": 2,
+     "turnovers": 2,
+     "fgMade": 7,
+     "fgAttempted": 15,
+     "threeMade": 3,
+     "threeAttempted": 6,
+     "ftMade": 4,
+     "ftAttempted": 8
+    }
+   }
+  },
+  {
+   "id": "sarral01",
+   "name": "Alex Sarr",
+   "number": "20",
+   "position": "C",
+   "twoWay": false,
+   "bio": {
+    "height": "7' 0\"",
+    "weight": 205,
+    "birthDate": "2005-04-26",
+    "experience": 2
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5160992.png",
+   "current": {
+    "regular": {
+     "games": 1,
+     "started": 1,
+     "minutes": 24.3,
+     "points": 6,
+     "rebounds": 9,
+     "assists": 2,
+     "steals": 0,
+     "blocks": 0,
+     "turnovers": 0,
+     "fgMade": 3,
+     "fgAttempted": 9,
+     "threeMade": 0,
+     "threeAttempted": 3,
+     "ftMade": 0,
+     "ftAttempted": 0
+    }
+   },
+   "lastFull": {
+    "regular": {
+     "games": 48,
+     "started": 48,
+     "minutes": 1304.7,
+     "points": 783,
+     "rebounds": 355,
+     "assists": 130,
+     "steals": 39,
+     "blocks": 95,
+     "turnovers": 82,
+     "fgMade": 316,
+     "fgAttempted": 656,
+     "threeMade": 50,
+     "threeAttempted": 150,
+     "ftMade": 101,
+     "ftAttempted": 146
+    }
+   },
+   "lastToDate": {
+    "regular": {
+     "games": 1,
+     "started": 1,
+     "minutes": 25.5,
+     "points": 10,
+     "rebounds": 11,
+     "assists": 3,
+     "steals": 0,
+     "blocks": 0,
+     "turnovers": 1,
+     "fgMade": 5,
+     "fgAttempted": 10,
+     "threeMade": 0,
+     "threeAttempted": 0,
+     "ftMade": 0,
+     "ftAttempted": 2
+    }
+   }
+  },
+  {
+   "id": "champju01",
+   "name": "Justin Champagnie",
+   "number": "9",
+   "position": "SF",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 6\"",
+    "weight": 206,
+    "birthDate": "2001-06-29",
+    "experience": 5,
+    "college": "Pittsburgh",
+    "birthPlace": "Brooklyn, NY"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4432907.png",
+   "current": {
+    "regular": {
+     "games": 1,
+     "started": 0,
+     "minutes": 20.7,
+     "points": 8,
+     "rebounds": 8,
+     "assists": 1,
+     "steals": 0,
+     "blocks": 0,
+     "turnovers": 0,
+     "fgMade": 3,
+     "fgAttempted": 4,
+     "threeMade": 1,
+     "threeAttempted": 2,
+     "ftMade": 1,
+     "ftAttempted": 1
+    }
+   },
+   "lastFull": {
+    "regular": {
+     "games": 69,
+     "started": 19,
+     "minutes": 1377.9,
+     "points": 597,
+     "rebounds": 384,
+     "assists": 84,
+     "steals": 59,
+     "blocks": 43,
+     "turnovers": 45,
+     "fgMade": 232,
+     "fgAttempted": 462,
+     "threeMade": 53,
+     "threeAttempted": 166,
+     "ftMade": 80,
+     "ftAttempted": 102
+    }
+   },
+   "lastToDate": {
+    "regular": {
+     "games": 1,
+     "started": 0,
+     "minutes": 5.8,
+     "points": 0,
+     "rebounds": 3,
+     "assists": 1,
+     "steals": 0,
+     "blocks": 0,
+     "turnovers": 0,
+     "fgMade": 0,
+     "fgAttempted": 3,
+     "threeMade": 0,
+     "threeAttempted": 1,
+     "ftMade": 0,
+     "ftAttempted": 0
+    }
+   }
+  },
+  {
+   "id": "johnstr03",
+   "name": "Tre Johnson",
+   "number": "12",
+   "position": "SG",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 5\"",
+    "weight": 190,
+    "birthDate": "2006-03-07",
+    "experience": 1,
+    "college": "Texas",
+    "birthPlace": "Garland, TX"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5238230.png",
+   "current": {
+    "regular": {
+     "games": 1,
+     "started": 0,
+     "minutes": 19.3,
+     "points": 8,
+     "rebounds": 1,
+     "assists": 0,
+     "steals": 0,
+     "blocks": 1,
+     "turnovers": 1,
+     "fgMade": 3,
+     "fgAttempted": 6,
+     "threeMade": 0,
+     "threeAttempted": 2,
+     "ftMade": 2,
+     "ftAttempted": 2
+    }
+   },
+   "lastFull": {
+    "regular": {
+     "games": 60,
+     "started": 42,
+     "minutes": 1443.6,
+     "points": 733,
+     "rebounds": 170,
+     "assists": 122,
+     "steals": 33,
+     "blocks": 18,
+     "turnovers": 93,
+     "fgMade": 271,
+     "fgAttempted": 647,
+     "threeMade": 115,
+     "threeAttempted": 321,
+     "ftMade": 76,
+     "ftAttempted": 87
+    }
+   },
+   "lastToDate": {
+    "regular": {
+     "games": 1,
+     "started": 0,
+     "minutes": 26.2,
+     "points": 16,
+     "rebounds": 5,
+     "assists": 2,
+     "steals": 1,
+     "blocks": 1,
+     "turnovers": 4,
+     "fgMade": 5,
+     "fgAttempted": 11,
+     "threeMade": 4,
+     "threeAttempted": 8,
+     "ftMade": 2,
+     "ftAttempted": 2
+    }
+   }
+  },
+  {
    "id": "carrica01",
    "name": "Bub Carrington",
+   "number": "7",
    "position": "PG",
    "twoWay": false,
    "bio": {
@@ -20,9 +510,26 @@
     "college": "Pittsburgh",
     "birthPlace": "Baltimore, MD"
    },
-   "number": "7",
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4845374.png",
-   "current": {},
+   "current": {
+    "regular": {
+     "games": 1,
+     "started": 0,
+     "minutes": 18.5,
+     "points": 10,
+     "rebounds": 1,
+     "assists": 4,
+     "steals": 2,
+     "blocks": 0,
+     "turnovers": 1,
+     "fgMade": 3,
+     "fgAttempted": 6,
+     "threeMade": 2,
+     "threeAttempted": 3,
+     "ftMade": 2,
+     "ftAttempted": 2
+    }
+   },
    "lastFull": {
     "regular": {
      "games": 82,
@@ -65,6 +572,7 @@
   {
    "id": "aytonde01",
    "name": "Deandre Ayton",
+   "number": "8",
    "position": "C",
    "twoWay": false,
    "bio": {
@@ -75,9 +583,26 @@
     "college": "Arizona",
     "birthPlace": "Nassau, Bahamas"
    },
-   "number": "8",
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4278129.png",
-   "current": {},
+   "current": {
+    "regular": {
+     "games": 1,
+     "started": 0,
+     "minutes": 15.1,
+     "points": 11,
+     "rebounds": 4,
+     "assists": 0,
+     "steals": 0,
+     "blocks": 2,
+     "turnovers": 0,
+     "fgMade": 5,
+     "fgAttempted": 6,
+     "threeMade": 0,
+     "threeAttempted": 0,
+     "ftMade": 1,
+     "ftAttempted": 2
+    }
+   },
    "lastFull": {
     "regular": {
      "games": 72,
@@ -135,6 +660,79 @@
    }
   },
   {
+   "id": "middlkh01",
+   "name": "Khris Middleton",
+   "number": "22",
+   "position": "SF",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 7\"",
+    "weight": 222,
+    "birthDate": "1991-08-12",
+    "experience": 14,
+    "college": "Texas A&M",
+    "birthPlace": "Charleston, SC"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/6609.png",
+   "current": {
+    "regular": {
+     "games": 1,
+     "started": 0,
+     "minutes": 12.2,
+     "points": 2,
+     "rebounds": 2,
+     "assists": 0,
+     "steals": 0,
+     "blocks": 0,
+     "turnovers": 1,
+     "fgMade": 1,
+     "fgAttempted": 2,
+     "threeMade": 0,
+     "threeAttempted": 0,
+     "ftMade": 0,
+     "ftAttempted": 0
+    }
+   },
+   "lastFull": {
+    "regular": {
+     "games": 63,
+     "started": 50,
+     "minutes": 1439.5,
+     "points": 640,
+     "rebounds": 231,
+     "assists": 176,
+     "steals": 41,
+     "blocks": 9,
+     "turnovers": 108,
+     "fgMade": 227,
+     "fgAttempted": 540,
+     "threeMade": 67,
+     "threeAttempted": 186,
+     "ftMade": 119,
+     "ftAttempted": 136
+    }
+   },
+   "lastToDate": {
+    "regular": {
+     "games": 1,
+     "started": 1,
+     "minutes": 28.5,
+     "points": 23,
+     "rebounds": 6,
+     "assists": 3,
+     "steals": 0,
+     "blocks": 0,
+     "turnovers": 2,
+     "fgMade": 9,
+     "fgAttempted": 14,
+     "threeMade": 3,
+     "threeAttempted": 5,
+     "ftMade": 2,
+     "ftAttempted": 3
+    }
+   }
+  },
+  {
    "id": "rileywi01",
    "name": "Will Riley",
    "position": "SF",
@@ -186,314 +784,6 @@
      "threeAttempted": 0,
      "ftMade": 0,
      "ftAttempted": 0
-    }
-   }
-  },
-  {
-   "id": "coulibi01",
-   "name": "Bilal Coulibaly",
-   "position": "SF",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 7\"",
-    "weight": 195,
-    "birthDate": "2004-07-26",
-    "experience": 3
-   },
-   "number": "0",
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5104155.png",
-   "current": {},
-   "lastFull": {
-    "regular": {
-     "games": 56,
-     "started": 56,
-     "minutes": 1468.3,
-     "points": 657,
-     "rebounds": 243,
-     "assists": 145,
-     "steals": 75,
-     "blocks": 54,
-     "turnovers": 81,
-     "fgMade": 230,
-     "fgAttempted": 541,
-     "threeMade": 65,
-     "threeAttempted": 204,
-     "ftMade": 132,
-     "ftAttempted": 177
-    }
-   },
-   "lastToDate": {}
-  },
-  {
-   "id": "johnstr03",
-   "name": "Tre Johnson",
-   "position": "SG",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 5\"",
-    "weight": 190,
-    "birthDate": "2006-03-07",
-    "experience": 1,
-    "college": "Texas",
-    "birthPlace": "Garland, TX"
-   },
-   "number": "12",
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5238230.png",
-   "current": {},
-   "lastFull": {
-    "regular": {
-     "games": 60,
-     "started": 42,
-     "minutes": 1443.6,
-     "points": 733,
-     "rebounds": 170,
-     "assists": 122,
-     "steals": 33,
-     "blocks": 18,
-     "turnovers": 93,
-     "fgMade": 271,
-     "fgAttempted": 647,
-     "threeMade": 115,
-     "threeAttempted": 321,
-     "ftMade": 76,
-     "ftAttempted": 87
-    }
-   },
-   "lastToDate": {
-    "regular": {
-     "games": 1,
-     "started": 0,
-     "minutes": 26.2,
-     "points": 16,
-     "rebounds": 5,
-     "assists": 2,
-     "steals": 1,
-     "blocks": 1,
-     "turnovers": 4,
-     "fgMade": 5,
-     "fgAttempted": 11,
-     "threeMade": 4,
-     "threeAttempted": 8,
-     "ftMade": 2,
-     "ftAttempted": 2
-    }
-   }
-  },
-  {
-   "id": "middlkh01",
-   "name": "Khris Middleton",
-   "position": "SF",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 7\"",
-    "weight": 222,
-    "birthDate": "1991-08-12",
-    "experience": 14,
-    "college": "Texas A&M",
-    "birthPlace": "Charleston, SC"
-   },
-   "number": "22",
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/6609.png",
-   "current": {},
-   "lastFull": {
-    "regular": {
-     "games": 63,
-     "started": 50,
-     "minutes": 1439.5,
-     "points": 640,
-     "rebounds": 231,
-     "assists": 176,
-     "steals": 41,
-     "blocks": 9,
-     "turnovers": 108,
-     "fgMade": 227,
-     "fgAttempted": 540,
-     "threeMade": 67,
-     "threeAttempted": 186,
-     "ftMade": 119,
-     "ftAttempted": 136
-    }
-   },
-   "lastToDate": {
-    "regular": {
-     "games": 1,
-     "started": 1,
-     "minutes": 28.5,
-     "points": 23,
-     "rebounds": 6,
-     "assists": 3,
-     "steals": 0,
-     "blocks": 0,
-     "turnovers": 2,
-     "fgMade": 9,
-     "fgAttempted": 14,
-     "threeMade": 3,
-     "threeAttempted": 5,
-     "ftMade": 2,
-     "ftAttempted": 3
-    }
-   }
-  },
-  {
-   "id": "georgky01",
-   "name": "Kyshawn George",
-   "position": "SG",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 8\"",
-    "weight": 200,
-    "birthDate": "2003-12-12",
-    "experience": 2,
-    "college": "Miami",
-    "birthPlace": "Monthey, Switzerland"
-   },
-   "number": "18",
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5174563.png",
-   "current": {},
-   "lastFull": {
-    "regular": {
-     "games": 48,
-     "started": 48,
-     "minutes": 1391.4,
-     "points": 710,
-     "rebounds": 245,
-     "assists": 214,
-     "steals": 48,
-     "blocks": 43,
-     "turnovers": 125,
-     "fgMade": 253,
-     "fgAttempted": 577,
-     "threeMade": 99,
-     "threeAttempted": 260,
-     "ftMade": 105,
-     "ftAttempted": 131
-    }
-   },
-   "lastToDate": {
-    "regular": {
-     "games": 1,
-     "started": 1,
-     "minutes": 32.1,
-     "points": 21,
-     "rebounds": 9,
-     "assists": 4,
-     "steals": 1,
-     "blocks": 2,
-     "turnovers": 2,
-     "fgMade": 7,
-     "fgAttempted": 15,
-     "threeMade": 3,
-     "threeAttempted": 6,
-     "ftMade": 4,
-     "ftAttempted": 8
-    }
-   }
-  },
-  {
-   "id": "champju01",
-   "name": "Justin Champagnie",
-   "position": "SF",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 6\"",
-    "weight": 206,
-    "birthDate": "2001-06-29",
-    "experience": 5,
-    "college": "Pittsburgh",
-    "birthPlace": "Brooklyn, NY"
-   },
-   "number": "9",
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4432907.png",
-   "current": {},
-   "lastFull": {
-    "regular": {
-     "games": 69,
-     "started": 19,
-     "minutes": 1377.9,
-     "points": 597,
-     "rebounds": 384,
-     "assists": 84,
-     "steals": 59,
-     "blocks": 43,
-     "turnovers": 45,
-     "fgMade": 232,
-     "fgAttempted": 462,
-     "threeMade": 53,
-     "threeAttempted": 166,
-     "ftMade": 80,
-     "ftAttempted": 102
-    }
-   },
-   "lastToDate": {
-    "regular": {
-     "games": 1,
-     "started": 0,
-     "minutes": 5.8,
-     "points": 0,
-     "rebounds": 3,
-     "assists": 1,
-     "steals": 0,
-     "blocks": 0,
-     "turnovers": 0,
-     "fgMade": 0,
-     "fgAttempted": 3,
-     "threeMade": 0,
-     "threeAttempted": 1,
-     "ftMade": 0,
-     "ftAttempted": 0
-    }
-   }
-  },
-  {
-   "id": "sarral01",
-   "name": "Alex Sarr",
-   "position": "C",
-   "twoWay": false,
-   "bio": {
-    "height": "7' 0\"",
-    "weight": 205,
-    "birthDate": "2005-04-26",
-    "experience": 2
-   },
-   "number": "20",
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5160992.png",
-   "current": {},
-   "lastFull": {
-    "regular": {
-     "games": 48,
-     "started": 48,
-     "minutes": 1304.7,
-     "points": 783,
-     "rebounds": 355,
-     "assists": 130,
-     "steals": 39,
-     "blocks": 95,
-     "turnovers": 82,
-     "fgMade": 316,
-     "fgAttempted": 656,
-     "threeMade": 50,
-     "threeAttempted": 150,
-     "ftMade": 101,
-     "ftAttempted": 146
-    }
-   },
-   "lastToDate": {
-    "regular": {
-     "games": 1,
-     "started": 1,
-     "minutes": 25.5,
-     "points": 10,
-     "rebounds": 11,
-     "assists": 3,
-     "steals": 0,
-     "blocks": 0,
-     "turnovers": 1,
-     "fgMade": 5,
-     "fgAttempted": 10,
-     "threeMade": 0,
-     "threeAttempted": 0,
-     "ftMade": 0,
-     "ftAttempted": 2
     }
    }
   },
@@ -695,116 +985,6 @@
      "threeAttempted": 3,
      "ftMade": 2,
      "ftAttempted": 3
-    }
-   }
-  },
-  {
-   "id": "davisan02",
-   "name": "Anthony Davis",
-   "position": "PF",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 10\"",
-    "weight": 253,
-    "birthDate": "1993-03-11",
-    "experience": 14,
-    "college": "Kentucky",
-    "birthPlace": "Chicago, IL"
-   },
-   "number": "23",
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/6583.png",
-   "current": {},
-   "lastFull": {
-    "regular": {
-     "games": 20,
-     "started": 20,
-     "minutes": 625.8,
-     "points": 407,
-     "rebounds": 221,
-     "assists": 56,
-     "steals": 22,
-     "blocks": 33,
-     "turnovers": 41,
-     "fgMade": 169,
-     "fgAttempted": 334,
-     "threeMade": 10,
-     "threeAttempted": 37,
-     "ftMade": 59,
-     "ftAttempted": 81
-    }
-   },
-   "lastToDate": {
-    "regular": {
-     "games": 1,
-     "started": 1,
-     "minutes": 32.5,
-     "points": 22,
-     "rebounds": 13,
-     "assists": 1,
-     "steals": 2,
-     "blocks": 1,
-     "turnovers": 0,
-     "fgMade": 7,
-     "fgAttempted": 22,
-     "threeMade": 2,
-     "threeAttempted": 4,
-     "ftMade": 6,
-     "ftAttempted": 6
-    }
-   }
-  },
-  {
-   "id": "youngtr01",
-   "name": "Trae Young",
-   "position": "PG",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 2\"",
-    "weight": 164,
-    "birthDate": "1998-09-19",
-    "experience": 8,
-    "college": "Oklahoma",
-    "birthPlace": "Lubbock, TX"
-   },
-   "number": "3",
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4277905.png",
-   "current": {},
-   "lastFull": {
-    "regular": {
-     "games": 15,
-     "started": 15,
-     "minutes": 383.8,
-     "points": 269,
-     "rebounds": 30,
-     "assists": 120,
-     "steals": 13,
-     "blocks": 2,
-     "turnovers": 39,
-     "fgMade": 81,
-     "fgAttempted": 177,
-     "threeMade": 27,
-     "threeAttempted": 80,
-     "ftMade": 80,
-     "ftAttempted": 97
-    }
-   },
-   "lastToDate": {
-    "regular": {
-     "games": 1,
-     "started": 1,
-     "minutes": 34.3,
-     "points": 22,
-     "rebounds": 1,
-     "assists": 5,
-     "steals": 1,
-     "blocks": 0,
-     "turnovers": 2,
-     "fgMade": 5,
-     "fgAttempted": 14,
-     "threeMade": 1,
-     "threeAttempted": 7,
-     "ftMade": 11,
-     "ftAttempted": 13
     }
    }
   },
