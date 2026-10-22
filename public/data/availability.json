@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-22T22:23:34.766Z",
+ "updatedAt": "2026-10-22T23:22:23.723Z",
  "teams": {
   "ATL": [
    {
@@ -107,29 +107,6 @@
     "gameTimeDecision": true,
     "reason": "Quadriceps",
     "returnDate": "2026-10-23"
-   }
-  ],
-  "CLE": [
-   {
-    "name": "Khalifa Diop",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Knee",
-    "returnDate": "2026-10-24"
-   },
-   {
-    "name": "Nae'Qwan Tomlin",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Back",
-    "returnDate": "2026-11-16"
-   },
-   {
-    "name": "Jarrett Allen",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Knee",
-    "returnDate": "2026-10-22"
    }
   ],
   "DAL": [
@@ -433,6 +410,13 @@
     "returnDate": "2027-10-01"
    },
    {
+    "name": "Dean Wade",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Ankle (sprain)",
+    "returnDate": "2026-10-24"
+   },
+   {
     "name": "Dominick Barlow",
     "status": "Out",
     "gameTimeDecision": false,
@@ -445,13 +429,6 @@
     "gameTimeDecision": false,
     "reason": "Quadriceps",
     "returnDate": "2026-10-24"
-   },
-   {
-    "name": "Dean Wade",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Ankle (sprain)",
-    "returnDate": "2026-10-22"
    }
   ],
   "PHX": [
@@ -569,17 +546,17 @@
     "returnDate": "2026-11-04"
    },
    {
+    "name": "Trey Alexander",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Knee",
+    "returnDate": "2026-10-25"
+   },
+   {
     "name": "Tony Bradley",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Quadriceps",
-    "returnDate": "2026-10-23"
-   },
-   {
-    "name": "Trey Alexander",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Knee",
     "returnDate": "2026-10-23"
    }
   ],
