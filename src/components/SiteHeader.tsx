@@ -18,6 +18,7 @@ import { LiveAnnouncer, LivePill } from './LivePill.tsx'
 import { MiniBar } from './MiniBar.tsx'
 import { TeamLogo } from './TeamLogo.tsx'
 import { GradientControls } from './GradientControls.tsx'
+import { TeamHeaderShader } from './TeamHeaderShader.tsx'
 
 /** Injury chips per team; the rest are behind "+N more". */
 const CHIPS_PER_TEAM = 2
@@ -74,6 +75,9 @@ export function SiteHeader({ route, data, timeZone, onShowGame }: Props) {
             <span className="atmosphere-cloud cloud-light" />
             <span className="atmosphere-cloud cloud-accent" />
           </div>
+        )}
+        {new URLSearchParams(window.location.search).get('tune') !== '1' && (
+          <TeamHeaderShader theme={teamTheme(team.abbr)} />
         )}
         <div className="header-inner">
           <div className="header-top">
