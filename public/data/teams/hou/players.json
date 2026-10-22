@@ -1,9 +1,9 @@
 {
  "season": "2026-27",
  "lastSeason": "2025-26",
- "updatedAt": "2026-10-21T21:17:48.757Z",
+ "updatedAt": "2026-10-22T03:20:06.508Z",
  "teamGamesPlayed": {
-  "regular": 0,
+  "regular": 1,
   "playoffs": 0
  },
  "players": [
@@ -58,7 +58,25 @@
      "ftAttempted": 41
     }
    },
-   "lastToDate": {}
+   "lastToDate": {
+    "regular": {
+     "games": 1,
+     "started": 1,
+     "minutes": 38.6,
+     "points": 18,
+     "rebounds": 4,
+     "assists": 5,
+     "steals": 1,
+     "blocks": 1,
+     "turnovers": 4,
+     "fgMade": 8,
+     "fgAttempted": 17,
+     "threeMade": 0,
+     "threeAttempted": 7,
+     "ftMade": 2,
+     "ftAttempted": 2
+    }
+   }
   },
   {
    "id": "duranke01",
@@ -112,7 +130,25 @@
      "ftAttempted": 9
     }
    },
-   "lastToDate": {}
+   "lastToDate": {
+    "regular": {
+     "games": 1,
+     "started": 1,
+     "minutes": 47.1,
+     "points": 23,
+     "rebounds": 9,
+     "assists": 3,
+     "steals": 0,
+     "blocks": 0,
+     "turnovers": 4,
+     "fgMade": 9,
+     "fgAttempted": 16,
+     "threeMade": 0,
+     "threeAttempted": 4,
+     "ftMade": 5,
+     "ftAttempted": 6
+    }
+   }
   },
   {
    "id": "smithja05",
@@ -166,7 +202,25 @@
      "ftAttempted": 26
     }
    },
-   "lastToDate": {}
+   "lastToDate": {
+    "regular": {
+     "games": 1,
+     "started": 1,
+     "minutes": 41.8,
+     "points": 16,
+     "rebounds": 5,
+     "assists": 0,
+     "steals": 1,
+     "blocks": 0,
+     "turnovers": 0,
+     "fgMade": 7,
+     "fgAttempted": 15,
+     "threeMade": 2,
+     "threeAttempted": 6,
+     "ftMade": 0,
+     "ftAttempted": 0
+    }
+   }
   },
   {
    "id": "sengual01",
@@ -219,7 +273,25 @@
      "ftAttempted": 42
     }
    },
-   "lastToDate": {}
+   "lastToDate": {
+    "regular": {
+     "games": 1,
+     "started": 1,
+     "minutes": 48.9,
+     "points": 39,
+     "rebounds": 11,
+     "assists": 7,
+     "steals": 2,
+     "blocks": 1,
+     "turnovers": 4,
+     "fgMade": 12,
+     "fgAttempted": 24,
+     "threeMade": 5,
+     "threeAttempted": 8,
+     "ftMade": 10,
+     "ftAttempted": 11
+    }
+   }
   },
   {
    "id": "sheppre01",
@@ -273,7 +345,25 @@
      "ftAttempted": 4
     }
    },
-   "lastToDate": {}
+   "lastToDate": {
+    "regular": {
+     "games": 1,
+     "started": 0,
+     "minutes": 27.8,
+     "points": 9,
+     "rebounds": 2,
+     "assists": 4,
+     "steals": 1,
+     "blocks": 1,
+     "turnovers": 2,
+     "fgMade": 3,
+     "fgAttempted": 11,
+     "threeMade": 2,
+     "threeAttempted": 7,
+     "ftMade": 1,
+     "ftAttempted": 2
+    }
+   }
   },
   {
    "id": "smartma01",
@@ -327,7 +417,25 @@
      "ftAttempted": 43
     }
    },
-   "lastToDate": {}
+   "lastToDate": {
+    "regular": {
+     "games": 1,
+     "started": 0,
+     "minutes": 22.8,
+     "points": 9,
+     "rebounds": 0,
+     "assists": 0,
+     "steals": 1,
+     "blocks": 0,
+     "turnovers": 3,
+     "fgMade": 3,
+     "fgAttempted": 6,
+     "threeMade": 0,
+     "threeAttempted": 3,
+     "ftMade": 3,
+     "ftAttempted": 4
+    }
+   }
   },
   {
    "id": "easonta01",
@@ -381,7 +489,25 @@
      "ftAttempted": 13
     }
    },
-   "lastToDate": {}
+   "lastToDate": {
+    "regular": {
+     "games": 1,
+     "started": 0,
+     "minutes": 21.6,
+     "points": 3,
+     "rebounds": 6,
+     "assists": 0,
+     "steals": 0,
+     "blocks": 1,
+     "turnovers": 4,
+     "fgMade": 1,
+     "fgAttempted": 6,
+     "threeMade": 1,
+     "threeAttempted": 4,
+     "ftMade": 0,
+     "ftAttempted": 0
+    }
+   }
   },
   {
    "id": "capelca01",
@@ -434,7 +560,25 @@
      "ftAttempted": 0
     }
    },
-   "lastToDate": {}
+   "lastToDate": {
+    "regular": {
+     "games": 1,
+     "started": 0,
+     "minutes": 7.9,
+     "points": 4,
+     "rebounds": 0,
+     "assists": 0,
+     "steals": 1,
+     "blocks": 0,
+     "turnovers": 1,
+     "fgMade": 1,
+     "fgAttempted": 1,
+     "threeMade": 0,
+     "threeAttempted": 0,
+     "ftMade": 2,
+     "ftAttempted": 2
+    }
+   }
   },
   {
    "id": "adamsst01",
@@ -471,7 +615,25 @@
      "ftAttempted": 81
     }
    },
-   "lastToDate": {}
+   "lastToDate": {
+    "regular": {
+     "games": 1,
+     "started": 1,
+     "minutes": 36.5,
+     "points": 4,
+     "rebounds": 13,
+     "assists": 3,
+     "steals": 0,
+     "blocks": 0,
+     "turnovers": 3,
+     "fgMade": 1,
+     "fgAttempted": 4,
+     "threeMade": 0,
+     "threeAttempted": 0,
+     "ftMade": 2,
+     "ftAttempted": 2
+    }
+   }
   },
   {
    "id": "bogdabo01",
