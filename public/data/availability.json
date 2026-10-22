@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-22T18:23:49.084Z",
+ "updatedAt": "2026-10-22T20:23:56.062Z",
  "teams": {
   "ATL": [
    {
@@ -86,6 +86,27 @@
     "gameTimeDecision": true,
     "reason": "Illness",
     "returnDate": "2026-10-23"
+   },
+   {
+    "name": "Josh Giddey",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Wrist",
+    "returnDate": "2026-10-23"
+   },
+   {
+    "name": "Tobe Awaka",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Knee",
+    "returnDate": "2026-10-23"
+   },
+   {
+    "name": "Zach Collins",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Quadriceps",
+    "returnDate": "2026-10-23"
    }
   ],
   "CLE": [
@@ -114,17 +135,24 @@
   "DAL": [
    {
     "name": "Caleb Martin",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
+    "status": "Out",
+    "gameTimeDecision": false,
     "reason": "Thumb (sprain)",
-    "returnDate": "2026-10-23"
+    "returnDate": "2026-10-24"
    },
    {
     "name": "Dereck Lively II",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
+    "status": "Out",
+    "gameTimeDecision": false,
     "reason": "Foot (surgery)",
-    "returnDate": "2026-10-23"
+    "returnDate": "2026-10-26"
+   },
+   {
+    "name": "Tarik Biberovic",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Heel",
+    "returnDate": "2026-10-24"
    },
    {
     "name": "Jett Howard",
@@ -136,16 +164,9 @@
    {
     "name": "Santi Aldama",
     "status": "Day-To-Day",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Knee",
-    "returnDate": "2026-10-23"
-   },
-   {
-    "name": "Tarik Biberovic",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Heel",
-    "returnDate": "2026-10-23"
+    "returnDate": "2026-10-24"
    }
   ],
   "DEN": [
