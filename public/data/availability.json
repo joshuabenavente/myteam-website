@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-22T21:23:36.897Z",
+ "updatedAt": "2026-10-22T22:23:34.766Z",
  "teams": {
   "ATL": [
    {
@@ -540,9 +540,23 @@
    },
    {
     "name": "Tobias Harris",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Calf (strain)",
+    "returnDate": "2026-10-24"
+   },
+   {
+    "name": "De'Aaron Fox",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
-    "reason": "Calf (strain)",
+    "reason": "Wrist (sprain)",
+    "returnDate": "2026-10-23"
+   },
+   {
+    "name": "Keldon Johnson",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Mouth (laceration)",
     "returnDate": "2026-10-23"
    }
   ],
