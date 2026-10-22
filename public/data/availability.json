@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-22T20:23:56.062Z",
+ "updatedAt": "2026-10-22T21:23:36.897Z",
  "teams": {
   "ATL": [
    {
@@ -37,32 +37,32 @@
   ],
   "CHA": [
    {
+    "name": "Coby White",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Calf (strain)",
+    "returnDate": "2026-10-24"
+   },
+   {
+    "name": "Grant Williams",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Hamstring",
+    "returnDate": "2026-10-24"
+   },
+   {
+    "name": "Kon Knueppel",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Hamstring",
+    "returnDate": "2026-10-24"
+   },
+   {
     "name": "Kylan Boswell",
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Knee",
     "returnDate": "2026-11-02"
-   },
-   {
-    "name": "Coby White",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Calf (strain)",
-    "returnDate": "2026-10-23"
-   },
-   {
-    "name": "Grant Williams",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Hamstring",
-    "returnDate": "2026-10-23"
-   },
-   {
-    "name": "Kon Knueppel",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Hamstring",
-    "returnDate": "2026-10-23"
    }
   ],
   "CHI": [
@@ -148,6 +148,13 @@
     "returnDate": "2026-10-26"
    },
    {
+    "name": "Santi Aldama",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Knee",
+    "returnDate": "2026-10-24"
+   },
+   {
     "name": "Tarik Biberovic",
     "status": "Out",
     "gameTimeDecision": false,
@@ -160,13 +167,6 @@
     "gameTimeDecision": true,
     "reason": "Calf",
     "returnDate": "2026-10-23"
-   },
-   {
-    "name": "Santi Aldama",
-    "status": "Day-To-Day",
-    "gameTimeDecision": false,
-    "reason": "Knee",
-    "returnDate": "2026-10-24"
    }
   ],
   "DEN": [
@@ -233,6 +233,13 @@
   ],
   "HOU": [
    {
+    "name": "Reed Sheppard",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Knee (bruise)",
+    "returnDate": "2026-10-23"
+   },
+   {
     "name": "Steven Adams",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
@@ -249,6 +256,13 @@
     "returnDate": "2027-01-02"
    },
    {
+    "name": "T.J. McConnell",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Hamstring",
+    "returnDate": "2026-10-25"
+   },
+   {
     "name": "Aaron Nesmith",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
@@ -256,10 +270,10 @@
     "returnDate": "2026-10-23"
    },
    {
-    "name": "T.J. McConnell",
+    "name": "Ben Sheppard",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
-    "reason": "Hamstring",
+    "reason": "Knee (soreness)",
     "returnDate": "2026-10-23"
    }
   ],
@@ -382,6 +396,13 @@
   ],
   "ORL": [
    {
+    "name": "Anthony Black",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Ankle (sprain)",
+    "returnDate": "2026-10-25"
+   },
+   {
     "name": "Izaiyah Nelson",
     "status": "Out",
     "gameTimeDecision": false,
@@ -389,25 +410,18 @@
     "returnDate": "2026-11-18"
    },
    {
+    "name": "Jonathan Isaac",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Knee",
+    "returnDate": "2026-10-25"
+   },
+   {
     "name": "Noah Penda",
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Hamstring",
     "returnDate": "2026-11-18"
-   },
-   {
-    "name": "Anthony Black",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Ankle (sprain)",
-    "returnDate": "2026-10-23"
-   },
-   {
-    "name": "Jonathan Isaac",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Knee",
-    "returnDate": "2026-10-23"
    }
   ],
   "PHI": [
@@ -576,6 +590,13 @@
     "gameTimeDecision": false,
     "reason": "Hip",
     "returnDate": "2026-11-02"
+   },
+   {
+    "name": "Felix Okpara",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Illness",
+    "returnDate": "2026-10-23"
    }
   ]
  }
