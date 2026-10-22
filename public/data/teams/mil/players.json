@@ -1,9 +1,9 @@
 {
  "season": "2026-27",
  "lastSeason": "2025-26",
- "updatedAt": "2026-10-22T00:17:35.960Z",
+ "updatedAt": "2026-10-22T06:18:41.551Z",
  "teamGamesPlayed": {
-  "regular": 0,
+  "regular": 1,
   "playoffs": 0
  },
  "players": [
@@ -42,7 +42,25 @@
      "ftAttempted": 157
     }
    },
-   "lastToDate": {}
+   "lastToDate": {
+    "regular": {
+     "games": 1,
+     "started": 0,
+     "minutes": 29.5,
+     "points": 9,
+     "rebounds": 4,
+     "assists": 3,
+     "steals": 2,
+     "blocks": 0,
+     "turnovers": 2,
+     "fgMade": 2,
+     "fgAttempted": 9,
+     "threeMade": 1,
+     "threeAttempted": 6,
+     "ftMade": 4,
+     "ftAttempted": 4
+    }
+   }
   },
   {
    "id": "greenaj01",
@@ -79,7 +97,25 @@
      "ftAttempted": 62
     }
    },
-   "lastToDate": {}
+   "lastToDate": {
+    "regular": {
+     "games": 1,
+     "started": 1,
+     "minutes": 27.2,
+     "points": 11,
+     "rebounds": 3,
+     "assists": 1,
+     "steals": 0,
+     "blocks": 0,
+     "turnovers": 0,
+     "fgMade": 4,
+     "fgAttempted": 6,
+     "threeMade": 3,
+     "threeAttempted": 5,
+     "ftMade": 0,
+     "ftAttempted": 0
+    }
+   }
   },
   {
    "id": "jaqueja01",
@@ -116,7 +152,25 @@
      "ftAttempted": 216
     }
    },
-   "lastToDate": {}
+   "lastToDate": {
+    "regular": {
+     "games": 1,
+     "started": 0,
+     "minutes": 29.8,
+     "points": 13,
+     "rebounds": 6,
+     "assists": 1,
+     "steals": 2,
+     "blocks": 0,
+     "turnovers": 2,
+     "fgMade": 6,
+     "fgAttempted": 7,
+     "threeMade": 0,
+     "threeAttempted": 1,
+     "ftMade": 1,
+     "ftAttempted": 2
+    }
+   }
   },
   {
    "id": "turnemy01",
@@ -153,7 +207,25 @@
      "ftAttempted": 177
     }
    },
-   "lastToDate": {}
+   "lastToDate": {
+    "regular": {
+     "games": 1,
+     "started": 1,
+     "minutes": 29.1,
+     "points": 11,
+     "rebounds": 8,
+     "assists": 5,
+     "steals": 0,
+     "blocks": 3,
+     "turnovers": 1,
+     "fgMade": 4,
+     "fgAttempted": 12,
+     "threeMade": 2,
+     "threeAttempted": 8,
+     "ftMade": 1,
+     "ftAttempted": 2
+    }
+   }
   },
   {
    "id": "kuzmaky01",
@@ -190,7 +262,25 @@
      "ftAttempted": 186
     }
    },
-   "lastToDate": {}
+   "lastToDate": {
+    "regular": {
+     "games": 1,
+     "started": 0,
+     "minutes": 23.3,
+     "points": 12,
+     "rebounds": 4,
+     "assists": 3,
+     "steals": 2,
+     "blocks": 2,
+     "turnovers": 1,
+     "fgMade": 5,
+     "fgAttempted": 10,
+     "threeMade": 0,
+     "threeAttempted": 2,
+     "ftMade": 2,
+     "ftAttempted": 2
+    }
+   }
   },
   {
    "id": "wareke01",
@@ -227,7 +317,25 @@
      "ftAttempted": 96
     }
    },
-   "lastToDate": {}
+   "lastToDate": {
+    "regular": {
+     "games": 1,
+     "started": 0,
+     "minutes": 13.8,
+     "points": 7,
+     "rebounds": 4,
+     "assists": 0,
+     "steals": 1,
+     "blocks": 1,
+     "turnovers": 1,
+     "fgMade": 3,
+     "fgAttempted": 5,
+     "threeMade": 1,
+     "threeAttempted": 2,
+     "ftMade": 0,
+     "ftAttempted": 0
+    }
+   }
   },
   {
    "id": "trentga02",
@@ -264,7 +372,25 @@
      "ftAttempted": 52
     }
    },
-   "lastToDate": {}
+   "lastToDate": {
+    "regular": {
+     "games": 1,
+     "started": 1,
+     "minutes": 24.4,
+     "points": 17,
+     "rebounds": 4,
+     "assists": 2,
+     "steals": 2,
+     "blocks": 0,
+     "turnovers": 1,
+     "fgMade": 6,
+     "fgAttempted": 12,
+     "threeMade": 5,
+     "threeAttempted": 11,
+     "ftMade": 0,
+     "ftAttempted": 0
+    }
+   }
   },
   {
    "id": "simsje01",
@@ -301,7 +427,25 @@
      "ftAttempted": 71
     }
    },
-   "lastToDate": {}
+   "lastToDate": {
+    "regular": {
+     "games": 1,
+     "started": 0,
+     "minutes": 1.7,
+     "points": 2,
+     "rebounds": 0,
+     "assists": 0,
+     "steals": 0,
+     "blocks": 0,
+     "turnovers": 0,
+     "fgMade": 0,
+     "fgAttempted": 0,
+     "threeMade": 0,
+     "threeAttempted": 0,
+     "ftMade": 2,
+     "ftAttempted": 2
+    }
+   }
   },
   {
    "id": "leverca01",
@@ -355,7 +499,25 @@
      "ftAttempted": 10
     }
    },
-   "lastToDate": {}
+   "lastToDate": {
+    "regular": {
+     "games": 1,
+     "started": 0,
+     "minutes": 21.5,
+     "points": 8,
+     "rebounds": 1,
+     "assists": 2,
+     "steals": 1,
+     "blocks": 0,
+     "turnovers": 1,
+     "fgMade": 3,
+     "fgAttempted": 7,
+     "threeMade": 1,
+     "threeAttempted": 3,
+     "ftMade": 1,
+     "ftAttempted": 2
+    }
+   }
   },
   {
    "id": "diengou01",
