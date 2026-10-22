@@ -1,7 +1,7 @@
 {
  "season": "2026-27",
  "lastSeason": "2025-26",
- "updatedAt": "2026-10-22T03:18:54.426Z",
+ "updatedAt": "2026-10-22T09:19:49.584Z",
  "teamGamesPlayed": {
   "regular": 1,
   "playoffs": 0
@@ -10,6 +10,7 @@
   {
    "id": "flaggco01",
    "name": "Cooper Flagg",
+   "number": "32",
    "position": "SF",
    "twoWay": false,
    "bio": {
@@ -20,9 +21,26 @@
     "college": "Duke",
     "birthPlace": "Newport, ME"
    },
-   "number": "32",
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5041939.png",
-   "current": {},
+   "current": {
+    "regular": {
+     "games": 1,
+     "started": 1,
+     "minutes": 32.9,
+     "points": 32,
+     "rebounds": 5,
+     "assists": 2,
+     "steals": 3,
+     "blocks": 1,
+     "turnovers": 4,
+     "fgMade": 10,
+     "fgAttempted": 17,
+     "threeMade": 1,
+     "threeAttempted": 4,
+     "ftMade": 11,
+     "ftAttempted": 13
+    }
+   },
    "lastFull": {
     "regular": {
      "games": 70,
@@ -63,118 +81,9 @@
    }
   },
   {
-   "id": "chrisma02",
-   "name": "Max Christie",
-   "position": "SG",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 5\"",
-    "weight": 190,
-    "birthDate": "2003-02-10",
-    "experience": 4,
-    "college": "Michigan State",
-    "birthPlace": "Arlington Heights, IL"
-   },
-   "number": "0",
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4432582.png",
-   "current": {},
-   "lastFull": {
-    "regular": {
-     "games": 77,
-     "started": 68,
-     "minutes": 2245,
-     "points": 945,
-     "rebounds": 249,
-     "assists": 151,
-     "steals": 47,
-     "blocks": 27,
-     "turnovers": 96,
-     "fgMade": 320,
-     "fgAttempted": 725,
-     "threeMade": 180,
-     "threeAttempted": 446,
-     "ftMade": 125,
-     "ftAttempted": 139
-    }
-   },
-   "lastToDate": {
-    "regular": {
-     "games": 1,
-     "started": 0,
-     "minutes": 26,
-     "points": 9,
-     "rebounds": 0,
-     "assists": 1,
-     "steals": 0,
-     "blocks": 1,
-     "turnovers": 2,
-     "fgMade": 3,
-     "fgAttempted": 4,
-     "threeMade": 3,
-     "threeAttempted": 4,
-     "ftMade": 0,
-     "ftAttempted": 0
-    }
-   }
-  },
-  {
-   "id": "marshna01",
-   "name": "Naji Marshall",
-   "position": "SF",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 6\"",
-    "weight": 220,
-    "birthDate": "1998-01-24",
-    "experience": 6,
-    "college": "Xavier",
-    "birthPlace": "Atlantic City, NJ"
-   },
-   "number": "3",
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4278594.png",
-   "current": {},
-   "lastFull": {
-    "regular": {
-     "games": 74,
-     "started": 47,
-     "minutes": 2184.7,
-     "points": 1128,
-     "rebounds": 348,
-     "assists": 241,
-     "steals": 82,
-     "blocks": 6,
-     "turnovers": 119,
-     "fgMade": 419,
-     "fgAttempted": 821,
-     "threeMade": 62,
-     "threeAttempted": 213,
-     "ftMade": 228,
-     "ftAttempted": 300
-    }
-   },
-   "lastToDate": {
-    "regular": {
-     "games": 1,
-     "started": 0,
-     "minutes": 22.6,
-     "points": 3,
-     "rebounds": 1,
-     "assists": 1,
-     "steals": 0,
-     "blocks": 0,
-     "turnovers": 0,
-     "fgMade": 0,
-     "fgAttempted": 2,
-     "threeMade": 0,
-     "threeAttempted": 0,
-     "ftMade": 3,
-     "ftAttempted": 4
-    }
-   }
-  },
-  {
    "id": "washipj01",
    "name": "P.J. Washington",
+   "number": "25",
    "position": "PF",
    "twoWay": false,
    "bio": {
@@ -185,9 +94,26 @@
     "college": "Kentucky",
     "birthPlace": "Louisville, KY"
    },
-   "number": "25",
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4278078.png",
-   "current": {},
+   "current": {
+    "regular": {
+     "games": 1,
+     "started": 1,
+     "minutes": 30.6,
+     "points": 10,
+     "rebounds": 4,
+     "assists": 2,
+     "steals": 0,
+     "blocks": 1,
+     "turnovers": 4,
+     "fgMade": 4,
+     "fgAttempted": 9,
+     "threeMade": 2,
+     "threeAttempted": 6,
+     "ftMade": 0,
+     "ftAttempted": 2
+    }
+   },
    "lastFull": {
     "regular": {
      "games": 56,
@@ -228,8 +154,155 @@
    }
   },
   {
+   "id": "marshna01",
+   "name": "Naji Marshall",
+   "number": "3",
+   "position": "SF",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 6\"",
+    "weight": 220,
+    "birthDate": "1998-01-24",
+    "experience": 6,
+    "college": "Xavier",
+    "birthPlace": "Atlantic City, NJ"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4278594.png",
+   "current": {
+    "regular": {
+     "games": 1,
+     "started": 0,
+     "minutes": 28.7,
+     "points": 16,
+     "rebounds": 2,
+     "assists": 6,
+     "steals": 1,
+     "blocks": 0,
+     "turnovers": 2,
+     "fgMade": 7,
+     "fgAttempted": 13,
+     "threeMade": 2,
+     "threeAttempted": 6,
+     "ftMade": 0,
+     "ftAttempted": 0
+    }
+   },
+   "lastFull": {
+    "regular": {
+     "games": 74,
+     "started": 47,
+     "minutes": 2184.7,
+     "points": 1128,
+     "rebounds": 348,
+     "assists": 241,
+     "steals": 82,
+     "blocks": 6,
+     "turnovers": 119,
+     "fgMade": 419,
+     "fgAttempted": 821,
+     "threeMade": 62,
+     "threeAttempted": 213,
+     "ftMade": 228,
+     "ftAttempted": 300
+    }
+   },
+   "lastToDate": {
+    "regular": {
+     "games": 1,
+     "started": 0,
+     "minutes": 22.6,
+     "points": 3,
+     "rebounds": 1,
+     "assists": 1,
+     "steals": 0,
+     "blocks": 0,
+     "turnovers": 0,
+     "fgMade": 0,
+     "fgAttempted": 2,
+     "threeMade": 0,
+     "threeAttempted": 0,
+     "ftMade": 3,
+     "ftAttempted": 4
+    }
+   }
+  },
+  {
+   "id": "chrisma02",
+   "name": "Max Christie",
+   "number": "0",
+   "position": "SG",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 5\"",
+    "weight": 190,
+    "birthDate": "2003-02-10",
+    "experience": 4,
+    "college": "Michigan State",
+    "birthPlace": "Arlington Heights, IL"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4432582.png",
+   "current": {
+    "regular": {
+     "games": 1,
+     "started": 1,
+     "minutes": 28.5,
+     "points": 5,
+     "rebounds": 3,
+     "assists": 2,
+     "steals": 0,
+     "blocks": 0,
+     "turnovers": 2,
+     "fgMade": 2,
+     "fgAttempted": 8,
+     "threeMade": 1,
+     "threeAttempted": 7,
+     "ftMade": 0,
+     "ftAttempted": 0
+    }
+   },
+   "lastFull": {
+    "regular": {
+     "games": 77,
+     "started": 68,
+     "minutes": 2245,
+     "points": 945,
+     "rebounds": 249,
+     "assists": 151,
+     "steals": 47,
+     "blocks": 27,
+     "turnovers": 96,
+     "fgMade": 320,
+     "fgAttempted": 725,
+     "threeMade": 180,
+     "threeAttempted": 446,
+     "ftMade": 125,
+     "ftAttempted": 139
+    }
+   },
+   "lastToDate": {
+    "regular": {
+     "games": 1,
+     "started": 0,
+     "minutes": 26,
+     "points": 9,
+     "rebounds": 0,
+     "assists": 1,
+     "steals": 0,
+     "blocks": 1,
+     "turnovers": 2,
+     "fgMade": 3,
+     "fgAttempted": 4,
+     "threeMade": 3,
+     "threeAttempted": 4,
+     "ftMade": 0,
+     "ftAttempted": 0
+    }
+   }
+  },
+  {
    "id": "risacza01",
    "name": "Zaccharie Risacher",
+   "number": "10",
    "position": "SF",
    "twoWay": false,
    "bio": {
@@ -238,9 +311,26 @@
     "birthDate": "2005-04-08",
     "experience": 2
    },
-   "number": "10",
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5211175.png",
-   "current": {},
+   "current": {
+    "regular": {
+     "games": 1,
+     "started": 0,
+     "minutes": 27.1,
+     "points": 4,
+     "rebounds": 6,
+     "assists": 2,
+     "steals": 5,
+     "blocks": 0,
+     "turnovers": 3,
+     "fgMade": 2,
+     "fgAttempted": 7,
+     "threeMade": 0,
+     "threeAttempted": 4,
+     "ftMade": 0,
+     "ftAttempted": 0
+    }
+   },
    "lastFull": {
     "regular": {
      "games": 67,
@@ -292,6 +382,316 @@
      "fgAttempted": 13,
      "threeMade": 2,
      "threeAttempted": 6,
+     "ftMade": 0,
+     "ftAttempted": 0
+    }
+   }
+  },
+  {
+   "id": "irvinky01",
+   "name": "Kyrie Irving",
+   "number": "11",
+   "position": "SG",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 2\"",
+    "weight": 195,
+    "birthDate": "1992-03-23",
+    "experience": 14,
+    "college": "Duke",
+    "birthPlace": "Melbourne, VIC"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/6442.png",
+   "current": {
+    "regular": {
+     "games": 1,
+     "started": 1,
+     "minutes": 23.8,
+     "points": 15,
+     "rebounds": 4,
+     "assists": 2,
+     "steals": 1,
+     "blocks": 0,
+     "turnovers": 4,
+     "fgMade": 6,
+     "fgAttempted": 9,
+     "threeMade": 1,
+     "threeAttempted": 4,
+     "ftMade": 2,
+     "ftAttempted": 2
+    }
+   },
+   "lastFull": {},
+   "lastToDate": {}
+  },
+  {
+   "id": "sassema01",
+   "name": "Marcus Sasser",
+   "number": "8",
+   "position": "PG",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 1\"",
+    "weight": 195,
+    "birthDate": "2000-09-21",
+    "experience": 3,
+    "college": "Houston",
+    "birthPlace": "Dallas, TX"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4432107.png",
+   "current": {
+    "regular": {
+     "games": 1,
+     "started": 0,
+     "minutes": 23.7,
+     "points": 17,
+     "rebounds": 1,
+     "assists": 1,
+     "steals": 1,
+     "blocks": 0,
+     "turnovers": 1,
+     "fgMade": 6,
+     "fgAttempted": 8,
+     "threeMade": 4,
+     "threeAttempted": 5,
+     "ftMade": 1,
+     "ftAttempted": 1
+    }
+   },
+   "lastFull": {
+    "regular": {
+     "games": 38,
+     "started": 5,
+     "minutes": 456.7,
+     "points": 197,
+     "rebounds": 39,
+     "assists": 75,
+     "steals": 20,
+     "blocks": 4,
+     "turnovers": 31,
+     "fgMade": 69,
+     "fgAttempted": 177,
+     "threeMade": 44,
+     "threeAttempted": 106,
+     "ftMade": 15,
+     "ftAttempted": 18
+    },
+    "playoffs": {
+     "games": 6,
+     "started": 0,
+     "minutes": 61.2,
+     "points": 27,
+     "rebounds": 5,
+     "assists": 3,
+     "steals": 3,
+     "blocks": 0,
+     "turnovers": 2,
+     "fgMade": 11,
+     "fgAttempted": 23,
+     "threeMade": 5,
+     "threeAttempted": 14,
+     "ftMade": 0,
+     "ftAttempted": 0
+    }
+   },
+   "lastToDate": {}
+  },
+  {
+   "id": "gaffoda01",
+   "name": "Daniel Gafford",
+   "number": "21",
+   "position": "C",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 10\"",
+    "weight": 265,
+    "birthDate": "1998-10-01",
+    "experience": 7,
+    "college": "Arkansas",
+    "birthPlace": "El Dorado, AR"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4278049.png",
+   "current": {
+    "regular": {
+     "games": 1,
+     "started": 1,
+     "minutes": 21.5,
+     "points": 2,
+     "rebounds": 3,
+     "assists": 1,
+     "steals": 1,
+     "blocks": 2,
+     "turnovers": 1,
+     "fgMade": 0,
+     "fgAttempted": 1,
+     "threeMade": 0,
+     "threeAttempted": 0,
+     "ftMade": 2,
+     "ftAttempted": 4
+    }
+   },
+   "lastFull": {
+    "regular": {
+     "games": 55,
+     "started": 44,
+     "minutes": 1195.1,
+     "points": 524,
+     "rebounds": 378,
+     "assists": 58,
+     "steals": 42,
+     "blocks": 69,
+     "turnovers": 63,
+     "fgMade": 207,
+     "fgAttempted": 316,
+     "threeMade": 0,
+     "threeAttempted": 0,
+     "ftMade": 110,
+     "ftAttempted": 161
+    }
+   },
+   "lastToDate": {}
+  },
+  {
+   "id": "johnsmo01",
+   "name": "Morez Johnson Jr.",
+   "number": "14",
+   "position": "PF",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 9\"",
+    "weight": 250,
+    "birthDate": "2006-01-25",
+    "experience": 0,
+    "college": "Michigan",
+    "birthPlace": "Riverdale, IL"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4873153.png",
+   "current": {
+    "regular": {
+     "games": 1,
+     "started": 0,
+     "minutes": 13.8,
+     "points": 6,
+     "rebounds": 3,
+     "assists": 1,
+     "steals": 0,
+     "blocks": 0,
+     "turnovers": 0,
+     "fgMade": 3,
+     "fgAttempted": 5,
+     "threeMade": 0,
+     "threeAttempted": 0,
+     "ftMade": 0,
+     "ftAttempted": 2
+    }
+   },
+   "lastFull": {},
+   "lastToDate": {}
+  },
+  {
+   "id": "delarse01",
+   "name": "Sergio de Larrea",
+   "number": "55",
+   "position": "PG",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 7\"",
+    "weight": 202,
+    "birthDate": "2005-12-04",
+    "experience": 0,
+    "birthPlace": "Valladolid, Spain"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5279129.png",
+   "current": {
+    "regular": {
+     "games": 1,
+     "started": 0,
+     "minutes": 6.9,
+     "points": 0,
+     "rebounds": 2,
+     "assists": 1,
+     "steals": 0,
+     "blocks": 0,
+     "turnovers": 0,
+     "fgMade": 0,
+     "fgAttempted": 1,
+     "threeMade": 0,
+     "threeAttempted": 1,
+     "ftMade": 0,
+     "ftAttempted": 0
+    }
+   },
+   "lastFull": {},
+   "lastToDate": {}
+  },
+  {
+   "id": "cissemo01",
+   "name": "Moussa Cissé",
+   "number": "30",
+   "position": "C",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 11\"",
+    "weight": 220,
+    "birthDate": "2002-09-10",
+    "experience": 1,
+    "college": "Memphis",
+    "birthPlace": "Conakry, Guinea"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4701208.png",
+   "current": {
+    "regular": {
+     "games": 1,
+     "started": 0,
+     "minutes": 2.5,
+     "points": 3,
+     "rebounds": 0,
+     "assists": 0,
+     "steals": 0,
+     "blocks": 0,
+     "turnovers": 0,
+     "fgMade": 1,
+     "fgAttempted": 1,
+     "threeMade": 0,
+     "threeAttempted": 0,
+     "ftMade": 1,
+     "ftAttempted": 2
+    }
+   },
+   "lastFull": {
+    "regular": {
+     "games": 38,
+     "started": 1,
+     "minutes": 529.9,
+     "points": 170,
+     "rebounds": 216,
+     "assists": 9,
+     "steals": 19,
+     "blocks": 45,
+     "turnovers": 30,
+     "fgMade": 66,
+     "fgAttempted": 115,
+     "threeMade": 0,
+     "threeAttempted": 0,
+     "ftMade": 38,
+     "ftAttempted": 81
+    }
+   },
+   "lastToDate": {
+    "regular": {
+     "games": 1,
+     "started": 0,
+     "minutes": 4.1,
+     "points": 0,
+     "rebounds": 0,
+     "assists": 0,
+     "steals": 0,
+     "blocks": 0,
+     "turnovers": 0,
+     "fgMade": 0,
+     "fgAttempted": 0,
+     "threeMade": 0,
+     "threeAttempted": 0,
      "ftMade": 0,
      "ftAttempted": 0
     }
@@ -351,43 +751,6 @@
      "ftAttempted": 3
     }
    }
-  },
-  {
-   "id": "gaffoda01",
-   "name": "Daniel Gafford",
-   "position": "C",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 10\"",
-    "weight": 265,
-    "birthDate": "1998-10-01",
-    "experience": 7,
-    "college": "Arkansas",
-    "birthPlace": "El Dorado, AR"
-   },
-   "number": "21",
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4278049.png",
-   "current": {},
-   "lastFull": {
-    "regular": {
-     "games": 55,
-     "started": 44,
-     "minutes": 1195.1,
-     "points": 524,
-     "rebounds": 378,
-     "assists": 58,
-     "steals": 42,
-     "blocks": 69,
-     "turnovers": 63,
-     "fgMade": 207,
-     "fgAttempted": 316,
-     "threeMade": 0,
-     "threeAttempted": 0,
-     "ftMade": 110,
-     "ftAttempted": 161
-    }
-   },
-   "lastToDate": {}
   },
   {
    "id": "martica02",
@@ -499,115 +862,6 @@
    "lastToDate": {}
   },
   {
-   "id": "cissemo01",
-   "name": "Moussa Cissé",
-   "position": "C",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 11\"",
-    "weight": 220,
-    "birthDate": "2002-09-10",
-    "experience": 1,
-    "college": "Memphis",
-    "birthPlace": "Conakry, Guinea"
-   },
-   "number": "30",
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4701208.png",
-   "current": {},
-   "lastFull": {
-    "regular": {
-     "games": 38,
-     "started": 1,
-     "minutes": 529.9,
-     "points": 170,
-     "rebounds": 216,
-     "assists": 9,
-     "steals": 19,
-     "blocks": 45,
-     "turnovers": 30,
-     "fgMade": 66,
-     "fgAttempted": 115,
-     "threeMade": 0,
-     "threeAttempted": 0,
-     "ftMade": 38,
-     "ftAttempted": 81
-    }
-   },
-   "lastToDate": {
-    "regular": {
-     "games": 1,
-     "started": 0,
-     "minutes": 4.1,
-     "points": 0,
-     "rebounds": 0,
-     "assists": 0,
-     "steals": 0,
-     "blocks": 0,
-     "turnovers": 0,
-     "fgMade": 0,
-     "fgAttempted": 0,
-     "threeMade": 0,
-     "threeAttempted": 0,
-     "ftMade": 0,
-     "ftAttempted": 0
-    }
-   }
-  },
-  {
-   "id": "sassema01",
-   "name": "Marcus Sasser",
-   "position": "PG",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 1\"",
-    "weight": 195,
-    "birthDate": "2000-09-21",
-    "experience": 3,
-    "college": "Houston",
-    "birthPlace": "Dallas, TX"
-   },
-   "number": "8",
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4432107.png",
-   "current": {},
-   "lastFull": {
-    "regular": {
-     "games": 38,
-     "started": 5,
-     "minutes": 456.7,
-     "points": 197,
-     "rebounds": 39,
-     "assists": 75,
-     "steals": 20,
-     "blocks": 4,
-     "turnovers": 31,
-     "fgMade": 69,
-     "fgAttempted": 177,
-     "threeMade": 44,
-     "threeAttempted": 106,
-     "ftMade": 15,
-     "ftAttempted": 18
-    },
-    "playoffs": {
-     "games": 6,
-     "started": 0,
-     "minutes": 61.2,
-     "points": 27,
-     "rebounds": 5,
-     "assists": 3,
-     "steals": 3,
-     "blocks": 0,
-     "turnovers": 2,
-     "fgMade": 11,
-     "fgAttempted": 23,
-     "threeMade": 5,
-     "threeAttempted": 14,
-     "ftMade": 0,
-     "ftAttempted": 0
-    }
-   },
-   "lastToDate": {}
-  },
-  {
    "id": "livelde01",
    "name": "Dereck Lively II",
    "position": "C",
@@ -681,43 +935,6 @@
    "lastToDate": {}
   },
   {
-   "id": "johnsmo01",
-   "name": "Morez Johnson Jr.",
-   "position": "PF",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 9\"",
-    "weight": 250,
-    "birthDate": "2006-01-25",
-    "experience": 0,
-    "college": "Michigan",
-    "birthPlace": "Riverdale, IL"
-   },
-   "number": "14",
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4873153.png",
-   "current": {},
-   "lastFull": {},
-   "lastToDate": {}
-  },
-  {
-   "id": "delarse01",
-   "name": "Sergio de Larrea",
-   "position": "PG",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 7\"",
-    "weight": 202,
-    "birthDate": "2005-12-04",
-    "experience": 0,
-    "birthPlace": "Valladolid, Spain"
-   },
-   "number": "55",
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5279129.png",
-   "current": {},
-   "lastFull": {},
-   "lastToDate": {}
-  },
-  {
    "id": "lawalto01",
    "name": "Tobi Lawal",
    "position": "PF",
@@ -732,25 +949,6 @@
    },
    "number": "33",
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5106040.png",
-   "current": {},
-   "lastFull": {},
-   "lastToDate": {}
-  },
-  {
-   "id": "irvinky01",
-   "name": "Kyrie Irving",
-   "position": "SG",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 2\"",
-    "weight": 195,
-    "birthDate": "1992-03-23",
-    "experience": 14,
-    "college": "Duke",
-    "birthPlace": "Melbourne, VIC"
-   },
-   "number": "11",
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/6442.png",
    "current": {},
    "lastFull": {},
    "lastToDate": {}
