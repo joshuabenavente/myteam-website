@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-23T20:23:27.606Z",
+ "updatedAt": "2026-10-23T21:23:51.661Z",
  "teams": {
   "ATL": [
    {
@@ -29,10 +29,10 @@
   "BKN": [
    {
     "name": "Tyler Bilodeau",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
+    "status": "Out",
+    "gameTimeDecision": false,
     "reason": "Shoulder",
-    "returnDate": "2026-10-24"
+    "returnDate": "2026-10-25"
    }
   ],
   "CHA": [
@@ -380,6 +380,13 @@
     "returnDate": "2026-11-02"
    },
    {
+    "name": "Tacko Fall",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Quadriceps (strain)",
+    "returnDate": "2026-10-25"
+   },
+   {
     "name": "Dean Wade",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
@@ -387,17 +394,10 @@
     "returnDate": "2026-10-24"
    },
    {
-    "name": "Joel Embiid",
+    "name": "LeBron James",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
-    "reason": "Rest",
-    "returnDate": "2026-10-24"
-   },
-   {
-    "name": "Tacko Fall",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Quadriceps (strain)",
+    "reason": "Back",
     "returnDate": "2026-10-24"
    }
   ],
@@ -410,17 +410,17 @@
     "returnDate": "2027-02-03"
    },
    {
+    "name": "Oso Ighodaro",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Oblique (strain)",
+    "returnDate": "2026-10-26"
+   },
+   {
     "name": "Luke Kennard",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Knee (strain)",
-    "returnDate": "2026-10-24"
-   },
-   {
-    "name": "Oso Ighodaro",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Hip",
     "returnDate": "2026-10-24"
    }
   ],
@@ -537,13 +537,6 @@
     "gameTimeDecision": false,
     "reason": "Hip (pinched nerve)",
     "returnDate": "2026-11-02"
-   },
-   {
-    "name": "Felix Okpara",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Illness",
-    "returnDate": "2026-10-23"
    }
   ]
  }
