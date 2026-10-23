@@ -19,6 +19,7 @@ const DIVISIONS = {
 /** All 30 teams by conference and division, with a search box. */
 export function TeamPicker({ unknown }: { unknown?: string }) {
   const [query, setQuery] = useState('')
+  const [hasSearched, setHasSearched] = useState(false)
   const saved = savedTeam()
 
   useEffect(() => {
@@ -29,7 +30,7 @@ export function TeamPicker({ unknown }: { unknown?: string }) {
 
   const q = query.trim().toLowerCase()
   const matches = (t: Team) => !q || `${t.city} ${t.name} ${t.abbr}`.toLowerCase().includes(q)
-  const any = TEAMS.some(matches)
+  const matchCount = TEAMS.filter(matches).length
 
   return (
     <>
@@ -52,7 +53,7 @@ export function TeamPicker({ unknown }: { unknown?: string }) {
         </div>
       </header>
 
-      <main id="main" tabIndex={-1} className="picker">
+      <main id="main" tabIndex={-1} className="picker" aria-label="Pick your team">
         {unknown && (
           <p className="placeholder">
             There's no team at /{unknown}. Pick one below.
@@ -61,9 +62,14 @@ export function TeamPicker({ unknown }: { unknown?: string }) {
         <label className="picker-search">
           <Icon name="search" size={18} />
           <span className="sr-only">Search teams</span>
-          <input type="search" placeholder="Search teams" value={query} onChange={(e) => setQuery(e.target.value)} />
+          <input type="search" placeholder="Search teams" value={query} onChange={(e) => {
+            setQuery(e.target.value)
+            setHasSearched(true)
+          }} />
         </label>
-        {!any && <p className="muted">No teams match “{query}”.</p>}
+        <p className={hasSearched ? 'muted' : 'sr-only'} role="status">
+          {hasSearched ? (matchCount ? `${matchCount} ${matchCount === 1 ? 'team' : 'teams'} found.` : `No teams match “${query}”.`) : ''}
+        </p>
 
         {(Object.keys(DIVISIONS) as (keyof typeof DIVISIONS)[]).map((conf) => {
           const divisions = DIVISIONS[conf]

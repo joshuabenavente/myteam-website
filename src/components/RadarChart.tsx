@@ -44,7 +44,7 @@ export function RadarChart({ primary, comparison }: Props) {
       </div>
 
       <div className="radar-plot">
-        <svg viewBox={`0 0 ${SIZE} ${SIZE}`} role="img" aria-label={`Stat overview: ${RADAR_AXES.map((a) => `${a.label} ${a.value(primary.stats) !== undefined ? a.format(a.value(primary.stats)!) : 'none'}`).join(', ')}`}>
+        <svg viewBox={`0 0 ${SIZE} ${SIZE}`} aria-hidden="true">
           {[0.25, 0.5, 0.75, 1].map((f) => (
             <polygon
               key={f}
@@ -87,7 +87,7 @@ export function RadarChart({ primary, comparison }: Props) {
         </svg>
 
         {activeAxis && (
-          <div className="radar-tooltip" role="status">
+          <div className="radar-tooltip" aria-hidden="true">
             <strong>{activeAxis.label}</strong>
             <span>
               {primary.label}: {fmt(activeAxis, primary.stats)}
@@ -101,6 +101,30 @@ export function RadarChart({ primary, comparison }: Props) {
         )}
       </div>
       <figcaption className="radar-note">Scaled to typical NBA ranges · per game</figcaption>
+      <details className="radar-data">
+        <summary>View stats as table</summary>
+        <div className="radar-table-wrap">
+          <table>
+            <caption className="sr-only">Per-game stat comparison</caption>
+            <thead>
+              <tr>
+                <th scope="col">Stat</th>
+                <th scope="col">{primary.label}</th>
+                {comparison && <th scope="col">{comparison.label}</th>}
+              </tr>
+            </thead>
+            <tbody>
+              {RADAR_AXES.map((axis) => (
+                <tr key={axis.key}>
+                  <th scope="row">{axis.label}</th>
+                  <td>{fmt(axis, primary.stats)}</td>
+                  {comparison && <td>{fmt(axis, comparison.stats)}</td>}
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </details>
     </figure>
   )
 }

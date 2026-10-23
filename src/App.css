@@ -1115,8 +1115,24 @@ main {
 }
 
 .cal-game.selected {
-  outline: 3px solid var(--sunshine);
-  outline-offset: 1px;
+  outline: 2px solid var(--sunshine);
+  outline-offset: 0;
+}
+
+.cal-game:focus-visible {
+  outline: 3px solid var(--text);
+  outline-offset: 3px;
+  box-shadow: 0 0 0 6px var(--surface);
+}
+
+.cal-game.selected:focus-visible {
+  box-shadow: inset 0 0 0 2px var(--sunshine), 0 0 0 6px var(--surface);
+}
+
+@media (forced-colors: active) {
+  .cal-game:focus-visible {
+    outline-color: Highlight;
+  }
 }
 
 .cal-matchup {
@@ -2232,6 +2248,45 @@ main {
   font-size: 0.7rem;
   color: rgb(244 246 250 / 50%);
   text-align: center;
+}
+
+.radar-data {
+  margin-top: 10px;
+  font-size: 0.8rem;
+}
+
+.radar-data summary {
+  width: fit-content;
+  cursor: pointer;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.radar-data summary:focus-visible {
+  outline: 2px solid var(--sunshine);
+  outline-offset: 3px;
+}
+
+.radar-table-wrap {
+  overflow-x: auto;
+  margin-top: 8px;
+}
+
+.radar-data table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+.radar-data th,
+.radar-data td {
+  padding: 5px 6px;
+  border-bottom: 1px solid rgb(244 246 250 / 20%);
+}
+
+.radar-data th:first-child {
+  text-align: left;
 }
 
 .preview .preview-credit {

@@ -81,6 +81,7 @@ function GameView({ team, game, data, timeZone }: { team: string; game?: Game; d
       <div className="game-page">
         <BackLink />
         <h1>{status.notFound ? `No ${team} game today` : 'Loading…'}</h1>
+        <GameRefreshStatus failed={status.failed} stale={stale !== undefined} />
       </div>
     )
   }
@@ -155,6 +156,7 @@ function GameView({ team, game, data, timeZone }: { team: string; game?: Game; d
 
       {injuryNote && <p className="injury-updated muted small">{injuryNote}</p>}
       {s && <LiveAnnouncer score={announceable(s)} />}
+      <GameRefreshStatus failed={status.failed} stale={stale !== undefined} />
       <p className="game-updated muted small" aria-live="off">
         {status.failed && !s
           ? "Couldn't reach ESPN for this game. It will keep trying."
@@ -179,6 +181,14 @@ function GameView({ team, game, data, timeZone }: { team: string; game?: Game; d
       )}
     </div>
   )
+}
+
+/** The wording stays stable through repeated failed polls and changing stale-minute counts. */
+function GameRefreshStatus({ failed, stale }: { failed: boolean; stale: boolean }) {
+  const message = stale
+    ? 'Game details may be stale. Trying to refresh.'
+    : failed ? 'Could not refresh game details. Trying again.' : ''
+  return <span className="sr-only" role="status">{message}</span>
 }
 
 /** This season's record from our standings, once there is one. ESPN's counts preseason games. */
