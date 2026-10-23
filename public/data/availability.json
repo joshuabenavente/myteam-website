@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-23T18:23:33.038Z",
+ "updatedAt": "2026-10-23T20:23:27.606Z",
  "teams": {
   "ATL": [
    {
@@ -136,6 +136,13 @@
   ],
   "GSW": [
    {
+    "name": "Charles Bassey",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Knee",
+    "returnDate": "2026-10-24"
+   },
+   {
     "name": "Jimmy Butler III",
     "status": "Out",
     "gameTimeDecision": false,
@@ -161,13 +168,6 @@
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Back (soreness)",
-    "returnDate": "2026-10-23"
-   },
-   {
-    "name": "Charles Bassey",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Knee",
     "returnDate": "2026-10-23"
    }
   ],
@@ -280,10 +280,10 @@
    },
    {
     "name": "Jake LaRavia",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
+    "status": "Out",
+    "gameTimeDecision": false,
     "reason": "Ankle (sprain)",
-    "returnDate": "2026-10-23"
+    "returnDate": "2026-10-25"
    }
   ],
   "MEM": [
@@ -468,13 +468,6 @@
     "gameTimeDecision": false,
     "reason": "Knee (dislocated)",
     "returnDate": "2026-11-02"
-   },
-   {
-    "name": "Malik Monk",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Ankle (soreness)",
-    "returnDate": "2026-10-23"
    }
   ],
   "SAS": [
