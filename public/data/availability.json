@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-23T00:24:00.753Z",
+ "updatedAt": "2026-10-23T01:22:25.223Z",
  "teams": {
   "ATL": [
    {
@@ -61,7 +61,7 @@
     "name": "Kylan Boswell",
     "status": "Out",
     "gameTimeDecision": false,
-    "reason": "Knee",
+    "reason": "Knee (surgery)",
     "returnDate": "2026-11-02"
    }
   ],
@@ -98,7 +98,7 @@
     "name": "Tobe Awaka",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
-    "reason": "Knee",
+    "reason": "Knee (sprain)",
     "returnDate": "2026-10-23"
    },
    {
@@ -128,21 +128,21 @@
     "name": "Santi Aldama",
     "status": "Out",
     "gameTimeDecision": false,
-    "reason": "Knee",
+    "reason": "Knee (surgery)",
     "returnDate": "2026-10-24"
    },
    {
     "name": "Tarik Biberovic",
     "status": "Out",
     "gameTimeDecision": false,
-    "reason": "Heel",
+    "reason": "Heel (inflammation)",
     "returnDate": "2026-10-24"
    },
    {
     "name": "Jett Howard",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
-    "reason": "Calf",
+    "reason": "Calf (soreness)",
     "returnDate": "2026-10-23"
    }
   ],
@@ -273,7 +273,7 @@
     "name": "Max Strus",
     "status": "Out",
     "gameTimeDecision": false,
-    "reason": "Foot",
+    "reason": "Foot (plantar fasciitis)",
     "returnDate": "2026-11-08"
    },
    {
@@ -289,7 +289,7 @@
     "name": "Brandon Ingram",
     "status": "Out",
     "gameTimeDecision": false,
-    "reason": "Achilles (surgery)",
+    "reason": "Heel (surgery)",
     "returnDate": "2026-11-08"
    },
    {
@@ -305,7 +305,7 @@
     "name": "Adou Thiero",
     "status": "Out",
     "gameTimeDecision": false,
-    "reason": "Knee",
+    "reason": "Knee (inflammation)",
     "returnDate": "2026-10-25"
    },
    {
@@ -325,10 +325,17 @@
   ],
   "MEM": [
    {
+    "name": "Cedric Coward",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Wrist (sprain)",
+    "returnDate": "2026-10-23"
+   },
+   {
     "name": "Isaiah Stewart",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
-    "reason": "Ankle",
+    "reason": "Ankle (sprain)",
     "returnDate": "2026-10-23"
    }
   ],
