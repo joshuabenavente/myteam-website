@@ -21,7 +21,7 @@ it('picks the next unstarted games', () => {
     status: status as 'final' | 'live' | 'scheduled',
     startUtc: `2026-10-2${i}T00:00:00Z`,
   }))
-  expect(nextGames(games).map((g) => g.id)).toEqual(['2', '3', '4'])
+  expect(nextGames(games, 3, Date.parse('2026-10-22T00:00:00Z')).map((g) => g.id)).toEqual(['2', '3', '4'])
 })
 
 it('labels availability with one status', () => {
