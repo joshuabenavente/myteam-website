@@ -31,7 +31,11 @@
    "startUtc": "2026-10-23T01:30:00Z",
    "home": true,
    "opponent": "DEN",
-   "status": "scheduled",
+   "status": "live",
+   "score": {
+    "team": 0,
+    "opponent": 0
+   },
    "broadcasts": [
     {
      "name": "ESPN",

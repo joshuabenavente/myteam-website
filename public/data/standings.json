@@ -5,13 +5,13 @@
    "abbr": "PHI",
    "conference": "East",
    "division": "Atlantic",
-   "wins": 1,
+   "wins": 2,
    "losses": 0,
    "divisionRank": 1,
-   "conferenceRank": 3,
+   "conferenceRank": 1,
    "divisionGamesBehind": 0,
    "home": {
-    "wins": 0,
+    "wins": 1,
     "losses": 0
    },
    "road": {
@@ -19,10 +19,10 @@
     "losses": 0
    },
    "lastTen": {
-    "wins": 1,
+    "wins": 2,
     "losses": 0
    },
-   "streak": "W1"
+   "streak": "W2"
   },
   "TOR": {
    "abbr": "TOR",
@@ -32,7 +32,7 @@
    "losses": 0,
    "divisionRank": 2,
    "conferenceRank": 4,
-   "divisionGamesBehind": 0,
+   "divisionGamesBehind": 0.5,
    "home": {
     "wins": 1,
     "losses": 0
@@ -54,8 +54,8 @@
    "wins": 0,
    "losses": 1,
    "divisionRank": 3,
-   "conferenceRank": 9,
-   "divisionGamesBehind": 1,
+   "conferenceRank": 8,
+   "divisionGamesBehind": 1.5,
    "home": {
     "wins": 0,
     "losses": 1
@@ -77,8 +77,8 @@
    "wins": 0,
    "losses": 1,
    "divisionRank": 4,
-   "conferenceRank": 10,
-   "divisionGamesBehind": 1,
+   "conferenceRank": 9,
+   "divisionGamesBehind": 1.5,
    "home": {
     "wins": 0,
     "losses": 1
@@ -100,8 +100,8 @@
    "wins": 0,
    "losses": 1,
    "divisionRank": 5,
-   "conferenceRank": 12,
-   "divisionGamesBehind": 1,
+   "conferenceRank": 11,
+   "divisionGamesBehind": 1.5,
    "home": {
     "wins": 0,
     "losses": 0
@@ -123,7 +123,7 @@
    "wins": 1,
    "losses": 0,
    "divisionRank": 1,
-   "conferenceRank": 1,
+   "conferenceRank": 2,
    "divisionGamesBehind": 0,
    "home": {
     "wins": 1,
@@ -167,22 +167,23 @@
    "conference": "East",
    "division": "Central",
    "wins": 0,
-   "losses": 0,
+   "losses": 1,
    "divisionRank": 3,
-   "conferenceRank": 8,
-   "divisionGamesBehind": 0.5,
+   "conferenceRank": 12,
+   "divisionGamesBehind": 1,
    "home": {
     "wins": 0,
     "losses": 0
    },
    "road": {
     "wins": 0,
-    "losses": 0
+    "losses": 1
    },
    "lastTen": {
     "wins": 0,
-    "losses": 0
-   }
+    "losses": 1
+   },
+   "streak": "L1"
   },
   "MIL": {
    "abbr": "MIL",
@@ -237,7 +238,7 @@
    "wins": 1,
    "losses": 0,
    "divisionRank": 1,
-   "conferenceRank": 2,
+   "conferenceRank": 3,
    "divisionGamesBehind": 0,
    "home": {
     "wins": 0,
@@ -306,7 +307,7 @@
    "wins": 0,
    "losses": 1,
    "divisionRank": 4,
-   "conferenceRank": 11,
+   "conferenceRank": 10,
    "divisionGamesBehind": 1,
    "home": {
     "wins": 0,
