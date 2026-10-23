@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-23T03:23:37.597Z",
+ "updatedAt": "2026-10-23T05:23:39.596Z",
  "teams": {
   "ATL": [
    {
@@ -166,7 +166,7 @@
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Ankle (sprain)",
-    "returnDate": "2026-10-22"
+    "returnDate": "2026-10-24"
    }
   ],
   "DET": [
@@ -417,13 +417,6 @@
     "returnDate": "2027-10-01"
    },
    {
-    "name": "Dean Wade",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Ankle (sprain)",
-    "returnDate": "2026-10-24"
-   },
-   {
     "name": "Dominick Barlow",
     "status": "Out",
     "gameTimeDecision": false,
@@ -435,6 +428,13 @@
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Quadriceps (strain)",
+    "returnDate": "2026-10-24"
+   },
+   {
+    "name": "Dean Wade",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Ankle (sprain)",
     "returnDate": "2026-10-24"
    }
   ],
