@@ -3758,6 +3758,11 @@ a.mini-game:hover {
   font-weight: var(--w-strong);
 }
 
+.snapshot-updated {
+  max-width: 1100px;
+  margin: 16px auto 0;
+}
+
 /* Installed on an iPhone the header runs behind the status bar and the page reaches the home
    indicator; keep content clear of both, and of the notch in landscape. In a browser these
    insets are 0. */
