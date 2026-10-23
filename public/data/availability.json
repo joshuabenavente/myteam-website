@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-23T14:23:52.730Z",
+ "updatedAt": "2026-10-23T17:23:37.176Z",
  "teams": {
   "ATL": [
    {
@@ -90,9 +90,7 @@
    {
     "name": "Josh Giddey",
     "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Wrist",
-    "returnDate": "2026-10-23"
+    "gameTimeDecision": false
    },
    {
     "name": "Tobe Awaka",
@@ -167,15 +165,6 @@
     "gameTimeDecision": true,
     "reason": "Hamstring",
     "returnDate": "2026-10-24"
-   }
-  ],
-  "DET": [
-   {
-    "name": "Taurean Prince",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Personal",
-    "returnDate": "2026-10-23"
    }
   ],
   "GSW": [
