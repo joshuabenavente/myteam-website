@@ -10,7 +10,7 @@ import { SiteHeader } from './components/SiteHeader.tsx'
 import { TeamPicker } from './components/TeamPicker.tsx'
 import { TeamSummary } from './components/TeamSummary.tsx'
 import { useAppData, type AppData } from './lib/data.ts'
-import { timeZoneAbbr } from './lib/format.ts'
+import { formatUpdated, timeZoneAbbr } from './lib/format.ts'
 import { headlineGame } from './lib/hero.ts'
 import { LiveContext } from './lib/live.ts'
 import { navigate, useRoute, type Route } from './lib/route.ts'
@@ -90,6 +90,12 @@ function TeamSite({ route, team }: { route: Extract<Route, { team: string }>; te
 
       <main id="main" tabIndex={-1}>
         {data?.offline && <OfflineNote updatedAt={data.meta.updatedAt} />}
+        {data && !Number.isNaN(Date.parse(data.meta.updatedAt)) && (
+          <p className="snapshot-updated muted small">
+            Published data last updated: <time dateTime={data.meta.updatedAt}>{formatUpdated(data.meta.updatedAt)}</time>.
+            {' '}Live scores update separately.
+          </p>
+        )}
         {error && !snapshot && <p className="placeholder error">{error}</p>}
         {snapshot && (
           <>
