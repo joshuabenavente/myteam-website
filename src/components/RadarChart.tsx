@@ -101,27 +101,30 @@ export function RadarChart({ primary, comparison }: Props) {
         )}
       </div>
       <figcaption className="radar-note">Scaled to typical NBA ranges · per game</figcaption>
-      <div className="sr-only">
-        <table>
-          <caption>Per-game stat comparison</caption>
-          <thead>
-            <tr>
-              <th scope="col">Stat</th>
-              <th scope="col">{primary.label}</th>
-              {comparison && <th scope="col">{comparison.label}</th>}
-            </tr>
-          </thead>
-          <tbody>
-            {RADAR_AXES.map((axis) => (
-              <tr key={axis.key}>
-                <th scope="row">{axis.label}</th>
-                <td>{fmt(axis, primary.stats)}</td>
-                {comparison && <td>{fmt(axis, comparison.stats)}</td>}
+      <details className="radar-data">
+        <summary>View stats as table</summary>
+        <div className="radar-table-wrap">
+          <table>
+            <caption className="sr-only">Per-game stat comparison</caption>
+            <thead>
+              <tr>
+                <th scope="col">Stat</th>
+                <th scope="col">{primary.label}</th>
+                {comparison && <th scope="col">{comparison.label}</th>}
               </tr>
-            ))}
-          </tbody>
-        </table>
-      </div>
+            </thead>
+            <tbody>
+              {RADAR_AXES.map((axis) => (
+                <tr key={axis.key}>
+                  <th scope="row">{axis.label}</th>
+                  <td>{fmt(axis, primary.stats)}</td>
+                  {comparison && <td>{fmt(axis, comparison.stats)}</td>}
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </details>
     </figure>
   )
 }

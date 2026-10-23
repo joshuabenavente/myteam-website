@@ -96,7 +96,7 @@ function TeamSite({ route, team }: { route: Extract<Route, { team: string }>; te
         Skip to content
       </a>
       <SiteHeader route={route} data={data} timeZone={timeZone} onShowGame={showGame} />
-      <LiveRefreshStatus live={live} />
+      <LiveRefreshStatus live={route.page === 'game' ? undefined : live} />
 
       <main id="main" tabIndex={-1}>
         {data?.offline && <OfflineNote updatedAt={data.meta.updatedAt} />}

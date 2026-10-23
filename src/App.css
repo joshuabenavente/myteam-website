@@ -2250,6 +2250,45 @@ main {
   text-align: center;
 }
 
+.radar-data {
+  margin-top: 10px;
+  font-size: 0.8rem;
+}
+
+.radar-data summary {
+  width: fit-content;
+  cursor: pointer;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.radar-data summary:focus-visible {
+  outline: 2px solid var(--sunshine);
+  outline-offset: 3px;
+}
+
+.radar-table-wrap {
+  overflow-x: auto;
+  margin-top: 8px;
+}
+
+.radar-data table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+.radar-data th,
+.radar-data td {
+  padding: 5px 6px;
+  border-bottom: 1px solid rgb(244 246 250 / 20%);
+}
+
+.radar-data th:first-child {
+  text-align: left;
+}
+
 .preview .preview-credit {
   margin-top: 4px;
 }
