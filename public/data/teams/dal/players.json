@@ -1,7 +1,7 @@
 {
  "season": "2026-27",
  "lastSeason": "2025-26",
- "updatedAt": "2026-10-22T21:19:52.593Z",
+ "updatedAt": "2026-10-23T03:19:53.180Z",
  "teamGamesPlayed": {
   "regular": 1,
   "playoffs": 0
@@ -694,6 +694,61 @@
      "threeAttempted": 0,
      "ftMade": 0,
      "ftAttempted": 0
+    }
+   }
+  },
+  {
+   "id": "claytwa01",
+   "name": "Walter Clayton",
+   "position": "PG",
+   "twoWay": true,
+   "bio": {
+    "height": "6' 4\"",
+    "weight": 195,
+    "birthDate": "2003-03-06",
+    "experience": 1,
+    "college": "Florida",
+    "birthPlace": "Lake Wales, FL"
+   },
+   "number": "1",
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4896372.png",
+   "current": {},
+   "lastFull": {
+    "regular": {
+     "games": 69,
+     "started": 6,
+     "minutes": 1411.2,
+     "points": 538,
+     "rebounds": 139,
+     "assists": 279,
+     "steals": 44,
+     "blocks": 19,
+     "turnovers": 116,
+     "fgMade": 177,
+     "fgAttempted": 461,
+     "threeMade": 75,
+     "threeAttempted": 244,
+     "ftMade": 109,
+     "ftAttempted": 121
+    }
+   },
+   "lastToDate": {
+    "regular": {
+     "games": 1,
+     "started": 0,
+     "minutes": 18.1,
+     "points": 10,
+     "rebounds": 6,
+     "assists": 5,
+     "steals": 2,
+     "blocks": 0,
+     "turnovers": 2,
+     "fgMade": 4,
+     "fgAttempted": 8,
+     "threeMade": 1,
+     "threeAttempted": 3,
+     "ftMade": 1,
+     "ftAttempted": 1
     }
    }
   },
