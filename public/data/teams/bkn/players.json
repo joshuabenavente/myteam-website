@@ -1,7 +1,7 @@
 {
  "season": "2026-27",
  "lastSeason": "2025-26",
- "updatedAt": "2026-10-22T22:21:10.536Z",
+ "updatedAt": "2026-10-23T04:21:13.116Z",
  "teamGamesPlayed": {
   "regular": 1,
   "playoffs": 0
@@ -478,6 +478,43 @@
      "ftAttempted": 2
     }
    }
+  },
+  {
+   "id": "brownmi02",
+   "name": "Mikel Brown Jr.",
+   "number": "0",
+   "position": "PG",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 5\"",
+    "weight": 180,
+    "birthDate": "2006-04-03",
+    "experience": 0,
+    "college": "Louisville",
+    "birthPlace": "Orlando, FL"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5101761.png",
+   "current": {
+    "regular": {
+     "games": 1,
+     "started": 0,
+     "minutes": 19.8,
+     "points": 6,
+     "rebounds": 3,
+     "assists": 3,
+     "steals": 0,
+     "blocks": 0,
+     "turnovers": 1,
+     "fgMade": 2,
+     "fgAttempted": 8,
+     "threeMade": 1,
+     "threeAttempted": 3,
+     "ftMade": 1,
+     "ftAttempted": 1
+    }
+   },
+   "lastFull": {},
+   "lastToDate": {}
   },
   {
    "id": "wagnemo01",
@@ -968,25 +1005,6 @@
      "ftAttempted": 10
     }
    },
-   "lastToDate": {}
-  },
-  {
-   "id": "brownmi02",
-   "name": "Mikel Brown Jr.",
-   "number": "0",
-   "position": "PG",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 5\"",
-    "weight": 180,
-    "birthDate": "2006-04-03",
-    "experience": 0,
-    "college": "Louisville",
-    "birthPlace": "Orlando, FL"
-   },
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5101761.png",
-   "current": {},
-   "lastFull": {},
    "lastToDate": {}
   },
   {
