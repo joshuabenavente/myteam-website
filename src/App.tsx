@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import { GamePage } from './components/GamePage.tsx'
 import { GamesCalendar } from './components/GamesCalendar.tsx'
 import { GamesList } from './components/GamesList.tsx'
@@ -12,7 +12,7 @@ import { TeamSummary } from './components/TeamSummary.tsx'
 import { useAppData, type AppData } from './lib/data.ts'
 import { formatUpdated, timeZoneAbbr } from './lib/format.ts'
 import { headlineGame } from './lib/hero.ts'
-import { LiveContext } from './lib/live.ts'
+import { LiveContext, staleMinutes, type LiveStatus } from './lib/live.ts'
 import { navigate, useRoute, type Route } from './lib/route.ts'
 import { applyHead, snapshotFor } from './lib/head.ts'
 import { gameHead, playerHead, rosterHead, teamHead, type Head } from './lib/seo.ts'
@@ -33,6 +33,15 @@ const liveTestTeam = (() => {
 
 function App() {
   const route = useRoute()
+  const previousPath = useRef(window.location.pathname)
+  // A client-side page change needs the same reading start as a full navigation.
+  useEffect(() => {
+    const path = window.location.pathname
+    if (path === previousPath.current) return
+    previousPath.current = path
+    const frame = requestAnimationFrame(() => document.getElementById('main')?.focus())
+    return () => cancelAnimationFrame(frame)
+  }, [route])
   const team = 'team' in route ? teamFromSlug(route.team) : undefined
   const saved = route.page === 'home' ? savedTeam() : undefined
 
@@ -87,6 +96,7 @@ function TeamSite({ route, team }: { route: Extract<Route, { team: string }>; te
         Skip to content
       </a>
       <SiteHeader route={route} data={data} timeZone={timeZone} onShowGame={showGame} />
+      <LiveRefreshStatus live={live} />
 
       <main id="main" tabIndex={-1}>
         {data?.offline && <OfflineNote updatedAt={data.meta.updatedAt} />}
@@ -149,6 +159,17 @@ function TeamSite({ route, team }: { route: Extract<Route, { team: string }>; te
       {data && <SiteFooter />}
     </LiveContext.Provider>
   )
+}
+
+/** Keep one status region mounted so repeated polling failures do not repeat announcements. */
+function LiveRefreshStatus({ live }: { live?: LiveStatus }) {
+  const stale = live && staleMinutes(live) !== undefined
+  const message = stale
+    ? 'Live score may be stale. Trying to refresh.'
+    : live?.failed
+      ? 'Live score refresh failed. Trying again.'
+      : ''
+  return <span className="sr-only" role="status">{message}</span>
 }
 
 /** No connection: say how old the saved data is. */

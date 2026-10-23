@@ -131,11 +131,17 @@ function CalendarGame(props: { game: Game; timeZone: string; selected: boolean; 
   const result = game.status === 'final' && game.score
   const won = result && result.team > result.opponent
   const opp = TEAMS_BY_ABBR[game.opponent]
+  const date = new Date(game.startUtc).toLocaleDateString('en-US', {
+    weekday: 'long', month: 'long', day: 'numeric', year: 'numeric', timeZone,
+  })
+  const status = result
+    ? `${won ? 'Win' : 'Loss'} ${result.team} to ${result.opponent}`
+    : liveNow ? 'Live' : formatGameTime(game, timeZone)
   return (
     <button
       className={`cal-game ${game.home ? 'home' : 'away'} ${selected ? 'selected' : ''}`}
       aria-pressed={selected}
-      aria-label={`${game.home ? 'vs' : 'at'} ${opp.city} ${opp.name}`}
+      aria-label={`${date}, ${game.home ? 'vs' : 'at'} ${game.opponent} ${opp.city} ${opp.name}, ${status}`}
       onClick={onSelect}
     >
       <span className="cal-matchup">
