@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-22T23:22:23.723Z",
+ "updatedAt": "2026-10-23T00:24:00.753Z",
  "teams": {
   "ATL": [
    {
@@ -156,10 +156,10 @@
    },
    {
     "name": "Spencer Jones",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
+    "status": "Out",
+    "gameTimeDecision": false,
     "reason": "Hamstring",
-    "returnDate": "2026-10-22"
+    "returnDate": "2026-10-24"
    }
   ],
   "DET": [
@@ -303,30 +303,23 @@
   "LAL": [
    {
     "name": "Adou Thiero",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
+    "status": "Out",
+    "gameTimeDecision": false,
     "reason": "Knee",
-    "returnDate": "2026-10-23"
+    "returnDate": "2026-10-25"
    },
    {
     "name": "Cameron Carr",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
+    "status": "Out",
+    "gameTimeDecision": false,
     "reason": "Oblique (strain)",
-    "returnDate": "2026-10-23"
-   },
-   {
-    "name": "Collin Sexton",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Calf",
-    "returnDate": "2026-10-23"
+    "returnDate": "2026-10-25"
    },
    {
     "name": "Jake LaRavia",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
-    "reason": "Ankle",
+    "reason": "Ankle (sprain)",
     "returnDate": "2026-10-23"
    }
   ],
@@ -456,25 +449,25 @@
   ],
   "POR": [
    {
+    "name": "Branden Carlson",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Concussion",
+    "returnDate": "2026-10-27"
+   },
+   {
+    "name": "Chris Youngblood",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Ankle (soreness)",
+    "returnDate": "2026-10-27"
+   },
+   {
     "name": "Shaedon Sharpe",
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Knee (surgery)",
     "returnDate": "2027-03-02"
-   },
-   {
-    "name": "Branden Carlson",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Concussion",
-    "returnDate": "2026-10-23"
-   },
-   {
-    "name": "Chris Youngblood",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Ankle (soreness)",
-    "returnDate": "2026-10-23"
    }
   ],
   "SAC": [
