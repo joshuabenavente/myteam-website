@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-23T05:23:39.596Z",
+ "updatedAt": "2026-10-23T06:23:46.084Z",
  "teams": {
   "ATL": [
    {
@@ -155,17 +155,17 @@
     "returnDate": "2026-11-29"
    },
    {
-    "name": "Spencer Jones",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Hamstring",
-    "returnDate": "2026-10-24"
-   },
-   {
     "name": "Cameron Johnson",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Ankle (sprain)",
+    "returnDate": "2026-10-24"
+   },
+   {
+    "name": "Spencer Jones",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Hamstring",
     "returnDate": "2026-10-24"
    }
   ],
@@ -424,17 +424,17 @@
     "returnDate": "2026-11-02"
    },
    {
-    "name": "Tacko Fall",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Quadriceps (strain)",
-    "returnDate": "2026-10-24"
-   },
-   {
     "name": "Dean Wade",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Ankle (sprain)",
+    "returnDate": "2026-10-24"
+   },
+   {
+    "name": "Tacko Fall",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Quadriceps (strain)",
     "returnDate": "2026-10-24"
    }
   ],
