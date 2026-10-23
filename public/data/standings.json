@@ -54,7 +54,7 @@
    "wins": 0,
    "losses": 1,
    "divisionRank": 3,
-   "conferenceRank": 8,
+   "conferenceRank": 9,
    "divisionGamesBehind": 1.5,
    "home": {
     "wins": 0,
@@ -77,7 +77,7 @@
    "wins": 0,
    "losses": 1,
    "divisionRank": 4,
-   "conferenceRank": 9,
+   "conferenceRank": 10,
    "divisionGamesBehind": 1.5,
    "home": {
     "wins": 0,
@@ -100,7 +100,7 @@
    "wins": 0,
    "losses": 1,
    "divisionRank": 5,
-   "conferenceRank": 11,
+   "conferenceRank": 12,
    "divisionGamesBehind": 1.5,
    "home": {
     "wins": 0,
@@ -162,31 +162,31 @@
    },
    "streak": "W1"
   },
-  "CLE": {
-   "abbr": "CLE",
+  "CHI": {
+   "abbr": "CHI",
    "conference": "East",
    "division": "Central",
-   "wins": 0,
+   "wins": 1,
    "losses": 1,
    "divisionRank": 3,
-   "conferenceRank": 12,
-   "divisionGamesBehind": 1,
+   "conferenceRank": 8,
+   "divisionGamesBehind": 0.5,
    "home": {
     "wins": 0,
     "losses": 0
    },
    "road": {
-    "wins": 0,
+    "wins": 1,
     "losses": 1
    },
    "lastTen": {
-    "wins": 0,
+    "wins": 1,
     "losses": 1
    },
-   "streak": "L1"
+   "streak": "W1"
   },
-  "MIL": {
-   "abbr": "MIL",
+  "CLE": {
+   "abbr": "CLE",
    "conference": "East",
    "division": "Central",
    "wins": 0,
@@ -208,18 +208,18 @@
    },
    "streak": "L1"
   },
-  "CHI": {
-   "abbr": "CHI",
+  "MIL": {
+   "abbr": "MIL",
    "conference": "East",
    "division": "Central",
    "wins": 0,
-   "losses": 1,
+   "losses": 2,
    "divisionRank": 5,
-   "conferenceRank": 15,
-   "divisionGamesBehind": 1,
+   "conferenceRank": 14,
+   "divisionGamesBehind": 1.5,
    "home": {
     "wins": 0,
-    "losses": 0
+    "losses": 1
    },
    "road": {
     "wins": 0,
@@ -227,9 +227,9 @@
    },
    "lastTen": {
     "wins": 0,
-    "losses": 1
+    "losses": 2
    },
-   "streak": "L1"
+   "streak": "L2"
   },
   "ATL": {
    "abbr": "ATL",
@@ -307,7 +307,7 @@
    "wins": 0,
    "losses": 1,
    "divisionRank": 4,
-   "conferenceRank": 10,
+   "conferenceRank": 11,
    "divisionGamesBehind": 1,
    "home": {
     "wins": 0,
@@ -330,7 +330,7 @@
    "wins": 0,
    "losses": 1,
    "divisionRank": 5,
-   "conferenceRank": 14,
+   "conferenceRank": 15,
    "divisionGamesBehind": 1,
    "home": {
     "wins": 0,

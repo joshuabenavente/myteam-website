@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-23T22:23:36.909Z",
+ "updatedAt": "2026-10-23T23:23:37.054Z",
  "teams": {
   "ATL": [
    {
@@ -113,6 +113,13 @@
   ],
   "DEN": [
    {
+    "name": "Cameron Johnson",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Ankle (sprain)",
+    "returnDate": "2026-10-26"
+   },
+   {
     "name": "Julian Strawther",
     "status": "Out",
     "gameTimeDecision": false,
@@ -120,17 +127,17 @@
     "returnDate": "2026-11-29"
    },
    {
-    "name": "Cameron Johnson",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Ankle (sprain)",
-    "returnDate": "2026-10-24"
+    "name": "Spencer Jones",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Hamstring",
+    "returnDate": "2026-10-26"
    },
    {
-    "name": "Spencer Jones",
+    "name": "Alpha Diallo",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
-    "reason": "Hamstring",
+    "reason": "Wrist",
     "returnDate": "2026-10-24"
    }
   ],
@@ -193,7 +200,7 @@
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Knee",
-    "returnDate": "2026-10-28"
+    "returnDate": "2026-12-01"
    },
    {
     "name": "Johnny Furphy",
