@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-23T21:23:51.661Z",
+ "updatedAt": "2026-10-23T22:23:36.909Z",
  "teams": {
   "ATL": [
    {
@@ -90,6 +90,13 @@
     "returnDate": "2026-10-26"
    },
    {
+    "name": "Jett Howard",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Calf (soreness)",
+    "returnDate": "2026-10-24"
+   },
+   {
     "name": "Santi Aldama",
     "status": "Out",
     "gameTimeDecision": false,
@@ -102,13 +109,6 @@
     "gameTimeDecision": false,
     "reason": "Heel (inflammation)",
     "returnDate": "2026-10-24"
-   },
-   {
-    "name": "Jett Howard",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Calf (soreness)",
-    "returnDate": "2026-10-23"
    }
   ],
   "DEN": [
@@ -189,6 +189,13 @@
   ],
   "IND": [
    {
+    "name": "Ben Sheppard",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Knee",
+    "returnDate": "2026-10-28"
+   },
+   {
     "name": "Johnny Furphy",
     "status": "Out",
     "gameTimeDecision": false,
@@ -201,20 +208,6 @@
     "gameTimeDecision": false,
     "reason": "Hamstring",
     "returnDate": "2026-10-25"
-   },
-   {
-    "name": "Aaron Nesmith",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Hamstring (strain)",
-    "returnDate": "2026-10-23"
-   },
-   {
-    "name": "Ben Sheppard",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Knee (soreness)",
-    "returnDate": "2026-10-23"
    }
   ],
   "LAC": [
