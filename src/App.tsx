@@ -34,11 +34,13 @@ const liveTestTeam = (() => {
 function App() {
   const route = useRoute()
   const previousPath = useRef(window.location.pathname)
+  const [navigatedPath, setNavigatedPath] = useState<string>()
   // A client-side page change needs the same reading start as a full navigation.
   useEffect(() => {
     const path = window.location.pathname
     if (path === previousPath.current) return
     previousPath.current = path
+    setNavigatedPath(path)
     const frame = requestAnimationFrame(() => document.getElementById('main')?.focus())
     return () => cancelAnimationFrame(frame)
   }, [route])
@@ -54,12 +56,16 @@ function App() {
   if (!team) return <TeamPicker unknown={'team' in route ? route.team : undefined} />
   return (
     <TeamContext.Provider value={team}>
-      <TeamSite key={team.slug} route={route as Extract<Route, { team: string }>} team={team} />
+      <TeamSite key={team.slug} route={route as Extract<Route, { team: string }>} team={team} navigatedPath={navigatedPath} />
     </TeamContext.Provider>
   )
 }
 
-function TeamSite({ route, team }: { route: Extract<Route, { team: string }>; team: CurrentTeam }) {
+function TeamSite({ route, team, navigatedPath }: {
+  route: Extract<Route, { team: string }>
+  team: CurrentTeam
+  navigatedPath?: string
+}) {
   const [gamesView, setGamesView] = useState<GamesView>('list')
   const { data, error } = useAppData(team.abbr)
   const headline = data && headlineGame(data.schedule.games)
@@ -89,6 +95,14 @@ function TeamSite({ route, team }: { route: Extract<Route, { team: string }>; te
     else document.title = `${team.fullName} · myteam.fans`
   }, [route, team, data])
   const snapshot = error ? snapshotFor(window.location.pathname) : undefined
+  const section = {
+    games: 'games',
+    players: 'players',
+    player: 'player details',
+    game: 'game details',
+  }[route.page]
+  const mainLabel = `${team.fullName} ${section}`
+  const routePath = window.location.pathname
 
   return (
     <LiveContext.Provider value={live}>
@@ -98,7 +112,13 @@ function TeamSite({ route, team }: { route: Extract<Route, { team: string }>; te
       <SiteHeader route={route} data={data} timeZone={timeZone} onShowGame={showGame} />
       <LiveRefreshStatus live={route.page === 'game' ? undefined : live} />
 
-      <main id="main" tabIndex={-1}>
+      <main id="main" tabIndex={-1} aria-label={mainLabel}>
+        <RouteReadyStatus
+          key={routePath}
+          active={navigatedPath === routePath}
+          outcome={data ? 'ready' : error ? 'error' : 'loading'}
+          label={mainLabel}
+        />
         {data?.offline && <OfflineNote updatedAt={data.meta.updatedAt} />}
         {data && !Number.isNaN(Date.parse(data.meta.updatedAt)) && (
           <p className="snapshot-updated muted small">
@@ -159,6 +179,25 @@ function TeamSite({ route, team }: { route: Extract<Route, { team: string }>; te
       {data && <SiteFooter />}
     </LiveContext.Provider>
   )
+}
+
+/** Announce only when a client-side navigation had to wait for its data. */
+function RouteReadyStatus({ active, outcome, label }: {
+  active: boolean
+  outcome: 'loading' | 'ready' | 'error'
+  label: string
+}) {
+  const waiting = useRef(false)
+  const [message, setMessage] = useState('')
+  useEffect(() => {
+    if (outcome === 'loading') {
+      waiting.current = true
+    } else if (active && waiting.current) {
+      waiting.current = false
+      setMessage(outcome === 'ready' ? `${label} loaded.` : `${label} could not load the latest data.`)
+    }
+  }, [active, outcome, label])
+  return <span className="sr-only" role="status">{message}</span>
 }
 
 /** Keep one status region mounted so repeated polling failures do not repeat announcements. */
