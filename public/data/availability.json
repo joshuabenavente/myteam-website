@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-24T20:23:31.168Z",
+ "updatedAt": "2026-10-24T21:23:53.372Z",
  "teams": {
   "ATL": [
    {
@@ -63,13 +63,6 @@
     "gameTimeDecision": false,
     "reason": "Knee (surgery)",
     "returnDate": "2026-11-02"
-   },
-   {
-    "name": "Christian Anderson",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Ankle (sprain)",
-    "returnDate": "2026-10-24"
    }
   ],
   "CHI": [
@@ -85,6 +78,13 @@
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Head",
+    "returnDate": "2026-10-24"
+   },
+   {
+    "name": "Patrick Williams",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Groin (soreness)",
     "returnDate": "2026-10-24"
    }
   ],
@@ -208,6 +208,13 @@
   ],
   "GSW": [
    {
+    "name": "Al Horford",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Back",
+    "returnDate": "2026-10-26"
+   },
+   {
     "name": "Brandin Podziemski",
     "status": "Out",
     "gameTimeDecision": false,
@@ -247,6 +254,13 @@
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Knee",
+    "returnDate": "2026-10-24"
+   },
+   {
+    "name": "Draymond Green",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Back",
     "returnDate": "2026-10-24"
    }
   ],
@@ -297,9 +311,16 @@
    },
    {
     "name": "T.J. McConnell",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Hamstring",
+    "returnDate": "2026-10-26"
+   },
+   {
+    "name": "Aaron Nesmith",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
-    "reason": "Hamstring",
+    "reason": "Hamstring (strain)",
     "returnDate": "2026-10-25"
    }
   ],
@@ -514,17 +535,17 @@
     "returnDate": "2027-02-03"
    },
    {
+    "name": "Oso Ighodaro",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Oblique (strain)",
+    "returnDate": "2026-10-26"
+   },
+   {
     "name": "Luke Kennard",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Knee (strain)",
-    "returnDate": "2026-10-24"
-   },
-   {
-    "name": "Oso Ighodaro",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Oblique (strain)",
     "returnDate": "2026-10-24"
    }
   ],
