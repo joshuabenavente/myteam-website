@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-24T17:23:36.435Z",
+ "updatedAt": "2026-10-24T18:23:29.291Z",
  "teams": {
   "ATL": [
    {
@@ -37,11 +37,18 @@
   ],
   "CHA": [
    {
+    "name": "Coby White",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Calf (strain)",
+    "returnDate": "2026-10-26"
+   },
+   {
     "name": "Grant Williams",
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Hamstring",
-    "returnDate": "2026-10-24"
+    "returnDate": "2026-10-26"
    },
    {
     "name": "Kon Knueppel",
@@ -58,10 +65,10 @@
     "returnDate": "2026-11-02"
    },
    {
-    "name": "Coby White",
+    "name": "Christian Anderson",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
-    "reason": "Calf (strain)",
+    "reason": "Ankle (sprain)",
     "returnDate": "2026-10-24"
    }
   ],
@@ -86,8 +93,8 @@
     "name": "Cooper Flagg",
     "status": "Out",
     "gameTimeDecision": false,
-    "reason": "Shoulder (soreness)",
-    "returnDate": "2026-10-26"
+    "reason": "Shoulder (sprain)",
+    "returnDate": "2026-11-02"
    },
    {
     "name": "Dereck Lively II",
@@ -225,9 +232,16 @@
   "HOU": [
    {
     "name": "Fred VanVleet",
-    "status": "Day-To-Day",
+    "status": "Out",
     "gameTimeDecision": false,
-    "reason": "Rest",
+    "reason": "Knee",
+    "returnDate": "2026-10-26"
+   },
+   {
+    "name": "Steven Adams",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Ankle",
     "returnDate": "2026-10-26"
    },
    {
@@ -235,13 +249,6 @@
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Knee (bruise)",
-    "returnDate": "2026-10-24"
-   },
-   {
-    "name": "Steven Adams",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Rest",
     "returnDate": "2026-10-24"
    }
   ],
@@ -405,6 +412,13 @@
     "returnDate": "2026-11-18"
    },
    {
+    "name": "Jonathan Isaac",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Knee",
+    "returnDate": "2026-10-28"
+   },
+   {
     "name": "Noah Penda",
     "status": "Out",
     "gameTimeDecision": false,
@@ -423,13 +437,6 @@
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Ankle (sprain)",
-    "returnDate": "2026-10-25"
-   },
-   {
-    "name": "Jonathan Isaac",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Knee",
     "returnDate": "2026-10-25"
    }
   ],
@@ -573,6 +580,13 @@
   ],
   "WAS": [
    {
+    "name": "AJ Dybantsa",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Ankle (sprain)",
+    "returnDate": "2026-10-26"
+   },
+   {
     "name": "Jamir Watkins",
     "status": "Out",
     "gameTimeDecision": false,
@@ -585,13 +599,6 @@
     "gameTimeDecision": false,
     "reason": "Hip (pinched nerve)",
     "returnDate": "2026-11-02"
-   },
-   {
-    "name": "AJ Dybantsa",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Ankle (sprain)",
-    "returnDate": "2026-10-24"
    }
   ]
  }
