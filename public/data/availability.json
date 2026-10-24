@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-24T01:23:50.915Z",
+ "updatedAt": "2026-10-24T02:23:25.518Z",
  "teams": {
   "ATL": [
    {
@@ -83,6 +83,13 @@
     "returnDate": "2026-10-24"
    },
    {
+    "name": "Cooper Flagg",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Shoulder (soreness)",
+    "returnDate": "2026-10-26"
+   },
+   {
     "name": "Dereck Lively II",
     "status": "Out",
     "gameTimeDecision": false,
@@ -108,13 +115,6 @@
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Heel (inflammation)",
-    "returnDate": "2026-10-24"
-   },
-   {
-    "name": "Cooper Flagg",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Shoulder (soreness)",
     "returnDate": "2026-10-24"
    }
   ],
@@ -149,6 +149,13 @@
    }
   ],
   "DET": [
+   {
+    "name": "Ausar Thompson",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Undisclosed",
+    "returnDate": "2026-10-23"
+   },
    {
     "name": "Jalen Duren",
     "status": "Day-To-Day",
@@ -291,17 +298,10 @@
   "MEM": [
    {
     "name": "Cedric Coward",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
+    "status": "Out",
+    "gameTimeDecision": false,
     "reason": "Wrist (sprain)",
-    "returnDate": "2026-10-23"
-   },
-   {
-    "name": "Isaiah Stewart",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Ankle (sprain)",
-    "returnDate": "2026-10-23"
+    "returnDate": "2026-10-25"
    }
   ],
   "MIN": [
@@ -364,6 +364,13 @@
     "gameTimeDecision": false,
     "reason": "Hamstring (strain)",
     "returnDate": "2026-11-18"
+   },
+   {
+    "name": "Paolo Banchero",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Ankle (soreness)",
+    "returnDate": "2026-10-25"
    }
   ],
   "PHI": [
