@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-24T15:23:49.028Z",
+ "updatedAt": "2026-10-24T17:23:36.435Z",
  "teams": {
   "ATL": [
    {
@@ -37,6 +37,20 @@
   ],
   "CHA": [
    {
+    "name": "Grant Williams",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Hamstring",
+    "returnDate": "2026-10-24"
+   },
+   {
+    "name": "Kon Knueppel",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Hamstring",
+    "returnDate": "2026-10-26"
+   },
+   {
     "name": "Kylan Boswell",
     "status": "Out",
     "gameTimeDecision": false,
@@ -49,20 +63,6 @@
     "gameTimeDecision": true,
     "reason": "Calf (strain)",
     "returnDate": "2026-10-24"
-   },
-   {
-    "name": "Grant Williams",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Hamstring",
-    "returnDate": "2026-10-24"
-   },
-   {
-    "name": "Kon Knueppel",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Hamstring",
-    "returnDate": "2026-10-24"
    }
   ],
   "CHI": [
@@ -72,6 +72,13 @@
     "gameTimeDecision": false,
     "reason": "Hamstring",
     "returnDate": "2026-11-04"
+   },
+   {
+    "name": "Noa Essengue",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Head",
+    "returnDate": "2026-10-24"
    }
   ],
   "DAL": [
@@ -219,9 +226,9 @@
    {
     "name": "Fred VanVleet",
     "status": "Day-To-Day",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Rest",
-    "returnDate": "2026-10-24"
+    "returnDate": "2026-10-26"
    },
    {
     "name": "Reed Sheppard",
@@ -339,6 +346,15 @@
     "returnDate": "2026-10-25"
    }
   ],
+  "MIA": [
+   {
+    "name": "Pelle Larsson",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Finger (sprain)",
+    "returnDate": "2026-10-24"
+   }
+  ],
   "MIN": [
    {
     "name": "Donte DiVincenzo",
@@ -396,6 +412,13 @@
     "returnDate": "2026-11-18"
    },
    {
+    "name": "Paolo Banchero",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Ankle (sprain)",
+    "returnDate": "2026-11-22"
+   },
+   {
     "name": "Anthony Black",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
@@ -407,13 +430,6 @@
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Knee",
-    "returnDate": "2026-10-25"
-   },
-   {
-    "name": "Paolo Banchero",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Ankle (soreness)",
     "returnDate": "2026-10-25"
    }
   ],
@@ -433,6 +449,13 @@
     "returnDate": "2026-11-02"
    },
    {
+    "name": "LeBron James",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Back",
+    "returnDate": "2026-10-25"
+   },
+   {
     "name": "Tacko Fall",
     "status": "Out",
     "gameTimeDecision": false,
@@ -444,13 +467,6 @@
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Ankle (sprain)",
-    "returnDate": "2026-10-24"
-   },
-   {
-    "name": "LeBron James",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Back",
     "returnDate": "2026-10-24"
    }
   ],
