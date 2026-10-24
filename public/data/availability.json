@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-24T03:23:52.643Z",
+ "updatedAt": "2026-10-24T14:23:38.449Z",
  "teams": {
   "ATL": [
    {
@@ -166,11 +166,11 @@
   ],
   "GSW": [
    {
-    "name": "Charles Bassey",
+    "name": "Brandin Podziemski",
     "status": "Out",
     "gameTimeDecision": false,
-    "reason": "Knee",
-    "returnDate": "2026-10-24"
+    "reason": "Back",
+    "returnDate": "2026-10-26"
    },
    {
     "name": "Jimmy Butler III",
@@ -192,13 +192,27 @@
     "gameTimeDecision": false,
     "reason": "Knee (surgery)",
     "returnDate": "2026-12-01"
+   },
+   {
+    "name": "Charles Bassey",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Knee",
+    "returnDate": "2026-10-24"
+   },
+   {
+    "name": "Stephen Curry",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Rest",
+    "returnDate": "2026-10-24"
    }
   ],
   "HOU": [
    {
     "name": "Reed Sheppard",
-    "status": "Out",
-    "gameTimeDecision": false,
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
     "reason": "Knee (bruise)",
     "returnDate": "2026-10-24"
    }
@@ -275,22 +289,22 @@
   "LAL": [
    {
     "name": "Adou Thiero",
-    "status": "Out",
-    "gameTimeDecision": false,
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
     "reason": "Knee (inflammation)",
     "returnDate": "2026-10-25"
    },
    {
     "name": "Cameron Carr",
-    "status": "Out",
-    "gameTimeDecision": false,
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
     "reason": "Oblique (strain)",
     "returnDate": "2026-10-25"
    },
    {
     "name": "Jake LaRavia",
-    "status": "Out",
-    "gameTimeDecision": false,
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
     "reason": "Ankle (sprain)",
     "returnDate": "2026-10-25"
    }
@@ -298,8 +312,8 @@
   "MEM": [
    {
     "name": "Cedric Coward",
-    "status": "Out",
-    "gameTimeDecision": false,
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
     "reason": "Wrist (sprain)",
     "returnDate": "2026-10-25"
    }
@@ -444,25 +458,25 @@
   ],
   "POR": [
    {
-    "name": "Branden Carlson",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Concussion",
-    "returnDate": "2026-10-27"
-   },
-   {
-    "name": "Chris Youngblood",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Ankle (soreness)",
-    "returnDate": "2026-10-27"
-   },
-   {
     "name": "Shaedon Sharpe",
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Knee (surgery)",
     "returnDate": "2027-03-02"
+   },
+   {
+    "name": "Branden Carlson",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Concussion",
+    "returnDate": "2026-10-27"
+   },
+   {
+    "name": "Chris Youngblood",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Ankle (soreness)",
+    "returnDate": "2026-10-27"
    }
   ],
   "SAC": [
@@ -498,8 +512,8 @@
    },
    {
     "name": "Tobias Harris",
-    "status": "Out",
-    "gameTimeDecision": false,
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
     "reason": "Calf (strain)",
     "returnDate": "2026-10-24"
    }
@@ -514,8 +528,8 @@
    },
    {
     "name": "Trey Alexander",
-    "status": "Out",
-    "gameTimeDecision": false,
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
     "reason": "Knee (bruise)",
     "returnDate": "2026-10-25"
    }

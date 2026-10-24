@@ -1,7 +1,7 @@
 {
  "season": "2026-27",
  "lastSeason": "2025-26",
- "updatedAt": "2026-10-24T08:19:54.976Z",
+ "updatedAt": "2026-10-24T14:20:06.324Z",
  "teamGamesPlayed": {
   "regular": 1,
   "playoffs": 0
@@ -438,6 +438,43 @@
      "ftAttempted": 9
     }
    }
+  },
+  {
+   "id": "diallal01",
+   "name": "Alpha Diallo",
+   "number": "11",
+   "position": "G",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 7\"",
+    "weight": 210,
+    "birthDate": "1997-06-29",
+    "experience": 0,
+    "college": "Providence",
+    "birthPlace": "New York, NY"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4065813.png",
+   "current": {
+    "regular": {
+     "games": 1,
+     "started": 0,
+     "minutes": 22.2,
+     "points": 4,
+     "rebounds": 2,
+     "assists": 3,
+     "steals": 1,
+     "blocks": 0,
+     "turnovers": 2,
+     "fgMade": 2,
+     "fgAttempted": 4,
+     "threeMade": 0,
+     "threeAttempted": 2,
+     "ftMade": 0,
+     "ftAttempted": 0
+    }
+   },
+   "lastFull": {},
+   "lastToDate": {}
   },
   {
    "id": "brazitr01",

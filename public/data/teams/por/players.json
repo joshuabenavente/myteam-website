@@ -1,120 +1,12 @@
 {
  "season": "2026-27",
  "lastSeason": "2025-26",
- "updatedAt": "2026-10-24T08:23:27.107Z",
+ "updatedAt": "2026-10-24T14:23:38.162Z",
  "teamGamesPlayed": {
   "regular": 2,
   "playoffs": 0
  },
  "players": [
-  {
-   "id": "cissosi01",
-   "name": "Sidy Cissoko",
-   "number": "91",
-   "position": "SF",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 6\"",
-    "weight": 220,
-    "birthDate": "2004-04-02",
-    "experience": 3,
-    "birthPlace": "Paris, France"
-   },
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5081727.png",
-   "current": {
-    "regular": {
-     "games": 1,
-     "started": 0,
-     "minutes": 25.1,
-     "points": 3,
-     "rebounds": 4,
-     "assists": 3,
-     "steals": 0,
-     "blocks": 0,
-     "turnovers": 0,
-     "fgMade": 1,
-     "fgAttempted": 3,
-     "threeMade": 1,
-     "threeAttempted": 3,
-     "ftMade": 0,
-     "ftAttempted": 0
-    }
-   },
-   "lastFull": {
-    "regular": {
-     "games": 75,
-     "started": 26,
-     "minutes": 1436,
-     "points": 383,
-     "rebounds": 166,
-     "assists": 110,
-     "steals": 52,
-     "blocks": 25,
-     "turnovers": 70,
-     "fgMade": 133,
-     "fgAttempted": 334,
-     "threeMade": 59,
-     "threeAttempted": 198,
-     "ftMade": 58,
-     "ftAttempted": 88
-    },
-    "playoffs": {
-     "games": 4,
-     "started": 0,
-     "minutes": 26.2,
-     "points": 11,
-     "rebounds": 5,
-     "assists": 1,
-     "steals": 4,
-     "blocks": 0,
-     "turnovers": 1,
-     "fgMade": 4,
-     "fgAttempted": 10,
-     "threeMade": 2,
-     "threeAttempted": 5,
-     "ftMade": 1,
-     "ftAttempted": 1
-    }
-   },
-   "lastToDate": {}
-  },
-  {
-   "id": "lillada01",
-   "name": "Damian Lillard",
-   "number": "0",
-   "position": "PG",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 2\"",
-    "weight": 200,
-    "birthDate": "1990-07-15",
-    "experience": 13,
-    "college": "Weber State",
-    "birthPlace": "Oakland, CA"
-   },
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/6606.png",
-   "current": {
-    "regular": {
-     "games": 1,
-     "started": 1,
-     "minutes": 23.9,
-     "points": 25,
-     "rebounds": 3,
-     "assists": 6,
-     "steals": 1,
-     "blocks": 0,
-     "turnovers": 1,
-     "fgMade": 7,
-     "fgAttempted": 12,
-     "threeMade": 6,
-     "threeAttempted": 10,
-     "ftMade": 5,
-     "ftAttempted": 5
-    }
-   },
-   "lastFull": {},
-   "lastToDate": {}
-  },
   {
    "id": "avdijde01",
    "name": "Deni Avdija",
@@ -131,21 +23,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4683021.png",
    "current": {
     "regular": {
-     "games": 1,
-     "started": 1,
-     "minutes": 23.5,
-     "points": 18,
-     "rebounds": 10,
-     "assists": 4,
-     "steals": 2,
+     "games": 2,
+     "started": 2,
+     "minutes": 61.2,
+     "points": 44,
+     "rebounds": 16,
+     "assists": 10,
+     "steals": 3,
      "blocks": 0,
-     "turnovers": 2,
-     "fgMade": 7,
-     "fgAttempted": 16,
-     "threeMade": 2,
-     "threeAttempted": 4,
-     "ftMade": 2,
-     "ftAttempted": 4
+     "turnovers": 5,
+     "fgMade": 15,
+     "fgAttempted": 32,
+     "threeMade": 3,
+     "threeAttempted": 9,
+     "ftMade": 11,
+     "ftAttempted": 16
     }
    },
    "lastFull": {
@@ -205,6 +97,114 @@
    }
   },
   {
+   "id": "lillada01",
+   "name": "Damian Lillard",
+   "number": "0",
+   "position": "PG",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 2\"",
+    "weight": 200,
+    "birthDate": "1990-07-15",
+    "experience": 13,
+    "college": "Weber State",
+    "birthPlace": "Oakland, CA"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/6606.png",
+   "current": {
+    "regular": {
+     "games": 2,
+     "started": 2,
+     "minutes": 56.6,
+     "points": 44,
+     "rebounds": 8,
+     "assists": 8,
+     "steals": 3,
+     "blocks": 0,
+     "turnovers": 3,
+     "fgMade": 14,
+     "fgAttempted": 30,
+     "threeMade": 8,
+     "threeAttempted": 20,
+     "ftMade": 8,
+     "ftAttempted": 8
+    }
+   },
+   "lastFull": {},
+   "lastToDate": {}
+  },
+  {
+   "id": "cissosi01",
+   "name": "Sidy Cissoko",
+   "number": "91",
+   "position": "SF",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 6\"",
+    "weight": 220,
+    "birthDate": "2004-04-02",
+    "experience": 3,
+    "birthPlace": "Paris, France"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5081727.png",
+   "current": {
+    "regular": {
+     "games": 2,
+     "started": 0,
+     "minutes": 51.5,
+     "points": 18,
+     "rebounds": 11,
+     "assists": 4,
+     "steals": 1,
+     "blocks": 0,
+     "turnovers": 0,
+     "fgMade": 6,
+     "fgAttempted": 11,
+     "threeMade": 3,
+     "threeAttempted": 8,
+     "ftMade": 3,
+     "ftAttempted": 5
+    }
+   },
+   "lastFull": {
+    "regular": {
+     "games": 75,
+     "started": 26,
+     "minutes": 1436,
+     "points": 383,
+     "rebounds": 166,
+     "assists": 110,
+     "steals": 52,
+     "blocks": 25,
+     "turnovers": 70,
+     "fgMade": 133,
+     "fgAttempted": 334,
+     "threeMade": 59,
+     "threeAttempted": 198,
+     "ftMade": 58,
+     "ftAttempted": 88
+    },
+    "playoffs": {
+     "games": 4,
+     "started": 0,
+     "minutes": 26.2,
+     "points": 11,
+     "rebounds": 5,
+     "assists": 1,
+     "steals": 4,
+     "blocks": 0,
+     "turnovers": 1,
+     "fgMade": 4,
+     "fgAttempted": 10,
+     "threeMade": 2,
+     "threeAttempted": 5,
+     "ftMade": 1,
+     "ftAttempted": 1
+    }
+   },
+   "lastToDate": {}
+  },
+  {
    "id": "camarto01",
    "name": "Toumani Camara",
    "number": "33",
@@ -221,19 +221,19 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4431736.png",
    "current": {
     "regular": {
-     "games": 1,
-     "started": 1,
-     "minutes": 22.6,
-     "points": 18,
-     "rebounds": 2,
-     "assists": 3,
-     "steals": 0,
+     "games": 2,
+     "started": 2,
+     "minutes": 49.9,
+     "points": 37,
+     "rebounds": 5,
+     "assists": 4,
+     "steals": 2,
      "blocks": 0,
      "turnovers": 1,
-     "fgMade": 6,
-     "fgAttempted": 9,
-     "threeMade": 4,
-     "threeAttempted": 7,
+     "fgMade": 13,
+     "fgAttempted": 21,
+     "threeMade": 9,
+     "threeAttempted": 17,
      "ftMade": 2,
      "ftAttempted": 2
     }
@@ -311,21 +311,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4279888.png",
    "current": {
     "regular": {
-     "games": 1,
-     "started": 1,
-     "minutes": 22.6,
-     "points": 14,
-     "rebounds": 5,
-     "assists": 8,
-     "steals": 3,
+     "games": 2,
+     "started": 2,
+     "minutes": 49.5,
+     "points": 26,
+     "rebounds": 8,
+     "assists": 15,
+     "steals": 4,
      "blocks": 0,
-     "turnovers": 1,
-     "fgMade": 6,
-     "fgAttempted": 8,
-     "threeMade": 2,
-     "threeAttempted": 3,
-     "ftMade": 0,
-     "ftAttempted": 0
+     "turnovers": 3,
+     "fgMade": 11,
+     "fgAttempted": 21,
+     "threeMade": 3,
+     "threeAttempted": 8,
+     "ftMade": 1,
+     "ftAttempted": 2
     }
    },
    "lastFull": {
@@ -368,96 +368,6 @@
    }
   },
   {
-   "id": "clingdo01",
-   "name": "Donovan Clingan",
-   "number": "23",
-   "position": "C",
-   "twoWay": false,
-   "bio": {
-    "height": "7' 2\"",
-    "weight": 280,
-    "birthDate": "2004-02-23",
-    "experience": 2,
-    "college": "UConn",
-    "birthPlace": "Bristol, CT"
-   },
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5105565.png",
-   "current": {
-    "regular": {
-     "games": 1,
-     "started": 1,
-     "minutes": 20.7,
-     "points": 11,
-     "rebounds": 7,
-     "assists": 2,
-     "steals": 0,
-     "blocks": 0,
-     "turnovers": 1,
-     "fgMade": 4,
-     "fgAttempted": 9,
-     "threeMade": 2,
-     "threeAttempted": 4,
-     "ftMade": 1,
-     "ftAttempted": 2
-    }
-   },
-   "lastFull": {
-    "regular": {
-     "games": 77,
-     "started": 77,
-     "minutes": 2094.4,
-     "points": 934,
-     "rebounds": 892,
-     "assists": 162,
-     "steals": 44,
-     "blocks": 130,
-     "turnovers": 95,
-     "fgMade": 356,
-     "fgAttempted": 684,
-     "threeMade": 84,
-     "threeAttempted": 246,
-     "ftMade": 138,
-     "ftAttempted": 203
-    },
-    "playoffs": {
-     "games": 5,
-     "started": 5,
-     "minutes": 107,
-     "points": 35,
-     "rebounds": 39,
-     "assists": 11,
-     "steals": 1,
-     "blocks": 3,
-     "turnovers": 3,
-     "fgMade": 14,
-     "fgAttempted": 46,
-     "threeMade": 5,
-     "threeAttempted": 25,
-     "ftMade": 2,
-     "ftAttempted": 4
-    }
-   },
-   "lastToDate": {
-    "regular": {
-     "games": 2,
-     "started": 2,
-     "minutes": 51.7,
-     "points": 22,
-     "rebounds": 14,
-     "assists": 3,
-     "steals": 2,
-     "blocks": 2,
-     "turnovers": 1,
-     "fgMade": 7,
-     "fgAttempted": 11,
-     "threeMade": 3,
-     "threeAttempted": 6,
-     "ftMade": 5,
-     "ftAttempted": 5
-    }
-   }
-  },
-  {
    "id": "holidjr01",
    "name": "Jrue Holiday",
    "number": "5",
@@ -474,21 +384,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3995.png",
    "current": {
     "regular": {
-     "games": 1,
+     "games": 2,
      "started": 0,
-     "minutes": 20.6,
-     "points": 8,
-     "rebounds": 4,
-     "assists": 1,
-     "steals": 2,
-     "blocks": 0,
+     "minutes": 47.1,
+     "points": 20,
+     "rebounds": 6,
+     "assists": 9,
+     "steals": 3,
+     "blocks": 1,
      "turnovers": 0,
-     "fgMade": 2,
-     "fgAttempted": 6,
-     "threeMade": 0,
-     "threeAttempted": 3,
-     "ftMade": 4,
-     "ftAttempted": 4
+     "fgMade": 6,
+     "fgAttempted": 16,
+     "threeMade": 3,
+     "threeAttempted": 12,
+     "ftMade": 5,
+     "ftAttempted": 6
     }
    },
    "lastFull": {
@@ -548,6 +458,96 @@
    }
   },
   {
+   "id": "clingdo01",
+   "name": "Donovan Clingan",
+   "number": "23",
+   "position": "C",
+   "twoWay": false,
+   "bio": {
+    "height": "7' 2\"",
+    "weight": 280,
+    "birthDate": "2004-02-23",
+    "experience": 2,
+    "college": "UConn",
+    "birthPlace": "Bristol, CT"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5105565.png",
+   "current": {
+    "regular": {
+     "games": 2,
+     "started": 2,
+     "minutes": 41.2,
+     "points": 19,
+     "rebounds": 17,
+     "assists": 5,
+     "steals": 0,
+     "blocks": 2,
+     "turnovers": 1,
+     "fgMade": 7,
+     "fgAttempted": 14,
+     "threeMade": 2,
+     "threeAttempted": 4,
+     "ftMade": 3,
+     "ftAttempted": 4
+    }
+   },
+   "lastFull": {
+    "regular": {
+     "games": 77,
+     "started": 77,
+     "minutes": 2094.4,
+     "points": 934,
+     "rebounds": 892,
+     "assists": 162,
+     "steals": 44,
+     "blocks": 130,
+     "turnovers": 95,
+     "fgMade": 356,
+     "fgAttempted": 684,
+     "threeMade": 84,
+     "threeAttempted": 246,
+     "ftMade": 138,
+     "ftAttempted": 203
+    },
+    "playoffs": {
+     "games": 5,
+     "started": 5,
+     "minutes": 107,
+     "points": 35,
+     "rebounds": 39,
+     "assists": 11,
+     "steals": 1,
+     "blocks": 3,
+     "turnovers": 3,
+     "fgMade": 14,
+     "fgAttempted": 46,
+     "threeMade": 5,
+     "threeAttempted": 25,
+     "ftMade": 2,
+     "ftAttempted": 4
+    }
+   },
+   "lastToDate": {
+    "regular": {
+     "games": 2,
+     "started": 2,
+     "minutes": 51.7,
+     "points": 22,
+     "rebounds": 14,
+     "assists": 3,
+     "steals": 2,
+     "blocks": 2,
+     "turnovers": 1,
+     "fgMade": 7,
+     "fgAttempted": 11,
+     "threeMade": 3,
+     "threeAttempted": 6,
+     "ftMade": 5,
+     "ftAttempted": 5
+    }
+   }
+  },
+  {
    "id": "hendesc01",
    "name": "Scoot Henderson",
    "number": "00",
@@ -563,21 +563,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4683678.png",
    "current": {
     "regular": {
-     "games": 1,
+     "games": 2,
      "started": 0,
-     "minutes": 19.3,
-     "points": 15,
-     "rebounds": 2,
-     "assists": 1,
+     "minutes": 39.8,
+     "points": 19,
+     "rebounds": 3,
+     "assists": 3,
      "steals": 1,
      "blocks": 0,
      "turnovers": 4,
-     "fgMade": 7,
-     "fgAttempted": 14,
+     "fgMade": 8,
+     "fgAttempted": 21,
      "threeMade": 1,
-     "threeAttempted": 6,
-     "ftMade": 0,
-     "ftAttempted": 0
+     "threeAttempted": 9,
+     "ftMade": 2,
+     "ftAttempted": 2
     }
    },
    "lastFull": {
@@ -619,6 +619,78 @@
    "lastToDate": {}
   },
   {
+   "id": "williro04",
+   "name": "Robert Williams",
+   "number": "35",
+   "position": "C",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 9\"",
+    "weight": 249,
+    "birthDate": "1997-10-17",
+    "experience": 8,
+    "college": "Texas A&M",
+    "birthPlace": "Shreveport, LA"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4066211.png",
+   "current": {
+    "regular": {
+     "games": 2,
+     "started": 0,
+     "minutes": 33.3,
+     "points": 15,
+     "rebounds": 16,
+     "assists": 1,
+     "steals": 0,
+     "blocks": 2,
+     "turnovers": 2,
+     "fgMade": 7,
+     "fgAttempted": 9,
+     "threeMade": 0,
+     "threeAttempted": 0,
+     "ftMade": 1,
+     "ftAttempted": 2
+    }
+   },
+   "lastFull": {
+    "regular": {
+     "games": 59,
+     "started": 1,
+     "minutes": 1008.7,
+     "points": 397,
+     "rebounds": 415,
+     "assists": 60,
+     "steals": 35,
+     "blocks": 87,
+     "turnovers": 49,
+     "fgMade": 177,
+     "fgAttempted": 250,
+     "threeMade": 9,
+     "threeAttempted": 23,
+     "ftMade": 34,
+     "ftAttempted": 57
+    },
+    "playoffs": {
+     "games": 5,
+     "started": 0,
+     "minutes": 108.4,
+     "points": 48,
+     "rebounds": 37,
+     "assists": 13,
+     "steals": 3,
+     "blocks": 6,
+     "turnovers": 2,
+     "fgMade": 22,
+     "fgAttempted": 35,
+     "threeMade": 3,
+     "threeAttempted": 9,
+     "ftMade": 1,
+     "ftAttempted": 3
+    }
+   },
+   "lastToDate": {}
+  },
+  {
    "id": "krejcvi01",
    "name": "Vít Krejčí",
    "number": "27",
@@ -634,19 +706,19 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4578893.png",
    "current": {
     "regular": {
-     "games": 1,
+     "games": 2,
      "started": 0,
-     "minutes": 15.5,
+     "minutes": 19,
      "points": 1,
-     "rebounds": 2,
+     "rebounds": 4,
      "assists": 3,
      "steals": 2,
      "blocks": 0,
      "turnovers": 2,
      "fgMade": 0,
-     "fgAttempted": 3,
+     "fgAttempted": 4,
      "threeMade": 0,
-     "threeAttempted": 2,
+     "threeAttempted": 3,
      "ftMade": 1,
      "ftAttempted": 1
     }
@@ -706,78 +778,6 @@
      "ftAttempted": 0
     }
    }
-  },
-  {
-   "id": "williro04",
-   "name": "Robert Williams",
-   "number": "35",
-   "position": "C",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 9\"",
-    "weight": 249,
-    "birthDate": "1997-10-17",
-    "experience": 8,
-    "college": "Texas A&M",
-    "birthPlace": "Shreveport, LA"
-   },
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4066211.png",
-   "current": {
-    "regular": {
-     "games": 1,
-     "started": 0,
-     "minutes": 15.3,
-     "points": 2,
-     "rebounds": 10,
-     "assists": 1,
-     "steals": 0,
-     "blocks": 1,
-     "turnovers": 0,
-     "fgMade": 1,
-     "fgAttempted": 3,
-     "threeMade": 0,
-     "threeAttempted": 0,
-     "ftMade": 0,
-     "ftAttempted": 0
-    }
-   },
-   "lastFull": {
-    "regular": {
-     "games": 59,
-     "started": 1,
-     "minutes": 1008.7,
-     "points": 397,
-     "rebounds": 415,
-     "assists": 60,
-     "steals": 35,
-     "blocks": 87,
-     "turnovers": 49,
-     "fgMade": 177,
-     "fgAttempted": 250,
-     "threeMade": 9,
-     "threeAttempted": 23,
-     "ftMade": 34,
-     "ftAttempted": 57
-    },
-    "playoffs": {
-     "games": 5,
-     "started": 0,
-     "minutes": 108.4,
-     "points": 48,
-     "rebounds": 37,
-     "assists": 13,
-     "steals": 3,
-     "blocks": 6,
-     "turnovers": 2,
-     "fgMade": 22,
-     "fgAttempted": 35,
-     "threeMade": 3,
-     "threeAttempted": 9,
-     "ftMade": 1,
-     "ftAttempted": 3
-    }
-   },
-   "lastToDate": {}
   },
   {
    "id": "pottemi01",
