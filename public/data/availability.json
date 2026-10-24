@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-24T22:23:40.623Z",
+ "updatedAt": "2026-10-24T23:23:34.278Z",
  "teams": {
   "ATL": [
    {
@@ -75,17 +75,17 @@
    },
    {
     "name": "Noa Essengue",
-    "status": "Day-To-Day",
+    "status": "Out",
     "gameTimeDecision": false,
     "reason": "Head (bruise)",
     "returnDate": "2026-10-26"
    },
    {
     "name": "Patrick Williams",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
+    "status": "Out",
+    "gameTimeDecision": false,
     "reason": "Groin (soreness)",
-    "returnDate": "2026-10-24"
+    "returnDate": "2026-10-26"
    }
   ],
   "DAL": [
@@ -111,11 +111,11 @@
     "returnDate": "2026-10-28"
    },
    {
-    "name": "Jett Howard",
+    "name": "Kyrie Irving",
     "status": "Out",
-    "gameTimeDecision": true,
-    "reason": "Calf (soreness)",
-    "returnDate": "2026-10-24"
+    "gameTimeDecision": false,
+    "reason": "Knee",
+    "returnDate": "2026-10-26"
    },
    {
     "name": "Santi Aldama",
@@ -130,34 +130,6 @@
     "gameTimeDecision": false,
     "reason": "Heel (inflammation)",
     "returnDate": "2026-11-02"
-   },
-   {
-    "name": "Kyrie Irving",
-    "status": "Day-To-Day",
-    "gameTimeDecision": false,
-    "reason": "Rest",
-    "returnDate": "2026-10-26"
-   },
-   {
-    "name": "Max Christie",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Leg",
-    "returnDate": "2026-10-24"
-   },
-   {
-    "name": "Morez Johnson Jr.",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Lower Leg",
-    "returnDate": "2026-10-24"
-   },
-   {
-    "name": "Zaccharie Risacher",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Hip (soreness)",
-    "returnDate": "2026-10-24"
    }
   ],
   "DEN": [
@@ -273,25 +245,18 @@
     "returnDate": "2026-10-26"
    },
    {
+    "name": "Marcus Smart",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Forearm (strain)",
+    "returnDate": "2026-10-26"
+   },
+   {
     "name": "Steven Adams",
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Ankle",
     "returnDate": "2026-10-26"
-   },
-   {
-    "name": "Marcus Smart",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Forearm (strain)",
-    "returnDate": "2026-10-24"
-   },
-   {
-    "name": "Reed Sheppard",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Knee (bruise)",
-    "returnDate": "2026-10-24"
    }
   ],
   "IND": [
@@ -373,24 +338,17 @@
   "LAL": [
    {
     "name": "Adou Thiero",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
+    "status": "Out",
+    "gameTimeDecision": false,
     "reason": "Knee (inflammation)",
-    "returnDate": "2026-10-25"
+    "returnDate": "2026-10-27"
    },
    {
     "name": "Cameron Carr",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
+    "status": "Out",
+    "gameTimeDecision": false,
     "reason": "Oblique (strain)",
-    "returnDate": "2026-10-25"
-   },
-   {
-    "name": "Jake LaRavia",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Ankle (sprain)",
-    "returnDate": "2026-10-25"
+    "returnDate": "2026-10-27"
    }
   ],
   "MEM": [
@@ -416,8 +374,8 @@
     "name": "Yves Missi",
     "status": "Out",
     "gameTimeDecision": false,
-    "reason": "Knee",
-    "returnDate": "2026-10-28"
+    "reason": "Knee (bruise)",
+    "returnDate": "2026-11-02"
    }
   ],
   "NYK": [
@@ -517,13 +475,6 @@
     "gameTimeDecision": false,
     "reason": "Quadriceps (strain)",
     "returnDate": "2026-10-25"
-   },
-   {
-    "name": "Dean Wade",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Ankle (sprain)",
-    "returnDate": "2026-10-24"
    }
   ],
   "PHX": [
@@ -621,10 +572,10 @@
    },
    {
     "name": "Trey Alexander",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
+    "status": "Out",
+    "gameTimeDecision": false,
     "reason": "Knee (bruise)",
-    "returnDate": "2026-10-25"
+    "returnDate": "2026-10-26"
    }
   ],
   "WAS": [
