@@ -45,7 +45,11 @@
    "startUtc": "2026-10-24T22:00:00Z",
    "home": false,
    "opponent": "CHA",
-   "status": "scheduled",
+   "status": "live",
+   "score": {
+    "team": 0,
+    "opponent": 0
+   },
    "broadcasts": [
     {
      "name": "WPLG Local 10/Local10+ Platinum",

@@ -45,7 +45,11 @@
    "startUtc": "2026-10-24T22:00:00Z",
    "home": true,
    "opponent": "MIA",
-   "status": "scheduled",
+   "status": "live",
+   "score": {
+    "team": 0,
+    "opponent": 0
+   },
    "broadcasts": [
     {
      "name": "TV 64/DAZN-CHA",

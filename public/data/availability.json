@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-24T21:23:53.372Z",
+ "updatedAt": "2026-10-24T22:23:40.623Z",
  "teams": {
   "ATL": [
    {
@@ -76,9 +76,9 @@
    {
     "name": "Noa Essengue",
     "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Head",
-    "returnDate": "2026-10-24"
+    "gameTimeDecision": false,
+    "reason": "Head (bruise)",
+    "returnDate": "2026-10-26"
    },
    {
     "name": "Patrick Williams",
@@ -134,9 +134,9 @@
    {
     "name": "Kyrie Irving",
     "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Knee",
-    "returnDate": "2026-10-24"
+    "gameTimeDecision": false,
+    "reason": "Rest",
+    "returnDate": "2026-10-26"
    },
    {
     "name": "Max Christie",
@@ -402,15 +402,6 @@
     "returnDate": "2026-10-25"
    }
   ],
-  "MIA": [
-   {
-    "name": "Pelle Larsson",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Finger (sprain)",
-    "returnDate": "2026-10-24"
-   }
-  ],
   "MIN": [
    {
     "name": "Donte DiVincenzo",
@@ -427,6 +418,15 @@
     "gameTimeDecision": false,
     "reason": "Knee",
     "returnDate": "2026-10-28"
+   }
+  ],
+  "NYK": [
+   {
+    "name": "Jose Alvarado",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Ankle (sprain)",
+    "returnDate": "2026-10-25"
    }
   ],
   "OKC": [
