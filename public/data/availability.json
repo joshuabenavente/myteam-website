@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-24T18:23:29.291Z",
+ "updatedAt": "2026-10-24T19:23:50.341Z",
  "teams": {
   "ATL": [
    {
@@ -48,7 +48,7 @@
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Hamstring",
-    "returnDate": "2026-10-26"
+    "returnDate": "2026-10-30"
    },
    {
     "name": "Kon Knueppel",
@@ -90,6 +90,13 @@
   ],
   "DAL": [
    {
+    "name": "Caleb Martin",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Thumb (sprain)",
+    "returnDate": "2026-11-02"
+   },
+   {
     "name": "Cooper Flagg",
     "status": "Out",
     "gameTimeDecision": false,
@@ -101,41 +108,55 @@
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Foot (surgery)",
-    "returnDate": "2026-10-26"
-   },
-   {
-    "name": "Caleb Martin",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Thumb (sprain)",
-    "returnDate": "2026-10-24"
+    "returnDate": "2026-10-28"
    },
    {
     "name": "Jett Howard",
-    "status": "Day-To-Day",
+    "status": "Out",
     "gameTimeDecision": true,
     "reason": "Calf (soreness)",
     "returnDate": "2026-10-24"
    },
    {
-    "name": "Kyrie Irving",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Rest",
-    "returnDate": "2026-10-24"
-   },
-   {
     "name": "Santi Aldama",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
+    "status": "Out",
+    "gameTimeDecision": false,
     "reason": "Knee (surgery)",
-    "returnDate": "2026-10-24"
+    "returnDate": "2026-10-28"
    },
    {
     "name": "Tarik Biberovic",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Heel (inflammation)",
+    "returnDate": "2026-11-02"
+   },
+   {
+    "name": "Kyrie Irving",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
-    "reason": "Heel (inflammation)",
+    "reason": "Knee",
+    "returnDate": "2026-10-24"
+   },
+   {
+    "name": "Max Christie",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Leg",
+    "returnDate": "2026-10-24"
+   },
+   {
+    "name": "Morez Johnson Jr.",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Lower Leg",
+    "returnDate": "2026-10-24"
+   },
+   {
+    "name": "Zaccharie Risacher",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Hip (soreness)",
     "returnDate": "2026-10-24"
    }
   ],
@@ -374,10 +395,10 @@
   "NOP": [
    {
     "name": "Yves Missi",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
+    "status": "Out",
+    "gameTimeDecision": false,
     "reason": "Knee",
-    "returnDate": "2026-10-24"
+    "returnDate": "2026-10-28"
    }
   ],
   "OKC": [
@@ -556,10 +577,10 @@
    },
    {
     "name": "Tobias Harris",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
+    "status": "Out",
+    "gameTimeDecision": false,
     "reason": "Calf (strain)",
-    "returnDate": "2026-10-24"
+    "returnDate": "2026-10-27"
    }
   ],
   "UTA": [
