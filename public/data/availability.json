@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-24T14:23:38.449Z",
+ "updatedAt": "2026-10-24T15:23:49.028Z",
  "teams": {
   "ATL": [
    {
@@ -101,6 +101,13 @@
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Calf (soreness)",
+    "returnDate": "2026-10-24"
+   },
+   {
+    "name": "Kyrie Irving",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Rest",
     "returnDate": "2026-10-24"
    },
    {
@@ -210,10 +217,24 @@
   ],
   "HOU": [
    {
+    "name": "Fred VanVleet",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Rest",
+    "returnDate": "2026-10-24"
+   },
+   {
     "name": "Reed Sheppard",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Knee (bruise)",
+    "returnDate": "2026-10-24"
+   },
+   {
+    "name": "Steven Adams",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Rest",
     "returnDate": "2026-10-24"
    }
   ],
