@@ -8,7 +8,7 @@
    "wins": 2,
    "losses": 0,
    "divisionRank": 1,
-   "conferenceRank": 2,
+   "conferenceRank": 3,
    "divisionGamesBehind": 0,
    "home": {
     "wins": 1,
@@ -120,24 +120,24 @@
    "abbr": "DET",
    "conference": "East",
    "division": "Central",
-   "wins": 1,
+   "wins": 2,
    "losses": 0,
    "divisionRank": 1,
-   "conferenceRank": 3,
+   "conferenceRank": 2,
    "divisionGamesBehind": 0,
    "home": {
     "wins": 1,
     "losses": 0
    },
    "road": {
-    "wins": 0,
-    "losses": 0
-   },
-   "lastTen": {
     "wins": 1,
     "losses": 0
    },
-   "streak": "W1"
+   "lastTen": {
+    "wins": 2,
+    "losses": 0
+   },
+   "streak": "W2"
   },
   "CHI": {
    "abbr": "CHI",
@@ -147,7 +147,7 @@
    "losses": 1,
    "divisionRank": 2,
    "conferenceRank": 7,
-   "divisionGamesBehind": 0.5,
+   "divisionGamesBehind": 1,
    "home": {
     "wins": 0,
     "losses": 0
@@ -170,7 +170,7 @@
    "losses": 1,
    "divisionRank": 3,
    "conferenceRank": 9,
-   "divisionGamesBehind": 0.5,
+   "divisionGamesBehind": 1,
    "home": {
     "wins": 0,
     "losses": 1
@@ -193,7 +193,7 @@
    "losses": 1,
    "divisionRank": 4,
    "conferenceRank": 11,
-   "divisionGamesBehind": 1,
+   "divisionGamesBehind": 1.5,
    "home": {
     "wins": 0,
     "losses": 0
@@ -216,7 +216,7 @@
    "losses": 2,
    "divisionRank": 5,
    "conferenceRank": 13,
-   "divisionGamesBehind": 1.5,
+   "divisionGamesBehind": 2,
    "home": {
     "wins": 0,
     "losses": 1
@@ -300,18 +300,18 @@
    },
    "streak": "L1"
   },
-  "MIA": {
-   "abbr": "MIA",
+  "ORL": {
+   "abbr": "ORL",
    "conference": "East",
    "division": "Southeast",
    "wins": 0,
-   "losses": 1,
+   "losses": 2,
    "divisionRank": 4,
    "conferenceRank": 14,
-   "divisionGamesBehind": 1.5,
+   "divisionGamesBehind": 2,
    "home": {
     "wins": 0,
-    "losses": 1
+    "losses": 2
    },
    "road": {
     "wins": 0,
@@ -319,12 +319,12 @@
    },
    "lastTen": {
     "wins": 0,
-    "losses": 1
+    "losses": 2
    },
-   "streak": "L1"
+   "streak": "L2"
   },
-  "ORL": {
-   "abbr": "ORL",
+  "MIA": {
+   "abbr": "MIA",
    "conference": "East",
    "division": "Southeast",
    "wins": 0,

@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-24T02:23:25.518Z",
+ "updatedAt": "2026-10-24T03:23:52.643Z",
  "teams": {
   "ATL": [
    {
@@ -37,32 +37,32 @@
   ],
   "CHA": [
    {
-    "name": "Coby White",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Calf (strain)",
-    "returnDate": "2026-10-24"
-   },
-   {
-    "name": "Grant Williams",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Hamstring",
-    "returnDate": "2026-10-24"
-   },
-   {
-    "name": "Kon Knueppel",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Hamstring",
-    "returnDate": "2026-10-24"
-   },
-   {
     "name": "Kylan Boswell",
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Knee (surgery)",
     "returnDate": "2026-11-02"
+   },
+   {
+    "name": "Coby White",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Calf (strain)",
+    "returnDate": "2026-10-24"
+   },
+   {
+    "name": "Grant Williams",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Hamstring",
+    "returnDate": "2026-10-24"
+   },
+   {
+    "name": "Kon Knueppel",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Hamstring",
+    "returnDate": "2026-10-24"
    }
   ],
   "CHI": [
@@ -75,13 +75,6 @@
    }
   ],
   "DAL": [
-   {
-    "name": "Caleb Martin",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Thumb (sprain)",
-    "returnDate": "2026-10-24"
-   },
    {
     "name": "Cooper Flagg",
     "status": "Out",
@@ -97,23 +90,30 @@
     "returnDate": "2026-10-26"
    },
    {
+    "name": "Caleb Martin",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Thumb (sprain)",
+    "returnDate": "2026-10-24"
+   },
+   {
     "name": "Jett Howard",
-    "status": "Out",
-    "gameTimeDecision": false,
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
     "reason": "Calf (soreness)",
     "returnDate": "2026-10-24"
    },
    {
     "name": "Santi Aldama",
-    "status": "Out",
-    "gameTimeDecision": false,
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
     "reason": "Knee (surgery)",
     "returnDate": "2026-10-24"
    },
    {
     "name": "Tarik Biberovic",
-    "status": "Out",
-    "gameTimeDecision": false,
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
     "reason": "Heel (inflammation)",
     "returnDate": "2026-10-24"
    }
@@ -154,14 +154,14 @@
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Undisclosed",
-    "returnDate": "2026-10-23"
+    "returnDate": "2026-10-25"
    },
    {
     "name": "Jalen Duren",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Thigh",
-    "returnDate": "2026-10-23"
+    "returnDate": "2026-10-25"
    }
   ],
   "GSW": [
@@ -220,8 +220,8 @@
    },
    {
     "name": "T.J. McConnell",
-    "status": "Out",
-    "gameTimeDecision": false,
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
     "reason": "Hamstring",
     "returnDate": "2026-10-25"
    }
@@ -313,6 +313,15 @@
     "returnDate": "2027-04-02"
    }
   ],
+  "NOP": [
+   {
+    "name": "Yves Missi",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Knee",
+    "returnDate": "2026-10-24"
+   }
+  ],
   "OKC": [
    {
     "name": "Nikola Topic",
@@ -338,13 +347,6 @@
   ],
   "ORL": [
    {
-    "name": "Anthony Black",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Ankle (sprain)",
-    "returnDate": "2026-10-25"
-   },
-   {
     "name": "Izaiyah Nelson",
     "status": "Out",
     "gameTimeDecision": false,
@@ -352,18 +354,25 @@
     "returnDate": "2026-11-18"
    },
    {
-    "name": "Jonathan Isaac",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Knee",
-    "returnDate": "2026-10-25"
-   },
-   {
     "name": "Noah Penda",
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Hamstring (strain)",
     "returnDate": "2026-11-18"
+   },
+   {
+    "name": "Anthony Black",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Ankle (sprain)",
+    "returnDate": "2026-10-25"
+   },
+   {
+    "name": "Jonathan Isaac",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Knee",
+    "returnDate": "2026-10-25"
    },
    {
     "name": "Paolo Banchero",
@@ -513,13 +522,6 @@
   ],
   "WAS": [
    {
-    "name": "AJ Dybantsa",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Ankle (sprain)",
-    "returnDate": "2026-10-24"
-   },
-   {
     "name": "Jamir Watkins",
     "status": "Out",
     "gameTimeDecision": false,
@@ -532,6 +534,13 @@
     "gameTimeDecision": false,
     "reason": "Hip (pinched nerve)",
     "returnDate": "2026-11-02"
+   },
+   {
+    "name": "AJ Dybantsa",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Ankle (sprain)",
+    "returnDate": "2026-10-24"
    }
   ]
  }
