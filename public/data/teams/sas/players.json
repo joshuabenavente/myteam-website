@@ -1,173 +1,12 @@
 {
  "season": "2026-27",
  "lastSeason": "2025-26",
- "updatedAt": "2026-10-24T05:18:42.572Z",
+ "updatedAt": "2026-10-24T11:18:43.535Z",
  "teamGamesPlayed": {
   "regular": 2,
   "playoffs": 0
  },
  "players": [
-  {
-   "id": "wembavi01",
-   "name": "Victor Wembanyama",
-   "number": "1",
-   "position": "C",
-   "twoWay": false,
-   "bio": {
-    "height": "7' 4\"",
-    "weight": 240,
-    "birthDate": "2004-01-04",
-    "experience": 3,
-    "birthPlace": "Paris, France"
-   },
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5104157.png",
-   "current": {
-    "regular": {
-     "games": 1,
-     "started": 1,
-     "minutes": 34.2,
-     "points": 12,
-     "rebounds": 13,
-     "assists": 3,
-     "steals": 1,
-     "blocks": 6,
-     "turnovers": 4,
-     "fgMade": 1,
-     "fgAttempted": 13,
-     "threeMade": 0,
-     "threeAttempted": 4,
-     "ftMade": 10,
-     "ftAttempted": 12
-    }
-   },
-   "lastFull": {
-    "regular": {
-     "games": 64,
-     "started": 55,
-     "minutes": 1866.4,
-     "points": 1600,
-     "rebounds": 736,
-     "assists": 199,
-     "steals": 66,
-     "blocks": 197,
-     "turnovers": 155,
-     "fgMade": 553,
-     "fgAttempted": 1080,
-     "threeMade": 122,
-     "threeAttempted": 350,
-     "ftMade": 372,
-     "ftAttempted": 450
-    },
-    "playoffs": {
-     "games": 22,
-     "started": 22,
-     "minutes": 750.4,
-     "points": 524,
-     "rebounds": 239,
-     "assists": 59,
-     "steals": 21,
-     "blocks": 78,
-     "turnovers": 59,
-     "fgMade": 176,
-     "fgAttempted": 363,
-     "threeMade": 39,
-     "threeAttempted": 114,
-     "ftMade": 133,
-     "ftAttempted": 157
-    }
-   },
-   "lastToDate": {
-    "regular": {
-     "games": 2,
-     "started": 2,
-     "minutes": 62,
-     "points": 69,
-     "rebounds": 26,
-     "assists": 3,
-     "steals": 2,
-     "blocks": 12,
-     "turnovers": 0,
-     "fgMade": 28,
-     "fgAttempted": 44,
-     "threeMade": 1,
-     "threeAttempted": 5,
-     "ftMade": 12,
-     "ftAttempted": 15
-    }
-   }
-  },
-  {
-   "id": "foxde01",
-   "name": "De'Aaron Fox",
-   "number": "4",
-   "position": "PG",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 3\"",
-    "weight": 190,
-    "birthDate": "1997-12-20",
-    "experience": 9,
-    "college": "Kentucky",
-    "birthPlace": "Houston, TX"
-   },
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4066259.png",
-   "current": {
-    "regular": {
-     "games": 1,
-     "started": 1,
-     "minutes": 31.9,
-     "points": 14,
-     "rebounds": 7,
-     "assists": 7,
-     "steals": 1,
-     "blocks": 0,
-     "turnovers": 2,
-     "fgMade": 6,
-     "fgAttempted": 9,
-     "threeMade": 0,
-     "threeAttempted": 2,
-     "ftMade": 2,
-     "ftAttempted": 3
-    }
-   },
-   "lastFull": {
-    "regular": {
-     "games": 72,
-     "started": 72,
-     "minutes": 2231.3,
-     "points": 1336,
-     "rebounds": 270,
-     "assists": 445,
-     "steals": 89,
-     "blocks": 19,
-     "turnovers": 164,
-     "fgMade": 509,
-     "fgAttempted": 1047,
-     "threeMade": 131,
-     "threeAttempted": 395,
-     "ftMade": 187,
-     "ftAttempted": 246
-    },
-    "playoffs": {
-     "games": 21,
-     "started": 21,
-     "minutes": 704.2,
-     "points": 327,
-     "rebounds": 79,
-     "assists": 125,
-     "steals": 27,
-     "blocks": 9,
-     "turnovers": 43,
-     "fgMade": 125,
-     "fgAttempted": 302,
-     "threeMade": 30,
-     "threeAttempted": 102,
-     "ftMade": 47,
-     "ftAttempted": 62
-    }
-   },
-   "lastToDate": {}
-  },
   {
    "id": "harpedy01",
    "name": "Dylan Harper",
@@ -185,21 +24,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5037871.png",
    "current": {
     "regular": {
-     "games": 1,
-     "started": 1,
-     "minutes": 31.7,
-     "points": 18,
-     "rebounds": 7,
-     "assists": 5,
+     "games": 2,
+     "started": 2,
+     "minutes": 67.6,
+     "points": 38,
+     "rebounds": 10,
+     "assists": 7,
      "steals": 0,
      "blocks": 0,
      "turnovers": 2,
-     "fgMade": 7,
-     "fgAttempted": 17,
-     "threeMade": 0,
-     "threeAttempted": 2,
-     "ftMade": 4,
-     "ftAttempted": 4
+     "fgMade": 15,
+     "fgAttempted": 32,
+     "threeMade": 1,
+     "threeAttempted": 6,
+     "ftMade": 7,
+     "ftAttempted": 8
     }
    },
    "lastFull": {
@@ -275,21 +114,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4395630.png",
    "current": {
     "regular": {
-     "games": 1,
-     "started": 1,
-     "minutes": 30.9,
-     "points": 7,
-     "rebounds": 3,
-     "assists": 1,
-     "steals": 0,
+     "games": 2,
+     "started": 2,
+     "minutes": 66.4,
+     "points": 17,
+     "rebounds": 7,
+     "assists": 3,
+     "steals": 3,
      "blocks": 0,
-     "turnovers": 0,
-     "fgMade": 2,
-     "fgAttempted": 8,
-     "threeMade": 1,
-     "threeAttempted": 4,
-     "ftMade": 2,
-     "ftAttempted": 2
+     "turnovers": 5,
+     "fgMade": 5,
+     "fgAttempted": 16,
+     "threeMade": 3,
+     "threeAttempted": 9,
+     "ftMade": 4,
+     "ftAttempted": 4
     }
    },
    "lastFull": {
@@ -349,6 +188,257 @@
    }
   },
   {
+   "id": "wembavi01",
+   "name": "Victor Wembanyama",
+   "number": "1",
+   "position": "C",
+   "twoWay": false,
+   "bio": {
+    "height": "7' 4\"",
+    "weight": 240,
+    "birthDate": "2004-01-04",
+    "experience": 3,
+    "birthPlace": "Paris, France"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5104157.png",
+   "current": {
+    "regular": {
+     "games": 2,
+     "started": 2,
+     "minutes": 66.2,
+     "points": 37,
+     "rebounds": 26,
+     "assists": 5,
+     "steals": 1,
+     "blocks": 8,
+     "turnovers": 6,
+     "fgMade": 10,
+     "fgAttempted": 34,
+     "threeMade": 2,
+     "threeAttempted": 10,
+     "ftMade": 15,
+     "ftAttempted": 20
+    }
+   },
+   "lastFull": {
+    "regular": {
+     "games": 64,
+     "started": 55,
+     "minutes": 1866.4,
+     "points": 1600,
+     "rebounds": 736,
+     "assists": 199,
+     "steals": 66,
+     "blocks": 197,
+     "turnovers": 155,
+     "fgMade": 553,
+     "fgAttempted": 1080,
+     "threeMade": 122,
+     "threeAttempted": 350,
+     "ftMade": 372,
+     "ftAttempted": 450
+    },
+    "playoffs": {
+     "games": 22,
+     "started": 22,
+     "minutes": 750.4,
+     "points": 524,
+     "rebounds": 239,
+     "assists": 59,
+     "steals": 21,
+     "blocks": 78,
+     "turnovers": 59,
+     "fgMade": 176,
+     "fgAttempted": 363,
+     "threeMade": 39,
+     "threeAttempted": 114,
+     "ftMade": 133,
+     "ftAttempted": 157
+    }
+   },
+   "lastToDate": {
+    "regular": {
+     "games": 2,
+     "started": 2,
+     "minutes": 62,
+     "points": 69,
+     "rebounds": 26,
+     "assists": 3,
+     "steals": 2,
+     "blocks": 12,
+     "turnovers": 0,
+     "fgMade": 28,
+     "fgAttempted": 44,
+     "threeMade": 1,
+     "threeAttempted": 5,
+     "ftMade": 12,
+     "ftAttempted": 15
+    }
+   }
+  },
+  {
+   "id": "foxde01",
+   "name": "De'Aaron Fox",
+   "number": "4",
+   "position": "PG",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 3\"",
+    "weight": 190,
+    "birthDate": "1997-12-20",
+    "experience": 9,
+    "college": "Kentucky",
+    "birthPlace": "Houston, TX"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4066259.png",
+   "current": {
+    "regular": {
+     "games": 2,
+     "started": 2,
+     "minutes": 65.6,
+     "points": 33,
+     "rebounds": 11,
+     "assists": 16,
+     "steals": 3,
+     "blocks": 0,
+     "turnovers": 7,
+     "fgMade": 12,
+     "fgAttempted": 20,
+     "threeMade": 2,
+     "threeAttempted": 7,
+     "ftMade": 7,
+     "ftAttempted": 8
+    }
+   },
+   "lastFull": {
+    "regular": {
+     "games": 72,
+     "started": 72,
+     "minutes": 2231.3,
+     "points": 1336,
+     "rebounds": 270,
+     "assists": 445,
+     "steals": 89,
+     "blocks": 19,
+     "turnovers": 164,
+     "fgMade": 509,
+     "fgAttempted": 1047,
+     "threeMade": 131,
+     "threeAttempted": 395,
+     "ftMade": 187,
+     "ftAttempted": 246
+    },
+    "playoffs": {
+     "games": 21,
+     "started": 21,
+     "minutes": 704.2,
+     "points": 327,
+     "rebounds": 79,
+     "assists": 125,
+     "steals": 27,
+     "blocks": 9,
+     "turnovers": 43,
+     "fgMade": 125,
+     "fgAttempted": 302,
+     "threeMade": 30,
+     "threeAttempted": 102,
+     "ftMade": 47,
+     "ftAttempted": 62
+    }
+   },
+   "lastToDate": {}
+  },
+  {
+   "id": "castlst01",
+   "name": "Stephon Castle",
+   "number": "5",
+   "position": "PG",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 6\"",
+    "weight": 220,
+    "birthDate": "2004-11-01",
+    "experience": 2,
+    "college": "UConn",
+    "birthPlace": "Covington, GA"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4845367.png",
+   "current": {
+    "regular": {
+     "games": 2,
+     "started": 2,
+     "minutes": 61.4,
+     "points": 39,
+     "rebounds": 14,
+     "assists": 6,
+     "steals": 1,
+     "blocks": 0,
+     "turnovers": 4,
+     "fgMade": 15,
+     "fgAttempted": 36,
+     "threeMade": 8,
+     "threeAttempted": 21,
+     "ftMade": 1,
+     "ftAttempted": 2
+    }
+   },
+   "lastFull": {
+    "regular": {
+     "games": 68,
+     "started": 67,
+     "minutes": 2038.5,
+     "points": 1133,
+     "rebounds": 362,
+     "assists": 502,
+     "steals": 78,
+     "blocks": 19,
+     "turnovers": 217,
+     "fgMade": 385,
+     "fgAttempted": 817,
+     "threeMade": 81,
+     "threeAttempted": 244,
+     "ftMade": 282,
+     "ftAttempted": 384
+    },
+    "playoffs": {
+     "games": 23,
+     "started": 23,
+     "minutes": 760.8,
+     "points": 418,
+     "rebounds": 116,
+     "assists": 141,
+     "steals": 21,
+     "blocks": 8,
+     "turnovers": 80,
+     "fgMade": 136,
+     "fgAttempted": 296,
+     "threeMade": 35,
+     "threeAttempted": 100,
+     "ftMade": 111,
+     "ftAttempted": 136
+    }
+   },
+   "lastToDate": {
+    "regular": {
+     "games": 2,
+     "started": 2,
+     "minutes": 62,
+     "points": 38,
+     "rebounds": 13,
+     "assists": 12,
+     "steals": 3,
+     "blocks": 1,
+     "turnovers": 15,
+     "fgMade": 13,
+     "fgAttempted": 24,
+     "threeMade": 4,
+     "threeAttempted": 11,
+     "ftMade": 8,
+     "ftAttempted": 16
+    }
+   }
+  },
+  {
    "id": "champju02",
    "name": "Julian Champagnie",
    "number": "30",
@@ -365,19 +455,19 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4592479.png",
    "current": {
     "regular": {
-     "games": 1,
+     "games": 2,
      "started": 0,
-     "minutes": 30,
-     "points": 8,
+     "minutes": 55.2,
+     "points": 14,
      "rebounds": 3,
      "assists": 1,
-     "steals": 2,
+     "steals": 5,
      "blocks": 3,
-     "turnovers": 0,
-     "fgMade": 3,
-     "fgAttempted": 8,
-     "threeMade": 2,
-     "threeAttempted": 6,
+     "turnovers": 1,
+     "fgMade": 5,
+     "fgAttempted": 13,
+     "threeMade": 4,
+     "threeAttempted": 11,
      "ftMade": 0,
      "ftAttempted": 0
     }
@@ -439,96 +529,6 @@
    }
   },
   {
-   "id": "castlst01",
-   "name": "Stephon Castle",
-   "number": "5",
-   "position": "PG",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 6\"",
-    "weight": 220,
-    "birthDate": "2004-11-01",
-    "experience": 2,
-    "college": "UConn",
-    "birthPlace": "Covington, GA"
-   },
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4845367.png",
-   "current": {
-    "regular": {
-     "games": 1,
-     "started": 1,
-     "minutes": 28.4,
-     "points": 24,
-     "rebounds": 7,
-     "assists": 1,
-     "steals": 0,
-     "blocks": 0,
-     "turnovers": 3,
-     "fgMade": 9,
-     "fgAttempted": 21,
-     "threeMade": 5,
-     "threeAttempted": 12,
-     "ftMade": 1,
-     "ftAttempted": 1
-    }
-   },
-   "lastFull": {
-    "regular": {
-     "games": 68,
-     "started": 67,
-     "minutes": 2038.5,
-     "points": 1133,
-     "rebounds": 362,
-     "assists": 502,
-     "steals": 78,
-     "blocks": 19,
-     "turnovers": 217,
-     "fgMade": 385,
-     "fgAttempted": 817,
-     "threeMade": 81,
-     "threeAttempted": 244,
-     "ftMade": 282,
-     "ftAttempted": 384
-    },
-    "playoffs": {
-     "games": 23,
-     "started": 23,
-     "minutes": 760.8,
-     "points": 418,
-     "rebounds": 116,
-     "assists": 141,
-     "steals": 21,
-     "blocks": 8,
-     "turnovers": 80,
-     "fgMade": 136,
-     "fgAttempted": 296,
-     "threeMade": 35,
-     "threeAttempted": 100,
-     "ftMade": 111,
-     "ftAttempted": 136
-    }
-   },
-   "lastToDate": {
-    "regular": {
-     "games": 2,
-     "started": 2,
-     "minutes": 62,
-     "points": 38,
-     "rebounds": 13,
-     "assists": 12,
-     "steals": 3,
-     "blocks": 1,
-     "turnovers": 15,
-     "fgMade": 13,
-     "fgAttempted": 24,
-     "threeMade": 4,
-     "threeAttempted": 11,
-     "ftMade": 8,
-     "ftAttempted": 16
-    }
-   }
-  },
-  {
    "id": "johnske04",
    "name": "Keldon Johnson",
    "number": "3",
@@ -545,19 +545,19 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4395723.png",
    "current": {
     "regular": {
-     "games": 1,
+     "games": 2,
      "started": 0,
-     "minutes": 19.6,
-     "points": 10,
-     "rebounds": 4,
-     "assists": 1,
-     "steals": 2,
+     "minutes": 39,
+     "points": 18,
+     "rebounds": 10,
+     "assists": 2,
+     "steals": 3,
      "blocks": 0,
-     "turnovers": 2,
-     "fgMade": 4,
-     "fgAttempted": 8,
+     "turnovers": 3,
+     "fgMade": 8,
+     "fgAttempted": 15,
      "threeMade": 1,
-     "threeAttempted": 2,
+     "threeAttempted": 3,
      "ftMade": 1,
      "ftAttempted": 1
     }
@@ -635,21 +635,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3064560.png",
    "current": {
     "regular": {
-     "games": 1,
+     "games": 2,
      "started": 0,
-     "minutes": 12.6,
-     "points": 4,
-     "rebounds": 1,
+     "minutes": 28.6,
+     "points": 11,
+     "rebounds": 4,
      "assists": 0,
      "steals": 0,
-     "blocks": 1,
+     "blocks": 2,
      "turnovers": 0,
-     "fgMade": 2,
-     "fgAttempted": 2,
+     "fgMade": 4,
+     "fgAttempted": 5,
      "threeMade": 0,
      "threeAttempted": 0,
-     "ftMade": 0,
-     "ftAttempted": 0
+     "ftMade": 3,
+     "ftAttempted": 5
     }
    },
    "lastFull": {
@@ -725,9 +725,9 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/6578.png",
    "current": {
     "regular": {
-     "games": 1,
+     "games": 2,
      "started": 0,
-     "minutes": 9.3,
+     "minutes": 14.4,
      "points": 3,
      "rebounds": 0,
      "assists": 0,
@@ -735,9 +735,9 @@
      "blocks": 1,
      "turnovers": 0,
      "fgMade": 1,
-     "fgAttempted": 1,
+     "fgAttempted": 3,
      "threeMade": 1,
-     "threeAttempted": 1,
+     "threeAttempted": 3,
      "ftMade": 0,
      "ftAttempted": 0
     }
@@ -815,9 +815,9 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5061568.png",
    "current": {
     "regular": {
-     "games": 1,
+     "games": 2,
      "started": 0,
-     "minutes": 6.5,
+     "minutes": 10.8,
      "points": 0,
      "rebounds": 0,
      "assists": 1,

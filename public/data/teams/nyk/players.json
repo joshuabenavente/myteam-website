@@ -1,7 +1,7 @@
 {
  "season": "2026-27",
  "lastSeason": "2025-26",
- "updatedAt": "2026-10-24T05:22:22.644Z",
+ "updatedAt": "2026-10-24T11:22:23.847Z",
  "teamGamesPlayed": {
   "regular": 2,
   "playoffs": 0
@@ -24,21 +24,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3934672.png",
    "current": {
     "regular": {
-     "games": 1,
-     "started": 1,
-     "minutes": 34.1,
-     "points": 21,
-     "rebounds": 5,
-     "assists": 3,
+     "games": 2,
+     "started": 2,
+     "minutes": 71.3,
+     "points": 40,
+     "rebounds": 7,
+     "assists": 7,
      "steals": 0,
-     "blocks": 0,
-     "turnovers": 2,
-     "fgMade": 6,
-     "fgAttempted": 19,
-     "threeMade": 1,
-     "threeAttempted": 3,
-     "ftMade": 8,
-     "ftAttempted": 8
+     "blocks": 2,
+     "turnovers": 5,
+     "fgMade": 13,
+     "fgAttempted": 36,
+     "threeMade": 3,
+     "threeAttempted": 8,
+     "ftMade": 11,
+     "ftAttempted": 14
     }
    },
    "lastFull": {
@@ -98,186 +98,6 @@
    }
   },
   {
-   "id": "bridgmi01",
-   "name": "Mikal Bridges",
-   "number": "25",
-   "position": "SF",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 6\"",
-    "weight": 209,
-    "birthDate": "1996-08-30",
-    "experience": 8,
-    "college": "Villanova",
-    "birthPlace": "Malvern, PA"
-   },
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3147657.png",
-   "current": {
-    "regular": {
-     "games": 1,
-     "started": 1,
-     "minutes": 33.1,
-     "points": 4,
-     "rebounds": 3,
-     "assists": 1,
-     "steals": 0,
-     "blocks": 1,
-     "turnovers": 0,
-     "fgMade": 2,
-     "fgAttempted": 8,
-     "threeMade": 0,
-     "threeAttempted": 2,
-     "ftMade": 0,
-     "ftAttempted": 0
-    }
-   },
-   "lastFull": {
-    "regular": {
-     "games": 82,
-     "started": 82,
-     "minutes": 2692.5,
-     "points": 1181,
-     "rebounds": 312,
-     "assists": 304,
-     "steals": 107,
-     "blocks": 62,
-     "turnovers": 83,
-     "fgMade": 472,
-     "fgAttempted": 963,
-     "threeMade": 156,
-     "threeAttempted": 420,
-     "ftMade": 81,
-     "ftAttempted": 98
-    },
-    "playoffs": {
-     "games": 19,
-     "started": 19,
-     "minutes": 608.2,
-     "points": 256,
-     "rebounds": 61,
-     "assists": 52,
-     "steals": 19,
-     "blocks": 6,
-     "turnovers": 17,
-     "fgMade": 105,
-     "fgAttempted": 188,
-     "threeMade": 23,
-     "threeAttempted": 63,
-     "ftMade": 23,
-     "ftAttempted": 25
-    }
-   },
-   "lastToDate": {
-    "regular": {
-     "games": 2,
-     "started": 2,
-     "minutes": 69.3,
-     "points": 28,
-     "rebounds": 11,
-     "assists": 8,
-     "steals": 5,
-     "blocks": 3,
-     "turnovers": 2,
-     "fgMade": 11,
-     "fgAttempted": 21,
-     "threeMade": 3,
-     "threeAttempted": 7,
-     "ftMade": 3,
-     "ftAttempted": 3
-    }
-   }
-  },
-  {
-   "id": "anunoog01",
-   "name": "OG Anunoby",
-   "number": "8",
-   "position": "PF",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 7\"",
-    "weight": 240,
-    "birthDate": "1997-07-17",
-    "experience": 9,
-    "college": "Indiana",
-    "birthPlace": "London, England"
-   },
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3934719.png",
-   "current": {
-    "regular": {
-     "games": 1,
-     "started": 1,
-     "minutes": 31.6,
-     "points": 10,
-     "rebounds": 5,
-     "assists": 0,
-     "steals": 1,
-     "blocks": 1,
-     "turnovers": 2,
-     "fgMade": 3,
-     "fgAttempted": 12,
-     "threeMade": 1,
-     "threeAttempted": 9,
-     "ftMade": 3,
-     "ftAttempted": 3
-    }
-   },
-   "lastFull": {
-    "regular": {
-     "games": 67,
-     "started": 67,
-     "minutes": 2224.3,
-     "points": 1118,
-     "rebounds": 351,
-     "assists": 145,
-     "steals": 104,
-     "blocks": 48,
-     "turnovers": 123,
-     "fgMade": 389,
-     "fgAttempted": 804,
-     "threeMade": 157,
-     "threeAttempted": 407,
-     "ftMade": 183,
-     "ftAttempted": 221
-    },
-    "playoffs": {
-     "games": 17,
-     "started": 17,
-     "minutes": 585.9,
-     "points": 342,
-     "rebounds": 107,
-     "assists": 28,
-     "steals": 26,
-     "blocks": 19,
-     "turnovers": 10,
-     "fgMade": 111,
-     "fgAttempted": 198,
-     "threeMade": 44,
-     "threeAttempted": 90,
-     "ftMade": 76,
-     "ftAttempted": 89
-    }
-   },
-   "lastToDate": {
-    "regular": {
-     "games": 2,
-     "started": 2,
-     "minutes": 66.6,
-     "points": 34,
-     "rebounds": 16,
-     "assists": 3,
-     "steals": 5,
-     "blocks": 1,
-     "turnovers": 5,
-     "fgMade": 12,
-     "fgAttempted": 27,
-     "threeMade": 6,
-     "threeAttempted": 16,
-     "ftMade": 4,
-     "ftAttempted": 6
-    }
-   }
-  },
-  {
    "id": "hartjo01",
    "name": "Josh Hart",
    "number": "3",
@@ -294,19 +114,19 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3062679.png",
    "current": {
     "regular": {
-     "games": 1,
-     "started": 1,
-     "minutes": 30.3,
-     "points": 14,
-     "rebounds": 7,
-     "assists": 3,
-     "steals": 1,
+     "games": 2,
+     "started": 2,
+     "minutes": 66.3,
+     "points": 24,
+     "rebounds": 19,
+     "assists": 8,
+     "steals": 4,
      "blocks": 1,
      "turnovers": 2,
-     "fgMade": 5,
-     "fgAttempted": 10,
-     "threeMade": 2,
-     "threeAttempted": 5,
+     "fgMade": 9,
+     "fgAttempted": 22,
+     "threeMade": 4,
+     "threeAttempted": 12,
      "ftMade": 2,
      "ftAttempted": 3
     }
@@ -368,6 +188,456 @@
    }
   },
   {
+   "id": "anunoog01",
+   "name": "OG Anunoby",
+   "number": "8",
+   "position": "PF",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 7\"",
+    "weight": 240,
+    "birthDate": "1997-07-17",
+    "experience": 9,
+    "college": "Indiana",
+    "birthPlace": "London, England"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3934719.png",
+   "current": {
+    "regular": {
+     "games": 2,
+     "started": 2,
+     "minutes": 65.2,
+     "points": 30,
+     "rebounds": 15,
+     "assists": 8,
+     "steals": 1,
+     "blocks": 1,
+     "turnovers": 5,
+     "fgMade": 8,
+     "fgAttempted": 23,
+     "threeMade": 3,
+     "threeAttempted": 15,
+     "ftMade": 11,
+     "ftAttempted": 13
+    }
+   },
+   "lastFull": {
+    "regular": {
+     "games": 67,
+     "started": 67,
+     "minutes": 2224.3,
+     "points": 1118,
+     "rebounds": 351,
+     "assists": 145,
+     "steals": 104,
+     "blocks": 48,
+     "turnovers": 123,
+     "fgMade": 389,
+     "fgAttempted": 804,
+     "threeMade": 157,
+     "threeAttempted": 407,
+     "ftMade": 183,
+     "ftAttempted": 221
+    },
+    "playoffs": {
+     "games": 17,
+     "started": 17,
+     "minutes": 585.9,
+     "points": 342,
+     "rebounds": 107,
+     "assists": 28,
+     "steals": 26,
+     "blocks": 19,
+     "turnovers": 10,
+     "fgMade": 111,
+     "fgAttempted": 198,
+     "threeMade": 44,
+     "threeAttempted": 90,
+     "ftMade": 76,
+     "ftAttempted": 89
+    }
+   },
+   "lastToDate": {
+    "regular": {
+     "games": 2,
+     "started": 2,
+     "minutes": 66.6,
+     "points": 34,
+     "rebounds": 16,
+     "assists": 3,
+     "steals": 5,
+     "blocks": 1,
+     "turnovers": 5,
+     "fgMade": 12,
+     "fgAttempted": 27,
+     "threeMade": 6,
+     "threeAttempted": 16,
+     "ftMade": 4,
+     "ftAttempted": 6
+    }
+   }
+  },
+  {
+   "id": "townska01",
+   "name": "Karl-Anthony Towns",
+   "number": "32",
+   "position": "C",
+   "twoWay": false,
+   "bio": {
+    "height": "7' 0\"",
+    "weight": 248,
+    "birthDate": "1995-11-15",
+    "experience": 11,
+    "college": "Kentucky",
+    "birthPlace": "Edison, NJ"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3136195.png",
+   "current": {
+    "regular": {
+     "games": 2,
+     "started": 2,
+     "minutes": 60.9,
+     "points": 41,
+     "rebounds": 22,
+     "assists": 4,
+     "steals": 1,
+     "blocks": 2,
+     "turnovers": 8,
+     "fgMade": 15,
+     "fgAttempted": 22,
+     "threeMade": 5,
+     "threeAttempted": 7,
+     "ftMade": 6,
+     "ftAttempted": 10
+    }
+   },
+   "lastFull": {
+    "regular": {
+     "games": 75,
+     "started": 75,
+     "minutes": 2322.3,
+     "points": 1504,
+     "rebounds": 889,
+     "assists": 226,
+     "steals": 65,
+     "blocks": 40,
+     "turnovers": 187,
+     "fgMade": 517,
+     "fgAttempted": 1032,
+     "threeMade": 113,
+     "threeAttempted": 307,
+     "ftMade": 357,
+     "ftAttempted": 416
+    },
+    "playoffs": {
+     "games": 19,
+     "started": 19,
+     "minutes": 578.1,
+     "points": 302,
+     "rebounds": 201,
+     "assists": 94,
+     "steals": 24,
+     "blocks": 24,
+     "turnovers": 50,
+     "fgMade": 103,
+     "fgAttempted": 187,
+     "threeMade": 26,
+     "threeAttempted": 57,
+     "ftMade": 70,
+     "ftAttempted": 77
+    }
+   },
+   "lastToDate": {
+    "regular": {
+     "games": 2,
+     "started": 2,
+     "minutes": 64.1,
+     "points": 45,
+     "rebounds": 24,
+     "assists": 5,
+     "steals": 1,
+     "blocks": 1,
+     "turnovers": 8,
+     "fgMade": 11,
+     "fgAttempted": 28,
+     "threeMade": 5,
+     "threeAttempted": 10,
+     "ftMade": 18,
+     "ftAttempted": 21
+    }
+   }
+  },
+  {
+   "id": "bridgmi01",
+   "name": "Mikal Bridges",
+   "number": "25",
+   "position": "SF",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 6\"",
+    "weight": 209,
+    "birthDate": "1996-08-30",
+    "experience": 8,
+    "college": "Villanova",
+    "birthPlace": "Malvern, PA"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3147657.png",
+   "current": {
+    "regular": {
+     "games": 2,
+     "started": 2,
+     "minutes": 55,
+     "points": 4,
+     "rebounds": 4,
+     "assists": 5,
+     "steals": 1,
+     "blocks": 1,
+     "turnovers": 1,
+     "fgMade": 2,
+     "fgAttempted": 16,
+     "threeMade": 0,
+     "threeAttempted": 7,
+     "ftMade": 0,
+     "ftAttempted": 0
+    }
+   },
+   "lastFull": {
+    "regular": {
+     "games": 82,
+     "started": 82,
+     "minutes": 2692.5,
+     "points": 1181,
+     "rebounds": 312,
+     "assists": 304,
+     "steals": 107,
+     "blocks": 62,
+     "turnovers": 83,
+     "fgMade": 472,
+     "fgAttempted": 963,
+     "threeMade": 156,
+     "threeAttempted": 420,
+     "ftMade": 81,
+     "ftAttempted": 98
+    },
+    "playoffs": {
+     "games": 19,
+     "started": 19,
+     "minutes": 608.2,
+     "points": 256,
+     "rebounds": 61,
+     "assists": 52,
+     "steals": 19,
+     "blocks": 6,
+     "turnovers": 17,
+     "fgMade": 105,
+     "fgAttempted": 188,
+     "threeMade": 23,
+     "threeAttempted": 63,
+     "ftMade": 23,
+     "ftAttempted": 25
+    }
+   },
+   "lastToDate": {
+    "regular": {
+     "games": 2,
+     "started": 2,
+     "minutes": 69.3,
+     "points": 28,
+     "rebounds": 11,
+     "assists": 8,
+     "steals": 5,
+     "blocks": 3,
+     "turnovers": 2,
+     "fgMade": 11,
+     "fgAttempted": 21,
+     "threeMade": 3,
+     "threeAttempted": 7,
+     "ftMade": 3,
+     "ftAttempted": 3
+    }
+   }
+  },
+  {
+   "id": "shamela01",
+   "name": "Landry Shamet",
+   "number": "44",
+   "position": "SG",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 5\"",
+    "weight": 190,
+    "birthDate": "1997-03-13",
+    "experience": 8,
+    "college": "Wichita State",
+    "birthPlace": "Kansas City, MO"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3914044.png",
+   "current": {
+    "regular": {
+     "games": 2,
+     "started": 0,
+     "minutes": 45.7,
+     "points": 13,
+     "rebounds": 4,
+     "assists": 4,
+     "steals": 0,
+     "blocks": 0,
+     "turnovers": 4,
+     "fgMade": 5,
+     "fgAttempted": 13,
+     "threeMade": 3,
+     "threeAttempted": 9,
+     "ftMade": 0,
+     "ftAttempted": 2
+    }
+   },
+   "lastFull": {
+    "regular": {
+     "games": 51,
+     "started": 12,
+     "minutes": 1171.8,
+     "points": 475,
+     "rebounds": 92,
+     "assists": 72,
+     "steals": 31,
+     "blocks": 9,
+     "turnovers": 30,
+     "fgMade": 159,
+     "fgAttempted": 364,
+     "threeMade": 103,
+     "threeAttempted": 263,
+     "ftMade": 54,
+     "ftAttempted": 76
+    },
+    "playoffs": {
+     "games": 19,
+     "started": 0,
+     "minutes": 309.9,
+     "points": 114,
+     "rebounds": 21,
+     "assists": 14,
+     "steals": 4,
+     "blocks": 2,
+     "turnovers": 8,
+     "fgMade": 39,
+     "fgAttempted": 86,
+     "threeMade": 29,
+     "threeAttempted": 61,
+     "ftMade": 7,
+     "ftAttempted": 9
+    }
+   },
+   "lastToDate": {
+    "regular": {
+     "games": 2,
+     "started": 0,
+     "minutes": 27.7,
+     "points": 12,
+     "rebounds": 5,
+     "assists": 1,
+     "steals": 1,
+     "blocks": 0,
+     "turnovers": 3,
+     "fgMade": 3,
+     "fgAttempted": 6,
+     "threeMade": 3,
+     "threeAttempted": 5,
+     "ftMade": 3,
+     "ftAttempted": 3
+    }
+   }
+  },
+  {
+   "id": "mcbrimi01",
+   "name": "Miles McBride",
+   "number": "2",
+   "position": "PG",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 2\"",
+    "weight": 195,
+    "birthDate": "2000-09-08",
+    "experience": 5,
+    "college": "West Virginia",
+    "birthPlace": "Cincinnati, OH"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4431823.png",
+   "current": {
+    "regular": {
+     "games": 2,
+     "started": 0,
+     "minutes": 43.6,
+     "points": 23,
+     "rebounds": 3,
+     "assists": 2,
+     "steals": 1,
+     "blocks": 1,
+     "turnovers": 1,
+     "fgMade": 7,
+     "fgAttempted": 14,
+     "threeMade": 7,
+     "threeAttempted": 11,
+     "ftMade": 2,
+     "ftAttempted": 2
+    }
+   },
+   "lastFull": {
+    "regular": {
+     "games": 41,
+     "started": 15,
+     "minutes": 1080.3,
+     "points": 491,
+     "rebounds": 100,
+     "assists": 106,
+     "steals": 35,
+     "blocks": 9,
+     "turnovers": 33,
+     "fgMade": 171,
+     "fgAttempted": 404,
+     "threeMade": 112,
+     "threeAttempted": 271,
+     "ftMade": 37,
+     "ftAttempted": 47
+    },
+    "playoffs": {
+     "games": 19,
+     "started": 2,
+     "minutes": 334.5,
+     "points": 107,
+     "rebounds": 23,
+     "assists": 23,
+     "steals": 8,
+     "blocks": 4,
+     "turnovers": 10,
+     "fgMade": 35,
+     "fgAttempted": 105,
+     "threeMade": 30,
+     "threeAttempted": 80,
+     "ftMade": 7,
+     "ftAttempted": 8
+    }
+   },
+   "lastToDate": {
+    "regular": {
+     "games": 2,
+     "started": 1,
+     "minutes": 58.2,
+     "points": 25,
+     "rebounds": 6,
+     "assists": 5,
+     "steals": 2,
+     "blocks": 1,
+     "turnovers": 2,
+     "fgMade": 7,
+     "fgAttempted": 18,
+     "threeMade": 6,
+     "threeAttempted": 15,
+     "ftMade": 5,
+     "ftAttempted": 6
+    }
+   }
+  },
+  {
    "id": "drumman01",
    "name": "Andre Drummond",
    "number": "0",
@@ -384,17 +654,17 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/6585.png",
    "current": {
     "regular": {
-     "games": 1,
+     "games": 2,
      "started": 0,
-     "minutes": 24.5,
-     "points": 12,
-     "rebounds": 14,
+     "minutes": 31.6,
+     "points": 14,
+     "rebounds": 16,
      "assists": 4,
      "steals": 1,
      "blocks": 2,
      "turnovers": 0,
-     "fgMade": 5,
-     "fgAttempted": 13,
+     "fgMade": 6,
+     "fgAttempted": 15,
      "threeMade": 0,
      "threeAttempted": 0,
      "ftMade": 2,
@@ -458,186 +728,6 @@
    }
   },
   {
-   "id": "shamela01",
-   "name": "Landry Shamet",
-   "number": "44",
-   "position": "SG",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 5\"",
-    "weight": 190,
-    "birthDate": "1997-03-13",
-    "experience": 8,
-    "college": "Wichita State",
-    "birthPlace": "Kansas City, MO"
-   },
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3914044.png",
-   "current": {
-    "regular": {
-     "games": 1,
-     "started": 0,
-     "minutes": 24.5,
-     "points": 5,
-     "rebounds": 2,
-     "assists": 4,
-     "steals": 0,
-     "blocks": 0,
-     "turnovers": 2,
-     "fgMade": 2,
-     "fgAttempted": 7,
-     "threeMade": 1,
-     "threeAttempted": 4,
-     "ftMade": 0,
-     "ftAttempted": 2
-    }
-   },
-   "lastFull": {
-    "regular": {
-     "games": 51,
-     "started": 12,
-     "minutes": 1171.8,
-     "points": 475,
-     "rebounds": 92,
-     "assists": 72,
-     "steals": 31,
-     "blocks": 9,
-     "turnovers": 30,
-     "fgMade": 159,
-     "fgAttempted": 364,
-     "threeMade": 103,
-     "threeAttempted": 263,
-     "ftMade": 54,
-     "ftAttempted": 76
-    },
-    "playoffs": {
-     "games": 19,
-     "started": 0,
-     "minutes": 309.9,
-     "points": 114,
-     "rebounds": 21,
-     "assists": 14,
-     "steals": 4,
-     "blocks": 2,
-     "turnovers": 8,
-     "fgMade": 39,
-     "fgAttempted": 86,
-     "threeMade": 29,
-     "threeAttempted": 61,
-     "ftMade": 7,
-     "ftAttempted": 9
-    }
-   },
-   "lastToDate": {
-    "regular": {
-     "games": 2,
-     "started": 0,
-     "minutes": 27.7,
-     "points": 12,
-     "rebounds": 5,
-     "assists": 1,
-     "steals": 1,
-     "blocks": 0,
-     "turnovers": 3,
-     "fgMade": 3,
-     "fgAttempted": 6,
-     "threeMade": 3,
-     "threeAttempted": 5,
-     "ftMade": 3,
-     "ftAttempted": 3
-    }
-   }
-  },
-  {
-   "id": "townska01",
-   "name": "Karl-Anthony Towns",
-   "number": "32",
-   "position": "C",
-   "twoWay": false,
-   "bio": {
-    "height": "7' 0\"",
-    "weight": 248,
-    "birthDate": "1995-11-15",
-    "experience": 11,
-    "college": "Kentucky",
-    "birthPlace": "Edison, NJ"
-   },
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3136195.png",
-   "current": {
-    "regular": {
-     "games": 1,
-     "started": 1,
-     "minutes": 23.6,
-     "points": 19,
-     "rebounds": 12,
-     "assists": 1,
-     "steals": 1,
-     "blocks": 2,
-     "turnovers": 4,
-     "fgMade": 6,
-     "fgAttempted": 9,
-     "threeMade": 3,
-     "threeAttempted": 4,
-     "ftMade": 4,
-     "ftAttempted": 7
-    }
-   },
-   "lastFull": {
-    "regular": {
-     "games": 75,
-     "started": 75,
-     "minutes": 2322.3,
-     "points": 1504,
-     "rebounds": 889,
-     "assists": 226,
-     "steals": 65,
-     "blocks": 40,
-     "turnovers": 187,
-     "fgMade": 517,
-     "fgAttempted": 1032,
-     "threeMade": 113,
-     "threeAttempted": 307,
-     "ftMade": 357,
-     "ftAttempted": 416
-    },
-    "playoffs": {
-     "games": 19,
-     "started": 19,
-     "minutes": 578.1,
-     "points": 302,
-     "rebounds": 201,
-     "assists": 94,
-     "steals": 24,
-     "blocks": 24,
-     "turnovers": 50,
-     "fgMade": 103,
-     "fgAttempted": 187,
-     "threeMade": 26,
-     "threeAttempted": 57,
-     "ftMade": 70,
-     "ftAttempted": 77
-    }
-   },
-   "lastToDate": {
-    "regular": {
-     "games": 2,
-     "started": 2,
-     "minutes": 64.1,
-     "points": 45,
-     "rebounds": 24,
-     "assists": 5,
-     "steals": 1,
-     "blocks": 1,
-     "turnovers": 8,
-     "fgMade": 11,
-     "fgAttempted": 28,
-     "threeMade": 5,
-     "threeAttempted": 10,
-     "ftMade": 18,
-     "ftAttempted": 21
-    }
-   }
-  },
-  {
    "id": "alvarjo01",
    "name": "Jose Alvarado",
    "number": "5",
@@ -654,19 +744,19 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4277869.png",
    "current": {
     "regular": {
-     "games": 1,
+     "games": 2,
      "started": 0,
-     "minutes": 16.5,
-     "points": 8,
-     "rebounds": 3,
-     "assists": 3,
-     "steals": 2,
+     "minutes": 27.3,
+     "points": 10,
+     "rebounds": 5,
+     "assists": 5,
+     "steals": 3,
      "blocks": 0,
-     "turnovers": 1,
-     "fgMade": 3,
-     "fgAttempted": 7,
+     "turnovers": 4,
+     "fgMade": 4,
+     "fgAttempted": 9,
      "threeMade": 2,
-     "threeAttempted": 3,
+     "threeAttempted": 4,
      "ftMade": 0,
      "ftAttempted": 0
     }
@@ -728,96 +818,6 @@
    }
   },
   {
-   "id": "mcbrimi01",
-   "name": "Miles McBride",
-   "number": "2",
-   "position": "PG",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 2\"",
-    "weight": 195,
-    "birthDate": "2000-09-08",
-    "experience": 5,
-    "college": "West Virginia",
-    "birthPlace": "Cincinnati, OH"
-   },
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4431823.png",
-   "current": {
-    "regular": {
-     "games": 1,
-     "started": 0,
-     "minutes": 13.5,
-     "points": 3,
-     "rebounds": 1,
-     "assists": 1,
-     "steals": 0,
-     "blocks": 1,
-     "turnovers": 1,
-     "fgMade": 1,
-     "fgAttempted": 5,
-     "threeMade": 1,
-     "threeAttempted": 3,
-     "ftMade": 0,
-     "ftAttempted": 0
-    }
-   },
-   "lastFull": {
-    "regular": {
-     "games": 41,
-     "started": 15,
-     "minutes": 1080.3,
-     "points": 491,
-     "rebounds": 100,
-     "assists": 106,
-     "steals": 35,
-     "blocks": 9,
-     "turnovers": 33,
-     "fgMade": 171,
-     "fgAttempted": 404,
-     "threeMade": 112,
-     "threeAttempted": 271,
-     "ftMade": 37,
-     "ftAttempted": 47
-    },
-    "playoffs": {
-     "games": 19,
-     "started": 2,
-     "minutes": 334.5,
-     "points": 107,
-     "rebounds": 23,
-     "assists": 23,
-     "steals": 8,
-     "blocks": 4,
-     "turnovers": 10,
-     "fgMade": 35,
-     "fgAttempted": 105,
-     "threeMade": 30,
-     "threeAttempted": 80,
-     "ftMade": 7,
-     "ftAttempted": 8
-    }
-   },
-   "lastToDate": {
-    "regular": {
-     "games": 2,
-     "started": 1,
-     "minutes": 58.2,
-     "points": 25,
-     "rebounds": 6,
-     "assists": 5,
-     "steals": 2,
-     "blocks": 1,
-     "turnovers": 2,
-     "fgMade": 7,
-     "fgAttempted": 18,
-     "threeMade": 6,
-     "threeAttempted": 15,
-     "ftMade": 5,
-     "ftAttempted": 6
-    }
-   }
-  },
-  {
    "id": "clarkjo01",
    "name": "Jordan Clarkson",
    "number": "00",
@@ -834,11 +834,11 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/2528426.png",
    "current": {
     "regular": {
-     "games": 1,
+     "games": 2,
      "started": 0,
-     "minutes": 8.5,
+     "minutes": 11.3,
      "points": 4,
-     "rebounds": 1,
+     "rebounds": 2,
      "assists": 1,
      "steals": 0,
      "blocks": 0,
@@ -902,6 +902,79 @@
      "fgAttempted": 12,
      "threeMade": 2,
      "threeAttempted": 6,
+     "ftMade": 0,
+     "ftAttempted": 0
+    }
+   }
+  },
+  {
+   "id": "wisemja01",
+   "name": "James Wiseman",
+   "number": "35",
+   "position": "C",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 11\"",
+    "weight": 240,
+    "birthDate": "2001-03-31",
+    "experience": 5,
+    "college": "Memphis",
+    "birthPlace": "Nashville, TN"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4432808.png",
+   "current": {
+    "regular": {
+     "games": 1,
+     "started": 0,
+     "minutes": 2.1,
+     "points": 0,
+     "rebounds": 0,
+     "assists": 0,
+     "steals": 0,
+     "blocks": 0,
+     "turnovers": 0,
+     "fgMade": 0,
+     "fgAttempted": 0,
+     "threeMade": 0,
+     "threeAttempted": 0,
+     "ftMade": 0,
+     "ftAttempted": 0
+    }
+   },
+   "lastFull": {
+    "regular": {
+     "games": 4,
+     "started": 1,
+     "minutes": 58.5,
+     "points": 13,
+     "rebounds": 8,
+     "assists": 3,
+     "steals": 0,
+     "blocks": 1,
+     "turnovers": 5,
+     "fgMade": 6,
+     "fgAttempted": 10,
+     "threeMade": 0,
+     "threeAttempted": 0,
+     "ftMade": 1,
+     "ftAttempted": 2
+    }
+   },
+   "lastToDate": {
+    "regular": {
+     "games": 1,
+     "started": 1,
+     "minutes": 19.9,
+     "points": 4,
+     "rebounds": 4,
+     "assists": 0,
+     "steals": 0,
+     "blocks": 1,
+     "turnovers": 3,
+     "fgMade": 2,
+     "fgAttempted": 3,
+     "threeMade": 0,
+     "threeAttempted": 0,
      "ftMade": 0,
      "ftAttempted": 0
     }
@@ -1118,61 +1191,6 @@
     }
    },
    "lastToDate": {}
-  },
-  {
-   "id": "wisemja01",
-   "name": "James Wiseman",
-   "position": "C",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 11\"",
-    "weight": 240,
-    "birthDate": "2001-03-31",
-    "experience": 5,
-    "college": "Memphis",
-    "birthPlace": "Nashville, TN"
-   },
-   "number": "35",
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4432808.png",
-   "current": {},
-   "lastFull": {
-    "regular": {
-     "games": 4,
-     "started": 1,
-     "minutes": 58.5,
-     "points": 13,
-     "rebounds": 8,
-     "assists": 3,
-     "steals": 0,
-     "blocks": 1,
-     "turnovers": 5,
-     "fgMade": 6,
-     "fgAttempted": 10,
-     "threeMade": 0,
-     "threeAttempted": 0,
-     "ftMade": 1,
-     "ftAttempted": 2
-    }
-   },
-   "lastToDate": {
-    "regular": {
-     "games": 1,
-     "started": 1,
-     "minutes": 19.9,
-     "points": 4,
-     "rebounds": 4,
-     "assists": 0,
-     "steals": 0,
-     "blocks": 1,
-     "turnovers": 3,
-     "fgMade": 2,
-     "fgAttempted": 3,
-     "threeMade": 0,
-     "threeAttempted": 0,
-     "ftMade": 0,
-     "ftAttempted": 0
-    }
-   }
   },
   {
    "id": "nickety01",
