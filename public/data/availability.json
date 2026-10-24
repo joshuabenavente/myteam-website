@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-23T23:23:37.054Z",
+ "updatedAt": "2026-10-24T00:23:28.679Z",
  "teams": {
   "ATL": [
    {
@@ -410,17 +410,17 @@
     "returnDate": "2027-02-03"
    },
    {
-    "name": "Oso Ighodaro",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Oblique (strain)",
-    "returnDate": "2026-10-26"
-   },
-   {
     "name": "Luke Kennard",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Knee (strain)",
+    "returnDate": "2026-10-24"
+   },
+   {
+    "name": "Oso Ighodaro",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Oblique (strain)",
     "returnDate": "2026-10-24"
    }
   ],
@@ -484,20 +484,6 @@
     "gameTimeDecision": false,
     "reason": "Calf (strain)",
     "returnDate": "2026-10-24"
-   },
-   {
-    "name": "De'Aaron Fox",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Wrist (sprain)",
-    "returnDate": "2026-10-23"
-   },
-   {
-    "name": "Keldon Johnson",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Mouth (laceration)",
-    "returnDate": "2026-10-23"
    }
   ],
   "UTA": [
