@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-24T19:23:50.341Z",
+ "updatedAt": "2026-10-24T20:23:31.168Z",
  "teams": {
   "ATL": [
    {
@@ -192,17 +192,17 @@
   ],
   "DET": [
    {
+    "name": "Jalen Duren",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Hamstring (strain)",
+    "returnDate": "2026-10-27"
+   },
+   {
     "name": "Ausar Thompson",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
-    "reason": "Undisclosed",
-    "returnDate": "2026-10-25"
-   },
-   {
-    "name": "Jalen Duren",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Thigh",
+    "reason": "Ankle (sprain)",
     "returnDate": "2026-10-25"
    }
   ],
@@ -236,17 +236,17 @@
     "returnDate": "2026-12-01"
    },
    {
+    "name": "Stephen Curry",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Rest",
+    "returnDate": "2026-10-26"
+   },
+   {
     "name": "Charles Bassey",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Knee",
-    "returnDate": "2026-10-24"
-   },
-   {
-    "name": "Stephen Curry",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Rest",
     "returnDate": "2026-10-24"
    }
   ],
@@ -264,6 +264,13 @@
     "gameTimeDecision": false,
     "reason": "Ankle",
     "returnDate": "2026-10-26"
+   },
+   {
+    "name": "Marcus Smart",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Forearm (strain)",
+    "returnDate": "2026-10-24"
    },
    {
     "name": "Reed Sheppard",
