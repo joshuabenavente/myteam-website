@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-25T05:23:33.413Z",
+ "updatedAt": "2026-10-25T14:23:29.795Z",
  "teams": {
   "ATL": [
    {
@@ -36,8 +36,8 @@
    },
    {
     "name": "Tyler Bilodeau",
-    "status": "Out",
-    "gameTimeDecision": false,
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
     "reason": "Shoulder",
     "returnDate": "2026-10-25"
    }
@@ -46,7 +46,7 @@
    {
     "name": "Coby White",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Calf (strain)",
     "returnDate": "2026-10-26"
    },
@@ -60,7 +60,7 @@
    {
     "name": "Kon Knueppel",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Hamstring",
     "returnDate": "2026-10-26"
    },
@@ -82,15 +82,15 @@
    },
    {
     "name": "Noa Essengue",
-    "status": "Out",
-    "gameTimeDecision": false,
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
     "reason": "Head (bruise)",
     "returnDate": "2026-10-26"
    },
    {
     "name": "Patrick Williams",
-    "status": "Out",
-    "gameTimeDecision": false,
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
     "reason": "Groin (soreness)",
     "returnDate": "2026-10-26"
    }
@@ -118,13 +118,6 @@
     "returnDate": "2026-10-28"
    },
    {
-    "name": "Kyrie Irving",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Knee",
-    "returnDate": "2026-10-26"
-   },
-   {
     "name": "Santi Aldama",
     "status": "Out",
     "gameTimeDecision": false,
@@ -137,23 +130,16 @@
     "gameTimeDecision": false,
     "reason": "Heel (inflammation)",
     "returnDate": "2026-11-02"
+   },
+   {
+    "name": "Kyrie Irving",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Knee",
+    "returnDate": "2026-10-26"
    }
   ],
   "DEN": [
-   {
-    "name": "Alpha Diallo",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Wrist",
-    "returnDate": "2026-10-26"
-   },
-   {
-    "name": "Cameron Johnson",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Ankle (sprain)",
-    "returnDate": "2026-10-26"
-   },
    {
     "name": "Julian Strawther",
     "status": "Out",
@@ -162,9 +148,23 @@
     "returnDate": "2026-11-29"
    },
    {
+    "name": "Alpha Diallo",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Wrist",
+    "returnDate": "2026-10-26"
+   },
+   {
+    "name": "Cameron Johnson",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Ankle (sprain)",
+    "returnDate": "2026-10-26"
+   },
+   {
     "name": "Spencer Jones",
-    "status": "Out",
-    "gameTimeDecision": false,
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
     "reason": "Hamstring",
     "returnDate": "2026-10-26"
    }
@@ -187,27 +187,6 @@
   ],
   "GSW": [
    {
-    "name": "Al Horford",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Back",
-    "returnDate": "2026-10-26"
-   },
-   {
-    "name": "Brandin Podziemski",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Back",
-    "returnDate": "2026-10-26"
-   },
-   {
-    "name": "Draymond Green",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Back",
-    "returnDate": "2026-10-26"
-   },
-   {
     "name": "Jimmy Butler III",
     "status": "Out",
     "gameTimeDecision": false,
@@ -229,10 +208,24 @@
     "returnDate": "2026-12-01"
    },
    {
-    "name": "Stephen Curry",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Rest",
+    "name": "Al Horford",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Back",
+    "returnDate": "2026-10-26"
+   },
+   {
+    "name": "Brandin Podziemski",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Back",
+    "returnDate": "2026-10-26"
+   },
+   {
+    "name": "Draymond Green",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Back",
     "returnDate": "2026-10-26"
    },
    {
@@ -241,27 +234,34 @@
     "gameTimeDecision": true,
     "reason": "Undisclosed",
     "returnDate": "2026-10-26"
+   },
+   {
+    "name": "Stephen Curry",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Rest",
+    "returnDate": "2026-10-26"
    }
   ],
   "HOU": [
    {
     "name": "Fred VanVleet",
-    "status": "Out",
-    "gameTimeDecision": false,
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
     "reason": "Knee",
     "returnDate": "2026-10-26"
    },
    {
     "name": "Marcus Smart",
-    "status": "Out",
-    "gameTimeDecision": false,
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
     "reason": "Forearm (strain)",
     "returnDate": "2026-10-26"
    },
    {
     "name": "Steven Adams",
-    "status": "Out",
-    "gameTimeDecision": false,
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
     "reason": "Ankle",
     "returnDate": "2026-10-26"
    }
@@ -477,16 +477,9 @@
     "returnDate": "2026-11-02"
    },
    {
-    "name": "LeBron James",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Back",
-    "returnDate": "2026-10-25"
-   },
-   {
     "name": "Tacko Fall",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Quadriceps (strain)",
     "returnDate": "2026-10-25"
    },
@@ -503,6 +496,13 @@
     "gameTimeDecision": true,
     "reason": "Rest",
     "returnDate": "2026-10-25"
+   },
+   {
+    "name": "LeBron James",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Back",
+    "returnDate": "2026-10-25"
    }
   ],
   "PHX": [
@@ -515,8 +515,8 @@
    },
    {
     "name": "Oso Ighodaro",
-    "status": "Out",
-    "gameTimeDecision": false,
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
     "reason": "Oblique (strain)",
     "returnDate": "2026-10-26"
    }
@@ -585,7 +585,7 @@
    {
     "name": "Tobias Harris",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Calf (strain)",
     "returnDate": "2026-10-27"
    }
@@ -610,7 +610,7 @@
    {
     "name": "AJ Dybantsa",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Ankle (sprain)",
     "returnDate": "2026-10-26"
    },

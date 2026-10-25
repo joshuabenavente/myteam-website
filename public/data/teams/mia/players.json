@@ -1,7 +1,7 @@
 {
  "season": "2026-27",
  "lastSeason": "2025-26",
- "updatedAt": "2026-10-25T08:18:44.776Z",
+ "updatedAt": "2026-10-25T14:18:45.464Z",
  "teamGamesPlayed": {
   "regular": 3,
   "playoffs": 0
@@ -24,21 +24,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4278053.png",
    "current": {
     "regular": {
-     "games": 2,
-     "started": 2,
-     "minutes": 65.7,
-     "points": 29,
-     "rebounds": 2,
-     "assists": 16,
-     "steals": 0,
+     "games": 3,
+     "started": 3,
+     "minutes": 102.7,
+     "points": 51,
+     "rebounds": 3,
+     "assists": 26,
+     "steals": 1,
      "blocks": 3,
-     "turnovers": 6,
-     "fgMade": 10,
-     "fgAttempted": 22,
-     "threeMade": 4,
-     "threeAttempted": 11,
-     "ftMade": 5,
-     "ftAttempted": 7
+     "turnovers": 8,
+     "fgMade": 18,
+     "fgAttempted": 35,
+     "threeMade": 7,
+     "threeAttempted": 15,
+     "ftMade": 8,
+     "ftAttempted": 10
     }
    },
    "lastFull": {
@@ -81,78 +81,6 @@
    }
   },
   {
-   "id": "antetgi01",
-   "name": "Giannis Antetokounmpo",
-   "number": "7",
-   "position": "PF",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 11\"",
-    "weight": 243,
-    "birthDate": "1994-12-06",
-    "experience": 13,
-    "birthPlace": "Athens, Greece"
-   },
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3032977.png",
-   "current": {
-    "regular": {
-     "games": 2,
-     "started": 2,
-     "minutes": 62.9,
-     "points": 71,
-     "rebounds": 18,
-     "assists": 6,
-     "steals": 3,
-     "blocks": 1,
-     "turnovers": 6,
-     "fgMade": 28,
-     "fgAttempted": 45,
-     "threeMade": 1,
-     "threeAttempted": 5,
-     "ftMade": 14,
-     "ftAttempted": 22
-    }
-   },
-   "lastFull": {
-    "regular": {
-     "games": 36,
-     "started": 36,
-     "minutes": 1039.3,
-     "points": 993,
-     "rebounds": 352,
-     "assists": 196,
-     "steals": 34,
-     "blocks": 24,
-     "turnovers": 115,
-     "fgMade": 373,
-     "fgAttempted": 598,
-     "threeMade": 15,
-     "threeAttempted": 45,
-     "ftMade": 232,
-     "ftAttempted": 357
-    }
-   },
-   "lastToDate": {
-    "regular": {
-     "games": 3,
-     "started": 3,
-     "minutes": 97.7,
-     "points": 108,
-     "rebounds": 48,
-     "assists": 21,
-     "steals": 2,
-     "blocks": 3,
-     "turnovers": 9,
-     "fgMade": 41,
-     "fgAttempted": 60,
-     "threeMade": 4,
-     "threeAttempted": 6,
-     "ftMade": 22,
-     "ftAttempted": 35
-    }
-   }
-  },
-  {
    "id": "adebaba01",
    "name": "Bam Adebayo",
    "number": "13",
@@ -169,21 +97,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4066261.png",
    "current": {
     "regular": {
-     "games": 2,
-     "started": 2,
-     "minutes": 53.8,
-     "points": 19,
-     "rebounds": 13,
-     "assists": 7,
-     "steals": 5,
-     "blocks": 0,
-     "turnovers": 3,
-     "fgMade": 8,
-     "fgAttempted": 18,
-     "threeMade": 1,
-     "threeAttempted": 7,
-     "ftMade": 2,
-     "ftAttempted": 5
+     "games": 3,
+     "started": 3,
+     "minutes": 92.6,
+     "points": 39,
+     "rebounds": 21,
+     "assists": 11,
+     "steals": 6,
+     "blocks": 1,
+     "turnovers": 7,
+     "fgMade": 15,
+     "fgAttempted": 35,
+     "threeMade": 3,
+     "threeAttempted": 13,
+     "ftMade": 6,
+     "ftAttempted": 9
     }
    },
    "lastFull": {
@@ -242,21 +170,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4601025.png",
    "current": {
     "regular": {
-     "games": 2,
+     "games": 3,
      "started": 0,
-     "minutes": 53.2,
-     "points": 9,
-     "rebounds": 5,
-     "assists": 5,
-     "steals": 2,
+     "minutes": 89.3,
+     "points": 24,
+     "rebounds": 12,
+     "assists": 9,
+     "steals": 3,
      "blocks": 1,
-     "turnovers": 1,
-     "fgMade": 1,
-     "fgAttempted": 9,
-     "threeMade": 1,
-     "threeAttempted": 5,
-     "ftMade": 6,
-     "ftAttempted": 6
+     "turnovers": 3,
+     "fgMade": 6,
+     "fgAttempted": 18,
+     "threeMade": 2,
+     "threeAttempted": 8,
+     "ftMade": 10,
+     "ftAttempted": 10
     }
    },
    "lastFull": {
@@ -299,6 +227,151 @@
    }
   },
   {
+   "id": "antetgi01",
+   "name": "Giannis Antetokounmpo",
+   "number": "7",
+   "position": "PF",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 11\"",
+    "weight": 243,
+    "birthDate": "1994-12-06",
+    "experience": 13,
+    "birthPlace": "Athens, Greece"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3032977.png",
+   "current": {
+    "regular": {
+     "games": 3,
+     "started": 3,
+     "minutes": 87.6,
+     "points": 85,
+     "rebounds": 24,
+     "assists": 9,
+     "steals": 4,
+     "blocks": 1,
+     "turnovers": 9,
+     "fgMade": 32,
+     "fgAttempted": 56,
+     "threeMade": 1,
+     "threeAttempted": 6,
+     "ftMade": 20,
+     "ftAttempted": 30
+    }
+   },
+   "lastFull": {
+    "regular": {
+     "games": 36,
+     "started": 36,
+     "minutes": 1039.3,
+     "points": 993,
+     "rebounds": 352,
+     "assists": 196,
+     "steals": 34,
+     "blocks": 24,
+     "turnovers": 115,
+     "fgMade": 373,
+     "fgAttempted": 598,
+     "threeMade": 15,
+     "threeAttempted": 45,
+     "ftMade": 232,
+     "ftAttempted": 357
+    }
+   },
+   "lastToDate": {
+    "regular": {
+     "games": 3,
+     "started": 3,
+     "minutes": 97.7,
+     "points": 108,
+     "rebounds": 48,
+     "assists": 21,
+     "steals": 2,
+     "blocks": 3,
+     "turnovers": 9,
+     "fgMade": 41,
+     "fgAttempted": 60,
+     "threeMade": 4,
+     "threeAttempted": 6,
+     "ftMade": 22,
+     "ftAttempted": 35
+    }
+   }
+  },
+  {
+   "id": "portibo01",
+   "name": "Bobby Portis",
+   "number": "95",
+   "position": "PF",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 9\"",
+    "weight": 250,
+    "birthDate": "1995-02-10",
+    "experience": 11,
+    "college": "Arkansas",
+    "birthPlace": "Little Rock, AR"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3064482.png",
+   "current": {
+    "regular": {
+     "games": 3,
+     "started": 0,
+     "minutes": 72.6,
+     "points": 31,
+     "rebounds": 20,
+     "assists": 3,
+     "steals": 4,
+     "blocks": 1,
+     "turnovers": 3,
+     "fgMade": 11,
+     "fgAttempted": 25,
+     "threeMade": 6,
+     "threeAttempted": 13,
+     "ftMade": 3,
+     "ftAttempted": 3
+    }
+   },
+   "lastFull": {
+    "regular": {
+     "games": 67,
+     "started": 9,
+     "minutes": 1619.7,
+     "points": 915,
+     "rebounds": 428,
+     "assists": 105,
+     "steals": 41,
+     "blocks": 12,
+     "turnovers": 66,
+     "fgMade": 366,
+     "fgAttempted": 750,
+     "threeMade": 135,
+     "threeAttempted": 296,
+     "ftMade": 48,
+     "ftAttempted": 68
+    }
+   },
+   "lastToDate": {
+    "regular": {
+     "games": 3,
+     "started": 0,
+     "minutes": 61.3,
+     "points": 23,
+     "rebounds": 22,
+     "assists": 2,
+     "steals": 0,
+     "blocks": 0,
+     "turnovers": 5,
+     "fgMade": 10,
+     "fgAttempted": 29,
+     "threeMade": 3,
+     "threeAttempted": 9,
+     "ftMade": 0,
+     "ftAttempted": 0
+    }
+   }
+  },
+  {
    "id": "wiggian01",
    "name": "Andrew Wiggins",
    "number": "22",
@@ -315,19 +388,19 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3059319.png",
    "current": {
     "regular": {
-     "games": 2,
-     "started": 2,
-     "minutes": 52.9,
-     "points": 19,
-     "rebounds": 10,
-     "assists": 3,
-     "steals": 1,
-     "blocks": 0,
+     "games": 3,
+     "started": 3,
+     "minutes": 71.3,
+     "points": 23,
+     "rebounds": 11,
+     "assists": 4,
+     "steals": 2,
+     "blocks": 2,
      "turnovers": 3,
-     "fgMade": 8,
-     "fgAttempted": 23,
+     "fgMade": 10,
+     "fgAttempted": 28,
      "threeMade": 2,
-     "threeAttempted": 10,
+     "threeAttempted": 11,
      "ftMade": 1,
      "ftAttempted": 1
     }
@@ -372,79 +445,6 @@
    }
   },
   {
-   "id": "portibo01",
-   "name": "Bobby Portis",
-   "number": "95",
-   "position": "PF",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 9\"",
-    "weight": 250,
-    "birthDate": "1995-02-10",
-    "experience": 11,
-    "college": "Arkansas",
-    "birthPlace": "Little Rock, AR"
-   },
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3064482.png",
-   "current": {
-    "regular": {
-     "games": 2,
-     "started": 0,
-     "minutes": 45.8,
-     "points": 18,
-     "rebounds": 12,
-     "assists": 3,
-     "steals": 2,
-     "blocks": 1,
-     "turnovers": 2,
-     "fgMade": 7,
-     "fgAttempted": 15,
-     "threeMade": 4,
-     "threeAttempted": 8,
-     "ftMade": 0,
-     "ftAttempted": 0
-    }
-   },
-   "lastFull": {
-    "regular": {
-     "games": 67,
-     "started": 9,
-     "minutes": 1619.7,
-     "points": 915,
-     "rebounds": 428,
-     "assists": 105,
-     "steals": 41,
-     "blocks": 12,
-     "turnovers": 66,
-     "fgMade": 366,
-     "fgAttempted": 750,
-     "threeMade": 135,
-     "threeAttempted": 296,
-     "ftMade": 48,
-     "ftAttempted": 68
-    }
-   },
-   "lastToDate": {
-    "regular": {
-     "games": 3,
-     "started": 0,
-     "minutes": 61.3,
-     "points": 23,
-     "rebounds": 22,
-     "assists": 2,
-     "steals": 0,
-     "blocks": 0,
-     "turnovers": 5,
-     "fgMade": 10,
-     "fgAttempted": 29,
-     "threeMade": 3,
-     "threeAttempted": 9,
-     "ftMade": 0,
-     "ftAttempted": 0
-    }
-   }
-  },
-  {
    "id": "thompkl01",
    "name": "Klay Thompson",
    "number": "11",
@@ -461,19 +461,19 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/6475.png",
    "current": {
     "regular": {
-     "games": 2,
-     "started": 2,
-     "minutes": 40.4,
-     "points": 16,
-     "rebounds": 3,
+     "games": 3,
+     "started": 3,
+     "minutes": 67.3,
+     "points": 30,
+     "rebounds": 6,
      "assists": 2,
-     "steals": 0,
+     "steals": 1,
      "blocks": 0,
-     "turnovers": 2,
-     "fgMade": 5,
-     "fgAttempted": 17,
-     "threeMade": 5,
-     "threeAttempted": 17,
+     "turnovers": 3,
+     "fgMade": 10,
+     "fgAttempted": 29,
+     "threeMade": 9,
+     "threeAttempted": 26,
      "ftMade": 1,
      "ftAttempted": 1
     }
@@ -534,21 +534,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/2528210.png",
    "current": {
     "regular": {
-     "games": 2,
+     "games": 3,
      "started": 0,
-     "minutes": 39.3,
-     "points": 11,
+     "minutes": 60.4,
+     "points": 16,
      "rebounds": 8,
      "assists": 2,
-     "steals": 1,
-     "blocks": 0,
+     "steals": 2,
+     "blocks": 2,
      "turnovers": 3,
-     "fgMade": 3,
-     "fgAttempted": 14,
+     "fgMade": 4,
+     "fgAttempted": 20,
      "threeMade": 3,
-     "threeAttempted": 12,
-     "ftMade": 2,
-     "ftAttempted": 4
+     "threeAttempted": 17,
+     "ftMade": 5,
+     "ftAttempted": 7
     }
    },
    "lastFull": {
@@ -622,17 +622,17 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4997528.png",
    "current": {
     "regular": {
-     "games": 2,
+     "games": 3,
      "started": 0,
-     "minutes": 37.5,
+     "minutes": 43.8,
      "points": 9,
-     "rebounds": 8,
+     "rebounds": 10,
      "assists": 3,
      "steals": 1,
      "blocks": 2,
      "turnovers": 2,
      "fgMade": 3,
-     "fgAttempted": 9,
+     "fgAttempted": 10,
      "threeMade": 0,
      "threeAttempted": 3,
      "ftMade": 3,
@@ -677,6 +677,43 @@
      "ftAttempted": 10
     }
    }
+  },
+  {
+   "id": "conwery01",
+   "name": "Ryan Conwell",
+   "number": "4",
+   "position": "SG",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 3\"",
+    "weight": 220,
+    "birthDate": "2004-06-15",
+    "experience": 0,
+    "college": "Louisville",
+    "birthPlace": "Indianapolis, IN"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5107157.png",
+   "current": {
+    "regular": {
+     "games": 3,
+     "started": 0,
+     "minutes": 9.6,
+     "points": 5,
+     "rebounds": 1,
+     "assists": 2,
+     "steals": 0,
+     "blocks": 0,
+     "turnovers": 0,
+     "fgMade": 2,
+     "fgAttempted": 5,
+     "threeMade": 1,
+     "threeAttempted": 3,
+     "ftMade": 0,
+     "ftAttempted": 0
+    }
+   },
+   "lastFull": {},
+   "lastToDate": {}
   },
   {
    "id": "fontesi01",
@@ -876,43 +913,6 @@
      "ftAttempted": 26
     }
    },
-   "lastToDate": {}
-  },
-  {
-   "id": "conwery01",
-   "name": "Ryan Conwell",
-   "number": "4",
-   "position": "SG",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 3\"",
-    "weight": 220,
-    "birthDate": "2004-06-15",
-    "experience": 0,
-    "college": "Louisville",
-    "birthPlace": "Indianapolis, IN"
-   },
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5107157.png",
-   "current": {
-    "regular": {
-     "games": 2,
-     "started": 0,
-     "minutes": 5.8,
-     "points": 2,
-     "rebounds": 0,
-     "assists": 2,
-     "steals": 0,
-     "blocks": 0,
-     "turnovers": 0,
-     "fgMade": 1,
-     "fgAttempted": 3,
-     "threeMade": 0,
-     "threeAttempted": 2,
-     "ftMade": 0,
-     "ftAttempted": 0
-    }
-   },
-   "lastFull": {},
    "lastToDate": {}
   },
   {
