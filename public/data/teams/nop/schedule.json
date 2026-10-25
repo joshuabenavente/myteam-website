@@ -55,7 +55,11 @@
    "startUtc": "2026-10-25T01:00:00Z",
    "home": false,
    "opponent": "DEN",
-   "status": "scheduled",
+   "status": "live",
+   "score": {
+    "team": 0,
+    "opponent": 0
+   },
    "broadcasts": [
     {
      "name": "GCSEN",

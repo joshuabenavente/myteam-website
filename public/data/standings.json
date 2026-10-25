@@ -5,13 +5,13 @@
    "abbr": "PHI",
    "conference": "East",
    "division": "Atlantic",
-   "wins": 2,
+   "wins": 3,
    "losses": 0,
    "divisionRank": 1,
    "conferenceRank": 3,
    "divisionGamesBehind": 0,
    "home": {
-    "wins": 1,
+    "wins": 2,
     "losses": 0
    },
    "road": {
@@ -19,10 +19,10 @@
     "losses": 0
    },
    "lastTen": {
-    "wins": 2,
+    "wins": 3,
     "losses": 0
    },
-   "streak": "W2"
+   "streak": "W3"
   },
   "TOR": {
    "abbr": "TOR",
@@ -32,7 +32,7 @@
    "losses": 0,
    "divisionRank": 2,
    "conferenceRank": 4,
-   "divisionGamesBehind": 0,
+   "divisionGamesBehind": 0.5,
    "home": {
     "wins": 1,
     "losses": 0
@@ -55,7 +55,7 @@
    "losses": 1,
    "divisionRank": 3,
    "conferenceRank": 7,
-   "divisionGamesBehind": 1,
+   "divisionGamesBehind": 1.5,
    "home": {
     "wins": 1,
     "losses": 0
@@ -78,7 +78,7 @@
    "losses": 1,
    "divisionRank": 4,
    "conferenceRank": 10,
-   "divisionGamesBehind": 1.5,
+   "divisionGamesBehind": 2,
    "home": {
     "wins": 0,
     "losses": 1
@@ -101,7 +101,7 @@
    "losses": 2,
    "divisionRank": 5,
    "conferenceRank": 12,
-   "divisionGamesBehind": 2,
+   "divisionGamesBehind": 2.5,
    "home": {
     "wins": 0,
     "losses": 1
@@ -213,23 +213,23 @@
    "conference": "East",
    "division": "Central",
    "wins": 0,
-   "losses": 2,
+   "losses": 3,
    "divisionRank": 5,
-   "conferenceRank": 13,
-   "divisionGamesBehind": 2,
+   "conferenceRank": 14,
+   "divisionGamesBehind": 2.5,
    "home": {
     "wins": 0,
     "losses": 1
    },
    "road": {
     "wins": 0,
-    "losses": 1
+    "losses": 2
    },
    "lastTen": {
     "wins": 0,
-    "losses": 2
+    "losses": 3
    },
-   "streak": "L2"
+   "streak": "L3"
   },
   "ATL": {
    "abbr": "ATL",
@@ -307,7 +307,7 @@
    "wins": 0,
    "losses": 2,
    "divisionRank": 4,
-   "conferenceRank": 14,
+   "conferenceRank": 13,
    "divisionGamesBehind": 2,
    "home": {
     "wins": 0,

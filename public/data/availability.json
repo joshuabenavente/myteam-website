@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-25T01:23:45.489Z",
+ "updatedAt": "2026-10-25T02:23:34.308Z",
  "teams": {
   "ATL": [
    {
@@ -227,13 +227,6 @@
     "gameTimeDecision": false,
     "reason": "Rest",
     "returnDate": "2026-10-26"
-   },
-   {
-    "name": "Charles Bassey",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Knee",
-    "returnDate": "2026-10-24"
    }
   ],
   "HOU": [
@@ -481,6 +474,13 @@
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Quadriceps (strain)",
+    "returnDate": "2026-10-25"
+   },
+   {
+    "name": "Jabari Walker",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Knee",
     "returnDate": "2026-10-25"
    }
   ],
