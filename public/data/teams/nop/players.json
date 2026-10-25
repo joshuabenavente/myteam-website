@@ -1,140 +1,12 @@
 {
  "season": "2026-27",
  "lastSeason": "2025-26",
- "updatedAt": "2026-10-25T04:23:42.369Z",
+ "updatedAt": "2026-10-25T10:23:39.776Z",
  "teamGamesPlayed": {
   "regular": 3,
   "playoffs": 0
  },
  "players": [
-  {
-   "id": "willizi01",
-   "name": "Zion Williamson",
-   "number": "1",
-   "position": "PF",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 6\"",
-    "weight": 284,
-    "birthDate": "2000-07-06",
-    "experience": 6,
-    "college": "Duke",
-    "birthPlace": "Salisbury, NC"
-   },
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4395628.png",
-   "current": {
-    "regular": {
-     "games": 2,
-     "started": 2,
-     "minutes": 65.1,
-     "points": 45,
-     "rebounds": 8,
-     "assists": 5,
-     "steals": 6,
-     "blocks": 0,
-     "turnovers": 5,
-     "fgMade": 15,
-     "fgAttempted": 28,
-     "threeMade": 2,
-     "threeAttempted": 5,
-     "ftMade": 13,
-     "ftAttempted": 14
-    }
-   },
-   "lastFull": {
-    "regular": {
-     "games": 62,
-     "started": 55,
-     "minutes": 1841.3,
-     "points": 1302,
-     "rebounds": 353,
-     "assists": 199,
-     "steals": 60,
-     "blocks": 34,
-     "turnovers": 126,
-     "fgMade": 484,
-     "fgAttempted": 807,
-     "threeMade": 1,
-     "threeAttempted": 4,
-     "ftMade": 333,
-     "ftAttempted": 465
-    }
-   },
-   "lastToDate": {
-    "regular": {
-     "games": 2,
-     "started": 2,
-     "minutes": 70.5,
-     "points": 54,
-     "rebounds": 19,
-     "assists": 12,
-     "steals": 8,
-     "blocks": 0,
-     "turnovers": 7,
-     "fgMade": 18,
-     "fgAttempted": 39,
-     "threeMade": 0,
-     "threeAttempted": 0,
-     "ftMade": 18,
-     "ftAttempted": 28
-    }
-   }
-  },
-  {
-   "id": "murrade01",
-   "name": "Dejounte Murray",
-   "number": "5",
-   "position": "PG",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 4\"",
-    "weight": 180,
-    "birthDate": "1996-09-19",
-    "experience": 9,
-    "college": "Washington",
-    "birthPlace": "Seattle, WA"
-   },
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3907497.png",
-   "current": {
-    "regular": {
-     "games": 2,
-     "started": 2,
-     "minutes": 64.6,
-     "points": 39,
-     "rebounds": 9,
-     "assists": 13,
-     "steals": 5,
-     "blocks": 3,
-     "turnovers": 7,
-     "fgMade": 16,
-     "fgAttempted": 33,
-     "threeMade": 2,
-     "threeAttempted": 7,
-     "ftMade": 5,
-     "ftAttempted": 5
-    }
-   },
-   "lastFull": {
-    "regular": {
-     "games": 14,
-     "started": 14,
-     "minutes": 389.5,
-     "points": 234,
-     "rebounds": 75,
-     "assists": 89,
-     "steals": 23,
-     "blocks": 3,
-     "turnovers": 47,
-     "fgMade": 88,
-     "fgAttempted": 182,
-     "threeMade": 19,
-     "threeAttempted": 62,
-     "ftMade": 39,
-     "ftAttempted": 45
-    }
-   },
-   "lastToDate": {}
-  },
   {
    "id": "murphtr02",
    "name": "Trey Murphy III",
@@ -152,21 +24,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4397688.png",
    "current": {
     "regular": {
-     "games": 2,
-     "started": 2,
-     "minutes": 63.1,
-     "points": 20,
-     "rebounds": 10,
-     "assists": 4,
-     "steals": 1,
+     "games": 3,
+     "started": 3,
+     "minutes": 100,
+     "points": 46,
+     "rebounds": 16,
+     "assists": 8,
+     "steals": 2,
      "blocks": 0,
-     "turnovers": 2,
-     "fgMade": 8,
-     "fgAttempted": 20,
-     "threeMade": 3,
-     "threeAttempted": 9,
-     "ftMade": 1,
-     "ftAttempted": 1
+     "turnovers": 6,
+     "fgMade": 18,
+     "fgAttempted": 37,
+     "threeMade": 7,
+     "threeAttempted": 17,
+     "ftMade": 3,
+     "ftAttempted": 3
     }
    },
    "lastFull": {
@@ -209,6 +81,134 @@
    }
   },
   {
+   "id": "murrade01",
+   "name": "Dejounte Murray",
+   "number": "5",
+   "position": "PG",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 4\"",
+    "weight": 180,
+    "birthDate": "1996-09-19",
+    "experience": 9,
+    "college": "Washington",
+    "birthPlace": "Seattle, WA"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3907497.png",
+   "current": {
+    "regular": {
+     "games": 3,
+     "started": 3,
+     "minutes": 99.1,
+     "points": 61,
+     "rebounds": 15,
+     "assists": 19,
+     "steals": 7,
+     "blocks": 4,
+     "turnovers": 9,
+     "fgMade": 25,
+     "fgAttempted": 51,
+     "threeMade": 3,
+     "threeAttempted": 13,
+     "ftMade": 8,
+     "ftAttempted": 9
+    }
+   },
+   "lastFull": {
+    "regular": {
+     "games": 14,
+     "started": 14,
+     "minutes": 389.5,
+     "points": 234,
+     "rebounds": 75,
+     "assists": 89,
+     "steals": 23,
+     "blocks": 3,
+     "turnovers": 47,
+     "fgMade": 88,
+     "fgAttempted": 182,
+     "threeMade": 19,
+     "threeAttempted": 62,
+     "ftMade": 39,
+     "ftAttempted": 45
+    }
+   },
+   "lastToDate": {}
+  },
+  {
+   "id": "willizi01",
+   "name": "Zion Williamson",
+   "number": "1",
+   "position": "PF",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 6\"",
+    "weight": 284,
+    "birthDate": "2000-07-06",
+    "experience": 6,
+    "college": "Duke",
+    "birthPlace": "Salisbury, NC"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4395628.png",
+   "current": {
+    "regular": {
+     "games": 3,
+     "started": 3,
+     "minutes": 97.6,
+     "points": 62,
+     "rebounds": 9,
+     "assists": 7,
+     "steals": 8,
+     "blocks": 2,
+     "turnovers": 8,
+     "fgMade": 22,
+     "fgAttempted": 39,
+     "threeMade": 2,
+     "threeAttempted": 6,
+     "ftMade": 16,
+     "ftAttempted": 19
+    }
+   },
+   "lastFull": {
+    "regular": {
+     "games": 62,
+     "started": 55,
+     "minutes": 1841.3,
+     "points": 1302,
+     "rebounds": 353,
+     "assists": 199,
+     "steals": 60,
+     "blocks": 34,
+     "turnovers": 126,
+     "fgMade": 484,
+     "fgAttempted": 807,
+     "threeMade": 1,
+     "threeAttempted": 4,
+     "ftMade": 333,
+     "ftAttempted": 465
+    }
+   },
+   "lastToDate": {
+    "regular": {
+     "games": 2,
+     "started": 2,
+     "minutes": 70.5,
+     "points": 54,
+     "rebounds": 19,
+     "assists": 12,
+     "steals": 8,
+     "blocks": 0,
+     "turnovers": 7,
+     "fgMade": 18,
+     "fgAttempted": 39,
+     "threeMade": 0,
+     "threeAttempted": 0,
+     "ftMade": 18,
+     "ftAttempted": 28
+    }
+   }
+  },
+  {
    "id": "queende01",
    "name": "Derik Queen",
    "number": "22",
@@ -225,21 +225,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4869780.png",
    "current": {
     "regular": {
-     "games": 2,
+     "games": 3,
      "started": 0,
-     "minutes": 47.1,
-     "points": 22,
-     "rebounds": 17,
-     "assists": 3,
+     "minutes": 71.6,
+     "points": 39,
+     "rebounds": 25,
+     "assists": 5,
      "steals": 4,
      "blocks": 2,
      "turnovers": 3,
-     "fgMade": 6,
-     "fgAttempted": 13,
+     "fgMade": 12,
+     "fgAttempted": 23,
      "threeMade": 1,
-     "threeAttempted": 2,
-     "ftMade": 9,
-     "ftAttempted": 10
+     "threeAttempted": 3,
+     "ftMade": 14,
+     "ftAttempted": 15
     }
    },
    "lastFull": {
@@ -298,21 +298,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4397136.png",
    "current": {
     "regular": {
-     "games": 2,
+     "games": 3,
      "started": 0,
-     "minutes": 45.7,
-     "points": 33,
-     "rebounds": 8,
-     "assists": 1,
-     "steals": 0,
+     "minutes": 71.2,
+     "points": 47,
+     "rebounds": 12,
+     "assists": 4,
+     "steals": 1,
      "blocks": 1,
-     "turnovers": 4,
-     "fgMade": 12,
-     "fgAttempted": 21,
-     "threeMade": 5,
-     "threeAttempted": 9,
-     "ftMade": 4,
-     "ftAttempted": 4
+     "turnovers": 5,
+     "fgMade": 15,
+     "fgAttempted": 30,
+     "threeMade": 7,
+     "threeAttempted": 16,
+     "ftMade": 10,
+     "ftAttempted": 12
     }
    },
    "lastFull": {
@@ -371,21 +371,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5144091.png",
    "current": {
     "regular": {
-     "games": 2,
-     "started": 2,
-     "minutes": 44.6,
-     "points": 15,
-     "rebounds": 3,
-     "assists": 2,
-     "steals": 1,
+     "games": 3,
+     "started": 3,
+     "minutes": 68.1,
+     "points": 25,
+     "rebounds": 9,
+     "assists": 4,
+     "steals": 2,
      "blocks": 0,
-     "turnovers": 3,
-     "fgMade": 5,
-     "fgAttempted": 19,
+     "turnovers": 6,
+     "fgMade": 9,
+     "fgAttempted": 31,
      "threeMade": 2,
-     "threeAttempted": 9,
-     "ftMade": 3,
-     "ftAttempted": 4
+     "threeAttempted": 11,
+     "ftMade": 5,
+     "ftAttempted": 6
     }
    },
    "lastFull": {
@@ -424,6 +424,225 @@
      "threeAttempted": 6,
      "ftMade": 6,
      "ftAttempted": 7
+    }
+   }
+  },
+  {
+   "id": "poolejo01",
+   "name": "Jordan Poole",
+   "number": "3",
+   "position": "SG",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 4\"",
+    "weight": 194,
+    "birthDate": "1999-06-19",
+    "experience": 7,
+    "college": "Michigan",
+    "birthPlace": "Milwaukee, WI"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4277956.png",
+   "current": {
+    "regular": {
+     "games": 3,
+     "started": 0,
+     "minutes": 56.4,
+     "points": 22,
+     "rebounds": 7,
+     "assists": 12,
+     "steals": 4,
+     "blocks": 2,
+     "turnovers": 3,
+     "fgMade": 3,
+     "fgAttempted": 18,
+     "threeMade": 3,
+     "threeAttempted": 13,
+     "ftMade": 13,
+     "ftAttempted": 14
+    }
+   },
+   "lastFull": {
+    "regular": {
+     "games": 39,
+     "started": 8,
+     "minutes": 933.4,
+     "points": 524,
+     "rebounds": 77,
+     "assists": 119,
+     "steals": 22,
+     "blocks": 15,
+     "turnovers": 69,
+     "fgMade": 165,
+     "fgAttempted": 444,
+     "threeMade": 96,
+     "threeAttempted": 288,
+     "ftMade": 98,
+     "ftAttempted": 114
+    }
+   },
+   "lastToDate": {
+    "regular": {
+     "games": 3,
+     "started": 3,
+     "minutes": 106.9,
+     "points": 60,
+     "rebounds": 6,
+     "assists": 11,
+     "steals": 1,
+     "blocks": 1,
+     "turnovers": 4,
+     "fgMade": 19,
+     "fgAttempted": 48,
+     "threeMade": 9,
+     "threeAttempted": 24,
+     "ftMade": 13,
+     "ftAttempted": 13
+    }
+   }
+  },
+  {
+   "id": "mathube01",
+   "name": "Bennedict Mathurin",
+   "number": "24",
+   "position": "SF",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 5\"",
+    "weight": 210,
+    "birthDate": "2002-06-19",
+    "experience": 4,
+    "college": "Arizona",
+    "birthPlace": "Montreal, PQ"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4683634.png",
+   "current": {
+    "regular": {
+     "games": 3,
+     "started": 0,
+     "minutes": 53.5,
+     "points": 24,
+     "rebounds": 9,
+     "assists": 6,
+     "steals": 1,
+     "blocks": 0,
+     "turnovers": 2,
+     "fgMade": 9,
+     "fgAttempted": 21,
+     "threeMade": 1,
+     "threeAttempted": 9,
+     "ftMade": 5,
+     "ftAttempted": 6
+    }
+   },
+   "lastFull": {
+    "regular": {
+     "games": 54,
+     "started": 25,
+     "minutes": 1620.6,
+     "points": 949,
+     "rebounds": 293,
+     "assists": 129,
+     "steals": 43,
+     "blocks": 13,
+     "turnovers": 118,
+     "fgMade": 291,
+     "fgAttempted": 677,
+     "threeMade": 75,
+     "threeAttempted": 238,
+     "ftMade": 292,
+     "ftAttempted": 336
+    }
+   },
+   "lastToDate": {
+    "regular": {
+     "games": 2,
+     "started": 2,
+     "minutes": 72.8,
+     "points": 62,
+     "rebounds": 14,
+     "assists": 5,
+     "steals": 0,
+     "blocks": 0,
+     "turnovers": 5,
+     "fgMade": 17,
+     "fgAttempted": 31,
+     "threeMade": 5,
+     "threeAttempted": 10,
+     "ftMade": 23,
+     "ftAttempted": 26
+    }
+   }
+  },
+  {
+   "id": "joneshe01",
+   "name": "Herbert Jones",
+   "number": "2",
+   "position": "SF",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 7\"",
+    "weight": 206,
+    "birthDate": "1998-10-06",
+    "experience": 5,
+    "college": "Alabama",
+    "birthPlace": "Greensboro, AL"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4277813.png",
+   "current": {
+    "regular": {
+     "games": 3,
+     "started": 0,
+     "minutes": 51.2,
+     "points": 10,
+     "rebounds": 6,
+     "assists": 1,
+     "steals": 2,
+     "blocks": 0,
+     "turnovers": 3,
+     "fgMade": 4,
+     "fgAttempted": 9,
+     "threeMade": 2,
+     "threeAttempted": 5,
+     "ftMade": 0,
+     "ftAttempted": 0
+    }
+   },
+   "lastFull": {
+    "regular": {
+     "games": 56,
+     "started": 56,
+     "minutes": 1589,
+     "points": 496,
+     "rebounds": 190,
+     "assists": 155,
+     "steals": 88,
+     "blocks": 27,
+     "turnovers": 73,
+     "fgMade": 183,
+     "fgAttempted": 478,
+     "threeMade": 80,
+     "threeAttempted": 259,
+     "ftMade": 50,
+     "ftAttempted": 62
+    }
+   },
+   "lastToDate": {
+    "regular": {
+     "games": 3,
+     "started": 3,
+     "minutes": 87.3,
+     "points": 28,
+     "rebounds": 18,
+     "assists": 5,
+     "steals": 4,
+     "blocks": 1,
+     "turnovers": 6,
+     "fgMade": 9,
+     "fgAttempted": 30,
+     "threeMade": 5,
+     "threeAttempted": 14,
+     "ftMade": 5,
+     "ftAttempted": 6
     }
    }
   },
@@ -501,221 +720,75 @@
    }
   },
   {
-   "id": "joneshe01",
-   "name": "Herbert Jones",
-   "number": "2",
-   "position": "SF",
+   "id": "jordade01",
+   "name": "DeAndre Jordan",
+   "number": "6",
+   "position": "C",
    "twoWay": false,
    "bio": {
-    "height": "6' 7\"",
-    "weight": 206,
-    "birthDate": "1998-10-06",
-    "experience": 5,
-    "college": "Alabama",
-    "birthPlace": "Greensboro, AL"
+    "height": "6' 11\"",
+    "weight": 265,
+    "birthDate": "1988-07-21",
+    "experience": 18,
+    "college": "Texas A&M",
+    "birthPlace": "Houston, TX"
    },
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4277813.png",
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3442.png",
    "current": {
     "regular": {
-     "games": 2,
-     "started": 0,
-     "minutes": 34.7,
-     "points": 8,
-     "rebounds": 3,
-     "assists": 0,
-     "steals": 1,
-     "blocks": 0,
-     "turnovers": 1,
-     "fgMade": 3,
-     "fgAttempted": 6,
-     "threeMade": 2,
-     "threeAttempted": 3,
-     "ftMade": 0,
-     "ftAttempted": 0
-    }
-   },
-   "lastFull": {
-    "regular": {
-     "games": 56,
-     "started": 56,
-     "minutes": 1589,
-     "points": 496,
-     "rebounds": 190,
-     "assists": 155,
-     "steals": 88,
-     "blocks": 27,
-     "turnovers": 73,
-     "fgMade": 183,
-     "fgAttempted": 478,
-     "threeMade": 80,
-     "threeAttempted": 259,
-     "ftMade": 50,
-     "ftAttempted": 62
-    }
-   },
-   "lastToDate": {
-    "regular": {
-     "games": 3,
-     "started": 3,
-     "minutes": 87.3,
-     "points": 28,
-     "rebounds": 18,
-     "assists": 5,
-     "steals": 4,
-     "blocks": 1,
-     "turnovers": 6,
-     "fgMade": 9,
-     "fgAttempted": 30,
-     "threeMade": 5,
-     "threeAttempted": 14,
-     "ftMade": 5,
-     "ftAttempted": 6
-    }
-   }
-  },
-  {
-   "id": "poolejo01",
-   "name": "Jordan Poole",
-   "number": "3",
-   "position": "SG",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 4\"",
-    "weight": 194,
-    "birthDate": "1999-06-19",
-    "experience": 7,
-    "college": "Michigan",
-    "birthPlace": "Milwaukee, WI"
-   },
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4277956.png",
-   "current": {
-    "regular": {
-     "games": 2,
-     "started": 0,
-     "minutes": 33.9,
-     "points": 16,
-     "rebounds": 4,
-     "assists": 5,
-     "steals": 3,
-     "blocks": 1,
-     "turnovers": 1,
-     "fgMade": 1,
-     "fgAttempted": 12,
-     "threeMade": 1,
-     "threeAttempted": 8,
-     "ftMade": 13,
-     "ftAttempted": 14
-    }
-   },
-   "lastFull": {
-    "regular": {
-     "games": 39,
-     "started": 8,
-     "minutes": 933.4,
-     "points": 524,
-     "rebounds": 77,
-     "assists": 119,
-     "steals": 22,
-     "blocks": 15,
-     "turnovers": 69,
-     "fgMade": 165,
-     "fgAttempted": 444,
-     "threeMade": 96,
-     "threeAttempted": 288,
-     "ftMade": 98,
-     "ftAttempted": 114
-    }
-   },
-   "lastToDate": {
-    "regular": {
-     "games": 3,
-     "started": 3,
-     "minutes": 106.9,
-     "points": 60,
-     "rebounds": 6,
-     "assists": 11,
-     "steals": 1,
-     "blocks": 1,
-     "turnovers": 4,
-     "fgMade": 19,
-     "fgAttempted": 48,
-     "threeMade": 9,
-     "threeAttempted": 24,
-     "ftMade": 13,
-     "ftAttempted": 13
-    }
-   }
-  },
-  {
-   "id": "mathube01",
-   "name": "Bennedict Mathurin",
-   "number": "24",
-   "position": "SF",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 5\"",
-    "weight": 210,
-    "birthDate": "2002-06-19",
-    "experience": 4,
-    "college": "Arizona",
-    "birthPlace": "Montreal, PQ"
-   },
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4683634.png",
-   "current": {
-    "regular": {
-     "games": 2,
-     "started": 0,
-     "minutes": 33,
-     "points": 15,
-     "rebounds": 5,
+     "games": 1,
+     "started": 1,
+     "minutes": 20.3,
+     "points": 9,
+     "rebounds": 9,
      "assists": 2,
-     "steals": 1,
-     "blocks": 0,
-     "turnovers": 2,
-     "fgMade": 5,
-     "fgAttempted": 12,
+     "steals": 0,
+     "blocks": 1,
+     "turnovers": 0,
+     "fgMade": 3,
+     "fgAttempted": 3,
      "threeMade": 0,
-     "threeAttempted": 4,
-     "ftMade": 5,
-     "ftAttempted": 6
+     "threeAttempted": 0,
+     "ftMade": 3,
+     "ftAttempted": 4
     }
    },
    "lastFull": {
     "regular": {
-     "games": 54,
-     "started": 25,
-     "minutes": 1620.6,
-     "points": 949,
-     "rebounds": 293,
-     "assists": 129,
-     "steals": 43,
-     "blocks": 13,
-     "turnovers": 118,
-     "fgMade": 291,
-     "fgAttempted": 677,
-     "threeMade": 75,
-     "threeAttempted": 238,
-     "ftMade": 292,
-     "ftAttempted": 336
+     "games": 12,
+     "started": 7,
+     "minutes": 198.8,
+     "points": 53,
+     "rebounds": 76,
+     "assists": 11,
+     "steals": 4,
+     "blocks": 10,
+     "turnovers": 9,
+     "fgMade": 21,
+     "fgAttempted": 32,
+     "threeMade": 0,
+     "threeAttempted": 0,
+     "ftMade": 11,
+     "ftAttempted": 17
     }
    },
    "lastToDate": {
     "regular": {
-     "games": 2,
-     "started": 2,
-     "minutes": 72.8,
-     "points": 62,
-     "rebounds": 14,
-     "assists": 5,
+     "games": 1,
+     "started": 0,
+     "minutes": 11,
+     "points": 7,
+     "rebounds": 5,
+     "assists": 0,
      "steals": 0,
      "blocks": 0,
-     "turnovers": 5,
-     "fgMade": 17,
-     "fgAttempted": 31,
-     "threeMade": 5,
-     "threeAttempted": 10,
-     "ftMade": 23,
-     "ftAttempted": 26
+     "turnovers": 0,
+     "fgMade": 3,
+     "fgAttempted": 4,
+     "threeMade": 0,
+     "threeAttempted": 0,
+     "ftMade": 1,
+     "ftAttempted": 2
     }
    }
   },
@@ -734,19 +807,19 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4997538.png",
    "current": {
     "regular": {
-     "games": 1,
+     "games": 2,
      "started": 0,
-     "minutes": 9.1,
-     "points": 7,
+     "minutes": 16.9,
+     "points": 10,
      "rebounds": 4,
      "assists": 1,
      "steals": 2,
      "blocks": 0,
-     "turnovers": 0,
-     "fgMade": 3,
-     "fgAttempted": 3,
-     "threeMade": 0,
-     "threeAttempted": 0,
+     "turnovers": 1,
+     "fgMade": 4,
+     "fgAttempted": 4,
+     "threeMade": 1,
+     "threeAttempted": 1,
      "ftMade": 1,
      "ftAttempted": 2
     }
@@ -989,61 +1062,6 @@
     }
    },
    "lastToDate": {}
-  },
-  {
-   "id": "jordade01",
-   "name": "DeAndre Jordan",
-   "position": "C",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 11\"",
-    "weight": 265,
-    "birthDate": "1988-07-21",
-    "experience": 18,
-    "college": "Texas A&M",
-    "birthPlace": "Houston, TX"
-   },
-   "number": "6",
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3442.png",
-   "current": {},
-   "lastFull": {
-    "regular": {
-     "games": 12,
-     "started": 7,
-     "minutes": 198.8,
-     "points": 53,
-     "rebounds": 76,
-     "assists": 11,
-     "steals": 4,
-     "blocks": 10,
-     "turnovers": 9,
-     "fgMade": 21,
-     "fgAttempted": 32,
-     "threeMade": 0,
-     "threeAttempted": 0,
-     "ftMade": 11,
-     "ftAttempted": 17
-    }
-   },
-   "lastToDate": {
-    "regular": {
-     "games": 1,
-     "started": 0,
-     "minutes": 11,
-     "points": 7,
-     "rebounds": 5,
-     "assists": 0,
-     "steals": 0,
-     "blocks": 0,
-     "turnovers": 0,
-     "fgMade": 3,
-     "fgAttempted": 4,
-     "threeMade": 0,
-     "threeAttempted": 0,
-     "ftMade": 1,
-     "ftAttempted": 2
-    }
-   }
   },
   {
    "id": "pierrja01",
