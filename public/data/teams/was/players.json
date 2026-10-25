@@ -1,7 +1,7 @@
 {
  "season": "2026-27",
  "lastSeason": "2025-26",
- "updatedAt": "2026-10-25T07:23:46.547Z",
+ "updatedAt": "2026-10-25T13:23:50.713Z",
  "teamGamesPlayed": {
   "regular": 3,
   "playoffs": 0
@@ -24,21 +24,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4277905.png",
    "current": {
     "regular": {
-     "games": 2,
-     "started": 2,
-     "minutes": 75.3,
-     "points": 42,
-     "rebounds": 1,
-     "assists": 25,
+     "games": 3,
+     "started": 3,
+     "minutes": 109.2,
+     "points": 67,
+     "rebounds": 5,
+     "assists": 34,
      "steals": 3,
      "blocks": 0,
-     "turnovers": 5,
-     "fgMade": 9,
-     "fgAttempted": 28,
-     "threeMade": 4,
-     "threeAttempted": 16,
-     "ftMade": 20,
-     "ftAttempted": 26
+     "turnovers": 7,
+     "fgMade": 15,
+     "fgAttempted": 41,
+     "threeMade": 8,
+     "threeAttempted": 26,
+     "ftMade": 29,
+     "ftAttempted": 35
     }
    },
    "lastFull": {
@@ -97,21 +97,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/6583.png",
    "current": {
     "regular": {
-     "games": 2,
-     "started": 2,
-     "minutes": 66.2,
-     "points": 43,
-     "rebounds": 21,
-     "assists": 4,
-     "steals": 3,
+     "games": 3,
+     "started": 3,
+     "minutes": 97.1,
+     "points": 62,
+     "rebounds": 27,
+     "assists": 8,
+     "steals": 4,
      "blocks": 3,
-     "turnovers": 7,
-     "fgMade": 14,
-     "fgAttempted": 32,
+     "turnovers": 10,
+     "fgMade": 22,
+     "fgAttempted": 53,
      "threeMade": 1,
-     "threeAttempted": 5,
-     "ftMade": 14,
-     "ftAttempted": 18
+     "threeAttempted": 6,
+     "ftMade": 17,
+     "ftAttempted": 23
     }
    },
    "lastFull": {
@@ -154,59 +154,6 @@
    }
   },
   {
-   "id": "coulibi01",
-   "name": "Bilal Coulibaly",
-   "number": "0",
-   "position": "SF",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 7\"",
-    "weight": 195,
-    "birthDate": "2004-07-26",
-    "experience": 3
-   },
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5104155.png",
-   "current": {
-    "regular": {
-     "games": 2,
-     "started": 2,
-     "minutes": 55.1,
-     "points": 22,
-     "rebounds": 8,
-     "assists": 1,
-     "steals": 4,
-     "blocks": 3,
-     "turnovers": 0,
-     "fgMade": 7,
-     "fgAttempted": 14,
-     "threeMade": 2,
-     "threeAttempted": 6,
-     "ftMade": 6,
-     "ftAttempted": 7
-    }
-   },
-   "lastFull": {
-    "regular": {
-     "games": 56,
-     "started": 56,
-     "minutes": 1468.3,
-     "points": 657,
-     "rebounds": 243,
-     "assists": 145,
-     "steals": 75,
-     "blocks": 54,
-     "turnovers": 81,
-     "fgMade": 230,
-     "fgAttempted": 541,
-     "threeMade": 65,
-     "threeAttempted": 204,
-     "ftMade": 132,
-     "ftAttempted": 177
-    }
-   },
-   "lastToDate": {}
-  },
-  {
    "id": "georgky01",
    "name": "Kyshawn George",
    "number": "18",
@@ -223,21 +170,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5174563.png",
    "current": {
     "regular": {
-     "games": 2,
-     "started": 2,
-     "minutes": 54.9,
-     "points": 29,
-     "rebounds": 8,
-     "assists": 6,
+     "games": 3,
+     "started": 3,
+     "minutes": 90.8,
+     "points": 51,
+     "rebounds": 17,
+     "assists": 11,
      "steals": 3,
-     "blocks": 1,
-     "turnovers": 12,
-     "fgMade": 10,
-     "fgAttempted": 23,
+     "blocks": 5,
+     "turnovers": 15,
+     "fgMade": 18,
+     "fgAttempted": 40,
      "threeMade": 2,
-     "threeAttempted": 10,
-     "ftMade": 7,
-     "ftAttempted": 8
+     "threeAttempted": 15,
+     "ftMade": 13,
+     "ftAttempted": 16
     }
    },
    "lastFull": {
@@ -280,6 +227,59 @@
    }
   },
   {
+   "id": "coulibi01",
+   "name": "Bilal Coulibaly",
+   "number": "0",
+   "position": "SF",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 7\"",
+    "weight": 195,
+    "birthDate": "2004-07-26",
+    "experience": 3
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5104155.png",
+   "current": {
+    "regular": {
+     "games": 3,
+     "started": 3,
+     "minutes": 80.6,
+     "points": 29,
+     "rebounds": 12,
+     "assists": 1,
+     "steals": 6,
+     "blocks": 3,
+     "turnovers": 2,
+     "fgMade": 10,
+     "fgAttempted": 20,
+     "threeMade": 2,
+     "threeAttempted": 8,
+     "ftMade": 7,
+     "ftAttempted": 8
+    }
+   },
+   "lastFull": {
+    "regular": {
+     "games": 56,
+     "started": 56,
+     "minutes": 1468.3,
+     "points": 657,
+     "rebounds": 243,
+     "assists": 145,
+     "steals": 75,
+     "blocks": 54,
+     "turnovers": 81,
+     "fgMade": 230,
+     "fgAttempted": 541,
+     "threeMade": 65,
+     "threeAttempted": 204,
+     "ftMade": 132,
+     "ftAttempted": 177
+    }
+   },
+   "lastToDate": {}
+  },
+  {
    "id": "sarral01",
    "name": "Alex Sarr",
    "number": "20",
@@ -294,19 +294,19 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5160992.png",
    "current": {
     "regular": {
-     "games": 2,
-     "started": 2,
-     "minutes": 49.1,
-     "points": 13,
-     "rebounds": 13,
-     "assists": 7,
+     "games": 3,
+     "started": 3,
+     "minutes": 72.1,
+     "points": 23,
+     "rebounds": 15,
+     "assists": 10,
      "steals": 2,
-     "blocks": 0,
-     "turnovers": 1,
-     "fgMade": 5,
-     "fgAttempted": 13,
+     "blocks": 3,
+     "turnovers": 3,
+     "fgMade": 10,
+     "fgAttempted": 20,
      "threeMade": 1,
-     "threeAttempted": 5,
+     "threeAttempted": 6,
      "ftMade": 2,
      "ftAttempted": 2
     }
@@ -351,79 +351,6 @@
    }
   },
   {
-   "id": "johnstr03",
-   "name": "Tre Johnson",
-   "number": "12",
-   "position": "SG",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 5\"",
-    "weight": 190,
-    "birthDate": "2006-03-07",
-    "experience": 1,
-    "college": "Texas",
-    "birthPlace": "Garland, TX"
-   },
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5238230.png",
-   "current": {
-    "regular": {
-     "games": 2,
-     "started": 0,
-     "minutes": 44.9,
-     "points": 28,
-     "rebounds": 3,
-     "assists": 0,
-     "steals": 1,
-     "blocks": 1,
-     "turnovers": 2,
-     "fgMade": 10,
-     "fgAttempted": 20,
-     "threeMade": 4,
-     "threeAttempted": 10,
-     "ftMade": 4,
-     "ftAttempted": 4
-    }
-   },
-   "lastFull": {
-    "regular": {
-     "games": 60,
-     "started": 42,
-     "minutes": 1443.6,
-     "points": 733,
-     "rebounds": 170,
-     "assists": 122,
-     "steals": 33,
-     "blocks": 18,
-     "turnovers": 93,
-     "fgMade": 271,
-     "fgAttempted": 647,
-     "threeMade": 115,
-     "threeAttempted": 321,
-     "ftMade": 76,
-     "ftAttempted": 87
-    }
-   },
-   "lastToDate": {
-    "regular": {
-     "games": 3,
-     "started": 0,
-     "minutes": 81.6,
-     "points": 49,
-     "rebounds": 12,
-     "assists": 6,
-     "steals": 1,
-     "blocks": 3,
-     "turnovers": 4,
-     "fgMade": 18,
-     "fgAttempted": 38,
-     "threeMade": 9,
-     "threeAttempted": 21,
-     "ftMade": 4,
-     "ftAttempted": 4
-    }
-   }
-  },
-  {
    "id": "champju01",
    "name": "Justin Champagnie",
    "number": "9",
@@ -440,21 +367,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4432907.png",
    "current": {
     "regular": {
-     "games": 2,
+     "games": 3,
      "started": 0,
-     "minutes": 43.2,
-     "points": 16,
-     "rebounds": 14,
-     "assists": 1,
-     "steals": 1,
+     "minutes": 69.4,
+     "points": 27,
+     "rebounds": 28,
+     "assists": 5,
+     "steals": 2,
      "blocks": 2,
      "turnovers": 0,
-     "fgMade": 7,
-     "fgAttempted": 11,
-     "threeMade": 1,
-     "threeAttempted": 4,
-     "ftMade": 1,
-     "ftAttempted": 1
+     "fgMade": 11,
+     "fgAttempted": 19,
+     "threeMade": 2,
+     "threeAttempted": 7,
+     "ftMade": 3,
+     "ftAttempted": 3
     }
    },
    "lastFull": {
@@ -497,6 +424,79 @@
    }
   },
   {
+   "id": "johnstr03",
+   "name": "Tre Johnson",
+   "number": "12",
+   "position": "SG",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 5\"",
+    "weight": 190,
+    "birthDate": "2006-03-07",
+    "experience": 1,
+    "college": "Texas",
+    "birthPlace": "Garland, TX"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5238230.png",
+   "current": {
+    "regular": {
+     "games": 3,
+     "started": 0,
+     "minutes": 67.7,
+     "points": 41,
+     "rebounds": 5,
+     "assists": 2,
+     "steals": 1,
+     "blocks": 1,
+     "turnovers": 2,
+     "fgMade": 15,
+     "fgAttempted": 30,
+     "threeMade": 6,
+     "threeAttempted": 15,
+     "ftMade": 5,
+     "ftAttempted": 5
+    }
+   },
+   "lastFull": {
+    "regular": {
+     "games": 60,
+     "started": 42,
+     "minutes": 1443.6,
+     "points": 733,
+     "rebounds": 170,
+     "assists": 122,
+     "steals": 33,
+     "blocks": 18,
+     "turnovers": 93,
+     "fgMade": 271,
+     "fgAttempted": 647,
+     "threeMade": 115,
+     "threeAttempted": 321,
+     "ftMade": 76,
+     "ftAttempted": 87
+    }
+   },
+   "lastToDate": {
+    "regular": {
+     "games": 3,
+     "started": 0,
+     "minutes": 81.6,
+     "points": 49,
+     "rebounds": 12,
+     "assists": 6,
+     "steals": 1,
+     "blocks": 3,
+     "turnovers": 4,
+     "fgMade": 18,
+     "fgAttempted": 38,
+     "threeMade": 9,
+     "threeAttempted": 21,
+     "ftMade": 4,
+     "ftAttempted": 4
+    }
+   }
+  },
+  {
    "id": "carrica01",
    "name": "Bub Carrington",
    "number": "7",
@@ -513,19 +513,19 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4845374.png",
    "current": {
     "regular": {
-     "games": 2,
+     "games": 3,
      "started": 0,
-     "minutes": 29.5,
-     "points": 13,
-     "rebounds": 2,
-     "assists": 4,
+     "minutes": 50.4,
+     "points": 22,
+     "rebounds": 4,
+     "assists": 5,
      "steals": 2,
      "blocks": 0,
-     "turnovers": 1,
-     "fgMade": 4,
-     "fgAttempted": 10,
-     "threeMade": 3,
-     "threeAttempted": 7,
+     "turnovers": 2,
+     "fgMade": 7,
+     "fgAttempted": 16,
+     "threeMade": 6,
+     "threeAttempted": 12,
      "ftMade": 2,
      "ftAttempted": 2
     }
@@ -586,17 +586,17 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4278129.png",
    "current": {
     "regular": {
-     "games": 2,
+     "games": 3,
      "started": 0,
-     "minutes": 29.5,
-     "points": 15,
-     "rebounds": 10,
+     "minutes": 45.8,
+     "points": 21,
+     "rebounds": 15,
      "assists": 1,
-     "steals": 0,
+     "steals": 1,
      "blocks": 2,
      "turnovers": 1,
-     "fgMade": 7,
-     "fgAttempted": 8,
+     "fgMade": 10,
+     "fgAttempted": 13,
      "threeMade": 0,
      "threeAttempted": 0,
      "ftMade": 1,
@@ -749,21 +749,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5144126.png",
    "current": {
     "regular": {
-     "games": 1,
+     "games": 2,
      "started": 0,
-     "minutes": 1,
-     "points": 0,
+     "minutes": 5.6,
+     "points": 2,
      "rebounds": 0,
      "assists": 0,
      "steals": 0,
      "blocks": 0,
      "turnovers": 0,
      "fgMade": 0,
-     "fgAttempted": 0,
+     "fgAttempted": 1,
      "threeMade": 0,
-     "threeAttempted": 0,
-     "ftMade": 0,
-     "ftAttempted": 0
+     "threeAttempted": 1,
+     "ftMade": 2,
+     "ftAttempted": 2
     }
    },
    "lastFull": {
