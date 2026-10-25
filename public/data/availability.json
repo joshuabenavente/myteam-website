@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-25T15:23:51.181Z",
+ "updatedAt": "2026-10-25T17:23:34.217Z",
  "teams": {
   "ATL": [
    {
@@ -36,10 +36,10 @@
    },
    {
     "name": "Tyler Bilodeau",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Shoulder",
-    "returnDate": "2026-10-25"
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Shoulder (sprain)",
+    "returnDate": "2026-10-27"
    }
   ],
   "CHA": [
@@ -477,32 +477,25 @@
     "returnDate": "2026-11-02"
    },
    {
-    "name": "Tacko Fall",
-    "status": "Out",
-    "gameTimeDecision": true,
-    "reason": "Quadriceps (strain)",
-    "returnDate": "2026-10-25"
-   },
-   {
     "name": "Jabari Walker",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Knee",
-    "returnDate": "2026-10-25"
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Knee (soreness)",
+    "returnDate": "2026-10-28"
    },
    {
     "name": "Joel Embiid",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Rest",
-    "returnDate": "2026-10-25"
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Heel",
+    "returnDate": "2026-10-28"
    },
    {
-    "name": "LeBron James",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Back",
-    "returnDate": "2026-10-25"
+    "name": "Tacko Fall",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Quadriceps (strain)",
+    "returnDate": "2026-10-28"
    }
   ],
   "PHX": [
