@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-25T22:23:39.993Z",
+ "updatedAt": "2026-10-25T23:23:38.475Z",
  "teams": {
   "ATL": [
    {
@@ -148,6 +148,13 @@
     "returnDate": "2026-11-29"
    },
    {
+    "name": "Spencer Jones",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Hamstring",
+    "returnDate": "2026-10-28"
+   },
+   {
     "name": "Alpha Diallo",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
@@ -159,13 +166,6 @@
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Ankle (sprain)",
-    "returnDate": "2026-10-26"
-   },
-   {
-    "name": "Spencer Jones",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Hamstring",
     "returnDate": "2026-10-26"
    }
   ],
@@ -266,6 +266,13 @@
     "gameTimeDecision": false,
     "reason": "Hamstring",
     "returnDate": "2026-10-26"
+   },
+   {
+    "name": "Ivica Zubac",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Ankle (sprain)",
+    "returnDate": "2026-10-25"
    }
   ],
   "LAC": [
@@ -478,10 +485,10 @@
    },
    {
     "name": "VJ Edgecombe",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
+    "status": "Out",
+    "gameTimeDecision": false,
     "reason": "Abdomen (bruise)",
-    "returnDate": "2026-10-25"
+    "returnDate": "2026-10-28"
    }
   ],
   "PHX": [
@@ -539,18 +546,18 @@
     "returnDate": "2026-11-02"
    },
    {
+    "name": "Keegan Murray",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Ankle",
+    "returnDate": "2026-10-27"
+   },
+   {
     "name": "Maxime Raynaud",
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Knee (dislocated)",
     "returnDate": "2026-11-02"
-   },
-   {
-    "name": "Keegan Murray",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Ankle",
-    "returnDate": "2026-10-25"
    }
   ],
   "SAS": [

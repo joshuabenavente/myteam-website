@@ -50,7 +50,11 @@
    "startUtc": "2026-10-25T23:00:00Z",
    "home": true,
    "opponent": "ORL",
-   "status": "scheduled",
+   "status": "live",
+   "score": {
+    "team": 0,
+    "opponent": 0
+   },
    "broadcasts": [
     {
      "name": "MSG / DAZN",
