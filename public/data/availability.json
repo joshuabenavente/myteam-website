@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-24T23:23:34.278Z",
+ "updatedAt": "2026-10-25T00:23:31.931Z",
  "teams": {
   "ATL": [
    {
@@ -134,6 +134,13 @@
   ],
   "DEN": [
    {
+    "name": "Alpha Diallo",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Wrist",
+    "returnDate": "2026-10-26"
+   },
+   {
     "name": "Cameron Johnson",
     "status": "Out",
     "gameTimeDecision": false,
@@ -153,13 +160,6 @@
     "gameTimeDecision": false,
     "reason": "Hamstring",
     "returnDate": "2026-10-26"
-   },
-   {
-    "name": "Alpha Diallo",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Wrist",
-    "returnDate": "2026-10-24"
    }
   ],
   "DET": [
@@ -352,6 +352,13 @@
    }
   ],
   "MEM": [
+   {
+    "name": "Zach Edey",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Ankle",
+    "returnDate": "2026-10-26"
+   },
    {
     "name": "Cedric Coward",
     "status": "Day-To-Day",
