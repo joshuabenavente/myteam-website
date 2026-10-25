@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-25T02:23:34.308Z",
+ "updatedAt": "2026-10-25T03:23:51.488Z",
  "teams": {
   "ATL": [
    {
@@ -27,6 +27,13 @@
    }
   ],
   "BKN": [
+   {
+    "name": "Mikel Brown Jr.",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Rest",
+    "returnDate": "2026-10-27"
+   },
    {
     "name": "Tyler Bilodeau",
     "status": "Out",
@@ -481,6 +488,13 @@
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Knee",
+    "returnDate": "2026-10-25"
+   },
+   {
+    "name": "Joel Embiid",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Rest",
     "returnDate": "2026-10-25"
    }
   ],
