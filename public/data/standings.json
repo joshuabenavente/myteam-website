@@ -54,7 +54,7 @@
    "wins": 1,
    "losses": 1,
    "divisionRank": 3,
-   "conferenceRank": 6,
+   "conferenceRank": 7,
    "divisionGamesBehind": 1,
    "home": {
     "wins": 1,
@@ -146,7 +146,7 @@
    "wins": 1,
    "losses": 1,
    "divisionRank": 2,
-   "conferenceRank": 7,
+   "conferenceRank": 8,
    "divisionGamesBehind": 1,
    "home": {
     "wins": 0,
@@ -254,44 +254,44 @@
    },
    "streak": "W2"
   },
+  "CHA": {
+   "abbr": "CHA",
+   "conference": "East",
+   "division": "Southeast",
+   "wins": 2,
+   "losses": 1,
+   "divisionRank": 2,
+   "conferenceRank": 5,
+   "divisionGamesBehind": 0.5,
+   "home": {
+    "wins": 1,
+    "losses": 1
+   },
+   "road": {
+    "wins": 1,
+    "losses": 0
+   },
+   "lastTen": {
+    "wins": 2,
+    "losses": 1
+   },
+   "streak": "W1"
+  },
   "WAS": {
    "abbr": "WAS",
    "conference": "East",
    "division": "Southeast",
    "wins": 1,
    "losses": 1,
-   "divisionRank": 2,
-   "conferenceRank": 5,
-   "divisionGamesBehind": 1,
-   "home": {
-    "wins": 1,
-    "losses": 1
-   },
-   "road": {
-    "wins": 0,
-    "losses": 0
-   },
-   "lastTen": {
-    "wins": 1,
-    "losses": 1
-   },
-   "streak": "L1"
-  },
-  "CHA": {
-   "abbr": "CHA",
-   "conference": "East",
-   "division": "Southeast",
-   "wins": 1,
-   "losses": 1,
    "divisionRank": 3,
-   "conferenceRank": 8,
+   "conferenceRank": 6,
    "divisionGamesBehind": 1,
    "home": {
-    "wins": 0,
+    "wins": 1,
     "losses": 1
    },
    "road": {
-    "wins": 1,
+    "wins": 0,
     "losses": 0
    },
    "lastTen": {
@@ -328,23 +328,23 @@
    "conference": "East",
    "division": "Southeast",
    "wins": 0,
-   "losses": 2,
+   "losses": 3,
    "divisionRank": 5,
    "conferenceRank": 15,
-   "divisionGamesBehind": 2,
+   "divisionGamesBehind": 2.5,
    "home": {
     "wins": 0,
     "losses": 2
    },
    "road": {
     "wins": 0,
-    "losses": 0
+    "losses": 1
    },
    "lastTen": {
     "wins": 0,
-    "losses": 2
+    "losses": 3
    },
-   "streak": "L2"
+   "streak": "L3"
   },
   "OKC": {
    "abbr": "OKC",

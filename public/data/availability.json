@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-25T00:23:31.931Z",
+ "updatedAt": "2026-10-25T01:23:45.489Z",
  "teams": {
   "ATL": [
    {
@@ -194,6 +194,13 @@
     "returnDate": "2026-10-26"
    },
    {
+    "name": "Draymond Green",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Back",
+    "returnDate": "2026-10-26"
+   },
+   {
     "name": "Jimmy Butler III",
     "status": "Out",
     "gameTimeDecision": false,
@@ -226,13 +233,6 @@
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Knee",
-    "returnDate": "2026-10-24"
-   },
-   {
-    "name": "Draymond Green",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Back",
     "returnDate": "2026-10-24"
    }
   ],
@@ -498,13 +498,6 @@
     "gameTimeDecision": false,
     "reason": "Oblique (strain)",
     "returnDate": "2026-10-26"
-   },
-   {
-    "name": "Luke Kennard",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Knee (strain)",
-    "returnDate": "2026-10-24"
    }
   ],
   "POR": [
@@ -551,6 +544,13 @@
     "gameTimeDecision": false,
     "reason": "Knee (dislocated)",
     "returnDate": "2026-11-02"
+   },
+   {
+    "name": "Keegan Murray",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Ankle",
+    "returnDate": "2026-10-25"
    }
   ],
   "SAS": [
