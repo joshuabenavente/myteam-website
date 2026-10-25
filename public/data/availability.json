@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-25T20:23:32.905Z",
+ "updatedAt": "2026-10-25T21:23:52.035Z",
  "teams": {
   "ATL": [
    {
@@ -46,9 +46,9 @@
    {
     "name": "Coby White",
     "status": "Out",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Calf (strain)",
-    "returnDate": "2026-10-26"
+    "returnDate": "2026-10-28"
    },
    {
     "name": "Grant Williams",
@@ -99,22 +99,29 @@
    {
     "name": "Caleb Martin",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Thumb (sprain)",
-    "returnDate": "2026-11-02"
+    "returnDate": "2026-10-26"
    },
    {
     "name": "Cooper Flagg",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Shoulder (sprain)",
-    "returnDate": "2026-11-02"
+    "returnDate": "2026-10-26"
    },
    {
     "name": "Dereck Lively II",
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Foot (surgery)",
+    "returnDate": "2026-10-28"
+   },
+   {
+    "name": "Naji Marshall",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Illness",
     "returnDate": "2026-10-28"
    },
    {
@@ -201,13 +208,6 @@
     "returnDate": "2026-12-01"
    },
    {
-    "name": "Al Horford",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Back",
-    "returnDate": "2026-10-26"
-   },
-   {
     "name": "Brandin Podziemski",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
@@ -215,10 +215,10 @@
     "returnDate": "2026-10-26"
    },
    {
-    "name": "Draymond Green",
+    "name": "Charles Bassey",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
-    "reason": "Back",
+    "reason": "Knee",
     "returnDate": "2026-10-26"
    },
    {
@@ -226,13 +226,6 @@
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Undisclosed",
-    "returnDate": "2026-10-26"
-   },
-   {
-    "name": "Stephen Curry",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Rest",
     "returnDate": "2026-10-26"
    }
   ],
@@ -496,6 +489,13 @@
     "gameTimeDecision": false,
     "reason": "Quadriceps (strain)",
     "returnDate": "2026-10-28"
+   },
+   {
+    "name": "VJ Edgecombe",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Abdomen (bruise)",
+    "returnDate": "2026-10-25"
    }
   ],
   "PHX": [
@@ -603,9 +603,9 @@
    {
     "name": "AJ Dybantsa",
     "status": "Out",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Ankle (sprain)",
-    "returnDate": "2026-10-26"
+    "returnDate": "2026-10-28"
    },
    {
     "name": "Jamir Watkins",
