@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-25T21:23:52.035Z",
+ "updatedAt": "2026-10-25T22:23:39.993Z",
  "teams": {
   "ATL": [
    {
@@ -60,9 +60,9 @@
    {
     "name": "Kon Knueppel",
     "status": "Out",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Hamstring",
-    "returnDate": "2026-10-26"
+    "returnDate": "2026-10-28"
    },
    {
     "name": "Kylan Boswell",
@@ -171,18 +171,18 @@
   ],
   "DET": [
    {
+    "name": "Ausar Thompson",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Ankle (sprain)",
+    "returnDate": "2026-10-27"
+   },
+   {
     "name": "Jalen Duren",
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Hamstring (strain)",
     "returnDate": "2026-11-09"
-   },
-   {
-    "name": "Ausar Thompson",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Ankle (sprain)",
-    "returnDate": "2026-10-25"
    }
   ],
   "GSW": [
@@ -208,10 +208,10 @@
     "returnDate": "2026-12-01"
    },
    {
-    "name": "Brandin Podziemski",
+    "name": "Brandon Williams",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
-    "reason": "Back",
+    "reason": "Back (soreness)",
     "returnDate": "2026-10-26"
    },
    {
@@ -225,30 +225,23 @@
     "name": "Gui Santos",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
-    "reason": "Undisclosed",
+    "reason": "Knee (tendinitis)",
     "returnDate": "2026-10-26"
    }
   ],
   "HOU": [
    {
-    "name": "Fred VanVleet",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Knee",
-    "returnDate": "2026-10-26"
+    "name": "Steven Adams",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Calf (strain)",
+    "returnDate": "2026-10-28"
    },
    {
     "name": "Marcus Smart",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Forearm (strain)",
-    "returnDate": "2026-10-26"
-   },
-   {
-    "name": "Steven Adams",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Ankle",
     "returnDate": "2026-10-26"
    }
   ],
@@ -273,13 +266,6 @@
     "gameTimeDecision": false,
     "reason": "Hamstring",
     "returnDate": "2026-10-26"
-   },
-   {
-    "name": "Aaron Nesmith",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Hamstring (strain)",
-    "returnDate": "2026-10-25"
    }
   ],
   "LAC": [
@@ -319,6 +305,13 @@
     "gameTimeDecision": false,
     "reason": "Heel (surgery)",
     "returnDate": "2026-11-08"
+   },
+   {
+    "name": "Kawhi Leonard",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Knee (inflammation)",
+    "returnDate": "2026-10-28"
    },
    {
     "name": "Nate Bittle",
@@ -388,10 +381,10 @@
   "NYK": [
    {
     "name": "Jose Alvarado",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
+    "status": "Out",
+    "gameTimeDecision": false,
     "reason": "Ankle (sprain)",
-    "returnDate": "2026-10-25"
+    "returnDate": "2026-10-27"
    }
   ],
   "OKC": [
@@ -445,13 +438,6 @@
     "gameTimeDecision": false,
     "reason": "Ankle (sprain)",
     "returnDate": "2026-11-22"
-   },
-   {
-    "name": "Anthony Black",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Ankle (sprain)",
-    "returnDate": "2026-10-25"
    }
   ],
   "PHI": [
