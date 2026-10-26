@@ -1,7 +1,7 @@
 {
  "season": "2026-27",
  "lastSeason": "2025-26",
- "updatedAt": "2026-10-26T03:18:43.147Z",
+ "updatedAt": "2026-10-26T09:18:48.378Z",
  "teamGamesPlayed": {
   "regular": 3,
   "playoffs": 0
@@ -24,21 +24,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4066336.png",
    "current": {
     "regular": {
-     "games": 2,
-     "started": 2,
-     "minutes": 70.4,
-     "points": 34,
-     "rebounds": 15,
-     "assists": 6,
+     "games": 3,
+     "started": 3,
+     "minutes": 108.2,
+     "points": 62,
+     "rebounds": 22,
+     "assists": 7,
      "steals": 1,
      "blocks": 1,
-     "turnovers": 4,
-     "fgMade": 10,
-     "fgAttempted": 26,
-     "threeMade": 5,
-     "threeAttempted": 16,
-     "ftMade": 9,
-     "ftAttempted": 10
+     "turnovers": 5,
+     "fgMade": 19,
+     "fgAttempted": 46,
+     "threeMade": 10,
+     "threeAttempted": 27,
+     "ftMade": 14,
+     "ftAttempted": 16
     }
    },
    "lastFull": {
@@ -97,21 +97,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4277961.png",
    "current": {
     "regular": {
-     "games": 2,
-     "started": 2,
-     "minutes": 61.3,
-     "points": 39,
-     "rebounds": 15,
-     "assists": 5,
+     "games": 3,
+     "started": 3,
+     "minutes": 94.6,
+     "points": 59,
+     "rebounds": 17,
+     "assists": 6,
      "steals": 1,
      "blocks": 5,
-     "turnovers": 8,
-     "fgMade": 13,
-     "fgAttempted": 25,
-     "threeMade": 4,
-     "threeAttempted": 8,
-     "ftMade": 9,
-     "ftAttempted": 12
+     "turnovers": 12,
+     "fgMade": 20,
+     "fgAttempted": 39,
+     "threeMade": 5,
+     "threeAttempted": 12,
+     "ftMade": 14,
+     "ftAttempted": 18
     }
    },
    "lastFull": {
@@ -154,43 +154,6 @@
    }
   },
   {
-   "id": "peterda02",
-   "name": "Darryn Peterson",
-   "number": "22",
-   "position": "SG",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 5\"",
-    "weight": 199,
-    "birthDate": "2007-01-17",
-    "experience": 0,
-    "college": "Kansas",
-    "birthPlace": "Canton, OH"
-   },
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5041955.png",
-   "current": {
-    "regular": {
-     "games": 2,
-     "started": 2,
-     "minutes": 61.1,
-     "points": 24,
-     "rebounds": 7,
-     "assists": 4,
-     "steals": 0,
-     "blocks": 0,
-     "turnovers": 1,
-     "fgMade": 9,
-     "fgAttempted": 19,
-     "threeMade": 1,
-     "threeAttempted": 3,
-     "ftMade": 5,
-     "ftAttempted": 6
-    }
-   },
-   "lastFull": {},
-   "lastToDate": {}
-  },
-  {
    "id": "georgke01",
    "name": "Keyonte George",
    "number": "3",
@@ -207,21 +170,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4433627.png",
    "current": {
     "regular": {
-     "games": 2,
-     "started": 2,
-     "minutes": 61,
-     "points": 41,
-     "rebounds": 4,
-     "assists": 15,
-     "steals": 2,
+     "games": 3,
+     "started": 3,
+     "minutes": 94.3,
+     "points": 65,
+     "rebounds": 13,
+     "assists": 25,
+     "steals": 3,
      "blocks": 0,
-     "turnovers": 8,
-     "fgMade": 13,
-     "fgAttempted": 24,
-     "threeMade": 7,
-     "threeAttempted": 13,
-     "ftMade": 8,
-     "ftAttempted": 13
+     "turnovers": 14,
+     "fgMade": 20,
+     "fgAttempted": 37,
+     "threeMade": 9,
+     "threeAttempted": 19,
+     "ftMade": 16,
+     "ftAttempted": 23
     }
    },
    "lastFull": {
@@ -264,6 +227,116 @@
    }
   },
   {
+   "id": "peterda02",
+   "name": "Darryn Peterson",
+   "number": "22",
+   "position": "SG",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 5\"",
+    "weight": 199,
+    "birthDate": "2007-01-17",
+    "experience": 0,
+    "college": "Kansas",
+    "birthPlace": "Canton, OH"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5041955.png",
+   "current": {
+    "regular": {
+     "games": 3,
+     "started": 3,
+     "minutes": 91.5,
+     "points": 32,
+     "rebounds": 10,
+     "assists": 6,
+     "steals": 3,
+     "blocks": 1,
+     "turnovers": 2,
+     "fgMade": 13,
+     "fgAttempted": 32,
+     "threeMade": 1,
+     "threeAttempted": 7,
+     "ftMade": 5,
+     "ftAttempted": 6
+    }
+   },
+   "lastFull": {},
+   "lastToDate": {}
+  },
+  {
+   "id": "baileac01",
+   "name": "Ace Bailey",
+   "number": "19",
+   "position": "SF",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 9\"",
+    "weight": 200,
+    "birthDate": "2006-08-13",
+    "experience": 1,
+    "college": "Rutgers",
+    "birthPlace": "Chattanooga, TN"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4873138.png",
+   "current": {
+    "regular": {
+     "games": 3,
+     "started": 2,
+     "minutes": 75.2,
+     "points": 35,
+     "rebounds": 24,
+     "assists": 9,
+     "steals": 0,
+     "blocks": 4,
+     "turnovers": 4,
+     "fgMade": 15,
+     "fgAttempted": 30,
+     "threeMade": 4,
+     "threeAttempted": 13,
+     "ftMade": 1,
+     "ftAttempted": 2
+    }
+   },
+   "lastFull": {
+    "regular": {
+     "games": 72,
+     "started": 61,
+     "minutes": 1988.3,
+     "points": 993,
+     "rebounds": 302,
+     "assists": 131,
+     "steals": 60,
+     "blocks": 49,
+     "turnovers": 107,
+     "fgMade": 395,
+     "fgAttempted": 892,
+     "threeMade": 137,
+     "threeAttempted": 398,
+     "ftMade": 66,
+     "ftAttempted": 88
+    }
+   },
+   "lastToDate": {
+    "regular": {
+     "games": 3,
+     "started": 0,
+     "minutes": 47.2,
+     "points": 8,
+     "rebounds": 7,
+     "assists": 4,
+     "steals": 0,
+     "blocks": 0,
+     "turnovers": 1,
+     "fgMade": 3,
+     "fgAttempted": 19,
+     "threeMade": 2,
+     "threeAttempted": 7,
+     "ftMade": 0,
+     "ftAttempted": 0
+    }
+   }
+  },
+  {
    "id": "hayesja02",
    "name": "Jaxson Hayes",
    "number": "11",
@@ -280,21 +353,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4397077.png",
    "current": {
     "regular": {
-     "games": 2,
+     "games": 3,
      "started": 1,
-     "minutes": 52.3,
-     "points": 22,
-     "rebounds": 10,
-     "assists": 5,
-     "steals": 2,
+     "minutes": 71.3,
+     "points": 31,
+     "rebounds": 15,
+     "assists": 6,
+     "steals": 3,
      "blocks": 7,
      "turnovers": 1,
-     "fgMade": 9,
-     "fgAttempted": 11,
+     "fgMade": 13,
+     "fgAttempted": 16,
      "threeMade": 0,
      "threeAttempted": 1,
-     "ftMade": 4,
-     "ftAttempted": 7
+     "ftMade": 5,
+     "ftAttempted": 9
     }
    },
    "lastFull": {
@@ -354,79 +427,6 @@
    }
   },
   {
-   "id": "baileac01",
-   "name": "Ace Bailey",
-   "number": "19",
-   "position": "SF",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 9\"",
-    "weight": 200,
-    "birthDate": "2006-08-13",
-    "experience": 1,
-    "college": "Rutgers",
-    "birthPlace": "Chattanooga, TN"
-   },
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4873138.png",
-   "current": {
-    "regular": {
-     "games": 2,
-     "started": 1,
-     "minutes": 46,
-     "points": 18,
-     "rebounds": 12,
-     "assists": 5,
-     "steals": 0,
-     "blocks": 3,
-     "turnovers": 2,
-     "fgMade": 7,
-     "fgAttempted": 19,
-     "threeMade": 3,
-     "threeAttempted": 11,
-     "ftMade": 1,
-     "ftAttempted": 2
-    }
-   },
-   "lastFull": {
-    "regular": {
-     "games": 72,
-     "started": 61,
-     "minutes": 1988.3,
-     "points": 993,
-     "rebounds": 302,
-     "assists": 131,
-     "steals": 60,
-     "blocks": 49,
-     "turnovers": 107,
-     "fgMade": 395,
-     "fgAttempted": 892,
-     "threeMade": 137,
-     "threeAttempted": 398,
-     "ftMade": 66,
-     "ftAttempted": 88
-    }
-   },
-   "lastToDate": {
-    "regular": {
-     "games": 3,
-     "started": 0,
-     "minutes": 47.2,
-     "points": 8,
-     "rebounds": 7,
-     "assists": 4,
-     "steals": 0,
-     "blocks": 0,
-     "turnovers": 1,
-     "fgMade": 3,
-     "fgAttempted": 19,
-     "threeMade": 2,
-     "threeAttempted": 7,
-     "ftMade": 0,
-     "ftAttempted": 0
-    }
-   }
-  },
-  {
    "id": "mykhasv01",
    "name": "Svi Mykhailiuk",
    "number": "10",
@@ -443,19 +443,19 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3133602.png",
    "current": {
     "regular": {
-     "games": 2,
+     "games": 3,
      "started": 0,
-     "minutes": 40.8,
-     "points": 13,
-     "rebounds": 5,
+     "minutes": 54.6,
+     "points": 15,
+     "rebounds": 8,
      "assists": 3,
      "steals": 4,
      "blocks": 0,
      "turnovers": 1,
-     "fgMade": 5,
-     "fgAttempted": 9,
+     "fgMade": 6,
+     "fgAttempted": 13,
      "threeMade": 2,
-     "threeAttempted": 5,
+     "threeAttempted": 7,
      "ftMade": 1,
      "ftAttempted": 2
     }
@@ -500,61 +500,6 @@
    }
   },
   {
-   "id": "colliis01",
-   "name": "Isaiah Collier",
-   "number": "8",
-   "position": "PG",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 4\"",
-    "weight": 210,
-    "birthDate": "2004-10-08",
-    "experience": 2,
-    "college": "USC",
-    "birthPlace": "Atlanta, GA"
-   },
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4683766.png",
-   "current": {
-    "regular": {
-     "games": 2,
-     "started": 0,
-     "minutes": 33.7,
-     "points": 17,
-     "rebounds": 5,
-     "assists": 10,
-     "steals": 1,
-     "blocks": 0,
-     "turnovers": 5,
-     "fgMade": 5,
-     "fgAttempted": 12,
-     "threeMade": 0,
-     "threeAttempted": 2,
-     "ftMade": 7,
-     "ftAttempted": 11
-    }
-   },
-   "lastFull": {
-    "regular": {
-     "games": 59,
-     "started": 19,
-     "minutes": 1517.5,
-     "points": 688,
-     "rebounds": 150,
-     "assists": 423,
-     "steals": 66,
-     "blocks": 20,
-     "turnovers": 148,
-     "fgMade": 255,
-     "fgAttempted": 515,
-     "threeMade": 27,
-     "threeAttempted": 100,
-     "ftMade": 151,
-     "ftAttempted": 209
-    }
-   },
-   "lastToDate": {}
-  },
-  {
    "id": "sensabr01",
    "name": "Brice Sensabaugh",
    "number": "28",
@@ -571,19 +516,19 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5105839.png",
    "current": {
     "regular": {
-     "games": 2,
+     "games": 3,
      "started": 0,
-     "minutes": 29.2,
-     "points": 12,
-     "rebounds": 5,
-     "assists": 3,
+     "minutes": 46.5,
+     "points": 19,
+     "rebounds": 11,
+     "assists": 4,
      "steals": 0,
      "blocks": 1,
      "turnovers": 3,
-     "fgMade": 4,
-     "fgAttempted": 10,
-     "threeMade": 2,
-     "threeAttempted": 6,
+     "fgMade": 7,
+     "fgAttempted": 17,
+     "threeMade": 3,
+     "threeAttempted": 10,
      "ftMade": 2,
      "ftAttempted": 2
     }
@@ -624,6 +569,151 @@
      "threeAttempted": 18,
      "ftMade": 4,
      "ftAttempted": 4
+    }
+   }
+  },
+  {
+   "id": "colliis01",
+   "name": "Isaiah Collier",
+   "number": "8",
+   "position": "PG",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 4\"",
+    "weight": 210,
+    "birthDate": "2004-10-08",
+    "experience": 2,
+    "college": "USC",
+    "birthPlace": "Atlanta, GA"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4683766.png",
+   "current": {
+    "regular": {
+     "games": 3,
+     "started": 0,
+     "minutes": 46.5,
+     "points": 23,
+     "rebounds": 8,
+     "assists": 16,
+     "steals": 1,
+     "blocks": 0,
+     "turnovers": 6,
+     "fgMade": 7,
+     "fgAttempted": 18,
+     "threeMade": 0,
+     "threeAttempted": 4,
+     "ftMade": 9,
+     "ftAttempted": 14
+    }
+   },
+   "lastFull": {
+    "regular": {
+     "games": 59,
+     "started": 19,
+     "minutes": 1517.5,
+     "points": 688,
+     "rebounds": 150,
+     "assists": 423,
+     "steals": 66,
+     "blocks": 20,
+     "turnovers": 148,
+     "fgMade": 255,
+     "fgAttempted": 515,
+     "threeMade": 27,
+     "threeAttempted": 100,
+     "ftMade": 151,
+     "ftAttempted": 209
+    }
+   },
+   "lastToDate": {}
+  },
+  {
+   "id": "okogijo01",
+   "name": "Josh Okogie",
+   "number": "21",
+   "position": "SG",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 4\"",
+    "weight": 213,
+    "birthDate": "1998-09-01",
+    "experience": 8,
+    "college": "Georgia Tech",
+    "birthPlace": "Lagos, Nigeria"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4065663.png",
+   "current": {
+    "regular": {
+     "games": 2,
+     "started": 0,
+     "minutes": 17.3,
+     "points": 2,
+     "rebounds": 3,
+     "assists": 2,
+     "steals": 1,
+     "blocks": 0,
+     "turnovers": 2,
+     "fgMade": 1,
+     "fgAttempted": 3,
+     "threeMade": 0,
+     "threeAttempted": 1,
+     "ftMade": 0,
+     "ftAttempted": 0
+    }
+   },
+   "lastFull": {
+    "regular": {
+     "games": 78,
+     "started": 32,
+     "minutes": 1354.5,
+     "points": 353,
+     "rebounds": 200,
+     "assists": 69,
+     "steals": 63,
+     "blocks": 16,
+     "turnovers": 41,
+     "fgMade": 125,
+     "fgAttempted": 294,
+     "threeMade": 62,
+     "threeAttempted": 161,
+     "ftMade": 41,
+     "ftAttempted": 69
+    },
+    "playoffs": {
+     "games": 6,
+     "started": 2,
+     "minutes": 104.5,
+     "points": 29,
+     "rebounds": 14,
+     "assists": 5,
+     "steals": 7,
+     "blocks": 0,
+     "turnovers": 3,
+     "fgMade": 11,
+     "fgAttempted": 25,
+     "threeMade": 5,
+     "threeAttempted": 13,
+     "ftMade": 2,
+     "ftAttempted": 2
+    }
+   },
+   "lastToDate": {
+    "regular": {
+     "games": 3,
+     "started": 1,
+     "minutes": 68.2,
+     "points": 28,
+     "rebounds": 6,
+     "assists": 3,
+     "steals": 2,
+     "blocks": 1,
+     "turnovers": 1,
+     "fgMade": 7,
+     "fgAttempted": 12,
+     "threeMade": 4,
+     "threeAttempted": 7,
+     "ftMade": 10,
+     "ftAttempted": 12
     }
    }
   },
@@ -701,94 +791,59 @@
    }
   },
   {
-   "id": "okogijo01",
-   "name": "Josh Okogie",
-   "number": "21",
+   "id": "greenjo02",
+   "name": "Josh Green",
+   "number": "5",
    "position": "SG",
    "twoWay": false,
    "bio": {
-    "height": "6' 4\"",
-    "weight": 213,
-    "birthDate": "1998-09-01",
-    "experience": 8,
-    "college": "Georgia Tech",
-    "birthPlace": "Lagos, Nigeria"
+    "height": "6' 6\"",
+    "weight": 200,
+    "birthDate": "2000-11-16",
+    "experience": 6,
+    "college": "Arizona",
+    "birthPlace": "Sydney, NSW"
    },
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4065663.png",
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4432811.png",
    "current": {
     "regular": {
      "games": 1,
      "started": 0,
-     "minutes": 7.6,
+     "minutes": 3.5,
      "points": 0,
-     "rebounds": 1,
-     "assists": 0,
+     "rebounds": 0,
+     "assists": 1,
      "steals": 0,
      "blocks": 0,
      "turnovers": 0,
      "fgMade": 0,
-     "fgAttempted": 1,
+     "fgAttempted": 0,
      "threeMade": 0,
-     "threeAttempted": 1,
+     "threeAttempted": 0,
      "ftMade": 0,
      "ftAttempted": 0
     }
    },
    "lastFull": {
     "regular": {
-     "games": 78,
-     "started": 32,
-     "minutes": 1354.5,
-     "points": 353,
-     "rebounds": 200,
-     "assists": 69,
-     "steals": 63,
-     "blocks": 16,
-     "turnovers": 41,
-     "fgMade": 125,
-     "fgAttempted": 294,
-     "threeMade": 62,
-     "threeAttempted": 161,
-     "ftMade": 41,
-     "ftAttempted": 69
-    },
-    "playoffs": {
-     "games": 6,
-     "started": 2,
-     "minutes": 104.5,
-     "points": 29,
-     "rebounds": 14,
-     "assists": 5,
-     "steals": 7,
-     "blocks": 0,
-     "turnovers": 3,
-     "fgMade": 11,
-     "fgAttempted": 25,
-     "threeMade": 5,
-     "threeAttempted": 13,
-     "ftMade": 2,
-     "ftAttempted": 2
+     "games": 58,
+     "started": 0,
+     "minutes": 908.2,
+     "points": 249,
+     "rebounds": 102,
+     "assists": 47,
+     "steals": 35,
+     "blocks": 6,
+     "turnovers": 35,
+     "fgMade": 83,
+     "fgAttempted": 181,
+     "threeMade": 58,
+     "threeAttempted": 138,
+     "ftMade": 25,
+     "ftAttempted": 28
     }
    },
-   "lastToDate": {
-    "regular": {
-     "games": 3,
-     "started": 1,
-     "minutes": 68.2,
-     "points": 28,
-     "rebounds": 6,
-     "assists": 3,
-     "steals": 2,
-     "blocks": 1,
-     "turnovers": 1,
-     "fgMade": 7,
-     "fgAttempted": 12,
-     "threeMade": 4,
-     "threeAttempted": 7,
-     "ftMade": 10,
-     "ftAttempted": 12
-    }
-   }
+   "lastToDate": {}
   },
   {
    "id": "nurkiju01",
@@ -843,43 +898,6 @@
      "ftAttempted": 2
     }
    }
-  },
-  {
-   "id": "greenjo02",
-   "name": "Josh Green",
-   "position": "SG",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 6\"",
-    "weight": 200,
-    "birthDate": "2000-11-16",
-    "experience": 6,
-    "college": "Arizona",
-    "birthPlace": "Sydney, NSW"
-   },
-   "number": "5",
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4432811.png",
-   "current": {},
-   "lastFull": {
-    "regular": {
-     "games": 58,
-     "started": 0,
-     "minutes": 908.2,
-     "points": 249,
-     "rebounds": 102,
-     "assists": 47,
-     "steals": 35,
-     "blocks": 6,
-     "turnovers": 35,
-     "fgMade": 83,
-     "fgAttempted": 181,
-     "threeMade": 58,
-     "threeAttempted": 138,
-     "ftMade": 25,
-     "ftAttempted": 28
-    }
-   },
-   "lastToDate": {}
   },
   {
    "id": "bradlto01",
