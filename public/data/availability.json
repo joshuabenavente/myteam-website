@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-26T22:23:40.130Z",
+ "updatedAt": "2026-10-26T23:23:37.172Z",
  "teams": {
   "ATL": [
    {
@@ -48,21 +48,21 @@
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Calf (strain)",
-    "returnDate": "2026-10-28"
+    "returnDate": "2026-10-31"
    },
    {
     "name": "Grant Williams",
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Hamstring",
-    "returnDate": "2026-10-30"
+    "returnDate": "2026-10-31"
    },
    {
     "name": "Kon Knueppel",
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Hamstring",
-    "returnDate": "2026-10-28"
+    "returnDate": "2026-10-31"
    },
    {
     "name": "Kylan Boswell",
@@ -123,13 +123,6 @@
     "gameTimeDecision": false,
     "reason": "Heel (inflammation)",
     "returnDate": "2026-11-02"
-   },
-   {
-    "name": "Cooper Flagg",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Shoulder (sprain)",
-    "returnDate": "2026-10-26"
    }
   ],
   "DEN": [
@@ -242,10 +235,17 @@
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Calf (strain)",
-    "returnDate": "2026-10-28"
+    "returnDate": "2026-11-02"
    }
   ],
   "IND": [
+   {
+    "name": "Andrew Nembhard",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Back (soreness)",
+    "returnDate": "2026-10-28"
+   },
    {
     "name": "Ben Sheppard",
     "status": "Out",
@@ -273,20 +273,6 @@
     "gameTimeDecision": false,
     "reason": "Hamstring (strain)",
     "returnDate": "2026-10-28"
-   },
-   {
-    "name": "Aaron Nesmith",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Hamstring",
-    "returnDate": "2026-10-26"
-   },
-   {
-    "name": "Andrew Nembhard",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Neck (soreness)",
-    "returnDate": "2026-10-26"
    }
   ],
   "LAC": [
