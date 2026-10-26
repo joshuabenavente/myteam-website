@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-26T04:23:39.624Z",
+ "updatedAt": "2026-10-26T14:23:36.077Z",
  "teams": {
   "ATL": [
    {
@@ -28,17 +28,17 @@
   ],
   "BKN": [
    {
-    "name": "Mikel Brown Jr.",
+    "name": "Tyler Bilodeau",
     "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Rest",
+    "gameTimeDecision": true,
+    "reason": "Shoulder (sprain)",
     "returnDate": "2026-10-27"
    },
    {
-    "name": "Tyler Bilodeau",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Shoulder (sprain)",
+    "name": "Mikel Brown Jr.",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Rest",
     "returnDate": "2026-10-27"
    }
   ],
@@ -171,18 +171,18 @@
   ],
   "DET": [
    {
-    "name": "Ausar Thompson",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Ankle (sprain)",
-    "returnDate": "2026-10-27"
-   },
-   {
     "name": "Jalen Duren",
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Hamstring (strain)",
     "returnDate": "2026-11-09"
+   },
+   {
+    "name": "Ausar Thompson",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Ankle (sprain)",
+    "returnDate": "2026-10-27"
    },
    {
     "name": "Isaiah Joe",
@@ -270,7 +270,7 @@
    {
     "name": "T.J. McConnell",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Hamstring",
     "returnDate": "2026-10-26"
    },
@@ -321,17 +321,17 @@
     "returnDate": "2026-11-08"
    },
    {
-    "name": "Kawhi Leonard",
+    "name": "Nate Bittle",
     "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Knee (inflammation)",
+    "gameTimeDecision": true,
+    "reason": "Foot (fracture)",
     "returnDate": "2026-10-28"
    },
    {
-    "name": "Nate Bittle",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Foot (fracture)",
+    "name": "Kawhi Leonard",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Knee (inflammation)",
     "returnDate": "2026-10-28"
    }
   ],
@@ -339,14 +339,14 @@
    {
     "name": "Adou Thiero",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Knee (inflammation)",
     "returnDate": "2026-10-27"
    },
    {
     "name": "Cameron Carr",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Oblique (strain)",
     "returnDate": "2026-10-27"
    }
@@ -354,15 +354,15 @@
   "MEM": [
    {
     "name": "Karim Lopez",
-    "status": "Out",
-    "gameTimeDecision": false,
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
     "reason": "Knee (bruise)",
     "returnDate": "2026-10-26"
    },
    {
     "name": "Zach Edey",
-    "status": "Out",
-    "gameTimeDecision": false,
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
     "reason": "Ankle",
     "returnDate": "2026-10-26"
    }
@@ -388,17 +388,24 @@
   "NYK": [
    {
     "name": "Jose Alvarado",
-    "status": "Out",
-    "gameTimeDecision": false,
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
     "reason": "Ankle (sprain)",
     "returnDate": "2026-10-27"
    }
   ],
   "OKC": [
    {
-    "name": "Nikola Topic",
+    "name": "Jalen Williams",
     "status": "Out",
     "gameTimeDecision": false,
+    "reason": "Ankle",
+    "returnDate": "2026-11-02"
+   },
+   {
+    "name": "Nikola Topic",
+    "status": "Out",
+    "gameTimeDecision": true,
     "reason": "Back (surgery)",
     "returnDate": "2026-10-26"
    },
@@ -412,7 +419,7 @@
    {
     "name": "Thomas Sorber",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Knee (surgery)",
     "returnDate": "2026-10-26"
    },
@@ -422,13 +429,6 @@
     "gameTimeDecision": true,
     "reason": "Shoulder",
     "returnDate": "2026-10-26"
-   },
-   {
-    "name": "Jalen Williams",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Ankle",
-    "returnDate": "2026-11-02"
    },
    {
     "name": "Jaylin Williams",
@@ -449,7 +449,7 @@
    {
     "name": "Jonathan Isaac",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Knee",
     "returnDate": "2026-10-28"
    },
@@ -491,30 +491,30 @@
     "returnDate": "2026-11-02"
    },
    {
-    "name": "Jabari Walker",
+    "name": "Tacko Fall",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
+    "reason": "Quadriceps (strain)",
+    "returnDate": "2026-10-28"
+   },
+   {
+    "name": "Jabari Walker",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
     "reason": "Knee (soreness)",
     "returnDate": "2026-10-28"
    },
    {
     "name": "Joel Embiid",
-    "status": "Out",
-    "gameTimeDecision": false,
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
     "reason": "Heel",
     "returnDate": "2026-10-28"
    },
    {
-    "name": "Tacko Fall",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Quadriceps (strain)",
-    "returnDate": "2026-10-28"
-   },
-   {
     "name": "VJ Edgecombe",
-    "status": "Out",
-    "gameTimeDecision": false,
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
     "reason": "Abdomen (bruise)",
     "returnDate": "2026-10-28"
    }
@@ -615,7 +615,7 @@
    {
     "name": "Trey Alexander",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Knee (bruise)",
     "returnDate": "2026-10-26"
    }
