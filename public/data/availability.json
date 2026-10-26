@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-25T23:23:38.475Z",
+ "updatedAt": "2026-10-26T00:23:36.392Z",
  "teams": {
   "ATL": [
    {
@@ -272,7 +272,7 @@
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Ankle (sprain)",
-    "returnDate": "2026-10-25"
+    "returnDate": "2026-10-26"
    }
   ],
   "LAC": [
@@ -355,16 +355,14 @@
    {
     "name": "Cedric Coward",
     "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Wrist (sprain)",
-    "returnDate": "2026-10-25"
+    "gameTimeDecision": false
    },
    {
     "name": "Karim Lopez",
     "status": "Day-To-Day",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Knee (bruise)",
-    "returnDate": "2026-10-25"
+    "returnDate": "2026-10-26"
    }
   ],
   "MIN": [
@@ -415,6 +413,13 @@
     "gameTimeDecision": false,
     "reason": "Knee (surgery)",
     "returnDate": "2026-10-26"
+   },
+   {
+    "name": "Cason Wallace",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Shoulder",
+    "returnDate": "2026-10-25"
    }
   ],
   "ORL": [

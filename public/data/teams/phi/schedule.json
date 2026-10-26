@@ -74,7 +74,11 @@
    "startUtc": "2026-10-25T23:30:00Z",
    "home": true,
    "opponent": "DET",
-   "status": "scheduled",
+   "status": "live",
+   "score": {
+    "team": 0,
+    "opponent": 0
+   },
    "broadcasts": [
     {
      "name": "NBCSP/PCK-PHI",
