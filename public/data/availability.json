@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-26T21:23:51.075Z",
+ "updatedAt": "2026-10-26T22:23:40.130Z",
  "teams": {
   "ATL": [
    {
@@ -70,13 +70,6 @@
     "gameTimeDecision": false,
     "reason": "Knee (surgery)",
     "returnDate": "2026-11-02"
-   },
-   {
-    "name": "Naz Reid",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Illness",
-    "returnDate": "2026-10-26"
    }
   ],
   "CHI": [
@@ -88,18 +81,11 @@
     "returnDate": "2026-11-04"
    },
    {
-    "name": "Noa Essengue",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Head (bruise)",
-    "returnDate": "2026-10-26"
-   },
-   {
     "name": "Patrick Williams",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
+    "status": "Out",
+    "gameTimeDecision": false,
     "reason": "Groin (soreness)",
-    "returnDate": "2026-10-26"
+    "returnDate": "2026-10-28"
    }
   ],
   "DAL": [
@@ -395,13 +381,6 @@
     "gameTimeDecision": false,
     "reason": "Achilles (surgery)",
     "returnDate": "2027-04-02"
-   },
-   {
-    "name": "Anthony Edwards",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Knee",
-    "returnDate": "2026-10-26"
    }
   ],
   "NOP": [
@@ -428,7 +407,7 @@
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Shoulder",
-    "returnDate": "2026-10-28"
+    "returnDate": "2027-03-02"
    },
    {
     "name": "Chet Holmgren",
@@ -441,7 +420,7 @@
     "name": "Jalen Williams",
     "status": "Out",
     "gameTimeDecision": false,
-    "reason": "Ankle",
+    "reason": "Leg (fracture)",
     "returnDate": "2027-03-02"
    },
    {
@@ -599,21 +578,21 @@
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Calf (strain)",
-    "returnDate": "2026-11-02"
+    "returnDate": "2026-11-06"
+   },
+   {
+    "name": "Keegan Murray",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Ankle",
+    "returnDate": "2026-11-06"
    },
    {
     "name": "Maxime Raynaud",
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Knee (dislocated)",
-    "returnDate": "2026-11-02"
-   },
-   {
-    "name": "Keegan Murray",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Ankle",
-    "returnDate": "2026-10-27"
+    "returnDate": "2026-11-10"
    }
   ],
   "SAS": [
@@ -627,9 +606,9 @@
    {
     "name": "Tobias Harris",
     "status": "Out",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Calf (strain)",
-    "returnDate": "2026-10-27"
+    "returnDate": "2026-10-28"
    }
   ],
   "UTA": [
