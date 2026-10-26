@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-26T19:23:46.512Z",
+ "updatedAt": "2026-10-26T20:23:37.371Z",
  "teams": {
   "ATL": [
    {
@@ -445,11 +445,25 @@
     "returnDate": "2027-03-02"
    },
    {
+    "name": "Nikola Topic",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Back",
+    "returnDate": "2026-10-28"
+   },
+   {
     "name": "Otega Oweh",
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Achilles (surgery)",
     "returnDate": "2027-07-01"
+   },
+   {
+    "name": "Thomas Sorber",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Knee",
+    "returnDate": "2026-10-28"
    }
   ],
   "ORL": [
