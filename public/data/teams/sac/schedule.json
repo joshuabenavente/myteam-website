@@ -45,7 +45,11 @@
    "startUtc": "2026-10-26T01:00:00Z",
    "home": true,
    "opponent": "MEM",
-   "status": "scheduled",
+   "status": "live",
+   "score": {
+    "team": 0,
+    "opponent": 0
+   },
    "broadcasts": [
     {
      "name": "NBCSCA/PCK-SAC",

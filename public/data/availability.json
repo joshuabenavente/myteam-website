@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-26T00:23:36.392Z",
+ "updatedAt": "2026-10-26T01:23:57.136Z",
  "teams": {
   "ATL": [
    {
@@ -183,6 +183,13 @@
     "gameTimeDecision": false,
     "reason": "Hamstring (strain)",
     "returnDate": "2026-11-09"
+   },
+   {
+    "name": "Isaiah Joe",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Hip (bruise)",
+    "returnDate": "2026-10-27"
    }
   ],
   "GSW": [
@@ -346,22 +353,17 @@
   ],
   "MEM": [
    {
+    "name": "Karim Lopez",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Knee (bruise)",
+    "returnDate": "2026-10-26"
+   },
+   {
     "name": "Zach Edey",
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Ankle",
-    "returnDate": "2026-10-26"
-   },
-   {
-    "name": "Cedric Coward",
-    "status": "Day-To-Day",
-    "gameTimeDecision": false
-   },
-   {
-    "name": "Karim Lopez",
-    "status": "Day-To-Day",
-    "gameTimeDecision": false,
-    "reason": "Knee (bruise)",
     "returnDate": "2026-10-26"
    }
   ],
@@ -419,7 +421,14 @@
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Shoulder",
-    "returnDate": "2026-10-25"
+    "returnDate": "2026-10-26"
+   },
+   {
+    "name": "Jaylin Williams",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Wrist (soreness)",
+    "returnDate": "2026-10-26"
    }
   ],
   "ORL": [
