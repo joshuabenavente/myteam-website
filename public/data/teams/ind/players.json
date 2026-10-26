@@ -1,12 +1,49 @@
 {
  "season": "2026-27",
  "lastSeason": "2025-26",
- "updatedAt": "2026-10-26T06:23:33.106Z",
+ "updatedAt": "2026-10-26T12:28:10.345Z",
  "teamGamesPlayed": {
   "regular": 3,
   "playoffs": 0
  },
  "players": [
+  {
+   "id": "halibty01",
+   "name": "Tyrese Haliburton",
+   "number": "0",
+   "position": "PG",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 5\"",
+    "weight": 185,
+    "birthDate": "2000-02-29",
+    "experience": 5,
+    "college": "Iowa State",
+    "birthPlace": "Oshkosh, WI"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4396993.png",
+   "current": {
+    "regular": {
+     "games": 3,
+     "started": 3,
+     "minutes": 97.1,
+     "points": 65,
+     "rebounds": 12,
+     "assists": 29,
+     "steals": 4,
+     "blocks": 2,
+     "turnovers": 8,
+     "fgMade": 24,
+     "fgAttempted": 45,
+     "threeMade": 6,
+     "threeAttempted": 17,
+     "ftMade": 11,
+     "ftAttempted": 12
+    }
+   },
+   "lastFull": {},
+   "lastToDate": {}
+  },
   {
    "id": "nembhan01",
    "name": "Andrew Nembhard",
@@ -24,19 +61,19 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4395712.png",
    "current": {
     "regular": {
-     "games": 2,
-     "started": 2,
-     "minutes": 66,
-     "points": 34,
-     "rebounds": 4,
-     "assists": 14,
-     "steals": 2,
+     "games": 3,
+     "started": 3,
+     "minutes": 95.6,
+     "points": 48,
+     "rebounds": 5,
+     "assists": 17,
+     "steals": 3,
      "blocks": 0,
-     "turnovers": 3,
-     "fgMade": 11,
-     "fgAttempted": 21,
-     "threeMade": 1,
-     "threeAttempted": 5,
+     "turnovers": 6,
+     "fgMade": 16,
+     "fgAttempted": 29,
+     "threeMade": 5,
+     "threeAttempted": 11,
      "ftMade": 11,
      "ftAttempted": 12
     }
@@ -81,43 +118,6 @@
    }
   },
   {
-   "id": "halibty01",
-   "name": "Tyrese Haliburton",
-   "number": "0",
-   "position": "PG",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 5\"",
-    "weight": 185,
-    "birthDate": "2000-02-29",
-    "experience": 5,
-    "college": "Iowa State",
-    "birthPlace": "Oshkosh, WI"
-   },
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4396993.png",
-   "current": {
-    "regular": {
-     "games": 2,
-     "started": 2,
-     "minutes": 65.7,
-     "points": 41,
-     "rebounds": 8,
-     "assists": 19,
-     "steals": 2,
-     "blocks": 2,
-     "turnovers": 6,
-     "fgMade": 16,
-     "fgAttempted": 32,
-     "threeMade": 2,
-     "threeAttempted": 10,
-     "ftMade": 7,
-     "ftAttempted": 7
-    }
-   },
-   "lastFull": {},
-   "lastToDate": {}
-  },
-  {
    "id": "siakapa01",
    "name": "Pascal Siakam",
    "number": "43",
@@ -134,21 +134,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3149673.png",
    "current": {
     "regular": {
-     "games": 2,
-     "started": 2,
-     "minutes": 64.3,
-     "points": 53,
-     "rebounds": 11,
-     "assists": 4,
-     "steals": 1,
+     "games": 3,
+     "started": 3,
+     "minutes": 89.9,
+     "points": 74,
+     "rebounds": 18,
+     "assists": 10,
+     "steals": 2,
      "blocks": 0,
-     "turnovers": 7,
-     "fgMade": 21,
-     "fgAttempted": 36,
-     "threeMade": 4,
-     "threeAttempted": 8,
-     "ftMade": 7,
-     "ftAttempted": 15
+     "turnovers": 8,
+     "fgMade": 28,
+     "fgAttempted": 51,
+     "threeMade": 7,
+     "threeAttempted": 14,
+     "ftMade": 11,
+     "ftAttempted": 21
     }
    },
    "lastFull": {
@@ -191,78 +191,6 @@
    }
   },
   {
-   "id": "zubaciv01",
-   "name": "Ivica Zubac",
-   "number": "40",
-   "position": "C",
-   "twoWay": false,
-   "bio": {
-    "height": "7' 0\"",
-    "weight": 240,
-    "birthDate": "1997-03-18",
-    "experience": 10,
-    "birthPlace": "Mostar, Bosnia & Herzegovina"
-   },
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4017837.png",
-   "current": {
-    "regular": {
-     "games": 2,
-     "started": 2,
-     "minutes": 57.3,
-     "points": 25,
-     "rebounds": 26,
-     "assists": 2,
-     "steals": 0,
-     "blocks": 3,
-     "turnovers": 4,
-     "fgMade": 11,
-     "fgAttempted": 19,
-     "threeMade": 0,
-     "threeAttempted": 0,
-     "ftMade": 3,
-     "ftAttempted": 6
-    }
-   },
-   "lastFull": {
-    "regular": {
-     "games": 48,
-     "started": 47,
-     "minutes": 1447,
-     "points": 677,
-     "rebounds": 509,
-     "assists": 105,
-     "steals": 18,
-     "blocks": 40,
-     "turnovers": 86,
-     "fgMade": 288,
-     "fgAttempted": 482,
-     "threeMade": 0,
-     "threeAttempted": 0,
-     "ftMade": 101,
-     "ftAttempted": 142
-    }
-   },
-   "lastToDate": {
-    "regular": {
-     "games": 3,
-     "started": 3,
-     "minutes": 86.5,
-     "points": 48,
-     "rebounds": 20,
-     "assists": 10,
-     "steals": 0,
-     "blocks": 3,
-     "turnovers": 6,
-     "fgMade": 21,
-     "fgAttempted": 32,
-     "threeMade": 0,
-     "threeAttempted": 0,
-     "ftMade": 6,
-     "ftAttempted": 7
-    }
-   }
-  },
-  {
    "id": "toppiob01",
    "name": "Obi Toppin",
    "number": "1",
@@ -279,19 +207,19 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4278355.png",
    "current": {
     "regular": {
-     "games": 2,
+     "games": 3,
      "started": 0,
-     "minutes": 49.9,
-     "points": 33,
-     "rebounds": 8,
-     "assists": 2,
+     "minutes": 69.6,
+     "points": 49,
+     "rebounds": 14,
+     "assists": 4,
      "steals": 2,
      "blocks": 1,
-     "turnovers": 1,
-     "fgMade": 12,
-     "fgAttempted": 22,
-     "threeMade": 4,
-     "threeAttempted": 11,
+     "turnovers": 2,
+     "fgMade": 18,
+     "fgAttempted": 31,
+     "threeMade": 8,
+     "threeAttempted": 18,
      "ftMade": 5,
      "ftAttempted": 6
     }
@@ -352,21 +280,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3133603.png",
    "current": {
     "regular": {
-     "games": 2,
+     "games": 3,
      "started": 1,
-     "minutes": 47.3,
-     "points": 7,
-     "rebounds": 4,
-     "assists": 5,
+     "minutes": 67,
+     "points": 21,
+     "rebounds": 6,
+     "assists": 7,
      "steals": 2,
      "blocks": 1,
-     "turnovers": 1,
-     "fgMade": 3,
-     "fgAttempted": 15,
-     "threeMade": 1,
-     "threeAttempted": 9,
-     "ftMade": 0,
-     "ftAttempted": 0
+     "turnovers": 2,
+     "fgMade": 9,
+     "fgAttempted": 24,
+     "threeMade": 2,
+     "threeAttempted": 13,
+     "ftMade": 1,
+     "ftAttempted": 1
     }
    },
    "lastFull": {
@@ -426,6 +354,78 @@
    }
   },
   {
+   "id": "zubaciv01",
+   "name": "Ivica Zubac",
+   "number": "40",
+   "position": "C",
+   "twoWay": false,
+   "bio": {
+    "height": "7' 0\"",
+    "weight": 240,
+    "birthDate": "1997-03-18",
+    "experience": 10,
+    "birthPlace": "Mostar, Bosnia & Herzegovina"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4017837.png",
+   "current": {
+    "regular": {
+     "games": 3,
+     "started": 3,
+     "minutes": 64.4,
+     "points": 27,
+     "rebounds": 27,
+     "assists": 4,
+     "steals": 0,
+     "blocks": 3,
+     "turnovers": 5,
+     "fgMade": 12,
+     "fgAttempted": 20,
+     "threeMade": 0,
+     "threeAttempted": 0,
+     "ftMade": 3,
+     "ftAttempted": 6
+    }
+   },
+   "lastFull": {
+    "regular": {
+     "games": 48,
+     "started": 47,
+     "minutes": 1447,
+     "points": 677,
+     "rebounds": 509,
+     "assists": 105,
+     "steals": 18,
+     "blocks": 40,
+     "turnovers": 86,
+     "fgMade": 288,
+     "fgAttempted": 482,
+     "threeMade": 0,
+     "threeAttempted": 0,
+     "ftMade": 101,
+     "ftAttempted": 142
+    }
+   },
+   "lastToDate": {
+    "regular": {
+     "games": 3,
+     "started": 3,
+     "minutes": 86.5,
+     "points": 48,
+     "rebounds": 20,
+     "assists": 10,
+     "steals": 0,
+     "blocks": 3,
+     "turnovers": 6,
+     "fgMade": 21,
+     "fgAttempted": 32,
+     "threeMade": 0,
+     "threeAttempted": 0,
+     "ftMade": 6,
+     "ftAttempted": 7
+    }
+   }
+  },
+  {
    "id": "walkeja02",
    "name": "Jarace Walker",
    "number": "5",
@@ -442,19 +442,19 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5106060.png",
    "current": {
     "regular": {
-     "games": 2,
+     "games": 3,
      "started": 1,
-     "minutes": 35.4,
-     "points": 5,
-     "rebounds": 7,
-     "assists": 3,
-     "steals": 0,
+     "minutes": 54.6,
+     "points": 11,
+     "rebounds": 14,
+     "assists": 4,
+     "steals": 1,
      "blocks": 1,
-     "turnovers": 8,
-     "fgMade": 2,
-     "fgAttempted": 8,
+     "turnovers": 9,
+     "fgMade": 5,
+     "fgAttempted": 15,
      "threeMade": 1,
-     "threeAttempted": 4,
+     "threeAttempted": 6,
      "ftMade": 0,
      "ftAttempted": 0
     }
@@ -515,21 +515,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4592829.png",
    "current": {
     "regular": {
-     "games": 2,
+     "games": 3,
      "started": 0,
-     "minutes": 32.4,
-     "points": 14,
-     "rebounds": 5,
-     "assists": 4,
-     "steals": 4,
-     "blocks": 0,
-     "turnovers": 0,
-     "fgMade": 5,
-     "fgAttempted": 11,
+     "minutes": 50.3,
+     "points": 19,
+     "rebounds": 6,
+     "assists": 6,
+     "steals": 5,
+     "blocks": 1,
+     "turnovers": 1,
+     "fgMade": 6,
+     "fgAttempted": 15,
      "threeMade": 1,
-     "threeAttempted": 6,
-     "ftMade": 3,
-     "ftAttempted": 3
+     "threeAttempted": 8,
+     "ftMade": 6,
+     "ftAttempted": 7
     }
    },
    "lastFull": {
@@ -588,21 +588,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4396909.png",
    "current": {
     "regular": {
-     "games": 1,
-     "started": 0,
-     "minutes": 20.1,
-     "points": 9,
-     "rebounds": 4,
-     "assists": 1,
+     "games": 2,
+     "started": 1,
+     "minutes": 39.5,
+     "points": 22,
+     "rebounds": 5,
+     "assists": 3,
      "steals": 0,
      "blocks": 0,
-     "turnovers": 1,
-     "fgMade": 2,
-     "fgAttempted": 7,
-     "threeMade": 1,
-     "threeAttempted": 5,
-     "ftMade": 4,
-     "ftAttempted": 6
+     "turnovers": 3,
+     "fgMade": 7,
+     "fgAttempted": 17,
+     "threeMade": 3,
+     "threeAttempted": 10,
+     "ftMade": 5,
+     "ftAttempted": 7
     }
    },
    "lastFull": {
@@ -645,6 +645,169 @@
    }
   },
   {
+   "id": "nancela02",
+   "name": "Larry Nance Jr.",
+   "number": "22",
+   "position": "PF",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 6\"",
+    "weight": 245,
+    "birthDate": "1993-01-01",
+    "experience": 11,
+    "college": "Wyoming",
+    "birthPlace": "Akron, OH"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/2580365.png",
+   "current": {
+    "regular": {
+     "games": 3,
+     "started": 0,
+     "minutes": 28.3,
+     "points": 6,
+     "rebounds": 6,
+     "assists": 1,
+     "steals": 1,
+     "blocks": 0,
+     "turnovers": 1,
+     "fgMade": 2,
+     "fgAttempted": 4,
+     "threeMade": 1,
+     "threeAttempted": 2,
+     "ftMade": 1,
+     "ftAttempted": 1
+    }
+   },
+   "lastFull": {
+    "regular": {
+     "games": 35,
+     "started": 3,
+     "minutes": 449,
+     "points": 131,
+     "rebounds": 93,
+     "assists": 34,
+     "steals": 21,
+     "blocks": 6,
+     "turnovers": 20,
+     "fgMade": 52,
+     "fgAttempted": 124,
+     "threeMade": 21,
+     "threeAttempted": 63,
+     "ftMade": 6,
+     "ftAttempted": 13
+    },
+    "playoffs": {
+     "games": 2,
+     "started": 0,
+     "minutes": 4.6,
+     "points": 0,
+     "rebounds": 0,
+     "assists": 0,
+     "steals": 0,
+     "blocks": 0,
+     "turnovers": 1,
+     "fgMade": 0,
+     "fgAttempted": 0,
+     "threeMade": 0,
+     "threeAttempted": 0,
+     "ftMade": 0,
+     "ftAttempted": 0
+    }
+   },
+   "lastToDate": {
+    "regular": {
+     "games": 3,
+     "started": 0,
+     "minutes": 44.8,
+     "points": 24,
+     "rebounds": 14,
+     "assists": 3,
+     "steals": 2,
+     "blocks": 0,
+     "turnovers": 2,
+     "fgMade": 10,
+     "fgAttempted": 18,
+     "threeMade": 3,
+     "threeAttempted": 4,
+     "ftMade": 1,
+     "ftAttempted": 3
+    }
+   }
+  },
+  {
+   "id": "huffja01",
+   "name": "Jay Huff",
+   "number": "32",
+   "position": "C",
+   "twoWay": false,
+   "bio": {
+    "height": "7' 1\"",
+    "weight": 240,
+    "birthDate": "1997-08-25",
+    "experience": 5,
+    "college": "Virginia",
+    "birthPlace": "Durham, NC"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4065731.png",
+   "current": {
+    "regular": {
+     "games": 2,
+     "started": 0,
+     "minutes": 26.1,
+     "points": 14,
+     "rebounds": 4,
+     "assists": 3,
+     "steals": 0,
+     "blocks": 3,
+     "turnovers": 0,
+     "fgMade": 5,
+     "fgAttempted": 7,
+     "threeMade": 2,
+     "threeAttempted": 4,
+     "ftMade": 2,
+     "ftAttempted": 2
+    }
+   },
+   "lastFull": {
+    "regular": {
+     "games": 82,
+     "started": 47,
+     "minutes": 1719.6,
+     "points": 783,
+     "rebounds": 324,
+     "assists": 121,
+     "steals": 41,
+     "blocks": 153,
+     "turnovers": 76,
+     "fgMade": 291,
+     "fgAttempted": 611,
+     "threeMade": 119,
+     "threeAttempted": 373,
+     "ftMade": 82,
+     "ftAttempted": 99
+    }
+   },
+   "lastToDate": {
+    "regular": {
+     "games": 3,
+     "started": 1,
+     "minutes": 37.7,
+     "points": 12,
+     "rebounds": 5,
+     "assists": 0,
+     "steals": 0,
+     "blocks": 2,
+     "turnovers": 2,
+     "fgMade": 5,
+     "fgAttempted": 11,
+     "threeMade": 2,
+     "threeAttempted": 7,
+     "ftMade": 0,
+     "ftAttempted": 0
+    }
+   }
+  },
+  {
    "id": "slawsja01",
    "name": "Jalen Slawson",
    "number": "18",
@@ -661,11 +824,11 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4398207.png",
    "current": {
     "regular": {
-     "games": 1,
+     "games": 2,
      "started": 0,
-     "minutes": 16.2,
-     "points": 4,
-     "rebounds": 5,
+     "minutes": 24.1,
+     "points": 5,
+     "rebounds": 7,
      "assists": 2,
      "steals": 2,
      "blocks": 2,
@@ -674,8 +837,8 @@
      "fgAttempted": 2,
      "threeMade": 0,
      "threeAttempted": 0,
-     "ftMade": 0,
-     "ftAttempted": 2
+     "ftMade": 1,
+     "ftAttempted": 4
     }
    },
    "lastFull": {
@@ -769,169 +932,6 @@
      "threeAttempted": 15,
      "ftMade": 4,
      "ftAttempted": 6
-    }
-   }
-  },
-  {
-   "id": "nancela02",
-   "name": "Larry Nance Jr.",
-   "number": "22",
-   "position": "PF",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 6\"",
-    "weight": 245,
-    "birthDate": "1993-01-01",
-    "experience": 11,
-    "college": "Wyoming",
-    "birthPlace": "Akron, OH"
-   },
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/2580365.png",
-   "current": {
-    "regular": {
-     "games": 2,
-     "started": 0,
-     "minutes": 6.5,
-     "points": 0,
-     "rebounds": 0,
-     "assists": 0,
-     "steals": 0,
-     "blocks": 0,
-     "turnovers": 0,
-     "fgMade": 0,
-     "fgAttempted": 1,
-     "threeMade": 0,
-     "threeAttempted": 1,
-     "ftMade": 0,
-     "ftAttempted": 0
-    }
-   },
-   "lastFull": {
-    "regular": {
-     "games": 35,
-     "started": 3,
-     "minutes": 449,
-     "points": 131,
-     "rebounds": 93,
-     "assists": 34,
-     "steals": 21,
-     "blocks": 6,
-     "turnovers": 20,
-     "fgMade": 52,
-     "fgAttempted": 124,
-     "threeMade": 21,
-     "threeAttempted": 63,
-     "ftMade": 6,
-     "ftAttempted": 13
-    },
-    "playoffs": {
-     "games": 2,
-     "started": 0,
-     "minutes": 4.6,
-     "points": 0,
-     "rebounds": 0,
-     "assists": 0,
-     "steals": 0,
-     "blocks": 0,
-     "turnovers": 1,
-     "fgMade": 0,
-     "fgAttempted": 0,
-     "threeMade": 0,
-     "threeAttempted": 0,
-     "ftMade": 0,
-     "ftAttempted": 0
-    }
-   },
-   "lastToDate": {
-    "regular": {
-     "games": 3,
-     "started": 0,
-     "minutes": 44.8,
-     "points": 24,
-     "rebounds": 14,
-     "assists": 3,
-     "steals": 2,
-     "blocks": 0,
-     "turnovers": 2,
-     "fgMade": 10,
-     "fgAttempted": 18,
-     "threeMade": 3,
-     "threeAttempted": 4,
-     "ftMade": 1,
-     "ftAttempted": 3
-    }
-   }
-  },
-  {
-   "id": "huffja01",
-   "name": "Jay Huff",
-   "number": "32",
-   "position": "C",
-   "twoWay": false,
-   "bio": {
-    "height": "7' 1\"",
-    "weight": 240,
-    "birthDate": "1997-08-25",
-    "experience": 5,
-    "college": "Virginia",
-    "birthPlace": "Durham, NC"
-   },
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4065731.png",
-   "current": {
-    "regular": {
-     "games": 1,
-     "started": 0,
-     "minutes": 5.4,
-     "points": 0,
-     "rebounds": 2,
-     "assists": 0,
-     "steals": 0,
-     "blocks": 0,
-     "turnovers": 0,
-     "fgMade": 0,
-     "fgAttempted": 1,
-     "threeMade": 0,
-     "threeAttempted": 1,
-     "ftMade": 0,
-     "ftAttempted": 0
-    }
-   },
-   "lastFull": {
-    "regular": {
-     "games": 82,
-     "started": 47,
-     "minutes": 1719.6,
-     "points": 783,
-     "rebounds": 324,
-     "assists": 121,
-     "steals": 41,
-     "blocks": 153,
-     "turnovers": 76,
-     "fgMade": 291,
-     "fgAttempted": 611,
-     "threeMade": 119,
-     "threeAttempted": 373,
-     "ftMade": 82,
-     "ftAttempted": 99
-    }
-   },
-   "lastToDate": {
-    "regular": {
-     "games": 3,
-     "started": 1,
-     "minutes": 37.7,
-     "points": 12,
-     "rebounds": 5,
-     "assists": 0,
-     "steals": 0,
-     "blocks": 2,
-     "turnovers": 2,
-     "fgMade": 5,
-     "fgAttempted": 11,
-     "threeMade": 2,
-     "threeAttempted": 7,
-     "ftMade": 0,
-     "ftAttempted": 0
     }
    }
   },
