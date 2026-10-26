@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-26T16:23:58.708Z",
+ "updatedAt": "2026-10-26T17:23:40.843Z",
  "teams": {
   "ATL": [
    {
@@ -245,18 +245,18 @@
   ],
   "HOU": [
    {
+    "name": "Marcus Smart",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Forearm (strain)",
+    "returnDate": "2026-10-28"
+   },
+   {
     "name": "Steven Adams",
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Calf (strain)",
     "returnDate": "2026-10-28"
-   },
-   {
-    "name": "Marcus Smart",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Forearm (strain)",
-    "returnDate": "2026-10-26"
    }
   ],
   "IND": [
@@ -324,7 +324,7 @@
     "name": "Brandon Ingram",
     "status": "Out",
     "gameTimeDecision": false,
-    "reason": "Heel (surgery)",
+    "reason": "Achilles (surgery)",
     "returnDate": "2026-11-08"
    },
    {
@@ -381,6 +381,13 @@
     "gameTimeDecision": false,
     "reason": "Achilles (surgery)",
     "returnDate": "2027-04-02"
+   },
+   {
+    "name": "Anthony Edwards",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Knee",
+    "returnDate": "2026-10-26"
    }
   ],
   "NOP": [
@@ -407,7 +414,7 @@
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Ankle",
-    "returnDate": "2026-11-02"
+    "returnDate": "2027-03-02"
    },
    {
     "name": "Nikola Topic",
