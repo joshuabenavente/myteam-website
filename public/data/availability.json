@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-26T18:23:34.273Z",
+ "updatedAt": "2026-10-26T19:23:46.512Z",
  "teams": {
   "ATL": [
    {
@@ -148,6 +148,13 @@
   ],
   "DEN": [
    {
+    "name": "Alpha Diallo",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Wrist",
+    "returnDate": "2026-10-28"
+   },
+   {
     "name": "Julian Strawther",
     "status": "Out",
     "gameTimeDecision": false,
@@ -160,13 +167,6 @@
     "gameTimeDecision": false,
     "reason": "Hamstring",
     "returnDate": "2026-10-28"
-   },
-   {
-    "name": "Alpha Diallo",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Wrist",
-    "returnDate": "2026-10-26"
    },
    {
     "name": "Cameron Johnson",
@@ -268,6 +268,13 @@
     "returnDate": "2026-12-01"
    },
    {
+    "name": "Ivica Zubac",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Ankle (sprain)",
+    "returnDate": "2026-10-28"
+   },
+   {
     "name": "Johnny Furphy",
     "status": "Out",
     "gameTimeDecision": false,
@@ -277,15 +284,22 @@
    {
     "name": "T.J. McConnell",
     "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Hamstring (strain)",
+    "returnDate": "2026-10-28"
+   },
+   {
+    "name": "Aaron Nesmith",
+    "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Hamstring",
     "returnDate": "2026-10-26"
    },
    {
-    "name": "Ivica Zubac",
+    "name": "Andrew Nembhard",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
-    "reason": "Ankle (sprain)",
+    "reason": "Neck (soreness)",
     "returnDate": "2026-10-26"
    }
   ],
@@ -360,17 +374,17 @@
   ],
   "MEM": [
    {
+    "name": "Isaiah Stewart",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Ankle",
+    "returnDate": "2026-10-26"
+   },
+   {
     "name": "Karim Lopez",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Knee (bruise)",
-    "returnDate": "2026-10-26"
-   },
-   {
-    "name": "Zach Edey",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Ankle",
     "returnDate": "2026-10-26"
    }
   ],
@@ -410,6 +424,20 @@
   ],
   "OKC": [
    {
+    "name": "Cason Wallace",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Shoulder",
+    "returnDate": "2026-10-28"
+   },
+   {
+    "name": "Chet Holmgren",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Knee",
+    "returnDate": "2026-10-28"
+   },
+   {
     "name": "Jalen Williams",
     "status": "Out",
     "gameTimeDecision": false,
@@ -417,39 +445,11 @@
     "returnDate": "2027-03-02"
    },
    {
-    "name": "Nikola Topic",
-    "status": "Out",
-    "gameTimeDecision": true,
-    "reason": "Back (surgery)",
-    "returnDate": "2026-10-26"
-   },
-   {
     "name": "Otega Oweh",
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Achilles (surgery)",
     "returnDate": "2027-07-01"
-   },
-   {
-    "name": "Thomas Sorber",
-    "status": "Out",
-    "gameTimeDecision": true,
-    "reason": "Knee (surgery)",
-    "returnDate": "2026-10-26"
-   },
-   {
-    "name": "Cason Wallace",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Shoulder",
-    "returnDate": "2026-10-26"
-   },
-   {
-    "name": "Jaylin Williams",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Wrist (soreness)",
-    "returnDate": "2026-10-26"
    }
   ],
   "ORL": [
@@ -459,6 +459,13 @@
     "gameTimeDecision": false,
     "reason": "Ankle (surgery)",
     "returnDate": "2026-11-18"
+   },
+   {
+    "name": "Jalen Suggs",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Knee",
+    "returnDate": "2026-11-10"
    },
    {
     "name": "Jonathan Isaac",
@@ -480,13 +487,6 @@
     "gameTimeDecision": false,
     "reason": "Ankle (sprain)",
     "returnDate": "2026-11-22"
-   },
-   {
-    "name": "Jalen Suggs",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Knee",
-    "returnDate": "2026-10-28"
    }
   ],
   "PHI": [
@@ -543,10 +543,10 @@
    },
    {
     "name": "Oso Ighodaro",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
+    "status": "Out",
+    "gameTimeDecision": false,
     "reason": "Oblique (strain)",
-    "returnDate": "2026-10-26"
+    "returnDate": "2026-10-30"
    }
   ],
   "POR": [
@@ -629,8 +629,15 @@
    {
     "name": "Trey Alexander",
     "status": "Out",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Knee (bruise)",
+    "returnDate": "2026-10-28"
+   },
+   {
+    "name": "Jaxson Hayes",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Shoulder (soreness)",
     "returnDate": "2026-10-26"
    }
   ],
