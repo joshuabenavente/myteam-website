@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-26T01:23:57.136Z",
+ "updatedAt": "2026-10-26T02:23:28.834Z",
  "teams": {
   "ATL": [
    {
@@ -424,6 +424,13 @@
     "returnDate": "2026-10-26"
    },
    {
+    "name": "Jalen Williams",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Ankle",
+    "returnDate": "2026-10-26"
+   },
+   {
     "name": "Jaylin Williams",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
@@ -459,6 +466,13 @@
     "gameTimeDecision": false,
     "reason": "Ankle (sprain)",
     "returnDate": "2026-11-22"
+   },
+   {
+    "name": "Jalen Suggs",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Knee",
+    "returnDate": "2026-10-28"
    }
   ],
   "PHI": [
