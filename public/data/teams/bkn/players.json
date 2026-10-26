@@ -1,7 +1,7 @@
 {
  "season": "2026-27",
  "lastSeason": "2025-26",
- "updatedAt": "2026-10-26T05:21:14.395Z",
+ "updatedAt": "2026-10-26T11:21:25.279Z",
  "teamGamesPlayed": {
   "regular": 3,
   "playoffs": 0
@@ -24,21 +24,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3064514.png",
    "current": {
     "regular": {
-     "games": 2,
-     "started": 2,
-     "minutes": 73.2,
-     "points": 56,
-     "rebounds": 14,
-     "assists": 12,
-     "steals": 0,
+     "games": 3,
+     "started": 3,
+     "minutes": 97.2,
+     "points": 66,
+     "rebounds": 21,
+     "assists": 19,
+     "steals": 1,
      "blocks": 1,
-     "turnovers": 8,
-     "fgMade": 18,
-     "fgAttempted": 31,
+     "turnovers": 11,
+     "fgMade": 20,
+     "fgAttempted": 39,
      "threeMade": 5,
-     "threeAttempted": 9,
-     "ftMade": 15,
-     "ftAttempted": 19
+     "threeAttempted": 11,
+     "ftMade": 21,
+     "ftAttempted": 27
     }
    },
    "lastFull": {
@@ -114,21 +114,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4278104.png",
    "current": {
     "regular": {
-     "games": 2,
-     "started": 2,
-     "minutes": 67.1,
-     "points": 54,
+     "games": 3,
+     "started": 3,
+     "minutes": 87.9,
+     "points": 64,
      "rebounds": 16,
      "assists": 2,
-     "steals": 7,
+     "steals": 9,
      "blocks": 0,
-     "turnovers": 5,
-     "fgMade": 20,
-     "fgAttempted": 39,
+     "turnovers": 6,
+     "fgMade": 24,
+     "fgAttempted": 52,
      "threeMade": 9,
-     "threeAttempted": 20,
-     "ftMade": 5,
-     "ftAttempted": 6
+     "threeAttempted": 25,
+     "ftMade": 7,
+     "ftAttempted": 9
     }
    },
    "lastFull": {
@@ -171,79 +171,6 @@
    }
   },
   {
-   "id": "demineg01",
-   "name": "Egor Dëmin",
-   "number": "8",
-   "position": "PG",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 8\"",
-    "weight": 200,
-    "birthDate": "2006-03-03",
-    "experience": 1,
-    "college": "BYU",
-    "birthPlace": "Moscow, Russia"
-   },
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5175643.png",
-   "current": {
-    "regular": {
-     "games": 2,
-     "started": 2,
-     "minutes": 57.7,
-     "points": 26,
-     "rebounds": 8,
-     "assists": 8,
-     "steals": 1,
-     "blocks": 0,
-     "turnovers": 4,
-     "fgMade": 7,
-     "fgAttempted": 20,
-     "threeMade": 5,
-     "threeAttempted": 15,
-     "ftMade": 7,
-     "ftAttempted": 7
-    }
-   },
-   "lastFull": {
-    "regular": {
-     "games": 52,
-     "started": 45,
-     "minutes": 1308.8,
-     "points": 536,
-     "rebounds": 165,
-     "assists": 173,
-     "steals": 42,
-     "blocks": 17,
-     "turnovers": 86,
-     "fgMade": 179,
-     "fgAttempted": 449,
-     "threeMade": 124,
-     "threeAttempted": 322,
-     "ftMade": 54,
-     "ftAttempted": 65
-    }
-   },
-   "lastToDate": {
-    "regular": {
-     "games": 3,
-     "started": 0,
-     "minutes": 65.7,
-     "points": 26,
-     "rebounds": 15,
-     "assists": 7,
-     "steals": 1,
-     "blocks": 0,
-     "turnovers": 7,
-     "fgMade": 8,
-     "fgAttempted": 16,
-     "threeMade": 8,
-     "threeAttempted": 16,
-     "ftMade": 2,
-     "ftAttempted": 2
-    }
-   }
-  },
-  {
    "id": "elliske01",
    "name": "Keon Ellis",
    "number": "1",
@@ -260,19 +187,19 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4702177.png",
    "current": {
     "regular": {
-     "games": 2,
-     "started": 2,
-     "minutes": 56.3,
-     "points": 13,
-     "rebounds": 4,
-     "assists": 5,
-     "steals": 4,
-     "blocks": 1,
+     "games": 3,
+     "started": 3,
+     "minutes": 79.2,
+     "points": 22,
+     "rebounds": 5,
+     "assists": 8,
+     "steals": 8,
+     "blocks": 2,
      "turnovers": 3,
-     "fgMade": 5,
-     "fgAttempted": 14,
-     "threeMade": 3,
-     "threeAttempted": 9,
+     "fgMade": 9,
+     "fgAttempted": 18,
+     "threeMade": 4,
+     "threeAttempted": 10,
      "ftMade": 0,
      "ftAttempted": 0
     }
@@ -334,6 +261,79 @@
    }
   },
   {
+   "id": "demineg01",
+   "name": "Egor Dëmin",
+   "number": "8",
+   "position": "PG",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 8\"",
+    "weight": 200,
+    "birthDate": "2006-03-03",
+    "experience": 1,
+    "college": "BYU",
+    "birthPlace": "Moscow, Russia"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5175643.png",
+   "current": {
+    "regular": {
+     "games": 3,
+     "started": 3,
+     "minutes": 77,
+     "points": 29,
+     "rebounds": 8,
+     "assists": 9,
+     "steals": 3,
+     "blocks": 0,
+     "turnovers": 7,
+     "fgMade": 8,
+     "fgAttempted": 26,
+     "threeMade": 6,
+     "threeAttempted": 19,
+     "ftMade": 7,
+     "ftAttempted": 7
+    }
+   },
+   "lastFull": {
+    "regular": {
+     "games": 52,
+     "started": 45,
+     "minutes": 1308.8,
+     "points": 536,
+     "rebounds": 165,
+     "assists": 173,
+     "steals": 42,
+     "blocks": 17,
+     "turnovers": 86,
+     "fgMade": 179,
+     "fgAttempted": 449,
+     "threeMade": 124,
+     "threeAttempted": 322,
+     "ftMade": 54,
+     "ftAttempted": 65
+    }
+   },
+   "lastToDate": {
+    "regular": {
+     "games": 3,
+     "started": 0,
+     "minutes": 65.7,
+     "points": 26,
+     "rebounds": 15,
+     "assists": 7,
+     "steals": 1,
+     "blocks": 0,
+     "turnovers": 7,
+     "fgMade": 8,
+     "fgAttempted": 16,
+     "threeMade": 8,
+     "threeAttempted": 16,
+     "ftMade": 2,
+     "ftAttempted": 2
+    }
+   }
+  },
+  {
    "id": "sharpda01",
    "name": "Day'Ron Sharpe",
    "number": "20",
@@ -350,21 +350,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4432194.png",
    "current": {
     "regular": {
-     "games": 2,
-     "started": 2,
-     "minutes": 52.4,
-     "points": 15,
-     "rebounds": 16,
-     "assists": 4,
+     "games": 3,
+     "started": 3,
+     "minutes": 68.6,
+     "points": 26,
+     "rebounds": 20,
+     "assists": 5,
      "steals": 1,
      "blocks": 3,
-     "turnovers": 5,
-     "fgMade": 7,
-     "fgAttempted": 15,
-     "threeMade": 1,
-     "threeAttempted": 2,
-     "ftMade": 0,
-     "ftAttempted": 1
+     "turnovers": 7,
+     "fgMade": 10,
+     "fgAttempted": 19,
+     "threeMade": 2,
+     "threeAttempted": 3,
+     "ftMade": 4,
+     "ftAttempted": 8
     }
    },
    "lastFull": {
@@ -423,21 +423,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4712896.png",
    "current": {
     "regular": {
-     "games": 2,
+     "games": 3,
      "started": 0,
-     "minutes": 41.2,
-     "points": 13,
-     "rebounds": 7,
-     "assists": 1,
+     "minutes": 61.4,
+     "points": 22,
+     "rebounds": 12,
+     "assists": 2,
      "steals": 1,
      "blocks": 1,
-     "turnovers": 1,
-     "fgMade": 4,
-     "fgAttempted": 9,
-     "threeMade": 2,
-     "threeAttempted": 4,
-     "ftMade": 3,
-     "ftAttempted": 4
+     "turnovers": 2,
+     "fgMade": 5,
+     "fgAttempted": 15,
+     "threeMade": 3,
+     "threeAttempted": 8,
+     "ftMade": 9,
+     "ftAttempted": 12
     }
    },
    "lastFull": {
@@ -480,43 +480,6 @@
    }
   },
   {
-   "id": "brownmi02",
-   "name": "Mikel Brown Jr.",
-   "number": "0",
-   "position": "PG",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 5\"",
-    "weight": 180,
-    "birthDate": "2006-04-03",
-    "experience": 0,
-    "college": "Louisville",
-    "birthPlace": "Orlando, FL"
-   },
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5101761.png",
-   "current": {
-    "regular": {
-     "games": 2,
-     "started": 0,
-     "minutes": 39.9,
-     "points": 14,
-     "rebounds": 5,
-     "assists": 8,
-     "steals": 2,
-     "blocks": 0,
-     "turnovers": 3,
-     "fgMade": 5,
-     "fgAttempted": 18,
-     "threeMade": 3,
-     "threeAttempted": 9,
-     "ftMade": 1,
-     "ftAttempted": 1
-    }
-   },
-   "lastFull": {},
-   "lastToDate": {}
-  },
-  {
    "id": "johnsch06",
    "name": "Chaney Johnson",
    "number": "31",
@@ -533,19 +496,19 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5174655.png",
    "current": {
     "regular": {
-     "games": 2,
+     "games": 3,
      "started": 0,
-     "minutes": 32.3,
-     "points": 10,
-     "rebounds": 6,
+     "minutes": 53.5,
+     "points": 14,
+     "rebounds": 11,
      "assists": 3,
      "steals": 2,
      "blocks": 0,
      "turnovers": 4,
-     "fgMade": 4,
-     "fgAttempted": 13,
+     "fgMade": 6,
+     "fgAttempted": 18,
      "threeMade": 2,
-     "threeAttempted": 6,
+     "threeAttempted": 7,
      "ftMade": 0,
      "ftAttempted": 0
     }
@@ -572,78 +535,6 @@
    "lastToDate": {}
   },
   {
-   "id": "wagnemo01",
-   "name": "Moritz Wagner",
-   "number": "13",
-   "position": "C",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 11\"",
-    "weight": 245,
-    "birthDate": "1997-04-26",
-    "experience": 8,
-    "college": "Michigan",
-    "birthPlace": "Berlin, Germany"
-   },
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3150844.png",
-   "current": {
-    "regular": {
-     "games": 2,
-     "started": 0,
-     "minutes": 30.2,
-     "points": 13,
-     "rebounds": 4,
-     "assists": 2,
-     "steals": 0,
-     "blocks": 0,
-     "turnovers": 3,
-     "fgMade": 2,
-     "fgAttempted": 9,
-     "threeMade": 2,
-     "threeAttempted": 4,
-     "ftMade": 7,
-     "ftAttempted": 8
-    }
-   },
-   "lastFull": {
-    "regular": {
-     "games": 36,
-     "started": 0,
-     "minutes": 426.6,
-     "points": 247,
-     "rebounds": 115,
-     "assists": 27,
-     "steals": 15,
-     "blocks": 2,
-     "turnovers": 19,
-     "fgMade": 83,
-     "fgAttempted": 195,
-     "threeMade": 22,
-     "threeAttempted": 70,
-     "ftMade": 59,
-     "ftAttempted": 72
-    },
-    "playoffs": {
-     "games": 2,
-     "started": 0,
-     "minutes": 12.7,
-     "points": 5,
-     "rebounds": 3,
-     "assists": 0,
-     "steals": 0,
-     "blocks": 0,
-     "turnovers": 1,
-     "fgMade": 1,
-     "fgAttempted": 4,
-     "threeMade": 1,
-     "threeAttempted": 1,
-     "ftMade": 2,
-     "ftAttempted": 2
-    }
-   },
-   "lastToDate": {}
-  },
-  {
    "id": "traorno01",
    "name": "Nolan Traoré",
    "number": "10",
@@ -659,21 +550,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5279130.png",
    "current": {
     "regular": {
-     "games": 2,
+     "games": 3,
      "started": 0,
-     "minutes": 20.8,
-     "points": 6,
-     "rebounds": 4,
-     "assists": 0,
-     "steals": 0,
-     "blocks": 0,
-     "turnovers": 3,
-     "fgMade": 1,
-     "fgAttempted": 6,
-     "threeMade": 0,
-     "threeAttempted": 0,
-     "ftMade": 4,
-     "ftAttempted": 6
+     "minutes": 45.5,
+     "points": 23,
+     "rebounds": 6,
+     "assists": 5,
+     "steals": 1,
+     "blocks": 2,
+     "turnovers": 5,
+     "fgMade": 7,
+     "fgAttempted": 17,
+     "threeMade": 2,
+     "threeAttempted": 3,
+     "ftMade": 7,
+     "ftAttempted": 9
     }
    },
    "lastFull": {
@@ -716,6 +607,115 @@
    }
   },
   {
+   "id": "wagnemo01",
+   "name": "Moritz Wagner",
+   "number": "13",
+   "position": "C",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 11\"",
+    "weight": 245,
+    "birthDate": "1997-04-26",
+    "experience": 8,
+    "college": "Michigan",
+    "birthPlace": "Berlin, Germany"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3150844.png",
+   "current": {
+    "regular": {
+     "games": 3,
+     "started": 0,
+     "minutes": 44.7,
+     "points": 26,
+     "rebounds": 7,
+     "assists": 3,
+     "steals": 1,
+     "blocks": 0,
+     "turnovers": 5,
+     "fgMade": 7,
+     "fgAttempted": 17,
+     "threeMade": 4,
+     "threeAttempted": 6,
+     "ftMade": 8,
+     "ftAttempted": 10
+    }
+   },
+   "lastFull": {
+    "regular": {
+     "games": 36,
+     "started": 0,
+     "minutes": 426.6,
+     "points": 247,
+     "rebounds": 115,
+     "assists": 27,
+     "steals": 15,
+     "blocks": 2,
+     "turnovers": 19,
+     "fgMade": 83,
+     "fgAttempted": 195,
+     "threeMade": 22,
+     "threeAttempted": 70,
+     "ftMade": 59,
+     "ftAttempted": 72
+    },
+    "playoffs": {
+     "games": 2,
+     "started": 0,
+     "minutes": 12.7,
+     "points": 5,
+     "rebounds": 3,
+     "assists": 0,
+     "steals": 0,
+     "blocks": 0,
+     "turnovers": 1,
+     "fgMade": 1,
+     "fgAttempted": 4,
+     "threeMade": 1,
+     "threeAttempted": 1,
+     "ftMade": 2,
+     "ftAttempted": 2
+    }
+   },
+   "lastToDate": {}
+  },
+  {
+   "id": "brownmi02",
+   "name": "Mikel Brown Jr.",
+   "number": "0",
+   "position": "PG",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 5\"",
+    "weight": 180,
+    "birthDate": "2006-04-03",
+    "experience": 0,
+    "college": "Louisville",
+    "birthPlace": "Orlando, FL"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5101761.png",
+   "current": {
+    "regular": {
+     "games": 2,
+     "started": 0,
+     "minutes": 39.9,
+     "points": 14,
+     "rebounds": 5,
+     "assists": 8,
+     "steals": 2,
+     "blocks": 0,
+     "turnovers": 3,
+     "fgMade": 5,
+     "fgAttempted": 18,
+     "threeMade": 3,
+     "threeAttempted": 9,
+     "ftMade": 1,
+     "ftAttempted": 1
+    }
+   },
+   "lastFull": {},
+   "lastToDate": {}
+  },
+  {
    "id": "minotjo01",
    "name": "Josh Minott",
    "number": "00",
@@ -732,21 +732,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4687718.png",
    "current": {
     "regular": {
-     "games": 1,
+     "games": 2,
      "started": 0,
-     "minutes": 9.3,
-     "points": 4,
-     "rebounds": 2,
-     "assists": 0,
-     "steals": 0,
+     "minutes": 30.5,
+     "points": 19,
+     "rebounds": 10,
+     "assists": 2,
+     "steals": 2,
      "blocks": 0,
      "turnovers": 1,
-     "fgMade": 2,
-     "fgAttempted": 4,
-     "threeMade": 0,
-     "threeAttempted": 2,
-     "ftMade": 0,
-     "ftAttempted": 0
+     "fgMade": 6,
+     "fgAttempted": 16,
+     "threeMade": 3,
+     "threeAttempted": 12,
+     "ftMade": 4,
+     "ftAttempted": 4
     }
    },
    "lastFull": {
@@ -787,6 +787,242 @@
      "ftAttempted": 3
     }
    }
+  },
+  {
+   "id": "wolfda01",
+   "name": "Danny Wolf",
+   "number": "2",
+   "position": "PF",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 11\"",
+    "weight": 250,
+    "birthDate": "2004-05-05",
+    "experience": 1,
+    "college": "Michigan",
+    "birthPlace": "Glencoe, IL"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5107173.png",
+   "current": {
+    "regular": {
+     "games": 1,
+     "started": 0,
+     "minutes": 15.3,
+     "points": 6,
+     "rebounds": 2,
+     "assists": 1,
+     "steals": 0,
+     "blocks": 0,
+     "turnovers": 1,
+     "fgMade": 2,
+     "fgAttempted": 4,
+     "threeMade": 2,
+     "threeAttempted": 4,
+     "ftMade": 0,
+     "ftAttempted": 0
+    }
+   },
+   "lastFull": {
+    "regular": {
+     "games": 57,
+     "started": 15,
+     "minutes": 1188,
+     "points": 508,
+     "rebounds": 281,
+     "assists": 127,
+     "steals": 30,
+     "blocks": 32,
+     "turnovers": 73,
+     "fgMade": 178,
+     "fgAttempted": 440,
+     "threeMade": 68,
+     "threeAttempted": 211,
+     "ftMade": 84,
+     "ftAttempted": 109
+    }
+   },
+   "lastToDate": {}
+  },
+  {
+   "id": "poweldr01",
+   "name": "Drake Powell",
+   "number": "4",
+   "position": "SG",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 5\"",
+    "weight": 195,
+    "birthDate": "2005-09-08",
+    "experience": 1,
+    "college": "North Carolina",
+    "birthPlace": "Pittsboro, NC"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5037873.png",
+   "current": {
+    "regular": {
+     "games": 1,
+     "started": 0,
+     "minutes": 12.4,
+     "points": 0,
+     "rebounds": 2,
+     "assists": 3,
+     "steals": 0,
+     "blocks": 0,
+     "turnovers": 0,
+     "fgMade": 0,
+     "fgAttempted": 0,
+     "threeMade": 0,
+     "threeAttempted": 0,
+     "ftMade": 0,
+     "ftAttempted": 2
+    }
+   },
+   "lastFull": {
+    "regular": {
+     "games": 63,
+     "started": 24,
+     "minutes": 1320,
+     "points": 408,
+     "rebounds": 111,
+     "assists": 91,
+     "steals": 36,
+     "blocks": 14,
+     "turnovers": 60,
+     "fgMade": 144,
+     "fgAttempted": 358,
+     "threeMade": 51,
+     "threeAttempted": 182,
+     "ftMade": 69,
+     "ftAttempted": 77
+    }
+   },
+   "lastToDate": {
+    "regular": {
+     "games": 1,
+     "started": 0,
+     "minutes": 7.2,
+     "points": 2,
+     "rebounds": 2,
+     "assists": 0,
+     "steals": 0,
+     "blocks": 0,
+     "turnovers": 1,
+     "fgMade": 1,
+     "fgAttempted": 1,
+     "threeMade": 0,
+     "threeAttempted": 0,
+     "ftMade": 0,
+     "ftAttempted": 0
+    }
+   }
+  },
+  {
+   "id": "sarafbe01",
+   "name": "Ben Saraf",
+   "number": "77",
+   "position": "SG",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 6\"",
+    "weight": 200,
+    "birthDate": "2006-04-14",
+    "experience": 1
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5242502.png",
+   "current": {
+    "regular": {
+     "games": 1,
+     "started": 0,
+     "minutes": 3.6,
+     "points": 2,
+     "rebounds": 1,
+     "assists": 0,
+     "steals": 0,
+     "blocks": 0,
+     "turnovers": 0,
+     "fgMade": 1,
+     "fgAttempted": 1,
+     "threeMade": 0,
+     "threeAttempted": 0,
+     "ftMade": 0,
+     "ftAttempted": 0
+    }
+   },
+   "lastFull": {
+    "regular": {
+     "games": 44,
+     "started": 11,
+     "minutes": 916.5,
+     "points": 332,
+     "rebounds": 92,
+     "assists": 145,
+     "steals": 38,
+     "blocks": 8,
+     "turnovers": 99,
+     "fgMade": 120,
+     "fgAttempted": 303,
+     "threeMade": 19,
+     "threeAttempted": 90,
+     "ftMade": 73,
+     "ftAttempted": 88
+    }
+   },
+   "lastToDate": {
+    "regular": {
+     "games": 3,
+     "started": 3,
+     "minutes": 53.2,
+     "points": 10,
+     "rebounds": 8,
+     "assists": 10,
+     "steals": 1,
+     "blocks": 0,
+     "turnovers": 3,
+     "fgMade": 3,
+     "fgAttempted": 13,
+     "threeMade": 0,
+     "threeAttempted": 5,
+     "ftMade": 4,
+     "ftAttempted": 6
+    }
+   }
+  },
+  {
+   "id": "jeffejo01",
+   "name": "Joshua Jefferson",
+   "number": "9",
+   "position": "PF",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 8\"",
+    "weight": 246,
+    "birthDate": "2003-11-21",
+    "experience": 0,
+    "college": "Iowa State",
+    "birthPlace": "Las Vegas, NV"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4870564.png",
+   "current": {
+    "regular": {
+     "games": 1,
+     "started": 0,
+     "minutes": 3.6,
+     "points": 0,
+     "rebounds": 0,
+     "assists": 0,
+     "steals": 0,
+     "blocks": 0,
+     "turnovers": 0,
+     "fgMade": 0,
+     "fgAttempted": 4,
+     "threeMade": 0,
+     "threeAttempted": 2,
+     "ftMade": 0,
+     "ftAttempted": 0
+    }
+   },
+   "lastFull": {},
+   "lastToDate": {}
   },
   {
    "id": "mannte01",
@@ -844,151 +1080,6 @@
    }
   },
   {
-   "id": "poweldr01",
-   "name": "Drake Powell",
-   "position": "SG",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 5\"",
-    "weight": 195,
-    "birthDate": "2005-09-08",
-    "experience": 1,
-    "college": "North Carolina",
-    "birthPlace": "Pittsboro, NC"
-   },
-   "number": "4",
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5037873.png",
-   "current": {},
-   "lastFull": {
-    "regular": {
-     "games": 63,
-     "started": 24,
-     "minutes": 1320,
-     "points": 408,
-     "rebounds": 111,
-     "assists": 91,
-     "steals": 36,
-     "blocks": 14,
-     "turnovers": 60,
-     "fgMade": 144,
-     "fgAttempted": 358,
-     "threeMade": 51,
-     "threeAttempted": 182,
-     "ftMade": 69,
-     "ftAttempted": 77
-    }
-   },
-   "lastToDate": {
-    "regular": {
-     "games": 1,
-     "started": 0,
-     "minutes": 7.2,
-     "points": 2,
-     "rebounds": 2,
-     "assists": 0,
-     "steals": 0,
-     "blocks": 0,
-     "turnovers": 1,
-     "fgMade": 1,
-     "fgAttempted": 1,
-     "threeMade": 0,
-     "threeAttempted": 0,
-     "ftMade": 0,
-     "ftAttempted": 0
-    }
-   }
-  },
-  {
-   "id": "wolfda01",
-   "name": "Danny Wolf",
-   "position": "PF",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 11\"",
-    "weight": 250,
-    "birthDate": "2004-05-05",
-    "experience": 1,
-    "college": "Michigan",
-    "birthPlace": "Glencoe, IL"
-   },
-   "number": "2",
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5107173.png",
-   "current": {},
-   "lastFull": {
-    "regular": {
-     "games": 57,
-     "started": 15,
-     "minutes": 1188,
-     "points": 508,
-     "rebounds": 281,
-     "assists": 127,
-     "steals": 30,
-     "blocks": 32,
-     "turnovers": 73,
-     "fgMade": 178,
-     "fgAttempted": 440,
-     "threeMade": 68,
-     "threeAttempted": 211,
-     "ftMade": 84,
-     "ftAttempted": 109
-    }
-   },
-   "lastToDate": {}
-  },
-  {
-   "id": "sarafbe01",
-   "name": "Ben Saraf",
-   "position": "SG",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 6\"",
-    "weight": 200,
-    "birthDate": "2006-04-14",
-    "experience": 1
-   },
-   "number": "77",
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5242502.png",
-   "current": {},
-   "lastFull": {
-    "regular": {
-     "games": 44,
-     "started": 11,
-     "minutes": 916.5,
-     "points": 332,
-     "rebounds": 92,
-     "assists": 145,
-     "steals": 38,
-     "blocks": 8,
-     "turnovers": 99,
-     "fgMade": 120,
-     "fgAttempted": 303,
-     "threeMade": 19,
-     "threeAttempted": 90,
-     "ftMade": 73,
-     "ftAttempted": 88
-    }
-   },
-   "lastToDate": {
-    "regular": {
-     "games": 3,
-     "started": 3,
-     "minutes": 53.2,
-     "points": 10,
-     "rebounds": 8,
-     "assists": 10,
-     "steals": 1,
-     "blocks": 0,
-     "turnovers": 3,
-     "fgMade": 3,
-     "fgAttempted": 13,
-     "threeMade": 0,
-     "threeAttempted": 5,
-     "ftMade": 4,
-     "ftAttempted": 6
-    }
-   }
-  },
-  {
    "id": "nelsogr02",
    "name": "Grant Nelson",
    "position": "SF",
@@ -1040,25 +1131,6 @@
    },
    "number": "34",
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5105626.png",
-   "current": {},
-   "lastFull": {},
-   "lastToDate": {}
-  },
-  {
-   "id": "jeffejo01",
-   "name": "Joshua Jefferson",
-   "position": "PF",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 8\"",
-    "weight": 246,
-    "birthDate": "2003-11-21",
-    "experience": 0,
-    "college": "Iowa State",
-    "birthPlace": "Las Vegas, NV"
-   },
-   "number": "9",
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4870564.png",
    "current": {},
    "lastFull": {},
    "lastToDate": {}
