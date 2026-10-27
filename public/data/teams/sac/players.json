@@ -1,7 +1,7 @@
 {
  "season": "2026-27",
  "lastSeason": "2025-26",
- "updatedAt": "2026-10-27T04:18:39.094Z",
+ "updatedAt": "2026-10-27T10:18:39.841Z",
  "teamGamesPlayed": {
   "regular": 3,
   "playoffs": 0
@@ -877,6 +877,43 @@
      "threeAttempted": 63,
      "ftMade": 26,
      "ftAttempted": 28
+    }
+   },
+   "lastToDate": {}
+  },
+  {
+   "id": "pedulse01",
+   "name": "Sean Pedulla",
+   "position": "PG",
+   "twoWay": true,
+   "bio": {
+    "height": "6' 1\"",
+    "weight": 195,
+    "birthDate": "2002-10-10",
+    "experience": 1,
+    "college": "Ole Miss",
+    "birthPlace": "Edmond, OK"
+   },
+   "number": "3",
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4709131.png",
+   "current": {},
+   "lastFull": {
+    "regular": {
+     "games": 7,
+     "started": 0,
+     "minutes": 31.1,
+     "points": 13,
+     "rebounds": 3,
+     "assists": 5,
+     "steals": 0,
+     "blocks": 0,
+     "turnovers": 1,
+     "fgMade": 5,
+     "fgAttempted": 15,
+     "threeMade": 3,
+     "threeAttempted": 10,
+     "ftMade": 0,
+     "ftAttempted": 0
     }
    },
    "lastToDate": {}
