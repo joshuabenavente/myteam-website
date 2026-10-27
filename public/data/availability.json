@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-27T21:23:57.762Z",
+ "updatedAt": "2026-10-27T22:23:46.129Z",
  "teams": {
   "ATL": [
    {
@@ -93,15 +93,22 @@
     "gameTimeDecision": true,
     "reason": "Groin (soreness)",
     "returnDate": "2026-10-28"
+   },
+   {
+    "name": "Tobe Awaka",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Ankle",
+    "returnDate": "2026-10-28"
    }
   ],
   "DAL": [
    {
     "name": "Caleb Martin",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Thumb (sprain)",
-    "returnDate": "2026-11-02"
+    "returnDate": "2026-10-28"
    },
    {
     "name": "Dereck Lively II",
@@ -115,27 +122,34 @@
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Knee (surgery)",
-    "returnDate": "2026-11-02"
+    "returnDate": "2026-10-28"
+   },
+   {
+    "name": "Sergio de Larrea",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Knee (strain)",
+    "returnDate": "2026-10-30"
    },
    {
     "name": "Tarik Biberovic",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Heel (inflammation)",
-    "returnDate": "2026-11-02"
+    "returnDate": "2026-10-28"
+   },
+   {
+    "name": "Kyrie Irving",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Knee",
+    "returnDate": "2026-10-28"
    },
    {
     "name": "Naji Marshall",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Illness",
-    "returnDate": "2026-10-28"
-   },
-   {
-    "name": "Sergio de Larrea",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Knee (strain)",
     "returnDate": "2026-10-28"
    }
   ],
@@ -275,10 +289,31 @@
     "returnDate": "2026-10-30"
    },
    {
+    "name": "Aaron Nesmith",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Hamstring (strain)",
+    "returnDate": "2026-10-28"
+   },
+   {
     "name": "Andrew Nembhard",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Neck (soreness)",
+    "returnDate": "2026-10-28"
+   },
+   {
+    "name": "Obi Toppin",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Hand (sprain)",
+    "returnDate": "2026-10-28"
+   },
+   {
+    "name": "Tyrese Haliburton",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Hamstring (soreness)",
     "returnDate": "2026-10-28"
    }
   ],
@@ -374,6 +409,13 @@
     "gameTimeDecision": false,
     "reason": "Achilles (surgery)",
     "returnDate": "2027-04-02"
+   },
+   {
+    "name": "Anthony Edwards",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Knee",
+    "returnDate": "2026-10-28"
    }
   ],
   "NOP": [
@@ -403,11 +445,25 @@
   ],
   "OKC": [
    {
+    "name": "Alex Caruso",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Ankle",
+    "returnDate": "2026-10-31"
+   },
+   {
     "name": "Cason Wallace",
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Shoulder",
     "returnDate": "2027-03-02"
+   },
+   {
+    "name": "Chet Holmgren",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Knee",
+    "returnDate": "2026-10-31"
    },
    {
     "name": "Jalen Williams",
@@ -419,9 +475,9 @@
    {
     "name": "Nikola Topic",
     "status": "Out",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Back",
-    "returnDate": "2026-10-28"
+    "returnDate": "2026-11-04"
    },
    {
     "name": "Otega Oweh",
@@ -433,22 +489,15 @@
    {
     "name": "Thomas Sorber",
     "status": "Out",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Knee",
-    "returnDate": "2026-10-28"
+    "returnDate": "2026-11-04"
    },
    {
-    "name": "Alex Caruso",
+    "name": "Ajay Mitchell",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Ankle",
-    "returnDate": "2026-10-28"
-   },
-   {
-    "name": "Chet Holmgren",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Knee",
     "returnDate": "2026-10-28"
    }
   ],
