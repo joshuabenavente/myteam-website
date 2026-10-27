@@ -1,7 +1,7 @@
 {
  "season": "2026-27",
  "lastSeason": "2025-26",
- "updatedAt": "2026-10-27T05:19:55.506Z",
+ "updatedAt": "2026-10-27T11:19:57.814Z",
  "teamGamesPlayed": {
   "regular": 3,
   "playoffs": 0
@@ -24,21 +24,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4065648.png",
    "current": {
     "regular": {
-     "games": 2,
-     "started": 2,
-     "minutes": 74.5,
-     "points": 49,
-     "rebounds": 13,
-     "assists": 18,
-     "steals": 3,
+     "games": 3,
+     "started": 3,
+     "minutes": 102.2,
+     "points": 72,
+     "rebounds": 20,
+     "assists": 24,
+     "steals": 4,
      "blocks": 0,
-     "turnovers": 4,
-     "fgMade": 20,
-     "fgAttempted": 49,
-     "threeMade": 3,
-     "threeAttempted": 17,
-     "ftMade": 6,
-     "ftAttempted": 6
+     "turnovers": 7,
+     "fgMade": 27,
+     "fgAttempted": 66,
+     "threeMade": 5,
+     "threeAttempted": 22,
+     "ftMade": 13,
+     "ftAttempted": 14
     }
    },
    "lastFull": {
@@ -80,6 +80,78 @@
    "lastToDate": {}
   },
   {
+   "id": "georgpa01",
+   "name": "Paul George",
+   "number": "13",
+   "position": "PF",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 8\"",
+    "weight": 221,
+    "birthDate": "1990-05-02",
+    "experience": 16,
+    "college": "Fresno State",
+    "birthPlace": "Palmdale, CA"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4251.png",
+   "current": {
+    "regular": {
+     "games": 3,
+     "started": 3,
+     "minutes": 89.4,
+     "points": 69,
+     "rebounds": 17,
+     "assists": 7,
+     "steals": 7,
+     "blocks": 0,
+     "turnovers": 8,
+     "fgMade": 23,
+     "fgAttempted": 50,
+     "threeMade": 13,
+     "threeAttempted": 26,
+     "ftMade": 10,
+     "ftAttempted": 12
+    }
+   },
+   "lastFull": {
+    "regular": {
+     "games": 37,
+     "started": 37,
+     "minutes": 1135.2,
+     "points": 641,
+     "rebounds": 196,
+     "assists": 133,
+     "steals": 62,
+     "blocks": 16,
+     "turnovers": 64,
+     "fgMade": 225,
+     "fgAttempted": 513,
+     "threeMade": 100,
+     "threeAttempted": 255,
+     "ftMade": 91,
+     "ftAttempted": 111
+    },
+    "playoffs": {
+     "games": 11,
+     "started": 11,
+     "minutes": 393.9,
+     "points": 180,
+     "rebounds": 43,
+     "assists": 33,
+     "steals": 14,
+     "blocks": 5,
+     "turnovers": 22,
+     "fgMade": 65,
+     "fgAttempted": 142,
+     "threeMade": 35,
+     "threeAttempted": 71,
+     "ftMade": 15,
+     "ftAttempted": 20
+    }
+   },
+   "lastToDate": {}
+  },
+  {
    "id": "whitede01",
    "name": "Derrick White",
    "number": "9",
@@ -96,19 +168,19 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3078576.png",
    "current": {
     "regular": {
-     "games": 2,
-     "started": 2,
-     "minutes": 69.4,
-     "points": 29,
-     "rebounds": 5,
-     "assists": 14,
-     "steals": 2,
-     "blocks": 0,
-     "turnovers": 5,
-     "fgMade": 12,
-     "fgAttempted": 24,
-     "threeMade": 5,
-     "threeAttempted": 13,
+     "games": 3,
+     "started": 3,
+     "minutes": 87.4,
+     "points": 34,
+     "rebounds": 11,
+     "assists": 18,
+     "steals": 5,
+     "blocks": 1,
+     "turnovers": 11,
+     "fgMade": 14,
+     "fgAttempted": 28,
+     "threeMade": 6,
+     "threeAttempted": 15,
      "ftMade": 0,
      "ftAttempted": 0
     }
@@ -170,78 +242,6 @@
    }
   },
   {
-   "id": "georgpa01",
-   "name": "Paul George",
-   "number": "13",
-   "position": "PF",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 8\"",
-    "weight": 221,
-    "birthDate": "1990-05-02",
-    "experience": 16,
-    "college": "Fresno State",
-    "birthPlace": "Palmdale, CA"
-   },
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4251.png",
-   "current": {
-    "regular": {
-     "games": 2,
-     "started": 2,
-     "minutes": 64.3,
-     "points": 53,
-     "rebounds": 12,
-     "assists": 5,
-     "steals": 7,
-     "blocks": 0,
-     "turnovers": 4,
-     "fgMade": 18,
-     "fgAttempted": 36,
-     "threeMade": 10,
-     "threeAttempted": 19,
-     "ftMade": 7,
-     "ftAttempted": 8
-    }
-   },
-   "lastFull": {
-    "regular": {
-     "games": 37,
-     "started": 37,
-     "minutes": 1135.2,
-     "points": 641,
-     "rebounds": 196,
-     "assists": 133,
-     "steals": 62,
-     "blocks": 16,
-     "turnovers": 64,
-     "fgMade": 225,
-     "fgAttempted": 513,
-     "threeMade": 100,
-     "threeAttempted": 255,
-     "ftMade": 91,
-     "ftAttempted": 111
-    },
-    "playoffs": {
-     "games": 11,
-     "started": 11,
-     "minutes": 393.9,
-     "points": 180,
-     "rebounds": 43,
-     "assists": 33,
-     "steals": 14,
-     "blocks": 5,
-     "turnovers": 22,
-     "fgMade": 65,
-     "fgAttempted": 142,
-     "threeMade": 35,
-     "threeAttempted": 71,
-     "ftMade": 15,
-     "ftAttempted": 20
-    }
-   },
-   "lastToDate": {}
-  },
-  {
    "id": "pritcpa01",
    "name": "Payton Pritchard",
    "number": "11",
@@ -258,21 +258,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4066354.png",
    "current": {
     "regular": {
-     "games": 2,
+     "games": 3,
      "started": 0,
-     "minutes": 57.9,
-     "points": 21,
-     "rebounds": 5,
-     "assists": 5,
-     "steals": 0,
+     "minutes": 79.8,
+     "points": 49,
+     "rebounds": 6,
+     "assists": 9,
+     "steals": 2,
      "blocks": 0,
-     "turnovers": 2,
-     "fgMade": 5,
-     "fgAttempted": 14,
-     "threeMade": 3,
-     "threeAttempted": 8,
-     "ftMade": 8,
-     "ftAttempted": 10
+     "turnovers": 3,
+     "fgMade": 15,
+     "fgAttempted": 30,
+     "threeMade": 10,
+     "threeAttempted": 18,
+     "ftMade": 9,
+     "ftAttempted": 11
     }
    },
    "lastFull": {
@@ -348,21 +348,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4397424.png",
    "current": {
     "regular": {
-     "games": 2,
+     "games": 3,
      "started": 0,
-     "minutes": 44.2,
-     "points": 18,
-     "rebounds": 10,
-     "assists": 3,
+     "minutes": 63.2,
+     "points": 25,
+     "rebounds": 15,
+     "assists": 4,
      "steals": 1,
-     "blocks": 5,
+     "blocks": 7,
      "turnovers": 3,
-     "fgMade": 5,
-     "fgAttempted": 11,
+     "fgMade": 8,
+     "fgAttempted": 16,
      "threeMade": 1,
      "threeAttempted": 1,
-     "ftMade": 7,
-     "ftAttempted": 11
+     "ftMade": 8,
+     "ftAttempted": 13
     }
    },
    "lastFull": {
@@ -438,19 +438,19 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4065804.png",
    "current": {
     "regular": {
-     "games": 2,
+     "games": 3,
      "started": 0,
-     "minutes": 40.9,
-     "points": 17,
-     "rebounds": 6,
-     "assists": 3,
+     "minutes": 61.2,
+     "points": 28,
+     "rebounds": 10,
+     "assists": 4,
      "steals": 0,
      "blocks": 0,
      "turnovers": 0,
-     "fgMade": 6,
-     "fgAttempted": 12,
-     "threeMade": 5,
-     "threeAttempted": 10,
+     "fgMade": 10,
+     "fgAttempted": 19,
+     "threeMade": 8,
+     "threeAttempted": 14,
      "ftMade": 0,
      "ftAttempted": 0
     }
@@ -528,21 +528,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4351852.png",
    "current": {
     "regular": {
-     "games": 2,
-     "started": 2,
-     "minutes": 40.5,
-     "points": 8,
-     "rebounds": 7,
+     "games": 3,
+     "started": 3,
+     "minutes": 56.6,
+     "points": 15,
+     "rebounds": 14,
      "assists": 3,
      "steals": 1,
      "blocks": 3,
-     "turnovers": 2,
-     "fgMade": 4,
-     "fgAttempted": 6,
+     "turnovers": 3,
+     "fgMade": 7,
+     "fgAttempted": 9,
      "threeMade": 0,
      "threeAttempted": 0,
-     "ftMade": 0,
-     "ftAttempted": 2
+     "ftMade": 1,
+     "ftAttempted": 4
     }
    },
    "lastFull": {
@@ -600,19 +600,19 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4683689.png",
    "current": {
     "regular": {
-     "games": 2,
-     "started": 2,
-     "minutes": 33.8,
-     "points": 5,
-     "rebounds": 9,
-     "assists": 1,
-     "steals": 1,
+     "games": 3,
+     "started": 3,
+     "minutes": 52,
+     "points": 9,
+     "rebounds": 12,
+     "assists": 3,
+     "steals": 4,
      "blocks": 1,
-     "turnovers": 1,
-     "fgMade": 2,
-     "fgAttempted": 7,
+     "turnovers": 4,
+     "fgMade": 4,
+     "fgAttempted": 12,
      "threeMade": 1,
-     "threeAttempted": 3,
+     "threeAttempted": 5,
      "ftMade": 0,
      "ftAttempted": 0
     }
@@ -690,19 +690,19 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4593841.png",
    "current": {
     "regular": {
-     "games": 2,
+     "games": 3,
      "started": 0,
-     "minutes": 29.3,
-     "points": 10,
-     "rebounds": 3,
-     "assists": 0,
-     "steals": 1,
+     "minutes": 47.5,
+     "points": 12,
+     "rebounds": 9,
+     "assists": 2,
+     "steals": 2,
      "blocks": 0,
-     "turnovers": 2,
-     "fgMade": 4,
-     "fgAttempted": 8,
+     "turnovers": 5,
+     "fgMade": 5,
+     "fgAttempted": 13,
      "threeMade": 2,
-     "threeAttempted": 4,
+     "threeAttempted": 7,
      "ftMade": 0,
      "ftAttempted": 0
     }
@@ -778,21 +778,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5175647.png",
    "current": {
     "regular": {
-     "games": 2,
+     "games": 3,
      "started": 0,
-     "minutes": 13.3,
-     "points": 0,
-     "rebounds": 3,
-     "assists": 1,
+     "minutes": 37,
+     "points": 13,
+     "rebounds": 8,
+     "assists": 3,
      "steals": 0,
-     "blocks": 0,
+     "blocks": 1,
      "turnovers": 0,
-     "fgMade": 0,
-     "fgAttempted": 2,
-     "threeMade": 0,
-     "threeAttempted": 2,
-     "ftMade": 0,
-     "ftAttempted": 0
+     "fgMade": 4,
+     "fgAttempted": 8,
+     "threeMade": 1,
+     "threeAttempted": 5,
+     "ftMade": 4,
+     "ftAttempted": 6
     }
    },
    "lastFull": {
@@ -868,21 +868,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4277951.png",
    "current": {
     "regular": {
-     "games": 2,
+     "games": 3,
      "started": 0,
-     "minutes": 11.9,
-     "points": 10,
-     "rebounds": 3,
-     "assists": 0,
-     "steals": 1,
+     "minutes": 24.8,
+     "points": 16,
+     "rebounds": 6,
+     "assists": 2,
+     "steals": 2,
      "blocks": 0,
-     "turnovers": 1,
-     "fgMade": 4,
-     "fgAttempted": 6,
+     "turnovers": 3,
+     "fgMade": 5,
+     "fgAttempted": 9,
      "threeMade": 2,
-     "threeAttempted": 4,
-     "ftMade": 0,
-     "ftAttempted": 0
+     "threeAttempted": 5,
+     "ftMade": 4,
+     "ftAttempted": 6
     }
    },
    "lastFull": {
@@ -944,6 +944,7 @@
   {
    "id": "conlemi01",
    "name": "Mike Conley",
+   "number": "45",
    "position": "PG",
    "twoWay": false,
    "bio": {
@@ -954,9 +955,26 @@
     "college": "Ohio State",
     "birthPlace": "Indianapolis, IN"
    },
-   "number": "45",
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3195.png",
-   "current": {},
+   "current": {
+    "regular": {
+     "games": 1,
+     "started": 0,
+     "minutes": 7.1,
+     "points": 6,
+     "rebounds": 0,
+     "assists": 0,
+     "steals": 2,
+     "blocks": 0,
+     "turnovers": 1,
+     "fgMade": 2,
+     "fgAttempted": 2,
+     "threeMade": 2,
+     "threeAttempted": 2,
+     "ftMade": 0,
+     "ftAttempted": 0
+    }
+   },
    "lastFull": {
     "regular": {
      "games": 54,
@@ -1014,6 +1032,115 @@
    }
   },
   {
+   "id": "harpero02",
+   "name": "Ron Harper Jr.",
+   "number": "8",
+   "position": "SF",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 5\"",
+    "weight": 233,
+    "birthDate": "2000-04-12",
+    "experience": 4,
+    "college": "Rutgers",
+    "birthPlace": "Franklin Lakes, NJ"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4397251.png",
+   "current": {
+    "regular": {
+     "games": 1,
+     "started": 0,
+     "minutes": 6.9,
+     "points": 3,
+     "rebounds": 1,
+     "assists": 0,
+     "steals": 1,
+     "blocks": 0,
+     "turnovers": 0,
+     "fgMade": 1,
+     "fgAttempted": 4,
+     "threeMade": 1,
+     "threeAttempted": 3,
+     "ftMade": 0,
+     "ftAttempted": 0
+    }
+   },
+   "lastFull": {
+    "regular": {
+     "games": 29,
+     "started": 3,
+     "minutes": 317.7,
+     "points": 123,
+     "rebounds": 48,
+     "assists": 22,
+     "steals": 10,
+     "blocks": 9,
+     "turnovers": 8,
+     "fgMade": 46,
+     "fgAttempted": 110,
+     "threeMade": 28,
+     "threeAttempted": 80,
+     "ftMade": 3,
+     "ftAttempted": 4
+    },
+    "playoffs": {
+     "games": 6,
+     "started": 1,
+     "minutes": 25.3,
+     "points": 11,
+     "rebounds": 4,
+     "assists": 1,
+     "steals": 3,
+     "blocks": 0,
+     "turnovers": 0,
+     "fgMade": 4,
+     "fgAttempted": 9,
+     "threeMade": 3,
+     "threeAttempted": 6,
+     "ftMade": 0,
+     "ftAttempted": 0
+    }
+   },
+   "lastToDate": {}
+  },
+  {
+   "id": "cenacch01",
+   "name": "Chris Cenac Jr.",
+   "number": "12",
+   "position": "PF",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 11\"",
+    "weight": 240,
+    "birthDate": "2007-02-01",
+    "experience": 0,
+    "college": "Houston",
+    "birthPlace": "New Orleans, LA"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5142621.png",
+   "current": {
+    "regular": {
+     "games": 1,
+     "started": 0,
+     "minutes": 4.9,
+     "points": 3,
+     "rebounds": 1,
+     "assists": 0,
+     "steals": 0,
+     "blocks": 0,
+     "turnovers": 0,
+     "fgMade": 1,
+     "fgAttempted": 2,
+     "threeMade": 1,
+     "threeAttempted": 2,
+     "ftMade": 0,
+     "ftAttempted": 0
+    }
+   },
+   "lastFull": {},
+   "lastToDate": {}
+  },
+  {
    "id": "cartede02",
    "name": "Devin Carter",
    "position": "PG",
@@ -1067,60 +1194,6 @@
      "ftAttempted": 0
     }
    }
-  },
-  {
-   "id": "harpero02",
-   "name": "Ron Harper Jr.",
-   "position": "SF",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 5\"",
-    "weight": 233,
-    "birthDate": "2000-04-12",
-    "experience": 4,
-    "college": "Rutgers",
-    "birthPlace": "Franklin Lakes, NJ"
-   },
-   "number": "8",
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4397251.png",
-   "current": {},
-   "lastFull": {
-    "regular": {
-     "games": 29,
-     "started": 3,
-     "minutes": 317.7,
-     "points": 123,
-     "rebounds": 48,
-     "assists": 22,
-     "steals": 10,
-     "blocks": 9,
-     "turnovers": 8,
-     "fgMade": 46,
-     "fgAttempted": 110,
-     "threeMade": 28,
-     "threeAttempted": 80,
-     "ftMade": 3,
-     "ftAttempted": 4
-    },
-    "playoffs": {
-     "games": 6,
-     "started": 1,
-     "minutes": 25.3,
-     "points": 11,
-     "rebounds": 4,
-     "assists": 1,
-     "steals": 3,
-     "blocks": 0,
-     "turnovers": 0,
-     "fgMade": 4,
-     "fgAttempted": 9,
-     "threeMade": 3,
-     "threeAttempted": 6,
-     "ftMade": 0,
-     "ftAttempted": 0
-    }
-   },
-   "lastToDate": {}
   },
   {
    "id": "william01",
@@ -1193,25 +1266,6 @@
      "ftAttempted": 0
     }
    }
-  },
-  {
-   "id": "cenacch01",
-   "name": "Chris Cenac Jr.",
-   "position": "PF",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 11\"",
-    "weight": 240,
-    "birthDate": "2007-02-01",
-    "experience": 0,
-    "college": "Houston",
-    "birthPlace": "New Orleans, LA"
-   },
-   "number": "12",
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5142621.png",
-   "current": {},
-   "lastFull": {},
-   "lastToDate": {}
   },
   {
    "id": "mitchdi01",

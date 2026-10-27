@@ -1,7 +1,7 @@
 {
  "season": "2026-27",
  "lastSeason": "2025-26",
- "updatedAt": "2026-10-27T05:22:23.629Z",
+ "updatedAt": "2026-10-27T11:22:25.931Z",
  "teamGamesPlayed": {
   "regular": 3,
   "playoffs": 0
@@ -1161,38 +1161,76 @@
    "lastToDate": {}
   },
   {
-   "id": "mcculke01",
-   "name": "Kevin McCullar Jr.",
+   "id": "knechda01",
+   "name": "Dalton Knecht",
    "position": "SF",
    "twoWay": true,
    "bio": {
     "height": "6' 6\"",
-    "weight": 210,
-    "birthDate": "2001-03-15",
+    "weight": 215,
+    "birthDate": "2001-04-19",
     "experience": 2,
-    "college": "Texas Tech, Kansas"
+    "college": "Tennessee",
+    "birthPlace": "Thornton, CO"
    },
+   "number": "99",
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4897943.png",
    "current": {},
    "lastFull": {
     "regular": {
-     "games": 21,
+     "games": 54,
+     "started": 1,
+     "minutes": 553.6,
+     "points": 228,
+     "rebounds": 75,
+     "assists": 21,
+     "steals": 11,
+     "blocks": 11,
+     "turnovers": 23,
+     "fgMade": 87,
+     "fgAttempted": 191,
+     "threeMade": 38,
+     "threeAttempted": 111,
+     "ftMade": 16,
+     "ftAttempted": 22
+    },
+    "playoffs": {
+     "games": 5,
      "started": 0,
-     "minutes": 155.1,
-     "points": 50,
-     "rebounds": 28,
-     "assists": 20,
-     "steals": 9,
+     "minutes": 18.1,
+     "points": 10,
+     "rebounds": 6,
+     "assists": 3,
+     "steals": 0,
      "blocks": 0,
-     "turnovers": 12,
-     "fgMade": 20,
-     "fgAttempted": 47,
-     "threeMade": 8,
-     "threeAttempted": 24,
+     "turnovers": 1,
+     "fgMade": 3,
+     "fgAttempted": 8,
+     "threeMade": 2,
+     "threeAttempted": 5,
      "ftMade": 2,
-     "ftAttempted": 5
+     "ftAttempted": 2
     }
    },
-   "lastToDate": {}
+   "lastToDate": {
+    "regular": {
+     "games": 2,
+     "started": 0,
+     "minutes": 20.2,
+     "points": 2,
+     "rebounds": 3,
+     "assists": 0,
+     "steals": 0,
+     "blocks": 1,
+     "turnovers": 2,
+     "fgMade": 1,
+     "fgAttempted": 4,
+     "threeMade": 0,
+     "threeAttempted": 3,
+     "ftMade": 0,
+     "ftAttempted": 0
+    }
+   }
   },
   {
    "id": "dadiepa01",
