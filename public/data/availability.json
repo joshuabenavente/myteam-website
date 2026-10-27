@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-27T19:23:47.850Z",
+ "updatedAt": "2026-10-27T20:23:32.749Z",
  "teams": {
   "ATL": [
    {
@@ -284,6 +284,13 @@
     "returnDate": "2026-11-08"
    },
    {
+    "name": "Rui Hachimura",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Quadriceps (soreness)",
+    "returnDate": "2026-10-30"
+   },
+   {
     "name": "Yanic Konan Niederhauser",
     "status": "Out",
     "gameTimeDecision": false,
@@ -309,9 +316,9 @@
    {
     "name": "Nate Bittle",
     "status": "Out",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Foot (fracture)",
-    "returnDate": "2026-10-28"
+    "returnDate": "2026-11-02"
    }
   ],
   "LAL": [
@@ -321,6 +328,22 @@
     "gameTimeDecision": false,
     "reason": "Knee (inflammation)",
     "returnDate": "2026-10-28"
+   }
+  ],
+  "MIA": [
+   {
+    "name": "Pelle Larsson",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Ankle (sprain)",
+    "returnDate": "2026-10-28"
+   },
+   {
+    "name": "Simone Fontecchio",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Illness",
+    "returnDate": "2026-11-04"
    }
   ],
   "MIN": [
@@ -339,6 +362,13 @@
     "gameTimeDecision": false,
     "reason": "Knee (bruise)",
     "returnDate": "2026-11-02"
+   },
+   {
+    "name": "Jordan Poole",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Illness",
+    "returnDate": "2026-10-28"
    }
   ],
   "NYK": [
@@ -514,13 +544,6 @@
     "returnDate": "2027-03-02"
    },
    {
-    "name": "Branden Carlson",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Concussion",
-    "returnDate": "2026-10-27"
-   },
-   {
     "name": "Scoot Henderson",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
@@ -576,6 +599,13 @@
   ],
   "UTA": [
    {
+    "name": "Jaren Jackson Jr.",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Knee",
+    "returnDate": "2026-12-14"
+   },
+   {
     "name": "Jusuf Nurkic",
     "status": "Out",
     "gameTimeDecision": false,
@@ -587,13 +617,6 @@
     "status": "Out",
     "gameTimeDecision": true,
     "reason": "Knee (bruise)",
-    "returnDate": "2026-10-28"
-   },
-   {
-    "name": "Jaren Jackson Jr.",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Knee",
     "returnDate": "2026-10-28"
    },
    {
