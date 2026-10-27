@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-27T02:23:43.702Z",
+ "updatedAt": "2026-10-27T04:23:45.033Z",
  "teams": {
   "ATL": [
    {
@@ -33,13 +33,6 @@
     "gameTimeDecision": false,
     "reason": "Shoulder (sprain)",
     "returnDate": "2026-10-30"
-   },
-   {
-    "name": "Mikel Brown Jr.",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Rest",
-    "returnDate": "2026-10-27"
    }
   ],
   "CHA": [
@@ -82,8 +75,8 @@
    },
    {
     "name": "Patrick Williams",
-    "status": "Out",
-    "gameTimeDecision": false,
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
     "reason": "Groin (soreness)",
     "returnDate": "2026-10-28"
    }
@@ -104,13 +97,6 @@
     "returnDate": "2026-11-02"
    },
    {
-    "name": "Naji Marshall",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Illness",
-    "returnDate": "2026-10-28"
-   },
-   {
     "name": "Santi Aldama",
     "status": "Out",
     "gameTimeDecision": false,
@@ -123,6 +109,13 @@
     "gameTimeDecision": false,
     "reason": "Heel (inflammation)",
     "returnDate": "2026-11-02"
+   },
+   {
+    "name": "Naji Marshall",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Illness",
+    "returnDate": "2026-10-28"
    },
    {
     "name": "Sergio de Larrea",
@@ -615,7 +608,7 @@
    {
     "name": "AJ Dybantsa",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Ankle (sprain)",
     "returnDate": "2026-10-28"
    },
