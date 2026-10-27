@@ -64,7 +64,11 @@
    "startUtc": "2026-10-27T00:30:00Z",
    "home": false,
    "opponent": "HOU",
-   "status": "scheduled",
+   "status": "live",
+   "score": {
+    "team": 0,
+    "opponent": 0
+   },
    "broadcasts": [
     {
      "name": "ANF / Peachtree Sports Net / Prime Video - ATL",

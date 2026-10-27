@@ -74,7 +74,11 @@
    "startUtc": "2026-10-27T00:00:00Z",
    "home": true,
    "opponent": "PHX",
-   "status": "scheduled",
+   "status": "live",
+   "score": {
+    "team": 0,
+    "opponent": 0
+   },
    "broadcasts": [
     {
      "name": "KSBI OKC",

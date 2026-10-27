@@ -64,7 +64,11 @@
    "startUtc": "2026-10-27T00:30:00Z",
    "home": true,
    "opponent": "ATL",
-   "status": "scheduled",
+   "status": "live",
+   "score": {
+    "team": 0,
+    "opponent": 0
+   },
    "broadcasts": [
     {
      "name": "SCHN/SCHN+",
