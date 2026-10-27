@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-27T20:23:32.749Z",
+ "updatedAt": "2026-10-27T21:23:57.762Z",
  "teams": {
   "ATL": [
    {
@@ -15,6 +15,13 @@
     "gameTimeDecision": false,
     "reason": "Foot (fracture)",
     "returnDate": "2026-11-20"
+   },
+   {
+    "name": "Aaron Wiggins",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Knee (bruise)",
+    "returnDate": "2026-10-28"
    }
   ],
   "BOS": [
@@ -206,9 +213,23 @@
     "gameTimeDecision": false,
     "reason": "Knee (surgery)",
     "returnDate": "2026-12-01"
+   },
+   {
+    "name": "Yaxel Lendeborg",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Foot",
+    "returnDate": "2026-10-28"
    }
   ],
   "HOU": [
+   {
+    "name": "Alperen Sengun",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Back (soreness)",
+    "returnDate": "2026-10-30"
+   },
    {
     "name": "Steven Adams",
     "status": "Out",
@@ -233,6 +254,13 @@
     "returnDate": "2026-12-01"
    },
    {
+    "name": "Ivica Zubac",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Ankle (sprain)",
+    "returnDate": "2026-10-30"
+   },
+   {
     "name": "Johnny Furphy",
     "status": "Out",
     "gameTimeDecision": false,
@@ -242,22 +270,15 @@
    {
     "name": "T.J. McConnell",
     "status": "Out",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Hamstring (strain)",
-    "returnDate": "2026-10-28"
+    "returnDate": "2026-10-30"
    },
    {
     "name": "Andrew Nembhard",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
-    "reason": "Back (soreness)",
-    "returnDate": "2026-10-28"
-   },
-   {
-    "name": "Ivica Zubac",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Ankle (sprain)",
+    "reason": "Neck (soreness)",
     "returnDate": "2026-10-28"
    }
   ],
@@ -343,7 +364,7 @@
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Illness",
-    "returnDate": "2026-11-04"
+    "returnDate": "2026-10-28"
    }
   ],
   "MIN": [
@@ -484,32 +505,18 @@
     "returnDate": "2026-11-02"
    },
    {
+    "name": "Jabari Walker",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Knee (soreness)",
+    "returnDate": "2026-10-30"
+   },
+   {
     "name": "Tacko Fall",
     "status": "Out",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Quadriceps (strain)",
-    "returnDate": "2026-10-28"
-   },
-   {
-    "name": "Jabari Walker",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Knee (soreness)",
-    "returnDate": "2026-10-28"
-   },
-   {
-    "name": "Joel Embiid",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Heel",
-    "returnDate": "2026-10-28"
-   },
-   {
-    "name": "VJ Edgecombe",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Abdomen (bruise)",
-    "returnDate": "2026-10-28"
+    "returnDate": "2026-11-04"
    }
   ],
   "PHX": [
@@ -650,18 +657,18 @@
     "returnDate": "2027-04-02"
    },
    {
+    "name": "Justin Champagnie",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Foot",
+    "returnDate": "2026-10-30"
+   },
+   {
     "name": "Tristan Vukcevic",
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Hip (pinched nerve)",
     "returnDate": "2026-11-02"
-   },
-   {
-    "name": "Justin Champagnie",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Foot",
-    "returnDate": "2026-10-28"
    }
   ]
  }
