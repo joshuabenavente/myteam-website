@@ -64,7 +64,11 @@
    "startUtc": "2026-10-26T23:00:00Z",
    "home": true,
    "opponent": "WAS",
-   "status": "scheduled",
+   "status": "live",
+   "score": {
+    "team": 0,
+    "opponent": 0
+   },
    "broadcasts": [
     {
      "name": "TV 64/DAZN-CHA",

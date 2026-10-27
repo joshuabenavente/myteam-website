@@ -69,7 +69,11 @@
    "startUtc": "2026-10-26T23:00:00Z",
    "home": false,
    "opponent": "CLE",
-   "status": "scheduled",
+   "status": "live",
+   "score": {
+    "team": 0,
+    "opponent": 0
+   },
    "broadcasts": [
     {
      "name": "DAZN-MIN",

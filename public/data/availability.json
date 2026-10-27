@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-26T23:23:37.172Z",
+ "updatedAt": "2026-10-27T00:23:31.580Z",
  "teams": {
   "ATL": [
    {
@@ -123,6 +123,13 @@
     "gameTimeDecision": false,
     "reason": "Heel (inflammation)",
     "returnDate": "2026-11-02"
+   },
+   {
+    "name": "Sergio de Larrea",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Ankle",
+    "returnDate": "2026-10-26"
    }
   ],
   "DEN": [
@@ -332,26 +339,19 @@
    {
     "name": "Adou Thiero",
     "status": "Out",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Knee (inflammation)",
-    "returnDate": "2026-10-27"
+    "returnDate": "2026-10-28"
    },
    {
     "name": "Cameron Carr",
     "status": "Out",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Oblique (strain)",
     "returnDate": "2026-10-27"
    }
   ],
   "MEM": [
-   {
-    "name": "Isaiah Stewart",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Ankle",
-    "returnDate": "2026-10-26"
-   },
    {
     "name": "Karim Lopez",
     "status": "Day-To-Day",
@@ -530,6 +530,13 @@
   ],
   "POR": [
    {
+    "name": "Chris Youngblood",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Ankle (soreness)",
+    "returnDate": "2026-10-29"
+   },
+   {
     "name": "Shaedon Sharpe",
     "status": "Out",
     "gameTimeDecision": false,
@@ -544,7 +551,7 @@
     "returnDate": "2026-10-27"
    },
    {
-    "name": "Chris Youngblood",
+    "name": "Scoot Henderson",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Ankle (soreness)",
@@ -599,6 +606,13 @@
   ],
   "UTA": [
    {
+    "name": "Jaxson Hayes",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Shoulder (soreness)",
+    "returnDate": "2026-10-28"
+   },
+   {
     "name": "Jusuf Nurkic",
     "status": "Out",
     "gameTimeDecision": false,
@@ -611,13 +625,6 @@
     "gameTimeDecision": false,
     "reason": "Knee (bruise)",
     "returnDate": "2026-10-28"
-   },
-   {
-    "name": "Jaxson Hayes",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Shoulder (soreness)",
-    "returnDate": "2026-10-26"
    }
   ],
   "WAS": [
@@ -641,6 +648,13 @@
     "gameTimeDecision": false,
     "reason": "Hip (pinched nerve)",
     "returnDate": "2026-11-02"
+   },
+   {
+    "name": "Justin Champagnie",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Foot",
+    "returnDate": "2026-10-28"
    }
   ]
  }
