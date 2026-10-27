@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-27T04:23:45.033Z",
+ "updatedAt": "2026-10-27T05:23:35.838Z",
  "teams": {
   "ATL": [
    {
@@ -127,20 +127,6 @@
   ],
   "DEN": [
    {
-    "name": "Alpha Diallo",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Wrist",
-    "returnDate": "2026-10-28"
-   },
-   {
-    "name": "Cameron Johnson",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Ankle (sprain)",
-    "returnDate": "2026-10-28"
-   },
-   {
     "name": "Julian Strawther",
     "status": "Out",
     "gameTimeDecision": false,
@@ -150,8 +136,22 @@
    {
     "name": "Spencer Jones",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Hamstring",
+    "returnDate": "2026-10-28"
+   },
+   {
+    "name": "Alpha Diallo",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Wrist",
+    "returnDate": "2026-10-28"
+   },
+   {
+    "name": "Cameron Johnson",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Ankle (sprain)",
     "returnDate": "2026-10-28"
    }
   ],
@@ -203,41 +203,27 @@
   ],
   "HOU": [
    {
-    "name": "Marcus Smart",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Forearm (strain)",
-    "returnDate": "2026-10-28"
-   },
-   {
     "name": "Steven Adams",
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Calf (strain)",
     "returnDate": "2026-11-02"
+   },
+   {
+    "name": "Marcus Smart",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Forearm (strain)",
+    "returnDate": "2026-10-28"
    }
   ],
   "IND": [
-   {
-    "name": "Andrew Nembhard",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Back (soreness)",
-    "returnDate": "2026-10-28"
-   },
    {
     "name": "Ben Sheppard",
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Knee",
     "returnDate": "2026-12-01"
-   },
-   {
-    "name": "Ivica Zubac",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Ankle (sprain)",
-    "returnDate": "2026-10-28"
    },
    {
     "name": "Johnny Furphy",
@@ -249,8 +235,22 @@
    {
     "name": "T.J. McConnell",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Hamstring (strain)",
+    "returnDate": "2026-10-28"
+   },
+   {
+    "name": "Andrew Nembhard",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Back (soreness)",
+    "returnDate": "2026-10-28"
+   },
+   {
+    "name": "Ivica Zubac",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Ankle (sprain)",
     "returnDate": "2026-10-28"
    }
   ],
@@ -368,7 +368,7 @@
    {
     "name": "Nikola Topic",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Back",
     "returnDate": "2026-10-28"
    },
@@ -382,7 +382,7 @@
    {
     "name": "Thomas Sorber",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Knee",
     "returnDate": "2026-10-28"
    },
@@ -485,8 +485,8 @@
    },
    {
     "name": "Oso Ighodaro",
-    "status": "Out",
-    "gameTimeDecision": false,
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
     "reason": "Oblique (strain)",
     "returnDate": "2026-10-30"
    }
@@ -569,13 +569,6 @@
   ],
   "UTA": [
    {
-    "name": "Jaxson Hayes",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Shoulder (soreness)",
-    "returnDate": "2026-10-28"
-   },
-   {
     "name": "Jusuf Nurkic",
     "status": "Out",
     "gameTimeDecision": false,
@@ -594,6 +587,13 @@
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Knee",
+    "returnDate": "2026-10-28"
+   },
+   {
+    "name": "Jaxson Hayes",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Shoulder (soreness)",
     "returnDate": "2026-10-28"
    },
    {
