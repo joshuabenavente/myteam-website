@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-27T01:23:50.532Z",
+ "updatedAt": "2026-10-27T02:23:43.702Z",
  "teams": {
   "ATL": [
    {
@@ -129,7 +129,7 @@
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Knee (strain)",
-    "returnDate": "2026-10-26"
+    "returnDate": "2026-10-28"
    }
   ],
   "DEN": [
@@ -321,13 +321,6 @@
     "gameTimeDecision": false,
     "reason": "Knee (inflammation)",
     "returnDate": "2026-10-28"
-   },
-   {
-    "name": "Cameron Carr",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Oblique (strain)",
-    "returnDate": "2026-10-27"
    }
   ],
   "MIN": [
@@ -405,7 +398,7 @@
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Ankle",
-    "returnDate": "2026-10-26"
+    "returnDate": "2026-10-28"
    }
   ],
   "ORL": [
@@ -601,6 +594,20 @@
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Knee (bruise)",
+    "returnDate": "2026-10-28"
+   },
+   {
+    "name": "Jaren Jackson Jr.",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Knee",
+    "returnDate": "2026-10-28"
+   },
+   {
+    "name": "Lauri Markkanen",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Wrist",
     "returnDate": "2026-10-28"
    }
   ],
