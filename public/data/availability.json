@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-27T23:23:35.307Z",
+ "updatedAt": "2026-10-28T00:23:38.435Z",
  "teams": {
   "ATL": [
    {
@@ -178,25 +178,18 @@
   ],
   "DET": [
    {
+    "name": "Isaiah Joe",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Hip (bruise)",
+    "returnDate": "2026-10-28"
+   },
+   {
     "name": "Jalen Duren",
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Hamstring (strain)",
     "returnDate": "2026-11-09"
-   },
-   {
-    "name": "Ausar Thompson",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Ankle (sprain)",
-    "returnDate": "2026-10-27"
-   },
-   {
-    "name": "Isaiah Joe",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Hip (bruise)",
-    "returnDate": "2026-10-27"
    }
   ],
   "GSW": [
@@ -376,6 +369,13 @@
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Knee (inflammation)",
+    "returnDate": "2026-10-28"
+   },
+   {
+    "name": "Cameron Carr",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Oblique (strain)",
     "returnDate": "2026-10-28"
    }
   ],

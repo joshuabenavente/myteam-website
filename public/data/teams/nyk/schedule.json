@@ -69,7 +69,11 @@
    "startUtc": "2026-10-28T00:00:00Z",
    "home": true,
    "opponent": "DET",
-   "status": "scheduled",
+   "status": "live",
+   "score": {
+    "team": 0,
+    "opponent": 0
+   },
    "broadcasts": [
     {
      "name": "NBC",
