@@ -88,7 +88,11 @@
    "startUtc": "2026-10-28T23:00:00Z",
    "home": false,
    "opponent": "ATL",
-   "status": "scheduled",
+   "status": "live",
+   "score": {
+    "team": 0,
+    "opponent": 0
+   },
    "broadcasts": [
     {
      "name": "WPLG Local 10/Local10+ Platinum",

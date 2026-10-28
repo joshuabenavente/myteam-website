@@ -93,7 +93,11 @@
    "startUtc": "2026-10-28T23:00:00Z",
    "home": true,
    "opponent": "CHA",
-   "status": "scheduled",
+   "status": "live",
+   "score": {
+    "team": 0,
+    "opponent": 0
+   },
    "broadcasts": [
     {
      "name": "TV20 Detroit/DAZN-DET",

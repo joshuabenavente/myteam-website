@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-28T22:23:41.094Z",
+ "updatedAt": "2026-10-28T23:23:38.756Z",
  "teams": {
   "ATL": [
    {
@@ -83,16 +83,16 @@
    {
     "name": "Patrick Williams",
     "status": "Out",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Groin (soreness)",
-    "returnDate": "2026-10-28"
+    "returnDate": "2026-10-30"
    },
    {
     "name": "Tobe Awaka",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
+    "status": "Out",
+    "gameTimeDecision": false,
     "reason": "Ankle",
-    "returnDate": "2026-10-28"
+    "returnDate": "2026-10-30"
    }
   ],
   "DAL": [
@@ -155,6 +155,13 @@
     "returnDate": "2026-10-30"
    },
    {
+    "name": "Cameron Johnson",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Ankle (sprain)",
+    "returnDate": "2026-10-30"
+   },
+   {
     "name": "Julian Strawther",
     "status": "Out",
     "gameTimeDecision": false,
@@ -167,13 +174,6 @@
     "gameTimeDecision": false,
     "reason": "Hamstring",
     "returnDate": "2026-11-02"
-   },
-   {
-    "name": "Cameron Johnson",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Ankle (sprain)",
-    "returnDate": "2026-10-28"
    }
   ],
   "DET": [
@@ -190,16 +190,16 @@
     "gameTimeDecision": false,
     "reason": "Hamstring (strain)",
     "returnDate": "2026-11-09"
-   },
-   {
-    "name": "Ausar Thompson",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Ankle",
-    "returnDate": "2026-10-28"
    }
   ],
   "GSW": [
+   {
+    "name": "Gui Santos",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Knee (tendinitis)",
+    "returnDate": "2026-10-30"
+   },
    {
     "name": "Jimmy Butler III",
     "status": "Out",
@@ -220,13 +220,6 @@
     "gameTimeDecision": false,
     "reason": "Knee (surgery)",
     "returnDate": "2026-12-01"
-   },
-   {
-    "name": "Yaxel Lendeborg",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Foot",
-    "returnDate": "2026-10-28"
    }
   ],
   "HOU": [
@@ -287,13 +280,6 @@
     "gameTimeDecision": false,
     "reason": "Hamstring (strain)",
     "returnDate": "2026-11-13"
-   },
-   {
-    "name": "Obi Toppin",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Hand (sprain)",
-    "returnDate": "2026-10-28"
    }
   ],
   "LAC": [
@@ -683,6 +669,13 @@
     "gameTimeDecision": false,
     "reason": "Foot",
     "returnDate": "2027-02-25"
+   },
+   {
+    "name": "Tre Johnson",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Achilles (soreness)",
+    "returnDate": "2026-10-30"
    },
    {
     "name": "Tristan Vukcevic",
