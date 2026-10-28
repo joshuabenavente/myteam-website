@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-28T14:23:47.537Z",
+ "updatedAt": "2026-10-28T15:23:57.836Z",
  "teams": {
   "ATL": [
    {
@@ -388,17 +388,17 @@
   ],
   "MIA": [
    {
+    "name": "Simone Fontecchio",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Illness",
+    "returnDate": "2026-10-30"
+   },
+   {
     "name": "Pelle Larsson",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Ankle (sprain)",
-    "returnDate": "2026-10-28"
-   },
-   {
-    "name": "Simone Fontecchio",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Illness",
     "returnDate": "2026-10-28"
    }
   ],
@@ -536,6 +536,13 @@
     "gameTimeDecision": false,
     "reason": "Ankle (sprain)",
     "returnDate": "2026-11-22"
+   },
+   {
+    "name": "Anthony Black",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Personal",
+    "returnDate": "2026-10-28"
    }
   ],
   "PHI": [
