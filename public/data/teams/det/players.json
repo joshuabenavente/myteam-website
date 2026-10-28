@@ -1,7 +1,7 @@
 {
  "season": "2026-27",
  "lastSeason": "2025-26",
- "updatedAt": "2026-10-28T12:23:35.341Z",
+ "updatedAt": "2026-10-28T18:23:31.945Z",
  "teamGamesPlayed": {
   "regular": 4,
   "playoffs": 0
@@ -1051,6 +1051,7 @@
   {
    "id": "princta02",
    "name": "Taurean Prince",
+   "number": "12",
    "position": "SF",
    "twoWay": false,
    "bio": {
@@ -1061,7 +1062,6 @@
     "college": "Baylor",
     "birthPlace": "San Marcos, TX"
    },
-   "number": "12",
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/2990962.png",
    "current": {
     "regular": {
@@ -1161,6 +1161,7 @@
   {
    "id": "jonesis01",
    "name": "Isaac Jones",
+   "number": "13",
    "position": "PF",
    "twoWay": true,
    "bio": {
@@ -1171,7 +1172,6 @@
     "college": "Washington State",
     "birthPlace": "Spanaway, WA"
    },
-   "number": "13",
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5107818.png",
    "current": {
     "regular": {
@@ -1234,6 +1234,7 @@
   {
    "id": "harklej01",
    "name": "Elijah Harkless",
+   "number": "94",
    "position": "SG",
    "twoWay": true,
    "bio": {
@@ -1244,7 +1245,6 @@
     "college": "UNLV",
     "birthPlace": "San Bernardino, CA"
    },
-   "number": "94",
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4397449.png",
    "current": {
     "regular": {
@@ -1307,6 +1307,7 @@
   {
    "id": "laniech01",
    "name": "Chaz Lanier",
+   "number": "8",
    "position": "SG",
    "twoWay": false,
    "bio": {
@@ -1317,7 +1318,6 @@
     "college": "Tennessee",
     "birthPlace": "Nashville, TN"
    },
-   "number": "8",
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4700852.png",
    "current": {
     "regular": {

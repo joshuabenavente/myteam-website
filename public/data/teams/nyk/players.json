@@ -1,7 +1,7 @@
 {
  "season": "2026-27",
  "lastSeason": "2025-26",
- "updatedAt": "2026-10-28T12:18:47.392Z",
+ "updatedAt": "2026-10-28T18:18:43.842Z",
  "teamGamesPlayed": {
   "regular": 4,
   "playoffs": 0
@@ -1110,6 +1110,7 @@
   {
    "id": "diawamo01",
    "name": "Mohamed Diawara",
+   "number": "51",
    "position": "SF",
    "twoWay": false,
    "bio": {
@@ -1119,7 +1120,6 @@
     "experience": 1,
     "birthPlace": "Paris, France"
    },
-   "number": "51",
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5289900.png",
    "current": {
     "regular": {
@@ -1199,6 +1199,7 @@
   {
    "id": "dadiepa01",
    "name": "Pacôme Dadiet",
+   "number": "4",
    "position": "SG",
    "twoWay": false,
    "bio": {
@@ -1208,7 +1209,6 @@
     "experience": 2,
     "birthPlace": "Aubagne, France"
    },
-   "number": "4",
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5211983.png",
    "current": {
     "regular": {

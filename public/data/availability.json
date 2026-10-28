@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-28T17:23:39.563Z",
+ "updatedAt": "2026-10-28T18:23:32.115Z",
  "teams": {
   "ATL": [
    {
@@ -245,18 +245,18 @@
     "returnDate": "2026-10-30"
    },
    {
+    "name": "Marcus Smart",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Forearm (strain)",
+    "returnDate": "2026-10-30"
+   },
+   {
     "name": "Steven Adams",
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Calf (strain)",
     "returnDate": "2026-11-02"
-   },
-   {
-    "name": "Marcus Smart",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Forearm (strain)",
-    "returnDate": "2026-10-28"
    }
   ],
   "IND": [
@@ -289,6 +289,13 @@
     "returnDate": "2026-10-30"
    },
    {
+    "name": "Tyrese Haliburton",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Hamstring (soreness)",
+    "returnDate": "2026-11-09"
+   },
+   {
     "name": "Aaron Nesmith",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
@@ -307,13 +314,6 @@
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Hand (sprain)",
-    "returnDate": "2026-10-28"
-   },
-   {
-    "name": "Tyrese Haliburton",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Hamstring (soreness)",
     "returnDate": "2026-10-28"
    }
   ],
@@ -425,13 +425,6 @@
     "gameTimeDecision": false,
     "reason": "Knee (bruise)",
     "returnDate": "2026-11-02"
-   },
-   {
-    "name": "Jordan Poole",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Illness",
-    "returnDate": "2026-10-28"
    }
   ],
   "NYK": [
