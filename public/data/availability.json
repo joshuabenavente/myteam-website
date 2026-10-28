@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-28T00:23:38.435Z",
+ "updatedAt": "2026-10-28T01:23:50.440Z",
  "teams": {
   "ATL": [
    {
@@ -39,6 +39,13 @@
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Shoulder (sprain)",
+    "returnDate": "2026-10-30"
+   },
+   {
+    "name": "Egor Demin",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Leg (bruise)",
     "returnDate": "2026-10-30"
    }
   ],
@@ -113,7 +120,7 @@
    {
     "name": "Santi Aldama",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Knee (surgery)",
     "returnDate": "2026-10-28"
    },
