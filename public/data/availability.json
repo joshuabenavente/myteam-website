@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-28T19:23:43.363Z",
+ "updatedAt": "2026-10-28T20:23:42.261Z",
  "teams": {
   "ATL": [
    {
@@ -381,16 +381,30 @@
    {
     "name": "Adou Thiero",
     "status": "Out",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Knee (inflammation)",
-    "returnDate": "2026-10-28"
+    "returnDate": "2026-10-30"
    },
    {
     "name": "Cameron Carr",
     "status": "Out",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Oblique (strain)",
-    "returnDate": "2026-10-28"
+    "returnDate": "2026-10-30"
+   },
+   {
+    "name": "Luka Doncic",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Back",
+    "returnDate": "2026-10-30"
+   },
+   {
+    "name": "Ziaire Williams",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Foot",
+    "returnDate": "2026-10-30"
    }
   ],
   "MIA": [
