@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-28T21:24:00.749Z",
+ "updatedAt": "2026-10-28T22:23:41.094Z",
  "teams": {
   "ATL": [
    {
@@ -82,7 +82,7 @@
    },
    {
     "name": "Patrick Williams",
-    "status": "Day-To-Day",
+    "status": "Out",
     "gameTimeDecision": true,
     "reason": "Groin (soreness)",
     "returnDate": "2026-10-28"
@@ -258,7 +258,7 @@
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Knee",
-    "returnDate": "2026-12-01"
+    "returnDate": "2027-01-02"
    },
    {
     "name": "Ivica Zubac",
@@ -279,28 +279,14 @@
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Hamstring (strain)",
-    "returnDate": "2026-10-30"
+    "returnDate": "2026-11-02"
    },
    {
     "name": "Tyrese Haliburton",
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Hamstring (strain)",
-    "returnDate": "2026-11-09"
-   },
-   {
-    "name": "Aaron Nesmith",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Hamstring (strain)",
-    "returnDate": "2026-10-28"
-   },
-   {
-    "name": "Andrew Nembhard",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Neck (soreness)",
-    "returnDate": "2026-10-28"
+    "returnDate": "2026-11-13"
    },
    {
     "name": "Obi Toppin",
@@ -536,13 +522,6 @@
     "gameTimeDecision": false,
     "reason": "Ankle (sprain)",
     "returnDate": "2026-11-22"
-   },
-   {
-    "name": "Anthony Black",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Personal",
-    "returnDate": "2026-10-28"
    }
   ],
   "PHI": [
