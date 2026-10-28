@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-28T16:23:49.761Z",
+ "updatedAt": "2026-10-28T17:23:39.563Z",
  "teams": {
   "ATL": [
    {
@@ -185,6 +185,13 @@
   ],
   "DET": [
    {
+    "name": "Isaiah Joe",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Hip (bruise)",
+    "returnDate": "2026-10-30"
+   },
+   {
     "name": "Jalen Duren",
     "status": "Out",
     "gameTimeDecision": false,
@@ -192,10 +199,10 @@
     "returnDate": "2026-11-09"
    },
    {
-    "name": "Isaiah Joe",
+    "name": "Ausar Thompson",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
-    "reason": "Hip (bruise)",
+    "reason": "Ankle",
     "returnDate": "2026-10-28"
    }
   ],
