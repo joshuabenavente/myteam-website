@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-28T05:23:36.772Z",
+ "updatedAt": "2026-10-28T06:23:32.621Z",
  "teams": {
   "ATL": [
    {
@@ -185,18 +185,18 @@
   ],
   "DET": [
    {
-    "name": "Isaiah Joe",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Hip (bruise)",
-    "returnDate": "2026-10-28"
-   },
-   {
     "name": "Jalen Duren",
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Hamstring (strain)",
     "returnDate": "2026-11-09"
+   },
+   {
+    "name": "Isaiah Joe",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Hip (bruise)",
+    "returnDate": "2026-10-28"
    }
   ],
   "GSW": [
@@ -437,7 +437,7 @@
   "NYK": [
    {
     "name": "Jose Alvarado",
-    "status": "Out",
+    "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Ankle (sprain)",
     "returnDate": "2026-10-28"
