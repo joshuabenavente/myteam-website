@@ -1,7 +1,7 @@
 {
  "season": "2026-27",
  "lastSeason": "2025-26",
- "updatedAt": "2026-10-28T04:18:44.491Z",
+ "updatedAt": "2026-10-28T10:18:46.010Z",
  "teamGamesPlayed": {
   "regular": 4,
   "playoffs": 0
@@ -24,21 +24,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3064440.png",
    "current": {
     "regular": {
-     "games": 3,
-     "started": 3,
-     "minutes": 113.5,
-     "points": 87,
-     "rebounds": 11,
-     "assists": 10,
+     "games": 4,
+     "started": 4,
+     "minutes": 144.4,
+     "points": 109,
+     "rebounds": 14,
+     "assists": 13,
      "steals": 4,
      "blocks": 1,
-     "turnovers": 10,
-     "fgMade": 29,
-     "fgAttempted": 59,
-     "threeMade": 9,
-     "threeAttempted": 27,
-     "ftMade": 20,
-     "ftAttempted": 23
+     "turnovers": 12,
+     "fgMade": 36,
+     "fgAttempted": 69,
+     "threeMade": 12,
+     "threeAttempted": 31,
+     "ftMade": 25,
+     "ftAttempted": 30
     }
    },
    "lastFull": {
@@ -81,43 +81,6 @@
    }
   },
   {
-   "id": "acuffda01",
-   "name": "Darius Acuff Jr.",
-   "number": "5",
-   "position": "PG",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 2\"",
-    "weight": 186,
-    "birthDate": "2006-11-16",
-    "experience": 0,
-    "college": "Arkansas",
-    "birthPlace": "Detroit, MI"
-   },
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5142620.png",
-   "current": {
-    "regular": {
-     "games": 3,
-     "started": 3,
-     "minutes": 107.8,
-     "points": 67,
-     "rebounds": 8,
-     "assists": 14,
-     "steals": 3,
-     "blocks": 1,
-     "turnovers": 8,
-     "fgMade": 24,
-     "fgAttempted": 73,
-     "threeMade": 4,
-     "threeAttempted": 27,
-     "ftMade": 15,
-     "ftAttempted": 19
-    }
-   },
-   "lastFull": {},
-   "lastToDate": {}
-  },
-  {
    "id": "sabondo01",
    "name": "Domantas Sabonis",
    "number": "11",
@@ -134,17 +97,17 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3155942.png",
    "current": {
     "regular": {
-     "games": 3,
-     "started": 3,
-     "minutes": 106.8,
-     "points": 56,
-     "rebounds": 52,
-     "assists": 21,
+     "games": 4,
+     "started": 4,
+     "minutes": 144.1,
+     "points": 76,
+     "rebounds": 66,
+     "assists": 29,
      "steals": 3,
      "blocks": 0,
-     "turnovers": 12,
-     "fgMade": 21,
-     "fgAttempted": 26,
+     "turnovers": 14,
+     "fgMade": 31,
+     "fgAttempted": 42,
      "threeMade": 1,
      "threeAttempted": 1,
      "ftMade": 13,
@@ -191,6 +154,43 @@
    }
   },
   {
+   "id": "acuffda01",
+   "name": "Darius Acuff Jr.",
+   "number": "5",
+   "position": "PG",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 2\"",
+    "weight": 186,
+    "birthDate": "2006-11-16",
+    "experience": 0,
+    "college": "Arkansas",
+    "birthPlace": "Detroit, MI"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5142620.png",
+   "current": {
+    "regular": {
+     "games": 4,
+     "started": 4,
+     "minutes": 141.2,
+     "points": 86,
+     "rebounds": 11,
+     "assists": 19,
+     "steals": 3,
+     "blocks": 1,
+     "turnovers": 11,
+     "fgMade": 32,
+     "fgAttempted": 93,
+     "threeMade": 7,
+     "threeAttempted": 34,
+     "ftMade": 15,
+     "ftAttempted": 19
+    }
+   },
+   "lastFull": {},
+   "lastToDate": {}
+  },
+  {
    "id": "achiupr01",
    "name": "Precious Achiuwa",
    "number": "9",
@@ -207,19 +207,19 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4431679.png",
    "current": {
     "regular": {
-     "games": 3,
-     "started": 1,
-     "minutes": 93.7,
-     "points": 41,
-     "rebounds": 21,
+     "games": 4,
+     "started": 2,
+     "minutes": 107.2,
+     "points": 45,
+     "rebounds": 22,
      "assists": 3,
      "steals": 6,
      "blocks": 3,
      "turnovers": 2,
-     "fgMade": 18,
-     "fgAttempted": 32,
+     "fgMade": 20,
+     "fgAttempted": 38,
      "threeMade": 1,
-     "threeAttempted": 2,
+     "threeAttempted": 3,
      "ftMade": 4,
      "ftAttempted": 11
     }
@@ -262,21 +262,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4065732.png",
    "current": {
     "regular": {
-     "games": 3,
-     "started": 3,
-     "minutes": 73.8,
-     "points": 17,
-     "rebounds": 16,
-     "assists": 3,
-     "steals": 0,
-     "blocks": 0,
-     "turnovers": 2,
-     "fgMade": 6,
-     "fgAttempted": 16,
-     "threeMade": 4,
-     "threeAttempted": 8,
-     "ftMade": 1,
-     "ftAttempted": 6
+     "games": 4,
+     "started": 4,
+     "minutes": 106.5,
+     "points": 41,
+     "rebounds": 22,
+     "assists": 5,
+     "steals": 1,
+     "blocks": 1,
+     "turnovers": 4,
+     "fgMade": 14,
+     "fgAttempted": 29,
+     "threeMade": 9,
+     "threeAttempted": 17,
+     "ftMade": 4,
+     "ftAttempted": 10
     }
    },
    "lastFull": {
@@ -317,6 +317,98 @@
      "ftAttempted": 8
     }
    }
+  },
+  {
+   "id": "plowdda01",
+   "name": "Daeqwon Plowden",
+   "number": "29",
+   "position": "SG",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 6\"",
+    "weight": 216,
+    "birthDate": "1998-08-29",
+    "experience": 2,
+    "college": "Bowling Green",
+    "birthPlace": "Philadelphia, PA"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4279318.png",
+   "current": {
+    "regular": {
+     "games": 4,
+     "started": 0,
+     "minutes": 66.7,
+     "points": 10,
+     "rebounds": 7,
+     "assists": 2,
+     "steals": 2,
+     "blocks": 1,
+     "turnovers": 1,
+     "fgMade": 4,
+     "fgAttempted": 9,
+     "threeMade": 2,
+     "threeAttempted": 6,
+     "ftMade": 0,
+     "ftAttempted": 0
+    }
+   },
+   "lastFull": {
+    "regular": {
+     "games": 32,
+     "started": 7,
+     "minutes": 844.8,
+     "points": 344,
+     "rebounds": 97,
+     "assists": 41,
+     "steals": 23,
+     "blocks": 7,
+     "turnovers": 26,
+     "fgMade": 120,
+     "fgAttempted": 279,
+     "threeMade": 62,
+     "threeAttempted": 186,
+     "ftMade": 42,
+     "ftAttempted": 49
+    }
+   },
+   "lastToDate": {}
+  },
+  {
+   "id": "sharpem01",
+   "name": "Emanuel Sharp",
+   "number": "34",
+   "position": "SG",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 3\"",
+    "weight": 208,
+    "birthDate": "2004-03-07",
+    "experience": 0,
+    "college": "Houston",
+    "birthPlace": "Tel Aviv, Israel"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5106058.png",
+   "current": {
+    "regular": {
+     "games": 4,
+     "started": 0,
+     "minutes": 65.9,
+     "points": 21,
+     "rebounds": 2,
+     "assists": 3,
+     "steals": 1,
+     "blocks": 1,
+     "turnovers": 3,
+     "fgMade": 7,
+     "fgAttempted": 18,
+     "threeMade": 5,
+     "threeAttempted": 11,
+     "ftMade": 2,
+     "ftAttempted": 2
+    }
+   },
+   "lastFull": {},
+   "lastToDate": {}
   },
   {
    "id": "murrake02",
@@ -374,98 +466,6 @@
    "lastToDate": {}
   },
   {
-   "id": "plowdda01",
-   "name": "Daeqwon Plowden",
-   "number": "29",
-   "position": "SG",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 6\"",
-    "weight": 216,
-    "birthDate": "1998-08-29",
-    "experience": 2,
-    "college": "Bowling Green",
-    "birthPlace": "Philadelphia, PA"
-   },
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4279318.png",
-   "current": {
-    "regular": {
-     "games": 3,
-     "started": 0,
-     "minutes": 49.6,
-     "points": 10,
-     "rebounds": 5,
-     "assists": 2,
-     "steals": 1,
-     "blocks": 1,
-     "turnovers": 0,
-     "fgMade": 4,
-     "fgAttempted": 8,
-     "threeMade": 2,
-     "threeAttempted": 5,
-     "ftMade": 0,
-     "ftAttempted": 0
-    }
-   },
-   "lastFull": {
-    "regular": {
-     "games": 32,
-     "started": 7,
-     "minutes": 844.8,
-     "points": 344,
-     "rebounds": 97,
-     "assists": 41,
-     "steals": 23,
-     "blocks": 7,
-     "turnovers": 26,
-     "fgMade": 120,
-     "fgAttempted": 279,
-     "threeMade": 62,
-     "threeAttempted": 186,
-     "ftMade": 42,
-     "ftAttempted": 49
-    }
-   },
-   "lastToDate": {}
-  },
-  {
-   "id": "sharpem01",
-   "name": "Emanuel Sharp",
-   "number": "34",
-   "position": "SG",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 3\"",
-    "weight": 208,
-    "birthDate": "2004-03-07",
-    "experience": 0,
-    "college": "Houston",
-    "birthPlace": "Tel Aviv, Israel"
-   },
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5106058.png",
-   "current": {
-    "regular": {
-     "games": 3,
-     "started": 0,
-     "minutes": 46,
-     "points": 16,
-     "rebounds": 2,
-     "assists": 1,
-     "steals": 1,
-     "blocks": 1,
-     "turnovers": 2,
-     "fgMade": 6,
-     "fgAttempted": 14,
-     "threeMade": 4,
-     "threeAttempted": 8,
-     "ftMade": 0,
-     "ftAttempted": 0
-    }
-   },
-   "lastFull": {},
-   "lastToDate": {}
-  },
-  {
    "id": "mogbojo01",
    "name": "Jonathan Mogbo",
    "number": "22",
@@ -482,19 +482,19 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5107897.png",
    "current": {
     "regular": {
-     "games": 2,
+     "games": 3,
      "started": 0,
-     "minutes": 26.2,
-     "points": 7,
-     "rebounds": 3,
+     "minutes": 44.6,
+     "points": 9,
+     "rebounds": 8,
      "assists": 1,
-     "steals": 1,
-     "blocks": 0,
-     "turnovers": 2,
-     "fgMade": 3,
-     "fgAttempted": 4,
+     "steals": 2,
+     "blocks": 1,
+     "turnovers": 3,
+     "fgMade": 4,
+     "fgAttempted": 13,
      "threeMade": 1,
-     "threeAttempted": 1,
+     "threeAttempted": 6,
      "ftMade": 0,
      "ftAttempted": 0
     }
@@ -572,19 +572,19 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4066262.png",
    "current": {
     "regular": {
-     "games": 2,
+     "games": 3,
      "started": 0,
-     "minutes": 24.2,
-     "points": 6,
-     "rebounds": 2,
-     "assists": 4,
+     "minutes": 37.4,
+     "points": 9,
+     "rebounds": 4,
+     "assists": 10,
      "steals": 1,
      "blocks": 0,
      "turnovers": 3,
-     "fgMade": 3,
-     "fgAttempted": 14,
-     "threeMade": 0,
-     "threeAttempted": 4,
+     "fgMade": 4,
+     "fgAttempted": 21,
+     "threeMade": 1,
+     "threeAttempted": 8,
      "ftMade": 0,
      "ftAttempted": 0
     }
@@ -645,19 +645,19 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4702384.png",
    "current": {
     "regular": {
-     "games": 2,
+     "games": 3,
      "started": 0,
-     "minutes": 18.9,
-     "points": 6,
+     "minutes": 23.6,
+     "points": 8,
      "rebounds": 1,
      "assists": 3,
      "steals": 1,
      "blocks": 0,
      "turnovers": 3,
-     "fgMade": 3,
-     "fgAttempted": 7,
+     "fgMade": 4,
+     "fgAttempted": 10,
      "threeMade": 0,
-     "threeAttempted": 2,
+     "threeAttempted": 3,
      "ftMade": 0,
      "ftAttempted": 0
     }
@@ -718,17 +718,17 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4917149.png",
    "current": {
     "regular": {
-     "games": 1,
+     "games": 2,
      "started": 0,
-     "minutes": 5.3,
+     "minutes": 16,
      "points": 1,
-     "rebounds": 1,
-     "assists": 0,
+     "rebounds": 2,
+     "assists": 1,
      "steals": 0,
      "blocks": 0,
-     "turnovers": 0,
+     "turnovers": 1,
      "fgMade": 0,
-     "fgAttempted": 0,
+     "fgAttempted": 1,
      "threeMade": 0,
      "threeAttempted": 0,
      "ftMade": 1,
@@ -736,6 +736,61 @@
     }
    },
    "lastFull": {},
+   "lastToDate": {}
+  },
+  {
+   "id": "blackle01",
+   "name": "Leaky Black",
+   "number": "19",
+   "position": "SF",
+   "twoWay": true,
+   "bio": {
+    "height": "6' 6\"",
+    "weight": 209,
+    "birthDate": "1999-06-14",
+    "experience": 2,
+    "college": "North Carolina",
+    "birthPlace": "Concord, NC"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4395650.png",
+   "current": {
+    "regular": {
+     "games": 2,
+     "started": 0,
+     "minutes": 8.2,
+     "points": 2,
+     "rebounds": 1,
+     "assists": 1,
+     "steals": 1,
+     "blocks": 1,
+     "turnovers": 0,
+     "fgMade": 1,
+     "fgAttempted": 3,
+     "threeMade": 0,
+     "threeAttempted": 2,
+     "ftMade": 0,
+     "ftAttempted": 0
+    }
+   },
+   "lastFull": {
+    "regular": {
+     "games": 15,
+     "started": 9,
+     "minutes": 433.2,
+     "points": 106,
+     "rebounds": 75,
+     "assists": 22,
+     "steals": 18,
+     "blocks": 8,
+     "turnovers": 14,
+     "fgMade": 40,
+     "fgAttempted": 103,
+     "threeMade": 19,
+     "threeAttempted": 55,
+     "ftMade": 7,
+     "ftAttempted": 8
+    }
+   },
    "lastToDate": {}
   },
   {
@@ -792,61 +847,6 @@
      "ftAttempted": 0
     }
    }
-  },
-  {
-   "id": "blackle01",
-   "name": "Leaky Black",
-   "number": "19",
-   "position": "SF",
-   "twoWay": true,
-   "bio": {
-    "height": "6' 6\"",
-    "weight": 209,
-    "birthDate": "1999-06-14",
-    "experience": 2,
-    "college": "North Carolina",
-    "birthPlace": "Concord, NC"
-   },
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4395650.png",
-   "current": {
-    "regular": {
-     "games": 1,
-     "started": 0,
-     "minutes": 0,
-     "points": 0,
-     "rebounds": 0,
-     "assists": 0,
-     "steals": 0,
-     "blocks": 0,
-     "turnovers": 0,
-     "fgMade": 0,
-     "fgAttempted": 0,
-     "threeMade": 0,
-     "threeAttempted": 0,
-     "ftMade": 0,
-     "ftAttempted": 0
-    }
-   },
-   "lastFull": {
-    "regular": {
-     "games": 15,
-     "started": 9,
-     "minutes": 433.2,
-     "points": 106,
-     "rebounds": 75,
-     "assists": 22,
-     "steals": 18,
-     "blocks": 8,
-     "turnovers": 14,
-     "fgMade": 40,
-     "fgAttempted": 103,
-     "threeMade": 19,
-     "threeAttempted": 55,
-     "ftMade": 7,
-     "ftAttempted": 8
-    }
-   },
-   "lastToDate": {}
   },
   {
    "id": "hayeski01",
