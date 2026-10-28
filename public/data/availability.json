@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-28T06:23:32.621Z",
+ "updatedAt": "2026-10-28T14:23:47.537Z",
  "teams": {
   "ATL": [
    {
@@ -37,7 +37,7 @@
    {
     "name": "Tyler Bilodeau",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Shoulder (sprain)",
     "returnDate": "2026-10-30"
    },
@@ -374,14 +374,14 @@
    {
     "name": "Adou Thiero",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Knee (inflammation)",
     "returnDate": "2026-10-28"
    },
    {
     "name": "Cameron Carr",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Oblique (strain)",
     "returnDate": "2026-10-28"
    }
@@ -588,7 +588,7 @@
    {
     "name": "Chris Youngblood",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Ankle (soreness)",
     "returnDate": "2026-10-29"
    },

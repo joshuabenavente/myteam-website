@@ -1,7 +1,7 @@
 {
  "season": "2026-27",
  "lastSeason": "2025-26",
- "updatedAt": "2026-10-28T08:21:09.980Z",
+ "updatedAt": "2026-10-28T14:22:35.073Z",
  "teamGamesPlayed": {
   "regular": 4,
   "playoffs": 0
@@ -1158,6 +1158,43 @@
      "ftAttempted": 11
     }
    }
+  },
+  {
+   "id": "freemen01",
+   "name": "Enrique Freeman",
+   "position": "F",
+   "twoWay": true,
+   "bio": {
+    "height": "6' 9\"",
+    "weight": 220,
+    "birthDate": "2000-07-29",
+    "experience": 2,
+    "college": "Akron",
+    "birthPlace": "Cleveland, OH"
+   },
+   "number": "25",
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4592699.png",
+   "current": {},
+   "lastFull": {
+    "regular": {
+     "games": 4,
+     "started": 0,
+     "minutes": 37.2,
+     "points": 13,
+     "rebounds": 10,
+     "assists": 2,
+     "steals": 2,
+     "blocks": 3,
+     "turnovers": 2,
+     "fgMade": 4,
+     "fgAttempted": 8,
+     "threeMade": 2,
+     "threeAttempted": 4,
+     "ftMade": 3,
+     "ftAttempted": 4
+    }
+   },
+   "lastToDate": {}
   },
   {
    "id": "zikarro01",
