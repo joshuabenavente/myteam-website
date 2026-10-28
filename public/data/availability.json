@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-28T18:23:32.115Z",
+ "updatedAt": "2026-10-28T19:23:43.363Z",
  "teams": {
   "ATL": [
    {
@@ -120,9 +120,9 @@
    {
     "name": "Santi Aldama",
     "status": "Out",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Knee (surgery)",
-    "returnDate": "2026-10-28"
+    "returnDate": "2026-10-30"
    },
    {
     "name": "Sergio de Larrea",
@@ -134,9 +134,9 @@
    {
     "name": "Tarik Biberovic",
     "status": "Out",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Heel (inflammation)",
-    "returnDate": "2026-10-28"
+    "returnDate": "2026-10-30"
    },
    {
     "name": "Kyrie Irving",
@@ -292,7 +292,7 @@
     "name": "Tyrese Haliburton",
     "status": "Out",
     "gameTimeDecision": false,
-    "reason": "Hamstring (soreness)",
+    "reason": "Hamstring (strain)",
     "returnDate": "2026-11-09"
    },
    {
@@ -430,10 +430,10 @@
   "NYK": [
    {
     "name": "Jose Alvarado",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
+    "status": "Out",
+    "gameTimeDecision": false,
     "reason": "Ankle (sprain)",
-    "returnDate": "2026-10-28"
+    "returnDate": "2026-10-30"
    }
   ],
   "OKC": [
@@ -641,9 +641,9 @@
    {
     "name": "Tobias Harris",
     "status": "Out",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Calf (strain)",
-    "returnDate": "2026-10-28"
+    "returnDate": "2026-10-31"
    }
   ],
   "UTA": [
@@ -696,7 +696,7 @@
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Foot",
-    "returnDate": "2026-10-30"
+    "returnDate": "2027-02-25"
    },
    {
     "name": "Tristan Vukcevic",
