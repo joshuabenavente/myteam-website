@@ -1,7 +1,7 @@
 {
  "season": "2026-27",
  "lastSeason": "2025-26",
- "updatedAt": "2026-10-29T04:21:12.882Z",
+ "updatedAt": "2026-10-29T10:21:17.269Z",
  "teamGamesPlayed": {
   "regular": 5,
   "playoffs": 0
@@ -24,21 +24,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4278078.png",
    "current": {
     "regular": {
-     "games": 4,
-     "started": 4,
-     "minutes": 140.5,
-     "points": 62,
-     "rebounds": 30,
+     "games": 5,
+     "started": 5,
+     "minutes": 167.1,
+     "points": 80,
+     "rebounds": 39,
      "assists": 6,
      "steals": 2,
-     "blocks": 5,
-     "turnovers": 9,
-     "fgMade": 22,
-     "fgAttempted": 47,
-     "threeMade": 8,
-     "threeAttempted": 24,
-     "ftMade": 10,
-     "ftAttempted": 15
+     "blocks": 6,
+     "turnovers": 10,
+     "fgMade": 29,
+     "fgAttempted": 63,
+     "threeMade": 10,
+     "threeAttempted": 31,
+     "ftMade": 12,
+     "ftAttempted": 17
     }
    },
    "lastFull": {
@@ -95,21 +95,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5211175.png",
    "current": {
     "regular": {
-     "games": 4,
+     "games": 5,
      "started": 1,
-     "minutes": 120.2,
-     "points": 32,
-     "rebounds": 24,
-     "assists": 6,
-     "steals": 8,
-     "blocks": 8,
-     "turnovers": 4,
-     "fgMade": 12,
-     "fgAttempted": 39,
-     "threeMade": 3,
-     "threeAttempted": 17,
-     "ftMade": 5,
-     "ftAttempted": 6
+     "minutes": 149.1,
+     "points": 45,
+     "rebounds": 30,
+     "assists": 7,
+     "steals": 9,
+     "blocks": 9,
+     "turnovers": 5,
+     "fgMade": 17,
+     "fgAttempted": 45,
+     "threeMade": 5,
+     "threeAttempted": 20,
+     "ftMade": 6,
+     "ftAttempted": 8
     }
    },
    "lastFull": {
@@ -185,21 +185,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4432582.png",
    "current": {
     "regular": {
-     "games": 4,
-     "started": 4,
-     "minutes": 117.9,
-     "points": 37,
-     "rebounds": 17,
-     "assists": 10,
+     "games": 5,
+     "started": 5,
+     "minutes": 139.7,
+     "points": 48,
+     "rebounds": 22,
+     "assists": 12,
      "steals": 2,
      "blocks": 2,
-     "turnovers": 7,
-     "fgMade": 14,
-     "fgAttempted": 37,
-     "threeMade": 7,
-     "threeAttempted": 23,
-     "ftMade": 2,
-     "ftAttempted": 2
+     "turnovers": 8,
+     "fgMade": 17,
+     "fgAttempted": 45,
+     "threeMade": 10,
+     "threeAttempted": 30,
+     "ftMade": 4,
+     "ftAttempted": 4
     }
    },
    "lastFull": {
@@ -258,21 +258,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5041939.png",
    "current": {
     "regular": {
-     "games": 3,
-     "started": 3,
-     "minutes": 89.6,
-     "points": 75,
-     "rebounds": 16,
-     "assists": 19,
+     "games": 4,
+     "started": 4,
+     "minutes": 122.5,
+     "points": 101,
+     "rebounds": 21,
+     "assists": 27,
      "steals": 11,
      "blocks": 5,
      "turnovers": 12,
-     "fgMade": 26,
-     "fgAttempted": 46,
-     "threeMade": 5,
-     "threeAttempted": 14,
-     "ftMade": 18,
-     "ftAttempted": 20
+     "fgMade": 36,
+     "fgAttempted": 69,
+     "threeMade": 7,
+     "threeAttempted": 22,
+     "ftMade": 22,
+     "ftAttempted": 24
     }
    },
    "lastFull": {
@@ -315,6 +315,98 @@
    }
   },
   {
+   "id": "gaffoda01",
+   "name": "Daniel Gafford",
+   "number": "21",
+   "position": "C",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 10\"",
+    "weight": 265,
+    "birthDate": "1998-10-01",
+    "experience": 7,
+    "college": "Arkansas",
+    "birthPlace": "El Dorado, AR"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4278049.png",
+   "current": {
+    "regular": {
+     "games": 5,
+     "started": 5,
+     "minutes": 111.7,
+     "points": 33,
+     "rebounds": 35,
+     "assists": 13,
+     "steals": 5,
+     "blocks": 10,
+     "turnovers": 7,
+     "fgMade": 15,
+     "fgAttempted": 23,
+     "threeMade": 1,
+     "threeAttempted": 1,
+     "ftMade": 2,
+     "ftAttempted": 4
+    }
+   },
+   "lastFull": {
+    "regular": {
+     "games": 55,
+     "started": 44,
+     "minutes": 1195.1,
+     "points": 524,
+     "rebounds": 378,
+     "assists": 58,
+     "steals": 42,
+     "blocks": 69,
+     "turnovers": 63,
+     "fgMade": 207,
+     "fgAttempted": 316,
+     "threeMade": 0,
+     "threeAttempted": 0,
+     "ftMade": 110,
+     "ftAttempted": 161
+    }
+   },
+   "lastToDate": {}
+  },
+  {
+   "id": "irvinky01",
+   "name": "Kyrie Irving",
+   "number": "11",
+   "position": "SG",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 2\"",
+    "weight": 195,
+    "birthDate": "1992-03-23",
+    "experience": 14,
+    "college": "Duke",
+    "birthPlace": "Melbourne, VIC"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/6442.png",
+   "current": {
+    "regular": {
+     "games": 4,
+     "started": 4,
+     "minutes": 108.4,
+     "points": 72,
+     "rebounds": 13,
+     "assists": 15,
+     "steals": 6,
+     "blocks": 3,
+     "turnovers": 9,
+     "fgMade": 27,
+     "fgAttempted": 55,
+     "threeMade": 11,
+     "threeAttempted": 33,
+     "ftMade": 7,
+     "ftAttempted": 7
+    }
+   },
+   "lastFull": {},
+   "lastToDate": {}
+  },
+  {
    "id": "sassema01",
    "name": "Marcus Sasser",
    "number": "8",
@@ -331,21 +423,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4432107.png",
    "current": {
     "regular": {
-     "games": 4,
+     "games": 5,
      "started": 0,
-     "minutes": 85.2,
-     "points": 35,
-     "rebounds": 7,
-     "assists": 9,
+     "minutes": 107.2,
+     "points": 45,
+     "rebounds": 8,
+     "assists": 13,
      "steals": 1,
      "blocks": 1,
-     "turnovers": 4,
-     "fgMade": 13,
-     "fgAttempted": 25,
-     "threeMade": 8,
-     "threeAttempted": 16,
-     "ftMade": 1,
-     "ftAttempted": 1
+     "turnovers": 5,
+     "fgMade": 17,
+     "fgAttempted": 34,
+     "threeMade": 9,
+     "threeAttempted": 19,
+     "ftMade": 2,
+     "ftAttempted": 2
     }
    },
    "lastFull": {
@@ -382,61 +474,6 @@
      "threeAttempted": 14,
      "ftMade": 0,
      "ftAttempted": 0
-    }
-   },
-   "lastToDate": {}
-  },
-  {
-   "id": "gaffoda01",
-   "name": "Daniel Gafford",
-   "number": "21",
-   "position": "C",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 10\"",
-    "weight": 265,
-    "birthDate": "1998-10-01",
-    "experience": 7,
-    "college": "Arkansas",
-    "birthPlace": "El Dorado, AR"
-   },
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4278049.png",
-   "current": {
-    "regular": {
-     "games": 4,
-     "started": 4,
-     "minutes": 85,
-     "points": 26,
-     "rebounds": 24,
-     "assists": 11,
-     "steals": 5,
-     "blocks": 8,
-     "turnovers": 5,
-     "fgMade": 12,
-     "fgAttempted": 19,
-     "threeMade": 0,
-     "threeAttempted": 0,
-     "ftMade": 2,
-     "ftAttempted": 4
-    }
-   },
-   "lastFull": {
-    "regular": {
-     "games": 55,
-     "started": 44,
-     "minutes": 1195.1,
-     "points": 524,
-     "rebounds": 378,
-     "assists": 58,
-     "steals": 42,
-     "blocks": 69,
-     "turnovers": 63,
-     "fgMade": 207,
-     "fgAttempted": 316,
-     "threeMade": 0,
-     "threeAttempted": 0,
-     "ftMade": 110,
-     "ftAttempted": 161
     }
    },
    "lastToDate": {}
@@ -515,43 +552,6 @@
    }
   },
   {
-   "id": "irvinky01",
-   "name": "Kyrie Irving",
-   "number": "11",
-   "position": "SG",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 2\"",
-    "weight": 195,
-    "birthDate": "1992-03-23",
-    "experience": 14,
-    "college": "Duke",
-    "birthPlace": "Melbourne, VIC"
-   },
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/6442.png",
-   "current": {
-    "regular": {
-     "games": 3,
-     "started": 3,
-     "minutes": 81.4,
-     "points": 57,
-     "rebounds": 11,
-     "assists": 11,
-     "steals": 4,
-     "blocks": 1,
-     "turnovers": 8,
-     "fgMade": 21,
-     "fgAttempted": 41,
-     "threeMade": 8,
-     "threeAttempted": 25,
-     "ftMade": 7,
-     "ftAttempted": 7
-    }
-   },
-   "lastFull": {},
-   "lastToDate": {}
-  },
-  {
    "id": "johnsmo01",
    "name": "Morez Johnson Jr.",
    "number": "14",
@@ -568,57 +568,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4873153.png",
    "current": {
     "regular": {
-     "games": 4,
+     "games": 5,
      "started": 0,
-     "minutes": 57.8,
-     "points": 26,
-     "rebounds": 12,
-     "assists": 4,
+     "minutes": 75.6,
+     "points": 36,
+     "rebounds": 18,
+     "assists": 7,
      "steals": 1,
      "blocks": 0,
-     "turnovers": 7,
-     "fgMade": 11,
-     "fgAttempted": 20,
+     "turnovers": 8,
+     "fgMade": 15,
+     "fgAttempted": 26,
      "threeMade": 0,
      "threeAttempted": 3,
-     "ftMade": 4,
-     "ftAttempted": 6
-    }
-   },
-   "lastFull": {},
-   "lastToDate": {}
-  },
-  {
-   "id": "delarse01",
-   "name": "Sergio de Larrea",
-   "number": "55",
-   "position": "PG",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 7\"",
-    "weight": 202,
-    "birthDate": "2005-12-04",
-    "experience": 0,
-    "birthPlace": "Valladolid, Spain"
-   },
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5279129.png",
-   "current": {
-    "regular": {
-     "games": 4,
-     "started": 0,
-     "minutes": 46.5,
-     "points": 21,
-     "rebounds": 8,
-     "assists": 5,
-     "steals": 0,
-     "blocks": 0,
-     "turnovers": 4,
-     "fgMade": 9,
-     "fgAttempted": 18,
-     "threeMade": 3,
-     "threeAttempted": 5,
-     "ftMade": 0,
-     "ftAttempted": 0
+     "ftMade": 6,
+     "ftAttempted": 8
     }
    },
    "lastFull": {},
@@ -641,21 +605,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4896372.png",
    "current": {
     "regular": {
-     "games": 3,
+     "games": 4,
      "started": 0,
-     "minutes": 32.6,
+     "minutes": 47.3,
      "points": 18,
-     "rebounds": 7,
-     "assists": 9,
+     "rebounds": 9,
+     "assists": 14,
      "steals": 1,
      "blocks": 1,
      "turnovers": 2,
      "fgMade": 7,
-     "fgAttempted": 10,
+     "fgAttempted": 14,
      "threeMade": 3,
-     "threeAttempted": 3,
+     "threeAttempted": 7,
      "ftMade": 1,
-     "ftAttempted": 1
+     "ftAttempted": 3
     }
    },
    "lastFull": {
@@ -698,6 +662,115 @@
    }
   },
   {
+   "id": "delarse01",
+   "name": "Sergio de Larrea",
+   "number": "55",
+   "position": "PG",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 7\"",
+    "weight": 202,
+    "birthDate": "2005-12-04",
+    "experience": 0,
+    "birthPlace": "Valladolid, Spain"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5279129.png",
+   "current": {
+    "regular": {
+     "games": 4,
+     "started": 0,
+     "minutes": 46.5,
+     "points": 21,
+     "rebounds": 8,
+     "assists": 5,
+     "steals": 0,
+     "blocks": 0,
+     "turnovers": 4,
+     "fgMade": 9,
+     "fgAttempted": 18,
+     "threeMade": 3,
+     "threeAttempted": 5,
+     "ftMade": 0,
+     "ftAttempted": 0
+    }
+   },
+   "lastFull": {},
+   "lastToDate": {}
+  },
+  {
+   "id": "martica02",
+   "name": "Caleb Martin",
+   "number": "16",
+   "position": "SF",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 5\"",
+    "weight": 205,
+    "birthDate": "1995-09-28",
+    "experience": 7,
+    "college": "Nevada",
+    "birthPlace": "Mocksville, NC"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3138160.png",
+   "current": {
+    "regular": {
+     "games": 1,
+     "started": 0,
+     "minutes": 13.8,
+     "points": 10,
+     "rebounds": 2,
+     "assists": 0,
+     "steals": 1,
+     "blocks": 0,
+     "turnovers": 1,
+     "fgMade": 4,
+     "fgAttempted": 6,
+     "threeMade": 2,
+     "threeAttempted": 4,
+     "ftMade": 0,
+     "ftAttempted": 0
+    }
+   },
+   "lastFull": {
+    "regular": {
+     "games": 58,
+     "started": 12,
+     "minutes": 856.9,
+     "points": 227,
+     "rebounds": 143,
+     "assists": 81,
+     "steals": 40,
+     "blocks": 15,
+     "turnovers": 40,
+     "fgMade": 85,
+     "fgAttempted": 189,
+     "threeMade": 20,
+     "threeAttempted": 57,
+     "ftMade": 37,
+     "ftAttempted": 61
+    }
+   },
+   "lastToDate": {
+    "regular": {
+     "games": 4,
+     "started": 0,
+     "minutes": 33.5,
+     "points": 10,
+     "rebounds": 4,
+     "assists": 3,
+     "steals": 3,
+     "blocks": 0,
+     "turnovers": 3,
+     "fgMade": 4,
+     "fgAttempted": 8,
+     "threeMade": 1,
+     "threeAttempted": 3,
+     "ftMade": 1,
+     "ftAttempted": 2
+    }
+   }
+  },
+  {
    "id": "cissemo01",
    "name": "Moussa Cissé",
    "number": "30",
@@ -714,9 +787,9 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4701208.png",
    "current": {
     "regular": {
-     "games": 3,
+     "games": 4,
      "started": 0,
-     "minutes": 10.7,
+     "minutes": 13.4,
      "points": 10,
      "rebounds": 5,
      "assists": 0,
@@ -724,7 +797,7 @@
      "blocks": 0,
      "turnovers": 0,
      "fgMade": 4,
-     "fgAttempted": 4,
+     "fgAttempted": 5,
      "threeMade": 0,
      "threeAttempted": 0,
      "ftMade": 2,
@@ -787,12 +860,12 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5106040.png",
    "current": {
     "regular": {
-     "games": 2,
+     "games": 3,
      "started": 0,
-     "minutes": 5.4,
+     "minutes": 8.1,
      "points": 5,
      "rebounds": 1,
-     "assists": 1,
+     "assists": 2,
      "steals": 1,
      "blocks": 0,
      "turnovers": 0,
@@ -824,9 +897,9 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5105806.png",
    "current": {
     "regular": {
-     "games": 1,
+     "games": 2,
      "started": 0,
-     "minutes": 4.1,
+     "minutes": 6.8,
      "points": 5,
      "rebounds": 0,
      "assists": 0,
@@ -949,61 +1022,6 @@
      "threeAttempted": 19,
      "ftMade": 1,
      "ftAttempted": 6
-    }
-   }
-  },
-  {
-   "id": "martica02",
-   "name": "Caleb Martin",
-   "position": "SF",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 5\"",
-    "weight": 205,
-    "birthDate": "1995-09-28",
-    "experience": 7,
-    "college": "Nevada",
-    "birthPlace": "Mocksville, NC"
-   },
-   "number": "16",
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3138160.png",
-   "current": {},
-   "lastFull": {
-    "regular": {
-     "games": 58,
-     "started": 12,
-     "minutes": 856.9,
-     "points": 227,
-     "rebounds": 143,
-     "assists": 81,
-     "steals": 40,
-     "blocks": 15,
-     "turnovers": 40,
-     "fgMade": 85,
-     "fgAttempted": 189,
-     "threeMade": 20,
-     "threeAttempted": 57,
-     "ftMade": 37,
-     "ftAttempted": 61
-    }
-   },
-   "lastToDate": {
-    "regular": {
-     "games": 4,
-     "started": 0,
-     "minutes": 33.5,
-     "points": 10,
-     "rebounds": 4,
-     "assists": 3,
-     "steals": 3,
-     "blocks": 0,
-     "turnovers": 3,
-     "fgMade": 4,
-     "fgAttempted": 8,
-     "threeMade": 1,
-     "threeAttempted": 3,
-     "ftMade": 1,
-     "ftAttempted": 2
     }
    }
   },
