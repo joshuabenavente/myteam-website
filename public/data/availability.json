@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-29T05:23:46.612Z",
+ "updatedAt": "2026-10-29T17:23:39.566Z",
  "teams": {
   "ATL": [
    {
@@ -28,17 +28,17 @@
   ],
   "BKN": [
    {
+    "name": "Egor Demin",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Leg (bruise)",
+    "returnDate": "2026-11-07"
+   },
+   {
     "name": "Tyler Bilodeau",
     "status": "Out",
     "gameTimeDecision": true,
     "reason": "Shoulder (sprain)",
-    "returnDate": "2026-10-30"
-   },
-   {
-    "name": "Egor Demin",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Leg (bruise)",
     "returnDate": "2026-10-30"
    }
   ],
@@ -93,6 +93,22 @@
     "gameTimeDecision": true,
     "reason": "Ankle",
     "returnDate": "2026-10-30"
+   }
+  ],
+  "CLE": [
+   {
+    "name": "Jaylon Tyson",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Neck",
+    "returnDate": "2026-10-29"
+   },
+   {
+    "name": "Meleek Thomas",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Foot",
+    "returnDate": "2026-10-29"
    }
   ],
   "DAL": [
