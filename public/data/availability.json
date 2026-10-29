@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-28T23:23:38.756Z",
+ "updatedAt": "2026-10-29T00:23:36.368Z",
  "teams": {
   "ATL": [
    {
@@ -97,18 +97,18 @@
   ],
   "DAL": [
    {
-    "name": "Caleb Martin",
-    "status": "Out",
-    "gameTimeDecision": true,
-    "reason": "Thumb (sprain)",
-    "returnDate": "2026-10-28"
-   },
-   {
     "name": "Dereck Lively II",
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Foot (surgery)",
     "returnDate": "2026-11-02"
+   },
+   {
+    "name": "Naji Marshall",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Illness",
+    "returnDate": "2026-10-30"
    },
    {
     "name": "Santi Aldama",
@@ -130,20 +130,6 @@
     "gameTimeDecision": false,
     "reason": "Heel (inflammation)",
     "returnDate": "2026-10-30"
-   },
-   {
-    "name": "Kyrie Irving",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Knee",
-    "returnDate": "2026-10-28"
-   },
-   {
-    "name": "Naji Marshall",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Illness",
-    "returnDate": "2026-10-28"
    }
   ],
   "DEN": [
@@ -464,13 +450,6 @@
     "gameTimeDecision": false,
     "reason": "Knee",
     "returnDate": "2026-11-04"
-   },
-   {
-    "name": "Ajay Mitchell",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Ankle",
-    "returnDate": "2026-10-28"
    }
   ],
   "ORL": [
@@ -634,25 +613,18 @@
     "returnDate": "2026-11-04"
    },
    {
+    "name": "Lauri Markkanen",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Wrist",
+    "returnDate": "2026-10-31"
+   },
+   {
     "name": "Trey Alexander",
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Knee (bruise)",
     "returnDate": "2026-11-06"
-   },
-   {
-    "name": "Jaxson Hayes",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Shoulder (soreness)",
-    "returnDate": "2026-10-28"
-   },
-   {
-    "name": "Lauri Markkanen",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Wrist",
-    "returnDate": "2026-10-28"
    }
   ],
   "WAS": [

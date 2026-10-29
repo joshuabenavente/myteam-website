@@ -1,7 +1,7 @@
 {
  "season": "2026-27",
  "lastSeason": "2025-26",
- "updatedAt": "2026-10-28T18:19:51.605Z",
+ "updatedAt": "2026-10-29T00:19:56.067Z",
  "teamGamesPlayed": {
   "regular": 3,
   "playoffs": 0
@@ -713,96 +713,6 @@
    "lastToDate": {}
   },
   {
-   "id": "battlja01",
-   "name": "Jamison Battle",
-   "number": "77",
-   "position": "SF",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 7\"",
-    "weight": 220,
-    "birthDate": "2001-05-10",
-    "experience": 2,
-    "college": "Ohio State",
-    "birthPlace": "Robbinsdale, MN"
-   },
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4431893.png",
-   "current": {
-    "regular": {
-     "games": 3,
-     "started": 0,
-     "minutes": 36.1,
-     "points": 17,
-     "rebounds": 6,
-     "assists": 2,
-     "steals": 3,
-     "blocks": 0,
-     "turnovers": 1,
-     "fgMade": 6,
-     "fgAttempted": 13,
-     "threeMade": 4,
-     "threeAttempted": 9,
-     "ftMade": 1,
-     "ftAttempted": 1
-    }
-   },
-   "lastFull": {
-    "regular": {
-     "games": 61,
-     "started": 2,
-     "minutes": 517.6,
-     "points": 192,
-     "rebounds": 89,
-     "assists": 24,
-     "steals": 7,
-     "blocks": 3,
-     "turnovers": 19,
-     "fgMade": 74,
-     "fgAttempted": 145,
-     "threeMade": 35,
-     "threeAttempted": 85,
-     "ftMade": 9,
-     "ftAttempted": 14
-    },
-    "playoffs": {
-     "games": 6,
-     "started": 0,
-     "minutes": 71.2,
-     "points": 29,
-     "rebounds": 11,
-     "assists": 1,
-     "steals": 0,
-     "blocks": 0,
-     "turnovers": 1,
-     "fgMade": 11,
-     "fgAttempted": 19,
-     "threeMade": 7,
-     "threeAttempted": 11,
-     "ftMade": 0,
-     "ftAttempted": 0
-    }
-   },
-   "lastToDate": {
-    "regular": {
-     "games": 3,
-     "started": 0,
-     "minutes": 26.5,
-     "points": 14,
-     "rebounds": 6,
-     "assists": 0,
-     "steals": 1,
-     "blocks": 0,
-     "turnovers": 2,
-     "fgMade": 5,
-     "fgAttempted": 8,
-     "threeMade": 4,
-     "threeAttempted": 6,
-     "ftMade": 0,
-     "ftAttempted": 0
-    }
-   }
-  },
-  {
    "id": "jackstr02",
    "name": "Trayce Jackson-Davis",
    "number": "32",
@@ -1055,6 +965,78 @@
    },
    "lastFull": {},
    "lastToDate": {}
+  },
+  {
+   "id": "battlja01",
+   "name": "Jamison Battle",
+   "number": "77",
+   "position": "SF",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 7\"",
+    "weight": 220,
+    "birthDate": "2001-05-10",
+    "experience": 2,
+    "college": "Ohio State",
+    "birthPlace": "Robbinsdale, MN"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4431893.png",
+   "current": {},
+   "lastFull": {
+    "regular": {
+     "games": 61,
+     "started": 2,
+     "minutes": 517.6,
+     "points": 192,
+     "rebounds": 89,
+     "assists": 24,
+     "steals": 7,
+     "blocks": 3,
+     "turnovers": 19,
+     "fgMade": 74,
+     "fgAttempted": 145,
+     "threeMade": 35,
+     "threeAttempted": 85,
+     "ftMade": 9,
+     "ftAttempted": 14
+    },
+    "playoffs": {
+     "games": 6,
+     "started": 0,
+     "minutes": 71.2,
+     "points": 29,
+     "rebounds": 11,
+     "assists": 1,
+     "steals": 0,
+     "blocks": 0,
+     "turnovers": 1,
+     "fgMade": 11,
+     "fgAttempted": 19,
+     "threeMade": 7,
+     "threeAttempted": 11,
+     "ftMade": 0,
+     "ftAttempted": 0
+    }
+   },
+   "lastToDate": {
+    "regular": {
+     "games": 3,
+     "started": 0,
+     "minutes": 26.5,
+     "points": 14,
+     "rebounds": 6,
+     "assists": 0,
+     "steals": 1,
+     "blocks": 0,
+     "turnovers": 2,
+     "fgMade": 5,
+     "fgAttempted": 8,
+     "threeMade": 4,
+     "threeAttempted": 6,
+     "ftMade": 0,
+     "ftAttempted": 0
+    }
+   }
   },
   {
    "id": "smithma02",
