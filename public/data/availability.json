@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-29T17:23:39.566Z",
+ "updatedAt": "2026-10-29T19:23:43.758Z",
  "teams": {
   "ATL": [
    {
@@ -85,6 +85,13 @@
     "status": "Out",
     "gameTimeDecision": true,
     "reason": "Groin (soreness)",
+    "returnDate": "2026-10-30"
+   },
+   {
+    "name": "Jalen Smith",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Finger",
     "returnDate": "2026-10-30"
    },
    {
@@ -470,9 +477,9 @@
    {
     "name": "Jonathan Isaac",
     "status": "Out",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Knee",
-    "returnDate": "2026-10-30"
+    "returnDate": "2026-11-10"
    },
    {
     "name": "Noah Penda",
@@ -549,6 +556,13 @@
     "gameTimeDecision": false,
     "reason": "Knee (surgery)",
     "returnDate": "2027-03-02"
+   },
+   {
+    "name": "Robert Williams III",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Knee",
+    "returnDate": "2026-10-29"
    }
   ],
   "SAC": [
