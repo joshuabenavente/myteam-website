@@ -98,7 +98,11 @@
    "startUtc": "2026-10-29T01:30:00Z",
    "home": false,
    "opponent": "DAL",
-   "status": "scheduled",
+   "status": "live",
+   "score": {
+    "team": 0,
+    "opponent": 0
+   },
    "broadcasts": [
     {
      "name": "ESPN",

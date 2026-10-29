@@ -88,7 +88,11 @@
    "startUtc": "2026-10-29T01:00:00Z",
    "home": false,
    "opponent": "UTA",
-   "status": "scheduled",
+   "status": "live",
+   "score": {
+    "team": 0,
+    "opponent": 0
+   },
    "broadcasts": [
     {
      "name": "DAZN-SAS",
