@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-29T19:23:43.758Z",
+ "updatedAt": "2026-10-29T21:23:55.331Z",
  "teams": {
   "ATL": [
    {
@@ -37,9 +37,9 @@
    {
     "name": "Tyler Bilodeau",
     "status": "Out",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Shoulder (sprain)",
-    "returnDate": "2026-10-30"
+    "returnDate": "2026-11-01"
    }
   ],
   "CHA": [
@@ -240,6 +240,13 @@
     "returnDate": "2026-10-30"
    },
    {
+    "name": "Reed Sheppard",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Back",
+    "returnDate": "2026-10-31"
+   },
+   {
     "name": "Steven Adams",
     "status": "Out",
     "gameTimeDecision": false,
@@ -263,6 +270,13 @@
     "returnDate": "2027-01-02"
    },
    {
+    "name": "Ivica Zubac",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Ankle (sprain)",
+    "returnDate": "2026-11-01"
+   },
+   {
     "name": "Johnny Furphy",
     "status": "Out",
     "gameTimeDecision": false,
@@ -284,10 +298,17 @@
     "returnDate": "2026-11-13"
    },
    {
-    "name": "Ivica Zubac",
+    "name": "Aaron Nesmith",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
-    "reason": "Ankle (sprain)",
+    "reason": "Hamstring",
+    "returnDate": "2026-10-30"
+   },
+   {
+    "name": "Andrew Nembhard",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Neck (soreness)",
     "returnDate": "2026-10-30"
    }
   ],
