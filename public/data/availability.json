@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-29T21:23:55.331Z",
+ "updatedAt": "2026-10-29T22:23:44.218Z",
  "teams": {
   "ATL": [
    {
@@ -70,6 +70,13 @@
     "gameTimeDecision": false,
     "reason": "Knee (surgery)",
     "returnDate": "2026-11-02"
+   },
+   {
+    "name": "Dennis Schroder",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Foot",
+    "returnDate": "2026-10-30"
    }
   ],
   "CHI": [
@@ -134,6 +141,13 @@
     "returnDate": "2026-10-30"
    },
    {
+    "name": "Sergio de Larrea",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Knee (strain)",
+    "returnDate": "2026-11-02"
+   },
+   {
     "name": "Tarik Biberovic",
     "status": "Out",
     "gameTimeDecision": true,
@@ -145,13 +159,6 @@
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Illness",
-    "returnDate": "2026-10-30"
-   },
-   {
-    "name": "Sergio de Larrea",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Knee (strain)",
     "returnDate": "2026-10-30"
    }
   ],
@@ -413,18 +420,25 @@
   ],
   "NOP": [
    {
+    "name": "Dejounte Murray",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Personal",
+    "returnDate": "2026-10-31"
+   },
+   {
+    "name": "Jordan Poole",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Ankle",
+    "returnDate": "2026-10-31"
+   },
+   {
     "name": "Yves Missi",
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Knee (bruise)",
     "returnDate": "2026-11-02"
-   },
-   {
-    "name": "Jordan Poole",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Ankle",
-    "returnDate": "2026-10-29"
    }
   ],
   "NYK": [
@@ -533,6 +547,13 @@
     "returnDate": "2026-11-04"
    },
    {
+    "name": "Jabari Walker",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Knee (soreness)",
+    "returnDate": "2026-10-31"
+   },
+   {
     "name": "Tacko Fall",
     "status": "Out",
     "gameTimeDecision": false,
@@ -540,10 +561,10 @@
     "returnDate": "2026-11-04"
    },
    {
-    "name": "Jabari Walker",
+    "name": "Jaylen Brown",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
-    "reason": "Knee (soreness)",
+    "reason": "Knee",
     "returnDate": "2026-10-30"
    }
   ],
