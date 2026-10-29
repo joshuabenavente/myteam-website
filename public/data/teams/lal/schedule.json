@@ -108,7 +108,11 @@
    "startUtc": "2026-10-29T02:30:00Z",
    "home": false,
    "opponent": "LAC",
-   "status": "scheduled",
+   "status": "live",
+   "score": {
+    "team": 0,
+    "opponent": 0
+   },
    "broadcasts": [
     {
      "name": "Spectrum SportsNet",
