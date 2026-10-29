@@ -83,7 +83,11 @@
    "startUtc": "2026-10-29T00:00:00Z",
    "home": false,
    "opponent": "MIL",
-   "status": "scheduled",
+   "status": "live",
+   "score": {
+    "team": 0,
+    "opponent": 0
+   },
    "broadcasts": [
     {
      "name": "SCHN/SCHN+",

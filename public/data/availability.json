@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-29T00:23:36.368Z",
+ "updatedAt": "2026-10-29T01:23:42.291Z",
  "teams": {
   "ATL": [
    {
@@ -277,6 +277,13 @@
     "returnDate": "2026-11-08"
    },
    {
+    "name": "Brandon Ingram",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Achilles (surgery)",
+    "returnDate": "2026-11-08"
+   },
+   {
     "name": "Jordan Miller",
     "status": "Out",
     "gameTimeDecision": false,
@@ -303,29 +310,6 @@
     "gameTimeDecision": false,
     "reason": "Foot (surgery)",
     "returnDate": "2026-11-08"
-   }
-  ],
-  "TOR": [
-   {
-    "name": "Brandon Ingram",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Achilles (surgery)",
-    "returnDate": "2026-11-08"
-   },
-   {
-    "name": "Kawhi Leonard",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Knee (inflammation)",
-    "returnDate": "2026-11-23"
-   },
-   {
-    "name": "Nate Bittle",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Foot (fracture)",
-    "returnDate": "2026-11-02"
    }
   ],
   "LAL": [
@@ -595,6 +579,22 @@
     "gameTimeDecision": false,
     "reason": "Calf (strain)",
     "returnDate": "2026-10-31"
+   }
+  ],
+  "TOR": [
+   {
+    "name": "Kawhi Leonard",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Knee (inflammation)",
+    "returnDate": "2026-11-23"
+   },
+   {
+    "name": "Nate Bittle",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Foot (fracture)",
+    "returnDate": "2026-11-02"
    }
   ],
   "UTA": [
