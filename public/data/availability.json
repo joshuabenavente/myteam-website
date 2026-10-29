@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-29T04:23:41.160Z",
+ "updatedAt": "2026-10-29T05:23:46.612Z",
  "teams": {
   "ATL": [
    {
@@ -83,14 +83,14 @@
    {
     "name": "Patrick Williams",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Groin (soreness)",
     "returnDate": "2026-10-30"
    },
    {
     "name": "Tobe Awaka",
-    "status": "Out",
-    "gameTimeDecision": false,
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
     "reason": "Ankle",
     "returnDate": "2026-10-30"
    }
@@ -104,31 +104,31 @@
     "returnDate": "2026-11-02"
    },
    {
-    "name": "Naji Marshall",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Illness",
-    "returnDate": "2026-10-30"
-   },
-   {
     "name": "Santi Aldama",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Knee (surgery)",
-    "returnDate": "2026-10-30"
-   },
-   {
-    "name": "Sergio de Larrea",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Knee (strain)",
     "returnDate": "2026-10-30"
    },
    {
     "name": "Tarik Biberovic",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Heel (inflammation)",
+    "returnDate": "2026-10-30"
+   },
+   {
+    "name": "Naji Marshall",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Illness",
+    "returnDate": "2026-10-30"
+   },
+   {
+    "name": "Sergio de Larrea",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Knee (strain)",
     "returnDate": "2026-10-30"
    }
   ],
@@ -136,14 +136,14 @@
    {
     "name": "Alpha Diallo",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Personal",
     "returnDate": "2026-10-30"
    },
    {
     "name": "Cameron Johnson",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Ankle (sprain)",
     "returnDate": "2026-10-30"
    },
@@ -164,28 +164,21 @@
   ],
   "DET": [
    {
-    "name": "Isaiah Joe",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Hip (bruise)",
-    "returnDate": "2026-10-30"
-   },
-   {
     "name": "Jalen Duren",
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Hamstring (strain)",
     "returnDate": "2026-11-09"
+   },
+   {
+    "name": "Isaiah Joe",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Hip (bruise)",
+    "returnDate": "2026-10-30"
    }
   ],
   "GSW": [
-   {
-    "name": "Gui Santos",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Knee (tendinitis)",
-    "returnDate": "2026-10-30"
-   },
    {
     "name": "Jimmy Butler III",
     "status": "Out",
@@ -206,20 +199,20 @@
     "gameTimeDecision": false,
     "reason": "Knee (surgery)",
     "returnDate": "2026-12-01"
+   },
+   {
+    "name": "Gui Santos",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Knee (tendinitis)",
+    "returnDate": "2026-10-30"
    }
   ],
   "HOU": [
    {
-    "name": "Alperen Sengun",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Back (soreness)",
-    "returnDate": "2026-10-30"
-   },
-   {
     "name": "Marcus Smart",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Forearm (strain)",
     "returnDate": "2026-10-30"
    },
@@ -229,6 +222,13 @@
     "gameTimeDecision": false,
     "reason": "Calf (strain)",
     "returnDate": "2026-11-02"
+   },
+   {
+    "name": "Alperen Sengun",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Back (soreness)",
+    "returnDate": "2026-10-30"
    }
   ],
   "IND": [
@@ -238,13 +238,6 @@
     "gameTimeDecision": false,
     "reason": "Knee",
     "returnDate": "2027-01-02"
-   },
-   {
-    "name": "Ivica Zubac",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Ankle (sprain)",
-    "returnDate": "2026-10-30"
    },
    {
     "name": "Johnny Furphy",
@@ -266,6 +259,13 @@
     "gameTimeDecision": false,
     "reason": "Hamstring (strain)",
     "returnDate": "2026-11-13"
+   },
+   {
+    "name": "Ivica Zubac",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Ankle (sprain)",
+    "returnDate": "2026-10-30"
    }
   ],
   "LAC": [
@@ -298,46 +298,46 @@
     "returnDate": "2026-11-08"
    },
    {
-    "name": "Rui Hachimura",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Quadriceps (soreness)",
-    "returnDate": "2026-10-30"
-   },
-   {
     "name": "Yanic Konan Niederhauser",
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Foot (surgery)",
     "returnDate": "2026-11-08"
+   },
+   {
+    "name": "Rui Hachimura",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Quadriceps (soreness)",
+    "returnDate": "2026-10-30"
    }
   ],
   "LAL": [
    {
     "name": "Adou Thiero",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Knee (inflammation)",
     "returnDate": "2026-10-30"
    },
    {
     "name": "Cameron Carr",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Oblique (strain)",
     "returnDate": "2026-10-30"
    },
    {
     "name": "Luka Doncic",
-    "status": "Out",
-    "gameTimeDecision": false,
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
     "reason": "Back",
     "returnDate": "2026-10-30"
    },
    {
     "name": "Ziaire Williams",
-    "status": "Out",
-    "gameTimeDecision": false,
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
     "reason": "Foot",
     "returnDate": "2026-10-30"
    }
@@ -345,8 +345,8 @@
   "MIA": [
    {
     "name": "Simone Fontecchio",
-    "status": "Out",
-    "gameTimeDecision": false,
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
     "reason": "Illness",
     "returnDate": "2026-10-30"
    }
@@ -387,7 +387,7 @@
    {
     "name": "Jose Alvarado",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Ankle (sprain)",
     "returnDate": "2026-10-30"
    }
@@ -406,13 +406,6 @@
     "gameTimeDecision": false,
     "reason": "Shoulder",
     "returnDate": "2027-03-02"
-   },
-   {
-    "name": "Chet Holmgren",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Knee",
-    "returnDate": "2026-10-31"
    },
    {
     "name": "Jalen Williams",
@@ -434,6 +427,13 @@
     "gameTimeDecision": false,
     "reason": "Knee",
     "returnDate": "2026-11-04"
+   },
+   {
+    "name": "Chet Holmgren",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Knee",
+    "returnDate": "2026-10-31"
    }
   ],
   "ORL": [
@@ -454,7 +454,7 @@
    {
     "name": "Jonathan Isaac",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Knee",
     "returnDate": "2026-10-30"
    },
@@ -489,18 +489,18 @@
     "returnDate": "2026-11-04"
    },
    {
-    "name": "Jabari Walker",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Knee (soreness)",
-    "returnDate": "2026-10-30"
-   },
-   {
     "name": "Tacko Fall",
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Quadriceps (strain)",
     "returnDate": "2026-11-04"
+   },
+   {
+    "name": "Jabari Walker",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Knee (soreness)",
+    "returnDate": "2026-10-30"
    }
   ],
   "PHX": [
@@ -576,7 +576,7 @@
    {
     "name": "Tobias Harris",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Calf (strain)",
     "returnDate": "2026-10-31"
    }
@@ -613,18 +613,18 @@
     "returnDate": "2026-11-04"
    },
    {
-    "name": "Lauri Markkanen",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Wrist",
-    "returnDate": "2026-10-31"
-   },
-   {
     "name": "Trey Alexander",
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Knee (bruise)",
     "returnDate": "2026-11-06"
+   },
+   {
+    "name": "Lauri Markkanen",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Wrist",
+    "returnDate": "2026-10-31"
    }
   ],
   "WAS": [
@@ -643,18 +643,18 @@
     "returnDate": "2027-02-25"
    },
    {
-    "name": "Tre Johnson",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Achilles (soreness)",
-    "returnDate": "2026-10-30"
-   },
-   {
     "name": "Tristan Vukcevic",
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Hip (pinched nerve)",
     "returnDate": "2026-11-02"
+   },
+   {
+    "name": "Tre Johnson",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Achilles (soreness)",
+    "returnDate": "2026-10-30"
    }
   ]
  }
