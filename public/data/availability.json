@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-30T21:24:00.290Z",
+ "updatedAt": "2026-10-30T22:23:43.576Z",
  "teams": {
   "ATL": [
    {
@@ -40,13 +40,6 @@
     "gameTimeDecision": false,
     "reason": "Shoulder (sprain)",
     "returnDate": "2026-11-01"
-   },
-   {
-    "name": "Noah Clowney",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Illness",
-    "returnDate": "2026-10-30"
    }
   ],
   "CHA": [
@@ -77,43 +70,22 @@
     "gameTimeDecision": false,
     "reason": "Knee (surgery)",
     "returnDate": "2026-11-02"
-   },
-   {
-    "name": "Dennis Schroder",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Foot",
-    "returnDate": "2026-10-30"
    }
   ],
   "CHI": [
+   {
+    "name": "Dailyn Swain",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Back (soreness)",
+    "returnDate": "2026-11-02"
+   },
    {
     "name": "Nic Claxton",
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Hamstring",
     "returnDate": "2026-11-04"
-   },
-   {
-    "name": "Dailyn Swain",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Back (soreness)",
-    "returnDate": "2026-10-30"
-   },
-   {
-    "name": "Jalen Smith",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Finger",
-    "returnDate": "2026-10-30"
-   },
-   {
-    "name": "Tobe Awaka",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Ankle",
-    "returnDate": "2026-10-30"
    }
   ],
   "CLE": [
@@ -157,16 +129,9 @@
    {
     "name": "Tarik Biberovic",
     "status": "Out",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Heel (inflammation)",
-    "returnDate": "2026-10-30"
-   },
-   {
-    "name": "Naji Marshall",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Illness",
-    "returnDate": "2026-10-30"
+    "returnDate": "2026-11-02"
    }
   ],
   "DEN": [
@@ -402,15 +367,6 @@
     "returnDate": "2026-10-31"
    }
   ],
-  "MIA": [
-   {
-    "name": "Simone Fontecchio",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Illness",
-    "returnDate": "2026-10-30"
-   }
-  ],
   "MIN": [
    {
     "name": "Anthony Edwards",
@@ -429,25 +385,18 @@
   ],
   "NOP": [
    {
+    "name": "Jordan Poole",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Ankle (sprain)",
+    "returnDate": "2026-11-02"
+   },
+   {
     "name": "Yves Missi",
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Knee (bruise)",
-    "returnDate": "2026-11-02"
-   },
-   {
-    "name": "Dejounte Murray",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Personal",
-    "returnDate": "2026-10-31"
-   },
-   {
-    "name": "Jordan Poole",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Ankle",
-    "returnDate": "2026-10-31"
+    "returnDate": "2026-11-08"
    }
   ],
   "NYK": [
@@ -461,9 +410,7 @@
    {
     "name": "Karl-Anthony Towns",
     "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Wrist (sprain)",
-    "returnDate": "2026-10-30"
+    "gameTimeDecision": false
    }
   ],
   "OKC": [
@@ -570,18 +517,18 @@
     "returnDate": "2026-10-31"
    },
    {
+    "name": "Jaylen Brown",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Knee",
+    "returnDate": "2026-10-31"
+   },
+   {
     "name": "Tacko Fall",
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Quadriceps (strain)",
     "returnDate": "2026-11-04"
-   },
-   {
-    "name": "Jaylen Brown",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Knee",
-    "returnDate": "2026-10-30"
    }
   ],
   "PHX": [
@@ -671,9 +618,9 @@
    {
     "name": "Tobias Harris",
     "status": "Out",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Calf (strain)",
-    "returnDate": "2026-10-31"
+    "returnDate": "2026-11-06"
    }
   ],
   "TOR": [
@@ -743,13 +690,6 @@
     "gameTimeDecision": false,
     "reason": "Hip (pinched nerve)",
     "returnDate": "2026-11-02"
-   },
-   {
-    "name": "Tre Johnson",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Achilles (soreness)",
-    "returnDate": "2026-10-30"
    }
   ]
  }
