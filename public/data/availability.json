@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-30T00:23:34.798Z",
+ "updatedAt": "2026-10-30T01:23:44.222Z",
  "teams": {
   "ATL": [
    {
@@ -574,9 +574,16 @@
    {
     "name": "Chris Youngblood",
     "status": "Out",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Ankle (soreness)",
-    "returnDate": "2026-10-29"
+    "returnDate": "2026-10-31"
+   },
+   {
+    "name": "Robert Williams III",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Knee",
+    "returnDate": "2026-10-31"
    },
    {
     "name": "Shaedon Sharpe",
@@ -584,13 +591,6 @@
     "gameTimeDecision": false,
     "reason": "Knee (surgery)",
     "returnDate": "2027-03-02"
-   },
-   {
-    "name": "Robert Williams III",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Knee",
-    "returnDate": "2026-10-29"
    }
   ],
   "SAC": [

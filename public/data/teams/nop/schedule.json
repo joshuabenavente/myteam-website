@@ -103,7 +103,11 @@
    "startUtc": "2026-10-30T00:00:00Z",
    "home": true,
    "opponent": "SAC",
-   "status": "scheduled",
+   "status": "live",
+   "score": {
+    "team": 0,
+    "opponent": 0
+   },
    "broadcasts": [
     {
      "name": "GCSEN",
