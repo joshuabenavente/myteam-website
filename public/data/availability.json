@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-30T22:23:43.576Z",
+ "updatedAt": "2026-10-30T23:23:39.371Z",
  "teams": {
   "ATL": [
    {
@@ -115,16 +115,16 @@
    {
     "name": "Santi Aldama",
     "status": "Out",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Knee (surgery)",
-    "returnDate": "2026-10-30"
+    "returnDate": "2026-11-02"
    },
    {
     "name": "Sergio de Larrea",
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Knee (strain)",
-    "returnDate": "2026-11-02"
+    "returnDate": "2026-11-04"
    },
    {
     "name": "Tarik Biberovic",
@@ -212,11 +212,11 @@
   ],
   "HOU": [
    {
-    "name": "Marcus Smart",
+    "name": "Alperen Sengun",
     "status": "Out",
-    "gameTimeDecision": true,
-    "reason": "Forearm (strain)",
-    "returnDate": "2026-10-30"
+    "gameTimeDecision": false,
+    "reason": "Back (soreness)",
+    "returnDate": "2026-10-31"
    },
    {
     "name": "Reed Sheppard",
@@ -231,13 +231,6 @@
     "gameTimeDecision": false,
     "reason": "Calf (strain)",
     "returnDate": "2026-11-02"
-   },
-   {
-    "name": "Alperen Sengun",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Back (soreness)",
-    "returnDate": "2026-10-30"
    }
   ],
   "IND": [
@@ -263,6 +256,13 @@
     "returnDate": "2027-01-02"
    },
    {
+    "name": "Obi Toppin",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Back (soreness)",
+    "returnDate": "2026-11-01"
+   },
+   {
     "name": "T.J. McConnell",
     "status": "Out",
     "gameTimeDecision": false,
@@ -275,27 +275,6 @@
     "gameTimeDecision": false,
     "reason": "Hamstring (strain)",
     "returnDate": "2026-11-13"
-   },
-   {
-    "name": "Aaron Nesmith",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Hamstring",
-    "returnDate": "2026-10-30"
-   },
-   {
-    "name": "Andrew Nembhard",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Neck (soreness)",
-    "returnDate": "2026-10-30"
-   },
-   {
-    "name": "Obi Toppin",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Back",
-    "returnDate": "2026-10-30"
    }
   ],
   "LAC": [
@@ -333,13 +312,6 @@
     "gameTimeDecision": false,
     "reason": "Foot (surgery)",
     "returnDate": "2026-11-08"
-   },
-   {
-    "name": "Rui Hachimura",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Quadriceps (soreness)",
-    "returnDate": "2026-10-30"
    }
   ],
   "LAL": [
@@ -364,6 +336,20 @@
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Ankle",
+    "returnDate": "2026-10-31"
+   },
+   {
+    "name": "Scotty Pippen Jr.",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Back (soreness)",
+    "returnDate": "2026-10-31"
+   },
+   {
+    "name": "Ty Jerome",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Back (soreness)",
     "returnDate": "2026-10-31"
    }
   ],
@@ -406,11 +392,6 @@
     "gameTimeDecision": false,
     "reason": "Ankle (sprain)",
     "returnDate": "2026-11-04"
-   },
-   {
-    "name": "Karl-Anthony Towns",
-    "status": "Day-To-Day",
-    "gameTimeDecision": false
    }
   ],
   "OKC": [
@@ -427,6 +408,13 @@
     "gameTimeDecision": false,
     "reason": "Shoulder",
     "returnDate": "2027-03-02"
+   },
+   {
+    "name": "Chet Holmgren",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Knee",
+    "returnDate": "2026-11-02"
    },
    {
     "name": "Jalen Williams",
@@ -448,13 +436,6 @@
     "gameTimeDecision": false,
     "reason": "Knee",
     "returnDate": "2026-11-04"
-   },
-   {
-    "name": "Chet Holmgren",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Knee",
-    "returnDate": "2026-10-31"
    }
   ],
   "ORL": [
