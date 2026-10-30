@@ -1,7 +1,7 @@
 {
  "season": "2026-27",
  "lastSeason": "2025-26",
- "updatedAt": "2026-10-29T18:22:15.228Z",
+ "updatedAt": "2026-10-30T00:22:18.618Z",
  "teamGamesPlayed": {
   "regular": 4,
   "playoffs": 0
@@ -1109,12 +1109,15 @@
    "position": "C",
    "twoWay": true,
    "bio": {
-    "height": "6' 11\"",
+    "height": "6' 9\"",
     "weight": 266,
     "birthDate": "2004-01-08",
     "experience": 0,
-    "college": "Kansas, TCU, Miami (FL)"
+    "college": "Miami",
+    "birthPlace": "Orlando, FL"
    },
+   "number": "88",
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5106261.png",
    "current": {},
    "lastFull": {},
    "lastToDate": {}

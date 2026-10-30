@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-29T23:23:41.013Z",
+ "updatedAt": "2026-10-30T00:23:34.798Z",
  "teams": {
   "ATL": [
    {
@@ -111,18 +111,11 @@
   ],
   "CLE": [
    {
-    "name": "Jaylon Tyson",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Neck",
-    "returnDate": "2026-10-29"
-   },
-   {
     "name": "Meleek Thomas",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
+    "status": "Out",
+    "gameTimeDecision": false,
     "reason": "Foot",
-    "returnDate": "2026-10-29"
+    "returnDate": "2026-10-31"
    }
   ],
   "DAL": [
@@ -367,23 +360,16 @@
    {
     "name": "Adou Thiero",
     "status": "Out",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Knee (inflammation)",
-    "returnDate": "2026-10-30"
+    "returnDate": "2026-11-01"
    },
    {
     "name": "Cameron Carr",
     "status": "Out",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Oblique (strain)",
-    "returnDate": "2026-10-30"
-   },
-   {
-    "name": "Luka Doncic",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Back",
-    "returnDate": "2026-10-30"
+    "returnDate": "2026-11-01"
    },
    {
     "name": "Ziaire Williams",
