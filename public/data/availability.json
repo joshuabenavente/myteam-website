@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-30T01:23:44.222Z",
+ "updatedAt": "2026-10-30T03:23:59.606Z",
  "teams": {
   "ATL": [
    {
@@ -112,8 +112,8 @@
   "CLE": [
    {
     "name": "Meleek Thomas",
-    "status": "Out",
-    "gameTimeDecision": false,
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
     "reason": "Foot",
     "returnDate": "2026-10-31"
    }
@@ -406,25 +406,25 @@
   ],
   "NOP": [
    {
-    "name": "Dejounte Murray",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Personal",
-    "returnDate": "2026-10-31"
-   },
-   {
-    "name": "Jordan Poole",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Ankle",
-    "returnDate": "2026-10-31"
-   },
-   {
     "name": "Yves Missi",
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Knee (bruise)",
     "returnDate": "2026-11-02"
+   },
+   {
+    "name": "Dejounte Murray",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Personal",
+    "returnDate": "2026-10-31"
+   },
+   {
+    "name": "Jordan Poole",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Ankle",
+    "returnDate": "2026-10-31"
    }
   ],
   "NYK": [

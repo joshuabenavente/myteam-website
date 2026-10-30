@@ -1,7 +1,7 @@
 {
  "season": "2026-27",
  "lastSeason": "2025-26",
- "updatedAt": "2026-10-29T21:23:55.219Z",
+ "updatedAt": "2026-10-30T03:23:59.438Z",
  "teamGamesPlayed": {
   "regular": 5,
   "playoffs": 0
@@ -1252,6 +1252,42 @@
    "lastToDate": {}
   },
   {
+   "id": "loverla01",
+   "name": "Lawson Lovering",
+   "position": "C",
+   "twoWay": true,
+   "bio": {
+    "height": "7' 1\"",
+    "weight": 233,
+    "birthDate": "2003-05-09",
+    "experience": 1,
+    "college": "Utah",
+    "birthPlace": "Cheyenne, WY"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4596528.png",
+   "current": {},
+   "lastFull": {
+    "regular": {
+     "games": 2,
+     "started": 1,
+     "minutes": 49.3,
+     "points": 14,
+     "rebounds": 15,
+     "assists": 3,
+     "steals": 3,
+     "blocks": 1,
+     "turnovers": 2,
+     "fgMade": 6,
+     "fgAttempted": 10,
+     "threeMade": 0,
+     "threeAttempted": 0,
+     "ftMade": 2,
+     "ftAttempted": 5
+    }
+   },
+   "lastToDate": {}
+  },
+  {
    "id": "carrca01",
    "name": "Cameron Carr",
    "position": "SG",
@@ -1266,25 +1302,6 @@
    },
    "number": "43",
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5113969.png",
-   "current": {},
-   "lastFull": {},
-   "lastToDate": {}
-  },
-  {
-   "id": "okereak01",
-   "name": "AK Okereke",
-   "position": "F",
-   "twoWay": true,
-   "bio": {
-    "height": "6' 7\"",
-    "weight": 244,
-    "birthDate": "2003-07-02",
-    "experience": 0,
-    "college": "Vanderbilt",
-    "birthPlace": "Clovis, CA"
-   },
-   "number": "31",
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5114350.png",
    "current": {},
    "lastFull": {},
    "lastToDate": {}
