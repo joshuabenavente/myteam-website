@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-30T04:23:38.387Z",
+ "updatedAt": "2026-10-30T05:23:38.796Z",
  "teams": {
   "ATL": [
    {
@@ -385,7 +385,7 @@
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Ankle",
-    "returnDate": "2026-10-29"
+    "returnDate": "2026-10-31"
    }
   ],
   "MIA": [
@@ -583,15 +583,8 @@
    {
     "name": "Chris Youngblood",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Ankle (soreness)",
-    "returnDate": "2026-10-31"
-   },
-   {
-    "name": "Robert Williams III",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Knee",
     "returnDate": "2026-10-31"
    },
    {
@@ -600,6 +593,20 @@
     "gameTimeDecision": false,
     "reason": "Knee (surgery)",
     "returnDate": "2027-03-02"
+   },
+   {
+    "name": "Ja Morant",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Hamstring",
+    "returnDate": "2026-10-31"
+   },
+   {
+    "name": "Robert Williams III",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Knee",
+    "returnDate": "2026-10-31"
    }
   ],
   "SAC": [
