@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-30T20:23:42.786Z",
+ "updatedAt": "2026-10-30T21:24:00.290Z",
  "teams": {
   "ATL": [
    {
@@ -95,6 +95,13 @@
     "returnDate": "2026-11-04"
    },
    {
+    "name": "Dailyn Swain",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Back (soreness)",
+    "returnDate": "2026-10-30"
+   },
+   {
     "name": "Jalen Smith",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
@@ -110,6 +117,13 @@
    }
   ],
   "CLE": [
+   {
+    "name": "Jaylon Tyson",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Ankle (sprain)",
+    "returnDate": "2026-11-02"
+   },
    {
     "name": "Meleek Thomas",
     "status": "Day-To-Day",
@@ -187,18 +201,18 @@
   ],
   "DET": [
    {
+    "name": "Isaiah Joe",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Hip (bruise)",
+    "returnDate": "2026-11-02"
+   },
+   {
     "name": "Jalen Duren",
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Hamstring (strain)",
     "returnDate": "2026-11-09"
-   },
-   {
-    "name": "Isaiah Joe",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Hip (bruise)",
-    "returnDate": "2026-10-30"
    }
   ],
   "GSW": [
@@ -309,6 +323,13 @@
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Neck (soreness)",
+    "returnDate": "2026-10-30"
+   },
+   {
+    "name": "Obi Toppin",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Back",
     "returnDate": "2026-10-30"
    }
   ],
@@ -436,6 +457,13 @@
     "gameTimeDecision": false,
     "reason": "Ankle (sprain)",
     "returnDate": "2026-11-04"
+   },
+   {
+    "name": "Karl-Anthony Towns",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Wrist (sprain)",
+    "returnDate": "2026-10-30"
    }
   ],
   "OKC": [
