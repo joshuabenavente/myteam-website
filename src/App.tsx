@@ -107,6 +107,12 @@ function TeamSite({ route, team, navigatedPath }: {
     game: 'game details',
   }[route.page]
   const mainLabel = `${team.fullName} ${section}`
+  const updatedNote = data && !Number.isNaN(Date.parse(data.meta.updatedAt)) && (
+    <p className="snapshot-updated muted small">
+      Published data last updated: <time dateTime={data.meta.updatedAt}>{formatUpdated(data.meta.updatedAt)}</time>.
+      {' '}Live scores update separately.
+    </p>
+  )
   const routePath = window.location.pathname
 
   return (
@@ -126,12 +132,7 @@ function TeamSite({ route, team, navigatedPath }: {
           label={mainLabel}
         />
         {data?.offline && <OfflineNote updatedAt={data.meta.updatedAt} />}
-        {data && !Number.isNaN(Date.parse(data.meta.updatedAt)) && (
-          <p className="snapshot-updated muted small">
-            Published data last updated: <time dateTime={data.meta.updatedAt}>{formatUpdated(data.meta.updatedAt)}</time>.
-            {' '}Live scores update separately.
-          </p>
-        )}
+        {!glass && updatedNote}
         {error && !snapshot && <p className="placeholder error">{error}</p>}
         {snapshot && (
           <>
@@ -180,6 +181,8 @@ function TeamSite({ route, team, navigatedPath }: {
         {data && route.page === 'game' && (
           <GamePage id={route.id} data={data} timeZone={timeZone} testTeam={liveTestTeam} />
         )}
+        {/* The glass app keeps the page's start for its content, and says how fresh it is at the end. */}
+        {glass && updatedNote}
       </main>
 
       {data && <SiteFooter />}

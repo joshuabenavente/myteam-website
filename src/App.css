@@ -4407,3 +4407,108 @@ html.glass .mini-bar {
 ::view-transition-new(root) {
   animation-duration: 0.2s;
 }
+
+/* Screens (glass app): quieter rows, grouped controls, and the page starting right under the
+   header. Layout and content are the same as without the flag. */
+
+/* "Published data last updated" moves to the end of the page (App.tsx). */
+html.glass .snapshot-updated {
+  margin-top: 32px;
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+/* TV channels as plain text, not filled chips; local channels in full-strength bold. */
+html.glass .chip {
+  padding: 0;
+  border: none;
+  background: none;
+  color: var(--muted);
+}
+
+html.glass .chip.local {
+  color: var(--text);
+  font-weight: var(--w-strong);
+}
+
+html.glass .game-broadcasts {
+  gap: 2px 12px;
+}
+
+html.glass .game-summary {
+  padding: 14px 16px;
+}
+
+html.glass .month h2 {
+  letter-spacing: 0.08em;
+}
+
+/* The roster's three switches as one grouped card: a label and its choices on each line. */
+html.glass .player-controls {
+  flex-flow: column nowrap;
+  gap: 0;
+  margin-bottom: 12px;
+  padding: 2px 14px;
+  border: 1px solid var(--glass-edge);
+  border-radius: var(--radius-card);
+  background: var(--glass-fill);
+  box-shadow: var(--glass-shadow);
+  -webkit-backdrop-filter: var(--glass-blur);
+  backdrop-filter: var(--glass-blur);
+}
+
+html.glass .control {
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 6px 12px;
+  padding: 8px 0;
+}
+
+html.glass .control + .control {
+  border-top: 1px solid var(--border);
+}
+
+/* A switch that doesn't fit beside its label goes under it whole. */
+html.glass .control .segmented {
+  min-width: 0;
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+html.glass .control .segmented button {
+  padding-inline: 10px;
+  white-space: nowrap;
+}
+
+/* Inside the card the switches don't need their own glass. */
+html.glass .player-controls .segmented {
+  border-color: transparent;
+  background: var(--hover);
+  box-shadow: none;
+  -webkit-backdrop-filter: none;
+  backdrop-filter: none;
+}
+
+html.glass .compare-note:empty {
+  display: none;
+}
+
+/* The narrowest phones: wrap the words rather than hide a choice off the edge. */
+@media (max-width: 359px) {
+  html.glass .control .segmented button {
+    white-space: normal;
+  }
+}
+
+@media (max-width: 760px) {
+  html.glass .header-inner,
+  html.glass .site-header.full .header-inner {
+    padding-bottom: 16px;
+  }
+
+  html.glass main {
+    padding-top: 12px;
+  }
+}

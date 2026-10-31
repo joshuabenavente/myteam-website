@@ -35,10 +35,14 @@ This direction supersedes the "no visual changes approved" status of
    and forward, which phones animate themselves, and not with Reduce Motion). After a page
    change, focus moves to the content without scrolling past the header. Bars that content
    scrolls under (`--glass-bar`) are near-opaque, so their white text is readable over anything.
-4. **Screens, no functional changes.** Games: a big next-game card, minimal schedule rows,
-   list/calendar as a pill control. Players: rows with headline stats that open the player page.
-   Player page: hero over the gradient, radar and game log in glass cards. Tabular numerals and
-   a stronger type scale.
+4. **Screens** ✅ (behind `?glass=1`), no functional changes:
+   - TV channels on game rows (and the player page's next game) are plain text instead of
+     filled chips; local channels in bold, national ones muted.
+   - The roster's three switches are one grouped card, a label and its choices per line; on
+     the narrowest phones the choices' words wrap rather than run off the edge.
+   - Pages start right under the header; "Published data last updated" moves to the end.
+   - Not done, on purpose: the roster stays a table (sorting and comparisons need it), and the
+     header's countdown stays the Games page's big next-game card.
 5. **App feel.** Pull to refresh (refetch data), `overscroll-behavior`, no tap highlight,
    per-team splash colors, 44px targets, scroll position kept per tab.
 6. **Later.** Notifications (installable-app.md), then deciding whether to drop the flag.
