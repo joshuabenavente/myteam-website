@@ -4049,6 +4049,9 @@ html.glass {
   --glass-panel-edge: rgb(255 255 255 / 14%);
   --glass-header: var(--glass-panel);
   --glass-panel-dim: rgb(244 246 250 / 85%);
+  /* Bars that page content scrolls under (tab bar, sticky bar): strong enough for white text
+     over anything. */
+  --glass-bar: color-mix(in srgb, var(--midnight) 94%, transparent);
 
   --text: #14181f;
   --muted: #444b57;
@@ -4081,6 +4084,7 @@ html.glass {
     --glass-panel-edge: var(--glass-edge);
     /* The header sits straight on the gradient. */
     --glass-header: transparent;
+    --glass-bar: rgb(12 13 18 / 80%);
 
     --text: #ffffff;
     --muted: #d5d8de;
@@ -4284,7 +4288,7 @@ html.glass :is(.player-hero, .overview) {
 }
 
 html.glass .mini-bar {
-  background: var(--glass-panel);
+  background: var(--glass-bar);
   border-bottom: 1px solid var(--glass-panel-edge);
   box-shadow: none;
   -webkit-backdrop-filter: var(--glass-blur);
@@ -4294,4 +4298,112 @@ html.glass .mini-bar {
 html.glass .site-footer {
   background: var(--glass-header);
   border-top: 1px solid var(--glass-panel-edge);
+}
+
+/* App shell (glass app): a floating tab bar on phones in place of the header's page switcher,
+   back chevrons on player and game pages, and a quick cross-fade between pages. */
+
+.tab-bar {
+  display: none;
+}
+
+html.glass .page-nav a {
+  color: #fff;
+}
+
+html.glass .back-link {
+  display: none;
+}
+
+.header-back,
+.mini-back {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+  min-height: 44px;
+  margin-left: -6px;
+  padding-right: 8px;
+  color: #fff;
+  font-weight: var(--w-strong);
+  font-size: 1.0625rem;
+  text-decoration: none;
+}
+
+.mini-back {
+  font-size: 1rem;
+}
+
+@media (max-width: 760px) {
+  html.glass .page-nav,
+  html.glass .mini-nav {
+    display: none;
+  }
+
+  html.glass .tab-bar {
+    position: fixed;
+    left: 50%;
+    bottom: calc(12px + env(safe-area-inset-bottom));
+    z-index: 60;
+    display: flex;
+    gap: 4px;
+    width: min(100% - 32px, 400px);
+    padding: 5px;
+    transform: translateX(-50%);
+    border: 1px solid var(--glass-panel-edge);
+    border-radius: 999px;
+    background: var(--glass-bar);
+    box-shadow: 0 10px 30px rgb(0 0 0 / 25%);
+    -webkit-backdrop-filter: var(--glass-blur);
+    backdrop-filter: var(--glass-blur);
+    view-transition-name: tab-bar;
+  }
+
+  html.glass .tab-bar a {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+    min-height: 52px;
+    border-radius: 999px;
+    color: #fff;
+    font-size: 0.75rem;
+    font-weight: var(--w-strong);
+    text-decoration: none;
+  }
+
+  html.glass .tab-bar a[aria-current='page'] {
+    background: var(--sunshine);
+    color: var(--accent-text);
+  }
+
+  html.glass .tab-bar a:focus-visible {
+    outline: 2px solid #fff;
+    outline-offset: 2px;
+  }
+
+  /* Room to scroll the page's end clear of the bar. */
+  html.glass body {
+    padding-bottom: calc(84px + env(safe-area-inset-bottom));
+  }
+
+  html.glass .site-footer {
+    margin-bottom: calc(-84px - env(safe-area-inset-bottom));
+  }
+
+  html.glass .footer-inner {
+    padding-bottom: calc(110px + env(safe-area-inset-bottom));
+  }
+}
+
+/* Named parts stay put while the rest of the page cross-fades. (Not the gradient: a named part
+   is drawn over the page during the fade.) */
+html.glass .mini-bar {
+  view-transition-name: mini-bar;
+}
+
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation-duration: 0.2s;
 }

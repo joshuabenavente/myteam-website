@@ -28,10 +28,13 @@ This direction supersedes the "no visual changes approved" status of
    `--glass-blur`, `--glass-panel` (team-colored panels with white text), `--glass-solid` (sticky
    table cells). Cards get the blur; rows inside them get the fill alone. Reduce Transparency
    gets opaque fills.
-3. **App shell.** Floating bottom tab bar (Games, Players, Team) on phones in place of the
-   header's page switcher; large-title header that collapses on scroll (building on the mini
-   bar); back chevron on player pages; View Transitions between screens; centered column on
-   desktop.
+3. **App shell** ✅ (behind `?glass=1`). On phones, a floating tab bar (Games, Players, Teams;
+   `src/components/TabBar.tsx`) replaces the header's and sticky bar's page switchers. Player and
+   game pages put a back chevron where the logo was, in the header and the sticky bar, in place
+   of the "All players" / "All games" link. Tapped links cross-fade (View Transitions; not back
+   and forward, which phones animate themselves, and not with Reduce Motion). After a page
+   change, focus moves to the content without scrolling past the header. Bars that content
+   scrolls under (`--glass-bar`) are near-opaque, so their white text is readable over anything.
 4. **Screens, no functional changes.** Games: a big next-game card, minimal schedule rows,
    list/calendar as a pill control. Players: rows with headline stats that open the player page.
    Player page: hero over the gradient, radar and game log in glass cards. Tabular numerals and

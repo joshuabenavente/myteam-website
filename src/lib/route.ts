@@ -10,6 +10,8 @@
 // team page and serves deeper pages through 404.html (see vite.config.ts).
 
 import { useEffect, useState } from 'react'
+import { flushSync } from 'react-dom'
+import { glassOn } from './glass.ts'
 
 export type Page =
   | { page: 'games' }
@@ -82,7 +84,11 @@ export function useRoute(): Route {
       e.preventDefault()
       if (a.pathname === window.location.pathname && a.search === window.location.search) return
       window.history.pushState(null, '', a.pathname + (a.search || window.location.search))
-      onPop()
+      // The glass app cross-fades between pages (App.css, ::view-transition). Back and forward
+      // don't: phones animate their own back swipe.
+      const motion = !window.matchMedia('(prefers-reduced-motion: reduce)').matches
+      if (glassOn() && motion && document.startViewTransition) document.startViewTransition(() => flushSync(onPop))
+      else onPop()
     }
     window.addEventListener('popstate', onPop)
     document.addEventListener('click', onClick)

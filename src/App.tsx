@@ -9,6 +9,7 @@ import { PlayerTracker } from './components/PlayerTracker.tsx'
 import { SiteFooter } from './components/SiteFooter.tsx'
 import { SiteHeader } from './components/SiteHeader.tsx'
 import { TeamPicker } from './components/TeamPicker.tsx'
+import { TabBar } from './components/TabBar.tsx'
 import { TeamSummary } from './components/TeamSummary.tsx'
 import { useAppData, type AppData } from './lib/data.ts'
 import { formatUpdated, timeZoneAbbr } from './lib/format.ts'
@@ -43,7 +44,8 @@ function App() {
     if (path === previousPath.current) return
     previousPath.current = path
     setNavigatedPath(path)
-    const frame = requestAnimationFrame(() => document.getElementById('main')?.focus())
+    // The glass app keeps the page at its top, where the back chevron is.
+    const frame = requestAnimationFrame(() => document.getElementById('main')?.focus({ preventScroll: glassOn() }))
     return () => cancelAnimationFrame(frame)
   }, [route])
   const team = 'team' in route ? teamFromSlug(route.team) : undefined
@@ -181,6 +183,7 @@ function TeamSite({ route, team, navigatedPath }: {
       </main>
 
       {data && <SiteFooter />}
+      {glass && <TabBar route={route} />}
     </LiveContext.Provider>
   )
 }
