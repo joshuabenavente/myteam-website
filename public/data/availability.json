@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-31T19:23:42.705Z",
+ "updatedAt": "2026-10-31T20:23:44.971Z",
  "teams": {
   "ATL": [
    {
@@ -175,6 +175,13 @@
   ],
   "GSW": [
    {
+    "name": "Draymond Green",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Rest",
+    "returnDate": "2026-11-02"
+   },
+   {
     "name": "Jimmy Butler III",
     "status": "Out",
     "gameTimeDecision": false,
@@ -194,6 +201,20 @@
     "gameTimeDecision": false,
     "reason": "Knee (surgery)",
     "returnDate": "2026-12-01"
+   },
+   {
+    "name": "Stephen Curry",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Rest",
+    "returnDate": "2026-11-02"
+   },
+   {
+    "name": "Gui Santos",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Knee",
+    "returnDate": "2026-11-01"
    }
   ],
   "HOU": [
