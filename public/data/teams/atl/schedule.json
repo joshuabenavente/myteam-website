@@ -126,7 +126,11 @@
    "startUtc": "2026-10-31T23:00:00Z",
    "home": false,
    "opponent": "NOP",
-   "status": "scheduled",
+   "status": "live",
+   "score": {
+    "team": 0,
+    "opponent": 0
+   },
    "broadcasts": [
     {
      "name": "ANF / Peachtree Sports Net / Prime Video - ATL",
