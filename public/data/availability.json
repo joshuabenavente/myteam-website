@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-31T14:23:38.745Z",
+ "updatedAt": "2026-10-31T15:24:05.562Z",
  "teams": {
   "ATL": [
    {
@@ -108,14 +108,14 @@
    {
     "name": "Dereck Lively II",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Foot (surgery)",
     "returnDate": "2026-11-02"
    },
    {
     "name": "Santi Aldama",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Knee (surgery)",
     "returnDate": "2026-11-02"
    },
@@ -152,7 +152,7 @@
    {
     "name": "Spencer Jones",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Hamstring",
     "returnDate": "2026-11-02"
    }
