@@ -1,7 +1,7 @@
 {
  "season": "2026-27",
  "lastSeason": "2025-26",
- "updatedAt": "2026-10-31T07:18:45.337Z",
+ "updatedAt": "2026-10-31T13:18:41.438Z",
  "teamGamesPlayed": {
   "regular": 6,
   "playoffs": 0
@@ -24,21 +24,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3149673.png",
    "current": {
     "regular": {
-     "games": 5,
-     "started": 5,
-     "minutes": 160.7,
-     "points": 120,
-     "rebounds": 42,
-     "assists": 19,
-     "steals": 3,
+     "games": 6,
+     "started": 6,
+     "minutes": 189.6,
+     "points": 133,
+     "rebounds": 47,
+     "assists": 23,
+     "steals": 5,
      "blocks": 0,
-     "turnovers": 15,
-     "fgMade": 47,
-     "fgAttempted": 85,
+     "turnovers": 18,
+     "fgMade": 52,
+     "fgAttempted": 102,
      "threeMade": 8,
-     "threeAttempted": 21,
-     "ftMade": 18,
-     "ftAttempted": 29
+     "threeAttempted": 26,
+     "ftMade": 21,
+     "ftAttempted": 34
     }
    },
    "lastFull": {
@@ -81,43 +81,6 @@
    }
   },
   {
-   "id": "halibty01",
-   "name": "Tyrese Haliburton",
-   "number": "0",
-   "position": "PG",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 5\"",
-    "weight": 185,
-    "birthDate": "2000-02-29",
-    "experience": 5,
-    "college": "Iowa State",
-    "birthPlace": "Oshkosh, WI"
-   },
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4396993.png",
-   "current": {
-    "regular": {
-     "games": 4,
-     "started": 4,
-     "minutes": 132.1,
-     "points": 87,
-     "rebounds": 18,
-     "assists": 38,
-     "steals": 5,
-     "blocks": 3,
-     "turnovers": 9,
-     "fgMade": 32,
-     "fgAttempted": 62,
-     "threeMade": 10,
-     "threeAttempted": 27,
-     "ftMade": 13,
-     "ftAttempted": 15
-    }
-   },
-   "lastFull": {},
-   "lastToDate": {}
-  },
-  {
    "id": "nembhan01",
    "name": "Andrew Nembhard",
    "number": "2",
@@ -134,21 +97,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4395712.png",
    "current": {
     "regular": {
-     "games": 4,
-     "started": 4,
-     "minutes": 130.9,
-     "points": 66,
-     "rebounds": 8,
-     "assists": 31,
+     "games": 5,
+     "started": 5,
+     "minutes": 161.1,
+     "points": 88,
+     "rebounds": 10,
+     "assists": 40,
      "steals": 3,
      "blocks": 0,
-     "turnovers": 10,
-     "fgMade": 21,
-     "fgAttempted": 45,
-     "threeMade": 6,
-     "threeAttempted": 18,
-     "ftMade": 18,
-     "ftAttempted": 20
+     "turnovers": 12,
+     "fgMade": 29,
+     "fgAttempted": 61,
+     "threeMade": 11,
+     "threeAttempted": 26,
+     "ftMade": 19,
+     "ftAttempted": 21
     }
    },
    "lastFull": {
@@ -207,21 +170,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3133603.png",
    "current": {
     "regular": {
-     "games": 5,
-     "started": 3,
-     "minutes": 120,
-     "points": 45,
-     "rebounds": 12,
-     "assists": 9,
+     "games": 6,
+     "started": 4,
+     "minutes": 142.3,
+     "points": 55,
+     "rebounds": 16,
+     "assists": 10,
      "steals": 2,
      "blocks": 4,
-     "turnovers": 4,
-     "fgMade": 17,
-     "fgAttempted": 41,
-     "threeMade": 4,
-     "threeAttempted": 20,
-     "ftMade": 7,
-     "ftAttempted": 10
+     "turnovers": 5,
+     "fgMade": 21,
+     "fgAttempted": 48,
+     "threeMade": 5,
+     "threeAttempted": 22,
+     "ftMade": 8,
+     "ftAttempted": 12
     }
    },
    "lastFull": {
@@ -277,6 +240,189 @@
      "threeAttempted": 36,
      "ftMade": 20,
      "ftAttempted": 25
+    }
+   }
+  },
+  {
+   "id": "walkeja02",
+   "name": "Jarace Walker",
+   "number": "5",
+   "position": "PF",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 7\"",
+    "weight": 235,
+    "birthDate": "2003-09-04",
+    "experience": 3,
+    "college": "Houston",
+    "birthPlace": "New Freedom, PA"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5106060.png",
+   "current": {
+    "regular": {
+     "games": 6,
+     "started": 1,
+     "minutes": 132.6,
+     "points": 42,
+     "rebounds": 36,
+     "assists": 11,
+     "steals": 4,
+     "blocks": 3,
+     "turnovers": 13,
+     "fgMade": 15,
+     "fgAttempted": 42,
+     "threeMade": 7,
+     "threeAttempted": 21,
+     "ftMade": 5,
+     "ftAttempted": 10
+    }
+   },
+   "lastFull": {
+    "regular": {
+     "games": 76,
+     "started": 41,
+     "minutes": 1953.8,
+     "points": 884,
+     "rebounds": 391,
+     "assists": 192,
+     "steals": 63,
+     "blocks": 26,
+     "turnovers": 139,
+     "fgMade": 307,
+     "fgAttempted": 733,
+     "threeMade": 133,
+     "threeAttempted": 356,
+     "ftMade": 137,
+     "ftAttempted": 183
+    }
+   },
+   "lastToDate": {
+    "regular": {
+     "games": 6,
+     "started": 3,
+     "minutes": 176.9,
+     "points": 67,
+     "rebounds": 36,
+     "assists": 24,
+     "steals": 4,
+     "blocks": 3,
+     "turnovers": 11,
+     "fgMade": 23,
+     "fgAttempted": 73,
+     "threeMade": 12,
+     "threeAttempted": 39,
+     "ftMade": 9,
+     "ftAttempted": 11
+    }
+   }
+  },
+  {
+   "id": "halibty01",
+   "name": "Tyrese Haliburton",
+   "number": "0",
+   "position": "PG",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 5\"",
+    "weight": 185,
+    "birthDate": "2000-02-29",
+    "experience": 5,
+    "college": "Iowa State",
+    "birthPlace": "Oshkosh, WI"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4396993.png",
+   "current": {
+    "regular": {
+     "games": 4,
+     "started": 4,
+     "minutes": 132.1,
+     "points": 87,
+     "rebounds": 18,
+     "assists": 38,
+     "steals": 5,
+     "blocks": 3,
+     "turnovers": 9,
+     "fgMade": 32,
+     "fgAttempted": 62,
+     "threeMade": 10,
+     "threeAttempted": 27,
+     "ftMade": 13,
+     "ftAttempted": 15
+    }
+   },
+   "lastFull": {},
+   "lastToDate": {}
+  },
+  {
+   "id": "jacksqu01",
+   "name": "Quenton Jackson",
+   "number": "29",
+   "position": "PG",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 4\"",
+    "weight": 173,
+    "birthDate": "1998-09-15",
+    "experience": 4,
+    "college": "Texas A&M",
+    "birthPlace": "Los Angeles, CA"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4592829.png",
+   "current": {
+    "regular": {
+     "games": 6,
+     "started": 0,
+     "minutes": 115.6,
+     "points": 49,
+     "rebounds": 14,
+     "assists": 17,
+     "steals": 7,
+     "blocks": 1,
+     "turnovers": 4,
+     "fgMade": 17,
+     "fgAttempted": 37,
+     "threeMade": 3,
+     "threeAttempted": 14,
+     "ftMade": 12,
+     "ftAttempted": 13
+    }
+   },
+   "lastFull": {
+    "regular": {
+     "games": 49,
+     "started": 19,
+     "minutes": 898,
+     "points": 448,
+     "rebounds": 114,
+     "assists": 140,
+     "steals": 31,
+     "blocks": 6,
+     "turnovers": 62,
+     "fgMade": 154,
+     "fgAttempted": 328,
+     "threeMade": 42,
+     "threeAttempted": 118,
+     "ftMade": 98,
+     "ftAttempted": 119
+    }
+   },
+   "lastToDate": {
+    "regular": {
+     "games": 4,
+     "started": 2,
+     "minutes": 81,
+     "points": 52,
+     "rebounds": 15,
+     "assists": 14,
+     "steals": 5,
+     "blocks": 1,
+     "turnovers": 5,
+     "fgMade": 19,
+     "fgAttempted": 33,
+     "threeMade": 6,
+     "threeAttempted": 11,
+     "ftMade": 8,
+     "ftAttempted": 11
     }
    }
   },
@@ -354,152 +500,6 @@
    }
   },
   {
-   "id": "walkeja02",
-   "name": "Jarace Walker",
-   "number": "5",
-   "position": "PF",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 7\"",
-    "weight": 235,
-    "birthDate": "2003-09-04",
-    "experience": 3,
-    "college": "Houston",
-    "birthPlace": "New Freedom, PA"
-   },
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5106060.png",
-   "current": {
-    "regular": {
-     "games": 5,
-     "started": 1,
-     "minutes": 105,
-     "points": 28,
-     "rebounds": 30,
-     "assists": 7,
-     "steals": 3,
-     "blocks": 3,
-     "turnovers": 11,
-     "fgMade": 10,
-     "fgAttempted": 31,
-     "threeMade": 4,
-     "threeAttempted": 16,
-     "ftMade": 4,
-     "ftAttempted": 8
-    }
-   },
-   "lastFull": {
-    "regular": {
-     "games": 76,
-     "started": 41,
-     "minutes": 1953.8,
-     "points": 884,
-     "rebounds": 391,
-     "assists": 192,
-     "steals": 63,
-     "blocks": 26,
-     "turnovers": 139,
-     "fgMade": 307,
-     "fgAttempted": 733,
-     "threeMade": 133,
-     "threeAttempted": 356,
-     "ftMade": 137,
-     "ftAttempted": 183
-    }
-   },
-   "lastToDate": {
-    "regular": {
-     "games": 6,
-     "started": 3,
-     "minutes": 176.9,
-     "points": 67,
-     "rebounds": 36,
-     "assists": 24,
-     "steals": 4,
-     "blocks": 3,
-     "turnovers": 11,
-     "fgMade": 23,
-     "fgAttempted": 73,
-     "threeMade": 12,
-     "threeAttempted": 39,
-     "ftMade": 9,
-     "ftAttempted": 11
-    }
-   }
-  },
-  {
-   "id": "jacksqu01",
-   "name": "Quenton Jackson",
-   "number": "29",
-   "position": "PG",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 4\"",
-    "weight": 173,
-    "birthDate": "1998-09-15",
-    "experience": 4,
-    "college": "Texas A&M",
-    "birthPlace": "Los Angeles, CA"
-   },
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4592829.png",
-   "current": {
-    "regular": {
-     "games": 5,
-     "started": 0,
-     "minutes": 91.7,
-     "points": 25,
-     "rebounds": 10,
-     "assists": 16,
-     "steals": 5,
-     "blocks": 1,
-     "turnovers": 3,
-     "fgMade": 8,
-     "fgAttempted": 24,
-     "threeMade": 1,
-     "threeAttempted": 10,
-     "ftMade": 8,
-     "ftAttempted": 9
-    }
-   },
-   "lastFull": {
-    "regular": {
-     "games": 49,
-     "started": 19,
-     "minutes": 898,
-     "points": 448,
-     "rebounds": 114,
-     "assists": 140,
-     "steals": 31,
-     "blocks": 6,
-     "turnovers": 62,
-     "fgMade": 154,
-     "fgAttempted": 328,
-     "threeMade": 42,
-     "threeAttempted": 118,
-     "ftMade": 98,
-     "ftAttempted": 119
-    }
-   },
-   "lastToDate": {
-    "regular": {
-     "games": 4,
-     "started": 2,
-     "minutes": 81,
-     "points": 52,
-     "rebounds": 15,
-     "assists": 14,
-     "steals": 5,
-     "blocks": 1,
-     "turnovers": 5,
-     "fgMade": 19,
-     "fgAttempted": 33,
-     "threeMade": 6,
-     "threeAttempted": 11,
-     "ftMade": 8,
-     "ftAttempted": 11
-    }
-   }
-  },
-  {
    "id": "nesmiaa01",
    "name": "Aaron Nesmith",
    "number": "23",
@@ -516,21 +516,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4396909.png",
    "current": {
     "regular": {
-     "games": 4,
-     "started": 3,
-     "minutes": 87.1,
-     "points": 53,
-     "rebounds": 7,
-     "assists": 5,
+     "games": 5,
+     "started": 4,
+     "minutes": 108.1,
+     "points": 62,
+     "rebounds": 10,
+     "assists": 7,
      "steals": 3,
      "blocks": 1,
-     "turnovers": 6,
-     "fgMade": 17,
-     "fgAttempted": 44,
-     "threeMade": 9,
-     "threeAttempted": 26,
-     "ftMade": 10,
-     "ftAttempted": 12
+     "turnovers": 7,
+     "fgMade": 19,
+     "fgAttempted": 48,
+     "threeMade": 10,
+     "threeAttempted": 29,
+     "ftMade": 14,
+     "ftAttempted": 16
     }
    },
    "lastFull": {
@@ -589,19 +589,19 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/2580365.png",
    "current": {
     "regular": {
-     "games": 5,
+     "games": 6,
      "started": 0,
-     "minutes": 70.4,
-     "points": 13,
-     "rebounds": 14,
-     "assists": 2,
-     "steals": 3,
-     "blocks": 1,
+     "minutes": 88.1,
+     "points": 19,
+     "rebounds": 16,
+     "assists": 3,
+     "steals": 7,
+     "blocks": 2,
      "turnovers": 4,
-     "fgMade": 5,
-     "fgAttempted": 15,
-     "threeMade": 2,
-     "threeAttempted": 10,
+     "fgMade": 7,
+     "fgAttempted": 19,
+     "threeMade": 4,
+     "threeAttempted": 12,
      "ftMade": 1,
      "ftAttempted": 1
     }
@@ -679,19 +679,19 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4065731.png",
    "current": {
     "regular": {
-     "games": 4,
-     "started": 2,
-     "minutes": 64.5,
-     "points": 23,
-     "rebounds": 16,
+     "games": 5,
+     "started": 3,
+     "minutes": 83.5,
+     "points": 36,
+     "rebounds": 17,
      "assists": 6,
      "steals": 0,
      "blocks": 3,
      "turnovers": 2,
-     "fgMade": 9,
-     "fgAttempted": 20,
-     "threeMade": 3,
-     "threeAttempted": 11,
+     "fgMade": 14,
+     "fgAttempted": 26,
+     "threeMade": 6,
+     "threeAttempted": 15,
      "ftMade": 2,
      "ftAttempted": 2
     }
@@ -824,21 +824,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4398207.png",
    "current": {
     "regular": {
-     "games": 4,
+     "games": 5,
      "started": 0,
-     "minutes": 39.5,
-     "points": 9,
-     "rebounds": 9,
-     "assists": 3,
-     "steals": 3,
+     "minutes": 57,
+     "points": 13,
+     "rebounds": 13,
+     "assists": 4,
+     "steals": 4,
      "blocks": 3,
-     "turnovers": 3,
-     "fgMade": 3,
-     "fgAttempted": 3,
+     "turnovers": 5,
+     "fgMade": 4,
+     "fgAttempted": 5,
      "threeMade": 0,
      "threeAttempted": 0,
-     "ftMade": 3,
-     "ftAttempted": 6
+     "ftMade": 5,
+     "ftAttempted": 9
     }
    },
    "lastFull": {
@@ -860,6 +860,116 @@
      "ftAttempted": 17
     }
    },
+   "lastToDate": {}
+  },
+  {
+   "id": "brownko01",
+   "name": "Kobe Brown",
+   "number": "24",
+   "position": "PF",
+   "twoWay": true,
+   "bio": {
+    "height": "6' 7\"",
+    "weight": 250,
+    "birthDate": "2000-01-01",
+    "experience": 3,
+    "college": "Missouri",
+    "birthPlace": "Huntsville, AL"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4431752.png",
+   "current": {
+    "regular": {
+     "games": 3,
+     "started": 0,
+     "minutes": 21.9,
+     "points": 9,
+     "rebounds": 6,
+     "assists": 4,
+     "steals": 0,
+     "blocks": 0,
+     "turnovers": 1,
+     "fgMade": 3,
+     "fgAttempted": 9,
+     "threeMade": 0,
+     "threeAttempted": 3,
+     "ftMade": 3,
+     "ftAttempted": 4
+    }
+   },
+   "lastFull": {
+    "regular": {
+     "games": 61,
+     "started": 10,
+     "minutes": 963.2,
+     "points": 353,
+     "rebounds": 185,
+     "assists": 80,
+     "steals": 23,
+     "blocks": 12,
+     "turnovers": 53,
+     "fgMade": 127,
+     "fgAttempted": 271,
+     "threeMade": 52,
+     "threeAttempted": 139,
+     "ftMade": 47,
+     "ftAttempted": 59
+    }
+   },
+   "lastToDate": {
+    "regular": {
+     "games": 3,
+     "started": 0,
+     "minutes": 14.3,
+     "points": 4,
+     "rebounds": 3,
+     "assists": 2,
+     "steals": 0,
+     "blocks": 0,
+     "turnovers": 1,
+     "fgMade": 1,
+     "fgAttempted": 1,
+     "threeMade": 0,
+     "threeAttempted": 0,
+     "ftMade": 2,
+     "ftAttempted": 2
+    }
+   }
+  },
+  {
+   "id": "smithbr01",
+   "name": "Braden Smith",
+   "number": "3",
+   "position": "PG",
+   "twoWay": true,
+   "bio": {
+    "height": "5' 10\"",
+    "weight": 167,
+    "birthDate": "2003-07-25",
+    "experience": 0,
+    "college": "Purdue",
+    "birthPlace": "Westfield, IN"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5105854.png",
+   "current": {
+    "regular": {
+     "games": 3,
+     "started": 0,
+     "minutes": 17.1,
+     "points": 1,
+     "rebounds": 0,
+     "assists": 2,
+     "steals": 1,
+     "blocks": 0,
+     "turnovers": 0,
+     "fgMade": 0,
+     "fgAttempted": 3,
+     "threeMade": 0,
+     "threeAttempted": 2,
+     "ftMade": 1,
+     "ftAttempted": 2
+    }
+   },
+   "lastFull": {},
    "lastToDate": {}
   },
   {
@@ -932,116 +1042,6 @@
      "threeAttempted": 25,
      "ftMade": 9,
      "ftAttempted": 12
-    }
-   }
-  },
-  {
-   "id": "smithbr01",
-   "name": "Braden Smith",
-   "number": "3",
-   "position": "PG",
-   "twoWay": true,
-   "bio": {
-    "height": "5' 10\"",
-    "weight": 167,
-    "birthDate": "2003-07-25",
-    "experience": 0,
-    "college": "Purdue",
-    "birthPlace": "Westfield, IN"
-   },
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5105854.png",
-   "current": {
-    "regular": {
-     "games": 2,
-     "started": 0,
-     "minutes": 5.4,
-     "points": 0,
-     "rebounds": 0,
-     "assists": 1,
-     "steals": 0,
-     "blocks": 0,
-     "turnovers": 0,
-     "fgMade": 0,
-     "fgAttempted": 0,
-     "threeMade": 0,
-     "threeAttempted": 0,
-     "ftMade": 0,
-     "ftAttempted": 0
-    }
-   },
-   "lastFull": {},
-   "lastToDate": {}
-  },
-  {
-   "id": "brownko01",
-   "name": "Kobe Brown",
-   "number": "24",
-   "position": "PF",
-   "twoWay": true,
-   "bio": {
-    "height": "6' 7\"",
-    "weight": 250,
-    "birthDate": "2000-01-01",
-    "experience": 3,
-    "college": "Missouri",
-    "birthPlace": "Huntsville, AL"
-   },
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4431752.png",
-   "current": {
-    "regular": {
-     "games": 2,
-     "started": 0,
-     "minutes": 1.6,
-     "points": 0,
-     "rebounds": 0,
-     "assists": 0,
-     "steals": 0,
-     "blocks": 0,
-     "turnovers": 0,
-     "fgMade": 0,
-     "fgAttempted": 1,
-     "threeMade": 0,
-     "threeAttempted": 1,
-     "ftMade": 0,
-     "ftAttempted": 0
-    }
-   },
-   "lastFull": {
-    "regular": {
-     "games": 61,
-     "started": 10,
-     "minutes": 963.2,
-     "points": 353,
-     "rebounds": 185,
-     "assists": 80,
-     "steals": 23,
-     "blocks": 12,
-     "turnovers": 53,
-     "fgMade": 127,
-     "fgAttempted": 271,
-     "threeMade": 52,
-     "threeAttempted": 139,
-     "ftMade": 47,
-     "ftAttempted": 59
-    }
-   },
-   "lastToDate": {
-    "regular": {
-     "games": 3,
-     "started": 0,
-     "minutes": 14.3,
-     "points": 4,
-     "rebounds": 3,
-     "assists": 2,
-     "steals": 0,
-     "blocks": 0,
-     "turnovers": 1,
-     "fgMade": 1,
-     "fgAttempted": 1,
-     "threeMade": 0,
-     "threeAttempted": 0,
-     "ftMade": 2,
-     "ftAttempted": 2
     }
    }
   },
