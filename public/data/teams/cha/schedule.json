@@ -102,7 +102,11 @@
    "startUtc": "2026-10-30T23:00:00Z",
    "home": false,
    "opponent": "WAS",
-   "status": "scheduled",
+   "status": "live",
+   "score": {
+    "team": 0,
+    "opponent": 0
+   },
    "broadcasts": [
     {
      "name": "WSOC 9/DAZN-CHA",

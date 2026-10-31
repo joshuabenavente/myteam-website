@@ -107,7 +107,11 @@
    "startUtc": "2026-10-31T00:00:00Z",
    "home": true,
    "opponent": "IND",
-   "status": "scheduled",
+   "status": "live",
+   "score": {
+    "team": 0,
+    "opponent": 0
+   },
    "broadcasts": [
     {
      "name": "WPLG Local 10/Local10+ Platinum",

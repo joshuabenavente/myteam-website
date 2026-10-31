@@ -102,7 +102,11 @@
    "startUtc": "2026-10-31T00:00:00Z",
    "home": false,
    "opponent": "DAL",
-   "status": "scheduled",
+   "status": "live",
+   "score": {
+    "team": 0,
+    "opponent": 0
+   },
    "broadcasts": [
     {
      "name": "SCHN/SCHN+",
