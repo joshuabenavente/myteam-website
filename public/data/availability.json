@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-31T01:23:50.077Z",
+ "updatedAt": "2026-10-31T05:23:38.184Z",
  "teams": {
   "ATL": [
    {
@@ -46,7 +46,7 @@
    {
     "name": "Coby White",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Calf (strain)",
     "returnDate": "2026-11-02"
    },
@@ -60,7 +60,7 @@
    {
     "name": "Kon Knueppel",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Hamstring",
     "returnDate": "2026-11-02"
    },
@@ -74,18 +74,18 @@
   ],
   "CHI": [
    {
-    "name": "Dailyn Swain",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Back (soreness)",
-    "returnDate": "2026-11-02"
-   },
-   {
     "name": "Nic Claxton",
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Hamstring",
     "returnDate": "2026-11-04"
+   },
+   {
+    "name": "Dailyn Swain",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Back (soreness)",
+    "returnDate": "2026-11-02"
    }
   ],
   "CLE": [
@@ -129,7 +129,7 @@
    {
     "name": "Tarik Biberovic",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Heel (inflammation)",
     "returnDate": "2026-11-02"
    }
@@ -138,7 +138,7 @@
    {
     "name": "Alpha Diallo",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Personal",
     "returnDate": "2026-11-02"
    },
@@ -161,7 +161,7 @@
    {
     "name": "Isaiah Joe",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Hip (bruise)",
     "returnDate": "2026-11-02"
    },
@@ -198,25 +198,25 @@
   ],
   "HOU": [
    {
-    "name": "Alperen Sengun",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Back (soreness)",
-    "returnDate": "2026-10-31"
-   },
-   {
-    "name": "Reed Sheppard",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Back",
-    "returnDate": "2026-10-31"
-   },
-   {
     "name": "Steven Adams",
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Calf (strain)",
     "returnDate": "2026-11-02"
+   },
+   {
+    "name": "Alperen Sengun",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Back (soreness)",
+    "returnDate": "2026-10-31"
+   },
+   {
+    "name": "Reed Sheppard",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Back",
+    "returnDate": "2026-10-31"
    }
   ],
   "IND": [
@@ -242,13 +242,6 @@
     "returnDate": "2027-01-02"
    },
    {
-    "name": "Obi Toppin",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Back (soreness)",
-    "returnDate": "2026-11-01"
-   },
-   {
     "name": "T.J. McConnell",
     "status": "Out",
     "gameTimeDecision": false,
@@ -261,6 +254,13 @@
     "gameTimeDecision": false,
     "reason": "Hamstring (strain)",
     "returnDate": "2026-11-13"
+   },
+   {
+    "name": "Obi Toppin",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Back (soreness)",
+    "returnDate": "2026-11-01"
    }
   ],
   "LAC": [
@@ -304,14 +304,14 @@
    {
     "name": "Adou Thiero",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Knee (inflammation)",
     "returnDate": "2026-11-01"
    },
    {
     "name": "Ziaire Williams",
-    "status": "Out",
-    "gameTimeDecision": false,
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
     "reason": "Foot",
     "returnDate": "2026-11-01"
    }
@@ -479,15 +479,8 @@
    {
     "name": "Jabari Walker",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Knee (soreness)",
-    "returnDate": "2026-10-31"
-   },
-   {
-    "name": "Jaylen Brown",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Knee",
     "returnDate": "2026-10-31"
    },
    {
@@ -496,6 +489,13 @@
     "gameTimeDecision": false,
     "reason": "Quadriceps (strain)",
     "returnDate": "2026-11-04"
+   },
+   {
+    "name": "Jaylen Brown",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Knee",
+    "returnDate": "2026-10-31"
    }
   ],
   "PHX": [
