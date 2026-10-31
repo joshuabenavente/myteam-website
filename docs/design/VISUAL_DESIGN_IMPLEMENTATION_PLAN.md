@@ -1,5 +1,7 @@
 # Visual Design Implementation Plan — myteam.fans
 
+> **Superseded (October 2026):** the glass app redesign in [../app-redesign-plan.md](../app-redesign-plan.md) is approved and in progress behind `?glass=1`.
+
 **Decision status:** No visual implementation is currently approved.  
 **Basis:** Initial visual audit and subsequent adversarial review, October 2026.  
 **Purpose:** A decision record and controlled handoff for Claude Code. This document does not authorize changes to the website.

@@ -10,6 +10,8 @@
 // team page and serves deeper pages through 404.html (see vite.config.ts).
 
 import { useEffect, useState } from 'react'
+import { flushSync } from 'react-dom'
+import { glassOn } from './glass.ts'
 
 export type Page =
   | { page: 'games' }
@@ -67,10 +69,21 @@ export function useRoute(): Route {
   })
 
   useEffect(() => {
-    const onPop = () => {
-      setRoute(parseRoute(window.location.pathname))
-      window.scrollTo(0, 0)
+    // The glass app remembers how far down each page was, like an app's tabs: back and forward,
+    // the tab bar and the back chevron (links marked data-keep-scroll) return there. Other links
+    // start at the top.
+    const scrolls = new Map<string, number>()
+    let frame = 0
+    const onScroll = () => {
+      cancelAnimationFrame(frame)
+      frame = requestAnimationFrame(() => scrolls.set(window.location.pathname, window.scrollY))
     }
+    const arrive = (keep: boolean) => {
+      // Render the new page now, so there's room to scroll to where it was.
+      flushSync(() => setRoute(parseRoute(window.location.pathname)))
+      window.scrollTo(0, keep && glassOn() ? (scrolls.get(window.location.pathname) ?? 0) : 0)
+    }
+    const onPop = () => arrive(true)
     // Same-site links change the page without a reload; new tabs and modified clicks behave normally.
     const onClick = (e: MouseEvent) => {
       if (e.defaultPrevented || e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return
@@ -80,14 +93,28 @@ export function useRoute(): Route {
       // In-page links (the skip link) scroll and move focus the usual way.
       if (a.hash && a.pathname === window.location.pathname) return
       e.preventDefault()
-      if (a.pathname === window.location.pathname && a.search === window.location.search) return
+      const keep = a.hasAttribute('data-keep-scroll')
+      const motion = !window.matchMedia('(prefers-reduced-motion: reduce)').matches
+      // Links within the site leave out the query (?glass=1), which carries over.
+      if (a.pathname === window.location.pathname && (a.search === window.location.search || !a.search)) {
+        // Tapping the tab you're on goes back to its top.
+        if (keep && glassOn()) window.scrollTo({ top: 0, behavior: motion ? 'smooth' : 'auto' })
+        return
+      }
+      scrolls.set(window.location.pathname, window.scrollY)
       window.history.pushState(null, '', a.pathname + (a.search || window.location.search))
-      onPop()
+      // The glass app cross-fades between pages (App.css, ::view-transition). Back and forward
+      // don't: phones animate their own back swipe.
+      if (glassOn() && motion && document.startViewTransition) document.startViewTransition(() => arrive(keep))
+      else arrive(keep)
     }
     window.addEventListener('popstate', onPop)
+    window.addEventListener('scroll', onScroll, { passive: true })
     document.addEventListener('click', onClick)
     return () => {
+      cancelAnimationFrame(frame)
       window.removeEventListener('popstate', onPop)
+      window.removeEventListener('scroll', onScroll)
       document.removeEventListener('click', onClick)
     }
   }, [])

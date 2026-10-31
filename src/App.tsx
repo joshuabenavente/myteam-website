@@ -1,16 +1,20 @@
 import { useEffect, useRef, useState } from 'react'
+import { AppAtmosphere } from './components/AppAtmosphere.tsx'
 import { GamePage } from './components/GamePage.tsx'
 import { GamesCalendar } from './components/GamesCalendar.tsx'
 import { GamesList } from './components/GamesList.tsx'
 import { Icon } from './components/Icon.tsx'
 import { PlayerPage } from './components/PlayerPage.tsx'
 import { PlayerTracker } from './components/PlayerTracker.tsx'
+import { PullToRefresh } from './components/PullToRefresh.tsx'
 import { SiteFooter } from './components/SiteFooter.tsx'
 import { SiteHeader } from './components/SiteHeader.tsx'
 import { TeamPicker } from './components/TeamPicker.tsx'
+import { TabBar } from './components/TabBar.tsx'
 import { TeamSummary } from './components/TeamSummary.tsx'
 import { useAppData, type AppData } from './lib/data.ts'
 import { formatUpdated, timeZoneAbbr } from './lib/format.ts'
+import { glassOn } from './lib/glass.ts'
 import { headlineGame } from './lib/hero.ts'
 import { LiveContext, staleMinutes, type LiveStatus } from './lib/live.ts'
 import { navigate, useRoute, type Route } from './lib/route.ts'
@@ -41,7 +45,8 @@ function App() {
     if (path === previousPath.current) return
     previousPath.current = path
     setNavigatedPath(path)
-    const frame = requestAnimationFrame(() => document.getElementById('main')?.focus())
+    // The glass app keeps the page at its top, where the back chevron is.
+    const frame = requestAnimationFrame(() => document.getElementById('main')?.focus({ preventScroll: glassOn() }))
     return () => cancelAnimationFrame(frame)
   }, [route])
   const team = 'team' in route ? teamFromSlug(route.team) : undefined
@@ -67,7 +72,8 @@ function TeamSite({ route, team, navigatedPath }: {
   navigatedPath?: string
 }) {
   const [gamesView, setGamesView] = useState<GamesView>('list')
-  const { data, error } = useAppData(team.abbr)
+  const [glass] = useState(glassOn)
+  const { data, error, refresh } = useAppData(team.abbr)
   const headline = data && headlineGame(data.schedule.games)
   const live = useLiveScore(
     liveTestTeam ?? (headline ? team.abbr : undefined),
@@ -102,10 +108,18 @@ function TeamSite({ route, team, navigatedPath }: {
     game: 'game details',
   }[route.page]
   const mainLabel = `${team.fullName} ${section}`
+  const updatedNote = data && !Number.isNaN(Date.parse(data.meta.updatedAt)) && (
+    <p className="snapshot-updated muted small">
+      Published data last updated: <time dateTime={data.meta.updatedAt}>{formatUpdated(data.meta.updatedAt)}</time>.
+      {' '}Live scores update separately.
+    </p>
+  )
   const routePath = window.location.pathname
 
   return (
     <LiveContext.Provider value={live}>
+      {glass && <AppAtmosphere theme={team.theme} />}
+      {glass && data && <PullToRefresh onRefresh={refresh} />}
       <a className="skip-link" href="#main">
         Skip to content
       </a>
@@ -120,12 +134,7 @@ function TeamSite({ route, team, navigatedPath }: {
           label={mainLabel}
         />
         {data?.offline && <OfflineNote updatedAt={data.meta.updatedAt} />}
-        {data && !Number.isNaN(Date.parse(data.meta.updatedAt)) && (
-          <p className="snapshot-updated muted small">
-            Published data last updated: <time dateTime={data.meta.updatedAt}>{formatUpdated(data.meta.updatedAt)}</time>.
-            {' '}Live scores update separately.
-          </p>
-        )}
+        {!glass && updatedNote}
         {error && !snapshot && <p className="placeholder error">{error}</p>}
         {snapshot && (
           <>
@@ -174,9 +183,12 @@ function TeamSite({ route, team, navigatedPath }: {
         {data && route.page === 'game' && (
           <GamePage id={route.id} data={data} timeZone={timeZone} testTeam={liveTestTeam} />
         )}
+        {/* The glass app keeps the page's start for its content, and says how fresh it is at the end. */}
+        {glass && updatedNote}
       </main>
 
       {data && <SiteFooter />}
+      {glass && <TabBar route={route} />}
     </LiveContext.Provider>
   )
 }

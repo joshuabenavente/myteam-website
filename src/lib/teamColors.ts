@@ -199,3 +199,140 @@ export function dotColor(abbr: string, background: string): string {
   }
   return BRAND_DOT
 }
+
+/*
+ * The glass app (?glass=1): a team-colored gradient behind the whole page, with frosted cards
+ * over it. The numbers below are the ones in App.css (html.glass). The gradient's colors are
+ * bounded, and the page's text colors chosen, so text stays readable straight on the gradient,
+ * through the glass and on the team panels, at the gradient's brightest (or, in light mode,
+ * darkest) spot, without counting on the blur.
+ */
+
+/** Dark mode glass: this near-black at GLASS_DARK_ALPHA over the gradient. */
+export const GLASS_DARK = '#0c0d12'
+export const GLASS_DARK_ALPHA = 0.5
+/** Light mode glass: white at GLASS_LIGHT_ALPHA over the gradient. */
+export const GLASS_LIGHT_ALPHA = 0.62
+/** A wash over the whole gradient: its base in dark mode, white in light mode. */
+export const GLASS_VEIL_DARK = 0.4
+export const GLASS_VEIL_LIGHT = 0.2
+/** Light mode's header, player hero and sticky bar: the team's dark at this strength. */
+export const GLASS_PANEL_ALPHA = 0.9
+/** The pills in the header: white at this strength over what's behind them. */
+export const GLASS_PILL_ALPHA = 0.1
+/** The accent glow is drawn at this opacity (.app-cloud-accent), so it may be brighter. */
+export const ACCENT_OPACITY = 0.55
+
+/** Text and muted text, as the glass app shows them in each mode. */
+export const GLASS_TEXT_DARK = { text: '#ffffff', muted: '#d5d8de' }
+export const GLASS_TEXT_LIGHT = { text: '#14181f', muted: '#444b57' }
+/** White text on team panels, and the dimmest of it (rgb(244 246 250 / 85%) in the glass app). */
+export const PANEL_TEXT = { text: '#ffffff', dim: '#f4f6fa', dimAlpha: 0.85 }
+/** The page's win and loss colors (src/index.css), before they're fitted to a team's glass. */
+const WIN_LOSS = { dark: ['#4ac26b', '#ff7b8a'], light: ['#1a7f37', '#8b2131'] }
+
+/** The gradient's colors for a team, and the team colors that are readable over it. */
+export interface GlassColors {
+  base: string
+  glow: string
+  accent: string
+  baseLight: string
+  glowLight: string
+  accentLight: string
+  /** Links and headings: dark mode, then light mode. */
+  linkDark: string
+  linkLight: string
+  /** The accent as text on the dark gradient and dark glass, and on light mode's panels. */
+  accentTextDark: string
+  accentTextLight: string
+  /** Text on an accent fill, for each of those. */
+  onAccentDark: string
+  onAccentLight: string
+  /** Win and loss colors on the cards (a green team's glass can swallow the green). */
+  winDark: string
+  lossDark: string
+  winLight: string
+  lossLight: string
+}
+
+// The brightest a glow may get in dark mode, and the darkest light mode's washes may get.
+const MAX_GLOW = 0.16
+const MAX_ACCENT = 0.36
+const LIGHT_WASH = 0.5
+const MIN_GLOW_LIGHT = 0.45
+
+/** Darken a color, keeping its hue, until its luminance is at most `max`. */
+function capLuminance(hex: string, max: number): string {
+  let c = hex
+  for (let i = 0; luminance(c) > max && i < 40; i++) c = mix(c, '#000000', 0.05)
+  return c
+}
+
+/** Light mode's wash of a glow: lightened, then further until its luminance is at least MIN_GLOW_LIGHT. */
+function wash(hex: string): string {
+  let c = mix(hex, '#ffffff', LIGHT_WASH)
+  for (let i = 0; luminance(c) < MIN_GLOW_LIGHT && i < 40; i++) c = mix(c, '#ffffff', 0.05)
+  return c
+}
+
+/** A text color moved toward `toward` until it's 4.5:1 on every one of `backgrounds`. */
+function readableOnAll(hex: string, backgrounds: string[], toward: string): string {
+  let c = hex
+  for (let i = 0; Math.min(...backgrounds.map((b) => contrast(c, b))) < 4.5 && i < 40; i++) c = mix(c, toward, 0.06)
+  return c
+}
+
+type Gradient = Pick<GlassColors, 'base' | 'glow' | 'accent' | 'baseLight' | 'glowLight' | 'accentLight'>
+
+/**
+ * The gradient's extreme spots as drawn: its base, the glows' centers and where they overlap,
+ * under the veil. The brightest in dark mode, the darkest in light mode.
+ */
+export function gradientSpots(g: Gradient, mode: 'dark' | 'light'): string[] {
+  const [base, glow, accent] = mode === 'dark' ? [g.base, g.glow, g.accent] : [g.baseLight, g.glowLight, g.accentLight]
+  const spots = [base, glow, mix(base, accent, ACCENT_OPACITY), mix(glow, accent, ACCENT_OPACITY)]
+  return mode === 'dark'
+    ? spots.map((s) => mix(s, g.base, GLASS_VEIL_DARK))
+    : spots.map((s) => mix(s, '#ffffff', GLASS_VEIL_LIGHT))
+}
+
+/** What each kind of surface looks like over those spots; pills are the header's team and page switchers. */
+export function glassBackgrounds(g: Gradient, theme: TeamTheme, mode: 'dark' | 'light') {
+  const page = gradientSpots(g, mode)
+  if (mode === 'dark') {
+    const glass = page.map((s) => mix(s, GLASS_DARK, GLASS_DARK_ALPHA))
+    // Dark mode's panels are the glass itself, and its header has none.
+    const panel = [...page, ...glass]
+    return { page, glass, panel, pill: panel.map((s) => mix(s, '#ffffff', GLASS_PILL_ALPHA)) }
+  }
+  const glass = page.map((s) => mix(s, '#ffffff', GLASS_LIGHT_ALPHA))
+  const panel = page.map((s) => mix(s, theme.dark, GLASS_PANEL_ALPHA))
+  return { page, glass, panel, pill: panel.map((s) => mix(s, '#ffffff', GLASS_PILL_ALPHA)) }
+}
+
+export function glassColors(theme: TeamTheme): GlassColors {
+  const base = mix(theme.dark, '#000000', 0.35)
+  // The header's mid color, more vivid: it's a light source here rather than a fill under text.
+  const glow = capLuminance(brighten(theme.mid, 1.6), MAX_GLOW)
+  // A white or gray accent (Brooklyn, San Antonio) would just look like fog; use the dot's hue.
+  const accentSource = chromatic(theme.accent) ? theme.accent : chromatic(theme.dot) ? theme.dot : glow
+  const accent = capLuminance(accentSource, MAX_ACCENT)
+  const gradient = { base, glow, accent, baseLight: mix(theme.mid, '#ffffff', 0.88), glowLight: wash(glow), accentLight: wash(accent) }
+  const dark = glassBackgrounds(gradient, theme, 'dark')
+  const light = glassBackgrounds(gradient, theme, 'light')
+  const accentTextDark = readableOnAll(theme.accent, [...dark.panel, ...dark.pill], '#ffffff')
+  const accentTextLight = readableOnAll(theme.accent, [...light.panel, ...light.pill], '#ffffff')
+  return {
+    ...gradient,
+    linkDark: readableOnAll(theme.linkDark, [...dark.page, ...dark.glass], '#ffffff'),
+    linkLight: readableOnAll(theme.link, [...light.page, ...light.glass], '#000000'),
+    accentTextDark,
+    accentTextLight,
+    onAccentDark: readableOn(accentTextDark),
+    onAccentLight: readableOn(accentTextLight),
+    winDark: readableOnAll(WIN_LOSS.dark[0], dark.glass, '#ffffff'),
+    lossDark: readableOnAll(WIN_LOSS.dark[1], dark.glass, '#ffffff'),
+    winLight: readableOnAll(WIN_LOSS.light[0], light.glass, '#000000'),
+    lossLight: readableOnAll(WIN_LOSS.light[1], light.glass, '#000000'),
+  }
+}

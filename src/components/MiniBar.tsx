@@ -2,11 +2,13 @@ import { useEffect, useState, type RefObject } from 'react'
 import { useTeam } from '../lib/team.ts'
 import type { AppData } from '../lib/data.ts'
 import { formatGameDate, formatGameTime } from '../lib/format.ts'
+import { glassOn, hasBack } from '../lib/glass.ts'
 import { headlineGame } from '../lib/hero.ts'
 import { liveFor, resultFor, scoreLine, useLive } from '../lib/live.ts'
 import { routeHref, type Route } from '../lib/route.ts'
 import { BrandIcon } from './Brand.tsx'
 import { Icon } from './Icon.tsx'
+import { BackChevron } from './TabBar.tsx'
 
 interface Props {
   /** The full header; the bar shows once it has scrolled out of view. */
@@ -33,14 +35,19 @@ export function MiniBar({ headerRef, route, data, timeZone }: Props) {
     // Hidden bars are inert so keyboard and screen reader users don't meet a second, invisible nav.
     <div className={`mini-bar ${shown ? 'shown' : ''}`} inert={!shown}>
       <div className="mini-inner">
-        <a className="mini-brand" href={routeHref({ page: 'games' })}>
-          <BrandIcon size={30} />
-          <span className="sr-only">{team.fullName} home</span>
-        </a>
+        {glassOn() && hasBack(route) ? (
+          <BackChevron route={route} className="mini-back" />
+        ) : (
+          <a className="mini-brand" href={routeHref({ page: 'games' })}>
+            <BrandIcon size={30} />
+            <span className="sr-only">{team.fullName} home</span>
+          </a>
+        )}
         {data && <MiniGame data={data} timeZone={timeZone} />}
         <nav className="mini-nav" aria-label="Pages (compact)">
           <a
             href={routeHref({ page: 'games' })}
+            data-keep-scroll
             aria-current={route.page === 'games' || route.page === 'game' ? 'page' : undefined}
           >
             <Icon name="games" size={16} />
@@ -48,6 +55,7 @@ export function MiniBar({ headerRef, route, data, timeZone }: Props) {
           </a>
           <a
             href={routeHref({ page: 'players' })}
+            data-keep-scroll
             aria-current={route.page === 'players' || route.page === 'player' ? 'page' : undefined}
           >
             <Icon name="players" size={16} />

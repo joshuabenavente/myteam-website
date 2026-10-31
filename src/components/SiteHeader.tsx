@@ -1,6 +1,7 @@
 import { useRef, useState } from 'react'
 import type { AppData } from '../lib/data.ts'
 import { formatGameDate, formatGameTime, timeZoneAbbr } from '../lib/format.ts'
+import { glassOn, hasBack } from '../lib/glass.ts'
 import { nextGames } from '../lib/availability.ts'
 import { countdownEyebrow, countdownLabel, daysUntil, headlineChannel, headlineGame, lastResult, listedFor } from '../lib/hero.ts'
 import { liveFor, useLive } from '../lib/live.ts'
@@ -18,6 +19,7 @@ import { LiveAnnouncer, LivePill } from './LivePill.tsx'
 import { MiniBar } from './MiniBar.tsx'
 import { TeamLogo } from './TeamLogo.tsx'
 import { GradientControls } from './GradientControls.tsx'
+import { BackChevron } from './TabBar.tsx'
 
 /** Injury chips per team; the rest are behind "+N more". */
 const CHIPS_PER_TEAM = 2
@@ -44,16 +46,19 @@ export function SiteHeader({ route, data, timeZone, onShowGame }: Props) {
   const full = route.page === 'games'
   const roster = route.page === 'players'
   const headerRef = useRef<HTMLElement>(null)
+  const glass = glassOn()
   const nav = (
     <nav className="page-nav" aria-label="Pages">
       <a
         href={routeHref({ page: 'games' })}
+        data-keep-scroll
         aria-current={route.page === 'games' || route.page === 'game' ? 'page' : undefined}
       >
         <Icon name="games" /> Games
       </a>
       <a
         href={routeHref({ page: 'players' })}
+        data-keep-scroll
         aria-current={route.page === 'players' || route.page === 'player' ? 'page' : undefined}
       >
         <Icon name="players" /> Players
@@ -77,12 +82,16 @@ export function SiteHeader({ route, data, timeZone, onShowGame }: Props) {
         )}
         <div className="header-inner">
           <div className="header-top">
-            <a className="brand" href={routeHref({ page: 'games' })}>
-              {/* Wordmark on wide screens; just the icon on phones. */}
-              <BrandIcon size={36} glass className="brand-narrow" />
-              <Wordmark height={30} className="brand-wide" decorative />
-              <span className="sr-only">myteam.fans, {team.fullName} home</span>
-            </a>
+            {glass && hasBack(route) ? (
+              <BackChevron route={route} className="header-back" />
+            ) : (
+              <a className="brand" href={routeHref({ page: 'games' })}>
+                {/* Wordmark on wide screens; just the icon on phones. */}
+                <BrandIcon size={36} glass className="brand-narrow" />
+                <Wordmark height={30} className="brand-wide" decorative />
+                <span className="sr-only">myteam.fans, {team.fullName} home</span>
+              </a>
+            )}
             <div className="header-actions">
               <a className={`team-pill ${team.fullName.length > 18 ? 'long' : ''}`} href={routeHref({ page: 'picker' })}>
                 <TeamLogo abbr={team.abbr} size={28} background="dark" />

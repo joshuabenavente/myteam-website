@@ -1,6 +1,6 @@
 // Load the JSON files written by scripts/ingest.ts.
 
-import { useEffect, useState } from 'react'
+import { useCallback, useEffect, useRef, useState } from 'react'
 import type {
   AvailabilityFile,
   GameLogsFile,
@@ -34,9 +34,11 @@ export interface AppData {
 
 /** Set when the service worker answers with a saved copy because the network is down. */
 let servedOffline = false
+/** A refresh (pull to refresh) checks with the server rather than taking the browser's cached copy. */
+let revalidate = false
 
 async function load<T>(name: string): Promise<T> {
-  const res = await fetch(`${import.meta.env.BASE_URL}data/${name}.json`)
+  const res = await fetch(`${import.meta.env.BASE_URL}data/${name}.json`, revalidate ? { cache: 'no-cache' } : undefined)
   if (!res.ok) throw new Error(`Couldn't load ${name} (HTTP ${res.status})`)
   if (res.headers.get('X-Myteam-Offline')) servedOffline = true
   return res.json() as Promise<T>
@@ -55,13 +57,20 @@ const noPlayers = (season: string): PlayersFile => ({
   players: [],
 })
 
-/** Shared files (standings, injuries) plus the team's own; reloads when the team changes. */
-export function useAppData(abbr: string | undefined): { data?: AppData; error?: string } {
+/**
+ * Shared files (standings, injuries) plus the team's own; reloads when the team changes, and on
+ * `refresh()`, which resolves once the new data (or a failure) is in.
+ */
+export function useAppData(abbr: string | undefined): { data?: AppData; error?: string; refresh: () => Promise<void> } {
   const [state, setState] = useState<{ abbr?: string; data?: AppData; error?: string }>({})
+  const [version, setVersion] = useState(0)
+  const waiting = useRef<(() => void)[]>([])
   useEffect(() => {
     if (!abbr) return
     let stale = false
     servedOffline = false
+    revalidate = version > 0
+    const settled = () => waiting.current.splice(0).forEach((resolve) => resolve())
     Promise.all([
       load<ScheduleFile>(teamFile(abbr, 'schedule')),
       load<StandingsFile>('standings'),
@@ -90,6 +99,7 @@ export function useAppData(abbr: string | undefined): { data?: AppData; error?: 
             offline: servedOffline,
           },
         })
+        settled()
       })
       .catch((err: Error) => {
         if (stale) return
@@ -98,14 +108,24 @@ export function useAppData(abbr: string | undefined): { data?: AppData; error?: 
           err instanceof TypeError
             ? "Couldn't reach myteam.fans. You may be offline, and this team hasn't been saved on this device yet."
             : err.message
-        setState({ abbr, error: message })
+        // A failed refresh keeps what's on screen.
+        setState((s) => (s.abbr === abbr && s.data ? s : { abbr, error: message }))
+        settled()
       })
     return () => {
       stale = true
     }
-  }, [abbr])
+  }, [abbr, version])
+  const refresh = useCallback(
+    () =>
+      new Promise<void>((resolve) => {
+        waiting.current.push(resolve)
+        setVersion((v) => v + 1)
+      }),
+    [],
+  )
   // Don't show one team's data under another's address while the new team loads.
-  return state.abbr === abbr ? { data: state.data, error: state.error } : {}
+  return state.abbr === abbr ? { data: state.data, error: state.error, refresh } : { refresh }
 }
 
 const gameLogs = new Map<string, Promise<GameLogsFile | undefined>>()

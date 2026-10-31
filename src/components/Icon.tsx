@@ -11,6 +11,7 @@ import {
   List,
   MonitorPlay,
   Plane,
+  RefreshCw,
   Search,
   Sparkles,
   Trophy,
@@ -39,6 +40,7 @@ const ICONS = {
   search: Search,
   download: Download,
   offline: WifiOff,
+  refresh: RefreshCw,
 } satisfies Record<string, LucideIcon>
 
 export type IconName = keyof typeof ICONS
