@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-31T20:23:44.971Z",
+ "updatedAt": "2026-10-31T21:23:58.644Z",
  "teams": {
   "ATL": [
    {
@@ -24,6 +24,13 @@
     "gameTimeDecision": false,
     "reason": "Illness",
     "returnDate": "2026-11-08"
+   },
+   {
+    "name": "Mitchell Robinson",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Rest",
+    "returnDate": "2026-11-01"
    }
   ],
   "BKN": [
@@ -33,6 +40,13 @@
     "gameTimeDecision": false,
     "reason": "Leg (bruise)",
     "returnDate": "2026-11-07"
+   },
+   {
+    "name": "Mikel Brown Jr.",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Rest",
+    "returnDate": "2026-11-02"
    },
    {
     "name": "Tyler Bilodeau",
@@ -251,9 +265,9 @@
    {
     "name": "Ivica Zubac",
     "status": "Out",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Ankle (sprain)",
-    "returnDate": "2026-11-01"
+    "returnDate": "2026-11-02"
    },
    {
     "name": "Johnny Furphy",
@@ -275,6 +289,13 @@
     "gameTimeDecision": false,
     "reason": "Hamstring (strain)",
     "returnDate": "2026-11-13"
+   },
+   {
+    "name": "Aaron Nesmith",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Hamstring (strain)",
+    "returnDate": "2026-11-01"
    },
    {
     "name": "Obi Toppin",
