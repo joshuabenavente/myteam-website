@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from 'react'
+import { AppAtmosphere } from './components/AppAtmosphere.tsx'
 import { GamePage } from './components/GamePage.tsx'
 import { GamesCalendar } from './components/GamesCalendar.tsx'
 import { GamesList } from './components/GamesList.tsx'
@@ -11,6 +12,7 @@ import { TeamPicker } from './components/TeamPicker.tsx'
 import { TeamSummary } from './components/TeamSummary.tsx'
 import { useAppData, type AppData } from './lib/data.ts'
 import { formatUpdated, timeZoneAbbr } from './lib/format.ts'
+import { glassOn } from './lib/glass.ts'
 import { headlineGame } from './lib/hero.ts'
 import { LiveContext, staleMinutes, type LiveStatus } from './lib/live.ts'
 import { navigate, useRoute, type Route } from './lib/route.ts'
@@ -67,6 +69,7 @@ function TeamSite({ route, team, navigatedPath }: {
   navigatedPath?: string
 }) {
   const [gamesView, setGamesView] = useState<GamesView>('list')
+  const [glass] = useState(glassOn)
   const { data, error } = useAppData(team.abbr)
   const headline = data && headlineGame(data.schedule.games)
   const live = useLiveScore(
@@ -106,6 +109,7 @@ function TeamSite({ route, team, navigatedPath }: {
 
   return (
     <LiveContext.Provider value={live}>
+      {glass && <AppAtmosphere theme={team.theme} />}
       <a className="skip-link" href="#main">
         Skip to content
       </a>

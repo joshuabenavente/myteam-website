@@ -4025,3 +4025,273 @@ main,
   color: var(--link-text);
   font-weight: var(--w-strong);
 }
+
+/* Glass app preview (?glass=1, src/components/AppAtmosphere.tsx): the team's colors drift
+   behind the whole page and the cards are frosted over them. The gradient's colors, and the text
+   colors here, come from src/lib/teamColors.ts (glassColors), where tests check that text stays
+   readable on the gradient, through each fill and on the team panels without counting on the
+   blur. The alphas and veils here match the GLASS_* constants there. */
+
+html.glass {
+  --atm-base: var(--glass-base-light);
+  --atm-glow: var(--glass-glow-light);
+  --atm-accent: var(--glass-accent-light);
+  --atm-veil: rgb(255 255 255 / 20%);
+  --bg: var(--atm-base);
+  --glass-fill: rgb(255 255 255 / 62%);
+  /* The fill over the gradient's base, opaque: for cells that stay put while a table scrolls under them. */
+  --glass-solid: color-mix(in srgb, color-mix(in srgb, var(--glass-base-light) 80%, #fff) 38%, #fff);
+  --glass-edge: rgb(255 255 255 / 70%);
+  --glass-shadow: 0 1px 1px rgb(0 0 0 / 4%), 0 10px 30px rgb(0 0 0 / 6%);
+  --glass-blur: blur(24px) saturate(160%);
+  /* Header, player hero, team overview, sticky bar: white text, so the team's dark under it. */
+  --glass-panel: color-mix(in srgb, var(--midnight) 90%, transparent);
+  --glass-panel-edge: rgb(255 255 255 / 14%);
+  --glass-header: var(--glass-panel);
+  --glass-panel-dim: rgb(244 246 250 / 85%);
+
+  --text: #14181f;
+  --muted: #444b57;
+  --link: var(--glass-link-light);
+  --link-text: var(--glass-link-light);
+  --skyline-text: var(--glass-link-light);
+  --focus: var(--glass-link-light);
+  --sunshine: var(--glass-accent-text-light);
+  --accent-text: var(--glass-on-accent-light);
+  --win: var(--glass-win-light);
+  --loss: var(--glass-loss-light);
+  --surface: var(--glass-fill);
+  --border: rgb(20 24 31 / 9%);
+  --hover: rgb(255 255 255 / 45%);
+  --table-head-bg: rgb(255 255 255 / 35%);
+  --radius-card: 22px;
+}
+
+@media (prefers-color-scheme: dark) {
+  html.glass {
+    --atm-base: var(--glass-base);
+    --atm-glow: var(--glass-glow);
+    --atm-accent: var(--glass-accent);
+    --atm-veil: color-mix(in srgb, var(--glass-base) 40%, transparent);
+    --glass-fill: rgb(12 13 18 / 50%);
+    --glass-solid: color-mix(in srgb, var(--glass-base) 50%, #0c0d12);
+    --glass-edge: rgb(255 255 255 / 11%);
+    --glass-shadow: 0 10px 30px rgb(0 0 0 / 22%);
+    --glass-panel: var(--glass-fill);
+    --glass-panel-edge: var(--glass-edge);
+    /* The header sits straight on the gradient. */
+    --glass-header: transparent;
+
+    --text: #ffffff;
+    --muted: #d5d8de;
+    --heading: var(--glass-link-dark);
+    --link-dark: var(--glass-link-dark);
+    --link-text: var(--glass-link-dark);
+    --skyline-text: var(--glass-link-dark);
+    --focus: var(--glass-link-dark);
+    --sunshine: var(--glass-accent-text-dark);
+    --accent-text: var(--glass-on-accent-dark);
+    --win: var(--glass-win-dark);
+    --loss: var(--glass-loss-dark);
+    --border: rgb(255 255 255 / 9%);
+    --hover: rgb(255 255 255 / 7%);
+    --table-head-bg: rgb(255 255 255 / 5%);
+  }
+}
+
+/* Reduce Transparency (Safari, and Chromium behind a flag): the same colors, opaque. */
+@media (prefers-reduced-transparency: reduce) {
+  html.glass {
+    --glass-fill: var(--glass-solid);
+    --glass-blur: none;
+  }
+}
+
+/* The page's own background would paint over the layer below. */
+html.glass body {
+  background: transparent;
+}
+
+.app-atmosphere {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  overflow: hidden;
+  pointer-events: none;
+  background: var(--atm-base);
+}
+
+/* A veil over the colors (GLASS_VEIL_*), then grain. */
+.app-atmosphere::before,
+.app-atmosphere::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+}
+
+.app-atmosphere::before {
+  z-index: 1;
+  background: var(--atm-veil);
+}
+
+.app-atmosphere::after {
+  z-index: 2;
+  background: url('/textures/header-grain.svg');
+  opacity: 0.12;
+}
+
+.app-cloud {
+  position: absolute;
+  display: block;
+  border-radius: 50%;
+  filter: blur(40px);
+  will-change: transform;
+}
+
+.app-cloud-main {
+  width: 120vmax;
+  height: 80vmax;
+  left: -45vmax;
+  top: -35vmax;
+  background: radial-gradient(closest-side, var(--atm-glow), transparent);
+}
+
+.app-cloud-light {
+  width: 90vmax;
+  height: 70vmax;
+  right: -40vmax;
+  top: 35vh;
+  background: radial-gradient(closest-side, var(--atm-glow), transparent);
+  opacity: 0.7;
+}
+
+/* ACCENT_OPACITY in teamColors.ts. */
+.app-cloud-accent {
+  width: 80vmax;
+  height: 60vmax;
+  left: -25vmax;
+  bottom: -30vmax;
+  background: radial-gradient(closest-side, var(--atm-accent), transparent);
+  opacity: 0.55;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .app-cloud-main {
+    animation: glass-drift 28s ease-in-out infinite alternate;
+  }
+  .app-cloud-light {
+    animation: glass-drift 36s ease-in-out -14s infinite alternate-reverse;
+  }
+  .app-cloud-accent {
+    animation: glass-drift 44s ease-in-out -8s infinite alternate;
+  }
+}
+
+@keyframes glass-drift {
+  50% {
+    transform: translate3d(12vw, 8vh, 0) rotate(12deg) scale(1.1, 0.92);
+  }
+  100% {
+    transform: translate3d(-8vw, 14vh, 0) rotate(-8deg) scale(0.94, 1.08);
+  }
+}
+
+@media (forced-colors: active) {
+  .app-atmosphere {
+    display: none;
+  }
+}
+
+/* The header lets the page's gradient through instead of drawing its own. */
+html.glass .site-header,
+html.glass .site-header.team-atmosphere {
+  background: var(--glass-header);
+  box-shadow: none;
+}
+
+html.glass .site-header .header-atmosphere,
+html.glass .site-header.team-atmosphere::after {
+  display: none;
+}
+
+/* GLASS_PILL_ALPHA. */
+html.glass .team-pill,
+html.glass .page-nav {
+  background: rgb(255 255 255 / 10%);
+  -webkit-backdrop-filter: var(--glass-blur);
+  backdrop-filter: var(--glass-blur);
+  box-shadow: inset 0 0 0 1px rgb(255 255 255 / 14%);
+}
+
+/* Dim white text on the panels: no dimmer than PANEL_TEXT's. */
+html.glass .player-hero {
+  --hero-muted: var(--glass-panel-dim);
+}
+
+html.glass :is(.site-footer, .countdown-muted, .cards-hero .eyebrow, .radar-legend, .radar-note) {
+  color: var(--glass-panel-dim);
+}
+
+html.glass .radar-label {
+  fill: var(--glass-panel-dim);
+}
+
+/* Cards: frosted. Rows inside them (and the game log's row cards) get the fill alone, without
+   their own blur, which is costly on phones. */
+html.glass :is(
+  .team-summary,
+  .games,
+  .calendar-grid,
+  .selected-game,
+  .next-game,
+  .placeholder,
+  .game-page-details,
+  .tbd-note,
+  .segmented,
+  .offline-note
+) {
+  background: var(--glass-fill);
+  border: 1px solid var(--glass-edge);
+  box-shadow: var(--glass-shadow);
+  -webkit-backdrop-filter: var(--glass-blur);
+  backdrop-filter: var(--glass-blur);
+}
+
+/* The roster table keeps its "more to the right" shadow; the cover that hides it at the end
+   can't match a see-through card, so it stays. */
+html.glass .table-scroll {
+  background:
+    radial-gradient(farthest-side at 100% 50%, rgb(0 0 0 / 18%), transparent) right / 14px 100% no-repeat scroll,
+    var(--glass-fill);
+  border: 1px solid var(--glass-edge);
+  box-shadow: var(--glass-shadow);
+  -webkit-backdrop-filter: var(--glass-blur);
+  backdrop-filter: var(--glass-blur);
+}
+
+html.glass .player-table .player-name,
+html.glass .player-table thead th:first-child {
+  background: var(--glass-solid);
+}
+
+/* Team-colored panels with white text. */
+html.glass :is(.player-hero, .overview) {
+  background: var(--glass-panel);
+  border: 1px solid var(--glass-panel-edge);
+  box-shadow: var(--glass-shadow);
+  -webkit-backdrop-filter: var(--glass-blur);
+  backdrop-filter: var(--glass-blur);
+}
+
+html.glass .mini-bar {
+  background: var(--glass-panel);
+  border-bottom: 1px solid var(--glass-panel-edge);
+  box-shadow: none;
+  -webkit-backdrop-filter: var(--glass-blur);
+  backdrop-filter: var(--glass-blur);
+}
+
+html.glass .site-footer {
+  background: var(--glass-header);
+  border-top: 1px solid var(--glass-panel-edge);
+}
