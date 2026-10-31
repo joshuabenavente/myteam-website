@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-31T17:23:45.254Z",
+ "updatedAt": "2026-10-31T18:23:28.414Z",
  "teams": {
   "ATL": [
    {
@@ -198,18 +198,25 @@
   ],
   "HOU": [
    {
+    "name": "Fred VanVleet",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Knee",
+    "returnDate": "2026-11-02"
+   },
+   {
+    "name": "Reed Sheppard",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Back",
+    "returnDate": "2026-11-02"
+   },
+   {
     "name": "Steven Adams",
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Calf (strain)",
     "returnDate": "2026-11-02"
-   },
-   {
-    "name": "Reed Sheppard",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Back",
-    "returnDate": "2026-10-31"
    }
   ],
   "IND": [
@@ -346,6 +353,13 @@
     "gameTimeDecision": false,
     "reason": "Achilles (surgery)",
     "returnDate": "2027-04-02"
+   },
+   {
+    "name": "Rudy Gobert",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Back (spasms)",
+    "returnDate": "2026-10-31"
    }
   ],
   "NOP": [
@@ -481,7 +495,7 @@
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Foot",
-    "returnDate": "2026-10-31"
+    "returnDate": "2026-11-02"
    },
    {
     "name": "LeBron James",
@@ -516,13 +530,6 @@
   ],
   "POR": [
    {
-    "name": "Chris Youngblood",
-    "status": "Out",
-    "gameTimeDecision": true,
-    "reason": "Ankle (soreness)",
-    "returnDate": "2026-10-31"
-   },
-   {
     "name": "Ja Morant",
     "status": "Out",
     "gameTimeDecision": false,
@@ -535,13 +542,6 @@
     "gameTimeDecision": false,
     "reason": "Knee (surgery)",
     "returnDate": "2027-03-02"
-   },
-   {
-    "name": "Robert Williams III",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Knee",
-    "returnDate": "2026-10-31"
    }
   ],
   "SAC": [
@@ -627,13 +627,6 @@
     "gameTimeDecision": false,
     "reason": "Knee (bruise)",
     "returnDate": "2026-11-06"
-   },
-   {
-    "name": "Lauri Markkanen",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Wrist",
-    "returnDate": "2026-10-31"
    }
   ],
   "WAS": [
