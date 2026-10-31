@@ -1,10 +1,12 @@
 import { BrandIcon, Wordmark } from './Brand.tsx'
+import { standalone } from '../lib/glass.ts'
+import { GlassSwitch } from './GlassSwitch.tsx'
 import { InstallApp } from './InstallApp.tsx'
 
 /** The owner's Ko-fi page, for the footer's support link. */
 const KOFI_URL = 'https://ko-fi.com/soapod'
 
-/** Site identity and the install and support pills. */
+/** Site identity, the install and support pills, and in the installed app the glass preview's switch. */
 export function SiteFooter() {
   return (
     <footer className="site-footer">
@@ -18,6 +20,7 @@ export function SiteFooter() {
           <a className="support-link" href={KOFI_URL} target="_blank" rel="noreferrer">
             <span aria-hidden="true">🍺</span> Buy me a beer
           </a>
+          {standalone() && <GlassSwitch />}
         </div>
       </div>
     </footer>
