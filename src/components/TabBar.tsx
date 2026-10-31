@@ -9,11 +9,11 @@ export function TabBar({ route }: { route: Route }) {
   const current = (on: boolean) => (on ? 'page' : undefined)
   return (
     <nav className="tab-bar" aria-label="Pages">
-      <a href={routeHref({ page: 'games' })} aria-current={current(route.page === 'games' || route.page === 'game')}>
+      <a href={routeHref({ page: 'games' })} data-keep-scroll aria-current={current(route.page === 'games' || route.page === 'game')}>
         <Icon name="games" size={22} />
         <span>Games</span>
       </a>
-      <a href={routeHref({ page: 'players' })} aria-current={current(route.page === 'players' || route.page === 'player')}>
+      <a href={routeHref({ page: 'players' })} data-keep-scroll aria-current={current(route.page === 'players' || route.page === 'player')}>
         <Icon name="players" size={22} />
         <span>Players</span>
       </a>
@@ -29,7 +29,7 @@ export function TabBar({ route }: { route: Route }) {
 export function BackChevron({ route, className }: { route: Route; className: string }) {
   const to = route.page === 'player' ? { page: 'players' as const, label: 'Players' } : { page: 'games' as const, label: 'Games' }
   return (
-    <a className={className} href={routeHref({ page: to.page })}>
+    <a className={className} href={routeHref({ page: to.page })} data-keep-scroll>
       <Icon name="prev" size={22} />
       <span>
         <span className="sr-only">Back to </span>

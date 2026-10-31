@@ -43,8 +43,20 @@ This direction supersedes the "no visual changes approved" status of
    - Pages start right under the header; "Published data last updated" moves to the end.
    - Not done, on purpose: the roster stays a table (sorting and comparisons need it), and the
      header's countdown stays the Games page's big next-game card.
-5. **App feel.** Pull to refresh (refetch data), `overscroll-behavior`, no tap highlight,
-   per-team splash colors, 44px targets, scroll position kept per tab.
+5. **App feel** ✅ (behind `?glass=1`):
+   - Pull down from the top to reload the team's data (`src/components/PullToRefresh.tsx`,
+     `refresh()` from `useAppData`). The page keeps what it shows until the new data is in, a
+     failed refresh keeps it, and screen readers hear "Refreshing…" then "Updated."
+   - No rubber-band page or browser pull to refresh (`overscroll-behavior-y: none`), no gray
+     tap flash; buttons, tabs and rows dim or tint while pressed.
+   - Each page remembers how far down it was: back and forward, the tab bar, the header's page
+     switcher and the back chevron return there (links marked `data-keep-scroll`); other links
+     start at the top. Tapping the tab you're on scrolls to its top.
+   - Touch screens get 44px targets: switches, sort buttons, the team pill, and short links
+     whose tap area grows without moving anything; a roster player's whole name cell opens
+     their page.
+   - Splash colors were already per team: each team's manifest sets its background and theme
+     color (vite.config.ts), fixed at install.
 6. **Later.** Notifications (installable-app.md), then deciding whether to drop the flag.
 
 Steps 3–5 land as separate changes, still behind the flag, until the glass app replaces the

@@ -6,6 +6,7 @@ import { GamesList } from './components/GamesList.tsx'
 import { Icon } from './components/Icon.tsx'
 import { PlayerPage } from './components/PlayerPage.tsx'
 import { PlayerTracker } from './components/PlayerTracker.tsx'
+import { PullToRefresh } from './components/PullToRefresh.tsx'
 import { SiteFooter } from './components/SiteFooter.tsx'
 import { SiteHeader } from './components/SiteHeader.tsx'
 import { TeamPicker } from './components/TeamPicker.tsx'
@@ -72,7 +73,7 @@ function TeamSite({ route, team, navigatedPath }: {
 }) {
   const [gamesView, setGamesView] = useState<GamesView>('list')
   const [glass] = useState(glassOn)
-  const { data, error } = useAppData(team.abbr)
+  const { data, error, refresh } = useAppData(team.abbr)
   const headline = data && headlineGame(data.schedule.games)
   const live = useLiveScore(
     liveTestTeam ?? (headline ? team.abbr : undefined),
@@ -118,6 +119,7 @@ function TeamSite({ route, team, navigatedPath }: {
   return (
     <LiveContext.Provider value={live}>
       {glass && <AppAtmosphere theme={team.theme} />}
+      {glass && data && <PullToRefresh onRefresh={refresh} />}
       <a className="skip-link" href="#main">
         Skip to content
       </a>

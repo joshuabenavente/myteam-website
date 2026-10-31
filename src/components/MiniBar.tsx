@@ -47,6 +47,7 @@ export function MiniBar({ headerRef, route, data, timeZone }: Props) {
         <nav className="mini-nav" aria-label="Pages (compact)">
           <a
             href={routeHref({ page: 'games' })}
+            data-keep-scroll
             aria-current={route.page === 'games' || route.page === 'game' ? 'page' : undefined}
           >
             <Icon name="games" size={16} />
@@ -54,6 +55,7 @@ export function MiniBar({ headerRef, route, data, timeZone }: Props) {
           </a>
           <a
             href={routeHref({ page: 'players' })}
+            data-keep-scroll
             aria-current={route.page === 'players' || route.page === 'player' ? 'page' : undefined}
           >
             <Icon name="players" size={16} />

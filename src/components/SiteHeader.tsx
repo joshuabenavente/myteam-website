@@ -51,12 +51,14 @@ export function SiteHeader({ route, data, timeZone, onShowGame }: Props) {
     <nav className="page-nav" aria-label="Pages">
       <a
         href={routeHref({ page: 'games' })}
+        data-keep-scroll
         aria-current={route.page === 'games' || route.page === 'game' ? 'page' : undefined}
       >
         <Icon name="games" /> Games
       </a>
       <a
         href={routeHref({ page: 'players' })}
+        data-keep-scroll
         aria-current={route.page === 'players' || route.page === 'player' ? 'page' : undefined}
       >
         <Icon name="players" /> Players
