@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-31T05:23:38.184Z",
+ "updatedAt": "2026-10-31T14:23:38.745Z",
  "teams": {
   "ATL": [
    {
@@ -39,14 +39,14 @@
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Shoulder (sprain)",
-    "returnDate": "2026-11-01"
+    "returnDate": "2026-11-06"
    }
   ],
   "CHA": [
    {
     "name": "Coby White",
     "status": "Out",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Calf (strain)",
     "returnDate": "2026-11-02"
    },
@@ -60,7 +60,7 @@
    {
     "name": "Kon Knueppel",
     "status": "Out",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Hamstring",
     "returnDate": "2026-11-02"
    },
@@ -230,7 +230,7 @@
    {
     "name": "Ivica Zubac",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Ankle (sprain)",
     "returnDate": "2026-11-01"
    },
@@ -495,6 +495,20 @@
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Knee",
+    "returnDate": "2026-10-31"
+   },
+   {
+    "name": "Joel Embiid",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Rest",
+    "returnDate": "2026-10-31"
+   },
+   {
+    "name": "LeBron James",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Rest",
     "returnDate": "2026-10-31"
    }
   ],
