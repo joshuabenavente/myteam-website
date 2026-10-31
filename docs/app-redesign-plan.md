@@ -74,6 +74,10 @@ veils and alphas in `App.css` must match the `GLASS_*` constants.
 
 ## Checking it
 
-- `/<team>?glass=1` (links keep the flag); compare with the same page without it.
+- `/<team>?glass=1` turns the preview on and `?glass=0` off; the choice stays on that device
+  (`src/lib/glass.ts`), so the installed app, which opens at `/`, follows it.
+- An installed iPhone app has its own storage and no address bar, so the installed app's footer
+  has a "Glass look (preview)" switch (`src/components/GlassSwitch.tsx`). It shows only in the
+  installed app; remove it when the glass look becomes the default.
 - Screenshots of all 30 teams, light and dark, at 390px.
 - Frame rate while the gradient moves on a mid-range Android phone.

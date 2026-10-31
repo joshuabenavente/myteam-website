@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+import { standalone } from '../lib/glass.ts'
 import { Icon } from './Icon.tsx'
 
 /** Chrome's install prompt, held until the button is pressed. */
@@ -22,9 +23,6 @@ if (typeof window !== 'undefined') {
   })
 }
 
-const standalone = () =>
-  window.matchMedia('(display-mode: standalone)').matches ||
-  (navigator as Navigator & { standalone?: boolean }).standalone === true
 
 /** iPhone or iPad Safari, which installs only through Share → Add to Home Screen. */
 const iosSafari = () => {

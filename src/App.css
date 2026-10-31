@@ -3788,6 +3788,59 @@ a.mini-game:hover {
   color: rgb(255 255 255 / 85%);
 }
 
+/* The glass preview's switch (GlassSwitch.tsx), styled like the pills beside it. */
+.glass-switch {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 40px;
+  padding: 0 16px 0 8px;
+  border: 1px solid rgb(255 255 255 / 30%);
+  border-radius: 999px;
+  background: rgb(255 255 255 / 12%);
+  color: #fff;
+  font-weight: var(--w-strong);
+}
+
+.glass-switch-track {
+  position: relative;
+  width: 36px;
+  height: 22px;
+  border-radius: 999px;
+  background: rgb(255 255 255 / 28%);
+}
+
+.glass-switch-thumb {
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #fff;
+}
+
+.glass-switch[aria-checked='true'] .glass-switch-track {
+  background: var(--sunshine);
+}
+
+.glass-switch[aria-checked='true'] .glass-switch-thumb {
+  transform: translateX(14px);
+  background: var(--accent-text);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .glass-switch-track,
+  .glass-switch-thumb {
+    transition: background 0.15s, transform 0.15s;
+  }
+}
+
+.glass-switch:focus-visible {
+  outline: 2px solid #fff;
+  outline-offset: 2px;
+}
+
 .install-tip .icon,
 .install-tip svg {
   flex: none;
@@ -4573,7 +4626,7 @@ html.glass :is(.game-summary, .player-table tbody tr):active {
 }
 
 @media (pointer: coarse) {
-  html.glass :is(.team-pill, .segmented button, .player-table .sort, .standings-disclosure summary, .support-link) {
+  html.glass :is(.team-pill, .segmented button, .player-table .sort, .standings-disclosure summary, .support-link, .glass-switch) {
     min-height: 44px;
   }
 
