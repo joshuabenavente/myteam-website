@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-31T15:24:05.562Z",
+ "updatedAt": "2026-10-31T17:23:45.254Z",
  "teams": {
   "ATL": [
    {
@@ -203,13 +203,6 @@
     "gameTimeDecision": false,
     "reason": "Calf (strain)",
     "returnDate": "2026-11-02"
-   },
-   {
-    "name": "Alperen Sengun",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Back (soreness)",
-    "returnDate": "2026-10-31"
    },
    {
     "name": "Reed Sheppard",
@@ -484,31 +477,31 @@
     "returnDate": "2026-10-31"
    },
    {
-    "name": "Tacko Fall",
+    "name": "Joel Embiid",
     "status": "Out",
     "gameTimeDecision": false,
+    "reason": "Foot",
+    "returnDate": "2026-10-31"
+   },
+   {
+    "name": "LeBron James",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Back",
+    "returnDate": "2026-11-02"
+   },
+   {
+    "name": "Tacko Fall",
+    "status": "Out",
+    "gameTimeDecision": true,
     "reason": "Quadriceps (strain)",
-    "returnDate": "2026-11-04"
+    "returnDate": "2026-10-31"
    },
    {
     "name": "Jaylen Brown",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Knee",
-    "returnDate": "2026-10-31"
-   },
-   {
-    "name": "Joel Embiid",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Rest",
-    "returnDate": "2026-10-31"
-   },
-   {
-    "name": "LeBron James",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Rest",
     "returnDate": "2026-10-31"
    }
   ],
