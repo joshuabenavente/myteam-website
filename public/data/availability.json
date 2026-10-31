@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-30T23:23:39.371Z",
+ "updatedAt": "2026-10-31T01:23:50.077Z",
  "teams": {
   "ATL": [
    {
@@ -138,16 +138,9 @@
    {
     "name": "Alpha Diallo",
     "status": "Out",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Personal",
-    "returnDate": "2026-10-30"
-   },
-   {
-    "name": "Cameron Johnson",
-    "status": "Out",
-    "gameTimeDecision": true,
-    "reason": "Ankle (sprain)",
-    "returnDate": "2026-10-30"
+    "returnDate": "2026-11-02"
    },
    {
     "name": "Julian Strawther",
@@ -201,13 +194,6 @@
     "gameTimeDecision": false,
     "reason": "Knee (surgery)",
     "returnDate": "2026-12-01"
-   },
-   {
-    "name": "Gui Santos",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Knee (tendinitis)",
-    "returnDate": "2026-10-30"
    }
   ],
   "HOU": [
@@ -406,7 +392,7 @@
     "name": "Cason Wallace",
     "status": "Out",
     "gameTimeDecision": false,
-    "reason": "Shoulder",
+    "reason": "Shoulder (surgery)",
     "returnDate": "2027-03-02"
    },
    {
@@ -414,7 +400,7 @@
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Knee",
-    "returnDate": "2026-11-02"
+    "returnDate": "2027-01-02"
    },
    {
     "name": "Jalen Williams",
@@ -519,13 +505,6 @@
     "gameTimeDecision": false,
     "reason": "Shoulder (surgery)",
     "returnDate": "2027-02-03"
-   },
-   {
-    "name": "Oso Ighodaro",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Oblique (strain)",
-    "returnDate": "2026-10-30"
    }
   ],
   "POR": [
