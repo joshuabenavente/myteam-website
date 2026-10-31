@@ -122,7 +122,11 @@
    "startUtc": "2026-10-31T22:00:00Z",
    "home": true,
    "opponent": "PHI",
-   "status": "scheduled",
+   "status": "live",
+   "score": {
+    "team": 0,
+    "opponent": 0
+   },
    "broadcasts": [
     {
      "name": "NBA TV",

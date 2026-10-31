@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-31T21:23:58.644Z",
+ "updatedAt": "2026-10-31T22:23:42.307Z",
  "teams": {
   "ATL": [
    {
@@ -398,13 +398,20 @@
    },
    {
     "name": "Rudy Gobert",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
+    "status": "Out",
+    "gameTimeDecision": false,
     "reason": "Back (spasms)",
-    "returnDate": "2026-10-31"
+    "returnDate": "2026-11-02"
    }
   ],
   "NOP": [
+   {
+    "name": "Dejounte Murray",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Personal",
+    "returnDate": "2026-11-02"
+   },
    {
     "name": "Jordan Poole",
     "status": "Out",
@@ -526,13 +533,6 @@
     "returnDate": "2026-11-04"
    },
    {
-    "name": "Jabari Walker",
-    "status": "Out",
-    "gameTimeDecision": true,
-    "reason": "Knee (soreness)",
-    "returnDate": "2026-10-31"
-   },
-   {
     "name": "Joel Embiid",
     "status": "Out",
     "gameTimeDecision": false,
@@ -545,20 +545,6 @@
     "gameTimeDecision": false,
     "reason": "Back",
     "returnDate": "2026-11-02"
-   },
-   {
-    "name": "Tacko Fall",
-    "status": "Out",
-    "gameTimeDecision": true,
-    "reason": "Quadriceps (strain)",
-    "returnDate": "2026-10-31"
-   },
-   {
-    "name": "Jaylen Brown",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Knee",
-    "returnDate": "2026-10-31"
    }
   ],
   "PHX": [

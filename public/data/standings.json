@@ -346,14 +346,37 @@
    },
    "streak": "W2"
   },
-  "OKC": {
-   "abbr": "OKC",
+  "POR": {
+   "abbr": "POR",
    "conference": "West",
    "division": "Northwest",
    "wins": 4,
    "losses": 1,
    "divisionRank": 1,
    "conferenceRank": 3,
+   "divisionGamesBehind": 0,
+   "home": {
+    "wins": 1,
+    "losses": 1
+   },
+   "road": {
+    "wins": 3,
+    "losses": 0
+   },
+   "lastTen": {
+    "wins": 4,
+    "losses": 1
+   },
+   "streak": "W1"
+  },
+  "OKC": {
+   "abbr": "OKC",
+   "conference": "West",
+   "division": "Northwest",
+   "wins": 4,
+   "losses": 1,
+   "divisionRank": 2,
+   "conferenceRank": 4,
    "divisionGamesBehind": 0,
    "home": {
     "wins": 3,
@@ -365,29 +388,6 @@
    },
    "lastTen": {
     "wins": 4,
-    "losses": 1
-   },
-   "streak": "L1"
-  },
-  "POR": {
-   "abbr": "POR",
-   "conference": "West",
-   "division": "Northwest",
-   "wins": 3,
-   "losses": 1,
-   "divisionRank": 2,
-   "conferenceRank": 4,
-   "divisionGamesBehind": 0.5,
-   "home": {
-    "wins": 1,
-    "losses": 1
-   },
-   "road": {
-    "wins": 2,
-    "losses": 0
-   },
-   "lastTen": {
-    "wins": 3,
     "losses": 1
    },
    "streak": "L1"
@@ -443,13 +443,13 @@
    "conference": "West",
    "division": "Northwest",
    "wins": 1,
-   "losses": 4,
+   "losses": 5,
    "divisionRank": 5,
-   "conferenceRank": 12,
-   "divisionGamesBehind": 3,
+   "conferenceRank": 14,
+   "divisionGamesBehind": 3.5,
    "home": {
     "wins": 1,
-    "losses": 3
+    "losses": 4
    },
    "road": {
     "wins": 0,
@@ -457,9 +457,9 @@
    },
    "lastTen": {
     "wins": 1,
-    "losses": 4
+    "losses": 5
    },
-   "streak": "L3"
+   "streak": "L4"
   },
   "LAL": {
    "abbr": "LAL",
@@ -537,7 +537,7 @@
    "wins": 1,
    "losses": 4,
    "divisionRank": 4,
-   "conferenceRank": 14,
+   "conferenceRank": 13,
    "divisionGamesBehind": 2.5,
    "home": {
     "wins": 1,
@@ -675,7 +675,7 @@
    "wins": 1,
    "losses": 4,
    "divisionRank": 5,
-   "conferenceRank": 13,
+   "conferenceRank": 12,
    "divisionGamesBehind": 4,
    "home": {
     "wins": 1,
