@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-01T05:23:35.533Z",
+ "updatedAt": "2026-11-01T15:23:59.862Z",
  "teams": {
   "ATL": [
    {
@@ -41,10 +41,10 @@
    },
    {
     "name": "Mitchell Robinson",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
+    "status": "Out",
+    "gameTimeDecision": false,
     "reason": "Rest",
-    "returnDate": "2026-11-01"
+    "returnDate": "2026-11-02"
    }
   ],
   "BKN": [
@@ -353,9 +353,9 @@
    {
     "name": "Adou Thiero",
     "status": "Out",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Knee (inflammation)",
-    "returnDate": "2026-11-01"
+    "returnDate": "2026-11-09"
    },
    {
     "name": "Ziaire Williams",
