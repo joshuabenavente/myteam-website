@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-31T23:23:40.989Z",
+ "updatedAt": "2026-11-01T00:23:31.714Z",
  "teams": {
   "ATL": [
    {
@@ -8,6 +8,13 @@
     "gameTimeDecision": false,
     "reason": "Knee",
     "returnDate": "2027-07-01"
+   },
+   {
+    "name": "Jock Landale",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Hip",
+    "returnDate": "2026-11-02"
    },
    {
     "name": "Mouhamed Gueye",
@@ -109,13 +116,6 @@
     "gameTimeDecision": false,
     "reason": "Ankle (sprain)",
     "returnDate": "2026-11-02"
-   },
-   {
-    "name": "Meleek Thomas",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Foot",
-    "returnDate": "2026-10-31"
    }
   ],
   "DAL": [
@@ -361,24 +361,24 @@
   "MEM": [
    {
     "name": "Quinten Post",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
+    "status": "Out",
+    "gameTimeDecision": false,
     "reason": "Ankle",
-    "returnDate": "2026-10-31"
+    "returnDate": "2026-11-02"
    },
    {
     "name": "Scotty Pippen Jr.",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
+    "status": "Out",
+    "gameTimeDecision": false,
     "reason": "Back (soreness)",
-    "returnDate": "2026-10-31"
+    "returnDate": "2026-11-02"
    },
    {
     "name": "Ty Jerome",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
+    "status": "Out",
+    "gameTimeDecision": false,
     "reason": "Back (soreness)",
-    "returnDate": "2026-10-31"
+    "returnDate": "2026-11-02"
    }
   ],
   "MIN": [
