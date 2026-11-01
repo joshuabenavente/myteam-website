@@ -1,7 +1,7 @@
 {
  "season": "2026-27",
  "lastSeason": "2025-26",
- "updatedAt": "2026-11-01T04:23:39.903Z",
+ "updatedAt": "2026-11-01T10:23:39.150Z",
  "teamGamesPlayed": {
   "regular": 6,
   "playoffs": 0
@@ -24,25 +24,98 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5041935.png",
    "current": {
     "regular": {
-     "games": 5,
-     "started": 5,
-     "minutes": 160.7,
-     "points": 79,
-     "rebounds": 54,
-     "assists": 31,
+     "games": 6,
+     "started": 6,
+     "minutes": 186.7,
+     "points": 106,
+     "rebounds": 63,
+     "assists": 34,
      "steals": 2,
-     "blocks": 3,
-     "turnovers": 11,
-     "fgMade": 24,
-     "fgAttempted": 71,
-     "threeMade": 11,
-     "threeAttempted": 31,
-     "ftMade": 20,
-     "ftAttempted": 21
+     "blocks": 4,
+     "turnovers": 18,
+     "fgMade": 32,
+     "fgAttempted": 85,
+     "threeMade": 14,
+     "threeAttempted": 38,
+     "ftMade": 28,
+     "ftAttempted": 29
     }
    },
    "lastFull": {},
    "lastToDate": {}
+  },
+  {
+   "id": "wellsja01",
+   "name": "Jaylen Wells",
+   "number": "0",
+   "position": "SG",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 7\"",
+    "weight": 206,
+    "birthDate": "2003-08-26",
+    "experience": 2,
+    "college": "Washington State",
+    "birthPlace": "Sacramento, CA"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5112087.png",
+   "current": {
+    "regular": {
+     "games": 6,
+     "started": 6,
+     "minutes": 163.1,
+     "points": 73,
+     "rebounds": 20,
+     "assists": 6,
+     "steals": 7,
+     "blocks": 0,
+     "turnovers": 3,
+     "fgMade": 27,
+     "fgAttempted": 49,
+     "threeMade": 11,
+     "threeAttempted": 28,
+     "ftMade": 8,
+     "ftAttempted": 12
+    }
+   },
+   "lastFull": {
+    "regular": {
+     "games": 69,
+     "started": 69,
+     "minutes": 1821.1,
+     "points": 865,
+     "rebounds": 220,
+     "assists": 111,
+     "steals": 61,
+     "blocks": 9,
+     "turnovers": 74,
+     "fgMade": 301,
+     "fgAttempted": 698,
+     "threeMade": 129,
+     "threeAttempted": 365,
+     "ftMade": 134,
+     "ftAttempted": 171
+    }
+   },
+   "lastToDate": {
+    "regular": {
+     "games": 6,
+     "started": 6,
+     "minutes": 161,
+     "points": 63,
+     "rebounds": 21,
+     "assists": 8,
+     "steals": 4,
+     "blocks": 0,
+     "turnovers": 5,
+     "fgMade": 22,
+     "fgAttempted": 60,
+     "threeMade": 10,
+     "threeAttempted": 39,
+     "ftMade": 9,
+     "ftAttempted": 14
+    }
+   }
   },
   {
    "id": "jeromty01",
@@ -100,79 +173,6 @@
    "lastToDate": {}
   },
   {
-   "id": "wellsja01",
-   "name": "Jaylen Wells",
-   "number": "0",
-   "position": "SG",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 7\"",
-    "weight": 206,
-    "birthDate": "2003-08-26",
-    "experience": 2,
-    "college": "Washington State",
-    "birthPlace": "Sacramento, CA"
-   },
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5112087.png",
-   "current": {
-    "regular": {
-     "games": 5,
-     "started": 5,
-     "minutes": 140.7,
-     "points": 69,
-     "rebounds": 18,
-     "assists": 6,
-     "steals": 6,
-     "blocks": 0,
-     "turnovers": 2,
-     "fgMade": 25,
-     "fgAttempted": 44,
-     "threeMade": 11,
-     "threeAttempted": 25,
-     "ftMade": 8,
-     "ftAttempted": 12
-    }
-   },
-   "lastFull": {
-    "regular": {
-     "games": 69,
-     "started": 69,
-     "minutes": 1821.1,
-     "points": 865,
-     "rebounds": 220,
-     "assists": 111,
-     "steals": 61,
-     "blocks": 9,
-     "turnovers": 74,
-     "fgMade": 301,
-     "fgAttempted": 698,
-     "threeMade": 129,
-     "threeAttempted": 365,
-     "ftMade": 134,
-     "ftAttempted": 171
-    }
-   },
-   "lastToDate": {
-    "regular": {
-     "games": 6,
-     "started": 6,
-     "minutes": 161,
-     "points": 63,
-     "rebounds": 21,
-     "assists": 8,
-     "steals": 4,
-     "blocks": 0,
-     "turnovers": 5,
-     "fgMade": 22,
-     "fgAttempted": 60,
-     "threeMade": 10,
-     "threeAttempted": 39,
-     "ftMade": 9,
-     "ftAttempted": 14
-    }
-   }
-  },
-  {
    "id": "grantje01",
    "name": "Jerami Grant",
    "number": "3",
@@ -189,21 +189,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/2991070.png",
    "current": {
     "regular": {
-     "games": 5,
+     "games": 6,
      "started": 0,
-     "minutes": 123.1,
-     "points": 41,
-     "rebounds": 11,
-     "assists": 12,
+     "minutes": 146.4,
+     "points": 55,
+     "rebounds": 13,
+     "assists": 13,
      "steals": 3,
-     "blocks": 5,
-     "turnovers": 8,
-     "fgMade": 13,
-     "fgAttempted": 40,
-     "threeMade": 7,
-     "threeAttempted": 21,
-     "ftMade": 8,
-     "ftAttempted": 10
+     "blocks": 7,
+     "turnovers": 11,
+     "fgMade": 18,
+     "fgAttempted": 50,
+     "threeMade": 8,
+     "threeAttempted": 24,
+     "ftMade": 11,
+     "ftAttempted": 15
     }
    },
    "lastFull": {
@@ -279,21 +279,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4903027.png",
    "current": {
     "regular": {
-     "games": 4,
-     "started": 4,
-     "minutes": 118.2,
-     "points": 55,
-     "rebounds": 36,
-     "assists": 11,
-     "steals": 5,
+     "games": 5,
+     "started": 5,
+     "minutes": 141,
+     "points": 65,
+     "rebounds": 43,
+     "assists": 13,
+     "steals": 7,
      "blocks": 1,
-     "turnovers": 6,
-     "fgMade": 22,
-     "fgAttempted": 43,
-     "threeMade": 11,
-     "threeAttempted": 16,
-     "ftMade": 0,
-     "ftAttempted": 0
+     "turnovers": 7,
+     "fgMade": 25,
+     "fgAttempted": 51,
+     "threeMade": 13,
+     "threeAttempted": 21,
+     "ftMade": 2,
+     "ftAttempted": 2
     }
    },
    "lastFull": {
@@ -352,19 +352,19 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4433083.png",
    "current": {
     "regular": {
-     "games": 5,
-     "started": 0,
-     "minutes": 89.9,
-     "points": 43,
-     "rebounds": 18,
-     "assists": 17,
-     "steals": 3,
+     "games": 6,
+     "started": 1,
+     "minutes": 114.9,
+     "points": 53,
+     "rebounds": 23,
+     "assists": 30,
+     "steals": 4,
      "blocks": 0,
      "turnovers": 6,
-     "fgMade": 16,
-     "fgAttempted": 31,
-     "threeMade": 10,
-     "threeAttempted": 17,
+     "fgMade": 20,
+     "fgAttempted": 40,
+     "threeMade": 12,
+     "threeAttempted": 21,
      "ftMade": 1,
      "ftAttempted": 1
     }
@@ -409,61 +409,6 @@
    }
   },
   {
-   "id": "edeyza01",
-   "name": "Zach Edey",
-   "number": "14",
-   "position": "C",
-   "twoWay": false,
-   "bio": {
-    "height": "7' 3\"",
-    "weight": 305,
-    "birthDate": "2002-03-14",
-    "experience": 2,
-    "college": "Purdue",
-    "birthPlace": "Toronto, ON"
-   },
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4600663.png",
-   "current": {
-    "regular": {
-     "games": 4,
-     "started": 4,
-     "minutes": 82.6,
-     "points": 31,
-     "rebounds": 29,
-     "assists": 5,
-     "steals": 1,
-     "blocks": 6,
-     "turnovers": 3,
-     "fgMade": 13,
-     "fgAttempted": 21,
-     "threeMade": 1,
-     "threeAttempted": 1,
-     "ftMade": 4,
-     "ftAttempted": 5
-    }
-   },
-   "lastFull": {
-    "regular": {
-     "games": 11,
-     "started": 11,
-     "minutes": 283.9,
-     "points": 150,
-     "rebounds": 122,
-     "assists": 12,
-     "steals": 7,
-     "blocks": 21,
-     "turnovers": 26,
-     "fgMade": 62,
-     "fgAttempted": 98,
-     "threeMade": 1,
-     "threeAttempted": 5,
-     "ftMade": 25,
-     "ftAttempted": 32
-    }
-   },
-   "lastToDate": {}
-  },
-  {
    "id": "jacksgg01",
    "name": "GG Jackson II",
    "number": "45",
@@ -480,21 +425,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5105550.png",
    "current": {
     "regular": {
-     "games": 5,
+     "games": 6,
      "started": 1,
-     "minutes": 80.3,
-     "points": 31,
-     "rebounds": 23,
-     "assists": 5,
+     "minutes": 101.2,
+     "points": 52,
+     "rebounds": 26,
+     "assists": 7,
      "steals": 1,
      "blocks": 2,
-     "turnovers": 8,
-     "fgMade": 11,
-     "fgAttempted": 34,
-     "threeMade": 4,
-     "threeAttempted": 13,
-     "ftMade": 5,
-     "ftAttempted": 7
+     "turnovers": 9,
+     "fgMade": 18,
+     "fgAttempted": 44,
+     "threeMade": 9,
+     "threeAttempted": 18,
+     "ftMade": 7,
+     "ftAttempted": 9
     }
    },
    "lastFull": {
@@ -533,6 +478,151 @@
      "threeAttempted": 3,
      "ftMade": 1,
      "ftAttempted": 2
+    }
+   }
+  },
+  {
+   "id": "edeyza01",
+   "name": "Zach Edey",
+   "number": "14",
+   "position": "C",
+   "twoWay": false,
+   "bio": {
+    "height": "7' 3\"",
+    "weight": 305,
+    "birthDate": "2002-03-14",
+    "experience": 2,
+    "college": "Purdue",
+    "birthPlace": "Toronto, ON"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4600663.png",
+   "current": {
+    "regular": {
+     "games": 5,
+     "started": 5,
+     "minutes": 100.6,
+     "points": 35,
+     "rebounds": 35,
+     "assists": 5,
+     "steals": 1,
+     "blocks": 7,
+     "turnovers": 5,
+     "fgMade": 15,
+     "fgAttempted": 26,
+     "threeMade": 1,
+     "threeAttempted": 1,
+     "ftMade": 4,
+     "ftAttempted": 5
+    }
+   },
+   "lastFull": {
+    "regular": {
+     "games": 11,
+     "started": 11,
+     "minutes": 283.9,
+     "points": 150,
+     "rebounds": 122,
+     "assists": 12,
+     "steals": 7,
+     "blocks": 21,
+     "turnovers": 26,
+     "fgMade": 62,
+     "fgAttempted": 98,
+     "threeMade": 1,
+     "threeAttempted": 5,
+     "ftMade": 25,
+     "ftAttempted": 32
+    }
+   },
+   "lastToDate": {}
+  },
+  {
+   "id": "stewais01",
+   "name": "Isaiah Stewart",
+   "number": "28",
+   "position": "C",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 8\"",
+    "weight": 250,
+    "birthDate": "2001-05-22",
+    "experience": 6,
+    "college": "Washington",
+    "birthPlace": "Rochester, NY"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4432810.png",
+   "current": {
+    "regular": {
+     "games": 5,
+     "started": 1,
+     "minutes": 90.8,
+     "points": 63,
+     "rebounds": 18,
+     "assists": 2,
+     "steals": 2,
+     "blocks": 3,
+     "turnovers": 4,
+     "fgMade": 23,
+     "fgAttempted": 34,
+     "threeMade": 6,
+     "threeAttempted": 11,
+     "ftMade": 11,
+     "ftAttempted": 11
+    }
+   },
+   "lastFull": {
+    "regular": {
+     "games": 58,
+     "started": 13,
+     "minutes": 1317.8,
+     "points": 581,
+     "rebounds": 290,
+     "assists": 66,
+     "steals": 16,
+     "blocks": 93,
+     "turnovers": 67,
+     "fgMade": 221,
+     "fgAttempted": 402,
+     "threeMade": 40,
+     "threeAttempted": 120,
+     "ftMade": 99,
+     "ftAttempted": 131
+    },
+    "playoffs": {
+     "games": 14,
+     "started": 0,
+     "minutes": 165.6,
+     "points": 56,
+     "rebounds": 34,
+     "assists": 3,
+     "steals": 1,
+     "blocks": 14,
+     "turnovers": 9,
+     "fgMade": 20,
+     "fgAttempted": 34,
+     "threeMade": 4,
+     "threeAttempted": 8,
+     "ftMade": 12,
+     "ftAttempted": 17
+    }
+   },
+   "lastToDate": {
+    "regular": {
+     "games": 6,
+     "started": 0,
+     "minutes": 132.4,
+     "points": 56,
+     "rebounds": 37,
+     "assists": 8,
+     "steals": 2,
+     "blocks": 12,
+     "turnovers": 5,
+     "fgMade": 21,
+     "fgAttempted": 45,
+     "threeMade": 7,
+     "threeAttempted": 14,
+     "ftMade": 7,
+     "ftAttempted": 14
     }
    }
   },
@@ -665,96 +755,6 @@
    }
   },
   {
-   "id": "stewais01",
-   "name": "Isaiah Stewart",
-   "number": "28",
-   "position": "C",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 8\"",
-    "weight": 250,
-    "birthDate": "2001-05-22",
-    "experience": 6,
-    "college": "Washington",
-    "birthPlace": "Rochester, NY"
-   },
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4432810.png",
-   "current": {
-    "regular": {
-     "games": 4,
-     "started": 1,
-     "minutes": 70.2,
-     "points": 39,
-     "rebounds": 14,
-     "assists": 2,
-     "steals": 2,
-     "blocks": 3,
-     "turnovers": 4,
-     "fgMade": 15,
-     "fgAttempted": 25,
-     "threeMade": 4,
-     "threeAttempted": 8,
-     "ftMade": 5,
-     "ftAttempted": 5
-    }
-   },
-   "lastFull": {
-    "regular": {
-     "games": 58,
-     "started": 13,
-     "minutes": 1317.8,
-     "points": 581,
-     "rebounds": 290,
-     "assists": 66,
-     "steals": 16,
-     "blocks": 93,
-     "turnovers": 67,
-     "fgMade": 221,
-     "fgAttempted": 402,
-     "threeMade": 40,
-     "threeAttempted": 120,
-     "ftMade": 99,
-     "ftAttempted": 131
-    },
-    "playoffs": {
-     "games": 14,
-     "started": 0,
-     "minutes": 165.6,
-     "points": 56,
-     "rebounds": 34,
-     "assists": 3,
-     "steals": 1,
-     "blocks": 14,
-     "turnovers": 9,
-     "fgMade": 20,
-     "fgAttempted": 34,
-     "threeMade": 4,
-     "threeAttempted": 8,
-     "ftMade": 12,
-     "ftAttempted": 17
-    }
-   },
-   "lastToDate": {
-    "regular": {
-     "games": 6,
-     "started": 0,
-     "minutes": 132.4,
-     "points": 56,
-     "rebounds": 37,
-     "assists": 8,
-     "steals": 2,
-     "blocks": 12,
-     "turnovers": 5,
-     "fgMade": 21,
-     "fgAttempted": 45,
-     "threeMade": 7,
-     "threeAttempted": 14,
-     "ftMade": 7,
-     "ftAttempted": 14
-    }
-   }
-  },
-  {
    "id": "murrakr01",
    "name": "Kris Murray",
    "number": "17",
@@ -771,19 +771,19 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4594326.png",
    "current": {
     "regular": {
-     "games": 2,
+     "games": 3,
      "started": 0,
-     "minutes": 15.1,
-     "points": 0,
-     "rebounds": 4,
-     "assists": 1,
-     "steals": 0,
-     "blocks": 1,
+     "minutes": 36.3,
+     "points": 2,
+     "rebounds": 5,
+     "assists": 2,
+     "steals": 1,
+     "blocks": 2,
      "turnovers": 0,
-     "fgMade": 0,
-     "fgAttempted": 3,
+     "fgMade": 1,
+     "fgAttempted": 6,
      "threeMade": 0,
-     "threeAttempted": 3,
+     "threeAttempted": 5,
      "ftMade": 0,
      "ftAttempted": 0
     }
@@ -845,6 +845,79 @@
    }
   },
   {
+   "id": "smallja01",
+   "name": "Javon Small",
+   "number": "10",
+   "position": "PG",
+   "twoWay": true,
+   "bio": {
+    "height": "6' 1\"",
+    "weight": 190,
+    "birthDate": "2002-12-19",
+    "experience": 1,
+    "college": "West Virginia",
+    "birthPlace": "South Bend, IN"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4781746.png",
+   "current": {
+    "regular": {
+     "games": 1,
+     "started": 0,
+     "minutes": 19.6,
+     "points": 7,
+     "rebounds": 1,
+     "assists": 5,
+     "steals": 0,
+     "blocks": 0,
+     "turnovers": 1,
+     "fgMade": 2,
+     "fgAttempted": 7,
+     "threeMade": 2,
+     "threeAttempted": 4,
+     "ftMade": 1,
+     "ftAttempted": 2
+    }
+   },
+   "lastFull": {
+    "regular": {
+     "games": 41,
+     "started": 12,
+     "minutes": 830.2,
+     "points": 396,
+     "rebounds": 128,
+     "assists": 151,
+     "steals": 34,
+     "blocks": 9,
+     "turnovers": 56,
+     "fgMade": 134,
+     "fgAttempted": 288,
+     "threeMade": 60,
+     "threeAttempted": 142,
+     "ftMade": 68,
+     "ftAttempted": 82
+    }
+   },
+   "lastToDate": {
+    "regular": {
+     "games": 5,
+     "started": 0,
+     "minutes": 88.8,
+     "points": 32,
+     "rebounds": 7,
+     "assists": 21,
+     "steals": 0,
+     "blocks": 1,
+     "turnovers": 7,
+     "fgMade": 9,
+     "fgAttempted": 26,
+     "threeMade": 6,
+     "threeAttempted": 18,
+     "ftMade": 8,
+     "ftAttempted": 10
+    }
+   }
+  },
+  {
    "id": "hendrta01",
    "name": "Taylor Hendricks",
    "number": "22",
@@ -861,19 +934,19 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4684806.png",
    "current": {
     "regular": {
-     "games": 2,
+     "games": 3,
      "started": 0,
-     "minutes": 9.4,
-     "points": 0,
-     "rebounds": 2,
+     "minutes": 13.7,
+     "points": 6,
+     "rebounds": 3,
      "assists": 0,
      "steals": 0,
      "blocks": 0,
      "turnovers": 0,
-     "fgMade": 0,
-     "fgAttempted": 3,
-     "threeMade": 0,
-     "threeAttempted": 3,
+     "fgMade": 2,
+     "fgAttempted": 5,
+     "threeMade": 2,
+     "threeAttempted": 5,
      "ftMade": 0,
      "ftAttempted": 0
     }
@@ -934,17 +1007,17 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4595400.png",
    "current": {
     "regular": {
-     "games": 1,
+     "games": 2,
      "started": 0,
-     "minutes": 2.6,
-     "points": 4,
-     "rebounds": 1,
-     "assists": 0,
+     "minutes": 6.9,
+     "points": 6,
+     "rebounds": 2,
+     "assists": 1,
      "steals": 0,
      "blocks": 0,
      "turnovers": 0,
-     "fgMade": 2,
-     "fgAttempted": 4,
+     "fgMade": 3,
+     "fgAttempted": 5,
      "threeMade": 0,
      "threeAttempted": 0,
      "ftMade": 0,
@@ -1006,17 +1079,17 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5231919.png",
    "current": {
     "regular": {
-     "games": 1,
+     "games": 2,
      "started": 0,
-     "minutes": 2.6,
-     "points": 0,
-     "rebounds": 1,
+     "minutes": 6.9,
+     "points": 2,
+     "rebounds": 2,
      "assists": 0,
      "steals": 0,
-     "blocks": 0,
+     "blocks": 1,
      "turnovers": 0,
-     "fgMade": 0,
-     "fgAttempted": 1,
+     "fgMade": 1,
+     "fgAttempted": 2,
      "threeMade": 0,
      "threeAttempted": 1,
      "ftMade": 0,
@@ -1027,63 +1100,9 @@
    "lastToDate": {}
   },
   {
-   "id": "smallja01",
-   "name": "Javon Small",
-   "position": "PG",
-   "twoWay": true,
-   "bio": {
-    "height": "6' 1\"",
-    "weight": 190,
-    "birthDate": "2002-12-19",
-    "experience": 1,
-    "college": "West Virginia",
-    "birthPlace": "South Bend, IN"
-   },
-   "number": "10",
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4781746.png",
-   "current": {},
-   "lastFull": {
-    "regular": {
-     "games": 41,
-     "started": 12,
-     "minutes": 830.2,
-     "points": 396,
-     "rebounds": 128,
-     "assists": 151,
-     "steals": 34,
-     "blocks": 9,
-     "turnovers": 56,
-     "fgMade": 134,
-     "fgAttempted": 288,
-     "threeMade": 60,
-     "threeAttempted": 142,
-     "ftMade": 68,
-     "ftAttempted": 82
-    }
-   },
-   "lastToDate": {
-    "regular": {
-     "games": 5,
-     "started": 0,
-     "minutes": 88.8,
-     "points": 32,
-     "rebounds": 7,
-     "assists": 21,
-     "steals": 0,
-     "blocks": 1,
-     "turnovers": 7,
-     "fgMade": 9,
-     "fgAttempted": 26,
-     "threeMade": 6,
-     "threeAttempted": 18,
-     "ftMade": 8,
-     "ftAttempted": 10
-    }
-   }
-  },
-  {
    "id": "mashaja01",
    "name": "Jahmai Mashack",
+   "number": "21",
    "position": "SG",
    "twoWay": true,
    "bio": {
@@ -1094,9 +1113,26 @@
     "college": "Tennessee",
     "birthPlace": "Fontana, CA"
    },
-   "number": "21",
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4683934.png",
-   "current": {},
+   "current": {
+    "regular": {
+     "games": 1,
+     "started": 0,
+     "minutes": 4.3,
+     "points": 2,
+     "rebounds": 0,
+     "assists": 1,
+     "steals": 0,
+     "blocks": 0,
+     "turnovers": 0,
+     "fgMade": 1,
+     "fgAttempted": 1,
+     "threeMade": 0,
+     "threeAttempted": 0,
+     "ftMade": 0,
+     "ftAttempted": 0
+    }
+   },
    "lastFull": {
     "regular": {
      "games": 31,
@@ -1121,6 +1157,7 @@
   {
    "id": "coopeca02",
    "name": "Carson Cooper",
+   "number": "20",
    "position": "PF",
    "twoWay": true,
    "bio": {
@@ -1131,9 +1168,26 @@
     "college": "Michigan State",
     "birthPlace": "Jackson, MI"
    },
-   "number": "20",
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5105817.png",
-   "current": {},
+   "current": {
+    "regular": {
+     "games": 1,
+     "started": 0,
+     "minutes": 3.2,
+     "points": 1,
+     "rebounds": 2,
+     "assists": 1,
+     "steals": 0,
+     "blocks": 0,
+     "turnovers": 1,
+     "fgMade": 0,
+     "fgAttempted": 0,
+     "threeMade": 0,
+     "threeAttempted": 0,
+     "ftMade": 1,
+     "ftAttempted": 2
+    }
+   },
    "lastFull": {},
    "lastToDate": {}
   }
