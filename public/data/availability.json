@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-01T16:23:41.144Z",
+ "updatedAt": "2026-11-01T20:23:37.985Z",
  "teams": {
   "ATL": [
    {
@@ -399,6 +399,13 @@
   ],
   "NOP": [
    {
+    "name": "Jordan Poole",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Ankle (sprain)",
+    "returnDate": "2026-11-04"
+   },
+   {
     "name": "Yves Missi",
     "status": "Out",
     "gameTimeDecision": false,
@@ -410,13 +417,6 @@
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Personal",
-    "returnDate": "2026-11-02"
-   },
-   {
-    "name": "Jordan Poole",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Ankle (sprain)",
     "returnDate": "2026-11-02"
    }
   ],
