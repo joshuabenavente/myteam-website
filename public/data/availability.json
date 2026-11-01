@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-01T20:23:37.985Z",
+ "updatedAt": "2026-11-01T21:24:02.283Z",
  "teams": {
   "ATL": [
    {
@@ -45,6 +45,13 @@
     "gameTimeDecision": false,
     "reason": "Rest",
     "returnDate": "2026-11-02"
+   },
+   {
+    "name": "Jayson Tatum",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Head",
+    "returnDate": "2026-11-01"
    }
   ],
   "BKN": [
@@ -104,7 +111,7 @@
    {
     "name": "Nic Claxton",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Hamstring",
     "returnDate": "2026-11-04"
    },
@@ -247,10 +254,10 @@
     "returnDate": "2026-11-09"
    },
    {
-    "name": "Fred VanVleet",
+    "name": "Clint Capela",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
-    "reason": "Knee",
+    "reason": "Ankle (sprain)",
     "returnDate": "2026-11-02"
    },
    {
@@ -284,6 +291,13 @@
     "returnDate": "2027-01-02"
    },
    {
+    "name": "Obi Toppin",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Back (soreness)",
+    "returnDate": "2026-11-02"
+   },
+   {
     "name": "T.J. McConnell",
     "status": "Out",
     "gameTimeDecision": false,
@@ -296,20 +310,6 @@
     "gameTimeDecision": false,
     "reason": "Hamstring (strain)",
     "returnDate": "2026-11-13"
-   },
-   {
-    "name": "Aaron Nesmith",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Hamstring (strain)",
-    "returnDate": "2026-11-01"
-   },
-   {
-    "name": "Obi Toppin",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Back (soreness)",
-    "returnDate": "2026-11-01"
    }
   ],
   "LAC": [
@@ -318,6 +318,13 @@
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Knee (inflammation)",
+    "returnDate": "2026-11-08"
+   },
+   {
+    "name": "Brandon Ingram",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Achilles (surgery)",
     "returnDate": "2026-11-08"
    },
    {
@@ -333,6 +340,13 @@
     "gameTimeDecision": false,
     "reason": "Foot (plantar fasciitis)",
     "returnDate": "2026-11-08"
+   },
+   {
+    "name": "Yanic Konan Niederhauser",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Foot (surgery)",
+    "returnDate": "2026-11-08"
    }
   ],
   "LAL": [
@@ -345,10 +359,10 @@
    },
    {
     "name": "Ziaire Williams",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
+    "status": "Out",
+    "gameTimeDecision": false,
     "reason": "Foot",
-    "returnDate": "2026-11-01"
+    "returnDate": "2026-11-02"
    }
   ],
   "MEM": [
@@ -413,10 +427,10 @@
     "returnDate": "2026-11-08"
    },
    {
-    "name": "Dejounte Murray",
+    "name": "Trey Murphy III",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
-    "reason": "Personal",
+    "reason": "Knee",
     "returnDate": "2026-11-02"
    }
   ],
