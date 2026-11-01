@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-01T15:23:59.862Z",
+ "updatedAt": "2026-11-01T16:23:41.144Z",
  "teams": {
   "ATL": [
    {
@@ -74,28 +74,28 @@
    {
     "name": "Coby White",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Calf (strain)",
     "returnDate": "2026-11-02"
    },
    {
     "name": "Grant Williams",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Hamstring",
     "returnDate": "2026-11-02"
    },
    {
     "name": "Kon Knueppel",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Hamstring",
     "returnDate": "2026-11-02"
    },
    {
     "name": "Kylan Boswell",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Knee (surgery)",
     "returnDate": "2026-11-02"
    }
@@ -244,7 +244,7 @@
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Calf (strain)",
-    "returnDate": "2026-11-02"
+    "returnDate": "2026-11-09"
    },
    {
     "name": "Fred VanVleet",
@@ -321,13 +321,6 @@
     "returnDate": "2026-11-08"
    },
    {
-    "name": "Brandon Ingram",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Achilles (surgery)",
-    "returnDate": "2026-11-08"
-   },
-   {
     "name": "Jordan Miller",
     "status": "Out",
     "gameTimeDecision": false,
@@ -339,13 +332,6 @@
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Foot (plantar fasciitis)",
-    "returnDate": "2026-11-08"
-   },
-   {
-    "name": "Yanic Konan Niederhauser",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Foot (surgery)",
     "returnDate": "2026-11-08"
    }
   ],
@@ -682,7 +668,7 @@
    {
     "name": "Tristan Vukcevic",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Hip (pinched nerve)",
     "returnDate": "2026-11-02"
    }
