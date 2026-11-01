@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-01T22:23:40.222Z",
+ "updatedAt": "2026-11-01T23:23:39.396Z",
  "teams": {
   "ATL": [
    {
@@ -8,6 +8,13 @@
     "gameTimeDecision": false,
     "reason": "Knee",
     "returnDate": "2027-07-01"
+   },
+   {
+    "name": "Jock Landale",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Hip",
+    "returnDate": "2026-11-04"
    },
    {
     "name": "Mouhamed Gueye",
@@ -21,13 +28,6 @@
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Ankle",
-    "returnDate": "2026-11-02"
-   },
-   {
-    "name": "Jock Landale",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Hip",
     "returnDate": "2026-11-02"
    }
   ],
@@ -74,16 +74,16 @@
    {
     "name": "Grant Williams",
     "status": "Out",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Hamstring",
-    "returnDate": "2026-11-02"
+    "returnDate": "2026-11-09"
    },
    {
     "name": "Kon Knueppel",
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Hamstring",
-    "returnDate": "2026-11-02"
+    "returnDate": "2026-11-09"
    }
   ],
   "CHI": [
@@ -136,16 +136,16 @@
    {
     "name": "Dereck Lively II",
     "status": "Out",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Foot (surgery)",
-    "returnDate": "2026-11-02"
+    "returnDate": "2026-11-12"
    },
    {
     "name": "Santi Aldama",
     "status": "Out",
     "gameTimeDecision": true,
     "reason": "Knee (surgery)",
-    "returnDate": "2026-11-02"
+    "returnDate": "2026-11-04"
    },
    {
     "name": "Sergio de Larrea",
@@ -157,8 +157,15 @@
    {
     "name": "Tarik Biberovic",
     "status": "Out",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Heel (inflammation)",
+    "returnDate": "2026-11-12"
+   },
+   {
+    "name": "Kyrie Irving",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Knee",
     "returnDate": "2026-11-02"
    }
   ],
@@ -379,13 +386,6 @@
     "gameTimeDecision": true,
     "reason": "Back (soreness)",
     "returnDate": "2026-11-02"
-   },
-   {
-    "name": "Ty Jerome",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Back (soreness)",
-    "returnDate": "2026-11-02"
    }
   ],
   "MIN": [
@@ -402,13 +402,6 @@
     "gameTimeDecision": false,
     "reason": "Achilles (surgery)",
     "returnDate": "2027-04-02"
-   },
-   {
-    "name": "Rudy Gobert",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Back (spasms)",
-    "returnDate": "2026-11-02"
    }
   ],
   "NOP": [
@@ -438,9 +431,9 @@
    {
     "name": "Jose Alvarado",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Ankle (sprain)",
-    "returnDate": "2026-11-04"
+    "returnDate": "2026-11-02"
    }
   ],
   "OKC": [
@@ -545,11 +538,6 @@
     "gameTimeDecision": true,
     "reason": "Foot",
     "returnDate": "2026-11-02"
-   },
-   {
-    "name": "LeBron James",
-    "status": "Day-To-Day",
-    "gameTimeDecision": false
    }
   ],
   "PHX": [
@@ -588,9 +576,9 @@
    {
     "name": "Dylan Cardwell",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Calf (strain)",
-    "returnDate": "2026-11-06"
+    "returnDate": "2026-11-02"
    },
    {
     "name": "Keegan Murray",
@@ -605,6 +593,13 @@
     "gameTimeDecision": false,
     "reason": "Knee (dislocated)",
     "returnDate": "2026-11-10"
+   },
+   {
+    "name": "Zach LaVine",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Elbow",
+    "returnDate": "2026-11-02"
    }
   ],
   "SAS": [
