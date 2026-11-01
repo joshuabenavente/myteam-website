@@ -127,7 +127,11 @@
    "startUtc": "2026-11-01T22:00:00Z",
    "home": true,
    "opponent": "BKN",
-   "status": "scheduled",
+   "status": "live",
+   "score": {
+    "team": 0,
+    "opponent": 0
+   },
    "broadcasts": [
     {
      "name": "DAZN-IND",
