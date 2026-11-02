@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-02T00:23:29.472Z",
+ "updatedAt": "2026-11-02T01:23:43.684Z",
  "teams": {
   "ATL": [
    {
@@ -243,13 +243,6 @@
     "gameTimeDecision": false,
     "reason": "Rest",
     "returnDate": "2026-11-02"
-   },
-   {
-    "name": "Gui Santos",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Knee",
-    "returnDate": "2026-11-01"
    }
   ],
   "HOU": [
@@ -385,6 +378,15 @@
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Back (soreness)",
+    "returnDate": "2026-11-02"
+   }
+  ],
+  "MIA": [
+   {
+    "name": "Tim Hardaway Jr.",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Personal",
     "returnDate": "2026-11-02"
    }
   ],
