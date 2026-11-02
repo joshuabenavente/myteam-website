@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-02T05:23:47.791Z",
+ "updatedAt": "2026-11-02T14:23:47.602Z",
  "teams": {
   "ATL": [
    {
@@ -247,14 +247,14 @@
    {
     "name": "Stephen Curry",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Rest",
     "returnDate": "2026-11-02"
    },
    {
     "name": "Gui Santos",
     "status": "Day-To-Day",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Knee",
     "returnDate": "2026-11-05"
    }
