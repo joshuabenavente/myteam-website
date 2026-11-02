@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-02T22:23:57.413Z",
+ "updatedAt": "2026-11-02T23:23:38.896Z",
  "teams": {
   "ATL": [
    {
@@ -8,6 +8,13 @@
     "gameTimeDecision": false,
     "reason": "Knee",
     "returnDate": "2027-07-01"
+   },
+   {
+    "name": "Jalen Johnson",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Ankle",
+    "returnDate": "2026-11-04"
    },
    {
     "name": "Jock Landale",
@@ -22,13 +29,6 @@
     "gameTimeDecision": false,
     "reason": "Foot (fracture)",
     "returnDate": "2026-11-20"
-   },
-   {
-    "name": "Jalen Johnson",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Ankle",
-    "returnDate": "2026-11-02"
    },
    {
     "name": "Kingston Flemings",
@@ -90,23 +90,9 @@
    {
     "name": "Nic Claxton",
     "status": "Out",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Hamstring",
-    "returnDate": "2026-11-02"
-   },
-   {
-    "name": "Jalen Smith",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Finger (sprain)",
-    "returnDate": "2026-11-02"
-   },
-   {
-    "name": "Tobe Awaka",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Ankle (sprain)",
-    "returnDate": "2026-11-02"
+    "returnDate": "2026-11-04"
    }
   ],
   "CLE": [
@@ -120,9 +106,9 @@
    {
     "name": "Peyton Watson",
     "status": "Day-To-Day",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Hamstring (soreness)",
-    "returnDate": "2026-11-02"
+    "returnDate": "2026-11-04"
    }
   ],
   "DAL": [
@@ -134,11 +120,18 @@
     "returnDate": "2026-11-12"
    },
    {
+    "name": "Kyrie Irving",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Knee",
+    "returnDate": "2026-11-04"
+   },
+   {
     "name": "Santi Aldama",
     "status": "Out",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Knee (surgery)",
-    "returnDate": "2026-11-02"
+    "returnDate": "2026-11-04"
    },
    {
     "name": "Sergio de Larrea",
@@ -153,13 +146,6 @@
     "gameTimeDecision": false,
     "reason": "Heel (inflammation)",
     "returnDate": "2026-11-12"
-   },
-   {
-    "name": "Kyrie Irving",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Knee",
-    "returnDate": "2026-11-02"
    }
   ],
   "DEN": [
@@ -305,6 +291,20 @@
     "returnDate": "2027-01-02"
    },
    {
+    "name": "Larry Nance Jr.",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Illness",
+    "returnDate": "2026-11-04"
+   },
+   {
+    "name": "Obi Toppin",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Coach's Decision (soreness)",
+    "returnDate": "2026-11-04"
+   },
+   {
     "name": "Pascal Siakam",
     "status": "Out",
     "gameTimeDecision": false,
@@ -324,20 +324,6 @@
     "gameTimeDecision": false,
     "reason": "Hamstring (strain)",
     "returnDate": "2026-11-13"
-   },
-   {
-    "name": "Larry Nance Jr.",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Illness",
-    "returnDate": "2026-11-02"
-   },
-   {
-    "name": "Obi Toppin",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Back (soreness)",
-    "returnDate": "2026-11-02"
    }
   ],
   "LAC": [
@@ -441,6 +427,13 @@
   ],
   "NOP": [
    {
+    "name": "Dejounte Murray",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Personal",
+    "returnDate": "2026-11-04"
+   },
+   {
     "name": "Jordan Poole",
     "status": "Out",
     "gameTimeDecision": false,
@@ -453,22 +446,6 @@
     "gameTimeDecision": false,
     "reason": "Knee (bruise)",
     "returnDate": "2026-11-08"
-   },
-   {
-    "name": "Dejounte Murray",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Personal",
-    "returnDate": "2026-11-02"
-   }
-  ],
-  "NYK": [
-   {
-    "name": "Jose Alvarado",
-    "status": "Out",
-    "gameTimeDecision": true,
-    "reason": "Ankle (sprain)",
-    "returnDate": "2026-11-02"
    }
   ],
   "OKC": [
