@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-02T04:23:40.807Z",
+ "updatedAt": "2026-11-02T05:23:47.791Z",
  "teams": {
   "ATL": [
    {
@@ -250,6 +250,13 @@
     "gameTimeDecision": false,
     "reason": "Rest",
     "returnDate": "2026-11-02"
+   },
+   {
+    "name": "Gui Santos",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Knee",
+    "returnDate": "2026-11-05"
    }
   ],
   "HOU": [
@@ -636,13 +643,6 @@
   ],
   "TOR": [
    {
-    "name": "Jakob Poeltl",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Shoulder (inflammation)",
-    "returnDate": "2026-11-02"
-   },
-   {
     "name": "Kawhi Leonard",
     "status": "Out",
     "gameTimeDecision": false,
@@ -654,6 +654,13 @@
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Foot (fracture)",
+    "returnDate": "2026-11-02"
+   },
+   {
+    "name": "Jakob Poeltl",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Shoulder (inflammation)",
     "returnDate": "2026-11-02"
    }
   ],
