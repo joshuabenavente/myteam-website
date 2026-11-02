@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-01T23:23:39.396Z",
+ "updatedAt": "2026-11-02T00:23:29.472Z",
  "teams": {
   "ATL": [
    {
@@ -174,7 +174,7 @@
     "name": "Alpha Diallo",
     "status": "Out",
     "gameTimeDecision": true,
-    "reason": "Personal",
+    "reason": "Wrist (sprain)",
     "returnDate": "2026-11-02"
    },
    {
@@ -187,9 +187,9 @@
    {
     "name": "Spencer Jones",
     "status": "Out",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Hamstring",
-    "returnDate": "2026-11-02"
+    "returnDate": "2026-11-04"
    }
   ],
   "DET": [
@@ -598,7 +598,7 @@
     "name": "Zach LaVine",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
-    "reason": "Elbow",
+    "reason": "Elbow (soreness)",
     "returnDate": "2026-11-02"
    }
   ],
