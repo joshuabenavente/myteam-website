@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-02T20:23:47.380Z",
+ "updatedAt": "2026-11-02T21:23:49.333Z",
  "teams": {
   "ATL": [
    {
@@ -203,6 +203,13 @@
   ],
   "GSW": [
    {
+    "name": "Al Horford",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Rest",
+    "returnDate": "2026-11-05"
+   },
+   {
     "name": "Gui Santos",
     "status": "Out",
     "gameTimeDecision": false,
@@ -231,17 +238,10 @@
     "returnDate": "2026-12-01"
    },
    {
-    "name": "Draymond Green",
+    "name": "Brandon Williams",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
-    "reason": "Rest",
-    "returnDate": "2026-11-02"
-   },
-   {
-    "name": "Stephen Curry",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Rest",
+    "reason": "Quadriceps (bruise)",
     "returnDate": "2026-11-02"
    }
   ],
@@ -356,6 +356,13 @@
     "returnDate": "2026-11-08"
    },
    {
+    "name": "Derrick Jones Jr.",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Knee (soreness)",
+    "returnDate": "2026-11-04"
+   },
+   {
     "name": "Jordan Miller",
     "status": "Out",
     "gameTimeDecision": false,
@@ -363,11 +370,11 @@
     "returnDate": "2027-03-02"
    },
    {
-    "name": "Max Strus",
+    "name": "Rui Hachimura",
     "status": "Out",
     "gameTimeDecision": false,
-    "reason": "Foot (plantar fasciitis)",
-    "returnDate": "2026-11-08"
+    "reason": "Quadriceps (bruise)",
+    "returnDate": "2026-11-04"
    },
    {
     "name": "Yanic Konan Niederhauser",
@@ -375,13 +382,6 @@
     "gameTimeDecision": false,
     "reason": "Foot (surgery)",
     "returnDate": "2026-11-08"
-   },
-   {
-    "name": "Derrick Jones Jr.",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Knee",
-    "returnDate": "2026-11-02"
    }
   ],
   "LAL": [
@@ -391,13 +391,6 @@
     "gameTimeDecision": false,
     "reason": "Knee (inflammation)",
     "returnDate": "2026-11-09"
-   },
-   {
-    "name": "Ziaire Williams",
-    "status": "Out",
-    "gameTimeDecision": true,
-    "reason": "Foot",
-    "returnDate": "2026-11-02"
    }
   ],
   "MEM": [
