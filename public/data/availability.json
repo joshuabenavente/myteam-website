@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-02T19:23:32.144Z",
+ "updatedAt": "2026-11-02T20:23:47.380Z",
  "teams": {
   "ATL": [
    {
@@ -52,13 +52,6 @@
     "gameTimeDecision": false,
     "reason": "Rest",
     "returnDate": "2026-11-04"
-   },
-   {
-    "name": "Mitchell Robinson",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Rest",
-    "returnDate": "2026-11-02"
    }
   ],
   "BKN": [
@@ -423,15 +416,6 @@
     "returnDate": "2026-11-02"
    }
   ],
-  "MIA": [
-   {
-    "name": "Tim Hardaway Jr.",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Personal",
-    "returnDate": "2026-11-02"
-   }
-  ],
   "MIN": [
    {
     "name": "Anthony Edwards",
@@ -694,9 +678,9 @@
    {
     "name": "Nate Bittle",
     "status": "Out",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Foot (fracture)",
-    "returnDate": "2026-11-02"
+    "returnDate": "2026-11-09"
    },
    {
     "name": "Jakob Poeltl",
