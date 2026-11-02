@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-02T01:23:43.684Z",
+ "updatedAt": "2026-11-02T02:23:41.671Z",
  "teams": {
   "ATL": [
    {
@@ -29,6 +29,13 @@
     "gameTimeDecision": true,
     "reason": "Ankle",
     "returnDate": "2026-11-02"
+   },
+   {
+    "name": "Kingston Flemings",
+    "status": "Suspension",
+    "gameTimeDecision": false,
+    "reason": "Suspension",
+    "returnDate": "2026-11-04"
    }
   ],
   "BOS": [
@@ -56,18 +63,18 @@
     "returnDate": "2026-11-07"
    },
    {
-    "name": "Mikel Brown Jr.",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Rest",
-    "returnDate": "2026-11-02"
-   },
-   {
     "name": "Tyler Bilodeau",
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Shoulder (sprain)",
     "returnDate": "2026-11-06"
+   },
+   {
+    "name": "Mikel Brown Jr.",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Rest",
+    "returnDate": "2026-11-02"
    }
   ],
   "CHA": [
@@ -291,16 +298,9 @@
     "returnDate": "2027-01-02"
    },
    {
-    "name": "Obi Toppin",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Back (soreness)",
-    "returnDate": "2026-11-02"
-   },
-   {
     "name": "T.J. McConnell",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Hamstring (strain)",
     "returnDate": "2026-11-02"
    },
@@ -310,6 +310,13 @@
     "gameTimeDecision": false,
     "reason": "Hamstring (strain)",
     "returnDate": "2026-11-13"
+   },
+   {
+    "name": "Obi Toppin",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Back (soreness)",
+    "returnDate": "2026-11-02"
    }
   ],
   "LAC": [
@@ -621,6 +628,13 @@
    }
   ],
   "TOR": [
+   {
+    "name": "Jakob Poeltl",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Shoulder (inflammation)",
+    "returnDate": "2026-11-02"
+   },
    {
     "name": "Kawhi Leonard",
     "status": "Out",
