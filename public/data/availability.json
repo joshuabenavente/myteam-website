@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-02T14:23:47.602Z",
+ "updatedAt": "2026-11-02T15:23:46.544Z",
  "teams": {
   "ATL": [
    {
@@ -48,8 +48,8 @@
    },
    {
     "name": "Mitchell Robinson",
-    "status": "Out",
-    "gameTimeDecision": false,
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
     "reason": "Rest",
     "returnDate": "2026-11-02"
    }
@@ -99,13 +99,6 @@
     "status": "Out",
     "gameTimeDecision": true,
     "reason": "Hamstring",
-    "returnDate": "2026-11-04"
-   },
-   {
-    "name": "Dailyn Swain",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Back (soreness)",
     "returnDate": "2026-11-02"
    },
    {
@@ -152,7 +145,7 @@
     "status": "Out",
     "gameTimeDecision": true,
     "reason": "Knee (surgery)",
-    "returnDate": "2026-11-04"
+    "returnDate": "2026-11-02"
    },
    {
     "name": "Sergio de Larrea",
@@ -217,11 +210,11 @@
   ],
   "GSW": [
    {
-    "name": "Draymond Green",
+    "name": "Gui Santos",
     "status": "Out",
     "gameTimeDecision": false,
-    "reason": "Rest",
-    "returnDate": "2026-11-02"
+    "reason": "Knee",
+    "returnDate": "2026-11-05"
    },
    {
     "name": "Jimmy Butler III",
@@ -245,18 +238,18 @@
     "returnDate": "2026-12-01"
    },
    {
-    "name": "Stephen Curry",
-    "status": "Out",
+    "name": "Draymond Green",
+    "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Rest",
     "returnDate": "2026-11-02"
    },
    {
-    "name": "Gui Santos",
+    "name": "Stephen Curry",
     "status": "Day-To-Day",
-    "gameTimeDecision": false,
-    "reason": "Knee",
-    "returnDate": "2026-11-05"
+    "gameTimeDecision": true,
+    "reason": "Rest",
+    "returnDate": "2026-11-02"
    }
   ],
   "HOU": [
@@ -293,7 +286,7 @@
    {
     "name": "Ivica Zubac",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Ankle (sprain)",
     "returnDate": "2026-11-02"
    },
@@ -381,7 +374,7 @@
    {
     "name": "Ziaire Williams",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Foot",
     "returnDate": "2026-11-02"
    }
@@ -652,7 +645,7 @@
    {
     "name": "Nate Bittle",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Foot (fracture)",
     "returnDate": "2026-11-02"
    },
