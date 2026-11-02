@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-02T18:23:39.528Z",
+ "updatedAt": "2026-11-02T19:23:32.144Z",
  "teams": {
   "ATL": [
    {
@@ -45,6 +45,13 @@
     "gameTimeDecision": false,
     "reason": "Illness",
     "returnDate": "2026-11-08"
+   },
+   {
+    "name": "Paul George",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Rest",
+    "returnDate": "2026-11-04"
    },
    {
     "name": "Mitchell Robinson",
@@ -159,7 +166,7 @@
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Knee",
-    "returnDate": "2026-11-02"
+    "returnDate": "2026-11-04"
    }
   ],
   "DEN": [
@@ -247,18 +254,18 @@
   ],
   "HOU": [
    {
+    "name": "Clint Capela",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Ankle (sprain)",
+    "returnDate": "2026-11-04"
+   },
+   {
     "name": "Steven Adams",
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Calf (strain)",
     "returnDate": "2026-11-09"
-   },
-   {
-    "name": "Clint Capela",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Ankle (sprain)",
-    "returnDate": "2026-11-02"
    },
    {
     "name": "Reed Sheppard",
@@ -439,6 +446,20 @@
     "gameTimeDecision": false,
     "reason": "Achilles (surgery)",
     "returnDate": "2027-04-02"
+   },
+   {
+    "name": "LaMelo Ball",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Wrist",
+    "returnDate": "2026-11-02"
+   },
+   {
+    "name": "Terrence Shannon Jr.",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Hip",
+    "returnDate": "2026-11-02"
    }
   ],
   "NOP": [
@@ -457,10 +478,10 @@
     "returnDate": "2026-11-08"
    },
    {
-    "name": "Trey Murphy III",
+    "name": "Dejounte Murray",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
-    "reason": "Knee",
+    "reason": "Personal",
     "returnDate": "2026-11-02"
    }
   ],
