@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-02T15:23:46.544Z",
+ "updatedAt": "2026-11-02T17:23:42.672Z",
  "teams": {
   "ATL": [
    {
@@ -498,6 +498,13 @@
   ],
   "ORL": [
    {
+    "name": "Anthony Black",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Rest",
+    "returnDate": "2026-11-05"
+   },
+   {
     "name": "Izaiyah Nelson",
     "status": "Out",
     "gameTimeDecision": false,
@@ -601,7 +608,7 @@
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Ankle",
-    "returnDate": "2026-11-06"
+    "returnDate": "2026-11-10"
    },
    {
     "name": "Maxime Raynaud",
