@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-02T17:23:42.672Z",
+ "updatedAt": "2026-11-02T18:23:39.528Z",
  "teams": {
   "ATL": [
    {
@@ -68,13 +68,6 @@
     "gameTimeDecision": false,
     "reason": "Shoulder (sprain)",
     "returnDate": "2026-11-06"
-   },
-   {
-    "name": "Mikel Brown Jr.",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Rest",
-    "returnDate": "2026-11-02"
    }
   ],
   "CHA": [
@@ -196,9 +189,9 @@
    {
     "name": "Isaiah Joe",
     "status": "Out",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Hip (bruise)",
-    "returnDate": "2026-11-02"
+    "returnDate": "2026-11-04"
    },
    {
     "name": "Jalen Duren",
@@ -277,6 +270,20 @@
   ],
   "IND": [
    {
+    "name": "Aaron Nesmith",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Rest",
+    "returnDate": "2026-11-04"
+   },
+   {
+    "name": "Andrew Nembhard",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Neck",
+    "returnDate": "2026-11-04"
+   },
+   {
     "name": "Ben Sheppard",
     "status": "Out",
     "gameTimeDecision": false,
@@ -286,9 +293,9 @@
    {
     "name": "Ivica Zubac",
     "status": "Out",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Ankle (sprain)",
-    "returnDate": "2026-11-02"
+    "returnDate": "2026-11-09"
    },
    {
     "name": "Johnny Furphy",
@@ -298,11 +305,18 @@
     "returnDate": "2027-01-02"
    },
    {
+    "name": "Pascal Siakam",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Rest",
+    "returnDate": "2026-11-04"
+   },
+   {
     "name": "T.J. McConnell",
     "status": "Out",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Hamstring (strain)",
-    "returnDate": "2026-11-02"
+    "returnDate": "2026-11-09"
    },
    {
     "name": "Tyrese Haliburton",
@@ -310,6 +324,13 @@
     "gameTimeDecision": false,
     "reason": "Hamstring (strain)",
     "returnDate": "2026-11-13"
+   },
+   {
+    "name": "Larry Nance Jr.",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Illness",
+    "returnDate": "2026-11-02"
    },
    {
     "name": "Obi Toppin",
@@ -689,6 +710,20 @@
   ],
   "WAS": [
    {
+    "name": "Alex Sarr",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Knee (soreness)",
+    "returnDate": "2026-11-04"
+   },
+   {
+    "name": "Anthony Gill",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Back (spasms)",
+    "returnDate": "2026-11-04"
+   },
+   {
     "name": "Jamir Watkins",
     "status": "Out",
     "gameTimeDecision": false,
@@ -703,25 +738,18 @@
     "returnDate": "2027-02-25"
    },
    {
+    "name": "Reece Beekman",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Shoulder",
+    "returnDate": "2026-12-03"
+   },
+   {
     "name": "Tristan Vukcevic",
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Hip (pinched nerve)",
     "returnDate": "2026-11-09"
-   },
-   {
-    "name": "Alex Sarr",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Knee (soreness)",
-    "returnDate": "2026-11-02"
-   },
-   {
-    "name": "Anthony Gill",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Back (spasms)",
-    "returnDate": "2026-11-02"
    }
   ]
  }
