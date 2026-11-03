@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-03T01:23:40.105Z",
+ "updatedAt": "2026-11-03T02:23:44.385Z",
  "teams": {
   "ATL": [
    {
@@ -52,6 +52,13 @@
     "gameTimeDecision": false,
     "reason": "Rest",
     "returnDate": "2026-11-04"
+   },
+   {
+    "name": "Mitchell Robinson",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Undisclosed",
+    "returnDate": "2026-11-02"
    }
   ],
   "BKN": [
@@ -189,6 +196,13 @@
     "returnDate": "2026-11-05"
    },
    {
+    "name": "Brandon Williams",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Quadriceps (bruise)",
+    "returnDate": "2026-11-05"
+   },
+   {
     "name": "Gui Santos",
     "status": "Out",
     "gameTimeDecision": false,
@@ -215,13 +229,6 @@
     "gameTimeDecision": false,
     "reason": "Knee (surgery)",
     "returnDate": "2026-12-01"
-   },
-   {
-    "name": "Brandon Williams",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Quadriceps (bruise)",
-    "returnDate": "2026-11-02"
    }
   ],
   "HOU": [
@@ -369,7 +376,7 @@
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Knee (inflammation)",
-    "returnDate": "2026-11-09"
+    "returnDate": "2026-11-06"
    }
   ],
   "MEM": [
