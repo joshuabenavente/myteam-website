@@ -1,12 +1,49 @@
 {
  "season": "2026-27",
  "lastSeason": "2025-26",
- "updatedAt": "2026-11-03T05:19:56.280Z",
+ "updatedAt": "2026-11-03T11:19:55.080Z",
  "teamGamesPlayed": {
   "regular": 7,
   "playoffs": 0
  },
  "players": [
+  {
+   "id": "acuffda01",
+   "name": "Darius Acuff Jr.",
+   "number": "5",
+   "position": "PG",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 2\"",
+    "weight": 186,
+    "birthDate": "2006-11-16",
+    "experience": 0,
+    "college": "Arkansas",
+    "birthPlace": "Detroit, MI"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5142620.png",
+   "current": {
+    "regular": {
+     "games": 7,
+     "started": 7,
+     "minutes": 255.6,
+     "points": 183,
+     "rebounds": 27,
+     "assists": 44,
+     "steals": 4,
+     "blocks": 1,
+     "turnovers": 25,
+     "fgMade": 67,
+     "fgAttempted": 165,
+     "threeMade": 21,
+     "threeAttempted": 67,
+     "ftMade": 28,
+     "ftAttempted": 33
+    }
+   },
+   "lastFull": {},
+   "lastToDate": {}
+  },
   {
    "id": "sabondo01",
    "name": "Domantas Sabonis",
@@ -24,21 +61,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3155942.png",
    "current": {
     "regular": {
-     "games": 6,
-     "started": 6,
-     "minutes": 222.1,
-     "points": 96,
-     "rebounds": 95,
-     "assists": 44,
-     "steals": 6,
+     "games": 7,
+     "started": 7,
+     "minutes": 253,
+     "points": 105,
+     "rebounds": 102,
+     "assists": 48,
+     "steals": 7,
      "blocks": 1,
-     "turnovers": 23,
-     "fgMade": 38,
-     "fgAttempted": 54,
+     "turnovers": 27,
+     "fgMade": 42,
+     "fgAttempted": 58,
      "threeMade": 1,
      "threeAttempted": 2,
-     "ftMade": 19,
-     "ftAttempted": 23
+     "ftMade": 20,
+     "ftAttempted": 25
     }
    },
    "lastFull": {
@@ -81,43 +118,6 @@
    }
   },
   {
-   "id": "acuffda01",
-   "name": "Darius Acuff Jr.",
-   "number": "5",
-   "position": "PG",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 2\"",
-    "weight": 186,
-    "birthDate": "2006-11-16",
-    "experience": 0,
-    "college": "Arkansas",
-    "birthPlace": "Detroit, MI"
-   },
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5142620.png",
-   "current": {
-    "regular": {
-     "games": 6,
-     "started": 6,
-     "minutes": 218.8,
-     "points": 158,
-     "rebounds": 22,
-     "assists": 38,
-     "steals": 3,
-     "blocks": 1,
-     "turnovers": 20,
-     "fgMade": 57,
-     "fgAttempted": 144,
-     "threeMade": 19,
-     "threeAttempted": 59,
-     "ftMade": 25,
-     "ftAttempted": 29
-    }
-   },
-   "lastFull": {},
-   "lastToDate": {}
-  },
-  {
    "id": "lavinza01",
    "name": "Zach LaVine",
    "number": "8",
@@ -134,21 +134,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3064440.png",
    "current": {
     "regular": {
-     "games": 6,
-     "started": 6,
-     "minutes": 204.2,
-     "points": 141,
-     "rebounds": 17,
-     "assists": 19,
+     "games": 7,
+     "started": 7,
+     "minutes": 232.6,
+     "points": 164,
+     "rebounds": 21,
+     "assists": 20,
      "steals": 7,
      "blocks": 2,
-     "turnovers": 17,
-     "fgMade": 47,
-     "fgAttempted": 95,
-     "threeMade": 15,
-     "threeAttempted": 44,
-     "ftMade": 32,
-     "ftAttempted": 39
+     "turnovers": 20,
+     "fgMade": 55,
+     "fgAttempted": 109,
+     "threeMade": 20,
+     "threeAttempted": 53,
+     "ftMade": 34,
+     "ftAttempted": 41
     }
    },
    "lastFull": {
@@ -207,19 +207,19 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4065732.png",
    "current": {
     "regular": {
-     "games": 6,
-     "started": 6,
-     "minutes": 176.1,
-     "points": 84,
-     "rebounds": 30,
-     "assists": 6,
+     "games": 7,
+     "started": 7,
+     "minutes": 211.7,
+     "points": 90,
+     "rebounds": 37,
+     "assists": 8,
      "steals": 2,
      "blocks": 1,
-     "turnovers": 7,
-     "fgMade": 29,
-     "fgAttempted": 60,
+     "turnovers": 9,
+     "fgMade": 32,
+     "fgAttempted": 73,
      "threeMade": 15,
-     "threeAttempted": 33,
+     "threeAttempted": 39,
      "ftMade": 11,
      "ftAttempted": 19
     }
@@ -280,21 +280,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4431679.png",
    "current": {
     "regular": {
-     "games": 6,
-     "started": 4,
-     "minutes": 173,
-     "points": 75,
-     "rebounds": 36,
-     "assists": 6,
-     "steals": 11,
-     "blocks": 5,
-     "turnovers": 6,
-     "fgMade": 34,
-     "fgAttempted": 61,
+     "games": 7,
+     "started": 5,
+     "minutes": 200.2,
+     "points": 81,
+     "rebounds": 46,
+     "assists": 9,
+     "steals": 13,
+     "blocks": 7,
+     "turnovers": 7,
+     "fgMade": 36,
+     "fgAttempted": 64,
      "threeMade": 1,
      "threeAttempted": 5,
-     "ftMade": 6,
-     "ftAttempted": 16
+     "ftMade": 8,
+     "ftAttempted": 19
     }
    },
    "lastFull": {
@@ -335,25 +335,98 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5106058.png",
    "current": {
     "regular": {
-     "games": 6,
+     "games": 7,
      "started": 0,
-     "minutes": 108.4,
-     "points": 23,
-     "rebounds": 4,
-     "assists": 4,
-     "steals": 3,
-     "blocks": 1,
+     "minutes": 128.3,
+     "points": 32,
+     "rebounds": 7,
+     "assists": 5,
+     "steals": 4,
+     "blocks": 2,
      "turnovers": 3,
-     "fgMade": 8,
-     "fgAttempted": 27,
-     "threeMade": 5,
-     "threeAttempted": 18,
+     "fgMade": 11,
+     "fgAttempted": 30,
+     "threeMade": 8,
+     "threeAttempted": 21,
      "ftMade": 2,
      "ftAttempted": 2
     }
    },
    "lastFull": {},
    "lastToDate": {}
+  },
+  {
+   "id": "monkma01",
+   "name": "Malik Monk",
+   "number": "0",
+   "position": "SG",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 3\"",
+    "weight": 200,
+    "birthDate": "1998-02-04",
+    "experience": 9,
+    "college": "Kentucky",
+    "birthPlace": "Lepanto, AR"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4066262.png",
+   "current": {
+    "regular": {
+     "games": 6,
+     "started": 0,
+     "minutes": 89.1,
+     "points": 43,
+     "rebounds": 6,
+     "assists": 21,
+     "steals": 3,
+     "blocks": 1,
+     "turnovers": 9,
+     "fgMade": 15,
+     "fgAttempted": 41,
+     "threeMade": 6,
+     "threeAttempted": 18,
+     "ftMade": 7,
+     "ftAttempted": 8
+    }
+   },
+   "lastFull": {
+    "regular": {
+     "games": 62,
+     "started": 3,
+     "minutes": 1364.3,
+     "points": 772,
+     "rebounds": 117,
+     "assists": 185,
+     "steals": 37,
+     "blocks": 24,
+     "turnovers": 91,
+     "fgMade": 277,
+     "fgAttempted": 632,
+     "threeMade": 124,
+     "threeAttempted": 314,
+     "ftMade": 94,
+     "ftAttempted": 107
+    }
+   },
+   "lastToDate": {
+    "regular": {
+     "games": 5,
+     "started": 0,
+     "minutes": 126.1,
+     "points": 78,
+     "rebounds": 6,
+     "assists": 12,
+     "steals": 6,
+     "blocks": 4,
+     "turnovers": 5,
+     "fgMade": 29,
+     "fgAttempted": 53,
+     "threeMade": 13,
+     "threeAttempted": 25,
+     "ftMade": 7,
+     "ftAttempted": 8
+    }
+   }
   },
   {
    "id": "plowdda01",
@@ -372,21 +445,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4279318.png",
    "current": {
     "regular": {
-     "games": 5,
+     "games": 6,
      "started": 0,
-     "minutes": 70.5,
-     "points": 14,
-     "rebounds": 7,
+     "minutes": 73.4,
+     "points": 15,
+     "rebounds": 8,
      "assists": 2,
      "steals": 2,
      "blocks": 1,
      "turnovers": 1,
      "fgMade": 6,
-     "fgAttempted": 12,
+     "fgAttempted": 14,
      "threeMade": 2,
-     "threeAttempted": 7,
-     "ftMade": 0,
-     "ftAttempted": 0
+     "threeAttempted": 9,
+     "ftMade": 1,
+     "ftAttempted": 2
     }
    },
    "lastFull": {
@@ -501,79 +574,6 @@
    }
   },
   {
-   "id": "monkma01",
-   "name": "Malik Monk",
-   "number": "0",
-   "position": "SG",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 3\"",
-    "weight": 200,
-    "birthDate": "1998-02-04",
-    "experience": 9,
-    "college": "Kentucky",
-    "birthPlace": "Lepanto, AR"
-   },
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4066262.png",
-   "current": {
-    "regular": {
-     "games": 5,
-     "started": 0,
-     "minutes": 59,
-     "points": 19,
-     "rebounds": 5,
-     "assists": 14,
-     "steals": 3,
-     "blocks": 0,
-     "turnovers": 7,
-     "fgMade": 6,
-     "fgAttempted": 27,
-     "threeMade": 1,
-     "threeAttempted": 10,
-     "ftMade": 6,
-     "ftAttempted": 6
-    }
-   },
-   "lastFull": {
-    "regular": {
-     "games": 62,
-     "started": 3,
-     "minutes": 1364.3,
-     "points": 772,
-     "rebounds": 117,
-     "assists": 185,
-     "steals": 37,
-     "blocks": 24,
-     "turnovers": 91,
-     "fgMade": 277,
-     "fgAttempted": 632,
-     "threeMade": 124,
-     "threeAttempted": 314,
-     "ftMade": 94,
-     "ftAttempted": 107
-    }
-   },
-   "lastToDate": {
-    "regular": {
-     "games": 5,
-     "started": 0,
-     "minutes": 126.1,
-     "points": 78,
-     "rebounds": 6,
-     "assists": 12,
-     "steals": 6,
-     "blocks": 4,
-     "turnovers": 5,
-     "fgMade": 29,
-     "fgAttempted": 53,
-     "threeMade": 13,
-     "threeAttempted": 25,
-     "ftMade": 7,
-     "ftAttempted": 8
-    }
-   }
-  },
-  {
    "id": "murrake02",
    "name": "Keegan Murray",
    "number": "13",
@@ -645,19 +645,19 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4702384.png",
    "current": {
     "regular": {
-     "games": 5,
+     "games": 6,
      "started": 0,
-     "minutes": 38.4,
+     "minutes": 41.9,
      "points": 8,
-     "rebounds": 2,
+     "rebounds": 3,
      "assists": 6,
      "steals": 2,
      "blocks": 0,
      "turnovers": 3,
      "fgMade": 4,
-     "fgAttempted": 14,
+     "fgAttempted": 15,
      "threeMade": 0,
-     "threeAttempted": 6,
+     "threeAttempted": 7,
      "ftMade": 0,
      "ftAttempted": 0
     }
@@ -755,19 +755,19 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4395650.png",
    "current": {
     "regular": {
-     "games": 2,
+     "games": 3,
      "started": 0,
-     "minutes": 8.2,
-     "points": 2,
-     "rebounds": 1,
-     "assists": 1,
-     "steals": 1,
+     "minutes": 32.8,
+     "points": 14,
+     "rebounds": 4,
+     "assists": 2,
+     "steals": 5,
      "blocks": 1,
      "turnovers": 0,
-     "fgMade": 1,
-     "fgAttempted": 3,
-     "threeMade": 0,
-     "threeAttempted": 2,
+     "fgMade": 5,
+     "fgAttempted": 10,
+     "threeMade": 4,
+     "threeAttempted": 8,
      "ftMade": 0,
      "ftAttempted": 0
     }
