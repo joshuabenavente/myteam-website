@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-03T02:23:44.385Z",
+ "updatedAt": "2026-11-03T03:23:51.255Z",
  "teams": {
   "ATL": [
    {
@@ -52,13 +52,6 @@
     "gameTimeDecision": false,
     "reason": "Rest",
     "returnDate": "2026-11-04"
-   },
-   {
-    "name": "Mitchell Robinson",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Undisclosed",
-    "returnDate": "2026-11-02"
    }
   ],
   "BKN": [
@@ -153,6 +146,13 @@
     "gameTimeDecision": false,
     "reason": "Heel (inflammation)",
     "returnDate": "2026-11-12"
+   },
+   {
+    "name": "Max Christie",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Hip",
+    "returnDate": "2026-11-04"
    }
   ],
   "DEN": [
@@ -618,6 +618,13 @@
   ],
   "TOR": [
    {
+    "name": "Jakob Poeltl",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Shoulder (inflammation)",
+    "returnDate": "2026-11-04"
+   },
+   {
     "name": "Kawhi Leonard",
     "status": "Out",
     "gameTimeDecision": false,
@@ -630,20 +637,6 @@
     "gameTimeDecision": false,
     "reason": "Foot (fracture)",
     "returnDate": "2026-11-09"
-   },
-   {
-    "name": "Jakob Poeltl",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Shoulder (inflammation)",
-    "returnDate": "2026-11-02"
-   },
-   {
-    "name": "Scottie Barnes",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Hip (soreness)",
-    "returnDate": "2026-11-02"
    }
   ],
   "UTA": [
