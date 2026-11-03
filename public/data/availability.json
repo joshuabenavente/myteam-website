@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-03T15:23:46.896Z",
+ "updatedAt": "2026-11-03T21:23:46.220Z",
  "teams": {
   "ATL": [
    {
@@ -40,10 +40,17 @@
     "returnDate": "2026-11-08"
    },
    {
-    "name": "Paul George",
+    "name": "Jayson Tatum",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Rest",
+    "returnDate": "2026-11-04"
+   },
+   {
+    "name": "Payton Pritchard",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Shoulder",
     "returnDate": "2026-11-04"
    }
   ],
@@ -85,6 +92,13 @@
     "status": "Out",
     "gameTimeDecision": true,
     "reason": "Hamstring",
+    "returnDate": "2026-11-04"
+   },
+   {
+    "name": "Jalen Smith",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Finger",
     "returnDate": "2026-11-04"
    }
   ],
@@ -168,9 +182,9 @@
    {
     "name": "Isaiah Joe",
     "status": "Out",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Hip (bruise)",
-    "returnDate": "2026-11-04"
+    "returnDate": "2026-11-08"
    },
    {
     "name": "Jalen Duren",
