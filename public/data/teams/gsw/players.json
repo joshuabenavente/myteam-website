@@ -1,9 +1,9 @@
 {
  "season": "2026-27",
  "lastSeason": "2025-26",
- "updatedAt": "2026-11-03T04:21:19.595Z",
+ "updatedAt": "2026-11-03T10:21:14.612Z",
  "teamGamesPlayed": {
-  "regular": 7,
+  "regular": 8,
   "playoffs": 0
  },
  "players": [
@@ -24,21 +24,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5175737.png",
    "current": {
     "regular": {
-     "games": 7,
-     "started": 7,
-     "minutes": 226.1,
-     "points": 156,
-     "rebounds": 51,
-     "assists": 26,
-     "steals": 6,
-     "blocks": 3,
-     "turnovers": 25,
-     "fgMade": 53,
-     "fgAttempted": 102,
-     "threeMade": 18,
-     "threeAttempted": 44,
-     "ftMade": 32,
-     "ftAttempted": 43
+     "games": 8,
+     "started": 8,
+     "minutes": 255.5,
+     "points": 172,
+     "rebounds": 56,
+     "assists": 31,
+     "steals": 7,
+     "blocks": 4,
+     "turnovers": 27,
+     "fgMade": 56,
+     "fgAttempted": 112,
+     "threeMade": 20,
+     "threeAttempted": 50,
+     "ftMade": 40,
+     "ftAttempted": 52
     }
    },
    "lastFull": {},
@@ -61,21 +61,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4709138.png",
    "current": {
     "regular": {
-     "games": 5,
-     "started": 5,
-     "minutes": 168.1,
-     "points": 82,
-     "rebounds": 27,
-     "assists": 28,
-     "steals": 6,
+     "games": 6,
+     "started": 6,
+     "minutes": 200.7,
+     "points": 102,
+     "rebounds": 30,
+     "assists": 30,
+     "steals": 7,
      "blocks": 2,
-     "turnovers": 8,
-     "fgMade": 30,
-     "fgAttempted": 65,
-     "threeMade": 11,
-     "threeAttempted": 32,
-     "ftMade": 11,
-     "ftAttempted": 16
+     "turnovers": 11,
+     "fgMade": 37,
+     "fgAttempted": 80,
+     "threeMade": 14,
+     "threeAttempted": 40,
+     "ftMade": 14,
+     "ftAttempted": 20
     }
    },
    "lastFull": {
@@ -99,21 +99,21 @@
    },
    "lastToDate": {
     "regular": {
-     "games": 7,
+     "games": 8,
      "started": 4,
-     "minutes": 209,
-     "points": 86,
-     "rebounds": 33,
-     "assists": 19,
-     "steals": 10,
+     "minutes": 233.2,
+     "points": 99,
+     "rebounds": 35,
+     "assists": 23,
+     "steals": 11,
      "blocks": 2,
-     "turnovers": 7,
-     "fgMade": 32,
-     "fgAttempted": 67,
-     "threeMade": 13,
-     "threeAttempted": 33,
-     "ftMade": 9,
-     "ftAttempted": 14
+     "turnovers": 8,
+     "fgMade": 37,
+     "fgAttempted": 78,
+     "threeMade": 14,
+     "threeAttempted": 39,
+     "ftMade": 11,
+     "ftAttempted": 16
     }
    }
   },
@@ -134,21 +134,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4066436.png",
    "current": {
     "regular": {
-     "games": 7,
+     "games": 8,
      "started": 2,
-     "minutes": 156,
-     "points": 83,
-     "rebounds": 29,
-     "assists": 16,
-     "steals": 10,
+     "minutes": 183.6,
+     "points": 85,
+     "rebounds": 36,
+     "assists": 18,
+     "steals": 12,
      "blocks": 3,
      "turnovers": 11,
-     "fgMade": 26,
-     "fgAttempted": 53,
+     "fgMade": 27,
+     "fgAttempted": 62,
      "threeMade": 19,
-     "threeAttempted": 36,
+     "threeAttempted": 41,
      "ftMade": 12,
-     "ftAttempted": 13
+     "ftAttempted": 14
     }
    },
    "lastFull": {
@@ -173,79 +173,6 @@
    "lastToDate": {}
   },
   {
-   "id": "greendr01",
-   "name": "Draymond Green",
-   "number": "23",
-   "position": "PF",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 6\"",
-    "weight": 230,
-    "birthDate": "1990-03-04",
-    "experience": 14,
-    "college": "Michigan State",
-    "birthPlace": "Saginaw, MI"
-   },
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/6589.png",
-   "current": {
-    "regular": {
-     "games": 5,
-     "started": 5,
-     "minutes": 142.7,
-     "points": 15,
-     "rebounds": 26,
-     "assists": 36,
-     "steals": 4,
-     "blocks": 5,
-     "turnovers": 18,
-     "fgMade": 6,
-     "fgAttempted": 16,
-     "threeMade": 2,
-     "threeAttempted": 7,
-     "ftMade": 1,
-     "ftAttempted": 2
-    }
-   },
-   "lastFull": {
-    "regular": {
-     "games": 68,
-     "started": 68,
-     "minutes": 1869.8,
-     "points": 570,
-     "rebounds": 375,
-     "assists": 376,
-     "steals": 61,
-     "blocks": 42,
-     "turnovers": 181,
-     "fgMade": 205,
-     "fgAttempted": 491,
-     "threeMade": 101,
-     "threeAttempted": 310,
-     "ftMade": 59,
-     "ftAttempted": 84
-    }
-   },
-   "lastToDate": {
-    "regular": {
-     "games": 7,
-     "started": 7,
-     "minutes": 203.8,
-     "points": 62,
-     "rebounds": 43,
-     "assists": 43,
-     "steals": 5,
-     "blocks": 4,
-     "turnovers": 18,
-     "fgMade": 22,
-     "fgAttempted": 46,
-     "threeMade": 12,
-     "threeAttempted": 27,
-     "ftMade": 6,
-     "ftAttempted": 11
-    }
-   }
-  },
-  {
    "id": "curryst01",
    "name": "Stephen Curry",
    "number": "30",
@@ -262,21 +189,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3975.png",
    "current": {
     "regular": {
-     "games": 5,
-     "started": 5,
-     "minutes": 140.2,
-     "points": 146,
-     "rebounds": 19,
-     "assists": 20,
-     "steals": 7,
+     "games": 6,
+     "started": 6,
+     "minutes": 173,
+     "points": 180,
+     "rebounds": 25,
+     "assists": 27,
+     "steals": 8,
      "blocks": 1,
-     "turnovers": 9,
-     "fgMade": 42,
-     "fgAttempted": 88,
-     "threeMade": 22,
-     "threeAttempted": 50,
-     "ftMade": 40,
-     "ftAttempted": 40
+     "turnovers": 12,
+     "fgMade": 51,
+     "fgAttempted": 109,
+     "threeMade": 27,
+     "threeAttempted": 63,
+     "ftMade": 51,
+     "ftAttempted": 52
     }
    },
    "lastFull": {
@@ -300,21 +227,94 @@
    },
    "lastToDate": {
     "regular": {
-     "games": 7,
-     "started": 7,
-     "minutes": 215.7,
-     "points": 186,
-     "rebounds": 25,
-     "assists": 31,
-     "steals": 11,
-     "blocks": 4,
-     "turnovers": 21,
-     "fgMade": 60,
-     "fgAttempted": 129,
-     "threeMade": 30,
-     "threeAttempted": 78,
-     "ftMade": 36,
-     "ftAttempted": 38
+     "games": 8,
+     "started": 8,
+     "minutes": 249.2,
+     "points": 214,
+     "rebounds": 29,
+     "assists": 34,
+     "steals": 12,
+     "blocks": 5,
+     "turnovers": 23,
+     "fgMade": 69,
+     "fgAttempted": 152,
+     "threeMade": 35,
+     "threeAttempted": 90,
+     "ftMade": 41,
+     "ftAttempted": 43
+    }
+   }
+  },
+  {
+   "id": "greendr01",
+   "name": "Draymond Green",
+   "number": "23",
+   "position": "PF",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 6\"",
+    "weight": 230,
+    "birthDate": "1990-03-04",
+    "experience": 14,
+    "college": "Michigan State",
+    "birthPlace": "Saginaw, MI"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/6589.png",
+   "current": {
+    "regular": {
+     "games": 6,
+     "started": 6,
+     "minutes": 159.5,
+     "points": 19,
+     "rebounds": 30,
+     "assists": 38,
+     "steals": 5,
+     "blocks": 5,
+     "turnovers": 19,
+     "fgMade": 7,
+     "fgAttempted": 18,
+     "threeMade": 2,
+     "threeAttempted": 7,
+     "ftMade": 3,
+     "ftAttempted": 4
+    }
+   },
+   "lastFull": {
+    "regular": {
+     "games": 68,
+     "started": 68,
+     "minutes": 1869.8,
+     "points": 570,
+     "rebounds": 375,
+     "assists": 376,
+     "steals": 61,
+     "blocks": 42,
+     "turnovers": 181,
+     "fgMade": 205,
+     "fgAttempted": 491,
+     "threeMade": 101,
+     "threeAttempted": 310,
+     "ftMade": 59,
+     "ftAttempted": 84
+    }
+   },
+   "lastToDate": {
+    "regular": {
+     "games": 8,
+     "started": 8,
+     "minutes": 236.6,
+     "points": 64,
+     "rebounds": 48,
+     "assists": 51,
+     "steals": 6,
+     "blocks": 5,
+     "turnovers": 22,
+     "fgMade": 23,
+     "fgAttempted": 48,
+     "threeMade": 12,
+     "threeAttempted": 28,
+     "ftMade": 6,
+     "ftAttempted": 13
     }
    }
   },
@@ -335,25 +335,98 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/2990969.png",
    "current": {
     "regular": {
-     "games": 7,
+     "games": 8,
      "started": 2,
-     "minutes": 136.9,
-     "points": 45,
-     "rebounds": 20,
-     "assists": 9,
+     "minutes": 158.9,
+     "points": 58,
+     "rebounds": 24,
+     "assists": 12,
      "steals": 5,
      "blocks": 1,
      "turnovers": 11,
-     "fgMade": 18,
-     "fgAttempted": 47,
-     "threeMade": 8,
-     "threeAttempted": 29,
-     "ftMade": 1,
-     "ftAttempted": 1
+     "fgMade": 23,
+     "fgAttempted": 53,
+     "threeMade": 9,
+     "threeAttempted": 31,
+     "ftMade": 3,
+     "ftAttempted": 4
     }
    },
    "lastFull": {},
    "lastToDate": {}
+  },
+  {
+   "id": "richawi02",
+   "name": "Will Richard",
+   "number": "3",
+   "position": "SG",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 3\"",
+    "weight": 206,
+    "birthDate": "2002-12-24",
+    "experience": 1,
+    "college": "Florida",
+    "birthPlace": "Fairburn, GA"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4897262.png",
+   "current": {
+    "regular": {
+     "games": 8,
+     "started": 2,
+     "minutes": 143.8,
+     "points": 37,
+     "rebounds": 16,
+     "assists": 7,
+     "steals": 4,
+     "blocks": 2,
+     "turnovers": 3,
+     "fgMade": 14,
+     "fgAttempted": 33,
+     "threeMade": 7,
+     "threeAttempted": 17,
+     "ftMade": 2,
+     "ftAttempted": 3
+    }
+   },
+   "lastFull": {
+    "regular": {
+     "games": 69,
+     "started": 21,
+     "minutes": 1377.3,
+     "points": 441,
+     "rebounds": 172,
+     "assists": 93,
+     "steals": 80,
+     "blocks": 9,
+     "turnovers": 53,
+     "fgMade": 162,
+     "fgAttempted": 346,
+     "threeMade": 71,
+     "threeAttempted": 212,
+     "ftMade": 46,
+     "ftAttempted": 54
+    }
+   },
+   "lastToDate": {
+    "regular": {
+     "games": 6,
+     "started": 0,
+     "minutes": 82.4,
+     "points": 34,
+     "rebounds": 10,
+     "assists": 8,
+     "steals": 8,
+     "blocks": 0,
+     "turnovers": 4,
+     "fgMade": 12,
+     "fgAttempted": 19,
+     "threeMade": 5,
+     "threeAttempted": 12,
+     "ftMade": 5,
+     "ftAttempted": 6
+    }
+   }
   },
   {
    "id": "willibr03",
@@ -410,21 +483,21 @@
    },
    "lastToDate": {
     "regular": {
-     "games": 5,
+     "games": 6,
      "started": 0,
-     "minutes": 65.7,
-     "points": 34,
-     "rebounds": 9,
-     "assists": 5,
-     "steals": 6,
+     "minutes": 84.4,
+     "points": 44,
+     "rebounds": 10,
+     "assists": 8,
+     "steals": 8,
      "blocks": 1,
-     "turnovers": 8,
-     "fgMade": 13,
-     "fgAttempted": 26,
-     "threeMade": 1,
-     "threeAttempted": 7,
-     "ftMade": 7,
-     "ftAttempted": 12
+     "turnovers": 9,
+     "fgMade": 17,
+     "fgAttempted": 35,
+     "threeMade": 2,
+     "threeAttempted": 10,
+     "ftMade": 8,
+     "ftAttempted": 14
     }
    }
   },
@@ -482,9 +555,9 @@
    },
    "lastToDate": {
     "regular": {
-     "games": 6,
+     "games": 7,
      "started": 0,
-     "minutes": 39.9,
+     "minutes": 42.9,
      "points": 13,
      "rebounds": 6,
      "assists": 2,
@@ -497,79 +570,6 @@
      "threeAttempted": 7,
      "ftMade": 0,
      "ftAttempted": 0
-    }
-   }
-  },
-  {
-   "id": "richawi02",
-   "name": "Will Richard",
-   "number": "3",
-   "position": "SG",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 3\"",
-    "weight": 206,
-    "birthDate": "2002-12-24",
-    "experience": 1,
-    "college": "Florida",
-    "birthPlace": "Fairburn, GA"
-   },
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4897262.png",
-   "current": {
-    "regular": {
-     "games": 7,
-     "started": 1,
-     "minutes": 116,
-     "points": 31,
-     "rebounds": 11,
-     "assists": 7,
-     "steals": 4,
-     "blocks": 1,
-     "turnovers": 2,
-     "fgMade": 12,
-     "fgAttempted": 26,
-     "threeMade": 5,
-     "threeAttempted": 12,
-     "ftMade": 2,
-     "ftAttempted": 3
-    }
-   },
-   "lastFull": {
-    "regular": {
-     "games": 69,
-     "started": 21,
-     "minutes": 1377.3,
-     "points": 441,
-     "rebounds": 172,
-     "assists": 93,
-     "steals": 80,
-     "blocks": 9,
-     "turnovers": 53,
-     "fgMade": 162,
-     "fgAttempted": 346,
-     "threeMade": 71,
-     "threeAttempted": 212,
-     "ftMade": 46,
-     "ftAttempted": 54
-    }
-   },
-   "lastToDate": {
-    "regular": {
-     "games": 6,
-     "started": 0,
-     "minutes": 82.4,
-     "points": 34,
-     "rebounds": 10,
-     "assists": 8,
-     "steals": 8,
-     "blocks": 0,
-     "turnovers": 4,
-     "fgMade": 12,
-     "fgAttempted": 19,
-     "threeMade": 5,
-     "threeAttempted": 12,
-     "ftMade": 5,
-     "ftAttempted": 6
     }
    }
   },
@@ -663,19 +663,19 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3134903.png",
    "current": {
     "regular": {
-     "games": 7,
+     "games": 8,
      "started": 0,
-     "minutes": 90.5,
-     "points": 35,
-     "rebounds": 14,
-     "assists": 3,
-     "steals": 4,
+     "minutes": 110.6,
+     "points": 37,
+     "rebounds": 16,
+     "assists": 4,
+     "steals": 5,
      "blocks": 0,
-     "turnovers": 4,
-     "fgMade": 16,
-     "fgAttempted": 36,
+     "turnovers": 6,
+     "fgMade": 17,
+     "fgAttempted": 39,
      "threeMade": 3,
-     "threeAttempted": 14,
+     "threeAttempted": 16,
      "ftMade": 0,
      "ftAttempted": 0
     }
@@ -720,43 +720,6 @@
    }
   },
   {
-   "id": "ikegr01",
-   "name": "Graham Ike",
-   "number": "45",
-   "position": "C",
-   "twoWay": true,
-   "bio": {
-    "height": "6' 9\"",
-    "weight": 250,
-    "birthDate": "2002-08-03",
-    "experience": 0,
-    "college": "Gonzaga",
-    "birthPlace": "Aurora, CO"
-   },
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4703396.png",
-   "current": {
-    "regular": {
-     "games": 5,
-     "started": 2,
-     "minutes": 59.4,
-     "points": 35,
-     "rebounds": 16,
-     "assists": 5,
-     "steals": 3,
-     "blocks": 1,
-     "turnovers": 2,
-     "fgMade": 13,
-     "fgAttempted": 25,
-     "threeMade": 4,
-     "threeAttempted": 4,
-     "ftMade": 5,
-     "ftAttempted": 6
-    }
-   },
-   "lastFull": {},
-   "lastToDate": {}
-  },
-  {
    "id": "bassech01",
    "name": "Charles Bassey",
    "number": "28",
@@ -773,21 +736,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4397886.png",
    "current": {
     "regular": {
-     "games": 5,
+     "games": 6,
      "started": 1,
-     "minutes": 45.6,
-     "points": 22,
-     "rebounds": 22,
-     "assists": 3,
+     "minutes": 68.5,
+     "points": 41,
+     "rebounds": 30,
+     "assists": 4,
      "steals": 1,
      "blocks": 4,
-     "turnovers": 2,
-     "fgMade": 9,
-     "fgAttempted": 15,
+     "turnovers": 3,
+     "fgMade": 16,
+     "fgAttempted": 25,
      "threeMade": 0,
      "threeAttempted": 1,
-     "ftMade": 4,
-     "ftAttempted": 5
+     "ftMade": 9,
+     "ftAttempted": 11
     }
    },
    "lastFull": {
@@ -809,6 +772,61 @@
      "ftAttempted": 20
     }
    },
+   "lastToDate": {
+    "regular": {
+     "games": 1,
+     "started": 0,
+     "minutes": 15.2,
+     "points": 3,
+     "rebounds": 10,
+     "assists": 1,
+     "steals": 1,
+     "blocks": 1,
+     "turnovers": 1,
+     "fgMade": 1,
+     "fgAttempted": 3,
+     "threeMade": 0,
+     "threeAttempted": 0,
+     "ftMade": 1,
+     "ftAttempted": 2
+    }
+   }
+  },
+  {
+   "id": "ikegr01",
+   "name": "Graham Ike",
+   "number": "45",
+   "position": "C",
+   "twoWay": true,
+   "bio": {
+    "height": "6' 9\"",
+    "weight": 250,
+    "birthDate": "2002-08-03",
+    "experience": 0,
+    "college": "Gonzaga",
+    "birthPlace": "Aurora, CO"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4703396.png",
+   "current": {
+    "regular": {
+     "games": 6,
+     "started": 2,
+     "minutes": 66.8,
+     "points": 35,
+     "rebounds": 16,
+     "assists": 5,
+     "steals": 3,
+     "blocks": 1,
+     "turnovers": 2,
+     "fgMade": 13,
+     "fgAttempted": 25,
+     "threeMade": 4,
+     "threeAttempted": 4,
+     "ftMade": 5,
+     "ftAttempted": 6
+    }
+   },
+   "lastFull": {},
    "lastToDate": {}
   },
   {
@@ -828,9 +846,9 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4433149.png",
    "current": {
     "regular": {
-     "games": 5,
+     "games": 6,
      "started": 0,
-     "minutes": 28.1,
+     "minutes": 28.8,
      "points": 18,
      "rebounds": 2,
      "assists": 7,
@@ -838,9 +856,9 @@
      "blocks": 0,
      "turnovers": 1,
      "fgMade": 6,
-     "fgAttempted": 15,
+     "fgAttempted": 16,
      "threeMade": 5,
-     "threeAttempted": 9,
+     "threeAttempted": 10,
      "ftMade": 1,
      "ftAttempted": 2
     }
@@ -958,21 +976,21 @@
    },
    "lastToDate": {
     "regular": {
-     "games": 5,
+     "games": 6,
      "started": 0,
-     "minutes": 91.3,
-     "points": 39,
-     "rebounds": 12,
-     "assists": 6,
-     "steals": 3,
+     "minutes": 125.2,
+     "points": 63,
+     "rebounds": 17,
+     "assists": 8,
+     "steals": 4,
      "blocks": 4,
-     "turnovers": 6,
-     "fgMade": 11,
-     "fgAttempted": 31,
-     "threeMade": 10,
-     "threeAttempted": 22,
-     "ftMade": 7,
-     "ftAttempted": 9
+     "turnovers": 7,
+     "fgMade": 18,
+     "fgAttempted": 42,
+     "threeMade": 15,
+     "threeAttempted": 30,
+     "ftMade": 12,
+     "ftAttempted": 15
     }
    }
   },
@@ -1013,19 +1031,19 @@
    },
    "lastToDate": {
     "regular": {
-     "games": 7,
-     "started": 7,
-     "minutes": 234.5,
-     "points": 150,
-     "rebounds": 39,
-     "assists": 34,
+     "games": 8,
+     "started": 8,
+     "minutes": 248.6,
+     "points": 152,
+     "rebounds": 43,
+     "assists": 36,
      "steals": 9,
      "blocks": 3,
-     "turnovers": 12,
-     "fgMade": 44,
-     "fgAttempted": 89,
+     "turnovers": 13,
+     "fgMade": 45,
+     "fgAttempted": 94,
      "threeMade": 9,
-     "threeAttempted": 18,
+     "threeAttempted": 19,
      "ftMade": 53,
      "ftAttempted": 59
     }
@@ -1067,21 +1085,21 @@
    },
    "lastToDate": {
     "regular": {
-     "games": 5,
-     "started": 5,
-     "minutes": 126.7,
-     "points": 91,
-     "rebounds": 35,
-     "assists": 17,
-     "steals": 2,
+     "games": 6,
+     "started": 6,
+     "minutes": 153.1,
+     "points": 106,
+     "rebounds": 37,
+     "assists": 20,
+     "steals": 5,
      "blocks": 5,
      "turnovers": 9,
-     "fgMade": 33,
-     "fgAttempted": 66,
+     "fgMade": 35,
+     "fgAttempted": 74,
      "threeMade": 10,
-     "threeAttempted": 27,
-     "ftMade": 15,
-     "ftAttempted": 19
+     "threeAttempted": 28,
+     "ftMade": 26,
+     "ftAttempted": 32
     }
    }
   }
