@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-03T06:23:41.169Z",
+ "updatedAt": "2026-11-03T15:23:46.896Z",
  "teams": {
   "ATL": [
    {
@@ -115,14 +115,14 @@
    {
     "name": "Santi Aldama",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Knee (surgery)",
     "returnDate": "2026-11-04"
    },
    {
     "name": "Sergio de Larrea",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Knee (strain)",
     "returnDate": "2026-11-04"
    },
@@ -159,7 +159,7 @@
    {
     "name": "Spencer Jones",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Hamstring",
     "returnDate": "2026-11-04"
    }
@@ -226,18 +226,18 @@
   ],
   "HOU": [
    {
-    "name": "Clint Capela",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Ankle (sprain)",
-    "returnDate": "2026-11-04"
-   },
-   {
     "name": "Steven Adams",
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Calf (strain)",
     "returnDate": "2026-11-09"
+   },
+   {
+    "name": "Clint Capela",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Ankle (sprain)",
+    "returnDate": "2026-11-04"
    }
   ],
   "IND": [
@@ -468,7 +468,7 @@
     "status": "Out",
     "gameTimeDecision": true,
     "reason": "Back",
-    "returnDate": "2026-11-06"
+    "returnDate": "2026-11-04"
    },
    {
     "name": "Thomas Sorber",
@@ -533,7 +533,7 @@
    {
     "name": "Dominick Barlow",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Back (fracture)",
     "returnDate": "2026-11-04"
    }
@@ -613,7 +613,7 @@
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Calf (strain)",
-    "returnDate": "2026-11-06"
+    "returnDate": "2026-11-09"
    }
   ],
   "TOR": [
@@ -650,7 +650,7 @@
    {
     "name": "Jusuf Nurkic",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Foot (strain)",
     "returnDate": "2026-11-04"
    },
