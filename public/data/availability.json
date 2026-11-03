@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-02T23:23:38.896Z",
+ "updatedAt": "2026-11-03T00:23:39.016Z",
  "teams": {
   "ATL": [
    {
@@ -105,7 +105,7 @@
    },
    {
     "name": "Peyton Watson",
-    "status": "Day-To-Day",
+    "status": "Out",
     "gameTimeDecision": false,
     "reason": "Hamstring (soreness)",
     "returnDate": "2026-11-04"
@@ -245,13 +245,6 @@
     "gameTimeDecision": false,
     "reason": "Calf (strain)",
     "returnDate": "2026-11-09"
-   },
-   {
-    "name": "Reed Sheppard",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Back",
-    "returnDate": "2026-11-02"
    }
   ],
   "IND": [
@@ -382,17 +375,17 @@
   "MEM": [
    {
     "name": "Quinten Post",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
+    "status": "Out",
+    "gameTimeDecision": false,
     "reason": "Ankle",
-    "returnDate": "2026-11-02"
+    "returnDate": "2026-11-04"
    },
    {
     "name": "Scotty Pippen Jr.",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
+    "status": "Out",
+    "gameTimeDecision": false,
     "reason": "Back (soreness)",
-    "returnDate": "2026-11-02"
+    "returnDate": "2026-11-04"
    }
   ],
   "MIN": [
@@ -411,17 +404,17 @@
     "returnDate": "2027-04-02"
    },
    {
+    "name": "Terrence Shannon Jr.",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Hip (bruise)",
+    "returnDate": "2026-11-04"
+   },
+   {
     "name": "LaMelo Ball",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Wrist",
-    "returnDate": "2026-11-02"
-   },
-   {
-    "name": "Terrence Shannon Jr.",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Hip",
     "returnDate": "2026-11-02"
    }
   ],
@@ -550,13 +543,6 @@
     "gameTimeDecision": false,
     "reason": "Back (fracture)",
     "returnDate": "2026-11-04"
-   },
-   {
-    "name": "Joel Embiid",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Foot",
-    "returnDate": "2026-11-02"
    }
   ],
   "PHX": [
@@ -595,9 +581,9 @@
    {
     "name": "Dylan Cardwell",
     "status": "Out",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Calf (strain)",
-    "returnDate": "2026-11-02"
+    "returnDate": "2026-11-04"
    },
    {
     "name": "Keegan Murray",
@@ -612,13 +598,6 @@
     "gameTimeDecision": false,
     "reason": "Knee (dislocated)",
     "returnDate": "2026-11-10"
-   },
-   {
-    "name": "Zach LaVine",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Elbow (soreness)",
-    "returnDate": "2026-11-02"
    }
   ],
   "SAS": [
