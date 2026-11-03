@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-03T00:23:39.016Z",
+ "updatedAt": "2026-11-03T01:23:40.105Z",
  "teams": {
   "ATL": [
    {
@@ -150,13 +150,6 @@
   ],
   "DEN": [
    {
-    "name": "Alpha Diallo",
-    "status": "Out",
-    "gameTimeDecision": true,
-    "reason": "Wrist (sprain)",
-    "returnDate": "2026-11-02"
-   },
-   {
     "name": "Julian Strawther",
     "status": "Out",
     "gameTimeDecision": false,
@@ -284,6 +277,13 @@
     "returnDate": "2027-01-02"
    },
    {
+    "name": "Kelly Oubre Jr.",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Knee (bruise)",
+    "returnDate": "2026-11-04"
+   },
+   {
     "name": "Larry Nance Jr.",
     "status": "Out",
     "gameTimeDecision": false,
@@ -409,13 +409,6 @@
     "gameTimeDecision": false,
     "reason": "Hip (bruise)",
     "returnDate": "2026-11-04"
-   },
-   {
-    "name": "LaMelo Ball",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Wrist",
-    "returnDate": "2026-11-02"
    }
   ],
   "NOP": [

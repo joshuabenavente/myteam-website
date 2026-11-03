@@ -122,7 +122,11 @@
    "startUtc": "2026-11-03T00:30:00Z",
    "home": false,
    "opponent": "NYK",
-   "status": "scheduled",
+   "status": "live",
+   "score": {
+    "team": 0,
+    "opponent": 0
+   },
    "broadcasts": [
     {
      "name": "YES / DAZN",

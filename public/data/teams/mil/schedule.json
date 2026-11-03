@@ -156,7 +156,11 @@
    "startUtc": "2026-11-03T01:00:00Z",
    "home": false,
    "opponent": "MIN",
-   "status": "scheduled",
+   "status": "live",
+   "score": {
+    "team": 0,
+    "opponent": 0
+   },
    "broadcasts": [
     {
      "name": "MY24",

@@ -146,7 +146,11 @@
    "startUtc": "2026-11-03T00:30:00Z",
    "home": true,
    "opponent": "DET",
-   "status": "scheduled",
+   "status": "live",
+   "score": {
+    "team": 0,
+    "opponent": 0
+   },
    "broadcasts": [
     {
      "name": "WSOC 9/DAZN-CHA",
