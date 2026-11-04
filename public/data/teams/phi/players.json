@@ -1,7 +1,7 @@
 {
  "season": "2026-27",
  "lastSeason": "2025-26",
- "updatedAt": "2026-11-04T07:18:39.972Z",
+ "updatedAt": "2026-11-04T14:18:41.368Z",
  "teamGamesPlayed": {
   "regular": 8,
   "playoffs": 0
@@ -371,7 +371,7 @@
    "id": "jamesle01",
    "name": "LeBron James",
    "number": "23",
-   "position": "SF",
+   "position": "PF",
    "twoWay": false,
    "bio": {
     "height": "6' 9\"",
@@ -514,7 +514,7 @@
    "id": "caldwke01",
    "name": "Kentavious Caldwell-Pope",
    "number": "1",
-   "position": "SG",
+   "position": "SF",
    "twoWay": false,
    "bio": {
     "height": "6' 5\"",
@@ -767,7 +767,7 @@
    "id": "walkeja01",
    "name": "Jabari Walker",
    "number": "33",
-   "position": "SF",
+   "position": "C",
    "twoWay": false,
    "bio": {
     "height": "6' 7\"",
@@ -984,7 +984,7 @@
    "id": "ruperra01",
    "name": "Rayan Rupert",
    "number": "12",
-   "position": "SG",
+   "position": "SF",
    "twoWay": true,
    "bio": {
     "height": "6' 7\"",
@@ -1128,7 +1128,7 @@
   {
    "id": "barlodo01",
    "name": "Dominick Barlow",
-   "position": "SF",
+   "position": "C",
    "twoWay": false,
    "bio": {
     "height": "6' 9\"",
