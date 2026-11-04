@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-04T22:23:39.709Z",
+ "updatedAt": "2026-11-04T23:24:06.915Z",
  "teams": {
   "ATL": [
    {
@@ -8,6 +8,13 @@
     "gameTimeDecision": false,
     "reason": "Knee",
     "returnDate": "2027-07-01"
+   },
+   {
+    "name": "Jalen Johnson",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Ankle",
+    "returnDate": "2026-11-06"
    },
    {
     "name": "Jock Landale",
@@ -22,13 +29,6 @@
     "gameTimeDecision": false,
     "reason": "Foot (fracture)",
     "returnDate": "2026-11-20"
-   },
-   {
-    "name": "Jalen Johnson",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Ankle",
-    "returnDate": "2026-11-04"
    }
   ],
   "BOS": [
@@ -45,13 +45,6 @@
     "gameTimeDecision": false,
     "reason": "Rest",
     "returnDate": "2026-11-06"
-   },
-   {
-    "name": "Payton Pritchard",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Shoulder",
-    "returnDate": "2026-11-04"
    }
   ],
   "BKN": [
@@ -90,16 +83,9 @@
    {
     "name": "Nic Claxton",
     "status": "Out",
-    "gameTimeDecision": true,
-    "reason": "Hamstring",
-    "returnDate": "2026-11-04"
-   },
-   {
-    "name": "Jalen Smith",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Finger",
-    "returnDate": "2026-11-04"
+    "gameTimeDecision": false,
+    "reason": "Hamstring (strain)",
+    "returnDate": "2026-11-08"
    }
   ],
   "CLE": [
@@ -424,18 +410,18 @@
     "returnDate": "2026-11-04"
    },
    {
+    "name": "Trey Murphy III",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Knee",
+    "returnDate": "2026-11-06"
+   },
+   {
     "name": "Yves Missi",
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Knee (bruise)",
     "returnDate": "2026-11-08"
-   },
-   {
-    "name": "Trey Murphy III",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Knee",
-    "returnDate": "2026-11-04"
    }
   ],
   "NYK": [
@@ -470,6 +456,13 @@
     "returnDate": "2027-03-02"
    },
    {
+    "name": "Jaylin Williams",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Back (spasms)",
+    "returnDate": "2026-11-06"
+   },
+   {
     "name": "Nikola Topic",
     "status": "Out",
     "gameTimeDecision": false,
@@ -482,13 +475,6 @@
     "gameTimeDecision": false,
     "reason": "Knee",
     "returnDate": "2026-11-13"
-   },
-   {
-    "name": "Jaylin Williams",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Back (spasms)",
-    "returnDate": "2026-11-04"
    }
   ],
   "ORL": [
@@ -541,7 +527,7 @@
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Back (fracture)",
-    "returnDate": "2026-11-12"
+    "returnDate": "2026-11-18"
    }
   ],
   "PHX": [
@@ -710,20 +696,6 @@
     "gameTimeDecision": false,
     "reason": "Hip (pinched nerve)",
     "returnDate": "2026-11-09"
-   },
-   {
-    "name": "Alex Sarr",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Knee (soreness)",
-    "returnDate": "2026-11-04"
-   },
-   {
-    "name": "Bilal Coulibaly",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Illness",
-    "returnDate": "2026-11-04"
    }
   ]
  }
