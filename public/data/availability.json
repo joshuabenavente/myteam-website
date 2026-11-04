@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-04T00:23:43.098Z",
+ "updatedAt": "2026-11-04T01:23:31.169Z",
  "teams": {
   "ATL": [
    {
@@ -347,20 +347,6 @@
     "gameTimeDecision": false,
     "reason": "Foot (surgery)",
     "returnDate": "2026-11-08"
-   },
-   {
-    "name": "Derrick Jones Jr.",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Knee (soreness)",
-    "returnDate": "2026-11-04"
-   },
-   {
-    "name": "Rui Hachimura",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Quadriceps (bruise)",
-    "returnDate": "2026-11-04"
    }
   ],
   "LAL": [
@@ -385,6 +371,22 @@
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Ankle",
+    "returnDate": "2026-11-04"
+   }
+  ],
+  "MIA": [
+   {
+    "name": "Giannis Antetokounmpo",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Wrist (sprain)",
+    "returnDate": "2026-11-04"
+   },
+   {
+    "name": "Myron Gardner",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Quadriceps (bruise)",
     "returnDate": "2026-11-04"
    }
   ],
@@ -561,6 +563,13 @@
     "gameTimeDecision": true,
     "reason": "Calf",
     "returnDate": "2026-11-04"
+   },
+   {
+    "name": "Rasheer Fleming",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Ankle (sprain)",
+    "returnDate": "2026-11-04"
    }
   ],
   "POR": [
@@ -588,13 +597,6 @@
     "returnDate": "2027-10-01"
    },
    {
-    "name": "Dylan Cardwell",
-    "status": "Out",
-    "gameTimeDecision": true,
-    "reason": "Calf (strain)",
-    "returnDate": "2026-11-04"
-   },
-   {
     "name": "Keegan Murray",
     "status": "Out",
     "gameTimeDecision": false,
@@ -607,6 +609,13 @@
     "gameTimeDecision": false,
     "reason": "Knee (dislocated)",
     "returnDate": "2026-11-10"
+   },
+   {
+    "name": "Precious Achiuwa",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Ankle (soreness)",
+    "returnDate": "2026-11-04"
    }
   ],
   "SAS": [
