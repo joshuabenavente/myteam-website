@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-04T18:23:50.894Z",
+ "updatedAt": "2026-11-04T19:23:44.522Z",
  "teams": {
   "ATL": [
    {
@@ -247,18 +247,18 @@
   ],
   "HOU": [
    {
+    "name": "Clint Capela",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Ankle (sprain)",
+    "returnDate": "2026-11-07"
+   },
+   {
     "name": "Steven Adams",
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Calf (strain)",
     "returnDate": "2026-11-09"
-   },
-   {
-    "name": "Clint Capela",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Ankle (sprain)",
-    "returnDate": "2026-11-04"
    }
   ],
   "IND": [
@@ -374,13 +374,6 @@
     "gameTimeDecision": true,
     "reason": "Wrist (sprain)",
     "returnDate": "2026-11-04"
-   },
-   {
-    "name": "Myron Gardner",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Quadriceps (bruise)",
-    "returnDate": "2026-11-04"
    }
   ],
   "MIL": [
@@ -409,10 +402,10 @@
    },
    {
     "name": "Terrence Shannon Jr.",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
+    "status": "Out",
+    "gameTimeDecision": false,
     "reason": "Hip (bruise)",
-    "returnDate": "2026-11-04"
+    "returnDate": "2026-11-06"
    }
   ],
   "NOP": [
@@ -526,13 +519,6 @@
     "gameTimeDecision": false,
     "reason": "Ankle (sprain)",
     "returnDate": "2026-11-22"
-   },
-   {
-    "name": "Anthony Black",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Rest",
-    "returnDate": "2026-11-05"
    }
   ],
   "PHI": [
