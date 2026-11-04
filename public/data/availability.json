@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-04T20:23:44.907Z",
+ "updatedAt": "2026-11-04T21:23:45.986Z",
  "teams": {
   "ATL": [
    {
@@ -553,17 +553,17 @@
     "returnDate": "2027-02-03"
    },
    {
+    "name": "Rasheer Fleming",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Ankle (sprain)",
+    "returnDate": "2026-11-05"
+   },
+   {
     "name": "Jordan Goodwin",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Calf",
-    "returnDate": "2026-11-04"
-   },
-   {
-    "name": "Rasheer Fleming",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Ankle (sprain)",
     "returnDate": "2026-11-04"
    }
   ],
@@ -592,6 +592,13 @@
     "returnDate": "2027-10-01"
    },
    {
+    "name": "Daeqwon Plowden",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Illness",
+    "returnDate": "2026-11-06"
+   },
+   {
     "name": "Keegan Murray",
     "status": "Out",
     "gameTimeDecision": false,
@@ -604,13 +611,6 @@
     "gameTimeDecision": false,
     "reason": "Knee (dislocated)",
     "returnDate": "2026-11-10"
-   },
-   {
-    "name": "Precious Achiuwa",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Ankle (soreness)",
-    "returnDate": "2026-11-04"
    }
   ],
   "SAS": [
