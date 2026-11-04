@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-04T01:23:31.169Z",
+ "updatedAt": "2026-11-04T18:23:50.894Z",
  "teams": {
   "ATL": [
    {
@@ -41,10 +41,10 @@
    },
    {
     "name": "Jayson Tatum",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
+    "status": "Out",
+    "gameTimeDecision": false,
     "reason": "Rest",
-    "returnDate": "2026-11-04"
+    "returnDate": "2026-11-06"
    },
    {
     "name": "Payton Pritchard",
@@ -77,13 +77,6 @@
     "gameTimeDecision": false,
     "reason": "Hamstring",
     "returnDate": "2026-11-09"
-   },
-   {
-    "name": "Kon Knueppel",
-    "status": "Out",
-    "gameTimeDecision": true,
-    "reason": "Hamstring",
-    "returnDate": "2026-11-04"
    },
    {
     "name": "Coby White",
@@ -390,6 +383,15 @@
     "returnDate": "2026-11-04"
    }
   ],
+  "MIL": [
+   {
+    "name": "Kam Jones",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Ankle",
+    "returnDate": "2026-11-04"
+   }
+  ],
   "MIN": [
    {
     "name": "Anthony Edwards",
@@ -439,10 +441,10 @@
   "NYK": [
    {
     "name": "Josh Hart",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
+    "status": "Out",
+    "gameTimeDecision": false,
     "reason": "Ankle",
-    "returnDate": "2026-11-04"
+    "returnDate": "2026-11-07"
    }
   ],
   "OKC": [
@@ -728,6 +730,13 @@
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Back (spasms)",
+    "returnDate": "2026-11-04"
+   },
+   {
+    "name": "Bilal Coulibaly",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Illness",
     "returnDate": "2026-11-04"
    }
   ]
