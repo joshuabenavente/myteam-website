@@ -1,12 +1,85 @@
 {
  "season": "2026-27",
  "lastSeason": "2025-26",
- "updatedAt": "2026-11-05T07:20:03.974Z",
+ "updatedAt": "2026-11-05T13:20:22.222Z",
  "teamGamesPlayed": {
   "regular": 8,
   "playoffs": 0
  },
  "players": [
+  {
+   "id": "willizi01",
+   "name": "Zion Williamson",
+   "number": "1",
+   "position": "PF",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 6\"",
+    "weight": 284,
+    "birthDate": "2000-07-06",
+    "experience": 6,
+    "college": "Duke",
+    "birthPlace": "Salisbury, NC"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4395628.png",
+   "current": {
+    "regular": {
+     "games": 8,
+     "started": 8,
+     "minutes": 263.1,
+     "points": 172,
+     "rebounds": 41,
+     "assists": 21,
+     "steals": 20,
+     "blocks": 5,
+     "turnovers": 17,
+     "fgMade": 62,
+     "fgAttempted": 102,
+     "threeMade": 3,
+     "threeAttempted": 7,
+     "ftMade": 45,
+     "ftAttempted": 59
+    }
+   },
+   "lastFull": {
+    "regular": {
+     "games": 62,
+     "started": 55,
+     "minutes": 1841.3,
+     "points": 1302,
+     "rebounds": 353,
+     "assists": 199,
+     "steals": 60,
+     "blocks": 34,
+     "turnovers": 126,
+     "fgMade": 484,
+     "fgAttempted": 807,
+     "threeMade": 1,
+     "threeAttempted": 4,
+     "ftMade": 333,
+     "ftAttempted": 465
+    }
+   },
+   "lastToDate": {
+    "regular": {
+     "games": 5,
+     "started": 5,
+     "minutes": 157.4,
+     "points": 114,
+     "rebounds": 34,
+     "assists": 23,
+     "steals": 10,
+     "blocks": 1,
+     "turnovers": 17,
+     "fgMade": 38,
+     "fgAttempted": 78,
+     "threeMade": 0,
+     "threeAttempted": 0,
+     "ftMade": 38,
+     "ftAttempted": 57
+    }
+   }
+  },
   {
    "id": "murphtr02",
    "name": "Trey Murphy III",
@@ -81,79 +154,6 @@
    }
   },
   {
-   "id": "willizi01",
-   "name": "Zion Williamson",
-   "number": "1",
-   "position": "PF",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 6\"",
-    "weight": 284,
-    "birthDate": "2000-07-06",
-    "experience": 6,
-    "college": "Duke",
-    "birthPlace": "Salisbury, NC"
-   },
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4395628.png",
-   "current": {
-    "regular": {
-     "games": 7,
-     "started": 7,
-     "minutes": 225.5,
-     "points": 149,
-     "rebounds": 37,
-     "assists": 19,
-     "steals": 19,
-     "blocks": 3,
-     "turnovers": 15,
-     "fgMade": 56,
-     "fgAttempted": 88,
-     "threeMade": 3,
-     "threeAttempted": 7,
-     "ftMade": 34,
-     "ftAttempted": 46
-    }
-   },
-   "lastFull": {
-    "regular": {
-     "games": 62,
-     "started": 55,
-     "minutes": 1841.3,
-     "points": 1302,
-     "rebounds": 353,
-     "assists": 199,
-     "steals": 60,
-     "blocks": 34,
-     "turnovers": 126,
-     "fgMade": 484,
-     "fgAttempted": 807,
-     "threeMade": 1,
-     "threeAttempted": 4,
-     "ftMade": 333,
-     "ftAttempted": 465
-    }
-   },
-   "lastToDate": {
-    "regular": {
-     "games": 5,
-     "started": 5,
-     "minutes": 157.4,
-     "points": 114,
-     "rebounds": 34,
-     "assists": 23,
-     "steals": 10,
-     "blocks": 1,
-     "turnovers": 17,
-     "fgMade": 38,
-     "fgAttempted": 78,
-     "threeMade": 0,
-     "threeAttempted": 0,
-     "ftMade": 38,
-     "ftAttempted": 57
-    }
-   }
-  },
-  {
    "id": "fearsje01",
    "name": "Jeremiah Fears",
    "number": "0",
@@ -170,21 +170,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5144091.png",
    "current": {
     "regular": {
-     "games": 7,
-     "started": 7,
-     "minutes": 190.3,
-     "points": 90,
-     "rebounds": 30,
-     "assists": 34,
-     "steals": 6,
+     "games": 8,
+     "started": 8,
+     "minutes": 224.3,
+     "points": 109,
+     "rebounds": 36,
+     "assists": 36,
+     "steals": 8,
      "blocks": 4,
-     "turnovers": 19,
-     "fgMade": 37,
-     "fgAttempted": 90,
-     "threeMade": 7,
-     "threeAttempted": 29,
-     "ftMade": 9,
-     "ftAttempted": 13
+     "turnovers": 21,
+     "fgMade": 43,
+     "fgAttempted": 106,
+     "threeMade": 8,
+     "threeAttempted": 33,
+     "ftMade": 15,
+     "ftAttempted": 19
     }
    },
    "lastFull": {
@@ -243,21 +243,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4397136.png",
    "current": {
     "regular": {
-     "games": 7,
+     "games": 8,
      "started": 0,
-     "minutes": 183.2,
-     "points": 109,
-     "rebounds": 27,
-     "assists": 12,
-     "steals": 8,
+     "minutes": 212.5,
+     "points": 131,
+     "rebounds": 31,
+     "assists": 15,
+     "steals": 9,
      "blocks": 1,
-     "turnovers": 9,
-     "fgMade": 37,
-     "fgAttempted": 76,
-     "threeMade": 12,
-     "threeAttempted": 34,
-     "ftMade": 23,
-     "ftAttempted": 26
+     "turnovers": 10,
+     "fgMade": 46,
+     "fgAttempted": 90,
+     "threeMade": 14,
+     "threeAttempted": 38,
+     "ftMade": 25,
+     "ftAttempted": 29
     }
    },
    "lastFull": {
@@ -316,21 +316,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4869780.png",
    "current": {
     "regular": {
-     "games": 7,
+     "games": 8,
      "started": 0,
-     "minutes": 165.7,
-     "points": 87,
-     "rebounds": 54,
-     "assists": 18,
+     "minutes": 193,
+     "points": 107,
+     "rebounds": 63,
+     "assists": 24,
      "steals": 8,
-     "blocks": 4,
-     "turnovers": 16,
-     "fgMade": 29,
-     "fgAttempted": 55,
+     "blocks": 5,
+     "turnovers": 18,
+     "fgMade": 37,
+     "fgAttempted": 76,
      "threeMade": 3,
-     "threeAttempted": 7,
-     "ftMade": 26,
-     "ftAttempted": 30
+     "threeAttempted": 9,
+     "ftMade": 30,
+     "ftAttempted": 34
     }
    },
    "lastFull": {
@@ -389,19 +389,19 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4277813.png",
    "current": {
     "regular": {
-     "games": 7,
-     "started": 3,
-     "minutes": 154.4,
-     "points": 50,
-     "rebounds": 19,
-     "assists": 7,
+     "games": 8,
+     "started": 4,
+     "minutes": 191.4,
+     "points": 52,
+     "rebounds": 24,
+     "assists": 8,
      "steals": 8,
-     "blocks": 1,
-     "turnovers": 10,
-     "fgMade": 20,
-     "fgAttempted": 44,
+     "blocks": 2,
+     "turnovers": 11,
+     "fgMade": 21,
+     "fgAttempted": 51,
      "threeMade": 6,
-     "threeAttempted": 19,
+     "threeAttempted": 22,
      "ftMade": 4,
      "ftAttempted": 5
     }
@@ -462,21 +462,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3907497.png",
    "current": {
     "regular": {
-     "games": 4,
-     "started": 4,
-     "minutes": 129.3,
-     "points": 71,
-     "rebounds": 23,
-     "assists": 24,
-     "steals": 8,
+     "games": 5,
+     "started": 5,
+     "minutes": 173.8,
+     "points": 91,
+     "rebounds": 31,
+     "assists": 28,
+     "steals": 12,
      "blocks": 4,
-     "turnovers": 11,
-     "fgMade": 29,
-     "fgAttempted": 62,
-     "threeMade": 3,
-     "threeAttempted": 15,
-     "ftMade": 10,
-     "ftAttempted": 11
+     "turnovers": 15,
+     "fgMade": 33,
+     "fgAttempted": 69,
+     "threeMade": 4,
+     "threeAttempted": 18,
+     "ftMade": 21,
+     "ftAttempted": 22
     }
    },
    "lastFull": {
@@ -517,19 +517,19 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4683634.png",
    "current": {
     "regular": {
-     "games": 7,
+     "games": 8,
      "started": 0,
-     "minutes": 118.4,
-     "points": 50,
-     "rebounds": 14,
-     "assists": 12,
+     "minutes": 133.6,
+     "points": 52,
+     "rebounds": 19,
+     "assists": 13,
      "steals": 3,
      "blocks": 0,
-     "turnovers": 9,
-     "fgMade": 18,
-     "fgAttempted": 41,
+     "turnovers": 10,
+     "fgMade": 19,
+     "fgAttempted": 47,
      "threeMade": 5,
-     "threeAttempted": 19,
+     "threeAttempted": 22,
      "ftMade": 9,
      "ftAttempted": 10
     }
@@ -588,19 +588,19 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4997538.png",
    "current": {
     "regular": {
-     "games": 6,
-     "started": 3,
-     "minutes": 109.1,
-     "points": 60,
-     "rebounds": 27,
-     "assists": 5,
+     "games": 7,
+     "started": 4,
+     "minutes": 129.7,
+     "points": 65,
+     "rebounds": 31,
+     "assists": 7,
      "steals": 8,
-     "blocks": 3,
-     "turnovers": 7,
-     "fgMade": 22,
-     "fgAttempted": 34,
-     "threeMade": 10,
-     "threeAttempted": 19,
+     "blocks": 4,
+     "turnovers": 8,
+     "fgMade": 24,
+     "fgAttempted": 37,
+     "threeMade": 11,
+     "threeAttempted": 20,
      "ftMade": 6,
      "ftAttempted": 10
     }
@@ -641,6 +641,96 @@
      "threeAttempted": 1,
      "ftMade": 1,
      "ftAttempted": 6
+    }
+   }
+  },
+  {
+   "id": "watfotr01",
+   "name": "Trendon Watford",
+   "number": "9",
+   "position": "PF",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 8\"",
+    "weight": 237,
+    "birthDate": "2000-11-09",
+    "experience": 5,
+    "college": "LSU",
+    "birthPlace": "Birmingham, AL"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4431675.png",
+   "current": {
+    "regular": {
+     "games": 4,
+     "started": 0,
+     "minutes": 70.4,
+     "points": 26,
+     "rebounds": 12,
+     "assists": 5,
+     "steals": 5,
+     "blocks": 2,
+     "turnovers": 6,
+     "fgMade": 6,
+     "fgAttempted": 11,
+     "threeMade": 0,
+     "threeAttempted": 3,
+     "ftMade": 14,
+     "ftAttempted": 17
+    }
+   },
+   "lastFull": {
+    "regular": {
+     "games": 53,
+     "started": 7,
+     "minutes": 864,
+     "points": 346,
+     "rebounds": 175,
+     "assists": 132,
+     "steals": 16,
+     "blocks": 22,
+     "turnovers": 64,
+     "fgMade": 138,
+     "fgAttempted": 268,
+     "threeMade": 10,
+     "threeAttempted": 50,
+     "ftMade": 60,
+     "ftAttempted": 77
+    },
+    "playoffs": {
+     "games": 7,
+     "started": 0,
+     "minutes": 39.9,
+     "points": 20,
+     "rebounds": 3,
+     "assists": 3,
+     "steals": 3,
+     "blocks": 0,
+     "turnovers": 2,
+     "fgMade": 7,
+     "fgAttempted": 11,
+     "threeMade": 0,
+     "threeAttempted": 1,
+     "ftMade": 6,
+     "ftAttempted": 8
+    }
+   },
+   "lastToDate": {
+    "regular": {
+     "games": 5,
+     "started": 0,
+     "minutes": 97.1,
+     "points": 42,
+     "rebounds": 20,
+     "assists": 19,
+     "steals": 2,
+     "blocks": 1,
+     "turnovers": 8,
+     "fgMade": 15,
+     "fgAttempted": 26,
+     "threeMade": 3,
+     "threeAttempted": 5,
+     "ftMade": 9,
+     "ftAttempted": 10
     }
    }
   },
@@ -714,96 +804,6 @@
      "threeAttempted": 59,
      "ftMade": 31,
      "ftAttempted": 32
-    }
-   }
-  },
-  {
-   "id": "watfotr01",
-   "name": "Trendon Watford",
-   "number": "9",
-   "position": "PF",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 8\"",
-    "weight": 237,
-    "birthDate": "2000-11-09",
-    "experience": 5,
-    "college": "LSU",
-    "birthPlace": "Birmingham, AL"
-   },
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4431675.png",
-   "current": {
-    "regular": {
-     "games": 3,
-     "started": 0,
-     "minutes": 50.8,
-     "points": 19,
-     "rebounds": 9,
-     "assists": 3,
-     "steals": 4,
-     "blocks": 1,
-     "turnovers": 3,
-     "fgMade": 5,
-     "fgAttempted": 10,
-     "threeMade": 0,
-     "threeAttempted": 3,
-     "ftMade": 9,
-     "ftAttempted": 11
-    }
-   },
-   "lastFull": {
-    "regular": {
-     "games": 53,
-     "started": 7,
-     "minutes": 864,
-     "points": 346,
-     "rebounds": 175,
-     "assists": 132,
-     "steals": 16,
-     "blocks": 22,
-     "turnovers": 64,
-     "fgMade": 138,
-     "fgAttempted": 268,
-     "threeMade": 10,
-     "threeAttempted": 50,
-     "ftMade": 60,
-     "ftAttempted": 77
-    },
-    "playoffs": {
-     "games": 7,
-     "started": 0,
-     "minutes": 39.9,
-     "points": 20,
-     "rebounds": 3,
-     "assists": 3,
-     "steals": 3,
-     "blocks": 0,
-     "turnovers": 2,
-     "fgMade": 7,
-     "fgAttempted": 11,
-     "threeMade": 0,
-     "threeAttempted": 1,
-     "ftMade": 6,
-     "ftAttempted": 8
-    }
-   },
-   "lastToDate": {
-    "regular": {
-     "games": 5,
-     "started": 0,
-     "minutes": 97.1,
-     "points": 42,
-     "rebounds": 20,
-     "assists": 19,
-     "steals": 2,
-     "blocks": 1,
-     "turnovers": 8,
-     "fgMade": 15,
-     "fgAttempted": 26,
-     "threeMade": 3,
-     "threeAttempted": 5,
-     "ftMade": 9,
-     "ftAttempted": 10
     }
    }
   },
