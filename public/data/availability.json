@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-05T02:23:42.214Z",
+ "updatedAt": "2026-11-05T03:23:47.035Z",
  "teams": {
   "ATL": [
    {
@@ -52,6 +52,13 @@
     "gameTimeDecision": false,
     "reason": "Rest",
     "returnDate": "2026-11-06"
+   },
+   {
+    "name": "Payton Pritchard",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Eye (abrasion)",
+    "returnDate": "2026-11-06"
    }
   ],
   "BKN": [
@@ -68,6 +75,13 @@
     "gameTimeDecision": false,
     "reason": "Shoulder (sprain)",
     "returnDate": "2026-11-06"
+   },
+   {
+    "name": "Day'Ron Sharpe",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Undisclosed",
+    "returnDate": "2026-11-04"
    },
    {
     "name": "Noah Clowney",
@@ -88,7 +102,7 @@
    {
     "name": "Kon Knueppel",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Leg (soreness)",
     "returnDate": "2026-11-06"
    }
@@ -106,6 +120,13 @@
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Hand",
+    "returnDate": "2026-11-08"
+   },
+   {
+    "name": "Zach Collins",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Undisclosed",
     "returnDate": "2026-11-08"
    }
   ],
@@ -337,6 +358,13 @@
     "gameTimeDecision": false,
     "reason": "Back (soreness)",
     "returnDate": "2026-11-06"
+   },
+   {
+    "name": "Isaiah Stewart",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Knee",
+    "returnDate": "2026-11-04"
    }
   ],
   "MIL": [
@@ -491,6 +519,13 @@
     "gameTimeDecision": false,
     "reason": "Back (fracture)",
     "returnDate": "2026-11-18"
+   },
+   {
+    "name": "Adem Bona",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Head",
+    "returnDate": "2026-11-06"
    }
   ],
   "PHX": [
