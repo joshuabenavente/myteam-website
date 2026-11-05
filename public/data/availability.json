@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-05T01:23:43.045Z",
+ "updatedAt": "2026-11-05T02:23:42.214Z",
  "teams": {
   "ATL": [
    {
@@ -68,6 +68,13 @@
     "gameTimeDecision": false,
     "reason": "Shoulder (sprain)",
     "returnDate": "2026-11-06"
+   },
+   {
+    "name": "Noah Clowney",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Knee (soreness)",
+    "returnDate": "2026-11-07"
    }
   ],
   "CHA": [
@@ -81,9 +88,9 @@
    {
     "name": "Kon Knueppel",
     "status": "Out",
-    "gameTimeDecision": true,
-    "reason": "Hamstring",
-    "returnDate": "2026-11-04"
+    "gameTimeDecision": false,
+    "reason": "Leg (soreness)",
+    "returnDate": "2026-11-06"
    }
   ],
   "CHI": [
@@ -92,6 +99,13 @@
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Hamstring (strain)",
+    "returnDate": "2026-11-08"
+   },
+   {
+    "name": "Jalen Smith",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Hand",
     "returnDate": "2026-11-08"
    }
   ],
@@ -109,6 +123,13 @@
     "gameTimeDecision": false,
     "reason": "Hamstring (soreness)",
     "returnDate": "2026-11-06"
+   },
+   {
+    "name": "Jarrett Allen",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Knee",
+    "returnDate": "2026-11-04"
    }
   ],
   "DAL": [
@@ -149,6 +170,13 @@
    }
   ],
   "DEN": [
+   {
+    "name": "DeMar DeRozan",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Back (spasms)",
+    "returnDate": "2026-11-07"
+   },
    {
     "name": "Julian Strawther",
     "status": "Out",
@@ -291,13 +319,6 @@
     "gameTimeDecision": false,
     "reason": "Foot (surgery)",
     "returnDate": "2026-11-08"
-   },
-   {
-    "name": "Isaiah Jackson",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Groin",
-    "returnDate": "2026-11-04"
    }
   ],
   "LAL": [
@@ -316,15 +337,6 @@
     "gameTimeDecision": false,
     "reason": "Back (soreness)",
     "returnDate": "2026-11-06"
-   }
-  ],
-  "MIA": [
-   {
-    "name": "Giannis Antetokounmpo",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Wrist (sprain)",
-    "returnDate": "2026-11-04"
    }
   ],
   "MIL": [
@@ -580,13 +592,6 @@
     "gameTimeDecision": false,
     "reason": "Foot (fracture)",
     "returnDate": "2026-11-09"
-   },
-   {
-    "name": "Jakob Poeltl",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Shoulder (inflammation)",
-    "returnDate": "2026-11-04"
    }
   ],
   "UTA": [

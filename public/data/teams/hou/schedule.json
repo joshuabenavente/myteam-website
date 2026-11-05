@@ -165,7 +165,11 @@
    "startUtc": "2026-11-05T01:30:00Z",
    "home": true,
    "opponent": "MIN",
-   "status": "scheduled",
+   "status": "live",
+   "score": {
+    "team": 0,
+    "opponent": 0
+   },
    "broadcasts": [
     {
      "name": "SCHN/SCHN+",
