@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-04T23:24:06.915Z",
+ "updatedAt": "2026-11-05T00:23:42.306Z",
  "teams": {
   "ATL": [
    {
@@ -70,13 +70,6 @@
     "gameTimeDecision": false,
     "reason": "Hamstring",
     "returnDate": "2026-11-09"
-   },
-   {
-    "name": "Coby White",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Calf",
-    "returnDate": "2026-11-04"
    }
   ],
   "CHI": [
@@ -122,9 +115,9 @@
    {
     "name": "Santi Aldama",
     "status": "Out",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Knee (surgery)",
-    "returnDate": "2026-11-04"
+    "returnDate": "2026-11-06"
    },
    {
     "name": "Sergio de Larrea",
@@ -351,13 +344,6 @@
     "gameTimeDecision": false,
     "reason": "Back (soreness)",
     "returnDate": "2026-11-06"
-   },
-   {
-    "name": "Quinten Post",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Ankle",
-    "returnDate": "2026-11-04"
    }
   ],
   "MIA": [
@@ -372,10 +358,10 @@
   "MIL": [
    {
     "name": "Kam Jones",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
+    "status": "Out",
+    "gameTimeDecision": false,
     "reason": "Ankle",
-    "returnDate": "2026-11-04"
+    "returnDate": "2026-11-06"
    }
   ],
   "MIN": [
