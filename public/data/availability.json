@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-05T05:23:52.636Z",
+ "updatedAt": "2026-11-05T15:23:46.424Z",
  "teams": {
   "ATL": [
    {
@@ -8,20 +8,6 @@
     "gameTimeDecision": false,
     "reason": "Knee",
     "returnDate": "2027-07-01"
-   },
-   {
-    "name": "Jalen Johnson",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Ankle",
-    "returnDate": "2026-11-06"
-   },
-   {
-    "name": "Jock Landale",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Hip",
-    "returnDate": "2026-11-06"
    },
    {
     "name": "Mouhamed Gueye",
@@ -36,6 +22,20 @@
     "gameTimeDecision": true,
     "reason": "Toe",
     "returnDate": "2026-11-06"
+   },
+   {
+    "name": "Jalen Johnson",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Ankle",
+    "returnDate": "2026-11-06"
+   },
+   {
+    "name": "Jock Landale",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Hip",
+    "returnDate": "2026-11-06"
    }
   ],
   "BOS": [
@@ -48,8 +48,8 @@
    },
    {
     "name": "Jayson Tatum",
-    "status": "Out",
-    "gameTimeDecision": false,
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
     "reason": "Rest",
     "returnDate": "2026-11-06"
    },
@@ -67,7 +67,7 @@
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Leg (bruise)",
-    "returnDate": "2026-11-07"
+    "returnDate": "2026-11-11"
    },
    {
     "name": "Tyler Bilodeau",
@@ -111,7 +111,7 @@
    {
     "name": "Nic Claxton",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Hamstring (strain)",
     "returnDate": "2026-11-08"
    },
@@ -134,15 +134,8 @@
    {
     "name": "Jaylon Tyson",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Ankle (sprain)",
-    "returnDate": "2026-11-06"
-   },
-   {
-    "name": "Peyton Watson",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Hamstring (soreness)",
     "returnDate": "2026-11-06"
    },
    {
@@ -150,6 +143,13 @@
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Knee",
+    "returnDate": "2026-11-06"
+   },
+   {
+    "name": "Peyton Watson",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Hamstring (soreness)",
     "returnDate": "2026-11-06"
    },
    {
@@ -169,23 +169,16 @@
     "returnDate": "2026-11-12"
    },
    {
-    "name": "Max Christie",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Hip",
-    "returnDate": "2026-11-06"
-   },
-   {
     "name": "Santi Aldama",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Knee (surgery)",
     "returnDate": "2026-11-06"
    },
    {
     "name": "Sergio de Larrea",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Knee (strain)",
     "returnDate": "2026-11-06"
    },
@@ -195,16 +188,16 @@
     "gameTimeDecision": false,
     "reason": "Heel (inflammation)",
     "returnDate": "2026-11-12"
+   },
+   {
+    "name": "Max Christie",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Hip",
+    "returnDate": "2026-11-06"
    }
   ],
   "DEN": [
-   {
-    "name": "DeMar DeRozan",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Back (spasms)",
-    "returnDate": "2026-11-07"
-   },
    {
     "name": "Julian Strawther",
     "status": "Out",
@@ -218,13 +211,20 @@
     "gameTimeDecision": false,
     "reason": "Hamstring",
     "returnDate": "2026-11-11"
+   },
+   {
+    "name": "DeMar DeRozan",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Back (spasms)",
+    "returnDate": "2026-11-07"
    }
   ],
   "DET": [
    {
     "name": "Isaiah Joe",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Hip (bruise)",
     "returnDate": "2026-11-08"
    },
@@ -268,18 +268,18 @@
   ],
   "HOU": [
    {
-    "name": "Clint Capela",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Ankle (sprain)",
-    "returnDate": "2026-11-07"
-   },
-   {
     "name": "Steven Adams",
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Calf (strain)",
     "returnDate": "2026-11-09"
+   },
+   {
+    "name": "Clint Capela",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Ankle (sprain)",
+    "returnDate": "2026-11-07"
    }
   ],
   "IND": [
@@ -298,13 +298,6 @@
     "returnDate": "2027-01-02"
    },
    {
-    "name": "Kelly Oubre Jr.",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Calf (bruise)",
-    "returnDate": "2026-11-07"
-   },
-   {
     "name": "T.J. McConnell",
     "status": "Out",
     "gameTimeDecision": false,
@@ -317,6 +310,13 @@
     "gameTimeDecision": false,
     "reason": "Hamstring (strain)",
     "returnDate": "2026-11-13"
+   },
+   {
+    "name": "Kelly Oubre Jr.",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Calf (bruise)",
+    "returnDate": "2026-11-07"
    }
   ],
   "LAC": [
@@ -325,12 +325,12 @@
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Knee (inflammation)",
-    "returnDate": "2026-11-08"
+    "returnDate": "2026-11-29"
    },
    {
     "name": "Brandon Ingram",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Achilles (surgery)",
     "returnDate": "2026-11-08"
    },
@@ -344,7 +344,7 @@
    {
     "name": "Yanic Konan Niederhauser",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Foot (surgery)",
     "returnDate": "2026-11-08"
    }
@@ -362,7 +362,7 @@
    {
     "name": "Scotty Pippen Jr.",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Back (soreness)",
     "returnDate": "2026-11-06"
    },
@@ -377,8 +377,8 @@
   "MIL": [
    {
     "name": "Kam Jones",
-    "status": "Out",
-    "gameTimeDecision": false,
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
     "reason": "Ankle",
     "returnDate": "2026-11-06"
    }
@@ -400,33 +400,33 @@
    },
    {
     "name": "Terrence Shannon Jr.",
-    "status": "Out",
-    "gameTimeDecision": false,
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
     "reason": "Hip (bruise)",
     "returnDate": "2026-11-06"
    }
   ],
   "NOP": [
    {
-    "name": "Trey Murphy III",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Knee",
-    "returnDate": "2026-11-06"
-   },
-   {
     "name": "Yves Missi",
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Knee (bruise)",
     "returnDate": "2026-11-08"
+   },
+   {
+    "name": "Trey Murphy III",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Knee",
+    "returnDate": "2026-11-06"
    }
   ],
   "NYK": [
    {
     "name": "Josh Hart",
-    "status": "Out",
-    "gameTimeDecision": false,
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
     "reason": "Ankle",
     "returnDate": "2026-11-07"
    }
@@ -454,13 +454,6 @@
     "returnDate": "2027-03-02"
    },
    {
-    "name": "Jaylin Williams",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Back (spasms)",
-    "returnDate": "2026-11-06"
-   },
-   {
     "name": "Nikola Topic",
     "status": "Out",
     "gameTimeDecision": false,
@@ -473,6 +466,13 @@
     "gameTimeDecision": false,
     "reason": "Knee",
     "returnDate": "2026-11-13"
+   },
+   {
+    "name": "Jaylin Williams",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Back (spasms)",
+    "returnDate": "2026-11-06"
    }
   ],
   "ORL": [
@@ -537,13 +537,6 @@
   ],
   "PHX": [
    {
-    "name": "Jordan Goodwin",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Calf",
-    "returnDate": "2026-11-05"
-   },
-   {
     "name": "Mark Williams",
     "status": "Out",
     "gameTimeDecision": false,
@@ -551,9 +544,16 @@
     "returnDate": "2027-02-03"
    },
    {
+    "name": "Jordan Goodwin",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Calf",
+    "returnDate": "2026-11-05"
+   },
+   {
     "name": "Rasheer Fleming",
-    "status": "Out",
-    "gameTimeDecision": false,
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
     "reason": "Ankle (sprain)",
     "returnDate": "2026-11-05"
    }
@@ -590,13 +590,6 @@
     "returnDate": "2027-10-01"
    },
    {
-    "name": "Daeqwon Plowden",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Illness",
-    "returnDate": "2026-11-06"
-   },
-   {
     "name": "Keegan Murray",
     "status": "Out",
     "gameTimeDecision": false,
@@ -609,6 +602,13 @@
     "gameTimeDecision": false,
     "reason": "Knee (dislocated)",
     "returnDate": "2026-11-10"
+   },
+   {
+    "name": "Daeqwon Plowden",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Illness",
+    "returnDate": "2026-11-06"
    }
   ],
   "SAS": [

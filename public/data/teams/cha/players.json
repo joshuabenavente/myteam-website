@@ -1,7 +1,7 @@
 {
  "season": "2026-27",
  "lastSeason": "2025-26",
- "updatedAt": "2026-11-05T09:23:43.377Z",
+ "updatedAt": "2026-11-05T15:23:46.320Z",
  "teamGamesPlayed": {
   "regular": 9,
   "playoffs": 0
@@ -24,21 +24,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4433287.png",
    "current": {
     "regular": {
-     "games": 8,
-     "started": 8,
-     "minutes": 269.5,
-     "points": 188,
-     "rebounds": 44,
-     "assists": 20,
+     "games": 9,
+     "started": 9,
+     "minutes": 295.9,
+     "points": 198,
+     "rebounds": 48,
+     "assists": 21,
      "steals": 10,
      "blocks": 7,
-     "turnovers": 20,
-     "fgMade": 68,
-     "fgAttempted": 180,
-     "threeMade": 26,
-     "threeAttempted": 91,
-     "ftMade": 26,
-     "ftAttempted": 31
+     "turnovers": 23,
+     "fgMade": 70,
+     "fgAttempted": 195,
+     "threeMade": 27,
+     "threeAttempted": 101,
+     "ftMade": 31,
+     "ftAttempted": 36
     }
    },
    "lastFull": {
@@ -96,21 +96,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3032979.png",
    "current": {
     "regular": {
-     "games": 8,
+     "games": 9,
      "started": 7,
-     "minutes": 249.6,
-     "points": 87,
-     "rebounds": 27,
-     "assists": 39,
-     "steals": 6,
+     "minutes": 269.1,
+     "points": 92,
+     "rebounds": 32,
+     "assists": 43,
+     "steals": 7,
      "blocks": 1,
-     "turnovers": 27,
-     "fgMade": 31,
-     "fgAttempted": 83,
-     "threeMade": 6,
-     "threeAttempted": 33,
-     "ftMade": 19,
-     "ftAttempted": 22
+     "turnovers": 29,
+     "fgMade": 32,
+     "fgAttempted": 88,
+     "threeMade": 7,
+     "threeAttempted": 35,
+     "ftMade": 21,
+     "ftAttempted": 24
     }
    },
    "lastFull": {
@@ -170,79 +170,6 @@
    }
   },
   {
-   "id": "diabamo01",
-   "name": "Moussa Diabaté",
-   "number": "14",
-   "position": "C",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 10\"",
-    "weight": 210,
-    "birthDate": "2002-01-21",
-    "experience": 4,
-    "college": "Michigan",
-    "birthPlace": "Paris, France"
-   },
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4433249.png",
-   "current": {
-    "regular": {
-     "games": 8,
-     "started": 8,
-     "minutes": 229.9,
-     "points": 73,
-     "rebounds": 76,
-     "assists": 17,
-     "steals": 14,
-     "blocks": 8,
-     "turnovers": 14,
-     "fgMade": 31,
-     "fgAttempted": 48,
-     "threeMade": 0,
-     "threeAttempted": 0,
-     "ftMade": 11,
-     "ftAttempted": 14
-    }
-   },
-   "lastFull": {
-    "regular": {
-     "games": 73,
-     "started": 47,
-     "minutes": 1899.9,
-     "points": 575,
-     "rebounds": 635,
-     "assists": 141,
-     "steals": 56,
-     "blocks": 72,
-     "turnovers": 73,
-     "fgMade": 229,
-     "fgAttempted": 363,
-     "threeMade": 1,
-     "threeAttempted": 2,
-     "ftMade": 116,
-     "ftAttempted": 176
-    }
-   },
-   "lastToDate": {
-    "regular": {
-     "games": 9,
-     "started": 0,
-     "minutes": 180.9,
-     "points": 93,
-     "rebounds": 66,
-     "assists": 5,
-     "steals": 4,
-     "blocks": 12,
-     "turnovers": 6,
-     "fgMade": 34,
-     "fgAttempted": 53,
-     "threeMade": 0,
-     "threeAttempted": 0,
-     "ftMade": 25,
-     "ftAttempted": 38
-    }
-   }
-  },
-  {
    "id": "reidna01",
    "name": "Naz Reid",
    "number": "0",
@@ -259,21 +186,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4396971.png",
    "current": {
     "regular": {
-     "games": 8,
-     "started": 8,
-     "minutes": 229.5,
-     "points": 124,
-     "rebounds": 66,
-     "assists": 15,
+     "games": 9,
+     "started": 9,
+     "minutes": 265.7,
+     "points": 152,
+     "rebounds": 75,
+     "assists": 17,
      "steals": 5,
-     "blocks": 4,
-     "turnovers": 22,
-     "fgMade": 47,
-     "fgAttempted": 119,
-     "threeMade": 19,
-     "threeAttempted": 55,
-     "ftMade": 11,
-     "ftAttempted": 18
+     "blocks": 5,
+     "turnovers": 24,
+     "fgMade": 58,
+     "fgAttempted": 137,
+     "threeMade": 21,
+     "threeAttempted": 60,
+     "ftMade": 15,
+     "ftAttempted": 23
     }
    },
    "lastFull": {
@@ -333,6 +260,79 @@
    }
   },
   {
+   "id": "diabamo01",
+   "name": "Moussa Diabaté",
+   "number": "14",
+   "position": "C",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 10\"",
+    "weight": 210,
+    "birthDate": "2002-01-21",
+    "experience": 4,
+    "college": "Michigan",
+    "birthPlace": "Paris, France"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4433249.png",
+   "current": {
+    "regular": {
+     "games": 9,
+     "started": 9,
+     "minutes": 258.6,
+     "points": 80,
+     "rebounds": 82,
+     "assists": 19,
+     "steals": 14,
+     "blocks": 8,
+     "turnovers": 16,
+     "fgMade": 33,
+     "fgAttempted": 52,
+     "threeMade": 0,
+     "threeAttempted": 0,
+     "ftMade": 14,
+     "ftAttempted": 19
+    }
+   },
+   "lastFull": {
+    "regular": {
+     "games": 73,
+     "started": 47,
+     "minutes": 1899.9,
+     "points": 575,
+     "rebounds": 635,
+     "assists": 141,
+     "steals": 56,
+     "blocks": 72,
+     "turnovers": 73,
+     "fgMade": 229,
+     "fgAttempted": 363,
+     "threeMade": 1,
+     "threeAttempted": 2,
+     "ftMade": 116,
+     "ftAttempted": 176
+    }
+   },
+   "lastToDate": {
+    "regular": {
+     "games": 9,
+     "started": 0,
+     "minutes": 180.9,
+     "points": 93,
+     "rebounds": 66,
+     "assists": 5,
+     "steals": 4,
+     "blocks": 12,
+     "turnovers": 6,
+     "fgMade": 34,
+     "fgAttempted": 53,
+     "threeMade": 0,
+     "threeAttempted": 0,
+     "ftMade": 25,
+     "ftAttempted": 38
+    }
+   }
+  },
+  {
    "id": "allengr01",
    "name": "Grayson Allen",
    "number": "8",
@@ -349,21 +349,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3135045.png",
    "current": {
     "regular": {
-     "games": 8,
+     "games": 9,
      "started": 0,
-     "minutes": 210.7,
-     "points": 119,
-     "rebounds": 23,
-     "assists": 20,
-     "steals": 4,
-     "blocks": 3,
-     "turnovers": 21,
-     "fgMade": 34,
-     "fgAttempted": 74,
-     "threeMade": 27,
-     "threeAttempted": 58,
-     "ftMade": 24,
-     "ftAttempted": 26
+     "minutes": 237.9,
+     "points": 141,
+     "rebounds": 25,
+     "assists": 24,
+     "steals": 5,
+     "blocks": 4,
+     "turnovers": 23,
+     "fgMade": 40,
+     "fgAttempted": 85,
+     "threeMade": 32,
+     "threeAttempted": 65,
+     "ftMade": 29,
+     "ftAttempted": 31
     }
    },
    "lastFull": {
@@ -439,21 +439,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4602025.png",
    "current": {
     "regular": {
-     "games": 8,
+     "games": 9,
      "started": 8,
-     "minutes": 196.3,
-     "points": 37,
-     "rebounds": 25,
-     "assists": 24,
-     "steals": 4,
+     "minutes": 227.1,
+     "points": 47,
+     "rebounds": 27,
+     "assists": 25,
+     "steals": 7,
      "blocks": 0,
      "turnovers": 9,
-     "fgMade": 13,
-     "fgAttempted": 47,
+     "fgMade": 16,
+     "fgAttempted": 54,
      "threeMade": 8,
-     "threeAttempted": 37,
-     "ftMade": 3,
-     "ftAttempted": 4
+     "threeAttempted": 41,
+     "ftMade": 7,
+     "ftAttempted": 9
     }
    },
    "lastFull": {
@@ -512,19 +512,19 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/2583632.png",
    "current": {
     "regular": {
-     "games": 8,
+     "games": 9,
      "started": 0,
-     "minutes": 144.1,
+     "minutes": 162,
      "points": 40,
-     "rebounds": 24,
-     "assists": 3,
-     "steals": 4,
+     "rebounds": 27,
+     "assists": 5,
+     "steals": 5,
      "blocks": 2,
      "turnovers": 3,
      "fgMade": 13,
-     "fgAttempted": 38,
+     "fgAttempted": 40,
      "threeMade": 10,
-     "threeAttempted": 35,
+     "threeAttempted": 37,
      "ftMade": 4,
      "ftAttempted": 5
     }
@@ -602,21 +602,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4576060.png",
    "current": {
     "regular": {
-     "games": 8,
+     "games": 9,
      "started": 0,
-     "minutes": 131.9,
-     "points": 35,
-     "rebounds": 35,
-     "assists": 12,
+     "minutes": 151.2,
+     "points": 41,
+     "rebounds": 39,
+     "assists": 14,
      "steals": 3,
-     "blocks": 10,
-     "turnovers": 8,
-     "fgMade": 15,
-     "fgAttempted": 20,
+     "blocks": 11,
+     "turnovers": 10,
+     "fgMade": 16,
+     "fgAttempted": 21,
      "threeMade": 0,
      "threeAttempted": 0,
-     "ftMade": 5,
-     "ftAttempted": 6
+     "ftMade": 9,
+     "ftAttempted": 10
     }
    },
    "lastFull": {
@@ -673,21 +673,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5211176.png",
    "current": {
     "regular": {
-     "games": 7,
+     "games": 8,
      "started": 0,
-     "minutes": 99.7,
-     "points": 33,
-     "rebounds": 26,
+     "minutes": 109.7,
+     "points": 42,
+     "rebounds": 27,
      "assists": 1,
      "steals": 5,
      "blocks": 2,
      "turnovers": 2,
-     "fgMade": 13,
-     "fgAttempted": 29,
-     "threeMade": 6,
-     "threeAttempted": 19,
+     "fgMade": 16,
+     "fgAttempted": 33,
+     "threeMade": 9,
+     "threeAttempted": 23,
      "ftMade": 1,
-     "ftAttempted": 2
+     "ftAttempted": 4
     }
    },
    "lastFull": {
@@ -764,6 +764,61 @@
     }
    },
    "lastFull": {},
+   "lastToDate": {}
+  },
+  {
+   "id": "whiteco01",
+   "name": "Coby White",
+   "number": "3",
+   "position": "PG",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 4\"",
+    "weight": 195,
+    "birthDate": "2000-02-16",
+    "experience": 7,
+    "college": "North Carolina",
+    "birthPlace": "Goldsboro, NC"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4395651.png",
+   "current": {
+    "regular": {
+     "games": 2,
+     "started": 2,
+     "minutes": 34,
+     "points": 11,
+     "rebounds": 5,
+     "assists": 5,
+     "steals": 0,
+     "blocks": 1,
+     "turnovers": 5,
+     "fgMade": 5,
+     "fgAttempted": 18,
+     "threeMade": 1,
+     "threeAttempted": 10,
+     "ftMade": 0,
+     "ftAttempted": 0
+    }
+   },
+   "lastFull": {
+    "regular": {
+     "games": 50,
+     "started": 26,
+     "minutes": 1250.3,
+     "points": 868,
+     "rebounds": 170,
+     "assists": 200,
+     "steals": 25,
+     "blocks": 5,
+     "turnovers": 128,
+     "fgMade": 278,
+     "fgAttempted": 623,
+     "threeMade": 115,
+     "threeAttempted": 318,
+     "ftMade": 197,
+     "ftAttempted": 241
+    }
+   },
    "lastToDate": {}
   },
   {
@@ -877,61 +932,6 @@
    "lastToDate": {}
   },
   {
-   "id": "whiteco01",
-   "name": "Coby White",
-   "number": "3",
-   "position": "PG",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 4\"",
-    "weight": 195,
-    "birthDate": "2000-02-16",
-    "experience": 7,
-    "college": "North Carolina",
-    "birthPlace": "Goldsboro, NC"
-   },
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4395651.png",
-   "current": {
-    "regular": {
-     "games": 1,
-     "started": 1,
-     "minutes": 15.9,
-     "points": 7,
-     "rebounds": 0,
-     "assists": 3,
-     "steals": 0,
-     "blocks": 0,
-     "turnovers": 3,
-     "fgMade": 3,
-     "fgAttempted": 9,
-     "threeMade": 1,
-     "threeAttempted": 5,
-     "ftMade": 0,
-     "ftAttempted": 0
-    }
-   },
-   "lastFull": {
-    "regular": {
-     "games": 50,
-     "started": 26,
-     "minutes": 1250.3,
-     "points": 868,
-     "rebounds": 170,
-     "assists": 200,
-     "steals": 25,
-     "blocks": 5,
-     "turnovers": 128,
-     "fgMade": 278,
-     "fgAttempted": 623,
-     "threeMade": 115,
-     "threeAttempted": 318,
-     "ftMade": 197,
-     "ftAttempted": 241
-    }
-   },
-   "lastToDate": {}
-  },
-  {
    "id": "hallpj01",
    "name": "PJ Hall",
    "number": "16",
@@ -1007,6 +1007,7 @@
   {
    "id": "knuepko01",
    "name": "Kon Knueppel",
+   "number": "7",
    "position": "SF",
    "twoWay": false,
    "bio": {
@@ -1017,9 +1018,26 @@
     "college": "Duke",
     "birthPlace": "Milwaukee, WI"
    },
-   "number": "7",
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5061575.png",
-   "current": {},
+   "current": {
+    "regular": {
+     "games": 1,
+     "started": 1,
+     "minutes": 5.9,
+     "points": 3,
+     "rebounds": 0,
+     "assists": 0,
+     "steals": 0,
+     "blocks": 0,
+     "turnovers": 2,
+     "fgMade": 0,
+     "fgAttempted": 1,
+     "threeMade": 0,
+     "threeAttempted": 1,
+     "ftMade": 3,
+     "ftAttempted": 3
+    }
+   },
    "lastFull": {
     "regular": {
      "games": 81,
@@ -1097,6 +1115,22 @@
    "lastToDate": {}
   },
   {
+   "id": "ajayimi01",
+   "name": "Michael Ajayi",
+   "position": "SF",
+   "twoWay": true,
+   "bio": {
+    "height": "6' 7\"",
+    "weight": 235,
+    "birthDate": "2003-05-23",
+    "experience": 0,
+    "college": "Pierce College, Pepperdine, Gonzaga, Butler"
+   },
+   "current": {},
+   "lastFull": {},
+   "lastToDate": {}
+  },
+  {
    "id": "bosweky01",
    "name": "Kylan Boswell",
    "position": "PG",
@@ -1111,22 +1145,6 @@
    },
    "number": "18",
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4684269.png",
-   "current": {},
-   "lastFull": {},
-   "lastToDate": {}
-  },
-  {
-   "id": "ajayimi01",
-   "name": "Michael Ajayi",
-   "position": "SF",
-   "twoWay": true,
-   "bio": {
-    "height": "6' 7\"",
-    "weight": 235,
-    "birthDate": "2003-05-23",
-    "experience": 0,
-    "college": "Pierce College, Pepperdine, Gonzaga, Butler"
-   },
    "current": {},
    "lastFull": {},
    "lastToDate": {}
