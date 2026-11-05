@@ -156,7 +156,11 @@
    "startUtc": "2026-11-05T00:30:00Z",
    "home": true,
    "opponent": "CHI",
-   "status": "scheduled",
+   "status": "live",
+   "score": {
+    "team": 0,
+    "opponent": 0
+   },
    "broadcasts": [
     {
      "name": "MSG / DAZN",

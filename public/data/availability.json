@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-05T00:23:42.306Z",
+ "updatedAt": "2026-11-05T01:23:43.045Z",
  "teams": {
   "ATL": [
    {
@@ -29,6 +29,13 @@
     "gameTimeDecision": false,
     "reason": "Foot (fracture)",
     "returnDate": "2026-11-20"
+   },
+   {
+    "name": "Asa Newell",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Toe",
+    "returnDate": "2026-11-06"
    }
   ],
   "BOS": [
@@ -70,6 +77,13 @@
     "gameTimeDecision": false,
     "reason": "Hamstring",
     "returnDate": "2026-11-09"
+   },
+   {
+    "name": "Kon Knueppel",
+    "status": "Out",
+    "gameTimeDecision": true,
+    "reason": "Hamstring",
+    "returnDate": "2026-11-04"
    }
   ],
   "CHI": [
@@ -148,20 +162,6 @@
     "gameTimeDecision": false,
     "reason": "Hamstring",
     "returnDate": "2026-11-11"
-   },
-   {
-    "name": "Alpha Diallo",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Wrist",
-    "returnDate": "2026-11-04"
-   },
-   {
-    "name": "Cameron Johnson",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Lower Body",
-    "returnDate": "2026-11-04"
    }
   ],
   "DET": [
@@ -182,6 +182,13 @@
   ],
   "GSW": [
    {
+    "name": "Gui Santos",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Knee",
+    "returnDate": "2026-11-07"
+   },
+   {
     "name": "Jimmy Butler III",
     "status": "Out",
     "gameTimeDecision": false,
@@ -201,27 +208,6 @@
     "gameTimeDecision": false,
     "reason": "Knee (surgery)",
     "returnDate": "2026-12-01"
-   },
-   {
-    "name": "Al Horford",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Rest",
-    "returnDate": "2026-11-05"
-   },
-   {
-    "name": "Brandon Williams",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Quadriceps (bruise)",
-    "returnDate": "2026-11-05"
-   },
-   {
-    "name": "Gui Santos",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Knee",
-    "returnDate": "2026-11-05"
    }
   ],
   "HOU": [
@@ -249,13 +235,6 @@
     "returnDate": "2027-01-02"
    },
    {
-    "name": "Ivica Zubac",
-    "status": "Out",
-    "gameTimeDecision": true,
-    "reason": "Ankle (sprain)",
-    "returnDate": "2026-11-04"
-   },
-   {
     "name": "Johnny Furphy",
     "status": "Out",
     "gameTimeDecision": false,
@@ -263,11 +242,11 @@
     "returnDate": "2027-01-02"
    },
    {
-    "name": "Obi Toppin",
+    "name": "Kelly Oubre Jr.",
     "status": "Out",
-    "gameTimeDecision": true,
-    "reason": "Back (soreness)",
-    "returnDate": "2026-11-04"
+    "gameTimeDecision": false,
+    "reason": "Calf (bruise)",
+    "returnDate": "2026-11-07"
    },
    {
     "name": "T.J. McConnell",
@@ -282,13 +261,6 @@
     "gameTimeDecision": false,
     "reason": "Hamstring (strain)",
     "returnDate": "2026-11-13"
-   },
-   {
-    "name": "Kelly Oubre Jr.",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Knee (bruise)",
-    "returnDate": "2026-11-04"
    }
   ],
   "LAC": [
@@ -388,13 +360,6 @@
    }
   ],
   "NOP": [
-   {
-    "name": "Jordan Poole",
-    "status": "Out",
-    "gameTimeDecision": true,
-    "reason": "Ankle (sprain)",
-    "returnDate": "2026-11-04"
-   },
    {
     "name": "Trey Murphy III",
     "status": "Out",
@@ -518,6 +483,13 @@
   ],
   "PHX": [
    {
+    "name": "Jordan Goodwin",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Calf",
+    "returnDate": "2026-11-05"
+   },
+   {
     "name": "Mark Williams",
     "status": "Out",
     "gameTimeDecision": false,
@@ -530,13 +502,6 @@
     "gameTimeDecision": false,
     "reason": "Ankle (sprain)",
     "returnDate": "2026-11-05"
-   },
-   {
-    "name": "Jordan Goodwin",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Calf",
-    "returnDate": "2026-11-04"
    }
   ],
   "POR": [
@@ -645,13 +610,6 @@
     "gameTimeDecision": false,
     "reason": "Knee (bruise)",
     "returnDate": "2026-11-06"
-   },
-   {
-    "name": "Mo Bamba",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Ankle",
-    "returnDate": "2026-11-04"
    }
   ],
   "WAS": [
