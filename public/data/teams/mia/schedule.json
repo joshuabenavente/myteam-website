@@ -146,7 +146,11 @@
    "startUtc": "2026-11-05T03:30:00Z",
    "home": false,
    "opponent": "LAC",
-   "status": "scheduled",
+   "status": "live",
+   "score": {
+    "team": 0,
+    "opponent": 0
+   },
    "broadcasts": [
     {
      "name": "WPLG Local 10/Local10+ Platinum",

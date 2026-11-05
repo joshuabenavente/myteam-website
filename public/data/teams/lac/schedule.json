@@ -156,7 +156,11 @@
    "startUtc": "2026-11-05T03:30:00Z",
    "home": true,
    "opponent": "MIA",
-   "status": "scheduled",
+   "status": "live",
+   "score": {
+    "team": 0,
+    "opponent": 0
+   },
    "broadcasts": [
     {
      "name": "ClipperVision",
