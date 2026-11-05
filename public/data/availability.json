@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-05T17:23:54.407Z",
+ "updatedAt": "2026-11-05T20:23:31.412Z",
  "teams": {
   "ATL": [
    {
@@ -537,6 +537,13 @@
   ],
   "PHX": [
    {
+    "name": "Jordan Goodwin",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Calf",
+    "returnDate": "2026-11-07"
+   },
+   {
     "name": "Mark Williams",
     "status": "Out",
     "gameTimeDecision": false,
@@ -544,18 +551,11 @@
     "returnDate": "2027-02-03"
    },
    {
-    "name": "Jordan Goodwin",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Calf",
-    "returnDate": "2026-11-05"
-   },
-   {
     "name": "Rasheer Fleming",
     "status": "Day-To-Day",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Ankle (sprain)",
-    "returnDate": "2026-11-05"
+    "returnDate": "2026-11-07"
    }
   ],
   "POR": [
