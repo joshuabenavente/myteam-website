@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-06T19:23:36.497Z",
+ "updatedAt": "2026-11-06T21:23:42.337Z",
  "teams": {
   "ATL": [
    {
@@ -75,13 +75,6 @@
     "gameTimeDecision": true,
     "reason": "Undisclosed",
     "returnDate": "2026-11-04"
-   },
-   {
-    "name": "Noah Clowney",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Knee (soreness)",
-    "returnDate": "2026-11-07"
    }
   ],
   "CHA": [
@@ -282,18 +275,18 @@
   ],
   "HOU": [
    {
+    "name": "Clint Capela",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Ankle (sprain)",
+    "returnDate": "2026-11-09"
+   },
+   {
     "name": "Steven Adams",
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Calf (strain)",
     "returnDate": "2026-11-09"
-   },
-   {
-    "name": "Clint Capela",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Ankle (sprain)",
-    "returnDate": "2026-11-07"
    }
   ],
   "IND": [
@@ -361,15 +354,6 @@
     "gameTimeDecision": true,
     "reason": "Foot (surgery)",
     "returnDate": "2026-11-08"
-   }
-  ],
-  "LAL": [
-   {
-    "name": "Sandro Mamukelashvili",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Illness",
-    "returnDate": "2026-11-06"
    }
   ],
   "MEM": [
@@ -609,6 +593,13 @@
     "gameTimeDecision": false,
     "reason": "Knee (dislocated)",
     "returnDate": "2026-11-10"
+   },
+   {
+    "name": "De'Andre Hunter",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Illness",
+    "returnDate": "2026-11-06"
    }
   ],
   "SAS": [
