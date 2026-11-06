@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-06T06:23:42.779Z",
+ "updatedAt": "2026-11-06T15:23:44.537Z",
  "teams": {
   "ATL": [
    {
@@ -49,9 +49,9 @@
    {
     "name": "Devin Carter",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Illness",
-    "returnDate": "2026-11-08"
+    "returnDate": "2026-11-06"
    },
    {
     "name": "Payton Pritchard",
@@ -391,10 +391,10 @@
   "MIL": [
    {
     "name": "Kam Jones",
-    "status": "Out",
-    "gameTimeDecision": false,
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
     "reason": "Ankle",
-    "returnDate": "2026-11-08"
+    "returnDate": "2026-11-06"
    }
   ],
   "MIN": [
@@ -675,9 +675,9 @@
    {
     "name": "Trey Alexander",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Knee (bruise)",
-    "returnDate": "2026-11-08"
+    "returnDate": "2026-11-06"
    }
   ],
   "WAS": [
