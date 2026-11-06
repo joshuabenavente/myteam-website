@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-06T21:23:42.337Z",
+ "updatedAt": "2026-11-06T22:23:43.454Z",
  "teams": {
   "ATL": [
    {
@@ -15,6 +15,13 @@
     "gameTimeDecision": false,
     "reason": "Knee",
     "returnDate": "2027-07-01"
+   },
+   {
+    "name": "Jalen Johnson",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Ankle",
+    "returnDate": "2026-11-07"
    },
    {
     "name": "Jock Landale",
@@ -36,13 +43,6 @@
     "gameTimeDecision": false,
     "reason": "Foot (fracture)",
     "returnDate": "2026-11-20"
-   },
-   {
-    "name": "Jalen Johnson",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Ankle",
-    "returnDate": "2026-11-06"
    }
   ],
   "BOS": [
@@ -256,7 +256,7 @@
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Illness",
-    "returnDate": "2026-12-01"
+    "returnDate": "2027-01-02"
    },
    {
     "name": "Moses Moody",
@@ -416,10 +416,10 @@
   "NYK": [
    {
     "name": "Josh Hart",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
+    "status": "Out",
+    "gameTimeDecision": false,
     "reason": "Ankle",
-    "returnDate": "2026-11-07"
+    "returnDate": "2026-11-10"
    }
   ],
   "OKC": [
