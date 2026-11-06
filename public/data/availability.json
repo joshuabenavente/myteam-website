@@ -1,13 +1,34 @@
 {
- "updatedAt": "2026-11-05T22:23:34.969Z",
+ "updatedAt": "2026-11-06T00:23:48.858Z",
  "teams": {
   "ATL": [
+   {
+    "name": "Asa Newell",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Toe",
+    "returnDate": "2026-11-07"
+   },
    {
     "name": "Henri Veesaar",
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Knee",
     "returnDate": "2027-07-01"
+   },
+   {
+    "name": "Jock Landale",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Hip",
+    "returnDate": "2026-11-07"
+   },
+   {
+    "name": "Keshon Gilbert",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Knee (inflammation)",
+    "returnDate": "2026-11-08"
    },
    {
     "name": "Mouhamed Gueye",
@@ -17,25 +38,11 @@
     "returnDate": "2026-11-20"
    },
    {
-    "name": "Asa Newell",
-    "status": "Day-To-Day",
-    "gameTimeDecision": false,
-    "reason": "Toe",
-    "returnDate": "2026-11-07"
-   },
-   {
     "name": "Jalen Johnson",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Ankle",
     "returnDate": "2026-11-06"
-   },
-   {
-    "name": "Jock Landale",
-    "status": "Day-To-Day",
-    "gameTimeDecision": false,
-    "reason": "Hip",
-    "returnDate": "2026-11-07"
    }
   ],
   "BOS": [
@@ -141,9 +148,9 @@
    {
     "name": "Jaylon Tyson",
     "status": "Out",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Ankle (sprain)",
-    "returnDate": "2026-11-06"
+    "returnDate": "2026-11-07"
    },
    {
     "name": "Jarrett Allen",
@@ -163,7 +170,7 @@
     "name": "Tyrese Proctor",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
-    "reason": "Ankle",
+    "reason": "Ankle (sprain)",
     "returnDate": "2026-11-06"
    }
   ],
@@ -185,9 +192,9 @@
    {
     "name": "Sergio de Larrea",
     "status": "Out",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Knee (strain)",
-    "returnDate": "2026-11-06"
+    "returnDate": "2026-11-12"
    },
    {
     "name": "Tarik Biberovic",
@@ -367,27 +374,27 @@
   ],
   "MEM": [
    {
-    "name": "Scotty Pippen Jr.",
+    "name": "Isaiah Stewart",
     "status": "Out",
-    "gameTimeDecision": true,
-    "reason": "Back (soreness)",
-    "returnDate": "2026-11-06"
+    "gameTimeDecision": false,
+    "reason": "Knee (bruise)",
+    "returnDate": "2026-11-09"
    },
    {
-    "name": "Isaiah Stewart",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Knee",
-    "returnDate": "2026-11-06"
+    "name": "Scotty Pippen Jr.",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Back (soreness)",
+    "returnDate": "2026-11-09"
    }
   ],
   "MIL": [
    {
     "name": "Kam Jones",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
+    "status": "Out",
+    "gameTimeDecision": false,
     "reason": "Ankle",
-    "returnDate": "2026-11-06"
+    "returnDate": "2026-11-08"
    }
   ],
   "MIN": [
@@ -419,7 +426,7 @@
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Knee (bruise)",
-    "returnDate": "2026-11-08"
+    "returnDate": "2026-11-09"
    },
    {
     "name": "Trey Murphy III",
@@ -461,6 +468,13 @@
     "returnDate": "2027-03-02"
    },
    {
+    "name": "Jaylin Williams",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Back (spasms)",
+    "returnDate": "2026-11-07"
+   },
+   {
     "name": "Nikola Topic",
     "status": "Out",
     "gameTimeDecision": false,
@@ -473,13 +487,6 @@
     "gameTimeDecision": false,
     "reason": "Knee",
     "returnDate": "2026-11-13"
-   },
-   {
-    "name": "Jaylin Williams",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Back (spasms)",
-    "returnDate": "2026-11-06"
    }
   ],
   "ORL": [
@@ -670,7 +677,7 @@
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Knee (bruise)",
-    "returnDate": "2026-11-06"
+    "returnDate": "2026-11-08"
    }
   ],
   "WAS": [
@@ -701,6 +708,13 @@
     "gameTimeDecision": false,
     "reason": "Hip (pinched nerve)",
     "returnDate": "2026-11-09"
+   },
+   {
+    "name": "Anthony Davis",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Ankle (sprain)",
+    "returnDate": "2026-11-06"
    }
   ]
  }
