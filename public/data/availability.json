@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-06T22:23:43.454Z",
+ "updatedAt": "2026-11-06T23:23:32.477Z",
  "teams": {
   "ATL": [
    {
@@ -151,13 +151,6 @@
     "gameTimeDecision": true,
     "reason": "Hamstring (soreness)",
     "returnDate": "2026-11-06"
-   },
-   {
-    "name": "Tyrese Proctor",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Ankle (sprain)",
-    "returnDate": "2026-11-06"
    }
   ],
   "DAL": [
@@ -167,13 +160,6 @@
     "gameTimeDecision": false,
     "reason": "Foot (surgery)",
     "returnDate": "2026-11-12"
-   },
-   {
-    "name": "Santi Aldama",
-    "status": "Out",
-    "gameTimeDecision": true,
-    "reason": "Knee (surgery)",
-    "returnDate": "2026-11-06"
    },
    {
     "name": "Sergio de Larrea",
@@ -188,13 +174,6 @@
     "gameTimeDecision": false,
     "reason": "Heel (inflammation)",
     "returnDate": "2026-11-12"
-   },
-   {
-    "name": "Kyrie Irving",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Illness",
-    "returnDate": "2026-11-06"
    },
    {
     "name": "Max Christie",
@@ -266,6 +245,20 @@
     "returnDate": "2026-12-01"
    },
    {
+    "name": "Draymond Green",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Elbow (inflammation)",
+    "returnDate": "2026-11-07"
+   },
+   {
+    "name": "Gary Payton II",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Calf",
+    "returnDate": "2026-11-07"
+   },
+   {
     "name": "Gui Santos",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
@@ -307,9 +300,9 @@
    {
     "name": "T.J. McConnell",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Hamstring (strain)",
-    "returnDate": "2026-11-09"
+    "returnDate": "2026-11-07"
    },
    {
     "name": "Tyrese Haliburton",
@@ -505,6 +498,13 @@
   ],
   "PHI": [
    {
+    "name": "Adem Bona",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Back (sprain)",
+    "returnDate": "2026-11-08"
+   },
+   {
     "name": "Ariel Hukporti",
     "status": "Out",
     "gameTimeDecision": false,
@@ -517,13 +517,6 @@
     "gameTimeDecision": false,
     "reason": "Back (fracture)",
     "returnDate": "2026-11-18"
-   },
-   {
-    "name": "Adem Bona",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Back (sprain)",
-    "returnDate": "2026-11-06"
    }
   ],
   "PHX": [
@@ -687,6 +680,13 @@
   ],
   "WAS": [
    {
+    "name": "Anthony Davis",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Ankle (sprain)",
+    "returnDate": "2026-11-07"
+   },
+   {
     "name": "Jamir Watkins",
     "status": "Out",
     "gameTimeDecision": false,
@@ -713,13 +713,6 @@
     "gameTimeDecision": false,
     "reason": "Hip (pinched nerve)",
     "returnDate": "2026-11-09"
-   },
-   {
-    "name": "Anthony Davis",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Ankle (sprain)",
-    "returnDate": "2026-11-06"
    }
   ]
  }
