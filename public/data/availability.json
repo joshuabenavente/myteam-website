@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-06T16:23:51.950Z",
+ "updatedAt": "2026-11-06T18:23:45.824Z",
  "teams": {
   "ATL": [
    {
@@ -52,13 +52,6 @@
     "gameTimeDecision": true,
     "reason": "Illness",
     "returnDate": "2026-11-06"
-   },
-   {
-    "name": "Payton Pritchard",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Eye (abrasion)",
-    "returnDate": "2026-11-06"
    }
   ],
   "BKN": [
@@ -93,6 +86,13 @@
   ],
   "CHA": [
    {
+    "name": "Dennis Schroder",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Thigh",
+    "returnDate": "2026-11-09"
+   },
+   {
     "name": "Grant Williams",
     "status": "Out",
     "gameTimeDecision": false,
@@ -107,18 +107,11 @@
     "returnDate": "2026-11-09"
    },
    {
-    "name": "Dennis Schroder",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Thigh",
-    "returnDate": "2026-11-06"
-   },
-   {
     "name": "Moussa Diabate",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
+    "status": "Out",
+    "gameTimeDecision": false,
     "reason": "Quadriceps",
-    "returnDate": "2026-11-06"
+    "returnDate": "2026-11-09"
    }
   ],
   "CHI": [
@@ -414,10 +407,10 @@
    },
    {
     "name": "Terrence Shannon Jr.",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
+    "status": "Out",
+    "gameTimeDecision": false,
     "reason": "Hip (bruise)",
-    "returnDate": "2026-11-06"
+    "returnDate": "2026-11-08"
    }
   ],
   "NOP": [
@@ -427,13 +420,6 @@
     "gameTimeDecision": false,
     "reason": "Knee (bruise)",
     "returnDate": "2026-11-09"
-   },
-   {
-    "name": "Trey Murphy III",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Knee",
-    "returnDate": "2026-11-06"
    }
   ],
   "NYK": [
@@ -648,6 +634,20 @@
     "gameTimeDecision": false,
     "reason": "Foot (fracture)",
     "returnDate": "2026-11-09"
+   },
+   {
+    "name": "Immanuel Quickley",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Hamstring",
+    "returnDate": "2026-11-06"
+   },
+   {
+    "name": "Jakob Poeltl",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Shoulder",
+    "returnDate": "2026-11-06"
    },
    {
     "name": "Kyle Anderson",
