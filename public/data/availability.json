@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-06T18:23:45.824Z",
+ "updatedAt": "2026-11-06T19:23:36.497Z",
  "teams": {
   "ATL": [
    {
@@ -133,7 +133,7 @@
     "name": "Zach Collins",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
-    "reason": "Undisclosed",
+    "reason": "Illness",
     "returnDate": "2026-11-08"
    }
   ],
@@ -195,6 +195,13 @@
     "gameTimeDecision": false,
     "reason": "Heel (inflammation)",
     "returnDate": "2026-11-12"
+   },
+   {
+    "name": "Kyrie Irving",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Illness",
+    "returnDate": "2026-11-06"
    },
    {
     "name": "Max Christie",
@@ -677,7 +684,7 @@
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Foot (strain)",
-    "returnDate": "2026-11-13"
+    "returnDate": "2026-11-20"
    },
    {
     "name": "Trey Alexander",
