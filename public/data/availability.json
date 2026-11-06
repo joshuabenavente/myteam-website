@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-06T05:23:30.989Z",
+ "updatedAt": "2026-11-06T06:23:42.779Z",
  "teams": {
   "ATL": [
    {
@@ -252,13 +252,6 @@
   ],
   "GSW": [
    {
-    "name": "Gui Santos",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Knee",
-    "returnDate": "2026-11-07"
-   },
-   {
     "name": "Jimmy Butler III",
     "status": "Out",
     "gameTimeDecision": false,
@@ -278,6 +271,13 @@
     "gameTimeDecision": false,
     "reason": "Knee (surgery)",
     "returnDate": "2026-12-01"
+   },
+   {
+    "name": "Gui Santos",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Knee",
+    "returnDate": "2026-11-07"
    }
   ],
   "HOU": [
