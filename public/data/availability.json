@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-06T00:23:48.858Z",
+ "updatedAt": "2026-11-06T01:23:45.094Z",
  "teams": {
   "ATL": [
    {
@@ -28,7 +28,7 @@
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Knee (inflammation)",
-    "returnDate": "2026-11-08"
+    "returnDate": "2026-11-07"
    },
    {
     "name": "Mouhamed Gueye",
@@ -365,10 +365,10 @@
   ],
   "LAL": [
    {
-    "name": "Adou Thiero",
-    "status": "Out",
+    "name": "Sandro Mamukelashvili",
+    "status": "Day-To-Day",
     "gameTimeDecision": true,
-    "reason": "Knee (inflammation)",
+    "reason": "Illness",
     "returnDate": "2026-11-06"
    }
   ],
@@ -616,13 +616,6 @@
     "gameTimeDecision": false,
     "reason": "Knee (dislocated)",
     "returnDate": "2026-11-10"
-   },
-   {
-    "name": "Daeqwon Plowden",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Illness",
-    "returnDate": "2026-11-06"
    }
   ],
   "SAS": [
