@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-07T00:23:42.956Z",
+ "updatedAt": "2026-11-07T01:23:32.857Z",
  "teams": {
   "ATL": [
    {
@@ -104,6 +104,13 @@
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Quadriceps",
+    "returnDate": "2026-11-09"
+   },
+   {
+    "name": "Brandon Miller",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Groin (soreness)",
     "returnDate": "2026-11-09"
    }
   ],
@@ -553,6 +560,13 @@
     "returnDate": "2027-10-01"
    },
    {
+    "name": "De'Andre Hunter",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Illness",
+    "returnDate": "2026-11-08"
+   },
+   {
     "name": "Keegan Murray",
     "status": "Out",
     "gameTimeDecision": false,
@@ -565,13 +579,6 @@
     "gameTimeDecision": false,
     "reason": "Knee (dislocated)",
     "returnDate": "2026-11-10"
-   },
-   {
-    "name": "De'Andre Hunter",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Illness",
-    "returnDate": "2026-11-06"
    }
   ],
   "SAS": [
