@@ -1,7 +1,7 @@
 {
  "season": "2026-27",
  "lastSeason": "2025-26",
- "updatedAt": "2026-11-07T07:22:29.636Z",
+ "updatedAt": "2026-11-07T13:22:23.282Z",
  "teamGamesPlayed": {
   "regular": 10,
   "playoffs": 0
@@ -24,21 +24,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4278039.png",
    "current": {
     "regular": {
-     "games": 9,
-     "started": 9,
-     "minutes": 274.5,
-     "points": 195,
-     "rebounds": 30,
-     "assists": 24,
-     "steals": 13,
+     "games": 10,
+     "started": 10,
+     "minutes": 308,
+     "points": 223,
+     "rebounds": 32,
+     "assists": 26,
+     "steals": 15,
      "blocks": 2,
-     "turnovers": 20,
-     "fgMade": 65,
-     "fgAttempted": 148,
-     "threeMade": 37,
-     "threeAttempted": 91,
-     "ftMade": 28,
-     "ftAttempted": 34
+     "turnovers": 23,
+     "fgMade": 72,
+     "fgAttempted": 168,
+     "threeMade": 41,
+     "threeAttempted": 103,
+     "ftMade": 38,
+     "ftAttempted": 44
     }
    },
    "lastFull": {
@@ -113,21 +113,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4869342.png",
    "current": {
     "regular": {
-     "games": 9,
-     "started": 9,
-     "minutes": 266.8,
-     "points": 86,
-     "rebounds": 60,
-     "assists": 41,
-     "steals": 24,
+     "games": 10,
+     "started": 10,
+     "minutes": 301.3,
+     "points": 99,
+     "rebounds": 69,
+     "assists": 53,
+     "steals": 26,
      "blocks": 3,
-     "turnovers": 10,
-     "fgMade": 38,
-     "fgAttempted": 86,
+     "turnovers": 12,
+     "fgMade": 44,
+     "fgAttempted": 95,
      "threeMade": 1,
-     "threeAttempted": 14,
-     "ftMade": 9,
-     "ftAttempted": 16
+     "threeAttempted": 15,
+     "ftMade": 10,
+     "ftAttempted": 17
     }
    },
    "lastFull": {
@@ -203,21 +203,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4431680.png",
    "current": {
     "regular": {
-     "games": 9,
-     "started": 9,
-     "minutes": 261.8,
-     "points": 110,
-     "rebounds": 76,
-     "assists": 25,
-     "steals": 6,
+     "games": 10,
+     "started": 10,
+     "minutes": 295.2,
+     "points": 132,
+     "rebounds": 86,
+     "assists": 26,
+     "steals": 10,
      "blocks": 6,
-     "turnovers": 10,
-     "fgMade": 43,
-     "fgAttempted": 93,
-     "threeMade": 12,
-     "threeAttempted": 41,
-     "ftMade": 12,
-     "ftAttempted": 16
+     "turnovers": 11,
+     "fgMade": 51,
+     "fgAttempted": 105,
+     "threeMade": 14,
+     "threeAttempted": 44,
+     "ftMade": 16,
+     "ftAttempted": 20
     }
    },
    "lastFull": {
@@ -293,21 +293,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/2490149.png",
    "current": {
     "regular": {
-     "games": 9,
+     "games": 10,
      "started": 8,
-     "minutes": 239,
-     "points": 129,
-     "rebounds": 27,
-     "assists": 37,
-     "steals": 9,
-     "blocks": 2,
-     "turnovers": 17,
-     "fgMade": 47,
-     "fgAttempted": 106,
+     "minutes": 261.9,
+     "points": 133,
+     "rebounds": 30,
+     "assists": 41,
+     "steals": 10,
+     "blocks": 3,
+     "turnovers": 20,
+     "fgMade": 48,
+     "fgAttempted": 116,
      "threeMade": 18,
-     "threeAttempted": 50,
-     "ftMade": 17,
-     "ftAttempted": 21
+     "threeAttempted": 51,
+     "ftMade": 19,
+     "ftAttempted": 23
     }
    },
    "lastFull": {
@@ -383,19 +383,19 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4397183.png",
    "current": {
     "regular": {
-     "games": 9,
+     "games": 10,
      "started": 0,
-     "minutes": 232.2,
-     "points": 125,
-     "rebounds": 33,
-     "assists": 17,
+     "minutes": 260.7,
+     "points": 144,
+     "rebounds": 37,
+     "assists": 20,
      "steals": 10,
      "blocks": 4,
-     "turnovers": 11,
-     "fgMade": 48,
-     "fgAttempted": 105,
-     "threeMade": 24,
-     "threeAttempted": 59,
+     "turnovers": 13,
+     "fgMade": 56,
+     "fgAttempted": 117,
+     "threeMade": 27,
+     "threeAttempted": 66,
      "ftMade": 5,
      "ftAttempted": 8
     }
@@ -457,6 +457,96 @@
    }
   },
   {
+   "id": "dortlu01",
+   "name": "Luguentz Dort",
+   "number": "0",
+   "position": "PF",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 4\"",
+    "weight": 220,
+    "birthDate": "1999-04-19",
+    "experience": 7,
+    "college": "Arizona State",
+    "birthPlace": "Montreal, PQ"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4397020.png",
+   "current": {
+    "regular": {
+     "games": 10,
+     "started": 3,
+     "minutes": 259.8,
+     "points": 105,
+     "rebounds": 34,
+     "assists": 18,
+     "steals": 9,
+     "blocks": 2,
+     "turnovers": 6,
+     "fgMade": 35,
+     "fgAttempted": 89,
+     "threeMade": 19,
+     "threeAttempted": 51,
+     "ftMade": 16,
+     "ftAttempted": 20
+    }
+   },
+   "lastFull": {
+    "regular": {
+     "games": 69,
+     "started": 69,
+     "minutes": 1848.9,
+     "points": 576,
+     "rebounds": 245,
+     "assists": 85,
+     "steals": 62,
+     "blocks": 27,
+     "turnovers": 54,
+     "fgMade": 202,
+     "fgAttempted": 524,
+     "threeMade": 128,
+     "threeAttempted": 372,
+     "ftMade": 44,
+     "ftAttempted": 58
+    },
+    "playoffs": {
+     "games": 15,
+     "started": 15,
+     "minutes": 335.1,
+     "points": 82,
+     "rebounds": 40,
+     "assists": 20,
+     "steals": 7,
+     "blocks": 2,
+     "turnovers": 8,
+     "fgMade": 30,
+     "fgAttempted": 82,
+     "threeMade": 20,
+     "threeAttempted": 65,
+     "ftMade": 2,
+     "ftAttempted": 4
+    }
+   },
+   "lastToDate": {
+    "regular": {
+     "games": 7,
+     "started": 7,
+     "minutes": 222.9,
+     "points": 50,
+     "rebounds": 35,
+     "assists": 11,
+     "steals": 7,
+     "blocks": 0,
+     "turnovers": 5,
+     "fgMade": 17,
+     "fgAttempted": 54,
+     "threeMade": 7,
+     "threeAttempted": 36,
+     "ftMade": 9,
+     "ftAttempted": 10
+    }
+   }
+  },
+  {
    "id": "johnsja05",
    "name": "Jalen Johnson",
    "number": "1",
@@ -478,8 +568,8 @@
      "minutes": 228.2,
      "points": 128,
      "rebounds": 63,
-     "assists": 56,
-     "steals": 7,
+     "assists": 55,
+     "steals": 6,
      "blocks": 5,
      "turnovers": 22,
      "fgMade": 45,
@@ -547,96 +637,6 @@
    }
   },
   {
-   "id": "dortlu01",
-   "name": "Luguentz Dort",
-   "number": "0",
-   "position": "PF",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 4\"",
-    "weight": 220,
-    "birthDate": "1999-04-19",
-    "experience": 7,
-    "college": "Arizona State",
-    "birthPlace": "Montreal, PQ"
-   },
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4397020.png",
-   "current": {
-    "regular": {
-     "games": 9,
-     "started": 2,
-     "minutes": 227.4,
-     "points": 80,
-     "rebounds": 27,
-     "assists": 14,
-     "steals": 7,
-     "blocks": 2,
-     "turnovers": 5,
-     "fgMade": 26,
-     "fgAttempted": 74,
-     "threeMade": 14,
-     "threeAttempted": 44,
-     "ftMade": 14,
-     "ftAttempted": 17
-    }
-   },
-   "lastFull": {
-    "regular": {
-     "games": 69,
-     "started": 69,
-     "minutes": 1848.9,
-     "points": 576,
-     "rebounds": 245,
-     "assists": 85,
-     "steals": 62,
-     "blocks": 27,
-     "turnovers": 54,
-     "fgMade": 202,
-     "fgAttempted": 524,
-     "threeMade": 128,
-     "threeAttempted": 372,
-     "ftMade": 44,
-     "ftAttempted": 58
-    },
-    "playoffs": {
-     "games": 15,
-     "started": 15,
-     "minutes": 335.1,
-     "points": 82,
-     "rebounds": 40,
-     "assists": 20,
-     "steals": 7,
-     "blocks": 2,
-     "turnovers": 8,
-     "fgMade": 30,
-     "fgAttempted": 82,
-     "threeMade": 20,
-     "threeAttempted": 65,
-     "ftMade": 2,
-     "ftAttempted": 4
-    }
-   },
-   "lastToDate": {
-    "regular": {
-     "games": 7,
-     "started": 7,
-     "minutes": 222.9,
-     "points": 50,
-     "rebounds": 35,
-     "assists": 11,
-     "steals": 7,
-     "blocks": 0,
-     "turnovers": 5,
-     "fgMade": 17,
-     "fgAttempted": 54,
-     "threeMade": 7,
-     "threeAttempted": 36,
-     "ftMade": 9,
-     "ftAttempted": 10
-    }
-   }
-  },
-  {
    "id": "flemiki01",
    "name": "Kingston Flemings",
    "number": "4",
@@ -653,19 +653,19 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5149077.png",
    "current": {
     "regular": {
-     "games": 8,
-     "started": 1,
-     "minutes": 165.5,
-     "points": 64,
-     "rebounds": 23,
-     "assists": 36,
+     "games": 9,
+     "started": 2,
+     "minutes": 190.1,
+     "points": 75,
+     "rebounds": 24,
+     "assists": 43,
      "steals": 6,
      "blocks": 2,
-     "turnovers": 18,
-     "fgMade": 26,
-     "fgAttempted": 51,
-     "threeMade": 7,
-     "threeAttempted": 15,
+     "turnovers": 20,
+     "fgMade": 31,
+     "fgAttempted": 60,
+     "threeMade": 8,
+     "threeAttempted": 17,
      "ftMade": 5,
      "ftAttempted": 7
     }
@@ -745,6 +745,133 @@
      "ftAttempted": 21
     }
    }
+  },
+  {
+   "id": "kispeco01",
+   "name": "Corey Kispert",
+   "number": "24",
+   "position": "SF",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 6\"",
+    "weight": 224,
+    "birthDate": "1999-03-03",
+    "experience": 5,
+    "college": "Gonzaga",
+    "birthPlace": "Edmonds, WA"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4280151.png",
+   "current": {
+    "regular": {
+     "games": 6,
+     "started": 0,
+     "minutes": 57.4,
+     "points": 46,
+     "rebounds": 4,
+     "assists": 4,
+     "steals": 1,
+     "blocks": 0,
+     "turnovers": 3,
+     "fgMade": 17,
+     "fgAttempted": 27,
+     "threeMade": 10,
+     "threeAttempted": 18,
+     "ftMade": 2,
+     "ftAttempted": 2
+    }
+   },
+   "lastFull": {
+    "regular": {
+     "games": 58,
+     "started": 10,
+     "minutes": 1080.4,
+     "points": 532,
+     "rebounds": 132,
+     "assists": 92,
+     "steals": 16,
+     "blocks": 9,
+     "turnovers": 45,
+     "fgMade": 184,
+     "fgAttempted": 394,
+     "threeMade": 87,
+     "threeAttempted": 237,
+     "ftMade": 77,
+     "ftAttempted": 97
+    },
+    "playoffs": {
+     "games": 5,
+     "started": 0,
+     "minutes": 54.2,
+     "points": 11,
+     "rebounds": 8,
+     "assists": 6,
+     "steals": 2,
+     "blocks": 0,
+     "turnovers": 3,
+     "fgMade": 4,
+     "fgAttempted": 22,
+     "threeMade": 1,
+     "threeAttempted": 12,
+     "ftMade": 2,
+     "ftAttempted": 3
+    }
+   },
+   "lastToDate": {
+    "regular": {
+     "games": 10,
+     "started": 0,
+     "minutes": 190.6,
+     "points": 84,
+     "rebounds": 23,
+     "assists": 19,
+     "steals": 2,
+     "blocks": 2,
+     "turnovers": 8,
+     "fgMade": 29,
+     "fgAttempted": 58,
+     "threeMade": 14,
+     "threeAttempted": 37,
+     "ftMade": 12,
+     "ftAttempted": 17
+    }
+   }
+  },
+  {
+   "id": "ejiofzu01",
+   "name": "Zuby Ejiofor",
+   "number": "20",
+   "position": "PF",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 8\"",
+    "weight": 245,
+    "birthDate": "2004-04-20",
+    "experience": 0,
+    "college": "St. John's",
+    "birthPlace": "Garland, TX"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5106262.png",
+   "current": {
+    "regular": {
+     "games": 5,
+     "started": 0,
+     "minutes": 55.8,
+     "points": 27,
+     "rebounds": 15,
+     "assists": 9,
+     "steals": 3,
+     "blocks": 0,
+     "turnovers": 4,
+     "fgMade": 11,
+     "fgAttempted": 19,
+     "threeMade": 3,
+     "threeAttempted": 7,
+     "ftMade": 2,
+     "ftAttempted": 4
+    }
+   },
+   "lastFull": {},
+   "lastToDate": {}
   },
   {
    "id": "newelas01",
@@ -835,133 +962,6 @@
      "ftAttempted": 3
     }
    }
-  },
-  {
-   "id": "kispeco01",
-   "name": "Corey Kispert",
-   "number": "24",
-   "position": "SF",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 6\"",
-    "weight": 224,
-    "birthDate": "1999-03-03",
-    "experience": 5,
-    "college": "Gonzaga",
-    "birthPlace": "Edmonds, WA"
-   },
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4280151.png",
-   "current": {
-    "regular": {
-     "games": 5,
-     "started": 0,
-     "minutes": 41.8,
-     "points": 39,
-     "rebounds": 2,
-     "assists": 3,
-     "steals": 1,
-     "blocks": 0,
-     "turnovers": 2,
-     "fgMade": 14,
-     "fgAttempted": 22,
-     "threeMade": 9,
-     "threeAttempted": 15,
-     "ftMade": 2,
-     "ftAttempted": 2
-    }
-   },
-   "lastFull": {
-    "regular": {
-     "games": 58,
-     "started": 10,
-     "minutes": 1080.4,
-     "points": 532,
-     "rebounds": 132,
-     "assists": 92,
-     "steals": 16,
-     "blocks": 9,
-     "turnovers": 45,
-     "fgMade": 184,
-     "fgAttempted": 394,
-     "threeMade": 87,
-     "threeAttempted": 237,
-     "ftMade": 77,
-     "ftAttempted": 97
-    },
-    "playoffs": {
-     "games": 5,
-     "started": 0,
-     "minutes": 54.2,
-     "points": 11,
-     "rebounds": 8,
-     "assists": 6,
-     "steals": 2,
-     "blocks": 0,
-     "turnovers": 3,
-     "fgMade": 4,
-     "fgAttempted": 22,
-     "threeMade": 1,
-     "threeAttempted": 12,
-     "ftMade": 2,
-     "ftAttempted": 3
-    }
-   },
-   "lastToDate": {
-    "regular": {
-     "games": 10,
-     "started": 0,
-     "minutes": 190.6,
-     "points": 84,
-     "rebounds": 23,
-     "assists": 19,
-     "steals": 2,
-     "blocks": 2,
-     "turnovers": 8,
-     "fgMade": 29,
-     "fgAttempted": 58,
-     "threeMade": 14,
-     "threeAttempted": 37,
-     "ftMade": 12,
-     "ftAttempted": 17
-    }
-   }
-  },
-  {
-   "id": "ejiofzu01",
-   "name": "Zuby Ejiofor",
-   "number": "20",
-   "position": "PF",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 8\"",
-    "weight": 245,
-    "birthDate": "2004-04-20",
-    "experience": 0,
-    "college": "St. John's",
-    "birthPlace": "Garland, TX"
-   },
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5106262.png",
-   "current": {
-    "regular": {
-     "games": 4,
-     "started": 0,
-     "minutes": 41.2,
-     "points": 17,
-     "rebounds": 10,
-     "assists": 4,
-     "steals": 2,
-     "blocks": 0,
-     "turnovers": 3,
-     "fgMade": 6,
-     "fgAttempted": 13,
-     "threeMade": 3,
-     "threeAttempted": 6,
-     "ftMade": 2,
-     "ftAttempted": 4
-    }
-   },
-   "lastFull": {},
-   "lastToDate": {}
   },
   {
    "id": "finnedo01",
