@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-07T22:23:45.581Z",
+ "updatedAt": "2026-11-07T23:23:48.014Z",
  "teams": {
   "ATL": [
    {
@@ -15,13 +15,6 @@
     "gameTimeDecision": false,
     "reason": "Knee",
     "returnDate": "2027-07-01"
-   },
-   {
-    "name": "Jalen Johnson",
-    "status": "Out",
-    "gameTimeDecision": true,
-    "reason": "Ankle",
-    "returnDate": "2026-11-07"
    },
    {
     "name": "Jock Landale",
@@ -59,13 +52,6 @@
     "gameTimeDecision": true,
     "reason": "Undisclosed",
     "returnDate": "2026-11-04"
-   },
-   {
-    "name": "Noah Clowney",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Illness",
-    "returnDate": "2026-11-07"
    }
   ],
   "CHA": [
@@ -260,7 +246,7 @@
     "name": "Gui Santos",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
-    "reason": "Knee",
+    "reason": "Knee (tendinitis)",
     "returnDate": "2026-11-07"
    }
   ],
@@ -381,13 +367,6 @@
     "returnDate": "2027-04-02"
    },
    {
-    "name": "Terrence Shannon Jr.",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Hip (bruise)",
-    "returnDate": "2026-11-08"
-   },
-   {
     "name": "Joan Beringer",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
@@ -496,6 +475,13 @@
   ],
   "PHI": [
    {
+    "name": "Adem Bona",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Back (sprain)",
+    "returnDate": "2026-11-10"
+   },
+   {
     "name": "Ariel Hukporti",
     "status": "Out",
     "gameTimeDecision": false,
@@ -510,10 +496,10 @@
     "returnDate": "2026-11-18"
    },
    {
-    "name": "Adem Bona",
+    "name": "Joel Embiid",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
-    "reason": "Back (sprain)",
+    "reason": "Foot (plantar fasciitis)",
     "returnDate": "2026-11-08"
    }
   ],
@@ -660,6 +646,13 @@
     "gameTimeDecision": false,
     "reason": "Foot (strain)",
     "returnDate": "2026-11-20"
+   },
+   {
+    "name": "Lauri Markkanen",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Wrist (sprain)",
+    "returnDate": "2026-11-08"
    }
   ],
   "WAS": [
