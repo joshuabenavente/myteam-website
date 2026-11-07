@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-07T19:23:40.024Z",
+ "updatedAt": "2026-11-07T20:23:35.177Z",
  "teams": {
   "ATL": [
    {
@@ -443,6 +443,13 @@
   ],
   "ORL": [
    {
+    "name": "Desmond Bane",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Illness",
+    "returnDate": "2026-11-10"
+   },
+   {
     "name": "Izaiyah Nelson",
     "status": "Out",
     "gameTimeDecision": false,
@@ -637,13 +644,6 @@
     "gameTimeDecision": false,
     "reason": "Foot (strain)",
     "returnDate": "2026-11-20"
-   },
-   {
-    "name": "Trey Alexander",
-    "status": "Out",
-    "gameTimeDecision": true,
-    "reason": "Knee (bruise)",
-    "returnDate": "2026-11-06"
    }
   ],
   "WAS": [
