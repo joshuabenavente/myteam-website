@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-06T23:23:32.477Z",
+ "updatedAt": "2026-11-07T00:23:42.956Z",
  "teams": {
   "ATL": [
    {
@@ -132,25 +132,18 @@
   ],
   "CLE": [
    {
+    "name": "Jarrett Allen",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Knee",
+    "returnDate": "2026-11-07"
+   },
+   {
     "name": "Jaylon Tyson",
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Ankle (sprain)",
     "returnDate": "2026-11-07"
-   },
-   {
-    "name": "Jarrett Allen",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Knee",
-    "returnDate": "2026-11-06"
-   },
-   {
-    "name": "Peyton Watson",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Hamstring (soreness)",
-    "returnDate": "2026-11-06"
    }
   ],
   "DAL": [
@@ -174,13 +167,6 @@
     "gameTimeDecision": false,
     "reason": "Heel (inflammation)",
     "returnDate": "2026-11-12"
-   },
-   {
-    "name": "Max Christie",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Hip",
-    "returnDate": "2026-11-06"
    }
   ],
   "DEN": [
@@ -190,13 +176,6 @@
     "gameTimeDecision": false,
     "reason": "Knee (sprain)",
     "returnDate": "2026-11-29"
-   },
-   {
-    "name": "Spencer Jones",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Hamstring",
-    "returnDate": "2026-11-11"
    },
    {
     "name": "DeMar DeRozan",
@@ -613,6 +592,13 @@
   ],
   "TOR": [
    {
+    "name": "Immanuel Quickley",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Hamstring",
+    "returnDate": "2026-11-09"
+   },
+   {
     "name": "Kawhi Leonard",
     "status": "Out",
     "gameTimeDecision": false,
@@ -627,32 +613,11 @@
     "returnDate": "2026-11-09"
    },
    {
-    "name": "Immanuel Quickley",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Hamstring",
-    "returnDate": "2026-11-06"
-   },
-   {
-    "name": "Jakob Poeltl",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Shoulder",
-    "returnDate": "2026-11-06"
-   },
-   {
-    "name": "Kyle Anderson",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Illness",
-    "returnDate": "2026-11-06"
-   },
-   {
     "name": "Scottie Barnes",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
+    "status": "Out",
+    "gameTimeDecision": false,
     "reason": "Groin (soreness)",
-    "returnDate": "2026-11-06"
+    "returnDate": "2026-11-09"
    }
   ],
   "UTA": [
