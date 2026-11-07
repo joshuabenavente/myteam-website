@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-07T15:23:56.832Z",
+ "updatedAt": "2026-11-07T16:23:45.577Z",
  "teams": {
   "ATL": [
    {
@@ -65,9 +65,9 @@
    {
     "name": "Tyler Bilodeau",
     "status": "Out",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Shoulder (sprain)",
-    "returnDate": "2026-11-06"
+    "returnDate": "2026-11-07"
    },
    {
     "name": "Day'Ron Sharpe",
@@ -75,6 +75,13 @@
     "gameTimeDecision": true,
     "reason": "Undisclosed",
     "returnDate": "2026-11-04"
+   },
+   {
+    "name": "Noah Clowney",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Illness",
+    "returnDate": "2026-11-07"
    }
   ],
   "CHA": [
@@ -436,13 +443,6 @@
     "gameTimeDecision": false,
     "reason": "Leg (fracture)",
     "returnDate": "2027-03-02"
-   },
-   {
-    "name": "Nikola Topic",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Back",
-    "returnDate": "2026-11-13"
    },
    {
     "name": "Thomas Sorber",
