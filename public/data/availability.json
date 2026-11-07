@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-07T21:23:58.954Z",
+ "updatedAt": "2026-11-07T22:23:45.581Z",
  "teams": {
   "ATL": [
    {
@@ -114,17 +114,24 @@
     "returnDate": "2026-11-08"
    },
    {
+    "name": "Zach Collins",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Illness",
+    "returnDate": "2026-11-11"
+   },
+   {
     "name": "Jalen Smith",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
-    "reason": "Hand",
+    "reason": "Finger (sprain)",
     "returnDate": "2026-11-08"
    },
    {
-    "name": "Zach Collins",
+    "name": "Tobe Awaka",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
-    "reason": "Illness",
+    "reason": "Knee (sprain)",
     "returnDate": "2026-11-08"
    }
   ],
@@ -187,9 +194,9 @@
    {
     "name": "Isaiah Joe",
     "status": "Out",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Hip (bruise)",
-    "returnDate": "2026-11-08"
+    "returnDate": "2026-11-09"
    },
    {
     "name": "Jalen Duren",
@@ -197,6 +204,20 @@
     "gameTimeDecision": false,
     "reason": "Hamstring (strain)",
     "returnDate": "2026-11-09"
+   },
+   {
+    "name": "Elijah Harkless",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Not Injury Related",
+    "returnDate": "2026-11-08"
+   },
+   {
+    "name": "Isaac Jones",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Not Injury Related",
+    "returnDate": "2026-11-08"
    }
   ],
   "GSW": [
@@ -309,6 +330,15 @@
     "status": "Out",
     "gameTimeDecision": true,
     "reason": "Foot (surgery)",
+    "returnDate": "2026-11-08"
+   }
+  ],
+  "LAL": [
+   {
+    "name": "Luka Doncic",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Back",
     "returnDate": "2026-11-08"
    }
   ],
