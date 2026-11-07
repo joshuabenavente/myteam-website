@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-07T20:23:35.177Z",
+ "updatedAt": "2026-11-07T21:23:58.954Z",
  "teams": {
   "ATL": [
    {
@@ -181,13 +181,6 @@
     "gameTimeDecision": false,
     "reason": "Knee (sprain)",
     "returnDate": "2026-11-29"
-   },
-   {
-    "name": "DeMar DeRozan",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Back (spasms)",
-    "returnDate": "2026-11-07"
    }
   ],
   "DET": [
@@ -282,25 +275,11 @@
     "returnDate": "2027-01-02"
    },
    {
-    "name": "T.J. McConnell",
-    "status": "Out",
-    "gameTimeDecision": true,
-    "reason": "Hamstring (strain)",
-    "returnDate": "2026-11-07"
-   },
-   {
     "name": "Tyrese Haliburton",
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Hamstring (strain)",
     "returnDate": "2026-11-13"
-   },
-   {
-    "name": "Kelly Oubre Jr.",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Calf (bruise)",
-    "returnDate": "2026-11-07"
    }
   ],
   "LAC": [
@@ -538,6 +517,13 @@
     "gameTimeDecision": false,
     "reason": "Hamstring",
     "returnDate": "2026-12-01"
+   },
+   {
+    "name": "Robert Williams III",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Rest",
+    "returnDate": "2026-11-10"
    },
    {
     "name": "Shaedon Sharpe",
