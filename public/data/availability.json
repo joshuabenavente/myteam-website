@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-07T18:23:33.934Z",
+ "updatedAt": "2026-11-07T19:23:40.024Z",
  "teams": {
   "ATL": [
    {
@@ -45,15 +45,6 @@
     "returnDate": "2026-11-20"
    }
   ],
-  "BOS": [
-   {
-    "name": "Devin Carter",
-    "status": "Out",
-    "gameTimeDecision": true,
-    "reason": "Illness",
-    "returnDate": "2026-11-06"
-   }
-  ],
   "BKN": [
    {
     "name": "Egor Demin",
@@ -61,13 +52,6 @@
     "gameTimeDecision": false,
     "reason": "Leg (bruise)",
     "returnDate": "2026-11-11"
-   },
-   {
-    "name": "Tyler Bilodeau",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Shoulder (sprain)",
-    "returnDate": "2026-11-07"
    },
    {
     "name": "Day'Ron Sharpe",
@@ -372,15 +356,6 @@
     "returnDate": "2026-11-09"
    }
   ],
-  "MIL": [
-   {
-    "name": "Kam Jones",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Ankle",
-    "returnDate": "2026-11-06"
-   }
-  ],
   "MIN": [
    {
     "name": "Anthony Edwards",
@@ -452,18 +427,18 @@
     "returnDate": "2027-03-02"
    },
    {
+    "name": "Jaylin Williams",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Back (spasms)",
+    "returnDate": "2026-11-10"
+   },
+   {
     "name": "Thomas Sorber",
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Knee",
     "returnDate": "2026-11-13"
-   },
-   {
-    "name": "Jaylin Williams",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Back (spasms)",
-    "returnDate": "2026-11-07"
    }
   ],
   "ORL": [
