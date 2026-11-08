@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-08T06:23:30.458Z",
+ "updatedAt": "2026-11-08T15:23:57.775Z",
  "teams": {
   "ATL": [
    {
@@ -114,6 +114,13 @@
     "returnDate": "2026-11-08"
    },
    {
+    "name": "Norman Powell",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Shoulder (inflammation)",
+    "returnDate": "2026-11-08"
+   },
+   {
     "name": "Tobe Awaka",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
@@ -190,20 +197,6 @@
     "gameTimeDecision": false,
     "reason": "Hamstring (strain)",
     "returnDate": "2026-11-09"
-   },
-   {
-    "name": "Elijah Harkless",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Not Injury Related",
-    "returnDate": "2026-11-08"
-   },
-   {
-    "name": "Isaac Jones",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Not Injury Related",
-    "returnDate": "2026-11-08"
    }
   ],
   "GSW": [
@@ -636,13 +629,6 @@
     "returnDate": "2026-11-09"
    },
    {
-    "name": "Deandre Ayton",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Leg",
-    "returnDate": "2026-11-09"
-   },
-   {
     "name": "Jamir Watkins",
     "status": "Out",
     "gameTimeDecision": false,
@@ -668,6 +654,13 @@
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Hip (pinched nerve)",
+    "returnDate": "2026-11-09"
+   },
+   {
+    "name": "Deandre Ayton",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Leg",
     "returnDate": "2026-11-09"
    }
   ]
