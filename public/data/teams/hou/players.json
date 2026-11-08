@@ -1,7 +1,7 @@
 {
  "season": "2026-27",
  "lastSeason": "2025-26",
- "updatedAt": "2026-11-07T22:23:45.481Z",
+ "updatedAt": "2026-11-08T04:23:41.262Z",
  "teamGamesPlayed": {
   "regular": 9,
   "playoffs": 0
@@ -950,12 +950,14 @@
    "position": "PG",
    "twoWay": false,
    "bio": {
-    "height": "6' 2\"",
-    "weight": 215,
+    "height": "6' 0\"",
+    "weight": 229,
     "birthDate": "2003-09-14",
     "experience": 0,
-    "college": "Ohio State"
+    "college": "Ohio State",
+    "birthPlace": "Fairburn, GA"
    },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5105837.png",
    "current": {
     "regular": {
      "games": 6,
