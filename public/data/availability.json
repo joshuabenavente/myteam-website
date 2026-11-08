@@ -1,7 +1,14 @@
 {
- "updatedAt": "2026-11-08T22:23:45.262Z",
+ "updatedAt": "2026-11-08T23:23:44.324Z",
  "teams": {
   "ATL": [
+   {
+    "name": "Asa Newell",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Toe",
+    "returnDate": "2026-11-13"
+   },
    {
     "name": "Henri Veesaar",
     "status": "Out",
@@ -17,25 +24,18 @@
     "returnDate": "2026-11-09"
    },
    {
+    "name": "Keshon Gilbert",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Knee (inflammation)",
+    "returnDate": "2026-11-13"
+   },
+   {
     "name": "Mouhamed Gueye",
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Foot (fracture)",
     "returnDate": "2026-11-20"
-   },
-   {
-    "name": "Asa Newell",
-    "status": "Day-To-Day",
-    "gameTimeDecision": false,
-    "reason": "Toe",
-    "returnDate": "2026-11-13"
-   },
-   {
-    "name": "Keshon Gilbert",
-    "status": "Day-To-Day",
-    "gameTimeDecision": false,
-    "reason": "Knee (inflammation)",
-    "returnDate": "2026-11-13"
    }
   ],
   "BOS": [
@@ -72,32 +72,32 @@
   ],
   "CHA": [
    {
+    "name": "Brandon Miller",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Groin (soreness)",
+    "returnDate": "2026-11-12"
+   },
+   {
     "name": "Dennis Schroder",
     "status": "Out",
     "gameTimeDecision": false,
-    "reason": "Thigh",
-    "returnDate": "2026-11-09"
+    "reason": "Hamstring (strain)",
+    "returnDate": "2026-11-25"
    },
    {
     "name": "Grant Williams",
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Hamstring",
-    "returnDate": "2026-11-09"
+    "returnDate": "2026-11-12"
    },
    {
     "name": "Kon Knueppel",
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Hamstring (strain)",
-    "returnDate": "2026-11-09"
-   },
-   {
-    "name": "Brandon Miller",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Groin (soreness)",
-    "returnDate": "2026-11-09"
+    "returnDate": "2026-12-12"
    },
    {
     "name": "Moussa Diabate",
@@ -132,17 +132,17 @@
     "returnDate": "2026-11-11"
    },
    {
+    "name": "Sam Merrill",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Elbow",
+    "returnDate": "2026-11-11"
+   },
+   {
     "name": "Jarrett Allen",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Knee",
-    "returnDate": "2026-11-09"
-   },
-   {
-    "name": "Sam Merrill",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Elbow",
     "returnDate": "2026-11-09"
    }
   ],
@@ -176,6 +176,48 @@
     "gameTimeDecision": false,
     "reason": "Knee (sprain)",
     "returnDate": "2026-11-29"
+   },
+   {
+    "name": "Aaron Gordon",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Lower Body",
+    "returnDate": "2026-11-09"
+   },
+   {
+    "name": "Cameron Johnson",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Lower Body",
+    "returnDate": "2026-11-09"
+   },
+   {
+    "name": "Christian Braun",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Calf (bruise)",
+    "returnDate": "2026-11-09"
+   },
+   {
+    "name": "DeMar DeRozan",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Back (spasms)",
+    "returnDate": "2026-11-09"
+   },
+   {
+    "name": "Jamal Murray",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Lower Leg (bruise)",
+    "returnDate": "2026-11-09"
+   },
+   {
+    "name": "Nikola Jokic",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Elbow (sprain)",
+    "returnDate": "2026-11-09"
    }
   ],
   "DET": [
@@ -221,16 +263,16 @@
    {
     "name": "Clint Capela",
     "status": "Out",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Ankle (sprain)",
-    "returnDate": "2026-11-09"
+    "returnDate": "2026-11-11"
    },
    {
     "name": "Steven Adams",
     "status": "Out",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Calf (strain)",
-    "returnDate": "2026-11-09"
+    "returnDate": "2026-11-11"
    }
   ],
   "IND": [
@@ -322,7 +364,7 @@
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Back (soreness)",
-    "returnDate": "2026-11-09"
+    "returnDate": "2026-11-11"
    }
   ],
   "MIL": [
@@ -532,6 +574,13 @@
     "gameTimeDecision": false,
     "reason": "Knee (dislocated)",
     "returnDate": "2026-11-10"
+   },
+   {
+    "name": "Domantas Sabonis",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Knee (soreness)",
+    "returnDate": "2026-11-08"
    }
   ],
   "SAS": [
@@ -596,18 +645,9 @@
     "returnDate": "2026-11-20"
    },
    {
-    "name": "Keyonte George",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Illness",
-    "returnDate": "2026-11-08"
-   },
-   {
     "name": "Lauri Markkanen",
     "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Wrist (sprain)",
-    "returnDate": "2026-11-08"
+    "gameTimeDecision": false
    }
   ],
   "WAS": [
