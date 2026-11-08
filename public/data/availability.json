@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-08T18:23:29.969Z",
+ "updatedAt": "2026-11-08T19:23:41.990Z",
  "teams": {
   "ATL": [
    {
@@ -36,6 +36,15 @@
     "gameTimeDecision": true,
     "reason": "Knee (inflammation)",
     "returnDate": "2026-11-09"
+   }
+  ],
+  "BOS": [
+   {
+    "name": "Mitchell Robinson",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Illness",
+    "returnDate": "2026-11-08"
    }
   ],
   "BKN": [
@@ -100,11 +109,11 @@
   ],
   "CHI": [
    {
-    "name": "Nic Claxton",
+    "name": "Norman Powell",
     "status": "Out",
-    "gameTimeDecision": true,
-    "reason": "Hamstring (strain)",
-    "returnDate": "2026-11-08"
+    "gameTimeDecision": false,
+    "reason": "Shoulder (inflammation)",
+    "returnDate": "2026-11-11"
    },
    {
     "name": "Zach Collins",
@@ -118,13 +127,6 @@
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Finger (sprain)",
-    "returnDate": "2026-11-08"
-   },
-   {
-    "name": "Norman Powell",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Shoulder (inflammation)",
     "returnDate": "2026-11-08"
    },
    {
@@ -335,6 +337,15 @@
     "gameTimeDecision": false,
     "reason": "Back (soreness)",
     "returnDate": "2026-11-09"
+   }
+  ],
+  "MIL": [
+   {
+    "name": "Gary Trent Jr.",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Illness",
+    "returnDate": "2026-11-08"
    }
   ],
   "MIN": [
