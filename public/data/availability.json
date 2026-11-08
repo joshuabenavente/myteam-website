@@ -1,14 +1,7 @@
 {
- "updatedAt": "2026-11-08T15:23:57.775Z",
+ "updatedAt": "2026-11-08T16:23:44.829Z",
  "teams": {
   "ATL": [
-   {
-    "name": "Asa Newell",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Toe",
-    "returnDate": "2026-11-09"
-   },
    {
     "name": "Henri Veesaar",
     "status": "Out",
@@ -19,15 +12,8 @@
    {
     "name": "Jock Landale",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Hip",
-    "returnDate": "2026-11-09"
-   },
-   {
-    "name": "Keshon Gilbert",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Knee (inflammation)",
     "returnDate": "2026-11-09"
    },
    {
@@ -36,6 +22,20 @@
     "gameTimeDecision": false,
     "reason": "Foot (fracture)",
     "returnDate": "2026-11-20"
+   },
+   {
+    "name": "Asa Newell",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Toe",
+    "returnDate": "2026-11-09"
+   },
+   {
+    "name": "Keshon Gilbert",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Knee (inflammation)",
+    "returnDate": "2026-11-09"
    }
   ],
   "BKN": [
@@ -130,23 +130,23 @@
   ],
   "CLE": [
    {
-    "name": "Jarrett Allen",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Knee",
-    "returnDate": "2026-11-09"
-   },
-   {
     "name": "Jaylon Tyson",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Ankle (sprain)",
     "returnDate": "2026-11-09"
    },
    {
+    "name": "Jarrett Allen",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Knee",
+    "returnDate": "2026-11-09"
+   },
+   {
     "name": "Sam Merrill",
-    "status": "Out",
-    "gameTimeDecision": false,
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
     "reason": "Elbow",
     "returnDate": "2026-11-09"
    }
@@ -196,7 +196,7 @@
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Hamstring (strain)",
-    "returnDate": "2026-11-09"
+    "returnDate": "2026-11-24"
    }
   ],
   "GSW": [
@@ -365,8 +365,8 @@
   "NYK": [
    {
     "name": "Josh Hart",
-    "status": "Out",
-    "gameTimeDecision": false,
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
     "reason": "Ankle",
     "returnDate": "2026-11-10"
    }
@@ -396,7 +396,7 @@
    {
     "name": "Jaylin Williams",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Back (spasms)",
     "returnDate": "2026-11-10"
    },
@@ -410,13 +410,6 @@
   ],
   "ORL": [
    {
-    "name": "Desmond Bane",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Illness",
-    "returnDate": "2026-11-10"
-   },
-   {
     "name": "Izaiyah Nelson",
     "status": "Out",
     "gameTimeDecision": false,
@@ -426,14 +419,14 @@
    {
     "name": "Jalen Suggs",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Knee",
     "returnDate": "2026-11-10"
    },
    {
     "name": "Jonathan Isaac",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Knee",
     "returnDate": "2026-11-10"
    },
@@ -450,6 +443,13 @@
     "gameTimeDecision": false,
     "reason": "Ankle (sprain)",
     "returnDate": "2026-11-22"
+   },
+   {
+    "name": "Desmond Bane",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Illness",
+    "returnDate": "2026-11-10"
    }
   ],
   "PHI": [
@@ -622,13 +622,6 @@
   ],
   "WAS": [
    {
-    "name": "Anthony Davis",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Ankle (sprain)",
-    "returnDate": "2026-11-09"
-   },
-   {
     "name": "Jamir Watkins",
     "status": "Out",
     "gameTimeDecision": false,
@@ -652,8 +645,15 @@
    {
     "name": "Tristan Vukcevic",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Hip (pinched nerve)",
+    "returnDate": "2026-11-09"
+   },
+   {
+    "name": "Anthony Davis",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Ankle (sprain)",
     "returnDate": "2026-11-09"
    },
    {
