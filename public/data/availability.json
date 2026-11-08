@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-08T16:23:44.829Z",
+ "updatedAt": "2026-11-08T17:23:43.824Z",
  "teams": {
   "ATL": [
    {
@@ -52,6 +52,13 @@
     "gameTimeDecision": false,
     "reason": "Rest",
     "returnDate": "2026-11-11"
+   },
+   {
+    "name": "Grant Nelson",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Knee",
+    "returnDate": "2026-11-10"
    }
   ],
   "CHA": [
@@ -226,14 +233,14 @@
    {
     "name": "Clint Capela",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Ankle (sprain)",
     "returnDate": "2026-11-09"
    },
    {
     "name": "Steven Adams",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Calf (strain)",
     "returnDate": "2026-11-09"
    }
@@ -486,7 +493,7 @@
    {
     "name": "Jordan Goodwin",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Calf",
     "returnDate": "2026-11-09"
    },
@@ -507,13 +514,6 @@
     "returnDate": "2026-12-01"
    },
    {
-    "name": "Robert Williams III",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Rest",
-    "returnDate": "2026-11-10"
-   },
-   {
     "name": "Shaedon Sharpe",
     "status": "Out",
     "gameTimeDecision": false,
@@ -526,6 +526,13 @@
     "gameTimeDecision": false,
     "reason": "Ankle",
     "returnDate": "2027-01-02"
+   },
+   {
+    "name": "Robert Williams III",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Rest",
+    "returnDate": "2026-11-10"
    }
   ],
   "SAC": [
@@ -562,7 +569,7 @@
    {
     "name": "Tobias Harris",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Calf (strain)",
     "returnDate": "2026-11-09"
    }
@@ -578,7 +585,7 @@
    {
     "name": "Nate Bittle",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Foot (fracture)",
     "returnDate": "2026-11-09"
    },
@@ -611,6 +618,13 @@
     "gameTimeDecision": false,
     "reason": "Foot (strain)",
     "returnDate": "2026-11-20"
+   },
+   {
+    "name": "Keyonte George",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Illness",
+    "returnDate": "2026-11-08"
    },
    {
     "name": "Lauri Markkanen",
