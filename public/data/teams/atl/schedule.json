@@ -203,7 +203,11 @@
    "startUtc": "2026-11-08T00:30:00Z",
    "home": true,
    "opponent": "BKN",
-   "status": "scheduled",
+   "status": "live",
+   "score": {
+    "team": 0,
+    "opponent": 0
+   },
    "broadcasts": [
     {
      "name": "ANF / Peachtree Sports Net / Prime Video - ATL",

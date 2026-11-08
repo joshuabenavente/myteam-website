@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-08T00:23:30.571Z",
+ "updatedAt": "2026-11-08T01:23:39.410Z",
  "teams": {
   "ATL": [
    {
@@ -279,9 +279,16 @@
    {
     "name": "Brandon Ingram",
     "status": "Out",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Achilles (surgery)",
-    "returnDate": "2026-11-08"
+    "returnDate": "2026-11-10"
+   },
+   {
+    "name": "Isaiah Jackson",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Groin (soreness)",
+    "returnDate": "2026-11-10"
    },
    {
     "name": "Jordan Miller",
@@ -484,25 +491,18 @@
   ],
   "PHX": [
    {
+    "name": "Jordan Goodwin",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Calf",
+    "returnDate": "2026-11-09"
+   },
+   {
     "name": "Mark Williams",
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Shoulder (surgery)",
     "returnDate": "2027-02-03"
-   },
-   {
-    "name": "Jordan Goodwin",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Calf",
-    "returnDate": "2026-11-07"
-   },
-   {
-    "name": "Rasheer Fleming",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Ankle (sprain)",
-    "returnDate": "2026-11-07"
    }
   ],
   "POR": [

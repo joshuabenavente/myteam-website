@@ -167,13 +167,13 @@
    "conference": "East",
    "division": "Central",
    "wins": 3,
-   "losses": 6,
+   "losses": 7,
    "divisionRank": 3,
-   "conferenceRank": 10,
-   "divisionGamesBehind": 3.5,
+   "conferenceRank": 11,
+   "divisionGamesBehind": 4,
    "home": {
     "wins": 0,
-    "losses": 4
+    "losses": 5
    },
    "road": {
     "wins": 3,
@@ -181,9 +181,9 @@
    },
    "lastTen": {
     "wins": 3,
-    "losses": 6
+    "losses": 7
    },
-   "streak": "W1"
+   "streak": "L1"
   },
   "CHI": {
    "abbr": "CHI",
@@ -307,7 +307,7 @@
    "wins": 3,
    "losses": 7,
    "divisionRank": 4,
-   "conferenceRank": 11,
+   "conferenceRank": 10,
    "divisionGamesBehind": 3,
    "home": {
     "wins": 2,
@@ -419,24 +419,24 @@
    "abbr": "DEN",
    "conference": "West",
    "division": "Northwest",
-   "wins": 4,
+   "wins": 5,
    "losses": 3,
    "divisionRank": 4,
    "conferenceRank": 9,
-   "divisionGamesBehind": 2,
+   "divisionGamesBehind": 1.5,
    "home": {
     "wins": 2,
     "losses": 2
    },
    "road": {
-    "wins": 2,
+    "wins": 3,
     "losses": 1
    },
    "lastTen": {
-    "wins": 4,
+    "wins": 5,
     "losses": 3
    },
-   "streak": "W1"
+   "streak": "W2"
   },
   "UTA": {
    "abbr": "UTA",

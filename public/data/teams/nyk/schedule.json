@@ -175,7 +175,11 @@
    "startUtc": "2026-11-08T01:00:00Z",
    "home": false,
    "opponent": "CLE",
-   "status": "scheduled",
+   "status": "live",
+   "score": {
+    "team": 0,
+    "opponent": 0
+   },
    "broadcasts": [
     {
      "name": "NBA TV",
@@ -660,7 +664,7 @@
   {
    "id": "0022600567",
    "type": "regular",
-   "startUtc": "2027-01-12T00:30:00Z",
+   "startUtc": "2027-01-12T00:00:00Z",
    "home": true,
    "opponent": "DEN",
    "status": "scheduled",

@@ -693,11 +693,21 @@
   {
    "id": "0022600568",
    "type": "regular",
-   "startUtc": "2027-01-12T01:00:00Z",
+   "startUtc": "2027-01-12T02:30:00Z",
    "home": true,
    "opponent": "CLE",
    "status": "scheduled",
    "broadcasts": [
+    {
+     "name": "Peacock",
+     "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "NBC Sports Network",
+     "scope": "national",
+     "kind": "tv"
+    },
     {
      "name": "DAZN-MIN",
      "scope": "local",

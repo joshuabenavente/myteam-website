@@ -336,11 +336,21 @@
   {
    "id": "0022600256",
    "type": "regular",
-   "startUtc": "2026-11-18T03:00:00Z",
+   "startUtc": "2026-11-18T04:00:00Z",
    "home": true,
    "opponent": "CHA",
    "status": "scheduled",
    "broadcasts": [
+    {
+     "name": "NBC",
+     "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "Peacock",
+     "scope": "national",
+     "kind": "tv"
+    },
     {
      "name": "Spectrum SportsNet",
      "scope": "local",
@@ -838,21 +848,11 @@
   {
    "id": "0022600569",
    "type": "regular",
-   "startUtc": "2027-01-12T03:00:00Z",
+   "startUtc": "2027-01-12T03:30:00Z",
    "home": false,
    "opponent": "LAC",
    "status": "scheduled",
    "broadcasts": [
-    {
-     "name": "Peacock",
-     "scope": "national",
-     "kind": "tv"
-    },
-    {
-     "name": "NBC Sports Network",
-     "scope": "national",
-     "kind": "tv"
-    },
     {
      "name": "Spectrum SportsNet",
      "scope": "local",

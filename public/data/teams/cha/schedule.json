@@ -246,11 +246,21 @@
   {
    "id": "0022600256",
    "type": "regular",
-   "startUtc": "2026-11-18T03:00:00Z",
+   "startUtc": "2026-11-18T04:00:00Z",
    "home": false,
    "opponent": "LAL",
    "status": "scheduled",
    "broadcasts": [
+    {
+     "name": "NBC",
+     "scope": "national",
+     "kind": "tv"
+    },
+    {
+     "name": "Peacock",
+     "scope": "national",
+     "kind": "tv"
+    },
     {
      "name": "TV 64/DAZN-CHA",
      "scope": "local",
