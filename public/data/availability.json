@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-08T21:23:52.214Z",
+ "updatedAt": "2026-11-08T22:23:45.262Z",
  "teams": {
   "ATL": [
    {
@@ -26,16 +26,16 @@
    {
     "name": "Asa Newell",
     "status": "Day-To-Day",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Toe",
-    "returnDate": "2026-11-09"
+    "returnDate": "2026-11-13"
    },
    {
     "name": "Keshon Gilbert",
     "status": "Day-To-Day",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Knee (inflammation)",
-    "returnDate": "2026-11-09"
+    "returnDate": "2026-11-13"
    }
   ],
   "BOS": [
@@ -127,9 +127,9 @@
    {
     "name": "Jaylon Tyson",
     "status": "Out",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Ankle (sprain)",
-    "returnDate": "2026-11-09"
+    "returnDate": "2026-11-11"
    },
    {
     "name": "Jarrett Allen",
@@ -561,9 +561,9 @@
    {
     "name": "Nate Bittle",
     "status": "Out",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Foot (fracture)",
-    "returnDate": "2026-11-09"
+    "returnDate": "2026-11-15"
    },
    {
     "name": "Immanuel Quickley",
@@ -635,22 +635,15 @@
    {
     "name": "Tristan Vukcevic",
     "status": "Out",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Hip (pinched nerve)",
-    "returnDate": "2026-11-09"
+    "returnDate": "2026-11-16"
    },
    {
     "name": "Anthony Davis",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Ankle (sprain)",
-    "returnDate": "2026-11-09"
-   },
-   {
-    "name": "Deandre Ayton",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Leg",
     "returnDate": "2026-11-09"
    }
   ]
