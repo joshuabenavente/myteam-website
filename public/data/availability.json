@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-08T17:23:43.824Z",
+ "updatedAt": "2026-11-08T18:23:29.969Z",
  "teams": {
   "ATL": [
    {
@@ -308,10 +308,10 @@
   "LAL": [
    {
     "name": "Luka Doncic",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Back",
-    "returnDate": "2026-11-08"
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Back (soreness)",
+    "returnDate": "2026-11-09"
    }
   ],
   "MEM": [
@@ -351,13 +351,6 @@
     "gameTimeDecision": false,
     "reason": "Achilles (surgery)",
     "returnDate": "2027-04-02"
-   },
-   {
-    "name": "Joan Beringer",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Fracture",
-    "returnDate": "2026-11-08"
    }
   ],
   "NOP": [
