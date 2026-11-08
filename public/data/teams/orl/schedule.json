@@ -160,7 +160,11 @@
    "startUtc": "2026-11-08T01:30:00Z",
    "home": false,
    "opponent": "GSW",
-   "status": "scheduled",
+   "status": "live",
+   "score": {
+    "team": 0,
+    "opponent": 0
+   },
    "broadcasts": [
     {
      "name": "MagicTV 27/DAZN-ORL",

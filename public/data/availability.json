@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-08T01:23:39.410Z",
+ "updatedAt": "2026-11-08T02:23:37.269Z",
  "teams": {
   "ATL": [
    {
@@ -546,9 +546,9 @@
    {
     "name": "Keegan Murray",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Ankle",
-    "returnDate": "2026-11-10"
+    "returnDate": "2026-11-08"
    },
    {
     "name": "Maxime Raynaud",
@@ -556,13 +556,6 @@
     "gameTimeDecision": false,
     "reason": "Knee (dislocated)",
     "returnDate": "2026-11-10"
-   },
-   {
-    "name": "De'Andre Hunter",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Illness",
-    "returnDate": "2026-11-08"
    }
   ],
   "SAS": [
