@@ -28,24 +28,24 @@
    "abbr": "BOS",
    "conference": "East",
    "division": "Atlantic",
-   "wins": 7,
+   "wins": 8,
    "losses": 2,
    "divisionRank": 2,
    "conferenceRank": 2,
-   "divisionGamesBehind": 1,
+   "divisionGamesBehind": 0.5,
    "home": {
     "wins": 5,
     "losses": 0
    },
    "road": {
-    "wins": 2,
+    "wins": 3,
     "losses": 2
    },
    "lastTen": {
-    "wins": 7,
+    "wins": 8,
     "losses": 2
    },
-   "streak": "W2"
+   "streak": "W3"
   },
   "NYK": {
    "abbr": "NYK",
@@ -213,13 +213,13 @@
    "conference": "East",
    "division": "Central",
    "wins": 1,
-   "losses": 8,
+   "losses": 9,
    "divisionRank": 5,
    "conferenceRank": 15,
-   "divisionGamesBehind": 5,
+   "divisionGamesBehind": 5.5,
    "home": {
     "wins": 1,
-    "losses": 4
+    "losses": 5
    },
    "road": {
     "wins": 0,
@@ -227,9 +227,9 @@
    },
    "lastTen": {
     "wins": 1,
-    "losses": 8
+    "losses": 9
    },
-   "streak": "L5"
+   "streak": "L6"
   },
   "ATL": {
    "abbr": "ATL",
