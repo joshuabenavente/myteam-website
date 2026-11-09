@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-09T01:23:40.871Z",
+ "updatedAt": "2026-11-09T02:23:36.269Z",
  "teams": {
   "ATL": [
    {
@@ -250,6 +250,13 @@
     "returnDate": "2026-12-01"
    },
    {
+    "name": "Will Richard",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Thumb",
+    "returnDate": "2026-11-11"
+   },
+   {
     "name": "Gui Santos",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
@@ -352,8 +359,8 @@
     "name": "Quentin Grimes",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
-    "reason": "Undisclosed",
-    "returnDate": "2026-11-08"
+    "reason": "Finger",
+    "returnDate": "2026-11-09"
    }
   ],
   "MEM": [
