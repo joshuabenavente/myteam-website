@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-09T00:23:40.759Z",
+ "updatedAt": "2026-11-09T01:23:40.871Z",
  "teams": {
   "ATL": [
    {
@@ -36,15 +36,6 @@
     "gameTimeDecision": false,
     "reason": "Foot (fracture)",
     "returnDate": "2026-11-20"
-   }
-  ],
-  "BOS": [
-   {
-    "name": "Mitchell Robinson",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Illness",
-    "returnDate": "2026-11-08"
    }
   ],
   "BKN": [
@@ -257,6 +248,13 @@
     "gameTimeDecision": false,
     "reason": "Knee (surgery)",
     "returnDate": "2026-12-01"
+   },
+   {
+    "name": "Gui Santos",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Knee (tendinitis)",
+    "returnDate": "2026-11-09"
    }
   ],
   "HOU": [
@@ -349,6 +347,13 @@
     "gameTimeDecision": false,
     "reason": "Back (soreness)",
     "returnDate": "2026-11-09"
+   },
+   {
+    "name": "Quentin Grimes",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Undisclosed",
+    "returnDate": "2026-11-08"
    }
   ],
   "MEM": [
@@ -576,18 +581,18 @@
     "returnDate": "2027-10-01"
    },
    {
+    "name": "Domantas Sabonis",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Knee (soreness)",
+    "returnDate": "2026-11-10"
+   },
+   {
     "name": "Maxime Raynaud",
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Knee (dislocated)",
     "returnDate": "2026-11-10"
-   },
-   {
-    "name": "Domantas Sabonis",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Knee (soreness)",
-    "returnDate": "2026-11-08"
    }
   ],
   "SAS": [
@@ -601,8 +606,15 @@
    {
     "name": "Tobias Harris",
     "status": "Out",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Calf (strain)",
+    "returnDate": "2026-11-11"
+   },
+   {
+    "name": "Devin Vassell",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Groin",
     "returnDate": "2026-11-09"
    }
   ],
