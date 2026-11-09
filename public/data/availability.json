@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-09T18:24:22.445Z",
+ "updatedAt": "2026-11-09T19:23:40.437Z",
  "teams": {
   "ATL": [
    {
@@ -158,6 +158,13 @@
     "gameTimeDecision": false,
     "reason": "Heel (inflammation)",
     "returnDate": "2026-11-12"
+   },
+   {
+    "name": "Morez Johnson Jr.",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Leg",
+    "returnDate": "2026-11-09"
    }
   ],
   "DEN": [
@@ -215,9 +222,9 @@
    {
     "name": "Isaiah Joe",
     "status": "Out",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Hip (bruise)",
-    "returnDate": "2026-11-09"
+    "returnDate": "2026-11-12"
    },
    {
     "name": "Jalen Duren",
@@ -611,6 +618,13 @@
   ],
   "SAS": [
    {
+    "name": "Devin Vassell",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Groin",
+    "returnDate": "2026-11-11"
+   },
+   {
     "name": "Jayden Quaintance",
     "status": "Out",
     "gameTimeDecision": false,
@@ -623,13 +637,6 @@
     "gameTimeDecision": false,
     "reason": "Calf (strain)",
     "returnDate": "2026-11-11"
-   },
-   {
-    "name": "Devin Vassell",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Groin",
-    "returnDate": "2026-11-09"
    }
   ],
   "TOR": [
@@ -646,6 +653,13 @@
     "gameTimeDecision": false,
     "reason": "Foot (fracture)",
     "returnDate": "2026-11-15"
+   },
+   {
+    "name": "Collin Murray-Boyles",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Illness",
+    "returnDate": "2026-11-09"
    },
    {
     "name": "Immanuel Quickley",
@@ -726,6 +740,13 @@
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Ankle (sprain)",
+    "returnDate": "2026-11-09"
+   },
+   {
+    "name": "Bilal Coulibaly",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Hand",
     "returnDate": "2026-11-09"
    }
   ]
