@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-08T23:23:44.324Z",
+ "updatedAt": "2026-11-09T00:23:40.759Z",
  "teams": {
   "ATL": [
    {
@@ -296,6 +296,13 @@
     "gameTimeDecision": false,
     "reason": "Hamstring (strain)",
     "returnDate": "2026-11-13"
+   },
+   {
+    "name": "T.J. McConnell",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Hamstring (strain)",
+    "returnDate": "2026-11-09"
    }
   ],
   "LAC": [
@@ -370,10 +377,10 @@
   "MIL": [
    {
     "name": "Gary Trent Jr.",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
+    "status": "Out",
+    "gameTimeDecision": false,
     "reason": "Illness",
-    "returnDate": "2026-11-08"
+    "returnDate": "2026-11-10"
    }
   ],
   "MIN": [
@@ -646,8 +653,10 @@
    },
    {
     "name": "Lauri Markkanen",
-    "status": "Day-To-Day",
-    "gameTimeDecision": false
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Wrist (sprain)",
+    "returnDate": "2026-11-10"
    }
   ],
   "WAS": [
