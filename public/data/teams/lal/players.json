@@ -1,7 +1,7 @@
 {
  "season": "2026-27",
  "lastSeason": "2025-26",
- "updatedAt": "2026-11-09T04:18:52.693Z",
+ "updatedAt": "2026-11-09T10:18:47.826Z",
  "teamGamesPlayed": {
   "regular": 11,
   "playoffs": 0
@@ -24,21 +24,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4066457.png",
    "current": {
     "regular": {
-     "games": 10,
-     "started": 10,
-     "minutes": 361.5,
-     "points": 235,
-     "rebounds": 32,
-     "assists": 47,
+     "games": 11,
+     "started": 11,
+     "minutes": 398.2,
+     "points": 278,
+     "rebounds": 37,
+     "assists": 51,
      "steals": 11,
      "blocks": 4,
-     "turnovers": 39,
-     "fgMade": 77,
-     "fgAttempted": 152,
-     "threeMade": 22,
-     "threeAttempted": 57,
-     "ftMade": 59,
-     "ftAttempted": 66
+     "turnovers": 40,
+     "fgMade": 91,
+     "fgAttempted": 179,
+     "threeMade": 26,
+     "threeAttempted": 63,
+     "ftMade": 70,
+     "ftAttempted": 77
     }
    },
    "lastFull": {
@@ -94,6 +94,79 @@
      "threeAttempted": 71,
      "ftMade": 73,
      "ftAttempted": 83
+    }
+   }
+  },
+  {
+   "id": "kesslwa01",
+   "name": "Walker Kessler",
+   "number": "14",
+   "position": "C",
+   "twoWay": false,
+   "bio": {
+    "height": "7' 2\"",
+    "weight": 245,
+    "birthDate": "2001-07-26",
+    "experience": 4,
+    "college": "Auburn",
+    "birthPlace": "Newnan, GA"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4433136.png",
+   "current": {
+    "regular": {
+     "games": 11,
+     "started": 11,
+     "minutes": 341.2,
+     "points": 158,
+     "rebounds": 120,
+     "assists": 16,
+     "steals": 14,
+     "blocks": 27,
+     "turnovers": 17,
+     "fgMade": 68,
+     "fgAttempted": 98,
+     "threeMade": 0,
+     "threeAttempted": 0,
+     "ftMade": 22,
+     "ftAttempted": 38
+    }
+   },
+   "lastFull": {
+    "regular": {
+     "games": 5,
+     "started": 5,
+     "minutes": 154,
+     "points": 72,
+     "rebounds": 54,
+     "assists": 15,
+     "steals": 7,
+     "blocks": 9,
+     "turnovers": 16,
+     "fgMade": 26,
+     "fgAttempted": 37,
+     "threeMade": 6,
+     "threeAttempted": 8,
+     "ftMade": 14,
+     "ftAttempted": 20
+    }
+   },
+   "lastToDate": {
+    "regular": {
+     "games": 5,
+     "started": 5,
+     "minutes": 154,
+     "points": 72,
+     "rebounds": 54,
+     "assists": 15,
+     "steals": 7,
+     "blocks": 9,
+     "turnovers": 16,
+     "fgMade": 26,
+     "fgAttempted": 37,
+     "threeMade": 6,
+     "threeAttempted": 8,
+     "ftMade": 14,
+     "ftAttempted": 20
     }
    }
   },
@@ -170,79 +243,6 @@
    }
   },
   {
-   "id": "kesslwa01",
-   "name": "Walker Kessler",
-   "number": "14",
-   "position": "C",
-   "twoWay": false,
-   "bio": {
-    "height": "7' 2\"",
-    "weight": 245,
-    "birthDate": "2001-07-26",
-    "experience": 4,
-    "college": "Auburn",
-    "birthPlace": "Newnan, GA"
-   },
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4433136.png",
-   "current": {
-    "regular": {
-     "games": 10,
-     "started": 10,
-     "minutes": 312.3,
-     "points": 146,
-     "rebounds": 104,
-     "assists": 12,
-     "steals": 13,
-     "blocks": 24,
-     "turnovers": 13,
-     "fgMade": 63,
-     "fgAttempted": 88,
-     "threeMade": 0,
-     "threeAttempted": 0,
-     "ftMade": 20,
-     "ftAttempted": 35
-    }
-   },
-   "lastFull": {
-    "regular": {
-     "games": 5,
-     "started": 5,
-     "minutes": 154,
-     "points": 72,
-     "rebounds": 54,
-     "assists": 15,
-     "steals": 7,
-     "blocks": 9,
-     "turnovers": 16,
-     "fgMade": 26,
-     "fgAttempted": 37,
-     "threeMade": 6,
-     "threeAttempted": 8,
-     "ftMade": 14,
-     "ftAttempted": 20
-    }
-   },
-   "lastToDate": {
-    "regular": {
-     "games": 5,
-     "started": 5,
-     "minutes": 154,
-     "points": 72,
-     "rebounds": 54,
-     "assists": 15,
-     "steals": 7,
-     "blocks": 9,
-     "turnovers": 16,
-     "fgMade": 26,
-     "fgAttempted": 37,
-     "threeMade": 6,
-     "threeAttempted": 8,
-     "ftMade": 14,
-     "ftAttempted": 20
-    }
-   }
-  },
-  {
    "id": "grimequ01",
    "name": "Quentin Grimes",
    "number": "5",
@@ -259,21 +259,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4397014.png",
    "current": {
     "regular": {
-     "games": 10,
-     "started": 1,
-     "minutes": 255.4,
-     "points": 76,
-     "rebounds": 27,
-     "assists": 24,
-     "steals": 9,
-     "blocks": 1,
-     "turnovers": 13,
-     "fgMade": 24,
-     "fgAttempted": 53,
-     "threeMade": 6,
-     "threeAttempted": 28,
-     "ftMade": 22,
-     "ftAttempted": 30
+     "games": 11,
+     "started": 2,
+     "minutes": 287,
+     "points": 88,
+     "rebounds": 28,
+     "assists": 28,
+     "steals": 10,
+     "blocks": 2,
+     "turnovers": 15,
+     "fgMade": 28,
+     "fgAttempted": 65,
+     "threeMade": 8,
+     "threeAttempted": 33,
+     "ftMade": 24,
+     "ftAttempted": 34
     }
    },
    "lastFull": {
@@ -349,19 +349,19 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3907498.png",
    "current": {
     "regular": {
-     "games": 10,
-     "started": 10,
-     "minutes": 242.8,
-     "points": 74,
-     "rebounds": 17,
+     "games": 11,
+     "started": 11,
+     "minutes": 271,
+     "points": 78,
+     "rebounds": 19,
      "assists": 12,
-     "steals": 18,
+     "steals": 22,
      "blocks": 9,
      "turnovers": 11,
-     "fgMade": 24,
-     "fgAttempted": 55,
+     "fgMade": 26,
+     "fgAttempted": 60,
      "threeMade": 18,
-     "threeAttempted": 43,
+     "threeAttempted": 46,
      "ftMade": 8,
      "ftAttempted": 9
     }
@@ -439,19 +439,19 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4278580.png",
    "current": {
     "regular": {
-     "games": 10,
+     "games": 11,
      "started": 0,
-     "minutes": 230.8,
-     "points": 88,
-     "rebounds": 44,
+     "minutes": 248.5,
+     "points": 95,
+     "rebounds": 47,
      "assists": 16,
      "steals": 8,
      "blocks": 6,
-     "turnovers": 7,
-     "fgMade": 32,
-     "fgAttempted": 70,
-     "threeMade": 10,
-     "threeAttempted": 32,
+     "turnovers": 9,
+     "fgMade": 35,
+     "fgAttempted": 75,
+     "threeMade": 11,
+     "threeAttempted": 35,
      "ftMade": 14,
      "ftAttempted": 18
     }
@@ -529,21 +529,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4592691.png",
    "current": {
     "regular": {
-     "games": 9,
-     "started": 6,
-     "minutes": 211.6,
-     "points": 58,
-     "rebounds": 35,
-     "assists": 15,
+     "games": 10,
+     "started": 7,
+     "minutes": 241.1,
+     "points": 63,
+     "rebounds": 36,
+     "assists": 17,
      "steals": 14,
      "blocks": 8,
      "turnovers": 14,
-     "fgMade": 21,
-     "fgAttempted": 37,
+     "fgMade": 22,
+     "fgAttempted": 40,
      "threeMade": 12,
-     "threeAttempted": 20,
-     "ftMade": 4,
-     "ftAttempted": 10
+     "threeAttempted": 21,
+     "ftMade": 7,
+     "ftAttempted": 14
     }
    },
    "lastFull": {
@@ -619,21 +619,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4433137.png",
    "current": {
     "regular": {
-     "games": 7,
+     "games": 8,
      "started": 4,
-     "minutes": 171.6,
-     "points": 72,
-     "rebounds": 21,
+     "minutes": 193.1,
+     "points": 89,
+     "rebounds": 23,
      "assists": 13,
      "steals": 11,
-     "blocks": 1,
+     "blocks": 2,
      "turnovers": 4,
-     "fgMade": 25,
-     "fgAttempted": 46,
-     "threeMade": 13,
-     "threeAttempted": 29,
-     "ftMade": 9,
-     "ftAttempted": 10
+     "fgMade": 31,
+     "fgAttempted": 56,
+     "threeMade": 17,
+     "threeAttempted": 37,
+     "ftMade": 10,
+     "ftAttempted": 12
     }
    },
    "lastFull": {
@@ -692,21 +692,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4277811.png",
    "current": {
     "regular": {
-     "games": 9,
+     "games": 10,
      "started": 0,
-     "minutes": 149.5,
-     "points": 78,
-     "rebounds": 17,
-     "assists": 20,
+     "minutes": 173.5,
+     "points": 95,
+     "rebounds": 19,
+     "assists": 22,
      "steals": 5,
      "blocks": 3,
-     "turnovers": 11,
-     "fgMade": 28,
-     "fgAttempted": 70,
+     "turnovers": 13,
+     "fgMade": 33,
+     "fgAttempted": 80,
      "threeMade": 8,
-     "threeAttempted": 31,
-     "ftMade": 14,
-     "ftAttempted": 20
+     "threeAttempted": 33,
+     "ftMade": 21,
+     "ftAttempted": 28
     }
    },
    "lastFull": {
@@ -765,21 +765,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4278077.png",
    "current": {
     "regular": {
-     "games": 5,
+     "games": 6,
      "started": 0,
-     "minutes": 59.4,
-     "points": 6,
-     "rebounds": 15,
-     "assists": 6,
+     "minutes": 73.1,
+     "points": 8,
+     "rebounds": 25,
+     "assists": 9,
      "steals": 1,
-     "blocks": 1,
-     "turnovers": 4,
-     "fgMade": 3,
-     "fgAttempted": 4,
+     "blocks": 2,
+     "turnovers": 6,
+     "fgMade": 4,
+     "fgAttempted": 5,
      "threeMade": 0,
      "threeAttempted": 0,
      "ftMade": 0,
-     "ftAttempted": 0
+     "ftAttempted": 1
     }
    },
    "lastFull": {
@@ -984,6 +984,78 @@
    }
   },
   {
+   "id": "thierad01",
+   "name": "Adou Thiero",
+   "number": "1",
+   "position": "SF",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 8\"",
+    "weight": 220,
+    "birthDate": "2004-05-08",
+    "experience": 1,
+    "college": "Arkansas",
+    "birthPlace": "Pittsburgh, PA"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5060631.png",
+   "current": {
+    "regular": {
+     "games": 2,
+     "started": 0,
+     "minutes": 14.9,
+     "points": 6,
+     "rebounds": 6,
+     "assists": 2,
+     "steals": 0,
+     "blocks": 0,
+     "turnovers": 1,
+     "fgMade": 3,
+     "fgAttempted": 5,
+     "threeMade": 0,
+     "threeAttempted": 0,
+     "ftMade": 0,
+     "ftAttempted": 0
+    }
+   },
+   "lastFull": {
+    "regular": {
+     "games": 25,
+     "started": 0,
+     "minutes": 149.4,
+     "points": 47,
+     "rebounds": 28,
+     "assists": 10,
+     "steals": 7,
+     "blocks": 2,
+     "turnovers": 9,
+     "fgMade": 16,
+     "fgAttempted": 31,
+     "threeMade": 1,
+     "threeAttempted": 3,
+     "ftMade": 14,
+     "ftAttempted": 22
+    },
+    "playoffs": {
+     "games": 6,
+     "started": 0,
+     "minutes": 33.6,
+     "points": 9,
+     "rebounds": 12,
+     "assists": 1,
+     "steals": 0,
+     "blocks": 0,
+     "turnovers": 4,
+     "fgMade": 3,
+     "fgAttempted": 6,
+     "threeMade": 0,
+     "threeAttempted": 2,
+     "ftMade": 3,
+     "ftAttempted": 6
+    }
+   },
+   "lastToDate": {}
+  },
+  {
    "id": "jamesbr02",
    "name": "Bronny James",
    "number": "9",
@@ -1145,78 +1217,6 @@
      "ftAttempted": 0
     }
    }
-  },
-  {
-   "id": "thierad01",
-   "name": "Adou Thiero",
-   "number": "1",
-   "position": "SF",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 8\"",
-    "weight": 220,
-    "birthDate": "2004-05-08",
-    "experience": 1,
-    "college": "Arkansas",
-    "birthPlace": "Pittsburgh, PA"
-   },
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5060631.png",
-   "current": {
-    "regular": {
-     "games": 1,
-     "started": 0,
-     "minutes": 6.6,
-     "points": 4,
-     "rebounds": 4,
-     "assists": 2,
-     "steals": 0,
-     "blocks": 0,
-     "turnovers": 0,
-     "fgMade": 2,
-     "fgAttempted": 4,
-     "threeMade": 0,
-     "threeAttempted": 0,
-     "ftMade": 0,
-     "ftAttempted": 0
-    }
-   },
-   "lastFull": {
-    "regular": {
-     "games": 25,
-     "started": 0,
-     "minutes": 149.4,
-     "points": 47,
-     "rebounds": 28,
-     "assists": 10,
-     "steals": 7,
-     "blocks": 2,
-     "turnovers": 9,
-     "fgMade": 16,
-     "fgAttempted": 31,
-     "threeMade": 1,
-     "threeAttempted": 3,
-     "ftMade": 14,
-     "ftAttempted": 22
-    },
-    "playoffs": {
-     "games": 6,
-     "started": 0,
-     "minutes": 33.6,
-     "points": 9,
-     "rebounds": 12,
-     "assists": 1,
-     "steals": 0,
-     "blocks": 0,
-     "turnovers": 4,
-     "fgMade": 3,
-     "fgAttempted": 6,
-     "threeMade": 0,
-     "threeAttempted": 2,
-     "ftMade": 3,
-     "ftAttempted": 6
-    }
-   },
-   "lastToDate": {}
   },
   {
    "id": "carrca01",
