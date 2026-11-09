@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-09T02:23:36.269Z",
+ "updatedAt": "2026-11-09T03:24:06.219Z",
  "teams": {
   "ATL": [
    {
@@ -675,6 +675,13 @@
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Wrist (sprain)",
+    "returnDate": "2026-11-10"
+   },
+   {
+    "name": "Keyonte George",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Ankle",
     "returnDate": "2026-11-10"
    }
   ],
