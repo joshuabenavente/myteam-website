@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-10T16:23:42.687Z",
+ "updatedAt": "2026-11-10T17:23:50.781Z",
  "teams": {
   "ATL": [
    {
@@ -362,6 +362,13 @@
   ],
   "MIL": [
    {
+    "name": "Kel'el Ware",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Ankle (sprain)",
+    "returnDate": "2026-11-10"
+   },
+   {
     "name": "Tyler Herro",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
@@ -496,6 +503,13 @@
     "gameTimeDecision": false,
     "reason": "Ankle (sprain)",
     "returnDate": "2026-11-22"
+   },
+   {
+    "name": "Tristan da Silva",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Calf (strain)",
+    "returnDate": "2026-11-10"
    }
   ],
   "PHI": [
