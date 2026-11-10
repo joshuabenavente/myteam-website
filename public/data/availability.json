@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-10T05:23:42.139Z",
+ "updatedAt": "2026-11-10T06:23:29.018Z",
  "teams": {
   "ATL": [
    {
@@ -180,13 +180,6 @@
   ],
   "GSW": [
    {
-    "name": "Gary Payton II",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Knee (inflammation)",
-    "returnDate": "2026-11-11"
-   },
-   {
     "name": "Jimmy Butler III",
     "status": "Out",
     "gameTimeDecision": false,
@@ -219,6 +212,13 @@
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Hamstring",
+    "returnDate": "2026-11-11"
+   },
+   {
+    "name": "Gary Payton II",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Knee (inflammation)",
     "returnDate": "2026-11-11"
    }
   ],
@@ -387,20 +387,6 @@
   ],
   "NOP": [
    {
-    "name": "Trendon Watford",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Ankle",
-    "returnDate": "2026-11-11"
-   },
-   {
-    "name": "Trey Murphy III",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Knee (tendinitis)",
-    "returnDate": "2026-11-11"
-   },
-   {
     "name": "Yves Missi",
     "status": "Out",
     "gameTimeDecision": false,
@@ -408,9 +394,23 @@
     "returnDate": "2026-11-16"
    },
    {
+    "name": "Trendon Watford",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Ankle",
+    "returnDate": "2026-11-11"
+   },
+   {
+    "name": "Trey Murphy III",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Knee (tendinitis)",
+    "returnDate": "2026-11-11"
+   },
+   {
     "name": "Zion Williamson",
-    "status": "Out",
-    "gameTimeDecision": false,
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
     "reason": "Rest",
     "returnDate": "2026-11-11"
    }
