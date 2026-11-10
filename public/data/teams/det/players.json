@@ -1,7 +1,7 @@
 {
  "season": "2026-27",
  "lastSeason": "2025-26",
- "updatedAt": "2026-11-10T06:23:28.820Z",
+ "updatedAt": "2026-11-10T12:23:36.063Z",
  "teamGamesPlayed": {
   "regular": 10,
   "playoffs": 0
@@ -24,21 +24,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4432166.png",
    "current": {
     "regular": {
-     "games": 9,
-     "started": 9,
-     "minutes": 305.2,
-     "points": 206,
-     "rebounds": 49,
-     "assists": 69,
-     "steals": 15,
+     "games": 10,
+     "started": 10,
+     "minutes": 331.7,
+     "points": 223,
+     "rebounds": 52,
+     "assists": 76,
+     "steals": 16,
      "blocks": 9,
      "turnovers": 35,
-     "fgMade": 73,
-     "fgAttempted": 157,
+     "fgMade": 80,
+     "fgAttempted": 173,
      "threeMade": 19,
-     "threeAttempted": 61,
-     "ftMade": 41,
-     "ftAttempted": 52
+     "threeAttempted": 65,
+     "ftMade": 44,
+     "ftAttempted": 55
     }
    },
    "lastFull": {
@@ -114,21 +114,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3157465.png",
    "current": {
     "regular": {
-     "games": 9,
-     "started": 9,
-     "minutes": 274.7,
-     "points": 164,
-     "rebounds": 15,
-     "assists": 21,
+     "games": 10,
+     "started": 10,
+     "minutes": 308.4,
+     "points": 186,
+     "rebounds": 18,
+     "assists": 23,
      "steals": 15,
      "blocks": 2,
      "turnovers": 10,
-     "fgMade": 49,
-     "fgAttempted": 107,
-     "threeMade": 38,
-     "threeAttempted": 84,
-     "ftMade": 28,
-     "ftAttempted": 34
+     "fgMade": 55,
+     "fgAttempted": 118,
+     "threeMade": 42,
+     "threeAttempted": 92,
+     "ftMade": 34,
+     "ftAttempted": 41
     }
    },
    "lastFull": {
@@ -188,96 +188,6 @@
    }
   },
   {
-   "id": "reedpa01",
-   "name": "Paul Reed",
-   "number": "7",
-   "position": "C",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 9\"",
-    "weight": 210,
-    "birthDate": "1999-06-14",
-    "experience": 6,
-    "college": "DePaul",
-    "birthPlace": "Orlando, FL"
-   },
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4278562.png",
-   "current": {
-    "regular": {
-     "games": 9,
-     "started": 7,
-     "minutes": 238.2,
-     "points": 110,
-     "rebounds": 64,
-     "assists": 19,
-     "steals": 10,
-     "blocks": 7,
-     "turnovers": 17,
-     "fgMade": 47,
-     "fgAttempted": 82,
-     "threeMade": 5,
-     "threeAttempted": 8,
-     "ftMade": 11,
-     "ftAttempted": 17
-    }
-   },
-   "lastFull": {
-    "regular": {
-     "games": 65,
-     "started": 11,
-     "minutes": 901.3,
-     "points": 504,
-     "rebounds": 294,
-     "assists": 80,
-     "steals": 57,
-     "blocks": 60,
-     "turnovers": 58,
-     "fgMade": 209,
-     "fgAttempted": 339,
-     "threeMade": 13,
-     "threeAttempted": 40,
-     "ftMade": 73,
-     "ftAttempted": 110
-    },
-    "playoffs": {
-     "games": 9,
-     "started": 0,
-     "minutes": 85.9,
-     "points": 67,
-     "rebounds": 36,
-     "assists": 5,
-     "steals": 1,
-     "blocks": 6,
-     "turnovers": 7,
-     "fgMade": 28,
-     "fgAttempted": 42,
-     "threeMade": 2,
-     "threeAttempted": 5,
-     "ftMade": 9,
-     "ftAttempted": 12
-    }
-   },
-   "lastToDate": {
-    "regular": {
-     "games": 8,
-     "started": 0,
-     "minutes": 71.9,
-     "points": 32,
-     "rebounds": 23,
-     "assists": 4,
-     "steals": 5,
-     "blocks": 5,
-     "turnovers": 6,
-     "fgMade": 15,
-     "fgAttempted": 24,
-     "threeMade": 2,
-     "threeAttempted": 4,
-     "ftMade": 0,
-     "ftAttempted": 2
-    }
-   }
-  },
-  {
    "id": "collijo01",
    "name": "John Collins",
    "number": "20",
@@ -294,21 +204,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3908845.png",
    "current": {
     "regular": {
-     "games": 9,
-     "started": 9,
-     "minutes": 236.9,
-     "points": 83,
-     "rebounds": 51,
-     "assists": 5,
-     "steals": 4,
-     "blocks": 9,
+     "games": 10,
+     "started": 10,
+     "minutes": 265.3,
+     "points": 107,
+     "rebounds": 61,
+     "assists": 8,
+     "steals": 6,
+     "blocks": 10,
      "turnovers": 8,
-     "fgMade": 35,
-     "fgAttempted": 75,
-     "threeMade": 8,
-     "threeAttempted": 23,
-     "ftMade": 5,
-     "ftAttempted": 9
+     "fgMade": 44,
+     "fgAttempted": 88,
+     "threeMade": 10,
+     "threeAttempted": 26,
+     "ftMade": 9,
+     "ftAttempted": 13
     }
    },
    "lastFull": {
@@ -367,21 +277,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5107199.png",
    "current": {
     "regular": {
-     "games": 9,
-     "started": 1,
-     "minutes": 224.4,
-     "points": 105,
-     "rebounds": 30,
-     "assists": 39,
-     "steals": 4,
+     "games": 10,
+     "started": 2,
+     "minutes": 260,
+     "points": 127,
+     "rebounds": 36,
+     "assists": 47,
+     "steals": 8,
      "blocks": 1,
-     "turnovers": 14,
-     "fgMade": 35,
-     "fgAttempted": 77,
-     "threeMade": 19,
-     "threeAttempted": 43,
-     "ftMade": 16,
-     "ftAttempted": 18
+     "turnovers": 16,
+     "fgMade": 42,
+     "fgAttempted": 93,
+     "threeMade": 21,
+     "threeAttempted": 49,
+     "ftMade": 22,
+     "ftAttempted": 24
     }
    },
    "lastFull": {
@@ -441,6 +351,96 @@
    }
   },
   {
+   "id": "reedpa01",
+   "name": "Paul Reed",
+   "number": "7",
+   "position": "C",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 9\"",
+    "weight": 210,
+    "birthDate": "1999-06-14",
+    "experience": 6,
+    "college": "DePaul",
+    "birthPlace": "Orlando, FL"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4278562.png",
+   "current": {
+    "regular": {
+     "games": 10,
+     "started": 7,
+     "minutes": 258.9,
+     "points": 114,
+     "rebounds": 74,
+     "assists": 21,
+     "steals": 11,
+     "blocks": 10,
+     "turnovers": 19,
+     "fgMade": 48,
+     "fgAttempted": 85,
+     "threeMade": 5,
+     "threeAttempted": 8,
+     "ftMade": 13,
+     "ftAttempted": 19
+    }
+   },
+   "lastFull": {
+    "regular": {
+     "games": 65,
+     "started": 11,
+     "minutes": 901.3,
+     "points": 504,
+     "rebounds": 294,
+     "assists": 80,
+     "steals": 57,
+     "blocks": 60,
+     "turnovers": 58,
+     "fgMade": 209,
+     "fgAttempted": 339,
+     "threeMade": 13,
+     "threeAttempted": 40,
+     "ftMade": 73,
+     "ftAttempted": 110
+    },
+    "playoffs": {
+     "games": 9,
+     "started": 0,
+     "minutes": 85.9,
+     "points": 67,
+     "rebounds": 36,
+     "assists": 5,
+     "steals": 1,
+     "blocks": 6,
+     "turnovers": 7,
+     "fgMade": 28,
+     "fgAttempted": 42,
+     "threeMade": 2,
+     "threeAttempted": 5,
+     "ftMade": 9,
+     "ftAttempted": 12
+    }
+   },
+   "lastToDate": {
+    "regular": {
+     "games": 8,
+     "started": 0,
+     "minutes": 71.9,
+     "points": 32,
+     "rebounds": 23,
+     "assists": 4,
+     "steals": 5,
+     "blocks": 5,
+     "turnovers": 6,
+     "fgMade": 15,
+     "fgAttempted": 24,
+     "threeMade": 2,
+     "threeAttempted": 4,
+     "ftMade": 0,
+     "ftAttempted": 2
+    }
+   }
+  },
+  {
    "id": "thompau01",
    "name": "Ausar Thompson",
    "number": "9",
@@ -456,21 +456,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4684742.png",
    "current": {
     "regular": {
-     "games": 8,
-     "started": 8,
-     "minutes": 217.4,
-     "points": 76,
-     "rebounds": 71,
-     "assists": 36,
-     "steals": 8,
-     "blocks": 4,
-     "turnovers": 18,
-     "fgMade": 31,
-     "fgAttempted": 62,
+     "games": 9,
+     "started": 9,
+     "minutes": 245,
+     "points": 84,
+     "rebounds": 76,
+     "assists": 40,
+     "steals": 10,
+     "blocks": 5,
+     "turnovers": 23,
+     "fgMade": 34,
+     "fgAttempted": 70,
      "threeMade": 0,
      "threeAttempted": 3,
-     "ftMade": 14,
-     "ftAttempted": 21
+     "ftMade": 16,
+     "ftAttempted": 23
     }
    },
    "lastFull": {
@@ -546,21 +546,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4066372.png",
    "current": {
     "regular": {
-     "games": 9,
+     "games": 10,
      "started": 0,
-     "minutes": 198.5,
-     "points": 76,
-     "rebounds": 23,
-     "assists": 20,
-     "steals": 8,
-     "blocks": 9,
-     "turnovers": 7,
-     "fgMade": 28,
-     "fgAttempted": 63,
+     "minutes": 231.4,
+     "points": 88,
+     "rebounds": 25,
+     "assists": 23,
+     "steals": 9,
+     "blocks": 10,
+     "turnovers": 8,
+     "fgMade": 33,
+     "fgAttempted": 75,
      "threeMade": 16,
-     "threeAttempted": 40,
-     "ftMade": 4,
-     "ftAttempted": 7
+     "threeAttempted": 45,
+     "ftMade": 6,
+     "ftAttempted": 10
     }
    },
    "lastFull": {
@@ -636,21 +636,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/2596112.png",
    "current": {
     "regular": {
-     "games": 9,
+     "games": 10,
      "started": 0,
-     "minutes": 164.6,
-     "points": 55,
-     "rebounds": 23,
+     "minutes": 175.4,
+     "points": 62,
+     "rebounds": 24,
      "assists": 6,
      "steals": 7,
      "blocks": 4,
      "turnovers": 0,
-     "fgMade": 16,
-     "fgAttempted": 44,
+     "fgMade": 19,
+     "fgAttempted": 49,
      "threeMade": 11,
-     "threeAttempted": 35,
-     "ftMade": 12,
-     "ftAttempted": 13
+     "threeAttempted": 37,
+     "ftMade": 13,
+     "ftAttempted": 14
     }
    },
    "lastFull": {
@@ -723,21 +723,21 @@
    },
    "current": {
     "regular": {
-     "games": 9,
+     "games": 10,
      "started": 0,
-     "minutes": 140.5,
-     "points": 51,
-     "rebounds": 29,
-     "assists": 15,
+     "minutes": 155.4,
+     "points": 52,
+     "rebounds": 34,
+     "assists": 17,
      "steals": 6,
      "blocks": 8,
      "turnovers": 10,
      "fgMade": 18,
-     "fgAttempted": 45,
+     "fgAttempted": 49,
      "threeMade": 7,
-     "threeAttempted": 20,
-     "ftMade": 8,
-     "ftAttempted": 11
+     "threeAttempted": 23,
+     "ftMade": 9,
+     "ftAttempted": 13
     }
    },
    "lastFull": {
@@ -1067,6 +1067,43 @@
    }
   },
   {
+   "id": "okorieb01",
+   "name": "Ebuka Okorie",
+   "number": "23",
+   "position": "PG",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 2\"",
+    "weight": 186,
+    "birthDate": "2007-04-10",
+    "experience": 0,
+    "college": "Stanford",
+    "birthPlace": "Nashua, NH"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5258459.png",
+   "current": {
+    "regular": {
+     "games": 5,
+     "started": 0,
+     "minutes": 19.9,
+     "points": 11,
+     "rebounds": 2,
+     "assists": 3,
+     "steals": 1,
+     "blocks": 0,
+     "turnovers": 2,
+     "fgMade": 4,
+     "fgAttempted": 12,
+     "threeMade": 0,
+     "threeAttempted": 3,
+     "ftMade": 3,
+     "ftAttempted": 3
+    }
+   },
+   "lastFull": {},
+   "lastToDate": {}
+  },
+  {
    "id": "princta02",
    "name": "Taurean Prince",
    "number": "12",
@@ -1140,43 +1177,6 @@
    }
   },
   {
-   "id": "okorieb01",
-   "name": "Ebuka Okorie",
-   "number": "23",
-   "position": "PG",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 2\"",
-    "weight": 186,
-    "birthDate": "2007-04-10",
-    "experience": 0,
-    "college": "Stanford",
-    "birthPlace": "Nashua, NH"
-   },
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5258459.png",
-   "current": {
-    "regular": {
-     "games": 4,
-     "started": 0,
-     "minutes": 13.9,
-     "points": 6,
-     "rebounds": 2,
-     "assists": 3,
-     "steals": 1,
-     "blocks": 0,
-     "turnovers": 2,
-     "fgMade": 2,
-     "fgAttempted": 9,
-     "threeMade": 0,
-     "threeAttempted": 3,
-     "ftMade": 2,
-     "ftAttempted": 2
-    }
-   },
-   "lastFull": {},
-   "lastToDate": {}
-  },
-  {
    "id": "laniech01",
    "name": "Chaz Lanier",
    "number": "8",
@@ -1193,9 +1193,9 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4700852.png",
    "current": {
     "regular": {
-     "games": 3,
+     "games": 4,
      "started": 0,
-     "minutes": 11.5,
+     "minutes": 13.1,
      "points": 13,
      "rebounds": 0,
      "assists": 0,
@@ -1283,9 +1283,9 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5107818.png",
    "current": {
     "regular": {
-     "games": 3,
+     "games": 4,
      "started": 0,
-     "minutes": 11.5,
+     "minutes": 13.1,
      "points": 2,
      "rebounds": 5,
      "assists": 1,
