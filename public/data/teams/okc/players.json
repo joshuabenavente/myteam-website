@@ -1,7 +1,7 @@
 {
  "season": "2026-27",
  "lastSeason": "2025-26",
- "updatedAt": "2026-11-10T09:18:52.025Z",
+ "updatedAt": "2026-11-10T15:18:47.570Z",
  "teamGamesPlayed": {
   "regular": 10,
   "playoffs": 0
@@ -965,6 +965,78 @@
    }
   },
   {
+   "id": "cliffni01",
+   "name": "Nique Clifford",
+   "position": "SG",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 5\"",
+    "weight": 175,
+    "birthDate": "2002-02-09",
+    "experience": 1,
+    "college": "Colorado State",
+    "birthPlace": "Colorado Springs, CO"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4702384.png",
+   "current": {
+    "regular": {
+     "games": 8,
+     "started": 0,
+     "minutes": 49.7,
+     "points": 13,
+     "rebounds": 7,
+     "assists": 8,
+     "steals": 2,
+     "blocks": 0,
+     "turnovers": 5,
+     "fgMade": 6,
+     "fgAttempted": 17,
+     "threeMade": 1,
+     "threeAttempted": 8,
+     "ftMade": 0,
+     "ftAttempted": 0
+    }
+   },
+   "lastFull": {
+    "regular": {
+     "games": 75,
+     "started": 28,
+     "minutes": 1882.8,
+     "points": 645,
+     "rebounds": 282,
+     "assists": 179,
+     "steals": 68,
+     "blocks": 24,
+     "turnovers": 116,
+     "fgMade": 249,
+     "fgAttempted": 596,
+     "threeMade": 77,
+     "threeAttempted": 231,
+     "ftMade": 70,
+     "ftAttempted": 97
+    }
+   },
+   "lastToDate": {
+    "regular": {
+     "games": 6,
+     "started": 2,
+     "minutes": 130.4,
+     "points": 32,
+     "rebounds": 23,
+     "assists": 15,
+     "steals": 4,
+     "blocks": 3,
+     "turnovers": 5,
+     "fgMade": 13,
+     "fgAttempted": 32,
+     "threeMade": 4,
+     "threeAttempted": 13,
+     "ftMade": 2,
+     "ftAttempted": 4
+    }
+   }
+  },
+  {
    "id": "wallaca01",
    "name": "Cason Wallace",
    "number": "22",
@@ -1124,94 +1196,6 @@
      "threeAttempted": 0,
      "ftMade": 0,
      "ftAttempted": 0
-    }
-   }
-  },
-  {
-   "id": "terryda01",
-   "name": "Dalen Terry",
-   "number": "77",
-   "position": "SG",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 6\"",
-    "weight": 210,
-    "birthDate": "2002-07-12",
-    "experience": 4,
-    "college": "Arizona"
-   },
-   "current": {
-    "regular": {
-     "games": 2,
-     "started": 0,
-     "minutes": 10.9,
-     "points": 2,
-     "rebounds": 6,
-     "assists": 1,
-     "steals": 1,
-     "blocks": 0,
-     "turnovers": 2,
-     "fgMade": 1,
-     "fgAttempted": 3,
-     "threeMade": 0,
-     "threeAttempted": 1,
-     "ftMade": 0,
-     "ftAttempted": 0
-    }
-   },
-   "lastFull": {
-    "regular": {
-     "games": 48,
-     "started": 0,
-     "minutes": 551.4,
-     "points": 176,
-     "rebounds": 86,
-     "assists": 66,
-     "steals": 29,
-     "blocks": 15,
-     "turnovers": 26,
-     "fgMade": 68,
-     "fgAttempted": 155,
-     "threeMade": 24,
-     "threeAttempted": 66,
-     "ftMade": 16,
-     "ftAttempted": 30
-    },
-    "playoffs": {
-     "games": 7,
-     "started": 0,
-     "minutes": 39.5,
-     "points": 13,
-     "rebounds": 4,
-     "assists": 7,
-     "steals": 5,
-     "blocks": 0,
-     "turnovers": 2,
-     "fgMade": 4,
-     "fgAttempted": 13,
-     "threeMade": 2,
-     "threeAttempted": 5,
-     "ftMade": 3,
-     "ftAttempted": 7
-    }
-   },
-   "lastToDate": {
-    "regular": {
-     "games": 6,
-     "started": 0,
-     "minutes": 30.8,
-     "points": 11,
-     "rebounds": 2,
-     "assists": 3,
-     "steals": 0,
-     "blocks": 2,
-     "turnovers": 0,
-     "fgMade": 4,
-     "fgAttempted": 9,
-     "threeMade": 1,
-     "threeAttempted": 2,
-     "ftMade": 2,
-     "ftAttempted": 2
     }
    }
   },

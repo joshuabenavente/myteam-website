@@ -1,7 +1,7 @@
 {
  "season": "2026-27",
  "lastSeason": "2025-26",
- "updatedAt": "2026-11-10T09:24:00.251Z",
+ "updatedAt": "2026-11-10T15:23:51.578Z",
  "teamGamesPlayed": {
   "regular": 9,
   "playoffs": 0
@@ -968,96 +968,6 @@
      "threeAttempted": 5,
      "ftMade": 1,
      "ftAttempted": 1
-    }
-   }
-  },
-  {
-   "id": "weslebl01",
-   "name": "Blake Wesley",
-   "number": "20",
-   "position": "SG",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 4\"",
-    "weight": 190,
-    "birthDate": "2003-03-16",
-    "experience": 4,
-    "college": "Notre Dame",
-    "birthPlace": "South Bend, IN"
-   },
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4683935.png",
-   "current": {
-    "regular": {
-     "games": 2,
-     "started": 0,
-     "minutes": 9.5,
-     "points": 2,
-     "rebounds": 4,
-     "assists": 0,
-     "steals": 0,
-     "blocks": 0,
-     "turnovers": 0,
-     "fgMade": 0,
-     "fgAttempted": 4,
-     "threeMade": 0,
-     "threeAttempted": 2,
-     "ftMade": 2,
-     "ftAttempted": 2
-    }
-   },
-   "lastFull": {
-    "regular": {
-     "games": 31,
-     "started": 0,
-     "minutes": 361.2,
-     "points": 148,
-     "rebounds": 39,
-     "assists": 62,
-     "steals": 16,
-     "blocks": 5,
-     "turnovers": 31,
-     "fgMade": 56,
-     "fgAttempted": 124,
-     "threeMade": 10,
-     "threeAttempted": 36,
-     "ftMade": 26,
-     "ftAttempted": 47
-    },
-    "playoffs": {
-     "games": 4,
-     "started": 0,
-     "minutes": 4.6,
-     "points": 1,
-     "rebounds": 0,
-     "assists": 0,
-     "steals": 0,
-     "blocks": 0,
-     "turnovers": 1,
-     "fgMade": 0,
-     "fgAttempted": 0,
-     "threeMade": 0,
-     "threeAttempted": 0,
-     "ftMade": 1,
-     "ftAttempted": 2
-    }
-   },
-   "lastToDate": {
-    "regular": {
-     "games": 6,
-     "started": 0,
-     "minutes": 98.1,
-     "points": 36,
-     "rebounds": 14,
-     "assists": 19,
-     "steals": 10,
-     "blocks": 1,
-     "turnovers": 7,
-     "fgMade": 14,
-     "fgAttempted": 34,
-     "threeMade": 2,
-     "threeAttempted": 10,
-     "ftMade": 6,
-     "ftAttempted": 10
     }
    }
   },
