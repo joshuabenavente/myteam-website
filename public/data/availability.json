@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-10T01:23:44.056Z",
+ "updatedAt": "2026-11-10T02:23:35.626Z",
  "teams": {
   "ATL": [
    {
@@ -180,6 +180,13 @@
   ],
   "GSW": [
    {
+    "name": "Gary Payton II",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Knee (inflammation)",
+    "returnDate": "2026-11-11"
+   },
+   {
     "name": "Jimmy Butler III",
     "status": "Out",
     "gameTimeDecision": false,
@@ -205,21 +212,7 @@
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Thumb",
-    "returnDate": "2026-11-11"
-   },
-   {
-    "name": "Gary Payton II",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Knee",
-    "returnDate": "2026-11-09"
-   },
-   {
-    "name": "Gui Santos",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Knee (tendinitis)",
-    "returnDate": "2026-11-09"
+    "returnDate": "2026-11-16"
    }
   ],
   "HOU": [
