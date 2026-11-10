@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-10T03:23:54.390Z",
+ "updatedAt": "2026-11-10T04:23:46.013Z",
  "teams": {
   "ATL": [
    {
@@ -127,29 +127,29 @@
    {
     "name": "Dereck Lively II",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Foot (surgery)",
-    "returnDate": "2026-11-12"
-   },
-   {
-    "name": "Morez Johnson Jr.",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Leg",
     "returnDate": "2026-11-12"
    },
    {
     "name": "Sergio de Larrea",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Knee (strain)",
     "returnDate": "2026-11-12"
    },
    {
     "name": "Tarik Biberovic",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Heel (inflammation)",
+    "returnDate": "2026-11-12"
+   },
+   {
+    "name": "Morez Johnson Jr.",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Leg",
     "returnDate": "2026-11-12"
    }
   ],
@@ -224,18 +224,18 @@
     "returnDate": "2026-11-15"
    },
    {
-    "name": "Oscar Tshiebwe",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Illness",
-    "returnDate": "2026-11-11"
-   },
-   {
     "name": "Steven Adams",
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Calf (strain)",
     "returnDate": "2026-11-15"
+   },
+   {
+    "name": "Oscar Tshiebwe",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Illness",
+    "returnDate": "2026-11-11"
    }
   ],
   "IND": [
@@ -354,13 +354,6 @@
    }
   ],
   "MIL": [
-   {
-    "name": "Gary Trent Jr.",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Illness",
-    "returnDate": "2026-11-10"
-   },
    {
     "name": "Tyler Herro",
     "status": "Day-To-Day",
