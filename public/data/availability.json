@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-10T19:23:48.958Z",
+ "updatedAt": "2026-11-10T20:23:34.406Z",
  "teams": {
   "ATL": [
    {
@@ -394,6 +394,13 @@
   ],
   "NOP": [
    {
+    "name": "Trendon Watford",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Ankle",
+    "returnDate": "2026-11-13"
+   },
+   {
     "name": "Yves Missi",
     "status": "Out",
     "gameTimeDecision": false,
@@ -401,24 +408,10 @@
     "returnDate": "2026-11-16"
    },
    {
-    "name": "Trendon Watford",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Ankle",
-    "returnDate": "2026-11-11"
-   },
-   {
     "name": "Trey Murphy III",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Knee (tendinitis)",
-    "returnDate": "2026-11-11"
-   },
-   {
-    "name": "Zion Williamson",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Rest",
     "returnDate": "2026-11-11"
    }
   ],
