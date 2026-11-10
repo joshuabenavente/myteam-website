@@ -1,11 +1,11 @@
 {
- "updatedAt": "2026-11-10T02:23:35.626Z",
+ "updatedAt": "2026-11-10T03:23:54.390Z",
  "teams": {
   "ATL": [
    {
     "name": "Asa Newell",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Toe",
     "returnDate": "2026-11-13"
    },
@@ -19,7 +19,7 @@
    {
     "name": "Keshon Gilbert",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Knee (inflammation)",
     "returnDate": "2026-11-13"
    },
@@ -56,13 +56,6 @@
   ],
   "CHA": [
    {
-    "name": "Brandon Miller",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Groin (soreness)",
-    "returnDate": "2026-11-12"
-   },
-   {
     "name": "Dennis Schroder",
     "status": "Out",
     "gameTimeDecision": false,
@@ -72,7 +65,7 @@
    {
     "name": "Grant Williams",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Hamstring",
     "returnDate": "2026-11-12"
    },
@@ -84,9 +77,16 @@
     "returnDate": "2026-12-12"
    },
    {
+    "name": "Brandon Miller",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Groin (soreness)",
+    "returnDate": "2026-11-12"
+   },
+   {
     "name": "Moussa Diabate",
-    "status": "Out",
-    "gameTimeDecision": false,
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
     "reason": "Quadriceps",
     "returnDate": "2026-11-12"
    }
@@ -111,14 +111,14 @@
    {
     "name": "Jaylon Tyson",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Ankle (sprain)",
     "returnDate": "2026-11-11"
    },
    {
     "name": "Sam Merrill",
-    "status": "Out",
-    "gameTimeDecision": false,
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
     "reason": "Elbow",
     "returnDate": "2026-11-11"
    }
@@ -301,27 +301,20 @@
   "LAL": [
    {
     "name": "Austin Reaves",
-    "status": "Out",
-    "gameTimeDecision": false,
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
     "reason": "Illness",
     "returnDate": "2026-11-11"
    },
    {
     "name": "Quentin Grimes",
-    "status": "Out",
-    "gameTimeDecision": false,
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
     "reason": "Finger",
     "returnDate": "2026-11-11"
    }
   ],
   "MEM": [
-   {
-    "name": "Isaiah Stewart",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Knee (bruise)",
-    "returnDate": "2026-11-11"
-   },
    {
     "name": "Richie Saunders",
     "status": "Out",
@@ -332,8 +325,15 @@
    {
     "name": "Scotty Pippen Jr.",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Back (soreness)",
+    "returnDate": "2026-11-11"
+   },
+   {
+    "name": "Isaiah Stewart",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Knee (bruise)",
     "returnDate": "2026-11-11"
    },
    {
@@ -341,7 +341,7 @@
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Head",
-    "returnDate": "2026-11-09"
+    "returnDate": "2026-11-11"
    }
   ],
   "MIA": [
@@ -615,20 +615,6 @@
   ],
   "TOR": [
    {
-    "name": "Collin Murray-Boyles",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Illness",
-    "returnDate": "2026-11-11"
-   },
-   {
-    "name": "Immanuel Quickley",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Hamstring",
-    "returnDate": "2026-11-11"
-   },
-   {
     "name": "Kawhi Leonard",
     "status": "Out",
     "gameTimeDecision": false,
@@ -643,9 +629,23 @@
     "returnDate": "2026-11-15"
    },
    {
+    "name": "Collin Murray-Boyles",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Illness",
+    "returnDate": "2026-11-11"
+   },
+   {
+    "name": "Immanuel Quickley",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Hamstring",
+    "returnDate": "2026-11-11"
+   },
+   {
     "name": "Scottie Barnes",
-    "status": "Out",
-    "gameTimeDecision": false,
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
     "reason": "Groin (soreness)",
     "returnDate": "2026-11-11"
    }
@@ -682,13 +682,6 @@
   ],
   "WAS": [
    {
-    "name": "Bilal Coulibaly",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Hand",
-    "returnDate": "2026-11-11"
-   },
-   {
     "name": "Jamir Watkins",
     "status": "Out",
     "gameTimeDecision": false,
@@ -715,6 +708,13 @@
     "gameTimeDecision": false,
     "reason": "Hip (pinched nerve)",
     "returnDate": "2026-11-16"
+   },
+   {
+    "name": "Bilal Coulibaly",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Hand",
+    "returnDate": "2026-11-11"
    }
   ]
  }
