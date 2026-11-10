@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-10T21:23:49.923Z",
+ "updatedAt": "2026-11-10T22:23:39.111Z",
  "teams": {
   "ATL": [
    {
@@ -117,10 +117,10 @@
    },
    {
     "name": "Sam Merrill",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
+    "status": "Out",
+    "gameTimeDecision": false,
     "reason": "Elbow",
-    "returnDate": "2026-11-11"
+    "returnDate": "2026-11-13"
    }
   ],
   "DAL": [
@@ -180,6 +180,20 @@
   ],
   "GSW": [
    {
+    "name": "Brandon Williams",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Hamstring",
+    "returnDate": "2026-11-22"
+   },
+   {
+    "name": "Gary Payton II",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Knee (inflammation)",
+    "returnDate": "2026-11-13"
+   },
+   {
     "name": "Jimmy Butler III",
     "status": "Out",
     "gameTimeDecision": false,
@@ -203,22 +217,8 @@
    {
     "name": "Will Richard",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Thumb",
-    "returnDate": "2026-11-16"
-   },
-   {
-    "name": "Brandon Williams",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Hamstring",
-    "returnDate": "2026-11-11"
-   },
-   {
-    "name": "Gary Payton II",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Knee (inflammation)",
     "returnDate": "2026-11-11"
    }
   ],
@@ -259,6 +259,13 @@
     "gameTimeDecision": false,
     "reason": "Hamstring (strain)",
     "returnDate": "2026-11-13"
+   },
+   {
+    "name": "T.J. McConnell",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Hamstring",
+    "returnDate": "2026-11-11"
    }
   ],
   "LAC": [
@@ -413,7 +420,7 @@
     "name": "Josh Hart",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
-    "reason": "Ankle",
+    "reason": "Illness",
     "returnDate": "2026-11-10"
    }
   ],
@@ -608,6 +615,13 @@
     "returnDate": "2026-11-15"
    },
    {
+    "name": "Scottie Barnes",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Groin (soreness)",
+    "returnDate": "2026-11-12"
+   },
+   {
     "name": "Collin Murray-Boyles",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
@@ -622,10 +636,10 @@
     "returnDate": "2026-11-11"
    },
    {
-    "name": "Scottie Barnes",
+    "name": "Trayce Jackson-Davis",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
-    "reason": "Groin (soreness)",
+    "reason": "Illness",
     "returnDate": "2026-11-11"
    }
   ],
@@ -687,13 +701,6 @@
     "gameTimeDecision": false,
     "reason": "Hip (pinched nerve)",
     "returnDate": "2026-11-16"
-   },
-   {
-    "name": "Bilal Coulibaly",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Hand",
-    "returnDate": "2026-11-11"
    }
   ]
  }
