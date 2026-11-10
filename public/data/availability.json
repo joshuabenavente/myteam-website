@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-10T00:23:35.548Z",
+ "updatedAt": "2026-11-10T01:23:44.056Z",
  "teams": {
   "ATL": [
    {
@@ -160,48 +160,6 @@
     "gameTimeDecision": false,
     "reason": "Knee (sprain)",
     "returnDate": "2026-11-29"
-   },
-   {
-    "name": "Aaron Gordon",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Lower Body",
-    "returnDate": "2026-11-09"
-   },
-   {
-    "name": "Cameron Johnson",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Ankle",
-    "returnDate": "2026-11-09"
-   },
-   {
-    "name": "Christian Braun",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Calf (bruise)",
-    "returnDate": "2026-11-09"
-   },
-   {
-    "name": "DeMar DeRozan",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Back (spasms)",
-    "returnDate": "2026-11-09"
-   },
-   {
-    "name": "Jamal Murray",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Lower Leg (bruise)",
-    "returnDate": "2026-11-09"
-   },
-   {
-    "name": "Nikola Jokic",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Elbow (sprain)",
-    "returnDate": "2026-11-09"
    }
   ],
   "DET": [
@@ -384,6 +342,13 @@
     "gameTimeDecision": false,
     "reason": "Back (soreness)",
     "returnDate": "2026-11-11"
+   },
+   {
+    "name": "Quinten Post",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Head",
+    "returnDate": "2026-11-09"
    }
   ],
   "MIA": [
@@ -491,9 +456,9 @@
    {
     "name": "Jaylin Williams",
     "status": "Out",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Back (spasms)",
-    "returnDate": "2026-11-10"
+    "returnDate": "2026-11-11"
    },
    {
     "name": "Thomas Sorber",
@@ -600,13 +565,6 @@
     "gameTimeDecision": false,
     "reason": "Ankle",
     "returnDate": "2027-01-02"
-   },
-   {
-    "name": "Robert Williams III",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Rest",
-    "returnDate": "2026-11-10"
    }
   ],
   "SAC": [
@@ -620,15 +578,22 @@
    {
     "name": "Maxime Raynaud",
     "status": "Out",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Knee (dislocated)",
-    "returnDate": "2026-11-10"
+    "returnDate": "2026-11-15"
    },
    {
     "name": "Domantas Sabonis",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Knee (soreness)",
+    "returnDate": "2026-11-10"
+   },
+   {
+    "name": "Keegan Murray",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Wrist (soreness)",
     "returnDate": "2026-11-10"
    }
   ],
