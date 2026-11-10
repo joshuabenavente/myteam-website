@@ -218,7 +218,11 @@
    "startUtc": "2026-11-10T00:00:00Z",
    "home": false,
    "opponent": "CHA",
-   "status": "scheduled",
+   "status": "live",
+   "score": {
+    "team": 0,
+    "opponent": 0
+   },
    "broadcasts": [
     {
      "name": "DAZN-CLE",

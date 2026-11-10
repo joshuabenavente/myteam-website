@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-09T23:23:46.036Z",
+ "updatedAt": "2026-11-10T00:23:35.548Z",
  "teams": {
   "ATL": [
    {
@@ -270,7 +270,7 @@
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Ankle (sprain)",
-    "returnDate": "2026-11-11"
+    "returnDate": "2026-11-15"
    },
    {
     "name": "Oscar Tshiebwe",
@@ -284,7 +284,7 @@
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Calf (strain)",
-    "returnDate": "2026-11-11"
+    "returnDate": "2026-11-15"
    }
   ],
   "IND": [
@@ -308,13 +308,6 @@
     "gameTimeDecision": false,
     "reason": "Hamstring (strain)",
     "returnDate": "2026-11-13"
-   },
-   {
-    "name": "T.J. McConnell",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Hamstring (strain)",
-    "returnDate": "2026-11-09"
    }
   ],
   "LAC": [
@@ -328,9 +321,9 @@
    {
     "name": "Brandon Ingram",
     "status": "Out",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Achilles (surgery)",
-    "returnDate": "2026-11-10"
+    "returnDate": "2026-11-13"
    },
    {
     "name": "Jordan Miller",
@@ -342,15 +335,15 @@
    {
     "name": "Yanic Konan Niederhauser",
     "status": "Out",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Foot (surgery)",
-    "returnDate": "2026-11-10"
+    "returnDate": "2026-11-17"
    },
    {
-    "name": "Isaiah Jackson",
+    "name": "Cam Christie",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
-    "reason": "Groin (soreness)",
+    "reason": "Ankle",
     "returnDate": "2026-11-10"
    }
   ],
@@ -414,7 +407,7 @@
     "name": "Tyler Herro",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
-    "reason": "Bruise",
+    "reason": "Knee (bruise)",
     "returnDate": "2026-11-10"
    }
   ],
@@ -574,9 +567,9 @@
    {
     "name": "Jordan Goodwin",
     "status": "Out",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Calf",
-    "returnDate": "2026-11-09"
+    "returnDate": "2026-11-10"
    },
    {
     "name": "Mark Williams",
@@ -716,10 +709,10 @@
    },
    {
     "name": "Keyonte George",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Ankle",
-    "returnDate": "2026-11-10"
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Ankle (sprain)",
+    "returnDate": "2026-11-11"
    },
    {
     "name": "Lauri Markkanen",
