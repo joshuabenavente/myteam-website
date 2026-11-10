@@ -1,7 +1,7 @@
 {
  "season": "2026-27",
  "lastSeason": "2025-26",
- "updatedAt": "2026-11-10T04:21:17.942Z",
+ "updatedAt": "2026-11-10T10:21:11.666Z",
  "teamGamesPlayed": {
   "regular": 10,
   "playoffs": 0
@@ -698,77 +698,6 @@
      "threeAttempted": 0,
      "ftMade": 0,
      "ftAttempted": 0
-    }
-   }
-  },
-  {
-   "id": "cliffni01",
-   "name": "Nique Clifford",
-   "number": "10",
-   "position": "SG",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 5\"",
-    "weight": 210,
-    "birthDate": "2002-02-09",
-    "experience": 1,
-    "college": "Colorado, Colorado State"
-   },
-   "current": {
-    "regular": {
-     "games": 8,
-     "started": 0,
-     "minutes": 49.7,
-     "points": 13,
-     "rebounds": 7,
-     "assists": 8,
-     "steals": 2,
-     "blocks": 0,
-     "turnovers": 5,
-     "fgMade": 6,
-     "fgAttempted": 17,
-     "threeMade": 1,
-     "threeAttempted": 8,
-     "ftMade": 0,
-     "ftAttempted": 0
-    }
-   },
-   "lastFull": {
-    "regular": {
-     "games": 75,
-     "started": 28,
-     "minutes": 1882.8,
-     "points": 645,
-     "rebounds": 282,
-     "assists": 179,
-     "steals": 68,
-     "blocks": 24,
-     "turnovers": 116,
-     "fgMade": 249,
-     "fgAttempted": 596,
-     "threeMade": 77,
-     "threeAttempted": 231,
-     "ftMade": 70,
-     "ftAttempted": 97
-    }
-   },
-   "lastToDate": {
-    "regular": {
-     "games": 6,
-     "started": 2,
-     "minutes": 130.4,
-     "points": 32,
-     "rebounds": 23,
-     "assists": 15,
-     "steals": 4,
-     "blocks": 3,
-     "turnovers": 5,
-     "fgMade": 13,
-     "fgAttempted": 32,
-     "threeMade": 4,
-     "threeAttempted": 13,
-     "ftMade": 2,
-     "ftAttempted": 4
     }
    }
   },
