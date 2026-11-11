@@ -1,8 +1,8 @@
 {
  "season": "2026-27",
  "teams": {
-  "PHI": {
-   "abbr": "PHI",
+  "BOS": {
+   "abbr": "BOS",
    "conference": "East",
    "division": "Atlantic",
    "wins": 9,
@@ -11,41 +11,41 @@
    "conferenceRank": 1,
    "divisionGamesBehind": 0,
    "home": {
-    "wins": 4,
-    "losses": 1
-   },
-   "road": {
-    "wins": 5,
-    "losses": 1
-   },
-   "lastTen": {
-    "wins": 8,
-    "losses": 2
-   },
-   "streak": "W1"
-  },
-  "BOS": {
-   "abbr": "BOS",
-   "conference": "East",
-   "division": "Atlantic",
-   "wins": 8,
-   "losses": 2,
-   "divisionRank": 2,
-   "conferenceRank": 2,
-   "divisionGamesBehind": 0.5,
-   "home": {
     "wins": 5,
     "losses": 0
    },
    "road": {
-    "wins": 3,
+    "wins": 4,
     "losses": 2
    },
    "lastTen": {
-    "wins": 8,
+    "wins": 9,
+    "losses": 1
+   },
+   "streak": "W4"
+  },
+  "PHI": {
+   "abbr": "PHI",
+   "conference": "East",
+   "division": "Atlantic",
+   "wins": 9,
+   "losses": 3,
+   "divisionRank": 2,
+   "conferenceRank": 2,
+   "divisionGamesBehind": 0.5,
+   "home": {
+    "wins": 4,
     "losses": 2
    },
-   "streak": "W3"
+   "road": {
+    "wins": 5,
+    "losses": 1
+   },
+   "lastTen": {
+    "wins": 7,
+    "losses": 3
+   },
+   "streak": "L1"
   },
   "NYK": {
    "abbr": "NYK",

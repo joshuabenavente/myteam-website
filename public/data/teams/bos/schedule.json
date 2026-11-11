@@ -204,10 +204,10 @@
    "startUtc": "2026-11-11T01:00:00Z",
    "home": false,
    "opponent": "PHI",
-   "status": "live",
+   "status": "final",
    "score": {
-    "team": 0,
-    "opponent": 0
+    "team": 123,
+    "opponent": 101
    },
    "broadcasts": [
     {
