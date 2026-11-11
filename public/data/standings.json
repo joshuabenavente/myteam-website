@@ -346,38 +346,15 @@
    },
    "streak": "W1"
   },
-  "OKC": {
-   "abbr": "OKC",
-   "conference": "West",
-   "division": "Northwest",
-   "wins": 8,
-   "losses": 2,
-   "divisionRank": 1,
-   "conferenceRank": 3,
-   "divisionGamesBehind": 0,
-   "home": {
-    "wins": 5,
-    "losses": 0
-   },
-   "road": {
-    "wins": 3,
-    "losses": 2
-   },
-   "lastTen": {
-    "wins": 8,
-    "losses": 2
-   },
-   "streak": "W4"
-  },
   "MIN": {
    "abbr": "MIN",
    "conference": "West",
    "division": "Northwest",
    "wins": 8,
    "losses": 3,
-   "divisionRank": 2,
-   "conferenceRank": 5,
-   "divisionGamesBehind": 0.5,
+   "divisionRank": 1,
+   "conferenceRank": 4,
+   "divisionGamesBehind": 0,
    "home": {
     "wins": 4,
     "losses": 1
@@ -392,17 +369,40 @@
    },
    "streak": "W4"
   },
+  "OKC": {
+   "abbr": "OKC",
+   "conference": "West",
+   "division": "Northwest",
+   "wins": 8,
+   "losses": 3,
+   "divisionRank": 2,
+   "conferenceRank": 6,
+   "divisionGamesBehind": 0,
+   "home": {
+    "wins": 5,
+    "losses": 0
+   },
+   "road": {
+    "wins": 3,
+    "losses": 3
+   },
+   "lastTen": {
+    "wins": 7,
+    "losses": 3
+   },
+   "streak": "L1"
+  },
   "POR": {
    "abbr": "POR",
    "conference": "West",
    "division": "Northwest",
-   "wins": 6,
+   "wins": 7,
    "losses": 3,
    "divisionRank": 3,
    "conferenceRank": 8,
-   "divisionGamesBehind": 1.5,
+   "divisionGamesBehind": 0.5,
    "home": {
-    "wins": 1,
+    "wins": 2,
     "losses": 2
    },
    "road": {
@@ -410,10 +410,10 @@
     "losses": 1
    },
    "lastTen": {
-    "wins": 6,
+    "wins": 7,
     "losses": 3
    },
-   "streak": "L2"
+   "streak": "W1"
   },
   "DEN": {
    "abbr": "DEN",
@@ -423,7 +423,7 @@
    "losses": 4,
    "divisionRank": 4,
    "conferenceRank": 10,
-   "divisionGamesBehind": 2.5,
+   "divisionGamesBehind": 2,
    "home": {
     "wins": 2,
     "losses": 2
@@ -446,7 +446,7 @@
    "losses": 10,
    "divisionRank": 5,
    "conferenceRank": 15,
-   "divisionGamesBehind": 7.5,
+   "divisionGamesBehind": 7,
    "home": {
     "wins": 1,
     "losses": 5
@@ -491,7 +491,7 @@
    "wins": 8,
    "losses": 3,
    "divisionRank": 2,
-   "conferenceRank": 4,
+   "conferenceRank": 3,
    "divisionGamesBehind": 1.5,
    "home": {
     "wins": 6,
@@ -606,7 +606,7 @@
    "wins": 8,
    "losses": 3,
    "divisionRank": 2,
-   "conferenceRank": 6,
+   "conferenceRank": 5,
    "divisionGamesBehind": 1,
    "home": {
     "wins": 5,

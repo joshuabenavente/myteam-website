@@ -219,10 +219,10 @@
    "startUtc": "2026-11-11T04:00:00Z",
    "home": true,
    "opponent": "OKC",
-   "status": "live",
+   "status": "final",
    "score": {
-    "team": 0,
-    "opponent": 0
+    "team": 123,
+    "opponent": 103
    },
    "broadcasts": [
     {
