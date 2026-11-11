@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-11T18:23:34.746Z",
+ "updatedAt": "2026-11-11T19:23:43.434Z",
  "teams": {
   "ATL": [
    {
@@ -94,6 +94,13 @@
    }
   ],
   "CHI": [
+   {
+    "name": "Caleb Wilson",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Hip (soreness)",
+    "returnDate": "2026-11-11"
+   },
    {
     "name": "Norman Powell",
     "status": "Day-To-Day",
@@ -324,10 +331,10 @@
   "LAL": [
    {
     "name": "Quentin Grimes",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
+    "status": "Out",
+    "gameTimeDecision": false,
     "reason": "Finger",
-    "returnDate": "2026-11-11"
+    "returnDate": "2026-11-15"
    }
   ],
   "MEM": [
@@ -361,6 +368,13 @@
    }
   ],
   "MIL": [
+   {
+    "name": "Myles Turner",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Rest",
+    "returnDate": "2026-11-13"
+   },
    {
     "name": "Tyler Herro",
     "status": "Day-To-Day",
@@ -673,17 +687,17 @@
     "returnDate": "2026-11-20"
    },
    {
+    "name": "Lauri Markkanen",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Hand (fracture)",
+    "returnDate": "2027-01-04"
+   },
+   {
     "name": "Keyonte George",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Ankle (sprain)",
-    "returnDate": "2026-11-11"
-   },
-   {
-    "name": "Lauri Markkanen",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Wrist (sprain)",
     "returnDate": "2026-11-11"
    }
   ],
