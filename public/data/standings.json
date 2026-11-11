@@ -169,7 +169,7 @@
    "wins": 3,
    "losses": 8,
    "divisionRank": 3,
-   "conferenceRank": 11,
+   "conferenceRank": 12,
    "divisionGamesBehind": 4.5,
    "home": {
     "wins": 0,
@@ -327,24 +327,24 @@
    "abbr": "ORL",
    "conference": "East",
    "division": "Southeast",
-   "wins": 2,
+   "wins": 3,
    "losses": 7,
    "divisionRank": 5,
-   "conferenceRank": 12,
-   "divisionGamesBehind": 3.5,
+   "conferenceRank": 11,
+   "divisionGamesBehind": 3,
    "home": {
     "wins": 0,
     "losses": 4
    },
    "road": {
-    "wins": 2,
+    "wins": 3,
     "losses": 3
    },
    "lastTen": {
-    "wins": 2,
+    "wins": 3,
     "losses": 7
    },
-   "streak": "L4"
+   "streak": "W1"
   },
   "OKC": {
    "abbr": "OKC",
@@ -558,13 +558,13 @@
    "conference": "West",
    "division": "Pacific",
    "wins": 1,
-   "losses": 9,
+   "losses": 10,
    "divisionRank": 5,
    "conferenceRank": 14,
-   "divisionGamesBehind": 8,
+   "divisionGamesBehind": 8.5,
    "home": {
     "wins": 0,
-    "losses": 5
+    "losses": 6
    },
    "road": {
     "wins": 1,
@@ -574,7 +574,7 @@
     "wins": 1,
     "losses": 9
    },
-   "streak": "L3"
+   "streak": "L4"
   },
   "SAS": {
    "abbr": "SAS",
