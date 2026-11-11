@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-11T16:23:39.410Z",
+ "updatedAt": "2026-11-11T17:23:48.878Z",
  "teams": {
   "ATL": [
    {
@@ -41,7 +41,7 @@
    },
    {
     "name": "Mikel Brown Jr.",
-    "status": "Day-To-Day",
+    "status": "Out",
     "gameTimeDecision": false,
     "reason": "Illness",
     "returnDate": "2026-11-14"
@@ -230,7 +230,7 @@
    },
    {
     "name": "Will Richard",
-    "status": "Out",
+    "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Thumb",
     "returnDate": "2026-11-11"
@@ -385,10 +385,17 @@
   ],
   "NOP": [
    {
+    "name": "Bennedict Mathurin",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Thumb (sprain)",
+    "returnDate": "2026-11-13"
+   },
+   {
     "name": "Trendon Watford",
     "status": "Out",
     "gameTimeDecision": false,
-    "reason": "Ankle",
+    "reason": "Ankle (sprain)",
     "returnDate": "2026-11-13"
    },
    {
