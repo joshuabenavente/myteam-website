@@ -199,7 +199,11 @@
    "startUtc": "2026-11-11T00:30:00Z",
    "home": true,
    "opponent": "MIL",
-   "status": "scheduled",
+   "status": "live",
+   "score": {
+    "team": 0,
+    "opponent": 0
+   },
    "broadcasts": [
     {
      "name": "MSG / DAZN",
