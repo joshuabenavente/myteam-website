@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-10T23:23:48.094Z",
+ "updatedAt": "2026-11-11T00:23:37.553Z",
  "teams": {
   "ATL": [
    {
@@ -362,18 +362,11 @@
   ],
   "MIL": [
    {
-    "name": "Kel'el Ware",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Ankle (sprain)",
-    "returnDate": "2026-11-10"
-   },
-   {
     "name": "Tyler Herro",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
+    "status": "Out",
+    "gameTimeDecision": false,
     "reason": "Knee (bruise)",
-    "returnDate": "2026-11-10"
+    "returnDate": "2026-11-11"
    }
   ],
   "MIN": [
