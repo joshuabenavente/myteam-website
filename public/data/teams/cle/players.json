@@ -1,7 +1,7 @@
 {
  "season": "2026-27",
  "lastSeason": "2025-26",
- "updatedAt": "2026-11-11T07:18:45.866Z",
+ "updatedAt": "2026-11-11T13:18:46.394Z",
  "teamGamesPlayed": {
   "regular": 11,
   "playoffs": 0
@@ -1037,59 +1037,6 @@
    }
   },
   {
-   "id": "enarutr01",
-   "name": "Tristan Enaruna",
-   "number": "21",
-   "position": "SF",
-   "twoWay": true,
-   "bio": {
-    "height": "6' 7\"",
-    "weight": 220,
-    "birthDate": "2001-06-26",
-    "experience": 1,
-    "college": "Kansas, Iowa State, Cleveland State University"
-   },
-   "current": {
-    "regular": {
-     "games": 3,
-     "started": 0,
-     "minutes": 29.9,
-     "points": 7,
-     "rebounds": 5,
-     "assists": 1,
-     "steals": 2,
-     "blocks": 0,
-     "turnovers": 0,
-     "fgMade": 3,
-     "fgAttempted": 10,
-     "threeMade": 0,
-     "threeAttempted": 5,
-     "ftMade": 1,
-     "ftAttempted": 2
-    }
-   },
-   "lastFull": {
-    "regular": {
-     "games": 9,
-     "started": 0,
-     "minutes": 85.2,
-     "points": 37,
-     "rebounds": 14,
-     "assists": 7,
-     "steals": 5,
-     "blocks": 0,
-     "turnovers": 3,
-     "fgMade": 14,
-     "fgAttempted": 28,
-     "threeMade": 3,
-     "threeAttempted": 10,
-     "ftMade": 6,
-     "ftAttempted": 8
-    }
-   },
-   "lastToDate": {}
-  },
-  {
    "id": "omierno01",
    "name": "Norchad Omier",
    "number": "15",
@@ -1213,6 +1160,21 @@
    }
   },
   {
+   "id": "diopkh01",
+   "name": "Khalifa Diop",
+   "position": "C",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 11\"",
+    "weight": 231,
+    "birthDate": "2002-01-15",
+    "experience": 0
+   },
+   "current": {},
+   "lastFull": {},
+   "lastToDate": {}
+  },
+  {
    "id": "udehjer01",
    "name": "Ernest Udeh Jr.",
    "position": "C",
@@ -1227,21 +1189,6 @@
    },
    "number": "88",
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5106261.png",
-   "current": {},
-   "lastFull": {},
-   "lastToDate": {}
-  },
-  {
-   "id": "diopkh01",
-   "name": "Khalifa Diop",
-   "position": "C",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 11\"",
-    "weight": 231,
-    "birthDate": "2002-01-15",
-    "experience": 0
-   },
    "current": {},
    "lastFull": {},
    "lastToDate": {}
