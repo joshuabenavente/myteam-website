@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-11T01:23:45.875Z",
+ "updatedAt": "2026-11-11T02:23:36.062Z",
  "teams": {
   "ATL": [
    {
@@ -291,6 +291,13 @@
     "returnDate": "2026-11-13"
    },
    {
+    "name": "Cam Christie",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Ankle",
+    "returnDate": "2026-11-13"
+   },
+   {
     "name": "Jordan Miller",
     "status": "Out",
     "gameTimeDecision": false,
@@ -303,13 +310,6 @@
     "gameTimeDecision": false,
     "reason": "Foot (surgery)",
     "returnDate": "2026-11-17"
-   },
-   {
-    "name": "Cam Christie",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Ankle",
-    "returnDate": "2026-11-10"
    }
   ],
   "LAL": [
@@ -483,10 +483,10 @@
    },
    {
     "name": "Tristan da Silva",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
+    "status": "Out",
+    "gameTimeDecision": false,
     "reason": "Calf (strain)",
-    "returnDate": "2026-11-10"
+    "returnDate": "2026-11-11"
    }
   ],
   "PHI": [
