@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-11T15:23:57.527Z",
+ "updatedAt": "2026-11-11T16:23:39.410Z",
  "teams": {
   "ATL": [
    {
@@ -40,11 +40,11 @@
     "returnDate": "2026-11-11"
    },
    {
-    "name": "Grant Nelson",
+    "name": "Mikel Brown Jr.",
     "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Knee",
-    "returnDate": "2026-11-10"
+    "gameTimeDecision": false,
+    "reason": "Illness",
+    "returnDate": "2026-11-14"
    },
    {
     "name": "Nolan Traore",
@@ -183,6 +183,13 @@
     "gameTimeDecision": false,
     "reason": "Hamstring (strain)",
     "returnDate": "2026-11-24"
+   },
+   {
+    "name": "Ugonna Onyenso",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Foot",
+    "returnDate": "2026-11-13"
    }
   ],
   "GSW": [
