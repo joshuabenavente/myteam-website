@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-11T17:23:48.878Z",
+ "updatedAt": "2026-11-11T18:23:34.746Z",
  "teams": {
   "ATL": [
    {
@@ -31,14 +31,16 @@
     "returnDate": "2026-11-20"
    }
   ],
-  "BKN": [
+  "BOS": [
    {
-    "name": "Egor Demin",
+    "name": "Paul George",
     "status": "Out",
-    "gameTimeDecision": true,
-    "reason": "Leg (bruise)",
-    "returnDate": "2026-11-11"
-   },
+    "gameTimeDecision": false,
+    "reason": "Illness",
+    "returnDate": "2026-11-15"
+   }
+  ],
+  "BKN": [
    {
     "name": "Mikel Brown Jr.",
     "status": "Out",
@@ -420,6 +422,13 @@
     "gameTimeDecision": true,
     "reason": "Illness",
     "returnDate": "2026-11-11"
+   },
+   {
+    "name": "Karl-Anthony Towns",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Calf (soreness)",
+    "returnDate": "2026-11-11"
    }
   ],
   "OKC": [
@@ -627,6 +636,13 @@
     "returnDate": "2026-11-12"
    },
    {
+    "name": "Trayce Jackson-Davis",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Illness",
+    "returnDate": "2026-11-12"
+   },
+   {
     "name": "Collin Murray-Boyles",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
@@ -638,13 +654,6 @@
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Hamstring",
-    "returnDate": "2026-11-11"
-   },
-   {
-    "name": "Trayce Jackson-Davis",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Illness",
     "returnDate": "2026-11-11"
    }
   ],
