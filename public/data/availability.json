@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-11T21:23:39.190Z",
+ "updatedAt": "2026-11-11T22:23:52.802Z",
  "teams": {
   "ATL": [
    {
@@ -50,10 +50,10 @@
    },
    {
     "name": "Nolan Traore",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
+    "status": "Out",
+    "gameTimeDecision": false,
     "reason": "Calf (soreness)",
-    "returnDate": "2026-11-11"
+    "returnDate": "2026-11-14"
    }
   ],
   "CHA": [
@@ -143,29 +143,29 @@
    {
     "name": "Dereck Lively II",
     "status": "Out",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Foot (surgery)",
-    "returnDate": "2026-11-12"
+    "returnDate": "2026-11-18"
    },
    {
     "name": "Sergio de Larrea",
     "status": "Out",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Knee (strain)",
-    "returnDate": "2026-11-12"
+    "returnDate": "2026-11-18"
    },
    {
     "name": "Tarik Biberovic",
     "status": "Out",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Heel (inflammation)",
-    "returnDate": "2026-11-12"
+    "returnDate": "2026-11-18"
    },
    {
     "name": "Morez Johnson Jr.",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
-    "reason": "Leg",
+    "reason": "Lower Leg (bruise)",
     "returnDate": "2026-11-12"
    }
   ],
@@ -477,9 +477,9 @@
    {
     "name": "Jaylin Williams",
     "status": "Out",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Back (spasms)",
-    "returnDate": "2026-11-11"
+    "returnDate": "2026-11-15"
    },
    {
     "name": "Thomas Sorber",
@@ -544,9 +544,9 @@
    {
     "name": "Adem Bona",
     "status": "Out",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Back (sprain)",
-    "returnDate": "2026-11-12"
+    "returnDate": "2026-11-18"
    },
    {
     "name": "Ariel Hukporti",
@@ -561,6 +561,20 @@
     "gameTimeDecision": false,
     "reason": "Back (fracture)",
     "returnDate": "2026-11-18"
+   },
+   {
+    "name": "Joel Embiid",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Foot",
+    "returnDate": "2026-11-12"
+   },
+   {
+    "name": "LeBron James",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Back",
+    "returnDate": "2026-11-12"
    }
   ],
   "PHX": [
