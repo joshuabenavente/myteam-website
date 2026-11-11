@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-11T06:23:34.449Z",
+ "updatedAt": "2026-11-11T15:23:57.527Z",
  "teams": {
   "ATL": [
    {
@@ -286,15 +286,8 @@
    {
     "name": "Brandon Ingram",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Achilles (surgery)",
-    "returnDate": "2026-11-13"
-   },
-   {
-    "name": "Cam Christie",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Ankle",
     "returnDate": "2026-11-13"
    },
    {
@@ -310,6 +303,13 @@
     "gameTimeDecision": false,
     "reason": "Foot (surgery)",
     "returnDate": "2026-11-17"
+   },
+   {
+    "name": "Cam Christie",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Ankle",
+    "returnDate": "2026-11-13"
    }
   ],
   "LAL": [
@@ -354,8 +354,8 @@
   "MIL": [
    {
     "name": "Tyler Herro",
-    "status": "Out",
-    "gameTimeDecision": false,
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
     "reason": "Knee (bruise)",
     "returnDate": "2026-11-11"
    }
@@ -403,7 +403,7 @@
    {
     "name": "Josh Hart",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Illness",
     "returnDate": "2026-11-11"
    }
@@ -433,7 +433,7 @@
    {
     "name": "Jaylin Williams",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Back (spasms)",
     "returnDate": "2026-11-11"
    },
@@ -483,8 +483,8 @@
    },
    {
     "name": "Tristan da Silva",
-    "status": "Out",
-    "gameTimeDecision": false,
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
     "reason": "Calf (strain)",
     "returnDate": "2026-11-11"
    }
@@ -493,7 +493,7 @@
    {
     "name": "Adem Bona",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Back (sprain)",
     "returnDate": "2026-11-12"
    },
@@ -561,8 +561,8 @@
    },
    {
     "name": "Precious Achiuwa",
-    "status": "Out",
-    "gameTimeDecision": false,
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
     "reason": "Lower Leg (bruise)",
     "returnDate": "2026-11-13"
    }
@@ -651,15 +651,15 @@
    },
    {
     "name": "Keyonte George",
-    "status": "Out",
-    "gameTimeDecision": false,
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
     "reason": "Ankle (sprain)",
     "returnDate": "2026-11-11"
    },
    {
     "name": "Lauri Markkanen",
-    "status": "Out",
-    "gameTimeDecision": false,
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
     "reason": "Wrist (sprain)",
     "returnDate": "2026-11-11"
    }
