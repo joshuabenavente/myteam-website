@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-11T19:23:43.434Z",
+ "updatedAt": "2026-11-11T21:23:39.190Z",
  "teams": {
   "ATL": [
    {
@@ -95,6 +95,13 @@
   ],
   "CHI": [
    {
+    "name": "Tobe Awaka",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Back",
+    "returnDate": "2026-11-13"
+   },
+   {
     "name": "Caleb Wilson",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
@@ -106,13 +113,6 @@
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Shoulder (inflammation)",
-    "returnDate": "2026-11-11"
-   },
-   {
-    "name": "Tobe Awaka",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Back",
     "returnDate": "2026-11-11"
    },
    {
@@ -447,6 +447,13 @@
   ],
   "OKC": [
    {
+    "name": "Ajay Mitchell",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Ankle",
+    "returnDate": "2026-11-13"
+   },
+   {
     "name": "Cason Wallace",
     "status": "Out",
     "gameTimeDecision": false,
@@ -519,6 +526,13 @@
     "returnDate": "2026-11-22"
    },
    {
+    "name": "Jamal Cain",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Shoulder (bruise)",
+    "returnDate": "2026-11-11"
+   },
+   {
     "name": "Tristan da Silva",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
@@ -560,6 +574,13 @@
   ],
   "POR": [
    {
+    "name": "Chris Youngblood",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Foot (bruise)",
+    "returnDate": "2026-11-13"
+   },
+   {
     "name": "Ja Morant",
     "status": "Out",
     "gameTimeDecision": false,
@@ -578,7 +599,7 @@
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Ankle",
-    "returnDate": "2027-01-02"
+    "returnDate": "2027-01-12"
    }
   ],
   "SAC": [

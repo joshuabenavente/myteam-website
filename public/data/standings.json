@@ -282,21 +282,21 @@
    "conference": "East",
    "division": "Southeast",
    "wins": 4,
-   "losses": 7,
+   "losses": 6,
    "divisionRank": 3,
    "conferenceRank": 9,
-   "divisionGamesBehind": 2.5,
+   "divisionGamesBehind": 2,
    "home": {
     "wins": 3,
     "losses": 4
    },
    "road": {
     "wins": 1,
-    "losses": 3
+    "losses": 2
    },
    "lastTen": {
-    "wins": 3,
-    "losses": 7
+    "wins": 4,
+    "losses": 6
    },
    "streak": "W1"
   },
@@ -304,13 +304,13 @@
    "abbr": "WAS",
    "conference": "East",
    "division": "Southeast",
-   "wins": 4,
+   "wins": 3,
    "losses": 7,
    "divisionRank": 4,
    "conferenceRank": 10,
-   "divisionGamesBehind": 2.5,
+   "divisionGamesBehind": 3,
    "home": {
-    "wins": 2,
+    "wins": 1,
     "losses": 2
    },
    "road": {
