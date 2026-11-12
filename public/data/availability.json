@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-12T20:23:44.915Z",
+ "updatedAt": "2026-11-12T21:23:42.337Z",
  "teams": {
   "ATL": [
    {
@@ -281,9 +281,9 @@
    {
     "name": "Brandon Ingram",
     "status": "Out",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Achilles (surgery)",
-    "returnDate": "2026-11-13"
+    "returnDate": "2026-11-15"
    },
    {
     "name": "Jordan Miller",
@@ -362,6 +362,13 @@
   ],
   "MIA": [
    {
+    "name": "Giannis Antetokounmpo",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Wrist",
+    "returnDate": "2026-11-13"
+   },
+   {
     "name": "Klay Thompson",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
@@ -410,11 +417,18 @@
   ],
   "NOP": [
    {
-    "name": "Yves Missi",
+    "name": "Trendon Watford",
     "status": "Out",
     "gameTimeDecision": false,
+    "reason": "Ankle (sprain)",
+    "returnDate": "2026-11-14"
+   },
+   {
+    "name": "Yves Missi",
+    "status": "Out",
+    "gameTimeDecision": true,
     "reason": "Knee (bruise)",
-    "returnDate": "2026-11-16"
+    "returnDate": "2026-11-13"
    },
    {
     "name": "Bennedict Mathurin",
@@ -424,10 +438,10 @@
     "returnDate": "2026-11-13"
    },
    {
-    "name": "Trendon Watford",
+    "name": "Bryce McGowens",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
-    "reason": "Ankle (sprain)",
+    "reason": "Elbow (infection)",
     "returnDate": "2026-11-13"
    },
    {
