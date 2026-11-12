@@ -1,13 +1,13 @@
 {
- "updatedAt": "2026-11-12T21:23:42.337Z",
+ "updatedAt": "2026-11-12T23:23:53.163Z",
  "teams": {
   "ATL": [
    {
     "name": "Asa Newell",
     "status": "Out",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Toe",
-    "returnDate": "2026-11-13"
+    "returnDate": "2026-11-20"
    },
    {
     "name": "Henri Veesaar",
@@ -19,9 +19,9 @@
    {
     "name": "Keshon Gilbert",
     "status": "Out",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Knee (inflammation)",
-    "returnDate": "2026-11-13"
+    "returnDate": "2026-11-20"
    },
    {
     "name": "Mouhamed Gueye",
@@ -29,6 +29,13 @@
     "gameTimeDecision": false,
     "reason": "Foot (fracture)",
     "returnDate": "2026-11-20"
+   },
+   {
+    "name": "Kingston Flemings",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Back",
+    "returnDate": "2026-11-13"
    }
   ],
   "BOS": [
@@ -82,10 +89,17 @@
   "CHI": [
    {
     "name": "Caleb Wilson",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
+    "status": "Out",
+    "gameTimeDecision": false,
     "reason": "Hand",
-    "returnDate": "2026-11-13"
+    "returnDate": "2026-12-13"
+   },
+   {
+    "name": "Tobe Awaka",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Back",
+    "returnDate": "2026-11-14"
    },
    {
     "name": "Dailyn Swain",
@@ -100,16 +114,16 @@
     "gameTimeDecision": true,
     "reason": "Shoulder (inflammation)",
     "returnDate": "2026-11-13"
-   },
-   {
-    "name": "Tobe Awaka",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Back",
-    "returnDate": "2026-11-13"
    }
   ],
   "CLE": [
+   {
+    "name": "Evan Mobley",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Toe",
+    "returnDate": "2026-11-14"
+   },
    {
     "name": "Sam Merrill",
     "status": "Out",
@@ -217,10 +231,10 @@
     "returnDate": "2026-12-12"
    },
    {
-    "name": "Gary Payton II",
+    "name": "Charles Bassey",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
-    "reason": "Knee (inflammation)",
+    "reason": "Toe (soreness)",
     "returnDate": "2026-11-13"
    }
   ],
@@ -238,6 +252,13 @@
     "gameTimeDecision": false,
     "reason": "Calf (strain)",
     "returnDate": "2026-11-15"
+   },
+   {
+    "name": "Marcus Smart",
+    "status": "Suspension",
+    "gameTimeDecision": false,
+    "reason": "Suspension",
+    "returnDate": "2026-11-18"
    }
   ],
   "IND": [
@@ -268,6 +289,13 @@
     "gameTimeDecision": true,
     "reason": "Knee (soreness)",
     "returnDate": "2026-11-13"
+   },
+   {
+    "name": "T.J. McConnell",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Hamstring (strain)",
+    "returnDate": "2026-11-13"
    }
   ],
   "LAC": [
@@ -283,7 +311,7 @@
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Achilles (surgery)",
-    "returnDate": "2026-11-15"
+    "returnDate": "2026-11-19"
    },
    {
     "name": "Jordan Miller",
@@ -339,6 +367,13 @@
   ],
   "MEM": [
    {
+    "name": "Quinten Post",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Concussion",
+    "returnDate": "2026-11-14"
+   },
+   {
     "name": "Richie Saunders",
     "status": "Out",
     "gameTimeDecision": false,
@@ -353,11 +388,11 @@
     "returnDate": "2026-11-21"
    },
    {
-    "name": "Quinten Post",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Head",
-    "returnDate": "2026-11-13"
+    "name": "Zach Edey",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Ankle",
+    "returnDate": "2026-11-14"
    }
   ],
   "MIA": [
@@ -372,7 +407,7 @@
     "name": "Klay Thompson",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
-    "reason": "Ankle",
+    "reason": "Ankle (soreness)",
     "returnDate": "2026-11-13"
    },
    {
@@ -380,22 +415,6 @@
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Illness",
-    "returnDate": "2026-11-13"
-   }
-  ],
-  "MIL": [
-   {
-    "name": "Myles Turner",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Rest",
-    "returnDate": "2026-11-13"
-   },
-   {
-    "name": "Ryan Rollins",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Head",
     "returnDate": "2026-11-13"
    }
   ],
@@ -507,9 +526,9 @@
    {
     "name": "Jalen Suggs",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Knee",
-    "returnDate": "2026-11-16"
+    "returnDate": "2026-11-13"
    },
    {
     "name": "Jonathan Isaac",
@@ -660,6 +679,13 @@
     "gameTimeDecision": false,
     "reason": "Calf (strain)",
     "returnDate": "2026-11-19"
+   },
+   {
+    "name": "De'Aaron Fox",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Hip (soreness)",
+    "returnDate": "2026-11-13"
    },
    {
     "name": "Devin Vassell",
