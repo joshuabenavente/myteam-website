@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-11T23:23:36.452Z",
+ "updatedAt": "2026-11-12T00:23:45.289Z",
  "teams": {
   "ATL": [
    {
@@ -58,6 +58,13 @@
   ],
   "CHA": [
    {
+    "name": "Brandon Miller",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Groin (soreness)",
+    "returnDate": "2026-11-15"
+   },
+   {
     "name": "Dennis Schroder",
     "status": "Out",
     "gameTimeDecision": false,
@@ -79,13 +86,6 @@
     "returnDate": "2026-12-12"
    },
    {
-    "name": "Brandon Miller",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Groin (soreness)",
-    "returnDate": "2026-11-12"
-   },
-   {
     "name": "Moussa Diabate",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
@@ -94,6 +94,13 @@
    }
   ],
   "CHI": [
+   {
+    "name": "Norman Powell",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Shoulder (inflammation)",
+    "returnDate": "2026-11-13"
+   },
    {
     "name": "Tobe Awaka",
     "status": "Out",
@@ -109,10 +116,10 @@
     "returnDate": "2026-11-11"
    },
    {
-    "name": "Norman Powell",
+    "name": "Dailyn Swain",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
-    "reason": "Shoulder (inflammation)",
+    "reason": "Back",
     "returnDate": "2026-11-11"
    },
    {
@@ -124,13 +131,6 @@
    }
   ],
   "CLE": [
-   {
-    "name": "Jaylon Tyson",
-    "status": "Out",
-    "gameTimeDecision": true,
-    "reason": "Ankle (sprain)",
-    "returnDate": "2026-11-11"
-   },
    {
     "name": "Sam Merrill",
     "status": "Out",
@@ -351,13 +351,6 @@
     "gameTimeDecision": false,
     "reason": "Back (soreness)",
     "returnDate": "2026-11-21"
-   },
-   {
-    "name": "Isaiah Stewart",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Knee (bruise)",
-    "returnDate": "2026-11-11"
    }
   ],
   "MIL": [
@@ -408,18 +401,18 @@
     "returnDate": "2026-11-13"
    },
    {
+    "name": "Trey Murphy III",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Knee (tendinitis)",
+    "returnDate": "2026-11-13"
+   },
+   {
     "name": "Yves Missi",
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Knee (bruise)",
     "returnDate": "2026-11-16"
-   },
-   {
-    "name": "Trey Murphy III",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Knee (tendinitis)",
-    "returnDate": "2026-11-11"
    }
   ],
   "OKC": [
@@ -618,6 +611,13 @@
   ],
   "SAS": [
    {
+    "name": "Devin Vassell",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Groin",
+    "returnDate": "2026-11-13"
+   },
+   {
     "name": "Jayden Quaintance",
     "status": "Out",
     "gameTimeDecision": false,
@@ -630,13 +630,6 @@
     "gameTimeDecision": false,
     "reason": "Calf (strain)",
     "returnDate": "2026-11-19"
-   },
-   {
-    "name": "Devin Vassell",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Groin",
-    "returnDate": "2026-11-11"
    }
   ],
   "TOR": [

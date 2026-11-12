@@ -233,7 +233,11 @@
    "startUtc": "2026-11-12T00:00:00Z",
    "home": false,
    "opponent": "TOR",
-   "status": "scheduled",
+   "status": "live",
+   "score": {
+    "team": 0,
+    "opponent": 0
+   },
    "broadcasts": [
     {
      "name": "NBCSB/PCK-BOS",
