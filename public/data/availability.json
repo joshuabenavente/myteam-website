@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-12T01:23:43.224Z",
+ "updatedAt": "2026-11-12T02:23:39.681Z",
  "teams": {
   "ATL": [
    {
@@ -261,6 +261,13 @@
     "gameTimeDecision": false,
     "reason": "Hamstring (strain)",
     "returnDate": "2026-11-22"
+   },
+   {
+    "name": "Aaron Nesmith",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Knee (soreness)",
+    "returnDate": "2026-11-13"
    }
   ],
   "LAC": [
@@ -447,6 +454,13 @@
     "returnDate": "2026-11-16"
    },
    {
+    "name": "Jamal Cain",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Shoulder (bruise)",
+    "returnDate": "2026-11-13"
+   },
+   {
     "name": "Jonathan Isaac",
     "status": "Out",
     "gameTimeDecision": false,
@@ -468,18 +482,11 @@
     "returnDate": "2026-11-22"
    },
    {
-    "name": "Jamal Cain",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Shoulder (bruise)",
-    "returnDate": "2026-11-11"
-   },
-   {
     "name": "Tristan da Silva",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
+    "status": "Out",
+    "gameTimeDecision": false,
     "reason": "Calf (strain)",
-    "returnDate": "2026-11-11"
+    "returnDate": "2026-11-13"
    }
   ],
   "PHI": [
