@@ -222,7 +222,11 @@
    "startUtc": "2026-11-12T02:30:00Z",
    "home": true,
    "opponent": "GSW",
-   "status": "scheduled",
+   "status": "live",
+   "score": {
+    "team": 0,
+    "opponent": 0
+   },
    "broadcasts": [
     {
      "name": "ESPN",

@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-12T02:23:39.681Z",
+ "updatedAt": "2026-11-12T03:23:34.179Z",
  "teams": {
   "ATL": [
    {
@@ -34,8 +34,8 @@
   "BOS": [
    {
     "name": "Paul George",
-    "status": "Out",
-    "gameTimeDecision": false,
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
     "reason": "Illness",
     "returnDate": "2026-11-15"
    }
@@ -113,6 +113,13 @@
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Back",
+    "returnDate": "2026-11-13"
+   },
+   {
+    "name": "Caleb Wilson",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Hand",
     "returnDate": "2026-11-13"
    }
   ],
@@ -222,6 +229,13 @@
     "gameTimeDecision": false,
     "reason": "Knee (surgery)",
     "returnDate": "2026-12-01"
+   },
+   {
+    "name": "Stephen Curry",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Abdomen (soreness)",
+    "returnDate": "2026-11-13"
    }
   ],
   "HOU": [
@@ -309,11 +323,25 @@
   ],
   "LAL": [
    {
+    "name": "Austin Reaves",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Heel",
+    "returnDate": "2026-11-15"
+   },
+   {
     "name": "Quentin Grimes",
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Finger",
     "returnDate": "2026-11-15"
+   },
+   {
+    "name": "Collin Sexton",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Head",
+    "returnDate": "2026-11-11"
    }
   ],
   "MEM": [
@@ -346,6 +374,13 @@
     "gameTimeDecision": false,
     "reason": "Rest",
     "returnDate": "2026-11-13"
+   },
+   {
+    "name": "Ryan Rollins",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Head",
+    "returnDate": "2026-11-11"
    }
   ],
   "MIN": [
@@ -629,14 +664,14 @@
    {
     "name": "Scottie Barnes",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Groin (soreness)",
     "returnDate": "2026-11-12"
    },
    {
     "name": "Trayce Jackson-Davis",
-    "status": "Out",
-    "gameTimeDecision": false,
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
     "reason": "Illness",
     "returnDate": "2026-11-12"
    }
