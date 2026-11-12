@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-12T18:23:46.311Z",
+ "updatedAt": "2026-11-12T19:23:48.075Z",
  "teams": {
   "ATL": [
    {
@@ -72,25 +72,11 @@
     "returnDate": "2026-11-25"
    },
    {
-    "name": "Grant Williams",
-    "status": "Out",
-    "gameTimeDecision": true,
-    "reason": "Hamstring",
-    "returnDate": "2026-11-12"
-   },
-   {
     "name": "Kon Knueppel",
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Hamstring (strain)",
     "returnDate": "2026-12-12"
-   },
-   {
-    "name": "Moussa Diabate",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Quadriceps",
-    "returnDate": "2026-11-12"
    }
   ],
   "CHI": [
@@ -371,6 +357,22 @@
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Head",
+    "returnDate": "2026-11-13"
+   }
+  ],
+  "MIA": [
+   {
+    "name": "Klay Thompson",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Ankle",
+    "returnDate": "2026-11-13"
+   },
+   {
+    "name": "Pelle Larsson",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Illness",
     "returnDate": "2026-11-13"
    }
   ],
