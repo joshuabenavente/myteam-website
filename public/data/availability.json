@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-12T17:23:36.750Z",
+ "updatedAt": "2026-11-12T18:23:46.311Z",
  "teams": {
   "ATL": [
    {
@@ -554,17 +554,17 @@
     "returnDate": "2026-11-18"
    },
    {
+    "name": "LeBron James",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Back",
+    "returnDate": "2026-11-15"
+   },
+   {
     "name": "Joel Embiid",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Foot",
-    "returnDate": "2026-11-12"
-   },
-   {
-    "name": "LeBron James",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Back",
     "returnDate": "2026-11-12"
    }
   ],
@@ -671,16 +671,16 @@
    {
     "name": "Scottie Barnes",
     "status": "Out",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Groin (soreness)",
-    "returnDate": "2026-11-12"
+    "returnDate": "2026-11-15"
    },
    {
     "name": "Trayce Jackson-Davis",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
+    "status": "Out",
+    "gameTimeDecision": false,
     "reason": "Illness",
-    "returnDate": "2026-11-12"
+    "returnDate": "2026-11-15"
    }
   ],
   "UTA": [
