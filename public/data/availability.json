@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-12T16:23:58.630Z",
+ "updatedAt": "2026-11-12T17:23:36.750Z",
  "teams": {
   "ATL": [
    {
@@ -224,17 +224,17 @@
     "returnDate": "2026-12-01"
    },
    {
+    "name": "Stephen Curry",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Abdomen",
+    "returnDate": "2026-12-01"
+   },
+   {
     "name": "Gary Payton II",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Knee (inflammation)",
-    "returnDate": "2026-11-13"
-   },
-   {
-    "name": "Stephen Curry",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Abdomen (soreness)",
     "returnDate": "2026-11-13"
    }
   ],
