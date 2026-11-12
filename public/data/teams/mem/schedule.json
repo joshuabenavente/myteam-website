@@ -198,7 +198,11 @@
    "startUtc": "2026-11-12T01:00:00Z",
    "home": true,
    "opponent": "DEN",
-   "status": "scheduled",
+   "status": "live",
+   "score": {
+    "team": 0,
+    "opponent": 0
+   },
    "broadcasts": [
     {
      "name": "ABC24/DAZN-MEM",

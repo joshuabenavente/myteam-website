@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-12T00:23:45.289Z",
+ "updatedAt": "2026-11-12T01:23:43.224Z",
  "teams": {
   "ATL": [
    {
@@ -95,6 +95,13 @@
   ],
   "CHI": [
    {
+    "name": "Dailyn Swain",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Back",
+    "returnDate": "2026-11-13"
+   },
+   {
     "name": "Norman Powell",
     "status": "Out",
     "gameTimeDecision": false,
@@ -107,27 +114,6 @@
     "gameTimeDecision": false,
     "reason": "Back",
     "returnDate": "2026-11-13"
-   },
-   {
-    "name": "Caleb Wilson",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Hip (soreness)",
-    "returnDate": "2026-11-11"
-   },
-   {
-    "name": "Dailyn Swain",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Back",
-    "returnDate": "2026-11-11"
-   },
-   {
-    "name": "Zach Collins",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Illness",
-    "returnDate": "2026-11-11"
    }
   ],
   "CLE": [
@@ -236,13 +222,6 @@
     "gameTimeDecision": false,
     "reason": "Knee (surgery)",
     "returnDate": "2026-12-01"
-   },
-   {
-    "name": "Will Richard",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Thumb",
-    "returnDate": "2026-11-11"
    }
   ],
   "HOU": [
@@ -360,13 +339,6 @@
     "gameTimeDecision": false,
     "reason": "Rest",
     "returnDate": "2026-11-13"
-   },
-   {
-    "name": "Tyler Herro",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Knee (bruise)",
-    "returnDate": "2026-11-11"
    }
   ],
   "MIN": [
@@ -683,13 +655,6 @@
     "gameTimeDecision": false,
     "reason": "Hand (fracture)",
     "returnDate": "2027-01-04"
-   },
-   {
-    "name": "Keyonte George",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Ankle (sprain)",
-    "returnDate": "2026-11-11"
    }
   ],
   "WAS": [
