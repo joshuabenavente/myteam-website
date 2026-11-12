@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-12T03:23:34.179Z",
+ "updatedAt": "2026-11-12T04:23:53.766Z",
  "teams": {
   "ATL": [
    {
@@ -323,13 +323,6 @@
   ],
   "LAL": [
    {
-    "name": "Austin Reaves",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Heel",
-    "returnDate": "2026-11-15"
-   },
-   {
     "name": "Quentin Grimes",
     "status": "Out",
     "gameTimeDecision": false,
@@ -337,11 +330,25 @@
     "returnDate": "2026-11-15"
    },
    {
+    "name": "Austin Reaves",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Heel",
+    "returnDate": "2026-11-15"
+   },
+   {
     "name": "Collin Sexton",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Head",
-    "returnDate": "2026-11-11"
+    "returnDate": "2026-11-15"
+   },
+   {
+    "name": "Luka Doncic",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Ankle",
+    "returnDate": "2026-11-15"
    }
   ],
   "MEM": [
@@ -380,7 +387,7 @@
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Head",
-    "returnDate": "2026-11-11"
+    "returnDate": "2026-11-13"
    }
   ],
   "MIN": [

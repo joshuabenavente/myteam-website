@@ -97,24 +97,24 @@
    "abbr": "BKN",
    "conference": "East",
    "division": "Atlantic",
-   "wins": 2,
+   "wins": 3,
    "losses": 8,
    "divisionRank": 5,
    "conferenceRank": 13,
-   "divisionGamesBehind": 7,
+   "divisionGamesBehind": 6.5,
    "home": {
     "wins": 1,
     "losses": 3
    },
    "road": {
-    "wins": 1,
+    "wins": 2,
     "losses": 5
    },
    "lastTen": {
-    "wins": 2,
-    "losses": 8
+    "wins": 3,
+    "losses": 7
    },
-   "streak": "L2"
+   "streak": "W1"
   },
   "DET": {
    "abbr": "DET",
@@ -190,13 +190,13 @@
    "conference": "East",
    "division": "Central",
    "wins": 1,
-   "losses": 8,
+   "losses": 9,
    "divisionRank": 4,
    "conferenceRank": 14,
-   "divisionGamesBehind": 5.5,
+   "divisionGamesBehind": 6,
    "home": {
     "wins": 0,
-    "losses": 3
+    "losses": 4
    },
    "road": {
     "wins": 1,
@@ -204,22 +204,22 @@
    },
    "lastTen": {
     "wins": 1,
-    "losses": 8
+    "losses": 9
    },
-   "streak": "L7"
+   "streak": "L8"
   },
   "MIL": {
    "abbr": "MIL",
    "conference": "East",
    "division": "Central",
    "wins": 1,
-   "losses": 10,
+   "losses": 11,
    "divisionRank": 5,
    "conferenceRank": 15,
-   "divisionGamesBehind": 6.5,
+   "divisionGamesBehind": 7,
    "home": {
     "wins": 1,
-    "losses": 5
+    "losses": 6
    },
    "road": {
     "wins": 0,
@@ -229,7 +229,7 @@
     "wins": 1,
     "losses": 9
    },
-   "streak": "L7"
+   "streak": "L8"
   },
   "ATL": {
    "abbr": "ATL",
@@ -399,7 +399,7 @@
    "wins": 7,
    "losses": 3,
    "divisionRank": 3,
-   "conferenceRank": 8,
+   "conferenceRank": 7,
    "divisionGamesBehind": 0.5,
    "home": {
     "wins": 2,
@@ -419,24 +419,24 @@
    "abbr": "DEN",
    "conference": "West",
    "division": "Northwest",
-   "wins": 5,
+   "wins": 6,
    "losses": 4,
    "divisionRank": 4,
    "conferenceRank": 10,
-   "divisionGamesBehind": 2,
+   "divisionGamesBehind": 1.5,
    "home": {
     "wins": 2,
     "losses": 2
    },
    "road": {
-    "wins": 3,
+    "wins": 4,
     "losses": 2
    },
    "lastTen": {
-    "wins": 5,
+    "wins": 6,
     "losses": 4
    },
-   "streak": "L1"
+   "streak": "W1"
   },
   "UTA": {
    "abbr": "UTA",
@@ -465,7 +465,7 @@
    "abbr": "LAL",
    "conference": "West",
    "division": "Pacific",
-   "wins": 10,
+   "wins": 11,
    "losses": 2,
    "divisionRank": 1,
    "conferenceRank": 1,
@@ -475,14 +475,14 @@
     "losses": 1
    },
    "road": {
-    "wins": 5,
+    "wins": 6,
     "losses": 1
    },
    "lastTen": {
     "wins": 8,
     "losses": 2
    },
-   "streak": "W6"
+   "streak": "W7"
   },
   "GSW": {
    "abbr": "GSW",
@@ -492,7 +492,7 @@
    "losses": 3,
    "divisionRank": 2,
    "conferenceRank": 3,
-   "divisionGamesBehind": 1.5,
+   "divisionGamesBehind": 2,
    "home": {
     "wins": 6,
     "losses": 1
@@ -515,7 +515,7 @@
    "losses": 6,
    "divisionRank": 3,
    "conferenceRank": 11,
-   "divisionGamesBehind": 5,
+   "divisionGamesBehind": 5.5,
    "home": {
     "wins": 4,
     "losses": 3
@@ -538,7 +538,7 @@
    "losses": 8,
    "divisionRank": 4,
    "conferenceRank": 13,
-   "divisionGamesBehind": 7,
+   "divisionGamesBehind": 7.5,
    "home": {
     "wins": 2,
     "losses": 3
@@ -561,7 +561,7 @@
    "losses": 10,
    "divisionRank": 5,
    "conferenceRank": 14,
-   "divisionGamesBehind": 8.5,
+   "divisionGamesBehind": 9,
    "home": {
     "wins": 0,
     "losses": 6
@@ -580,7 +580,7 @@
    "abbr": "SAS",
    "conference": "West",
    "division": "Southwest",
-   "wins": 9,
+   "wins": 10,
    "losses": 2,
    "divisionRank": 1,
    "conferenceRank": 2,
@@ -590,14 +590,14 @@
     "losses": 2
    },
    "road": {
-    "wins": 5,
+    "wins": 6,
     "losses": 0
    },
    "lastTen": {
-    "wins": 9,
-    "losses": 1
+    "wins": 10,
+    "losses": 0
    },
-   "streak": "W9"
+   "streak": "W10"
   },
   "HOU": {
    "abbr": "HOU",
@@ -607,7 +607,7 @@
    "losses": 3,
    "divisionRank": 2,
    "conferenceRank": 5,
-   "divisionGamesBehind": 1,
+   "divisionGamesBehind": 1.5,
    "home": {
     "wins": 5,
     "losses": 1
@@ -622,38 +622,15 @@
    },
    "streak": "W1"
   },
-  "MEM": {
-   "abbr": "MEM",
-   "conference": "West",
-   "division": "Southwest",
-   "wins": 7,
-   "losses": 3,
-   "divisionRank": 3,
-   "conferenceRank": 7,
-   "divisionGamesBehind": 1.5,
-   "home": {
-    "wins": 2,
-    "losses": 3
-   },
-   "road": {
-    "wins": 5,
-    "losses": 0
-   },
-   "lastTen": {
-    "wins": 7,
-    "losses": 3
-   },
-   "streak": "W1"
-  },
   "DAL": {
    "abbr": "DAL",
    "conference": "West",
    "division": "Southwest",
    "wins": 7,
    "losses": 4,
-   "divisionRank": 4,
-   "conferenceRank": 9,
-   "divisionGamesBehind": 2,
+   "divisionRank": 3,
+   "conferenceRank": 8,
+   "divisionGamesBehind": 2.5,
    "home": {
     "wins": 5,
     "losses": 2
@@ -668,18 +645,41 @@
    },
    "streak": "W3"
   },
+  "MEM": {
+   "abbr": "MEM",
+   "conference": "West",
+   "division": "Southwest",
+   "wins": 7,
+   "losses": 4,
+   "divisionRank": 4,
+   "conferenceRank": 9,
+   "divisionGamesBehind": 2.5,
+   "home": {
+    "wins": 2,
+    "losses": 4
+   },
+   "road": {
+    "wins": 5,
+    "losses": 0
+   },
+   "lastTen": {
+    "wins": 6,
+    "losses": 4
+   },
+   "streak": "L1"
+  },
   "NOP": {
    "abbr": "NOP",
    "conference": "West",
    "division": "Southwest",
    "wins": 4,
-   "losses": 7,
+   "losses": 8,
    "divisionRank": 5,
    "conferenceRank": 12,
-   "divisionGamesBehind": 5,
+   "divisionGamesBehind": 6,
    "home": {
     "wins": 3,
-    "losses": 3
+    "losses": 4
    },
    "road": {
     "wins": 1,
@@ -689,7 +689,7 @@
     "wins": 4,
     "losses": 6
    },
-   "streak": "L3"
+   "streak": "L4"
   }
  }
 }
