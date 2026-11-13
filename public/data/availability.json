@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-13T19:23:46.063Z",
+ "updatedAt": "2026-11-13T21:23:41.317Z",
  "teams": {
   "ATL": [
    {
@@ -422,6 +422,13 @@
     "returnDate": "2026-11-14"
    },
    {
+    "name": "Dejounte Murray",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Ankle",
+    "returnDate": "2026-11-20"
+   },
+   {
     "name": "Trendon Watford",
     "status": "Out",
     "gameTimeDecision": false,
@@ -447,13 +454,6 @@
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Thumb (sprain)",
-    "returnDate": "2026-11-13"
-   },
-   {
-    "name": "Dejounte Murray",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Ankle",
     "returnDate": "2026-11-13"
    }
   ],
