@@ -1,7 +1,7 @@
 {
  "season": "2026-27",
  "lastSeason": "2025-26",
- "updatedAt": "2026-11-13T08:21:12.590Z",
+ "updatedAt": "2026-11-13T14:21:08.869Z",
  "teamGamesPlayed": {
   "regular": 12,
   "playoffs": 0
@@ -24,21 +24,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4395625.png",
    "current": {
     "regular": {
-     "games": 11,
-     "started": 11,
-     "minutes": 364.7,
-     "points": 225,
-     "rebounds": 66,
-     "assists": 44,
+     "games": 12,
+     "started": 12,
+     "minutes": 401.6,
+     "points": 256,
+     "rebounds": 80,
+     "assists": 49,
      "steals": 6,
      "blocks": 6,
-     "turnovers": 19,
-     "fgMade": 85,
-     "fgAttempted": 191,
-     "threeMade": 15,
-     "threeAttempted": 56,
-     "ftMade": 40,
-     "ftAttempted": 64
+     "turnovers": 22,
+     "fgMade": 98,
+     "fgAttempted": 211,
+     "threeMade": 19,
+     "threeAttempted": 63,
+     "ftMade": 41,
+     "ftAttempted": 66
     }
    },
    "lastFull": {
@@ -114,21 +114,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4684272.png",
    "current": {
     "regular": {
-     "games": 11,
-     "started": 9,
-     "minutes": 331.1,
-     "points": 127,
-     "rebounds": 45,
+     "games": 12,
+     "started": 10,
+     "minutes": 363.2,
+     "points": 133,
+     "rebounds": 50,
      "assists": 23,
-     "steals": 14,
+     "steals": 15,
      "blocks": 4,
-     "turnovers": 9,
-     "fgMade": 41,
-     "fgAttempted": 104,
-     "threeMade": 26,
-     "threeAttempted": 74,
-     "ftMade": 19,
-     "ftAttempted": 28
+     "turnovers": 11,
+     "fgMade": 43,
+     "fgAttempted": 112,
+     "threeMade": 27,
+     "threeAttempted": 80,
+     "ftMade": 20,
+     "ftAttempted": 30
     }
    },
    "lastFull": {
@@ -204,21 +204,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4395724.png",
    "current": {
     "regular": {
-     "games": 9,
-     "started": 9,
-     "minutes": 282.1,
-     "points": 150,
-     "rebounds": 32,
-     "assists": 50,
-     "steals": 10,
-     "blocks": 0,
+     "games": 10,
+     "started": 10,
+     "minutes": 310.2,
+     "points": 176,
+     "rebounds": 36,
+     "assists": 56,
+     "steals": 11,
+     "blocks": 1,
      "turnovers": 10,
-     "fgMade": 48,
-     "fgAttempted": 124,
-     "threeMade": 22,
-     "threeAttempted": 71,
-     "ftMade": 32,
-     "ftAttempted": 37
+     "fgMade": 56,
+     "fgAttempted": 140,
+     "threeMade": 25,
+     "threeAttempted": 78,
+     "ftMade": 39,
+     "ftAttempted": 45
     }
    },
    "lastFull": {
@@ -257,6 +257,96 @@
      "threeAttempted": 74,
      "ftMade": 31,
      "ftAttempted": 41
+    }
+   }
+  },
+  {
+   "id": "sheadja01",
+   "name": "Jamal Shead",
+   "number": "23",
+   "position": "PG",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 1\"",
+    "weight": 200,
+    "birthDate": "2002-07-24",
+    "experience": 2,
+    "college": "Houston",
+    "birthPlace": "Manor, TX"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4432241.png",
+   "current": {
+    "regular": {
+     "games": 12,
+     "started": 2,
+     "minutes": 286.9,
+     "points": 82,
+     "rebounds": 26,
+     "assists": 81,
+     "steals": 17,
+     "blocks": 2,
+     "turnovers": 25,
+     "fgMade": 26,
+     "fgAttempted": 78,
+     "threeMade": 10,
+     "threeAttempted": 41,
+     "ftMade": 20,
+     "ftAttempted": 23
+    }
+   },
+   "lastFull": {
+    "regular": {
+     "games": 82,
+     "started": 12,
+     "minutes": 1853.1,
+     "points": 545,
+     "rebounds": 143,
+     "assists": 444,
+     "steals": 76,
+     "blocks": 15,
+     "turnovers": 112,
+     "fgMade": 185,
+     "fgAttempted": 504,
+     "threeMade": 84,
+     "threeAttempted": 262,
+     "ftMade": 91,
+     "ftAttempted": 116
+    },
+    "playoffs": {
+     "games": 7,
+     "started": 4,
+     "minutes": 224,
+     "points": 63,
+     "rebounds": 14,
+     "assists": 35,
+     "steals": 10,
+     "blocks": 1,
+     "turnovers": 14,
+     "fgMade": 23,
+     "fgAttempted": 65,
+     "threeMade": 14,
+     "threeAttempted": 42,
+     "ftMade": 3,
+     "ftAttempted": 6
+    }
+   },
+   "lastToDate": {
+    "regular": {
+     "games": 12,
+     "started": 0,
+     "minutes": 216.1,
+     "points": 78,
+     "rebounds": 22,
+     "assists": 62,
+     "steals": 7,
+     "blocks": 0,
+     "turnovers": 15,
+     "fgMade": 25,
+     "fgAttempted": 59,
+     "threeMade": 15,
+     "threeAttempted": 33,
+     "ftMade": 13,
+     "ftAttempted": 16
     }
    }
   },
@@ -351,96 +441,6 @@
    }
   },
   {
-   "id": "sheadja01",
-   "name": "Jamal Shead",
-   "number": "23",
-   "position": "PG",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 1\"",
-    "weight": 200,
-    "birthDate": "2002-07-24",
-    "experience": 2,
-    "college": "Houston",
-    "birthPlace": "Manor, TX"
-   },
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4432241.png",
-   "current": {
-    "regular": {
-     "games": 11,
-     "started": 2,
-     "minutes": 264.9,
-     "points": 77,
-     "rebounds": 25,
-     "assists": 76,
-     "steals": 16,
-     "blocks": 2,
-     "turnovers": 23,
-     "fgMade": 25,
-     "fgAttempted": 72,
-     "threeMade": 9,
-     "threeAttempted": 37,
-     "ftMade": 18,
-     "ftAttempted": 21
-    }
-   },
-   "lastFull": {
-    "regular": {
-     "games": 82,
-     "started": 12,
-     "minutes": 1853.1,
-     "points": 545,
-     "rebounds": 143,
-     "assists": 444,
-     "steals": 76,
-     "blocks": 15,
-     "turnovers": 112,
-     "fgMade": 185,
-     "fgAttempted": 504,
-     "threeMade": 84,
-     "threeAttempted": 262,
-     "ftMade": 91,
-     "ftAttempted": 116
-    },
-    "playoffs": {
-     "games": 7,
-     "started": 4,
-     "minutes": 224,
-     "points": 63,
-     "rebounds": 14,
-     "assists": 35,
-     "steals": 10,
-     "blocks": 1,
-     "turnovers": 14,
-     "fgMade": 23,
-     "fgAttempted": 65,
-     "threeMade": 14,
-     "threeAttempted": 42,
-     "ftMade": 3,
-     "ftAttempted": 6
-    }
-   },
-   "lastToDate": {
-    "regular": {
-     "games": 12,
-     "started": 0,
-     "minutes": 216.1,
-     "points": 78,
-     "rebounds": 22,
-     "assists": 62,
-     "steals": 7,
-     "blocks": 0,
-     "turnovers": 15,
-     "fgMade": 25,
-     "fgAttempted": 59,
-     "threeMade": 15,
-     "threeAttempted": 33,
-     "ftMade": 13,
-     "ftAttempted": 16
-    }
-   }
-  },
-  {
    "id": "murraco01",
    "name": "Collin Murray-Boyles",
    "number": "30",
@@ -457,21 +457,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5093267.png",
    "current": {
     "regular": {
-     "games": 10,
-     "started": 4,
-     "minutes": 219.5,
-     "points": 101,
+     "games": 11,
+     "started": 5,
+     "minutes": 251.4,
+     "points": 115,
      "rebounds": 49,
-     "assists": 15,
-     "steals": 11,
-     "blocks": 6,
-     "turnovers": 16,
-     "fgMade": 38,
-     "fgAttempted": 82,
-     "threeMade": 6,
-     "threeAttempted": 21,
-     "ftMade": 19,
-     "ftAttempted": 23
+     "assists": 19,
+     "steals": 12,
+     "blocks": 11,
+     "turnovers": 18,
+     "fgMade": 43,
+     "fgAttempted": 91,
+     "threeMade": 7,
+     "threeAttempted": 22,
+     "ftMade": 22,
+     "ftAttempted": 27
     }
    },
    "lastFull": {
@@ -547,21 +547,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3134908.png",
    "current": {
     "regular": {
-     "games": 9,
-     "started": 8,
-     "minutes": 213.7,
-     "points": 74,
-     "rebounds": 61,
-     "assists": 11,
-     "steals": 7,
+     "games": 10,
+     "started": 9,
+     "minutes": 238.6,
+     "points": 83,
+     "rebounds": 66,
+     "assists": 14,
+     "steals": 8,
      "blocks": 8,
      "turnovers": 11,
-     "fgMade": 34,
-     "fgAttempted": 53,
+     "fgMade": 37,
+     "fgAttempted": 60,
      "threeMade": 0,
      "threeAttempted": 0,
-     "ftMade": 6,
-     "ftAttempted": 10
+     "ftMade": 9,
+     "ftAttempted": 14
     }
    },
    "lastFull": {
@@ -637,19 +637,19 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4431893.png",
    "current": {
     "regular": {
-     "games": 11,
+     "games": 12,
      "started": 0,
-     "minutes": 206.5,
-     "points": 103,
-     "rebounds": 17,
-     "assists": 5,
-     "steals": 6,
-     "blocks": 0,
+     "minutes": 232,
+     "points": 116,
+     "rebounds": 18,
+     "assists": 6,
+     "steals": 7,
+     "blocks": 1,
      "turnovers": 6,
-     "fgMade": 34,
-     "fgAttempted": 71,
-     "threeMade": 23,
-     "threeAttempted": 54,
+     "fgMade": 39,
+     "fgAttempted": 80,
+     "threeMade": 26,
+     "threeAttempted": 60,
      "ftMade": 12,
      "ftAttempted": 15
     }
@@ -727,19 +727,19 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5149115.png",
    "current": {
     "regular": {
-     "games": 11,
+     "games": 12,
      "started": 0,
-     "minutes": 150.6,
+     "minutes": 163.4,
      "points": 55,
-     "rebounds": 29,
+     "rebounds": 31,
      "assists": 8,
      "steals": 5,
      "blocks": 5,
-     "turnovers": 1,
+     "turnovers": 2,
      "fgMade": 20,
-     "fgAttempted": 45,
+     "fgAttempted": 47,
      "threeMade": 7,
-     "threeAttempted": 22,
+     "threeAttempted": 24,
      "ftMade": 8,
      "ftAttempted": 12
     }
@@ -764,19 +764,19 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4702656.png",
    "current": {
     "regular": {
-     "games": 10,
+     "games": 11,
      "started": 0,
-     "minutes": 116.4,
-     "points": 64,
-     "rebounds": 16,
-     "assists": 10,
-     "steals": 6,
+     "minutes": 134.6,
+     "points": 71,
+     "rebounds": 20,
+     "assists": 11,
+     "steals": 7,
      "blocks": 2,
-     "turnovers": 12,
-     "fgMade": 23,
-     "fgAttempted": 34,
-     "threeMade": 12,
-     "threeAttempted": 20,
+     "turnovers": 13,
+     "fgMade": 26,
+     "fgAttempted": 40,
+     "threeMade": 13,
+     "threeAttempted": 23,
      "ftMade": 6,
      "ftAttempted": 8
     }
@@ -801,6 +801,96 @@
     }
    },
    "lastToDate": {}
+  },
+  {
+   "id": "anderky01",
+   "name": "Kyle Anderson",
+   "number": "12",
+   "position": "SF",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 8\"",
+    "weight": 230,
+    "birthDate": "1993-09-20",
+    "experience": 12,
+    "college": "UCLA",
+    "birthPlace": "Fairview, NJ"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/2993874.png",
+   "current": {
+    "regular": {
+     "games": 9,
+     "started": 1,
+     "minutes": 68.5,
+     "points": 14,
+     "rebounds": 11,
+     "assists": 14,
+     "steals": 3,
+     "blocks": 4,
+     "turnovers": 4,
+     "fgMade": 7,
+     "fgAttempted": 15,
+     "threeMade": 0,
+     "threeAttempted": 0,
+     "ftMade": 0,
+     "ftAttempted": 2
+    }
+   },
+   "lastFull": {
+    "regular": {
+     "games": 43,
+     "started": 5,
+     "minutes": 853.5,
+     "points": 266,
+     "rebounds": 150,
+     "assists": 126,
+     "steals": 45,
+     "blocks": 26,
+     "turnovers": 39,
+     "fgMade": 107,
+     "fgAttempted": 202,
+     "threeMade": 4,
+     "threeAttempted": 11,
+     "ftMade": 48,
+     "ftAttempted": 68
+    },
+    "playoffs": {
+     "games": 8,
+     "started": 0,
+     "minutes": 60.8,
+     "points": 15,
+     "rebounds": 7,
+     "assists": 15,
+     "steals": 2,
+     "blocks": 0,
+     "turnovers": 6,
+     "fgMade": 6,
+     "fgAttempted": 17,
+     "threeMade": 0,
+     "threeAttempted": 1,
+     "ftMade": 3,
+     "ftAttempted": 8
+    }
+   },
+   "lastToDate": {
+    "regular": {
+     "games": 3,
+     "started": 0,
+     "minutes": 48.9,
+     "points": 21,
+     "rebounds": 7,
+     "assists": 9,
+     "steals": 1,
+     "blocks": 0,
+     "turnovers": 3,
+     "fgMade": 8,
+     "fgAttempted": 17,
+     "threeMade": 0,
+     "threeAttempted": 0,
+     "ftMade": 5,
+     "ftAttempted": 7
+    }
+   }
   },
   {
    "id": "jackstr02",
@@ -889,96 +979,6 @@
      "threeAttempted": 0,
      "ftMade": 8,
      "ftAttempted": 11
-    }
-   }
-  },
-  {
-   "id": "anderky01",
-   "name": "Kyle Anderson",
-   "number": "12",
-   "position": "SF",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 8\"",
-    "weight": 230,
-    "birthDate": "1993-09-20",
-    "experience": 12,
-    "college": "UCLA",
-    "birthPlace": "Fairview, NJ"
-   },
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/2993874.png",
-   "current": {
-    "regular": {
-     "games": 8,
-     "started": 1,
-     "minutes": 63.8,
-     "points": 14,
-     "rebounds": 11,
-     "assists": 13,
-     "steals": 3,
-     "blocks": 4,
-     "turnovers": 3,
-     "fgMade": 7,
-     "fgAttempted": 15,
-     "threeMade": 0,
-     "threeAttempted": 0,
-     "ftMade": 0,
-     "ftAttempted": 2
-    }
-   },
-   "lastFull": {
-    "regular": {
-     "games": 43,
-     "started": 5,
-     "minutes": 853.5,
-     "points": 266,
-     "rebounds": 150,
-     "assists": 126,
-     "steals": 45,
-     "blocks": 26,
-     "turnovers": 39,
-     "fgMade": 107,
-     "fgAttempted": 202,
-     "threeMade": 4,
-     "threeAttempted": 11,
-     "ftMade": 48,
-     "ftAttempted": 68
-    },
-    "playoffs": {
-     "games": 8,
-     "started": 0,
-     "minutes": 60.8,
-     "points": 15,
-     "rebounds": 7,
-     "assists": 15,
-     "steals": 2,
-     "blocks": 0,
-     "turnovers": 6,
-     "fgMade": 6,
-     "fgAttempted": 17,
-     "threeMade": 0,
-     "threeAttempted": 1,
-     "ftMade": 3,
-     "ftAttempted": 8
-    }
-   },
-   "lastToDate": {
-    "regular": {
-     "games": 3,
-     "started": 0,
-     "minutes": 48.9,
-     "points": 21,
-     "rebounds": 7,
-     "assists": 9,
-     "steals": 1,
-     "blocks": 0,
-     "turnovers": 3,
-     "fgMade": 8,
-     "fgAttempted": 17,
-     "threeMade": 0,
-     "threeAttempted": 0,
-     "ftMade": 5,
-     "ftAttempted": 7
     }
    }
   },
@@ -1072,10 +1072,10 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4432737.png",
    "current": {
     "regular": {
-     "games": 8,
+     "games": 9,
      "started": 0,
-     "minutes": 40.9,
-     "points": 14,
+     "minutes": 42.4,
+     "points": 15,
      "rebounds": 5,
      "assists": 8,
      "steals": 4,
@@ -1085,8 +1085,8 @@
      "fgAttempted": 7,
      "threeMade": 0,
      "threeAttempted": 0,
-     "ftMade": 8,
-     "ftAttempted": 9
+     "ftMade": 9,
+     "ftAttempted": 11
     }
    },
    "lastFull": {},
@@ -1109,9 +1109,9 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4397784.png",
    "current": {
     "regular": {
-     "games": 1,
+     "games": 2,
      "started": 0,
-     "minutes": 0.8,
+     "minutes": 2.3,
      "points": 0,
      "rebounds": 0,
      "assists": 0,
@@ -1119,9 +1119,9 @@
      "blocks": 0,
      "turnovers": 0,
      "fgMade": 0,
-     "fgAttempted": 0,
+     "fgAttempted": 1,
      "threeMade": 0,
-     "threeAttempted": 0,
+     "threeAttempted": 1,
      "ftMade": 0,
      "ftAttempted": 0
     }
