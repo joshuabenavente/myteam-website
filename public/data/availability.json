@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-13T03:23:45.865Z",
+ "updatedAt": "2026-11-13T04:23:35.488Z",
  "teams": {
   "ATL": [
    {
@@ -576,8 +576,8 @@
    },
    {
     "name": "LeBron James",
-    "status": "Out",
-    "gameTimeDecision": false,
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
     "reason": "Back",
     "returnDate": "2026-11-15"
    }
@@ -685,21 +685,21 @@
    {
     "name": "Nate Bittle",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Foot (fracture)",
     "returnDate": "2026-11-15"
    },
    {
     "name": "Scottie Barnes",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Groin (soreness)",
     "returnDate": "2026-11-15"
    },
    {
     "name": "Trayce Jackson-Davis",
-    "status": "Out",
-    "gameTimeDecision": false,
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
     "reason": "Illness",
     "returnDate": "2026-11-15"
    }
@@ -736,13 +736,6 @@
   ],
   "WAS": [
    {
-    "name": "Bub Carrington",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Chest",
-    "returnDate": "2026-11-15"
-   },
-   {
     "name": "Jamir Watkins",
     "status": "Out",
     "gameTimeDecision": false,
@@ -769,6 +762,13 @@
     "gameTimeDecision": false,
     "reason": "Hip (pinched nerve)",
     "returnDate": "2026-11-16"
+   },
+   {
+    "name": "Bub Carrington",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Chest",
+    "returnDate": "2026-11-15"
    }
   ]
  }
