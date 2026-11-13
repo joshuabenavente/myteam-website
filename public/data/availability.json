@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-13T21:23:41.317Z",
+ "updatedAt": "2026-11-13T22:23:36.377Z",
  "teams": {
   "ATL": [
    {
@@ -153,6 +153,20 @@
     "gameTimeDecision": false,
     "reason": "Heel (inflammation)",
     "returnDate": "2026-11-18"
+   },
+   {
+    "name": "Max Christie",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Ankle",
+    "returnDate": "2026-11-14"
+   },
+   {
+    "name": "Morez Johnson Jr.",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Lower Leg",
+    "returnDate": "2026-11-14"
    }
   ],
   "DEN": [
@@ -512,9 +526,7 @@
    {
     "name": "Jalen Suggs",
     "status": "Out",
-    "gameTimeDecision": true,
-    "reason": "Knee",
-    "returnDate": "2026-11-13"
+    "gameTimeDecision": false
    },
    {
     "name": "Jonathan Isaac",
@@ -542,13 +554,6 @@
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Shoulder (bruise)",
-    "returnDate": "2026-11-13"
-   },
-   {
-    "name": "Tristan da Silva",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Calf (strain)",
     "returnDate": "2026-11-13"
    }
   ],
@@ -645,10 +650,10 @@
    },
    {
     "name": "Precious Achiuwa",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
+    "status": "Out",
+    "gameTimeDecision": false,
     "reason": "Ankle (soreness)",
-    "returnDate": "2026-11-13"
+    "returnDate": "2026-11-15"
    }
   ],
   "SAS": [
