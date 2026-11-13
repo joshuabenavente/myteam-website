@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-13T17:23:51.104Z",
+ "updatedAt": "2026-11-13T18:23:37.308Z",
  "teams": {
   "ATL": [
    {
@@ -429,6 +429,13 @@
     "returnDate": "2026-11-14"
    },
    {
+    "name": "Trey Murphy III",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Knee (tendinitis)",
+    "returnDate": "2026-11-14"
+   },
+   {
     "name": "Yves Missi",
     "status": "Out",
     "gameTimeDecision": true,
@@ -445,15 +452,15 @@
    {
     "name": "Bryce McGowens",
     "status": "Day-To-Day",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Elbow (infection)",
-    "returnDate": "2026-11-13"
+    "returnDate": "2026-11-14"
    },
    {
-    "name": "Trey Murphy III",
+    "name": "Dejounte Murray",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
-    "reason": "Knee (tendinitis)",
+    "reason": "Ankle",
     "returnDate": "2026-11-13"
    }
   ],
