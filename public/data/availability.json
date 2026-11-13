@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-13T18:23:37.308Z",
+ "updatedAt": "2026-11-13T19:23:46.063Z",
  "teams": {
   "ATL": [
    {
@@ -383,13 +383,6 @@
   ],
   "MIA": [
    {
-    "name": "Giannis Antetokounmpo",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Wrist",
-    "returnDate": "2026-11-13"
-   },
-   {
     "name": "Klay Thompson",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
@@ -422,6 +415,13 @@
   ],
   "NOP": [
    {
+    "name": "Bryce McGowens",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Elbow (infection)",
+    "returnDate": "2026-11-14"
+   },
+   {
     "name": "Trendon Watford",
     "status": "Out",
     "gameTimeDecision": false,
@@ -438,9 +438,9 @@
    {
     "name": "Yves Missi",
     "status": "Out",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Knee (bruise)",
-    "returnDate": "2026-11-13"
+    "returnDate": "2026-11-14"
    },
    {
     "name": "Bennedict Mathurin",
@@ -448,13 +448,6 @@
     "gameTimeDecision": true,
     "reason": "Thumb (sprain)",
     "returnDate": "2026-11-13"
-   },
-   {
-    "name": "Bryce McGowens",
-    "status": "Day-To-Day",
-    "gameTimeDecision": false,
-    "reason": "Elbow (infection)",
-    "returnDate": "2026-11-14"
    },
    {
     "name": "Dejounte Murray",
