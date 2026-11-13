@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-13T16:23:42.572Z",
+ "updatedAt": "2026-11-13T17:23:51.104Z",
  "teams": {
   "ATL": [
    {
@@ -589,6 +589,13 @@
     "gameTimeDecision": false,
     "reason": "Shoulder (surgery)",
     "returnDate": "2027-02-03"
+   },
+   {
+    "name": "Drew Timme",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Hand",
+    "returnDate": "2026-11-15"
    }
   ],
   "POR": [
