@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-13T22:23:36.377Z",
+ "updatedAt": "2026-11-13T23:24:02.316Z",
  "teams": {
   "ATL": [
    {
@@ -198,7 +198,7 @@
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Foot",
-    "returnDate": "2026-11-13"
+    "returnDate": "2026-11-14"
    }
   ],
   "GSW": [
@@ -289,20 +289,6 @@
     "gameTimeDecision": false,
     "reason": "Hamstring (strain)",
     "returnDate": "2026-11-22"
-   },
-   {
-    "name": "Aaron Nesmith",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Knee (soreness)",
-    "returnDate": "2026-11-13"
-   },
-   {
-    "name": "T.J. McConnell",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Hamstring (strain)",
-    "returnDate": "2026-11-13"
    }
   ],
   "LAC": [
@@ -397,17 +383,17 @@
   ],
   "MIA": [
    {
+    "name": "Pelle Larsson",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Illness",
+    "returnDate": "2026-11-14"
+   },
+   {
     "name": "Klay Thompson",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Ankle (soreness)",
-    "returnDate": "2026-11-13"
-   },
-   {
-    "name": "Pelle Larsson",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Illness",
     "returnDate": "2026-11-13"
    }
   ],
@@ -524,11 +510,6 @@
     "returnDate": "2026-11-18"
    },
    {
-    "name": "Jalen Suggs",
-    "status": "Out",
-    "gameTimeDecision": false
-   },
-   {
     "name": "Jonathan Isaac",
     "status": "Out",
     "gameTimeDecision": false,
@@ -548,13 +529,6 @@
     "gameTimeDecision": false,
     "reason": "Ankle (sprain)",
     "returnDate": "2026-11-22"
-   },
-   {
-    "name": "Jamal Cain",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Shoulder (bruise)",
-    "returnDate": "2026-11-13"
    }
   ],
   "PHI": [
