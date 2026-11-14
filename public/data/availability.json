@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-14T21:23:43.880Z",
+ "updatedAt": "2026-11-14T22:23:35.065Z",
  "teams": {
   "ATL": [
    {
@@ -35,15 +35,6 @@
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Back",
-    "returnDate": "2026-11-15"
-   }
-  ],
-  "BOS": [
-   {
-    "name": "Paul George",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Illness",
     "returnDate": "2026-11-15"
    }
   ],
@@ -284,9 +275,16 @@
    {
     "name": "Clint Capela",
     "status": "Out",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Ankle (sprain)",
-    "returnDate": "2026-11-15"
+    "returnDate": "2026-11-16"
+   },
+   {
+    "name": "Fred VanVleet",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Knee",
+    "returnDate": "2026-11-16"
    },
    {
     "name": "Steven Adams",
@@ -329,7 +327,14 @@
     "name": "Aaron Nesmith",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
-    "reason": "Hand",
+    "reason": "Hand (sprain)",
+    "returnDate": "2026-11-15"
+   },
+   {
+    "name": "T.J. McConnell",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Hamstring",
     "returnDate": "2026-11-15"
    }
   ],
@@ -603,11 +608,11 @@
     "returnDate": "2026-11-18"
    },
    {
-    "name": "LeBron James",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Back",
-    "returnDate": "2026-11-15"
+    "name": "Joel Embiid",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Foot",
+    "returnDate": "2026-11-16"
    }
   ],
   "PHX": [
@@ -672,6 +677,13 @@
     "returnDate": "2026-11-15"
    },
    {
+    "name": "Keegan Murray",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Illness",
+    "returnDate": "2026-11-15"
+   },
+   {
     "name": "Precious Achiuwa",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
@@ -706,9 +718,9 @@
    {
     "name": "Nate Bittle",
     "status": "Out",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Foot (fracture)",
-    "returnDate": "2026-11-15"
+    "returnDate": "2026-11-23"
    },
    {
     "name": "Scottie Barnes",
@@ -723,13 +735,6 @@
     "gameTimeDecision": true,
     "reason": "Illness",
     "returnDate": "2026-11-14"
-   },
-   {
-    "name": "Trayce Jackson-Davis",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Illness",
-    "returnDate": "2026-11-15"
    }
   ],
   "UTA": [
@@ -797,6 +802,13 @@
     "gameTimeDecision": false,
     "reason": "Hip (pinched nerve)",
     "returnDate": "2026-11-16"
+   },
+   {
+    "name": "Alex Sarr",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Illness",
+    "returnDate": "2026-11-15"
    },
    {
     "name": "Bub Carrington",
