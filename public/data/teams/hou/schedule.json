@@ -246,7 +246,11 @@
    "startUtc": "2026-11-14T01:30:00Z",
    "home": true,
    "opponent": "UTA",
-   "status": "scheduled",
+   "status": "live",
+   "score": {
+    "team": 0,
+    "opponent": 0
+   },
    "broadcasts": [
     {
      "name": "SCHN/SCHN+",
