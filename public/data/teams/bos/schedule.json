@@ -284,11 +284,16 @@
   {
    "id": "0022600266",
    "type": "regular",
-   "startUtc": "2026-11-19T02:00:00Z",
+   "startUtc": "2026-11-19T02:30:00Z",
    "home": false,
    "opponent": "DEN",
    "status": "scheduled",
    "broadcasts": [
+    {
+     "name": "ESPN",
+     "scope": "national",
+     "kind": "tv"
+    },
     {
      "name": "NBCSB/PCK-BOS",
      "scope": "local",

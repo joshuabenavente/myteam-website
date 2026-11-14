@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-14T18:23:40.178Z",
+ "updatedAt": "2026-11-14T19:23:46.371Z",
  "teams": {
   "ATL": [
    {
@@ -102,11 +102,6 @@
     "returnDate": "2026-11-16"
    },
    {
-    "name": "Dailyn Swain",
-    "status": "Day-To-Day",
-    "gameTimeDecision": false
-   },
-   {
     "name": "Jalen Smith",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
@@ -130,6 +125,13 @@
   ],
   "CLE": [
    {
+    "name": "Evan Mobley",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Toe (sprain)",
+    "returnDate": "2026-11-16"
+   },
+   {
     "name": "Nae'Qwan Tomlin",
     "status": "Out",
     "gameTimeDecision": false,
@@ -144,10 +146,31 @@
     "returnDate": "2026-11-16"
    },
    {
-    "name": "Evan Mobley",
+    "name": "Donovan Mitchell",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
-    "reason": "Toe",
+    "reason": "Knee (bruise)",
+    "returnDate": "2026-11-14"
+   },
+   {
+    "name": "James Harden",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Calf",
+    "returnDate": "2026-11-14"
+   },
+   {
+    "name": "Jarrett Allen",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Knee",
+    "returnDate": "2026-11-14"
+   },
+   {
+    "name": "Peyton Watson",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Hamstring",
     "returnDate": "2026-11-14"
    }
   ],
@@ -177,7 +200,7 @@
     "name": "Max Christie",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
-    "reason": "Ankle",
+    "reason": "Ankle (sprain)",
     "returnDate": "2026-11-14"
    },
    {
