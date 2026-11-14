@@ -1,7 +1,7 @@
 {
  "season": "2026-27",
  "lastSeason": "2025-26",
- "updatedAt": "2026-11-14T06:18:45.066Z",
+ "updatedAt": "2026-11-14T12:18:53.111Z",
  "teamGamesPlayed": {
   "regular": 13,
   "playoffs": 0
@@ -1254,6 +1254,42 @@
      "ftAttempted": 0
     }
    }
+  },
+  {
+   "id": "coopeca02",
+   "name": "Carson Cooper",
+   "position": "PF",
+   "twoWay": true,
+   "bio": {
+    "height": "6' 11\"",
+    "weight": 245,
+    "birthDate": "2004-04-09",
+    "experience": 0,
+    "college": "Michigan State",
+    "birthPlace": "Jackson, MI"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5105817.png",
+   "current": {
+    "regular": {
+     "games": 1,
+     "started": 0,
+     "minutes": 3.2,
+     "points": 1,
+     "rebounds": 2,
+     "assists": 1,
+     "steals": 0,
+     "blocks": 0,
+     "turnovers": 1,
+     "fgMade": 0,
+     "fgAttempted": 0,
+     "threeMade": 0,
+     "threeAttempted": 0,
+     "ftMade": 1,
+     "ftAttempted": 2
+    }
+   },
+   "lastFull": {},
+   "lastToDate": {}
   },
   {
    "id": "smithni01",
