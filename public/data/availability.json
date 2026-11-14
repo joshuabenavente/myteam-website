@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-14T22:23:35.065Z",
+ "updatedAt": "2026-11-14T23:24:07.798Z",
  "teams": {
   "ATL": [
    {
@@ -24,21 +24,28 @@
     "returnDate": "2026-11-20"
    },
    {
+    "name": "Kingston Flemings",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Back (strain)",
+    "returnDate": "2026-11-18"
+   },
+   {
     "name": "Mouhamed Gueye",
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Foot (fracture)",
     "returnDate": "2026-12-12"
-   },
-   {
-    "name": "Kingston Flemings",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Back",
-    "returnDate": "2026-11-15"
    }
   ],
   "BKN": [
+   {
+    "name": "Michael Porter Jr.",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Personal",
+    "returnDate": "2026-11-14"
+   },
    {
     "name": "Mikel Brown Jr.",
     "status": "Day-To-Day",
@@ -116,10 +123,31 @@
   ],
   "CLE": [
    {
+    "name": "Donovan Mitchell",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Knee (bruise)",
+    "returnDate": "2026-11-16"
+   },
+   {
     "name": "Evan Mobley",
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Toe (sprain)",
+    "returnDate": "2026-11-16"
+   },
+   {
+    "name": "James Harden",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Calf",
+    "returnDate": "2026-11-16"
+   },
+   {
+    "name": "Jarrett Allen",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Knee",
     "returnDate": "2026-11-16"
    },
    {
@@ -130,39 +158,18 @@
     "returnDate": "2026-11-16"
    },
    {
+    "name": "Peyton Watson",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Hamstring",
+    "returnDate": "2026-11-16"
+   },
+   {
     "name": "Sam Merrill",
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Elbow",
     "returnDate": "2026-11-16"
-   },
-   {
-    "name": "Donovan Mitchell",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Knee (bruise)",
-    "returnDate": "2026-11-14"
-   },
-   {
-    "name": "James Harden",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Calf",
-    "returnDate": "2026-11-14"
-   },
-   {
-    "name": "Jarrett Allen",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Knee",
-    "returnDate": "2026-11-14"
-   },
-   {
-    "name": "Peyton Watson",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Hamstring",
-    "returnDate": "2026-11-14"
    }
   ],
   "DAL": [
@@ -172,6 +179,13 @@
     "gameTimeDecision": false,
     "reason": "Foot (surgery)",
     "returnDate": "2026-11-18"
+   },
+   {
+    "name": "Max Christie",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Ankle (sprain)",
+    "returnDate": "2026-11-15"
    },
    {
     "name": "Sergio de Larrea",
@@ -186,20 +200,6 @@
     "gameTimeDecision": false,
     "reason": "Heel (inflammation)",
     "returnDate": "2026-11-18"
-   },
-   {
-    "name": "Max Christie",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Ankle (sprain)",
-    "returnDate": "2026-11-14"
-   },
-   {
-    "name": "Morez Johnson Jr.",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Lower Leg",
-    "returnDate": "2026-11-14"
    }
   ],
   "DEN": [
@@ -458,6 +458,15 @@
     "returnDate": "2026-11-14"
    }
   ],
+  "MIL": [
+   {
+    "name": "Ousmane Dieng",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Finger (sprain)",
+    "returnDate": "2026-11-18"
+   }
+  ],
   "MIN": [
    {
     "name": "Anthony Edwards",
@@ -475,6 +484,13 @@
    }
   ],
   "NOP": [
+   {
+    "name": "Bennedict Mathurin",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Foot (plantar fasciitis)",
+    "returnDate": "2026-11-16"
+   },
    {
     "name": "Bryce McGowens",
     "status": "Out",
@@ -502,13 +518,6 @@
     "gameTimeDecision": false,
     "reason": "Knee (tendinitis)",
     "returnDate": "2026-11-16"
-   },
-   {
-    "name": "Yves Missi",
-    "status": "Out",
-    "gameTimeDecision": true,
-    "reason": "Knee (bruise)",
-    "returnDate": "2026-11-14"
    }
   ],
   "OKC": [
