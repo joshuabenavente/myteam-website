@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-14T19:23:46.371Z",
+ "updatedAt": "2026-11-14T20:23:38.565Z",
  "teams": {
   "ATL": [
    {
@@ -395,6 +395,13 @@
   ],
   "MEM": [
    {
+    "name": "Quinten Post",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Concussion",
+    "returnDate": "2026-11-16"
+   },
+   {
     "name": "Richie Saunders",
     "status": "Out",
     "gameTimeDecision": false,
@@ -409,10 +416,17 @@
     "returnDate": "2026-11-21"
    },
    {
-    "name": "Quinten Post",
+    "name": "Ty Jerome",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Hip (soreness)",
+    "returnDate": "2026-11-16"
+   },
+   {
+    "name": "Jerami Grant",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
-    "reason": "Concussion",
+    "reason": "Head",
     "returnDate": "2026-11-14"
    },
    {
