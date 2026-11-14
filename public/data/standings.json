@@ -52,23 +52,23 @@
    "conference": "East",
    "division": "Atlantic",
    "wins": 6,
-   "losses": 5,
+   "losses": 6,
    "divisionRank": 3,
-   "conferenceRank": 5,
-   "divisionGamesBehind": 3.5,
+   "conferenceRank": 6,
+   "divisionGamesBehind": 4,
    "home": {
     "wins": 4,
     "losses": 3
    },
    "road": {
     "wins": 2,
-    "losses": 2
+    "losses": 3
    },
    "lastTen": {
     "wins": 6,
     "losses": 4
    },
-   "streak": "L1"
+   "streak": "L2"
   },
   "TOR": {
    "abbr": "TOR",
@@ -146,7 +146,7 @@
    "wins": 6,
    "losses": 6,
    "divisionRank": 2,
-   "conferenceRank": 6,
+   "conferenceRank": 5,
    "divisionGamesBehind": 2.5,
    "home": {
     "wins": 4,
@@ -166,13 +166,13 @@
    "abbr": "IND",
    "conference": "East",
    "division": "Central",
-   "wins": 4,
+   "wins": 5,
    "losses": 8,
    "divisionRank": 3,
-   "conferenceRank": 11,
-   "divisionGamesBehind": 4.5,
+   "conferenceRank": 10,
+   "divisionGamesBehind": 4,
    "home": {
-    "wins": 1,
+    "wins": 2,
     "losses": 5
    },
    "road": {
@@ -183,7 +183,7 @@
     "wins": 3,
     "losses": 7
    },
-   "streak": "W1"
+   "streak": "W2"
   },
   "CHI": {
    "abbr": "CHI",
@@ -213,23 +213,23 @@
    "conference": "East",
    "division": "Central",
    "wins": 1,
-   "losses": 11,
+   "losses": 12,
    "divisionRank": 5,
    "conferenceRank": 15,
-   "divisionGamesBehind": 7.5,
+   "divisionGamesBehind": 8,
    "home": {
     "wins": 1,
     "losses": 6
    },
    "road": {
     "wins": 0,
-    "losses": 5
+    "losses": 6
    },
    "lastTen": {
     "wins": 1,
     "losses": 9
    },
-   "streak": "L8"
+   "streak": "L9"
   },
   "ATL": {
    "abbr": "ATL",
@@ -281,13 +281,13 @@
    "abbr": "ORL",
    "conference": "East",
    "division": "Southeast",
-   "wins": 4,
+   "wins": 5,
    "losses": 7,
    "divisionRank": 3,
    "conferenceRank": 9,
-   "divisionGamesBehind": 2.5,
+   "divisionGamesBehind": 2,
    "home": {
-    "wins": 0,
+    "wins": 1,
     "losses": 4
    },
    "road": {
@@ -295,10 +295,10 @@
     "losses": 3
    },
    "lastTen": {
-    "wins": 4,
-    "losses": 6
+    "wins": 5,
+    "losses": 5
    },
-   "streak": "W2"
+   "streak": "W3"
   },
   "CHA": {
    "abbr": "CHA",
@@ -307,7 +307,7 @@
    "wins": 4,
    "losses": 8,
    "divisionRank": 4,
-   "conferenceRank": 10,
+   "conferenceRank": 11,
    "divisionGamesBehind": 3,
    "home": {
     "wins": 3,

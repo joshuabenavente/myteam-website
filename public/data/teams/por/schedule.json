@@ -267,7 +267,11 @@
    "startUtc": "2026-11-14T03:00:00Z",
    "home": false,
    "opponent": "SAC",
-   "status": "scheduled",
+   "status": "live",
+   "score": {
+    "team": 0,
+    "opponent": 0
+   },
    "broadcasts": [
     {
      "name": "KUNP",

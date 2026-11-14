@@ -1,7 +1,7 @@
 {
  "season": "2026-27",
  "lastSeason": "2025-26",
- "updatedAt": "2026-11-13T21:18:40.828Z",
+ "updatedAt": "2026-11-14T03:18:39.554Z",
  "teamGamesPlayed": {
   "regular": 12,
   "playoffs": 0
@@ -1039,7 +1039,7 @@
   {
    "id": "omierno01",
    "name": "Norchad Omier",
-   "number": "15",
+   "number": "77",
    "position": "PF",
    "twoWay": true,
    "bio": {
@@ -1098,10 +1098,13 @@
    "bio": {
     "height": "6' 8\"",
     "weight": 210,
-    "birthDate": "2000-12-10",
+    "birthDate": "2000-12-19",
     "experience": 2,
-    "college": "Monroe Community College, Chipola College, Kansas State, Memphis"
+    "college": "Memphis",
+    "birthPlace": "Harlem, NY"
    },
+   "number": "35",
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5106268.png",
    "current": {},
    "lastFull": {
     "regular": {
@@ -1168,8 +1171,10 @@
     "height": "6' 11\"",
     "weight": 231,
     "birthDate": "2002-01-15",
-    "experience": 0
+    "experience": 0,
+    "birthPlace": "Mbour, Senegal"
    },
+   "number": "18",
    "current": {},
    "lastFull": {},
    "lastToDate": {}

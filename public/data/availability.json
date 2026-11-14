@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-14T02:23:36.152Z",
+ "updatedAt": "2026-11-14T03:23:40.070Z",
  "teams": {
   "ATL": [
    {
@@ -275,6 +275,13 @@
     "gameTimeDecision": false,
     "reason": "Hamstring (strain)",
     "returnDate": "2026-11-22"
+   },
+   {
+    "name": "Aaron Nesmith",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Hand",
+    "returnDate": "2026-11-15"
    }
   ],
   "LAC": [
@@ -438,6 +445,13 @@
   ],
   "OKC": [
    {
+    "name": "Ajay Mitchell",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Ankle (sprain)",
+    "returnDate": "2026-11-15"
+   },
+   {
     "name": "Cason Wallace",
     "status": "Out",
     "gameTimeDecision": false,
@@ -471,13 +485,6 @@
     "gameTimeDecision": false,
     "reason": "Knee",
     "returnDate": "2026-11-20"
-   },
-   {
-    "name": "Ajay Mitchell",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Ankle (sprain)",
-    "returnDate": "2026-11-13"
    }
   ],
   "ORL": [
@@ -491,7 +498,7 @@
    {
     "name": "Jonathan Isaac",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Knee",
     "returnDate": "2026-11-16"
    },
@@ -690,6 +697,13 @@
     "gameTimeDecision": true,
     "reason": "Ankle (sprain)",
     "returnDate": "2026-11-16"
+   },
+   {
+    "name": "Jaxson Hayes",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Knee",
+    "returnDate": "2026-11-15"
    }
   ],
   "WAS": [
