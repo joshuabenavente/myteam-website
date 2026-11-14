@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-13T23:24:02.316Z",
+ "updatedAt": "2026-11-14T00:23:41.841Z",
  "teams": {
   "ATL": [
    {
@@ -29,13 +29,6 @@
     "gameTimeDecision": false,
     "reason": "Foot (fracture)",
     "returnDate": "2026-12-12"
-   },
-   {
-    "name": "Kingston Flemings",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Back",
-    "returnDate": "2026-11-13"
    }
   ],
   "BOS": [
@@ -107,13 +100,6 @@
     "gameTimeDecision": true,
     "reason": "Back",
     "returnDate": "2026-11-13"
-   },
-   {
-    "name": "Norman Powell",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Shoulder (inflammation)",
-    "returnDate": "2026-11-13"
    }
   ],
   "CLE": [
@@ -123,6 +109,13 @@
     "gameTimeDecision": false,
     "reason": "Toe",
     "returnDate": "2026-11-14"
+   },
+   {
+    "name": "Nae'Qwan Tomlin",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Back",
+    "returnDate": "2026-11-16"
    },
    {
     "name": "Sam Merrill",
@@ -383,18 +376,18 @@
   ],
   "MIA": [
    {
+    "name": "Klay Thompson",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Ankle (soreness)",
+    "returnDate": "2026-11-14"
+   },
+   {
     "name": "Pelle Larsson",
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Illness",
     "returnDate": "2026-11-14"
-   },
-   {
-    "name": "Klay Thompson",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Ankle (soreness)",
-    "returnDate": "2026-11-13"
    }
   ],
   "MIN": [
@@ -448,13 +441,6 @@
     "gameTimeDecision": false,
     "reason": "Knee (bruise)",
     "returnDate": "2026-11-14"
-   },
-   {
-    "name": "Bennedict Mathurin",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Thumb (sprain)",
-    "returnDate": "2026-11-13"
    }
   ],
   "OKC": [
