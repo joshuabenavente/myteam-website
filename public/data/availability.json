@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-14T03:23:40.070Z",
+ "updatedAt": "2026-11-14T04:23:35.654Z",
  "teams": {
   "ATL": [
    {
@@ -29,6 +29,13 @@
     "gameTimeDecision": false,
     "reason": "Foot (fracture)",
     "returnDate": "2026-12-12"
+   },
+   {
+    "name": "Kingston Flemings",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Back",
+    "returnDate": "2026-11-15"
    }
   ],
   "BOS": [
@@ -99,6 +106,13 @@
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Back",
+    "returnDate": "2026-11-14"
+   },
+   {
+    "name": "Jalen Smith",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Hand",
     "returnDate": "2026-11-14"
    }
   ],
