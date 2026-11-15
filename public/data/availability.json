@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-15T17:23:55.695Z",
+ "updatedAt": "2026-11-15T18:23:44.924Z",
  "teams": {
   "ATL": [
    {
@@ -36,6 +36,13 @@
     "gameTimeDecision": false,
     "reason": "Foot (fracture)",
     "returnDate": "2026-12-12"
+   },
+   {
+    "name": "Jock Landale",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Hip (inflammation)",
+    "returnDate": "2026-11-15"
    }
   ],
   "BKN": [
@@ -170,11 +177,25 @@
     "name": "Daniel Gafford",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
-    "reason": "Face",
+    "reason": "Shoulder (stinger)",
+    "returnDate": "2026-11-15"
+   },
+   {
+    "name": "Kyrie Irving",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Knee",
     "returnDate": "2026-11-15"
    },
    {
     "name": "Max Christie",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Ankle (sprain)",
+    "returnDate": "2026-11-15"
+   },
+   {
+    "name": "Santi Aldama",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Ankle (sprain)",
@@ -271,13 +292,6 @@
     "gameTimeDecision": false,
     "reason": "Knee",
     "returnDate": "2026-11-16"
-   },
-   {
-    "name": "Steven Adams",
-    "status": "Out",
-    "gameTimeDecision": true,
-    "reason": "Calf (strain)",
-    "returnDate": "2026-11-15"
    },
    {
     "name": "Marcus Smart",
@@ -437,6 +451,13 @@
     "gameTimeDecision": false,
     "reason": "Finger (sprain)",
     "returnDate": "2026-11-18"
+   },
+   {
+    "name": "Ryan Rollins",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Illness",
+    "returnDate": "2026-11-15"
    }
   ],
   "MIN": [
