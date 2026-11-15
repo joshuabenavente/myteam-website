@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-15T20:23:34.827Z",
+ "updatedAt": "2026-11-15T21:23:42.420Z",
  "teams": {
   "ATL": [
    {
@@ -183,9 +183,9 @@
    {
     "name": "Kyrie Irving",
     "status": "Day-To-Day",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Knee",
-    "returnDate": "2026-11-15"
+    "returnDate": "2026-11-18"
    },
    {
     "name": "Max Christie",
@@ -303,13 +303,6 @@
   ],
   "IND": [
    {
-    "name": "Andrew Nembhard",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Hip (soreness)",
-    "returnDate": "2026-11-18"
-   },
-   {
     "name": "Ben Sheppard",
     "status": "Out",
     "gameTimeDecision": false,
@@ -329,6 +322,13 @@
     "gameTimeDecision": false,
     "reason": "Hamstring (strain)",
     "returnDate": "2026-11-22"
+   },
+   {
+    "name": "Andrew Nembhard",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Hip (soreness)",
+    "returnDate": "2026-11-18"
    }
   ],
   "LAC": [
@@ -604,8 +604,8 @@
    },
    {
     "name": "Joel Embiid",
-    "status": "Out",
-    "gameTimeDecision": false,
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
     "reason": "Foot",
     "returnDate": "2026-11-16"
    }
@@ -681,6 +681,13 @@
   ],
   "SAS": [
    {
+    "name": "De'Aaron Fox",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Hip",
+    "returnDate": "2026-11-17"
+   },
+   {
     "name": "Jayden Quaintance",
     "status": "Out",
     "gameTimeDecision": false,
@@ -693,13 +700,6 @@
     "gameTimeDecision": false,
     "reason": "Calf (strain)",
     "returnDate": "2026-11-19"
-   },
-   {
-    "name": "De'Aaron Fox",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Hip",
-    "returnDate": "2026-11-15"
    }
   ],
   "TOR": [

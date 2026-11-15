@@ -331,7 +331,11 @@
    "startUtc": "2026-11-15T21:00:00Z",
    "home": false,
    "opponent": "PHX",
-   "status": "scheduled",
+   "status": "live",
+   "score": {
+    "team": 0,
+    "opponent": 0
+   },
    "broadcasts": [
     {
      "name": "Spectrum SportsNet",
