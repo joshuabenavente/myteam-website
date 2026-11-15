@@ -238,7 +238,11 @@
    "startUtc": "2026-11-15T21:30:00Z",
    "home": true,
    "opponent": "CHA",
-   "status": "scheduled",
+   "status": "live",
+   "score": {
+    "team": 0,
+    "opponent": 0
+   },
    "broadcasts": [
     {
      "name": "ClipperVision",
