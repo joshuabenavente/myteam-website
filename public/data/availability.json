@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-15T18:23:44.924Z",
+ "updatedAt": "2026-11-15T19:23:42.292Z",
  "teams": {
   "ATL": [
    {
@@ -575,9 +575,9 @@
    {
     "name": "Jonathan Isaac",
     "status": "Out",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Knee",
-    "returnDate": "2026-11-16"
+    "returnDate": "2026-11-18"
    },
    {
     "name": "Noah Penda",
@@ -714,6 +714,13 @@
     "gameTimeDecision": false,
     "reason": "Calf (strain)",
     "returnDate": "2026-11-19"
+   },
+   {
+    "name": "De'Aaron Fox",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Hip",
+    "returnDate": "2026-11-15"
    }
   ],
   "TOR": [
