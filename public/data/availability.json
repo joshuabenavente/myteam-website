@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-15T22:23:40.817Z",
+ "updatedAt": "2026-11-15T23:24:00.167Z",
  "teams": {
   "ATL": [
    {
@@ -95,9 +95,9 @@
    {
     "name": "Nae'Qwan Tomlin",
     "status": "Out",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Back",
-    "returnDate": "2026-11-16"
+    "returnDate": "2026-11-18"
    },
    {
     "name": "Sam Merrill",
@@ -105,27 +105,6 @@
     "gameTimeDecision": false,
     "reason": "Elbow",
     "returnDate": "2026-11-18"
-   },
-   {
-    "name": "Donovan Mitchell",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Knee (bruise)",
-    "returnDate": "2026-11-16"
-   },
-   {
-    "name": "James Harden",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Calf",
-    "returnDate": "2026-11-16"
-   },
-   {
-    "name": "Jarrett Allen",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Knee",
-    "returnDate": "2026-11-16"
    },
    {
     "name": "Jaylon Tyson",
@@ -165,6 +144,13 @@
     "returnDate": "2026-11-18"
    },
    {
+    "name": "Santi Aldama",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Ankle (sprain)",
+    "returnDate": "2026-11-18"
+   },
+   {
     "name": "Sergio de Larrea",
     "status": "Out",
     "gameTimeDecision": false,
@@ -177,20 +163,6 @@
     "gameTimeDecision": false,
     "reason": "Heel (inflammation)",
     "returnDate": "2026-11-18"
-   },
-   {
-    "name": "Daniel Gafford",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Shoulder (stinger)",
-    "returnDate": "2026-11-15"
-   },
-   {
-    "name": "Santi Aldama",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Ankle (sprain)",
-    "returnDate": "2026-11-15"
    }
   ],
   "DEN": [
@@ -267,6 +239,13 @@
     "gameTimeDecision": false,
     "reason": "Abdomen",
     "returnDate": "2026-12-12"
+   },
+   {
+    "name": "Gui Santos",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Ankle (inflammation)",
+    "returnDate": "2026-11-16"
    }
   ],
   "HOU": [
@@ -398,6 +377,13 @@
     "returnDate": "2026-11-18"
    },
    {
+    "name": "Isaiah Stewart",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Illness",
+    "returnDate": "2026-11-16"
+   },
+   {
     "name": "Zach Edey",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
@@ -447,10 +433,10 @@
    },
    {
     "name": "Jaylen Clark",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
+    "status": "Out",
+    "gameTimeDecision": false,
     "reason": "Hamstring",
-    "returnDate": "2026-11-16"
+    "returnDate": "2026-11-29"
    }
   ],
   "NOP": [
@@ -612,6 +598,13 @@
   ],
   "POR": [
    {
+    "name": "Chris Youngblood",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Foot (bruise)",
+    "returnDate": "2026-11-17"
+   },
+   {
     "name": "Ja Morant",
     "status": "Out",
     "gameTimeDecision": false,
@@ -631,13 +624,6 @@
     "gameTimeDecision": false,
     "reason": "Ankle",
     "returnDate": "2027-01-12"
-   },
-   {
-    "name": "Chris Youngblood",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Foot (bruise)",
-    "returnDate": "2026-11-16"
    }
   ],
   "SAC": [
@@ -700,13 +686,6 @@
     "gameTimeDecision": false,
     "reason": "Foot (fracture)",
     "returnDate": "2026-11-23"
-   },
-   {
-    "name": "Scottie Barnes",
-    "status": "Out",
-    "gameTimeDecision": true,
-    "reason": "Groin (strain)",
-    "returnDate": "2026-11-15"
    },
    {
     "name": "Kevin McCullar Jr.",
@@ -776,18 +755,18 @@
     "returnDate": "2026-12-03"
    },
    {
+    "name": "Tre Johnson",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Back",
+    "returnDate": "2026-11-16"
+   },
+   {
     "name": "Tristan Vukcevic",
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Hip (pinched nerve)",
     "returnDate": "2026-11-16"
-   },
-   {
-    "name": "Tre Johnson",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Back",
-    "returnDate": "2026-11-15"
    }
   ]
  }
