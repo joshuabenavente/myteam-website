@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-15T01:23:40.723Z",
+ "updatedAt": "2026-11-15T02:23:35.545Z",
  "teams": {
   "ATL": [
    {
@@ -172,6 +172,13 @@
     "gameTimeDecision": false,
     "reason": "Heel (inflammation)",
     "returnDate": "2026-11-18"
+   },
+   {
+    "name": "Daniel Gafford",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Face",
+    "returnDate": "2026-11-14"
    }
   ],
   "DEN": [
@@ -372,6 +379,13 @@
   ],
   "MEM": [
    {
+    "name": "GG Jackson",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Foot",
+    "returnDate": "2026-11-16"
+   },
+   {
     "name": "Jerami Grant",
     "status": "Out",
     "gameTimeDecision": false,
@@ -446,6 +460,13 @@
     "gameTimeDecision": false,
     "reason": "Achilles (surgery)",
     "returnDate": "2027-04-02"
+   },
+   {
+    "name": "Jaylen Clark",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Hamstring",
+    "returnDate": "2026-11-16"
    }
   ],
   "NOP": [
