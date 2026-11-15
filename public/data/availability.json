@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-15T16:23:34.785Z",
+ "updatedAt": "2026-11-15T17:23:55.695Z",
  "teams": {
   "ATL": [
    {
@@ -289,6 +289,13 @@
   ],
   "IND": [
    {
+    "name": "Andrew Nembhard",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Hip (soreness)",
+    "returnDate": "2026-11-18"
+   },
+   {
     "name": "Ben Sheppard",
     "status": "Out",
     "gameTimeDecision": false,
@@ -308,27 +315,6 @@
     "gameTimeDecision": false,
     "reason": "Hamstring (strain)",
     "returnDate": "2026-11-22"
-   },
-   {
-    "name": "Aaron Nesmith",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Hand (sprain)",
-    "returnDate": "2026-11-15"
-   },
-   {
-    "name": "Andrew Nembhard",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Hip (soreness)",
-    "returnDate": "2026-11-15"
-   },
-   {
-    "name": "T.J. McConnell",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Hamstring",
-    "returnDate": "2026-11-15"
    }
   ],
   "LAC": [
