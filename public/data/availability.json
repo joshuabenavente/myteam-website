@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-14T23:24:07.798Z",
+ "updatedAt": "2026-11-15T00:23:42.483Z",
  "teams": {
   "ATL": [
    {
@@ -41,24 +41,10 @@
   "BKN": [
    {
     "name": "Michael Porter Jr.",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
+    "status": "Out",
+    "gameTimeDecision": false,
     "reason": "Personal",
-    "returnDate": "2026-11-14"
-   },
-   {
-    "name": "Mikel Brown Jr.",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Illness",
-    "returnDate": "2026-11-14"
-   },
-   {
-    "name": "Nolan Traore",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Calf (soreness)",
-    "returnDate": "2026-11-14"
+    "returnDate": "2026-11-16"
    }
   ],
   "CHA": [
@@ -93,32 +79,25 @@
     "returnDate": "2026-12-13"
    },
    {
+    "name": "Jalen Smith",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Finger (sprain)",
+    "returnDate": "2026-11-16"
+   },
+   {
+    "name": "Nic Claxton",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Hamstring",
+    "returnDate": "2026-11-16"
+   },
+   {
     "name": "Tobe Awaka",
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Back",
     "returnDate": "2026-11-16"
-   },
-   {
-    "name": "Jalen Smith",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Finger (sprain)",
-    "returnDate": "2026-11-14"
-   },
-   {
-    "name": "Nic Claxton",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Hamstring",
-    "returnDate": "2026-11-14"
-   },
-   {
-    "name": "Norman Powell",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Back",
-    "returnDate": "2026-11-14"
    }
   ],
   "CLE": [
@@ -372,9 +351,9 @@
    {
     "name": "Austin Reaves",
     "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Heel",
-    "returnDate": "2026-11-15"
+    "gameTimeDecision": false,
+    "reason": "Heel (bruise)",
+    "returnDate": "2026-11-17"
    },
    {
     "name": "Collin Sexton",
@@ -437,25 +416,11 @@
   ],
   "MIA": [
    {
-    "name": "Giannis Antetokounmpo",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Wrist (sprain)",
-    "returnDate": "2026-11-14"
-   },
-   {
-    "name": "Klay Thompson",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Ankle (sprain)",
-    "returnDate": "2026-11-14"
-   },
-   {
     "name": "Pelle Larsson",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
+    "status": "Out",
+    "gameTimeDecision": false,
     "reason": "Illness",
-    "returnDate": "2026-11-14"
+    "returnDate": "2026-11-16"
    }
   ],
   "MIL": [
@@ -755,6 +720,13 @@
     "returnDate": "2026-12-14"
    },
    {
+    "name": "Jaxson Hayes",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Knee (strain)",
+    "returnDate": "2026-11-17"
+   },
+   {
     "name": "Jusuf Nurkic",
     "status": "Out",
     "gameTimeDecision": false,
@@ -774,13 +746,6 @@
     "gameTimeDecision": true,
     "reason": "Ankle (sprain)",
     "returnDate": "2026-11-16"
-   },
-   {
-    "name": "Jaxson Hayes",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Knee",
-    "returnDate": "2026-11-15"
    }
   ],
   "WAS": [
