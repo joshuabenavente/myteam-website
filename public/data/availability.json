@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-15T02:23:35.545Z",
+ "updatedAt": "2026-11-15T03:23:42.456Z",
  "teams": {
   "ATL": [
    {
@@ -146,6 +146,13 @@
   ],
   "DAL": [
    {
+    "name": "Daniel Gafford",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Face",
+    "returnDate": "2026-11-15"
+   },
+   {
     "name": "Dereck Lively II",
     "status": "Out",
     "gameTimeDecision": false,
@@ -172,13 +179,6 @@
     "gameTimeDecision": false,
     "reason": "Heel (inflammation)",
     "returnDate": "2026-11-18"
-   },
-   {
-    "name": "Daniel Gafford",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Face",
-    "returnDate": "2026-11-14"
    }
   ],
   "DEN": [
@@ -204,6 +204,13 @@
     "gameTimeDecision": false,
     "reason": "Hamstring (strain)",
     "returnDate": "2026-11-24"
+   },
+   {
+    "name": "Duncan Robinson",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Thigh (soreness)",
+    "returnDate": "2026-11-14"
    },
    {
     "name": "Ugonna Onyenso",
