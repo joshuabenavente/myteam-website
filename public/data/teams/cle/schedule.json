@@ -276,7 +276,11 @@
    "startUtc": "2026-11-15T00:30:00Z",
    "home": true,
    "opponent": "DAL",
-   "status": "scheduled",
+   "status": "live",
+   "score": {
+    "team": 0,
+    "opponent": 0
+   },
    "broadcasts": [
     {
      "name": "WOIO/RESN/DAZN-CLE",
