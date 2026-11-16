@@ -328,13 +328,13 @@
    "conference": "East",
    "division": "Southeast",
    "wins": 4,
-   "losses": 9,
+   "losses": 10,
    "divisionRank": 5,
    "conferenceRank": 12,
-   "divisionGamesBehind": 3,
+   "divisionGamesBehind": 3.5,
    "home": {
     "wins": 2,
-    "losses": 3
+    "losses": 4
    },
    "road": {
     "wins": 2,
@@ -344,7 +344,7 @@
     "wins": 2,
     "losses": 8
    },
-   "streak": "L6"
+   "streak": "L7"
   },
   "POR": {
    "abbr": "POR",
@@ -603,24 +603,24 @@
    "abbr": "HOU",
    "conference": "West",
    "division": "Southwest",
-   "wins": 10,
+   "wins": 11,
    "losses": 3,
    "divisionRank": 2,
    "conferenceRank": 3,
-   "divisionGamesBehind": 1.5,
+   "divisionGamesBehind": 1,
    "home": {
     "wins": 7,
     "losses": 1
    },
    "road": {
-    "wins": 3,
+    "wins": 4,
     "losses": 2
    },
    "lastTen": {
     "wins": 7,
     "losses": 3
    },
-   "streak": "W3"
+   "streak": "W4"
   },
   "MEM": {
    "abbr": "MEM",
