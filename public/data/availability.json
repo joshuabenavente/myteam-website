@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-16T21:23:38.186Z",
+ "updatedAt": "2026-11-16T22:23:41.399Z",
  "teams": {
   "ATL": [
    {
@@ -41,10 +41,10 @@
   "BOS": [
    {
     "name": "Neemias Queta",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
+    "status": "Out",
+    "gameTimeDecision": false,
     "reason": "Rest",
-    "returnDate": "2026-11-16"
+    "returnDate": "2026-11-18"
    }
   ],
   "CHA": [
@@ -92,7 +92,7 @@
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Toe (sprain)",
-    "returnDate": "2026-11-18"
+    "returnDate": "2026-11-29"
    },
    {
     "name": "Nae'Qwan Tomlin",
@@ -697,9 +697,7 @@
    {
     "name": "De'Aaron Fox",
     "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Hip",
-    "returnDate": "2026-11-17"
+    "gameTimeDecision": false
    }
   ],
   "TOR": [
