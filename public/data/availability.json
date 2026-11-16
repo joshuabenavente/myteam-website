@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-15T23:24:00.167Z",
+ "updatedAt": "2026-11-16T00:23:46.168Z",
  "teams": {
   "ATL": [
    {
@@ -15,6 +15,13 @@
     "gameTimeDecision": false,
     "reason": "Knee",
     "returnDate": "2027-07-01"
+   },
+   {
+    "name": "Jock Landale",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Hip (inflammation)",
+    "returnDate": "2026-11-18"
    },
    {
     "name": "Keshon Gilbert",
@@ -36,13 +43,6 @@
     "gameTimeDecision": false,
     "reason": "Foot (fracture)",
     "returnDate": "2026-12-12"
-   },
-   {
-    "name": "Jock Landale",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Hip (inflammation)",
-    "returnDate": "2026-11-15"
    }
   ],
   "CHA": [
@@ -405,15 +405,15 @@
     "name": "Ousmane Dieng",
     "status": "Out",
     "gameTimeDecision": false,
-    "reason": "Finger (fracture)",
-    "returnDate": "2026-11-18"
+    "reason": "Finger (surgery)",
+    "returnDate": "2026-12-14"
    },
    {
     "name": "Ryan Rollins",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
+    "status": "Out",
+    "gameTimeDecision": false,
     "reason": "Illness",
-    "returnDate": "2026-11-15"
+    "returnDate": "2026-11-18"
    }
   ],
   "MIN": [
@@ -640,6 +640,13 @@
     "gameTimeDecision": false,
     "reason": "Knee (dislocated)",
     "returnDate": "2026-11-18"
+   },
+   {
+    "name": "De'Andre Hunter",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Hip (soreness)",
+    "returnDate": "2026-11-15"
    },
    {
     "name": "Precious Achiuwa",
