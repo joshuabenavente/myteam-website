@@ -1,7 +1,7 @@
 {
  "season": "2026-27",
  "lastSeason": "2025-26",
- "updatedAt": "2026-11-16T06:21:15.678Z",
+ "updatedAt": "2026-11-16T12:21:13.689Z",
  "teamGamesPlayed": {
   "regular": 13,
   "playoffs": 0
@@ -24,25 +24,98 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5142620.png",
    "current": {
     "regular": {
-     "games": 12,
-     "started": 12,
-     "minutes": 446.1,
-     "points": 305,
+     "games": 13,
+     "started": 13,
+     "minutes": 478.8,
+     "points": 331,
      "rebounds": 46,
-     "assists": 86,
+     "assists": 92,
      "steals": 13,
      "blocks": 1,
-     "turnovers": 44,
-     "fgMade": 111,
-     "fgAttempted": 270,
-     "threeMade": 37,
-     "threeAttempted": 113,
-     "ftMade": 46,
-     "ftAttempted": 54
+     "turnovers": 53,
+     "fgMade": 121,
+     "fgAttempted": 295,
+     "threeMade": 40,
+     "threeAttempted": 123,
+     "ftMade": 49,
+     "ftAttempted": 58
     }
    },
    "lastFull": {},
    "lastToDate": {}
+  },
+  {
+   "id": "sabondo01",
+   "name": "Domantas Sabonis",
+   "number": "11",
+   "position": "C",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 10\"",
+    "weight": 240,
+    "birthDate": "1996-05-03",
+    "experience": 10,
+    "college": "Gonzaga",
+    "birthPlace": "Kaunas, Lithuania"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3155942.png",
+   "current": {
+    "regular": {
+     "games": 12,
+     "started": 12,
+     "minutes": 408.2,
+     "points": 170,
+     "rebounds": 158,
+     "assists": 67,
+     "steals": 8,
+     "blocks": 1,
+     "turnovers": 34,
+     "fgMade": 67,
+     "fgAttempted": 105,
+     "threeMade": 3,
+     "threeAttempted": 10,
+     "ftMade": 33,
+     "ftAttempted": 45
+    }
+   },
+   "lastFull": {
+    "regular": {
+     "games": 19,
+     "started": 15,
+     "minutes": 563.6,
+     "points": 301,
+     "rebounds": 216,
+     "assists": 78,
+     "steals": 18,
+     "blocks": 4,
+     "turnovers": 51,
+     "fgMade": 120,
+     "fgAttempted": 221,
+     "threeMade": 5,
+     "threeAttempted": 27,
+     "ftMade": 56,
+     "ftAttempted": 77
+    }
+   },
+   "lastToDate": {
+    "regular": {
+     "games": 10,
+     "started": 10,
+     "minutes": 328.9,
+     "points": 172,
+     "rebounds": 122,
+     "assists": 36,
+     "steals": 10,
+     "blocks": 2,
+     "turnovers": 25,
+     "fgMade": 67,
+     "fgAttempted": 131,
+     "threeMade": 4,
+     "threeAttempted": 19,
+     "ftMade": 34,
+     "ftAttempted": 47
+    }
+   }
   },
   {
    "id": "lavinza01",
@@ -114,79 +187,6 @@
      "threeAttempted": 86,
      "ftMade": 45,
      "ftAttempted": 51
-    }
-   }
-  },
-  {
-   "id": "sabondo01",
-   "name": "Domantas Sabonis",
-   "number": "11",
-   "position": "C",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 10\"",
-    "weight": 240,
-    "birthDate": "1996-05-03",
-    "experience": 10,
-    "college": "Gonzaga",
-    "birthPlace": "Kaunas, Lithuania"
-   },
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3155942.png",
-   "current": {
-    "regular": {
-     "games": 11,
-     "started": 11,
-     "minutes": 378.7,
-     "points": 159,
-     "rebounds": 145,
-     "assists": 64,
-     "steals": 8,
-     "blocks": 1,
-     "turnovers": 33,
-     "fgMade": 64,
-     "fgAttempted": 99,
-     "threeMade": 3,
-     "threeAttempted": 8,
-     "ftMade": 28,
-     "ftAttempted": 39
-    }
-   },
-   "lastFull": {
-    "regular": {
-     "games": 19,
-     "started": 15,
-     "minutes": 563.6,
-     "points": 301,
-     "rebounds": 216,
-     "assists": 78,
-     "steals": 18,
-     "blocks": 4,
-     "turnovers": 51,
-     "fgMade": 120,
-     "fgAttempted": 221,
-     "threeMade": 5,
-     "threeAttempted": 27,
-     "ftMade": 56,
-     "ftAttempted": 77
-    }
-   },
-   "lastToDate": {
-    "regular": {
-     "games": 10,
-     "started": 10,
-     "minutes": 328.9,
-     "points": 172,
-     "rebounds": 122,
-     "assists": 36,
-     "steals": 10,
-     "blocks": 2,
-     "turnovers": 25,
-     "fgMade": 67,
-     "fgAttempted": 131,
-     "threeMade": 4,
-     "threeAttempted": 19,
-     "ftMade": 34,
-     "ftAttempted": 47
     }
    }
   },
@@ -353,21 +353,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5106058.png",
    "current": {
     "regular": {
-     "games": 12,
+     "games": 13,
      "started": 0,
-     "minutes": 207.3,
-     "points": 55,
+     "minutes": 228.4,
+     "points": 64,
      "rebounds": 16,
-     "assists": 7,
-     "steals": 8,
+     "assists": 9,
+     "steals": 10,
      "blocks": 3,
-     "turnovers": 5,
-     "fgMade": 20,
-     "fgAttempted": 50,
-     "threeMade": 13,
-     "threeAttempted": 33,
-     "ftMade": 2,
-     "ftAttempted": 2
+     "turnovers": 7,
+     "fgMade": 23,
+     "fgAttempted": 59,
+     "threeMade": 14,
+     "threeAttempted": 38,
+     "ftMade": 4,
+     "ftAttempted": 4
     }
    },
    "lastFull": {},
@@ -390,21 +390,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4066262.png",
    "current": {
     "regular": {
-     "games": 11,
-     "started": 0,
-     "minutes": 173.3,
-     "points": 85,
-     "rebounds": 15,
-     "assists": 37,
-     "steals": 5,
+     "games": 12,
+     "started": 1,
+     "minutes": 202.1,
+     "points": 99,
+     "rebounds": 16,
+     "assists": 47,
+     "steals": 6,
      "blocks": 1,
-     "turnovers": 17,
-     "fgMade": 28,
-     "fgAttempted": 77,
-     "threeMade": 11,
-     "threeAttempted": 35,
-     "ftMade": 18,
-     "ftAttempted": 21
+     "turnovers": 19,
+     "fgMade": 34,
+     "fgAttempted": 90,
+     "threeMade": 12,
+     "threeAttempted": 42,
+     "ftMade": 19,
+     "ftAttempted": 22
     }
    },
    "lastFull": {
@@ -463,19 +463,19 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4395650.png",
    "current": {
     "regular": {
-     "games": 8,
+     "games": 9,
      "started": 1,
-     "minutes": 145.4,
-     "points": 35,
-     "rebounds": 21,
-     "assists": 11,
-     "steals": 10,
-     "blocks": 4,
-     "turnovers": 1,
-     "fgMade": 12,
-     "fgAttempted": 31,
-     "threeMade": 10,
-     "threeAttempted": 25,
+     "minutes": 174.6,
+     "points": 47,
+     "rebounds": 30,
+     "assists": 13,
+     "steals": 14,
+     "blocks": 5,
+     "turnovers": 3,
+     "fgMade": 16,
+     "fgAttempted": 36,
+     "threeMade": 14,
+     "threeAttempted": 30,
      "ftMade": 1,
      "ftAttempted": 2
     }
@@ -518,19 +518,19 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4594327.png",
    "current": {
     "regular": {
-     "games": 5,
-     "started": 3,
-     "minutes": 141,
-     "points": 51,
-     "rebounds": 16,
+     "games": 6,
+     "started": 4,
+     "minutes": 162.1,
+     "points": 57,
+     "rebounds": 17,
      "assists": 8,
      "steals": 6,
-     "blocks": 5,
-     "turnovers": 3,
-     "fgMade": 19,
-     "fgAttempted": 50,
-     "threeMade": 4,
-     "threeAttempted": 19,
+     "blocks": 6,
+     "turnovers": 4,
+     "fgMade": 21,
+     "fgAttempted": 59,
+     "threeMade": 6,
+     "threeAttempted": 24,
      "ftMade": 9,
      "ftAttempted": 10
     }
@@ -573,21 +573,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4279318.png",
    "current": {
     "regular": {
-     "games": 9,
+     "games": 10,
      "started": 0,
-     "minutes": 90,
-     "points": 21,
-     "rebounds": 8,
-     "assists": 2,
-     "steals": 2,
+     "minutes": 114,
+     "points": 34,
+     "rebounds": 10,
+     "assists": 3,
+     "steals": 3,
      "blocks": 1,
-     "turnovers": 2,
-     "fgMade": 8,
-     "fgAttempted": 19,
-     "threeMade": 4,
-     "threeAttempted": 14,
-     "ftMade": 1,
-     "ftAttempted": 2
+     "turnovers": 4,
+     "fgMade": 12,
+     "fgAttempted": 25,
+     "threeMade": 7,
+     "threeAttempted": 19,
+     "ftMade": 3,
+     "ftAttempted": 4
     }
    },
    "lastFull": {
@@ -628,6 +628,43 @@
      "ftAttempted": 0
     }
    }
+  },
+  {
+   "id": "karabal01",
+   "name": "Alex Karaban",
+   "number": "33",
+   "position": "SF",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 7\"",
+    "weight": 225,
+    "birthDate": "2002-11-11",
+    "experience": 0,
+    "college": "UConn",
+    "birthPlace": "Southborough, MA"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4917149.png",
+   "current": {
+    "regular": {
+     "games": 6,
+     "started": 0,
+     "minutes": 78.2,
+     "points": 7,
+     "rebounds": 9,
+     "assists": 3,
+     "steals": 2,
+     "blocks": 0,
+     "turnovers": 5,
+     "fgMade": 2,
+     "fgAttempted": 9,
+     "threeMade": 2,
+     "threeAttempted": 8,
+     "ftMade": 1,
+     "ftAttempted": 2
+    }
+   },
+   "lastFull": {},
+   "lastToDate": {}
   },
   {
    "id": "mogbojo01",
@@ -720,41 +757,94 @@
    }
   },
   {
-   "id": "karabal01",
-   "name": "Alex Karaban",
-   "number": "33",
-   "position": "SF",
+   "id": "plumlma01",
+   "name": "Mason Plumlee",
+   "number": "24",
+   "position": "C",
    "twoWay": false,
    "bio": {
-    "height": "6' 7\"",
-    "weight": 225,
-    "birthDate": "2002-11-11",
-    "experience": 0,
-    "college": "UConn",
-    "birthPlace": "Southborough, MA"
+    "height": "7' 0\"",
+    "weight": 254,
+    "birthDate": "1990-03-05",
+    "experience": 13,
+    "college": "Duke",
+    "birthPlace": "Fort Wayne, IN"
    },
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4917149.png",
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/2488653.png",
    "current": {
     "regular": {
-     "games": 5,
+     "games": 1,
      "started": 0,
-     "minutes": 48.8,
-     "points": 7,
-     "rebounds": 4,
-     "assists": 2,
-     "steals": 1,
-     "blocks": 0,
-     "turnovers": 5,
-     "fgMade": 2,
-     "fgAttempted": 6,
-     "threeMade": 2,
-     "threeAttempted": 5,
-     "ftMade": 1,
+     "minutes": 5.4,
+     "points": 2,
+     "rebounds": 0,
+     "assists": 0,
+     "steals": 0,
+     "blocks": 1,
+     "turnovers": 2,
+     "fgMade": 0,
+     "fgAttempted": 0,
+     "threeMade": 0,
+     "threeAttempted": 0,
+     "ftMade": 2,
      "ftAttempted": 2
     }
    },
-   "lastFull": {},
-   "lastToDate": {}
+   "lastFull": {
+    "regular": {
+     "games": 20,
+     "started": 3,
+     "minutes": 171.6,
+     "points": 31,
+     "rebounds": 53,
+     "assists": 20,
+     "steals": 10,
+     "blocks": 0,
+     "turnovers": 12,
+     "fgMade": 11,
+     "fgAttempted": 14,
+     "threeMade": 0,
+     "threeAttempted": 0,
+     "ftMade": 9,
+     "ftAttempted": 14
+    },
+    "playoffs": {
+     "games": 6,
+     "started": 0,
+     "minutes": 18.4,
+     "points": 4,
+     "rebounds": 4,
+     "assists": 2,
+     "steals": 0,
+     "blocks": 3,
+     "turnovers": 1,
+     "fgMade": 2,
+     "fgAttempted": 3,
+     "threeMade": 0,
+     "threeAttempted": 0,
+     "ftMade": 0,
+     "ftAttempted": 0
+    }
+   },
+   "lastToDate": {
+    "regular": {
+     "games": 6,
+     "started": 0,
+     "minutes": 30.2,
+     "points": 6,
+     "rebounds": 5,
+     "assists": 2,
+     "steals": 0,
+     "blocks": 0,
+     "turnovers": 2,
+     "fgMade": 2,
+     "fgAttempted": 2,
+     "threeMade": 0,
+     "threeAttempted": 0,
+     "ftMade": 2,
+     "ftAttempted": 4
+    }
+   }
   },
   {
    "id": "raynama01",
@@ -843,78 +933,6 @@
     }
    },
    "lastToDate": {}
-  },
-  {
-   "id": "plumlma01",
-   "name": "Mason Plumlee",
-   "position": "C",
-   "twoWay": false,
-   "bio": {
-    "height": "7' 0\"",
-    "weight": 254,
-    "birthDate": "1990-03-05",
-    "experience": 13,
-    "college": "Duke",
-    "birthPlace": "Fort Wayne, IN"
-   },
-   "number": "24",
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/2488653.png",
-   "current": {},
-   "lastFull": {
-    "regular": {
-     "games": 20,
-     "started": 3,
-     "minutes": 171.6,
-     "points": 31,
-     "rebounds": 53,
-     "assists": 20,
-     "steals": 10,
-     "blocks": 0,
-     "turnovers": 12,
-     "fgMade": 11,
-     "fgAttempted": 14,
-     "threeMade": 0,
-     "threeAttempted": 0,
-     "ftMade": 9,
-     "ftAttempted": 14
-    },
-    "playoffs": {
-     "games": 6,
-     "started": 0,
-     "minutes": 18.4,
-     "points": 4,
-     "rebounds": 4,
-     "assists": 2,
-     "steals": 0,
-     "blocks": 3,
-     "turnovers": 1,
-     "fgMade": 2,
-     "fgAttempted": 3,
-     "threeMade": 0,
-     "threeAttempted": 0,
-     "ftMade": 0,
-     "ftAttempted": 0
-    }
-   },
-   "lastToDate": {
-    "regular": {
-     "games": 6,
-     "started": 0,
-     "minutes": 30.2,
-     "points": 6,
-     "rebounds": 5,
-     "assists": 2,
-     "steals": 0,
-     "blocks": 0,
-     "turnovers": 2,
-     "fgMade": 2,
-     "fgAttempted": 2,
-     "threeMade": 0,
-     "threeAttempted": 0,
-     "ftMade": 2,
-     "ftAttempted": 4
-    }
-   }
   },
   {
    "id": "pedulse01",
