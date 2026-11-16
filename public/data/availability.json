@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-16T00:23:46.168Z",
+ "updatedAt": "2026-11-16T01:23:43.225Z",
  "teams": {
   "ATL": [
    {
@@ -511,13 +511,6 @@
     "gameTimeDecision": false,
     "reason": "Knee",
     "returnDate": "2026-11-20"
-   },
-   {
-    "name": "Ajay Mitchell",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Ankle (sprain)",
-    "returnDate": "2026-11-15"
    }
   ],
   "ORL": [
@@ -635,6 +628,13 @@
     "returnDate": "2027-10-01"
    },
    {
+    "name": "De'Andre Hunter",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Hip (soreness)",
+    "returnDate": "2026-11-18"
+   },
+   {
     "name": "Maxime Raynaud",
     "status": "Out",
     "gameTimeDecision": false,
@@ -642,18 +642,18 @@
     "returnDate": "2026-11-18"
    },
    {
-    "name": "De'Andre Hunter",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Hip (soreness)",
-    "returnDate": "2026-11-15"
+    "name": "Precious Achiuwa",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Ankle (soreness)",
+    "returnDate": "2026-11-18"
    },
    {
-    "name": "Precious Achiuwa",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Ankle (soreness)",
-    "returnDate": "2026-11-15"
+    "name": "Zach LaVine",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Illness",
+    "returnDate": "2026-11-18"
    }
   ],
   "SAS": [
