@@ -1,7 +1,7 @@
 {
  "season": "2026-27",
  "lastSeason": "2025-26",
- "updatedAt": "2026-11-16T04:20:02.636Z",
+ "updatedAt": "2026-11-16T10:19:59.317Z",
  "teamGamesPlayed": {
   "regular": 14,
   "playoffs": 0
@@ -644,6 +644,79 @@
    }
   },
   {
+   "id": "middlkh01",
+   "name": "Khris Middleton",
+   "number": "22",
+   "position": "SF",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 7\"",
+    "weight": 222,
+    "birthDate": "1991-08-12",
+    "experience": 14,
+    "college": "Texas A&M",
+    "birthPlace": "Charleston, SC"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/6609.png",
+   "current": {
+    "regular": {
+     "games": 6,
+     "started": 0,
+     "minutes": 78.1,
+     "points": 20,
+     "rebounds": 8,
+     "assists": 4,
+     "steals": 2,
+     "blocks": 0,
+     "turnovers": 6,
+     "fgMade": 6,
+     "fgAttempted": 13,
+     "threeMade": 3,
+     "threeAttempted": 8,
+     "ftMade": 5,
+     "ftAttempted": 6
+    }
+   },
+   "lastFull": {
+    "regular": {
+     "games": 63,
+     "started": 50,
+     "minutes": 1439.5,
+     "points": 640,
+     "rebounds": 231,
+     "assists": 176,
+     "steals": 41,
+     "blocks": 9,
+     "turnovers": 108,
+     "fgMade": 227,
+     "fgAttempted": 540,
+     "threeMade": 67,
+     "threeAttempted": 186,
+     "ftMade": 119,
+     "ftAttempted": 136
+    }
+   },
+   "lastToDate": {
+    "regular": {
+     "games": 11,
+     "started": 11,
+     "minutes": 275.1,
+     "points": 112,
+     "rebounds": 45,
+     "assists": 26,
+     "steals": 9,
+     "blocks": 3,
+     "turnovers": 17,
+     "fgMade": 44,
+     "fgAttempted": 90,
+     "threeMade": 10,
+     "threeAttempted": 29,
+     "ftMade": 14,
+     "ftAttempted": 19
+    }
+   }
+  },
+  {
    "id": "champju01",
    "name": "Justin Champagnie",
    "number": "9",
@@ -713,79 +786,6 @@
      "threeAttempted": 10,
      "ftMade": 14,
      "ftAttempted": 17
-    }
-   }
-  },
-  {
-   "id": "middlkh01",
-   "name": "Khris Middleton",
-   "number": "22",
-   "position": "SF",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 7\"",
-    "weight": 222,
-    "birthDate": "1991-08-12",
-    "experience": 14,
-    "college": "Texas A&M",
-    "birthPlace": "Charleston, SC"
-   },
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/6609.png",
-   "current": {
-    "regular": {
-     "games": 5,
-     "started": 0,
-     "minutes": 68.8,
-     "points": 12,
-     "rebounds": 8,
-     "assists": 2,
-     "steals": 2,
-     "blocks": 0,
-     "turnovers": 6,
-     "fgMade": 3,
-     "fgAttempted": 9,
-     "threeMade": 1,
-     "threeAttempted": 5,
-     "ftMade": 5,
-     "ftAttempted": 6
-    }
-   },
-   "lastFull": {
-    "regular": {
-     "games": 63,
-     "started": 50,
-     "minutes": 1439.5,
-     "points": 640,
-     "rebounds": 231,
-     "assists": 176,
-     "steals": 41,
-     "blocks": 9,
-     "turnovers": 108,
-     "fgMade": 227,
-     "fgAttempted": 540,
-     "threeMade": 67,
-     "threeAttempted": 186,
-     "ftMade": 119,
-     "ftAttempted": 136
-    }
-   },
-   "lastToDate": {
-    "regular": {
-     "games": 11,
-     "started": 11,
-     "minutes": 275.1,
-     "points": 112,
-     "rebounds": 45,
-     "assists": 26,
-     "steals": 9,
-     "blocks": 3,
-     "turnovers": 17,
-     "fgMade": 44,
-     "fgAttempted": 90,
-     "threeMade": 10,
-     "threeAttempted": 29,
-     "ftMade": 14,
-     "ftAttempted": 19
     }
    }
   },
@@ -879,21 +879,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4432819.png",
    "current": {
     "regular": {
-     "games": 5,
+     "games": 6,
      "started": 0,
-     "minutes": 23.8,
-     "points": 4,
-     "rebounds": 0,
-     "assists": 2,
+     "minutes": 35.1,
+     "points": 8,
+     "rebounds": 1,
+     "assists": 3,
      "steals": 3,
      "blocks": 2,
-     "turnovers": 1,
-     "fgMade": 2,
-     "fgAttempted": 8,
-     "threeMade": 0,
-     "threeAttempted": 3,
-     "ftMade": 0,
-     "ftAttempted": 0
+     "turnovers": 3,
+     "fgMade": 3,
+     "fgAttempted": 10,
+     "threeMade": 1,
+     "threeAttempted": 5,
+     "ftMade": 1,
+     "ftAttempted": 2
     }
    },
    "lastFull": {
