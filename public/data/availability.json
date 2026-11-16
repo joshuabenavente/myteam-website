@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-16T17:23:47.747Z",
+ "updatedAt": "2026-11-16T18:23:58.291Z",
  "teams": {
   "ATL": [
    {
@@ -36,6 +36,15 @@
     "gameTimeDecision": true,
     "reason": "Back (strain)",
     "returnDate": "2026-11-18"
+   }
+  ],
+  "BOS": [
+   {
+    "name": "Neemias Queta",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Rest",
+    "returnDate": "2026-11-16"
    }
   ],
   "CHA": [
@@ -238,15 +247,22 @@
    {
     "name": "Clint Capela",
     "status": "Out",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Ankle (sprain)",
-    "returnDate": "2026-11-16"
+    "returnDate": "2026-11-18"
    },
    {
-    "name": "Fred VanVleet",
+    "name": "Steven Adams",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Calf",
+    "returnDate": "2026-11-18"
+   },
+   {
+    "name": "Amen Thompson",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
-    "reason": "Knee",
+    "reason": "Knee (soreness)",
     "returnDate": "2026-11-16"
    },
    {
@@ -342,6 +358,13 @@
     "returnDate": "2027-01-18"
    },
    {
+    "name": "Isaiah Stewart",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Illness",
+    "returnDate": "2026-11-18"
+   },
+   {
     "name": "Quinten Post",
     "status": "Out",
     "gameTimeDecision": true,
@@ -370,13 +393,6 @@
     "returnDate": "2026-11-18"
    },
    {
-    "name": "Isaiah Stewart",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Illness",
-    "returnDate": "2026-11-16"
-   },
-   {
     "name": "Zach Edey",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
@@ -385,6 +401,13 @@
    }
   ],
   "MIA": [
+   {
+    "name": "Nikola Jovic",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Illness",
+    "returnDate": "2026-11-16"
+   },
    {
     "name": "Pelle Larsson",
     "status": "Day-To-Day",
@@ -556,6 +579,13 @@
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Back (fracture)",
+    "returnDate": "2026-11-18"
+   },
+   {
+    "name": "LeBron James",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Back",
     "returnDate": "2026-11-18"
    },
    {
@@ -750,9 +780,9 @@
    {
     "name": "Tristan Vukcevic",
     "status": "Out",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Hip (pinched nerve)",
-    "returnDate": "2026-11-16"
+    "returnDate": "2026-11-24"
    },
    {
     "name": "Tre Johnson",
