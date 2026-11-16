@@ -261,7 +261,11 @@
    "startUtc": "2026-11-16T01:00:00Z",
    "home": false,
    "opponent": "MIL",
-   "status": "scheduled",
+   "status": "live",
+   "score": {
+    "team": 0,
+    "opponent": 0
+   },
    "broadcasts": [
     {
      "name": "ANF / Peachtree Sports Net / Prime Video - ATL",
