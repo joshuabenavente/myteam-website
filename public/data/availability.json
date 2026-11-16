@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-16T22:23:41.399Z",
+ "updatedAt": "2026-11-16T23:23:33.523Z",
  "teams": {
   "ATL": [
    {
@@ -77,13 +77,6 @@
     "gameTimeDecision": false,
     "reason": "Back",
     "returnDate": "2026-11-18"
-   },
-   {
-    "name": "Jalen Smith",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Finger (sprain)",
-    "returnDate": "2026-11-16"
    }
   ],
   "CLE": [
@@ -93,6 +86,13 @@
     "gameTimeDecision": false,
     "reason": "Toe (sprain)",
     "returnDate": "2026-11-29"
+   },
+   {
+    "name": "Jaylon Tyson",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Ankle",
+    "returnDate": "2026-11-18"
    },
    {
     "name": "Nae'Qwan Tomlin",
@@ -107,20 +107,6 @@
     "gameTimeDecision": false,
     "reason": "Elbow",
     "returnDate": "2026-11-18"
-   },
-   {
-    "name": "Jaylon Tyson",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Ankle",
-    "returnDate": "2026-11-16"
-   },
-   {
-    "name": "Peyton Watson",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Abdomen (soreness)",
-    "returnDate": "2026-11-16"
    }
   ],
   "DAL": [
@@ -178,6 +164,13 @@
   ],
   "DET": [
    {
+    "name": "Duncan Robinson",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Quadriceps (strain)",
+    "returnDate": "2026-11-18"
+   },
+   {
     "name": "Isaiah Joe",
     "status": "Out",
     "gameTimeDecision": true,
@@ -192,11 +185,18 @@
     "returnDate": "2026-11-24"
    },
    {
-    "name": "Duncan Robinson",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Thigh (soreness)",
-    "returnDate": "2026-11-17"
+    "name": "Ronald Holland II",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Knee (bruise)",
+    "returnDate": "2026-11-18"
+   },
+   {
+    "name": "Taurean Prince",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Knee (soreness)",
+    "returnDate": "2026-11-18"
    }
   ],
   "GSW": [
@@ -367,9 +367,7 @@
    {
     "name": "Quinten Post",
     "status": "Out",
-    "gameTimeDecision": true,
-    "reason": "Concussion",
-    "returnDate": "2026-11-16"
+    "gameTimeDecision": false
    },
    {
     "name": "Richie Saunders",
@@ -395,25 +393,23 @@
    {
     "name": "Zach Edey",
     "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Ankle",
-    "returnDate": "2026-11-16"
+    "gameTimeDecision": false
    }
   ],
   "MIA": [
    {
     "name": "Nikola Jovic",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
+    "status": "Out",
+    "gameTimeDecision": false,
     "reason": "Illness",
-    "returnDate": "2026-11-16"
+    "returnDate": "2026-11-18"
    },
    {
     "name": "Pelle Larsson",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
+    "status": "Out",
+    "gameTimeDecision": false,
     "reason": "Illness",
-    "returnDate": "2026-11-16"
+    "returnDate": "2026-11-18"
    }
   ],
   "MIL": [
@@ -693,11 +689,6 @@
     "gameTimeDecision": false,
     "reason": "Calf (strain)",
     "returnDate": "2026-12-03"
-   },
-   {
-    "name": "De'Aaron Fox",
-    "status": "Day-To-Day",
-    "gameTimeDecision": false
    }
   ],
   "TOR": [
@@ -746,13 +737,6 @@
     "returnDate": "2027-01-04"
    },
    {
-    "name": "Trey Alexander",
-    "status": "Out",
-    "gameTimeDecision": true,
-    "reason": "Ankle (sprain)",
-    "returnDate": "2026-11-16"
-   },
-   {
     "name": "Jaxson Hayes",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
@@ -788,13 +772,6 @@
     "gameTimeDecision": false,
     "reason": "Hip (pinched nerve)",
     "returnDate": "2026-11-24"
-   },
-   {
-    "name": "Tre Johnson",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Back (soreness)",
-    "returnDate": "2026-11-16"
    }
   ]
  }
