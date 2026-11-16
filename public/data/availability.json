@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-16T16:18:23.530Z",
+ "updatedAt": "2026-11-16T17:23:47.747Z",
  "teams": {
   "ATL": [
    {
@@ -188,13 +188,6 @@
     "gameTimeDecision": true,
     "reason": "Thigh (soreness)",
     "returnDate": "2026-11-17"
-   },
-   {
-    "name": "Ugonna Onyenso",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Foot",
-    "returnDate": "2026-11-14"
    }
   ],
   "GSW": [
@@ -345,8 +338,8 @@
     "name": "GG Jackson",
     "status": "Out",
     "gameTimeDecision": false,
-    "reason": "Foot",
-    "returnDate": "2026-11-18"
+    "reason": "Foot (surgery)",
+    "returnDate": "2027-01-18"
    },
    {
     "name": "Quinten Post",
@@ -367,7 +360,7 @@
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Back (soreness)",
-    "returnDate": "2026-11-21"
+    "returnDate": "2026-11-25"
    },
    {
     "name": "Ty Jerome",
@@ -580,13 +573,6 @@
     "gameTimeDecision": false,
     "reason": "Shoulder (surgery)",
     "returnDate": "2027-02-03"
-   },
-   {
-    "name": "Drew Timme",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Hand",
-    "returnDate": "2026-11-15"
    }
   ],
   "POR": [
