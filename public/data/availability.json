@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-17T22:23:45.994Z",
+ "updatedAt": "2026-11-17T23:23:42.284Z",
  "teams": {
   "ATL": [
    {
@@ -24,34 +24,25 @@
     "returnDate": "2027-07-01"
    },
    {
+    "name": "Jock Landale",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Hip (inflammation)",
+    "returnDate": "2026-11-20"
+   },
+   {
+    "name": "Kingston Flemings",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Back (strain)",
+    "returnDate": "2026-11-20"
+   },
+   {
     "name": "Mouhamed Gueye",
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Foot (fracture)",
     "returnDate": "2026-12-12"
-   },
-   {
-    "name": "Jock Landale",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Hip (inflammation)",
-    "returnDate": "2026-11-18"
-   },
-   {
-    "name": "Kingston Flemings",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Back (strain)",
-    "returnDate": "2026-11-18"
-   }
-  ],
-  "BOS": [
-   {
-    "name": "Neemias Queta",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Rest",
-    "returnDate": "2026-11-18"
    }
   ],
   "CHA": [
@@ -104,9 +95,9 @@
    {
     "name": "Nae'Qwan Tomlin",
     "status": "Out",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Back",
-    "returnDate": "2026-11-18"
+    "returnDate": "2026-11-29"
    },
    {
     "name": "Sam Merrill",
@@ -134,30 +125,23 @@
    {
     "name": "Dereck Lively II",
     "status": "Out",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Foot (surgery)",
-    "returnDate": "2026-11-18"
+    "returnDate": "2026-11-27"
    },
    {
     "name": "Sergio de Larrea",
     "status": "Out",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Knee (strain)",
-    "returnDate": "2026-11-18"
+    "returnDate": "2026-11-27"
    },
    {
     "name": "Tarik Biberovic",
     "status": "Out",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Heel (inflammation)",
-    "returnDate": "2026-11-18"
-   },
-   {
-    "name": "Kyrie Irving",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Knee",
-    "returnDate": "2026-11-18"
+    "returnDate": "2026-11-30"
    },
    {
     "name": "Max Christie",
@@ -168,6 +152,20 @@
    },
    {
     "name": "Santi Aldama",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Ankle (sprain)",
+    "returnDate": "2026-11-18"
+   },
+   {
+    "name": "Tobi Lawal",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Groin",
+    "returnDate": "2026-11-18"
+   },
+   {
+    "name": "Walter Clayton Jr.",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Ankle (sprain)",
@@ -314,6 +312,13 @@
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Hip (soreness)",
+    "returnDate": "2026-11-18"
+   },
+   {
+    "name": "T.J. McConnell",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Hamstring",
     "returnDate": "2026-11-18"
    }
   ],
@@ -708,7 +713,7 @@
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Knee (inflammation)",
-    "returnDate": "2026-11-23"
+    "returnDate": "2026-11-27"
    },
    {
     "name": "Nate Bittle",
@@ -723,13 +728,6 @@
     "gameTimeDecision": true,
     "reason": "Illness",
     "returnDate": "2026-11-20"
-   },
-   {
-    "name": "Scottie Barnes",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Illness",
-    "returnDate": "2026-11-17"
    }
   ],
   "UTA": [
