@@ -420,23 +420,23 @@
    "conference": "West",
    "division": "Northwest",
    "wins": 7,
-   "losses": 4,
+   "losses": 5,
    "divisionRank": 4,
    "conferenceRank": 8,
-   "divisionGamesBehind": 1.5,
+   "divisionGamesBehind": 2,
    "home": {
     "wins": 2,
-    "losses": 2
+    "losses": 3
    },
    "road": {
     "wins": 5,
     "losses": 2
    },
    "lastTen": {
-    "wins": 7,
-    "losses": 3
+    "wins": 6,
+    "losses": 4
    },
-   "streak": "W2"
+   "streak": "L1"
   },
   "UTA": {
    "abbr": "UTA",
@@ -511,24 +511,24 @@
    "abbr": "PHX",
    "conference": "West",
    "division": "Pacific",
-   "wins": 5,
+   "wins": 6,
    "losses": 7,
    "divisionRank": 3,
    "conferenceRank": 11,
-   "divisionGamesBehind": 6,
+   "divisionGamesBehind": 5.5,
    "home": {
     "wins": 5,
     "losses": 4
    },
    "road": {
-    "wins": 0,
+    "wins": 1,
     "losses": 3
    },
    "lastTen": {
-    "wins": 4,
-    "losses": 6
+    "wins": 5,
+    "losses": 5
    },
-   "streak": "L1"
+   "streak": "W1"
   },
   "LAC": {
    "abbr": "LAC",
