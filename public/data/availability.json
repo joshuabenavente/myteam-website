@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-16T23:23:33.523Z",
+ "updatedAt": "2026-11-17T00:23:54.194Z",
  "teams": {
   "ATL": [
    {
@@ -245,6 +245,13 @@
   ],
   "HOU": [
    {
+    "name": "Amen Thompson",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Knee (soreness)",
+    "returnDate": "2026-11-18"
+   },
+   {
     "name": "Clint Capela",
     "status": "Out",
     "gameTimeDecision": false,
@@ -257,13 +264,6 @@
     "gameTimeDecision": false,
     "reason": "Calf",
     "returnDate": "2026-11-18"
-   },
-   {
-    "name": "Amen Thompson",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Knee (soreness)",
-    "returnDate": "2026-11-16"
    },
    {
     "name": "Julian Phillips",
@@ -365,11 +365,6 @@
     "returnDate": "2026-11-18"
    },
    {
-    "name": "Quinten Post",
-    "status": "Out",
-    "gameTimeDecision": false
-   },
-   {
     "name": "Richie Saunders",
     "status": "Out",
     "gameTimeDecision": false,
@@ -389,11 +384,6 @@
     "gameTimeDecision": false,
     "reason": "Hip (soreness)",
     "returnDate": "2026-11-18"
-   },
-   {
-    "name": "Zach Edey",
-    "status": "Day-To-Day",
-    "gameTimeDecision": false
    }
   ],
   "MIA": [
@@ -583,13 +573,6 @@
     "gameTimeDecision": false,
     "reason": "Back",
     "returnDate": "2026-11-18"
-   },
-   {
-    "name": "Joel Embiid",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Foot",
-    "returnDate": "2026-11-16"
    }
   ],
   "PHX": [
