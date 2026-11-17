@@ -271,7 +271,11 @@
    "startUtc": "2026-11-17T00:30:00Z",
    "home": true,
    "opponent": "HOU",
-   "status": "scheduled",
+   "status": "live",
+   "score": {
+    "team": 0,
+    "opponent": 0
+   },
    "broadcasts": [
     {
      "name": "WPLG Local 10/Local10+ Platinum",

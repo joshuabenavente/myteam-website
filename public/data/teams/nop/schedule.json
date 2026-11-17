@@ -350,7 +350,11 @@
    "startUtc": "2026-11-17T01:00:00Z",
    "home": true,
    "opponent": "GSW",
-   "status": "scheduled",
+   "status": "live",
+   "score": {
+    "team": 0,
+    "opponent": 0
+   },
    "broadcasts": [
     {
      "name": "GCSEN",

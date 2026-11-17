@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-17T00:23:54.194Z",
+ "updatedAt": "2026-11-17T01:23:40.433Z",
  "teams": {
   "ATL": [
    {
@@ -234,13 +234,6 @@
     "gameTimeDecision": false,
     "reason": "Abdomen",
     "returnDate": "2026-12-12"
-   },
-   {
-    "name": "Gui Santos",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Ankle (inflammation)",
-    "returnDate": "2026-11-16"
    }
   ],
   "HOU": [
@@ -335,18 +328,25 @@
    {
     "name": "Yanic Konan Niederhauser",
     "status": "Out",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Foot (surgery)",
-    "returnDate": "2026-11-17"
+    "returnDate": "2026-11-19"
    }
   ],
   "LAL": [
    {
     "name": "Austin Reaves",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
+    "status": "Out",
+    "gameTimeDecision": false,
     "reason": "Heel (bruise)",
-    "returnDate": "2026-11-17"
+    "returnDate": "2026-11-18"
+   },
+   {
+    "name": "Walker Kessler",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Lower Leg (soreness)",
+    "returnDate": "2026-11-18"
    }
   ],
   "MEM": [
@@ -582,13 +582,6 @@
     "gameTimeDecision": false,
     "reason": "Shoulder (surgery)",
     "returnDate": "2027-02-03"
-   },
-   {
-    "name": "Ryan Dunn",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Thumb (soreness)",
-    "returnDate": "2026-11-16"
    }
   ],
   "POR": [
@@ -706,6 +699,13 @@
     "returnDate": "2026-12-14"
    },
    {
+    "name": "Jaxson Hayes",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Knee (strain)",
+    "returnDate": "2026-11-18"
+   },
+   {
     "name": "Jusuf Nurkic",
     "status": "Out",
     "gameTimeDecision": false,
@@ -718,13 +718,6 @@
     "gameTimeDecision": false,
     "reason": "Hand (fracture)",
     "returnDate": "2027-01-04"
-   },
-   {
-    "name": "Jaxson Hayes",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Knee (strain)",
-    "returnDate": "2026-11-17"
    }
   ],
   "WAS": [
