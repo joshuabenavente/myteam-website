@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-17T20:23:43.860Z",
+ "updatedAt": "2026-11-17T21:23:46.360Z",
  "teams": {
   "ATL": [
    {
@@ -7,7 +7,14 @@
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Toe",
-    "returnDate": "2026-11-20"
+    "returnDate": "2027-03-17"
+   },
+   {
+    "name": "CJ McCollum",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Calf (strain)",
+    "returnDate": "2026-12-19"
    },
    {
     "name": "Henri Veesaar",
@@ -74,22 +81,15 @@
    {
     "name": "Tobe Awaka",
     "status": "Out",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Back",
-    "returnDate": "2026-11-18"
-   },
-   {
-    "name": "Jalen Smith",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Head",
-    "returnDate": "2026-11-18"
+    "returnDate": "2026-11-25"
    },
    {
     "name": "Patrick Williams",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
-    "reason": "Finger",
+    "reason": "Finger (dislocated)",
     "returnDate": "2026-11-18"
    }
   ],
@@ -261,9 +261,9 @@
    {
     "name": "Clint Capela",
     "status": "Out",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Ankle (sprain)",
-    "returnDate": "2026-11-18"
+    "returnDate": "2026-11-20"
    },
    {
     "name": "Amen Thompson",
@@ -278,20 +278,6 @@
     "gameTimeDecision": true,
     "reason": "Wrist",
     "returnDate": "2026-11-17"
-   },
-   {
-    "name": "Marcus Smart",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Suspension",
-    "returnDate": "2026-11-18"
-   },
-   {
-    "name": "Steven Adams",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Calf",
-    "returnDate": "2026-11-18"
    }
   ],
   "IND": [
@@ -485,11 +471,18 @@
   ],
   "NOP": [
    {
+    "name": "Bennedict Mathurin",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Foot (plantar fasciitis)",
+    "returnDate": "2026-11-20"
+   },
+   {
     "name": "Bryce McGowens",
     "status": "Out",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Elbow (infection)",
-    "returnDate": "2026-11-18"
+    "returnDate": "2026-11-20"
    },
    {
     "name": "Dejounte Murray",
@@ -501,23 +494,16 @@
    {
     "name": "Trendon Watford",
     "status": "Out",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Ankle (sprain)",
-    "returnDate": "2026-11-18"
+    "returnDate": "2026-11-20"
    },
    {
     "name": "Trey Murphy III",
     "status": "Out",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Knee (tendinitis)",
-    "returnDate": "2026-11-18"
-   },
-   {
-    "name": "Bennedict Mathurin",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Foot (plantar fasciitis)",
-    "returnDate": "2026-11-18"
+    "returnDate": "2026-11-20"
    }
   ],
   "OKC": [
@@ -561,9 +547,9 @@
    {
     "name": "Izaiyah Nelson",
     "status": "Out",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Ankle (surgery)",
-    "returnDate": "2026-11-18"
+    "returnDate": "2026-11-28"
    },
    {
     "name": "Jonathan Isaac",
