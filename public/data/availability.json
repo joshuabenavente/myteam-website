@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-17T06:23:52.219Z",
+ "updatedAt": "2026-11-17T17:23:33.763Z",
  "teams": {
   "ATL": [
    {
@@ -189,7 +189,7 @@
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Quadriceps (strain)",
-    "returnDate": "2026-11-18"
+    "returnDate": "2026-11-27"
    },
    {
     "name": "Isaiah Joe",
@@ -790,6 +790,13 @@
     "gameTimeDecision": false,
     "reason": "Hip (pinched nerve)",
     "returnDate": "2026-11-24"
+   },
+   {
+    "name": "Felix Okpara",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Back (strain)",
+    "returnDate": "2026-11-18"
    }
   ]
  }
