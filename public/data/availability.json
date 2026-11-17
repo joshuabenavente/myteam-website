@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-17T01:23:40.433Z",
+ "updatedAt": "2026-11-17T02:23:41.404Z",
  "teams": {
   "ATL": [
    {
@@ -77,6 +77,13 @@
     "gameTimeDecision": false,
     "reason": "Back",
     "returnDate": "2026-11-18"
+   },
+   {
+    "name": "Patrick Williams",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Finger",
+    "returnDate": "2026-11-18"
    }
   ],
   "CLE": [
@@ -107,6 +114,13 @@
     "gameTimeDecision": false,
     "reason": "Elbow",
     "returnDate": "2026-11-18"
+   },
+   {
+    "name": "Peyton Watson",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Head",
+    "returnDate": "2026-11-16"
    }
   ],
   "DAL": [
@@ -330,7 +344,7 @@
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Foot (surgery)",
-    "returnDate": "2026-11-19"
+    "returnDate": "2026-11-23"
    }
   ],
   "LAL": [
@@ -400,6 +414,13 @@
     "gameTimeDecision": false,
     "reason": "Illness",
     "returnDate": "2026-11-18"
+   },
+   {
+    "name": "Bam Adebayo",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Hip",
+    "returnDate": "2026-11-16"
    }
   ],
   "MIL": [
