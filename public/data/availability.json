@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-17T18:23:52.159Z",
+ "updatedAt": "2026-11-17T19:23:57.542Z",
  "teams": {
   "ATL": [
    {
@@ -194,9 +194,9 @@
    {
     "name": "Isaiah Joe",
     "status": "Out",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Hip (bruise)",
-    "returnDate": "2026-11-17"
+    "returnDate": "2026-11-18"
    },
    {
     "name": "Jalen Duren",
@@ -314,7 +314,7 @@
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Hamstring (strain)",
-    "returnDate": "2026-11-22"
+    "returnDate": "2026-11-28"
    },
    {
     "name": "Andrew Nembhard",
@@ -470,10 +470,17 @@
    },
    {
     "name": "Jonathan Kuminga",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
+    "status": "Out",
+    "gameTimeDecision": false,
     "reason": "Shoulder",
-    "returnDate": "2026-11-17"
+    "returnDate": "2026-11-19"
+   },
+   {
+    "name": "Zyon Pullin",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Quadriceps (bruise)",
+    "returnDate": "2026-11-19"
    }
   ],
   "NOP": [
@@ -630,9 +637,9 @@
    {
     "name": "Chris Youngblood",
     "status": "Out",
-    "gameTimeDecision": true,
-    "reason": "Foot (bruise)",
-    "returnDate": "2026-11-17"
+    "gameTimeDecision": false,
+    "reason": "Heel (bruise)",
+    "returnDate": "2026-11-19"
    },
    {
     "name": "Ja Morant",
