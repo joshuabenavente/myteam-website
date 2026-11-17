@@ -1,7 +1,7 @@
 {
  "season": "2026-27",
  "lastSeason": "2025-26",
- "updatedAt": "2026-11-17T10:18:47.603Z",
+ "updatedAt": "2026-11-17T16:18:40.653Z",
  "teamGamesPlayed": {
   "regular": 15,
   "playoffs": 0
@@ -24,21 +24,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3908809.png",
    "current": {
     "regular": {
-     "games": 13,
-     "started": 13,
-     "minutes": 429.7,
-     "points": 299,
-     "rebounds": 64,
-     "assists": 73,
-     "steals": 16,
+     "games": 14,
+     "started": 14,
+     "minutes": 465.6,
+     "points": 338,
+     "rebounds": 68,
+     "assists": 77,
+     "steals": 19,
      "blocks": 6,
-     "turnovers": 40,
-     "fgMade": 103,
-     "fgAttempted": 215,
-     "threeMade": 37,
-     "threeAttempted": 97,
-     "ftMade": 56,
-     "ftAttempted": 72
+     "turnovers": 43,
+     "fgMade": 119,
+     "fgAttempted": 240,
+     "threeMade": 39,
+     "threeAttempted": 102,
+     "ftMade": 61,
+     "ftAttempted": 77
     }
    },
    "lastFull": {
@@ -114,21 +114,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3992.png",
    "current": {
     "regular": {
-     "games": 13,
-     "started": 13,
-     "minutes": 427.1,
-     "points": 220,
-     "rebounds": 61,
-     "assists": 75,
-     "steals": 13,
+     "games": 14,
+     "started": 14,
+     "minutes": 461.5,
+     "points": 229,
+     "rebounds": 65,
+     "assists": 85,
+     "steals": 14,
      "blocks": 7,
-     "turnovers": 37,
-     "fgMade": 62,
-     "fgAttempted": 159,
-     "threeMade": 34,
-     "threeAttempted": 91,
-     "ftMade": 62,
-     "ftAttempted": 72
+     "turnovers": 39,
+     "fgMade": 65,
+     "fgAttempted": 169,
+     "threeMade": 36,
+     "threeAttempted": 97,
+     "ftMade": 63,
+     "ftAttempted": 74
     }
    },
    "lastFull": {
@@ -294,21 +294,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4576087.png",
    "current": {
     "regular": {
-     "games": 11,
-     "started": 11,
-     "minutes": 310.3,
-     "points": 114,
-     "rebounds": 50,
+     "games": 12,
+     "started": 12,
+     "minutes": 331.8,
+     "points": 128,
+     "rebounds": 54,
      "assists": 30,
      "steals": 8,
-     "blocks": 17,
-     "turnovers": 18,
-     "fgMade": 43,
-     "fgAttempted": 118,
-     "threeMade": 10,
-     "threeAttempted": 47,
-     "ftMade": 18,
-     "ftAttempted": 26
+     "blocks": 18,
+     "turnovers": 21,
+     "fgMade": 48,
+     "fgAttempted": 128,
+     "threeMade": 12,
+     "threeAttempted": 52,
+     "ftMade": 20,
+     "ftAttempted": 30
     }
    },
    "lastFull": {
@@ -367,21 +367,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4066328.png",
    "current": {
     "regular": {
-     "games": 11,
-     "started": 11,
-     "minutes": 286.1,
-     "points": 138,
-     "rebounds": 91,
-     "assists": 15,
-     "steals": 7,
-     "blocks": 15,
-     "turnovers": 9,
-     "fgMade": 53,
-     "fgAttempted": 82,
+     "games": 12,
+     "started": 12,
+     "minutes": 316.3,
+     "points": 151,
+     "rebounds": 105,
+     "assists": 18,
+     "steals": 8,
+     "blocks": 16,
+     "turnovers": 13,
+     "fgMade": 59,
+     "fgAttempted": 91,
      "threeMade": 3,
      "threeAttempted": 4,
-     "ftMade": 29,
-     "ftAttempted": 41
+     "ftMade": 30,
+     "ftAttempted": 43
     }
    },
    "lastFull": {
@@ -441,42 +441,6 @@
    }
   },
   {
-   "id": "hezonma01",
-   "name": "Mario Hezonja",
-   "number": "33",
-   "position": "PF",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 8\"",
-    "weight": 220,
-    "birthDate": "1995-02-25",
-    "experience": 5,
-    "birthPlace": "Croatia"
-   },
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/2995706.png",
-   "current": {
-    "regular": {
-     "games": 14,
-     "started": 1,
-     "minutes": 270.3,
-     "points": 120,
-     "rebounds": 76,
-     "assists": 22,
-     "steals": 8,
-     "blocks": 3,
-     "turnovers": 14,
-     "fgMade": 49,
-     "fgAttempted": 104,
-     "threeMade": 16,
-     "threeAttempted": 51,
-     "ftMade": 6,
-     "ftAttempted": 10
-    }
-   },
-   "lastFull": {},
-   "lastToDate": {}
-  },
-  {
    "id": "thomame01",
    "name": "Meleek Thomas",
    "number": "15",
@@ -493,21 +457,57 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5041951.png",
    "current": {
     "regular": {
-     "games": 11,
+     "games": 12,
      "started": 3,
-     "minutes": 258.2,
-     "points": 150,
-     "rebounds": 29,
-     "assists": 16,
-     "steals": 12,
+     "minutes": 288.3,
+     "points": 160,
+     "rebounds": 35,
+     "assists": 19,
+     "steals": 14,
      "blocks": 3,
-     "turnovers": 13,
-     "fgMade": 58,
-     "fgAttempted": 119,
-     "threeMade": 29,
-     "threeAttempted": 64,
-     "ftMade": 5,
-     "ftAttempted": 6
+     "turnovers": 14,
+     "fgMade": 62,
+     "fgAttempted": 132,
+     "threeMade": 30,
+     "threeAttempted": 71,
+     "ftMade": 6,
+     "ftAttempted": 8
+    }
+   },
+   "lastFull": {},
+   "lastToDate": {}
+  },
+  {
+   "id": "hezonma01",
+   "name": "Mario Hezonja",
+   "number": "33",
+   "position": "PF",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 8\"",
+    "weight": 220,
+    "birthDate": "1995-02-25",
+    "experience": 5,
+    "birthPlace": "Croatia"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/2995706.png",
+   "current": {
+    "regular": {
+     "games": 15,
+     "started": 1,
+     "minutes": 285.1,
+     "points": 129,
+     "rebounds": 80,
+     "assists": 24,
+     "steals": 9,
+     "blocks": 3,
+     "turnovers": 16,
+     "fgMade": 53,
+     "fgAttempted": 111,
+     "threeMade": 17,
+     "threeAttempted": 54,
+     "ftMade": 6,
+     "ftAttempted": 10
     }
    },
    "lastFull": {},
@@ -530,21 +530,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5023693.png",
    "current": {
     "regular": {
-     "games": 13,
-     "started": 2,
-     "minutes": 249.2,
-     "points": 121,
-     "rebounds": 46,
-     "assists": 37,
-     "steals": 6,
-     "blocks": 0,
-     "turnovers": 6,
-     "fgMade": 44,
-     "fgAttempted": 83,
-     "threeMade": 23,
-     "threeAttempted": 49,
-     "ftMade": 10,
-     "ftAttempted": 13
+     "games": 14,
+     "started": 3,
+     "minutes": 278.1,
+     "points": 138,
+     "rebounds": 49,
+     "assists": 39,
+     "steals": 8,
+     "blocks": 1,
+     "turnovers": 10,
+     "fgMade": 50,
+     "fgAttempted": 96,
+     "threeMade": 25,
+     "threeAttempted": 55,
+     "ftMade": 13,
+     "ftAttempted": 18
     }
    },
    "lastFull": {
@@ -800,17 +800,17 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4701233.png",
    "current": {
     "regular": {
-     "games": 11,
+     "games": 12,
      "started": 0,
-     "minutes": 128.1,
-     "points": 23,
-     "rebounds": 26,
-     "assists": 20,
-     "steals": 4,
+     "minutes": 141.7,
+     "points": 25,
+     "rebounds": 27,
+     "assists": 23,
+     "steals": 6,
      "blocks": 4,
-     "turnovers": 11,
-     "fgMade": 9,
-     "fgAttempted": 17,
+     "turnovers": 12,
+     "fgMade": 10,
+     "fgAttempted": 19,
      "threeMade": 1,
      "threeAttempted": 5,
      "ftMade": 4,
@@ -890,21 +890,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3934723.png",
    "current": {
     "regular": {
-     "games": 8,
+     "games": 9,
      "started": 1,
-     "minutes": 118.5,
-     "points": 80,
-     "rebounds": 25,
-     "assists": 5,
-     "steals": 2,
+     "minutes": 136.3,
+     "points": 89,
+     "rebounds": 30,
+     "assists": 9,
+     "steals": 3,
      "blocks": 2,
      "turnovers": 2,
-     "fgMade": 25,
-     "fgAttempted": 50,
+     "fgMade": 29,
+     "fgAttempted": 54,
      "threeMade": 10,
      "threeAttempted": 25,
-     "ftMade": 20,
-     "ftAttempted": 26
+     "ftMade": 21,
+     "ftAttempted": 27
     }
    },
    "lastFull": {
@@ -962,6 +962,61 @@
      "ftAttempted": 3
     }
    }
+  },
+  {
+   "id": "omierno01",
+   "name": "Norchad Omier",
+   "number": "77",
+   "position": "PF",
+   "twoWay": true,
+   "bio": {
+    "height": "6' 7\"",
+    "weight": 248,
+    "birthDate": "2001-08-28",
+    "experience": 1,
+    "college": "Baylor",
+    "birthPlace": "Bluefields, Nicaragua"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4702134.png",
+   "current": {
+    "regular": {
+     "games": 4,
+     "started": 0,
+     "minutes": 55.1,
+     "points": 17,
+     "rebounds": 19,
+     "assists": 7,
+     "steals": 2,
+     "blocks": 1,
+     "turnovers": 1,
+     "fgMade": 7,
+     "fgAttempted": 10,
+     "threeMade": 1,
+     "threeAttempted": 3,
+     "ftMade": 2,
+     "ftAttempted": 2
+    }
+   },
+   "lastFull": {
+    "regular": {
+     "games": 6,
+     "started": 0,
+     "minutes": 23.8,
+     "points": 17,
+     "rebounds": 7,
+     "assists": 2,
+     "steals": 1,
+     "blocks": 0,
+     "turnovers": 0,
+     "fgMade": 7,
+     "fgAttempted": 10,
+     "threeMade": 0,
+     "threeAttempted": 1,
+     "ftMade": 3,
+     "ftAttempted": 3
+    }
+   },
+   "lastToDate": {}
   },
   {
    "id": "minixri01",
@@ -1035,61 +1090,6 @@
      "ftAttempted": 0
     }
    }
-  },
-  {
-   "id": "omierno01",
-   "name": "Norchad Omier",
-   "number": "77",
-   "position": "PF",
-   "twoWay": true,
-   "bio": {
-    "height": "6' 7\"",
-    "weight": 248,
-    "birthDate": "2001-08-28",
-    "experience": 1,
-    "college": "Baylor",
-    "birthPlace": "Bluefields, Nicaragua"
-   },
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4702134.png",
-   "current": {
-    "regular": {
-     "games": 3,
-     "started": 0,
-     "minutes": 42.2,
-     "points": 13,
-     "rebounds": 13,
-     "assists": 5,
-     "steals": 1,
-     "blocks": 0,
-     "turnovers": 1,
-     "fgMade": 5,
-     "fgAttempted": 6,
-     "threeMade": 1,
-     "threeAttempted": 2,
-     "ftMade": 2,
-     "ftAttempted": 2
-    }
-   },
-   "lastFull": {
-    "regular": {
-     "games": 6,
-     "started": 0,
-     "minutes": 23.8,
-     "points": 17,
-     "rebounds": 7,
-     "assists": 2,
-     "steals": 1,
-     "blocks": 0,
-     "turnovers": 0,
-     "fgMade": 7,
-     "fgAttempted": 10,
-     "threeMade": 0,
-     "threeAttempted": 1,
-     "ftMade": 3,
-     "ftAttempted": 3
-    }
-   },
-   "lastToDate": {}
   },
   {
    "id": "tomlina01",
