@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-17T21:23:46.360Z",
+ "updatedAt": "2026-11-17T22:23:45.994Z",
  "teams": {
   "ATL": [
    {
@@ -126,7 +126,7 @@
     "name": "Peyton Watson",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
-    "reason": "Head",
+    "reason": "Back (bruise)",
     "returnDate": "2026-11-18"
    }
   ],
@@ -255,6 +255,13 @@
     "gameTimeDecision": false,
     "reason": "Abdomen",
     "returnDate": "2026-12-12"
+   },
+   {
+    "name": "Al Horford",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Back",
+    "returnDate": "2026-11-18"
    }
   ],
   "HOU": [
@@ -365,6 +372,13 @@
     "returnDate": "2027-01-18"
    },
    {
+    "name": "Isaiah Stewart",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Illness",
+    "returnDate": "2026-11-19"
+   },
+   {
     "name": "Richie Saunders",
     "status": "Out",
     "gameTimeDecision": false,
@@ -379,33 +393,26 @@
     "returnDate": "2026-11-25"
    },
    {
-    "name": "Isaiah Stewart",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Illness",
-    "returnDate": "2026-11-18"
-   },
-   {
     "name": "Ty Jerome",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Hip (soreness)",
-    "returnDate": "2026-11-18"
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Hip",
+    "returnDate": "2026-11-19"
    }
   ],
   "MIA": [
-   {
-    "name": "Pelle Larsson",
-    "status": "Out",
-    "gameTimeDecision": true,
-    "reason": "Illness",
-    "returnDate": "2026-11-18"
-   },
    {
     "name": "Bam Adebayo",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Hip",
+    "returnDate": "2026-11-18"
+   },
+   {
+    "name": "Myron Gardner",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Hamstring",
     "returnDate": "2026-11-18"
    },
    {
@@ -423,13 +430,6 @@
     "gameTimeDecision": false,
     "reason": "Finger (surgery)",
     "returnDate": "2026-12-14"
-   },
-   {
-    "name": "Ryan Rollins",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Illness",
-    "returnDate": "2026-11-18"
    }
   ],
   "MIN": [
@@ -591,23 +591,16 @@
    {
     "name": "Dominick Barlow",
     "status": "Out",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Back (fracture)",
-    "returnDate": "2026-11-18"
+    "returnDate": "2026-11-21"
    },
    {
     "name": "Jaylen Brown",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
+    "status": "Out",
+    "gameTimeDecision": false,
     "reason": "Hamstring",
-    "returnDate": "2026-11-18"
-   },
-   {
-    "name": "LeBron James",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Back",
-    "returnDate": "2026-11-18"
+    "returnDate": "2026-11-21"
    }
   ],
   "PHX": [
