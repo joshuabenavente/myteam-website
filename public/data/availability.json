@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-18T05:23:38.193Z",
+ "updatedAt": "2026-11-18T06:23:49.443Z",
  "teams": {
   "ATL": [
    {
@@ -266,6 +266,13 @@
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Back",
+    "returnDate": "2026-11-18"
+   },
+   {
+    "name": "Draymond Green",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Elbow (inflammation)",
     "returnDate": "2026-11-18"
    }
   ],
@@ -672,9 +679,9 @@
    {
     "name": "Maxime Raynaud",
     "status": "Out",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Knee (dislocated)",
-    "returnDate": "2026-11-18"
+    "returnDate": "2026-11-25"
    },
    {
     "name": "De'Andre Hunter",
