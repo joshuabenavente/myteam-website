@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-18T17:23:37.647Z",
+ "updatedAt": "2026-11-18T18:23:46.710Z",
  "teams": {
   "ATL": [
    {
@@ -414,25 +414,11 @@
   ],
   "MIA": [
    {
-    "name": "Bam Adebayo",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Hip",
-    "returnDate": "2026-11-18"
-   },
-   {
     "name": "Myron Gardner",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
+    "status": "Out",
+    "gameTimeDecision": false,
     "reason": "Hamstring",
-    "returnDate": "2026-11-18"
-   },
-   {
-    "name": "Nikola Jovic",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Illness",
-    "returnDate": "2026-11-18"
+    "returnDate": "2026-11-22"
    }
   ],
   "MIL": [
@@ -442,6 +428,13 @@
     "gameTimeDecision": false,
     "reason": "Finger (surgery)",
     "returnDate": "2026-12-14"
+   },
+   {
+    "name": "Ryan Rollins",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Illness",
+    "returnDate": "2026-11-19"
    }
   ],
   "MIN": [
@@ -613,6 +606,13 @@
     "gameTimeDecision": false,
     "reason": "Hamstring",
     "returnDate": "2026-11-21"
+   },
+   {
+    "name": "Dean Wade",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Hamstring (soreness)",
+    "returnDate": "2026-11-18"
    }
   ],
   "PHX": [
@@ -730,11 +730,25 @@
     "returnDate": "2026-11-23"
    },
    {
+    "name": "Scottie Barnes",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Groin",
+    "returnDate": "2026-11-20"
+   },
+   {
     "name": "Kevin McCullar Jr.",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Illness",
     "returnDate": "2026-11-20"
+   },
+   {
+    "name": "RJ Barrett",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Hamstring (soreness)",
+    "returnDate": "2026-11-18"
    }
   ],
   "UTA": [
