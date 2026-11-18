@@ -290,7 +290,11 @@
    "startUtc": "2026-11-18T01:00:00Z",
    "home": true,
    "opponent": "DET",
-   "status": "scheduled",
+   "status": "live",
+   "score": {
+    "team": 0,
+    "opponent": 0
+   },
    "broadcasts": [
     {
      "name": "NBC",
