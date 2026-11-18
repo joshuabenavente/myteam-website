@@ -261,7 +261,11 @@
    "startUtc": "2026-11-18T04:00:00Z",
    "home": false,
    "opponent": "LAL",
-   "status": "scheduled",
+   "status": "live",
+   "score": {
+    "team": 0,
+    "opponent": 0
+   },
    "broadcasts": [
     {
      "name": "NBC",

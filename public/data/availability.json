@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-18T04:23:44.727Z",
+ "updatedAt": "2026-11-18T05:23:38.193Z",
  "teams": {
   "ATL": [
    {
@@ -693,13 +693,6 @@
   ],
   "SAS": [
    {
-    "name": "Dylan Harper",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Undisclosed",
-    "returnDate": "2026-11-19"
-   },
-   {
     "name": "Jayden Quaintance",
     "status": "Out",
     "gameTimeDecision": false,
@@ -712,6 +705,13 @@
     "gameTimeDecision": false,
     "reason": "Calf (strain)",
     "returnDate": "2026-12-03"
+   },
+   {
+    "name": "Dylan Harper",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Undisclosed",
+    "returnDate": "2026-11-19"
    }
   ],
   "TOR": [
