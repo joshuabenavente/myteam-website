@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-18T18:23:46.710Z",
+ "updatedAt": "2026-11-18T19:23:44.955Z",
  "teams": {
   "ATL": [
    {
@@ -100,6 +100,13 @@
     "returnDate": "2026-11-29"
    },
    {
+    "name": "Jaylon Tyson",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Ankle",
+    "returnDate": "2026-11-20"
+   },
+   {
     "name": "Nae'Qwan Tomlin",
     "status": "Out",
     "gameTimeDecision": false,
@@ -111,13 +118,6 @@
     "status": "Out",
     "gameTimeDecision": true,
     "reason": "Elbow",
-    "returnDate": "2026-11-18"
-   },
-   {
-    "name": "Jaylon Tyson",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Ankle",
     "returnDate": "2026-11-18"
    },
    {
@@ -212,13 +212,20 @@
    },
    {
     "name": "Ronald Holland II",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
+    "status": "Out",
+    "gameTimeDecision": false,
     "reason": "Knee (bruise)",
-    "returnDate": "2026-11-18"
+    "returnDate": "2026-11-20"
    },
    {
     "name": "Taurean Prince",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Knee (soreness)",
+    "returnDate": "2026-11-20"
+   },
+   {
+    "name": "Cade Cunningham",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Knee (soreness)",
