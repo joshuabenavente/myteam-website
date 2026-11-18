@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-18T06:23:49.443Z",
+ "updatedAt": "2026-11-18T15:23:40.020Z",
  "teams": {
   "ATL": [
    {
@@ -54,18 +54,18 @@
     "returnDate": "2026-11-25"
    },
    {
-    "name": "Grayson Allen",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Concussion",
-    "returnDate": "2026-11-20"
-   },
-   {
     "name": "Kon Knueppel",
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Hamstring (strain)",
     "returnDate": "2026-12-12"
+   },
+   {
+    "name": "Grayson Allen",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Concussion",
+    "returnDate": "2026-11-20"
    }
   ],
   "CHI": [
@@ -199,7 +199,7 @@
    {
     "name": "Isaiah Joe",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Hip (bruise)",
     "returnDate": "2026-11-18"
    },
@@ -212,15 +212,15 @@
    },
    {
     "name": "Ronald Holland II",
-    "status": "Out",
-    "gameTimeDecision": false,
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
     "reason": "Knee (bruise)",
     "returnDate": "2026-11-18"
    },
    {
     "name": "Taurean Prince",
-    "status": "Out",
-    "gameTimeDecision": false,
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
     "reason": "Knee (soreness)",
     "returnDate": "2026-11-18"
    }
@@ -347,7 +347,7 @@
    {
     "name": "Brandon Ingram",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Achilles (surgery)",
     "returnDate": "2026-11-19"
    },
@@ -369,15 +369,15 @@
   "LAL": [
    {
     "name": "Austin Reaves",
-    "status": "Out",
-    "gameTimeDecision": false,
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
     "reason": "Heel (bruise)",
     "returnDate": "2026-11-18"
    },
    {
     "name": "Walker Kessler",
-    "status": "Out",
-    "gameTimeDecision": false,
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
     "reason": "Lower Leg (soreness)",
     "returnDate": "2026-11-18"
    }
@@ -475,15 +475,15 @@
    },
    {
     "name": "Jonathan Kuminga",
-    "status": "Out",
-    "gameTimeDecision": false,
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
     "reason": "Shoulder",
     "returnDate": "2026-11-19"
    },
    {
     "name": "Zyon Pullin",
-    "status": "Out",
-    "gameTimeDecision": false,
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
     "reason": "Quadriceps (bruise)",
     "returnDate": "2026-11-19"
    }
@@ -635,15 +635,8 @@
    {
     "name": "Chris Youngblood",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Heel (bruise)",
-    "returnDate": "2026-11-19"
-   },
-   {
-    "name": "Deni Avdija",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Foot",
     "returnDate": "2026-11-19"
    },
    {
@@ -666,6 +659,13 @@
     "gameTimeDecision": false,
     "reason": "Ankle",
     "returnDate": "2027-01-12"
+   },
+   {
+    "name": "Deni Avdija",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Foot",
+    "returnDate": "2026-11-19"
    }
   ],
   "SAC": [
@@ -753,13 +753,6 @@
     "returnDate": "2026-12-14"
    },
    {
-    "name": "Jaxson Hayes",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Knee (strain)",
-    "returnDate": "2026-11-18"
-   },
-   {
     "name": "Jusuf Nurkic",
     "status": "Out",
     "gameTimeDecision": false,
@@ -772,6 +765,13 @@
     "gameTimeDecision": false,
     "reason": "Hand (fracture)",
     "returnDate": "2027-01-04"
+   },
+   {
+    "name": "Jaxson Hayes",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Knee (strain)",
+    "returnDate": "2026-11-18"
    }
   ],
   "WAS": [
