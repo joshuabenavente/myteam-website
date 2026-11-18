@@ -345,7 +345,11 @@
    "startUtc": "2026-11-18T03:30:00Z",
    "home": false,
    "opponent": "LAC",
-   "status": "scheduled",
+   "status": "live",
+   "score": {
+    "team": 0,
+    "opponent": 0
+   },
    "broadcasts": [
     {
      "name": "KJZZ",
