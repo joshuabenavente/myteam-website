@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-18T21:23:38.870Z",
+ "updatedAt": "2026-11-18T23:23:40.411Z",
  "teams": {
   "ATL": [
    {
@@ -82,13 +82,6 @@
     "gameTimeDecision": false,
     "reason": "Back",
     "returnDate": "2026-11-25"
-   },
-   {
-    "name": "Patrick Williams",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Finger (dislocated)",
-    "returnDate": "2026-11-18"
    }
   ],
   "CLE": [
@@ -114,18 +107,11 @@
     "returnDate": "2026-11-29"
    },
    {
-    "name": "Sam Merrill",
-    "status": "Out",
-    "gameTimeDecision": true,
-    "reason": "Elbow",
-    "returnDate": "2026-11-18"
-   },
-   {
     "name": "Peyton Watson",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
+    "status": "Out",
+    "gameTimeDecision": false,
     "reason": "Back (bruise)",
-    "returnDate": "2026-11-18"
+    "returnDate": "2026-11-20"
    }
   ],
   "DAL": [
@@ -290,16 +276,16 @@
     "gameTimeDecision": false,
     "reason": "Ankle (sprain)",
     "returnDate": "2026-11-20"
-   },
-   {
-    "name": "Amen Thompson",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Knee (soreness)",
-    "returnDate": "2026-11-18"
    }
   ],
   "IND": [
+   {
+    "name": "Andrew Nembhard",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Hip (soreness)",
+    "returnDate": "2026-11-20"
+   },
    {
     "name": "Ben Sheppard",
     "status": "Out",
@@ -320,20 +306,6 @@
     "gameTimeDecision": false,
     "reason": "Hamstring (strain)",
     "returnDate": "2026-11-28"
-   },
-   {
-    "name": "Andrew Nembhard",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Hip (soreness)",
-    "returnDate": "2026-11-18"
-   },
-   {
-    "name": "T.J. McConnell",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Hamstring",
-    "returnDate": "2026-11-18"
    }
   ],
   "LAC": [
@@ -347,9 +319,9 @@
    {
     "name": "Brandon Ingram",
     "status": "Out",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Achilles (surgery)",
-    "returnDate": "2026-11-19"
+    "returnDate": "2026-11-21"
    },
    {
     "name": "Jordan Miller",
@@ -357,13 +329,6 @@
     "gameTimeDecision": false,
     "reason": "Shoulder (surgery)",
     "returnDate": "2027-03-02"
-   },
-   {
-    "name": "Yanic Konan Niederhauser",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Foot (surgery)",
-    "returnDate": "2026-11-23"
    }
   ],
   "LAL": [
@@ -613,6 +578,13 @@
     "gameTimeDecision": true,
     "reason": "Hamstring (soreness)",
     "returnDate": "2026-11-18"
+   },
+   {
+    "name": "Tyrese Maxey",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Foot (soreness)",
+    "returnDate": "2026-11-18"
    }
   ],
   "PHX": [
@@ -640,6 +612,13 @@
     "returnDate": "2026-12-01"
    },
    {
+    "name": "Robert Williams III",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Rest",
+    "returnDate": "2026-11-21"
+   },
+   {
     "name": "Shaedon Sharpe",
     "status": "Out",
     "gameTimeDecision": false,
@@ -658,6 +637,13 @@
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Foot",
+    "returnDate": "2026-11-19"
+   },
+   {
+    "name": "Toumani Camara",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Rest",
     "returnDate": "2026-11-19"
    }
   ],
@@ -679,6 +665,13 @@
   ],
   "SAS": [
    {
+    "name": "Dylan Harper",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Undisclosed",
+    "returnDate": "2026-11-21"
+   },
+   {
     "name": "Jayden Quaintance",
     "status": "Out",
     "gameTimeDecision": false,
@@ -691,13 +684,6 @@
     "gameTimeDecision": false,
     "reason": "Calf (strain)",
     "returnDate": "2026-12-03"
-   },
-   {
-    "name": "Dylan Harper",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Undisclosed",
-    "returnDate": "2026-11-19"
    }
   ],
   "TOR": [
@@ -716,18 +702,18 @@
     "returnDate": "2026-11-23"
    },
    {
+    "name": "RJ Barrett",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Hamstring (soreness)",
+    "returnDate": "2026-11-20"
+   },
+   {
     "name": "Scottie Barnes",
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Groin",
     "returnDate": "2026-11-20"
-   },
-   {
-    "name": "RJ Barrett",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Hamstring (soreness)",
-    "returnDate": "2026-11-18"
    }
   ],
   "UTA": [
