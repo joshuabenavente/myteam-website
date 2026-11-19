@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-19T20:23:59.686Z",
+ "updatedAt": "2026-11-19T21:23:39.165Z",
  "teams": {
   "ATL": [
    {
@@ -48,10 +48,10 @@
   "BKN": [
    {
     "name": "Grant Nelson",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
+    "status": "Out",
+    "gameTimeDecision": false,
     "reason": "Ankle (sprain)",
-    "returnDate": "2026-11-24"
+    "returnDate": "2026-11-23"
    }
   ],
   "CHA": [
@@ -452,16 +452,16 @@
    {
     "name": "Bennedict Mathurin",
     "status": "Out",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Foot (plantar fasciitis)",
-    "returnDate": "2026-11-20"
+    "returnDate": "2026-11-27"
    },
    {
     "name": "Bryce McGowens",
     "status": "Out",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Elbow (infection)",
-    "returnDate": "2026-11-20"
+    "returnDate": "2026-11-27"
    },
    {
     "name": "Dejounte Murray",
@@ -473,9 +473,9 @@
    {
     "name": "Trendon Watford",
     "status": "Out",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Ankle (sprain)",
-    "returnDate": "2026-11-20"
+    "returnDate": "2026-11-27"
    },
    {
     "name": "Trey Murphy III",
@@ -711,17 +711,17 @@
     "returnDate": "2026-11-23"
    },
    {
+    "name": "RJ Barrett",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Hamstring (strain)",
+    "returnDate": "2026-12-13"
+   },
+   {
     "name": "Collin Murray-Boyles",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Illness",
-    "returnDate": "2026-11-20"
-   },
-   {
-    "name": "RJ Barrett",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Hamstring (soreness)",
     "returnDate": "2026-11-20"
    },
    {
