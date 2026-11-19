@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-18T23:23:40.411Z",
+ "updatedAt": "2026-11-19T00:23:58.706Z",
  "teams": {
   "ATL": [
    {
@@ -137,32 +137,11 @@
     "returnDate": "2026-11-27"
    },
    {
-    "name": "Max Christie",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Ankle (sprain)",
-    "returnDate": "2026-11-18"
-   },
-   {
-    "name": "Santi Aldama",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Ankle (sprain)",
-    "returnDate": "2026-11-18"
-   },
-   {
     "name": "Tobi Lawal",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
+    "status": "Out",
+    "gameTimeDecision": false,
     "reason": "Groin",
-    "returnDate": "2026-11-18"
-   },
-   {
-    "name": "Walter Clayton Jr.",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Ankle (sprain)",
-    "returnDate": "2026-11-18"
+    "returnDate": "2026-11-21"
    }
   ],
   "DEN": [
@@ -220,6 +199,13 @@
   ],
   "GSW": [
    {
+    "name": "Al Horford",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Back",
+    "returnDate": "2026-11-19"
+   },
+   {
     "name": "Brandon Williams",
     "status": "Out",
     "gameTimeDecision": false,
@@ -253,20 +239,6 @@
     "gameTimeDecision": false,
     "reason": "Abdomen",
     "returnDate": "2026-12-12"
-   },
-   {
-    "name": "Al Horford",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Back",
-    "returnDate": "2026-11-18"
-   },
-   {
-    "name": "Draymond Green",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Elbow (inflammation)",
-    "returnDate": "2026-11-18"
    }
   ],
   "HOU": [
@@ -321,7 +293,7 @@
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Achilles (surgery)",
-    "returnDate": "2026-11-21"
+    "returnDate": "2026-11-19"
    },
    {
     "name": "Jordan Miller",
@@ -499,13 +471,6 @@
     "returnDate": "2027-03-02"
    },
    {
-    "name": "Jaylin Williams",
-    "status": "Out",
-    "gameTimeDecision": true,
-    "reason": "Back (spasms)",
-    "returnDate": "2026-11-18"
-   },
-   {
     "name": "Thomas Sorber",
     "status": "Out",
     "gameTimeDecision": false,
@@ -559,6 +524,13 @@
     "returnDate": "2027-10-01"
    },
    {
+    "name": "Dean Wade",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Hamstring (soreness)",
+    "returnDate": "2026-11-21"
+   },
+   {
     "name": "Dominick Barlow",
     "status": "Out",
     "gameTimeDecision": false,
@@ -573,18 +545,11 @@
     "returnDate": "2026-11-21"
    },
    {
-    "name": "Dean Wade",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Hamstring (soreness)",
-    "returnDate": "2026-11-18"
-   },
-   {
     "name": "Tyrese Maxey",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
+    "status": "Out",
+    "gameTimeDecision": false,
     "reason": "Foot (soreness)",
-    "returnDate": "2026-11-18"
+    "returnDate": "2026-11-21"
    }
   ],
   "PHX": [
@@ -668,7 +633,7 @@
     "name": "Dylan Harper",
     "status": "Out",
     "gameTimeDecision": false,
-    "reason": "Undisclosed",
+    "reason": "Hip (soreness)",
     "returnDate": "2026-11-21"
    },
    {

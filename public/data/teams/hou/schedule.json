@@ -304,7 +304,11 @@
    "startUtc": "2026-11-19T00:00:00Z",
    "home": false,
    "opponent": "IND",
-   "status": "scheduled",
+   "status": "live",
+   "score": {
+    "team": 0,
+    "opponent": 0
+   },
    "broadcasts": [
     {
      "name": "SCHN/SCHN+",
