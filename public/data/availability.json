@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-19T22:23:39.939Z",
+ "updatedAt": "2026-11-19T23:23:40.898Z",
  "teams": {
   "ATL": [
    {
@@ -61,6 +61,13 @@
     "gameTimeDecision": false,
     "reason": "Hamstring (strain)",
     "returnDate": "2026-11-25"
+   },
+   {
+    "name": "Grant Williams",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Hamstring",
+    "returnDate": "2026-11-23"
    },
    {
     "name": "Grayson Allen",
@@ -275,9 +282,9 @@
    {
     "name": "Clint Capela",
     "status": "Out",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Ankle (sprain)",
-    "returnDate": "2026-11-20"
+    "returnDate": "2026-11-23"
    },
    {
     "name": "Alperen Sengun",
