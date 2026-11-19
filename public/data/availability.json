@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-19T01:23:44.498Z",
+ "updatedAt": "2026-11-19T02:23:42.445Z",
  "teams": {
   "ATL": [
    {
@@ -246,8 +246,8 @@
     "name": "Alperen Sengun",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
-    "reason": "Face",
-    "returnDate": "2026-11-18"
+    "reason": "Eye",
+    "returnDate": "2026-11-20"
    }
   ],
   "IND": [
@@ -679,6 +679,13 @@
     "gameTimeDecision": false,
     "reason": "Groin",
     "returnDate": "2026-11-20"
+   },
+   {
+    "name": "Collin Murray-Boyles",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Illness",
+    "returnDate": "2026-11-20"
    }
   ],
   "UTA": [
@@ -702,13 +709,6 @@
     "gameTimeDecision": false,
     "reason": "Hand (fracture)",
     "returnDate": "2027-01-04"
-   },
-   {
-    "name": "Jaxson Hayes",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Knee (strain)",
-    "returnDate": "2026-11-18"
    }
   ],
   "WAS": [
