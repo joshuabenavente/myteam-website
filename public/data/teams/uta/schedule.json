@@ -369,7 +369,11 @@
    "startUtc": "2026-11-19T03:00:00Z",
    "home": false,
    "opponent": "LAL",
-   "status": "scheduled",
+   "status": "live",
+   "score": {
+    "team": 0,
+    "opponent": 0
+   },
    "broadcasts": [
     {
      "name": "KJZZ",
