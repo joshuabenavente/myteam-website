@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-19T21:23:39.165Z",
+ "updatedAt": "2026-11-19T22:23:39.939Z",
  "teams": {
   "ATL": [
    {
@@ -24,18 +24,18 @@
     "returnDate": "2027-07-01"
    },
    {
+    "name": "Jock Landale",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Hip (inflammation)",
+    "returnDate": "2026-11-22"
+   },
+   {
     "name": "Mouhamed Gueye",
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Foot (fracture)",
     "returnDate": "2026-12-12"
-   },
-   {
-    "name": "Jock Landale",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Hip (inflammation)",
-    "returnDate": "2026-11-20"
    },
    {
     "name": "Kingston Flemings",
@@ -63,18 +63,18 @@
     "returnDate": "2026-11-25"
    },
    {
+    "name": "Grayson Allen",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Concussion",
+    "returnDate": "2026-11-23"
+   },
+   {
     "name": "Kon Knueppel",
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Hamstring (strain)",
     "returnDate": "2026-12-12"
-   },
-   {
-    "name": "Grayson Allen",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Concussion",
-    "returnDate": "2026-11-20"
    }
   ],
   "CHI": [
@@ -91,6 +91,13 @@
     "gameTimeDecision": false,
     "reason": "Back",
     "returnDate": "2026-11-25"
+   },
+   {
+    "name": "Noa Essengue",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Wrist (soreness)",
+    "returnDate": "2026-11-20"
    }
   ],
   "CLE": [
@@ -102,18 +109,18 @@
     "returnDate": "2026-11-29"
    },
    {
+    "name": "Jaylon Tyson",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Ankle",
+    "returnDate": "2026-11-23"
+   },
+   {
     "name": "Nae'Qwan Tomlin",
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Back",
     "returnDate": "2026-11-29"
-   },
-   {
-    "name": "Jaylon Tyson",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Ankle",
-    "returnDate": "2026-11-20"
    },
    {
     "name": "Peyton Watson",
@@ -171,6 +178,13 @@
     "returnDate": "2026-11-27"
    },
    {
+    "name": "Ebuka Okorie",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Oblique (strain)",
+    "returnDate": "2026-11-22"
+   },
+   {
     "name": "Jalen Duren",
     "status": "Out",
     "gameTimeDecision": false,
@@ -178,21 +192,21 @@
     "returnDate": "2026-11-24"
    },
    {
-    "name": "Cade Cunningham",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Knee (soreness)",
-    "returnDate": "2026-11-20"
-   },
-   {
     "name": "Ronald Holland II",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
+    "status": "Out",
+    "gameTimeDecision": false,
     "reason": "Knee (bruise)",
-    "returnDate": "2026-11-20"
+    "returnDate": "2026-11-22"
    },
    {
     "name": "Taurean Prince",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Knee (surgery)",
+    "returnDate": "2026-12-13"
+   },
+   {
+    "name": "Cade Cunningham",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Knee (soreness)",
@@ -307,6 +321,13 @@
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Ankle (sprain)",
+    "returnDate": "2026-11-20"
+   },
+   {
+    "name": "T.J. McConnell",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Hamstring (strain)",
     "returnDate": "2026-11-20"
    }
   ],
@@ -697,6 +718,13 @@
   ],
   "TOR": [
    {
+    "name": "Collin Murray-Boyles",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Concussion",
+    "returnDate": "2026-11-23"
+   },
+   {
     "name": "Kawhi Leonard",
     "status": "Out",
     "gameTimeDecision": false,
@@ -716,20 +744,6 @@
     "gameTimeDecision": false,
     "reason": "Hamstring (strain)",
     "returnDate": "2026-12-13"
-   },
-   {
-    "name": "Collin Murray-Boyles",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Illness",
-    "returnDate": "2026-11-20"
-   },
-   {
-    "name": "Scottie Barnes",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Groin",
-    "returnDate": "2026-11-20"
    }
   ],
   "UTA": [
