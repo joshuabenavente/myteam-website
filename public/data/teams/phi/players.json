@@ -1,7 +1,7 @@
 {
  "season": "2026-27",
  "lastSeason": "2025-26",
- "updatedAt": "2026-11-19T09:18:44.228Z",
+ "updatedAt": "2026-11-19T15:18:45.130Z",
  "teamGamesPlayed": {
   "regular": 16,
   "playoffs": 0
@@ -98,6 +98,96 @@
    }
   },
   {
+   "id": "edgecvj01",
+   "name": "VJ Edgecombe",
+   "number": "77",
+   "position": "SG",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 5\"",
+    "weight": 180,
+    "birthDate": "2005-07-30",
+    "experience": 1,
+    "college": "Baylor",
+    "birthPlace": "Bimini, Bahamas"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5124612.png",
+   "current": {
+    "regular": {
+     "games": 15,
+     "started": 15,
+     "minutes": 511.4,
+     "points": 204,
+     "rebounds": 98,
+     "assists": 58,
+     "steals": 25,
+     "blocks": 6,
+     "turnovers": 20,
+     "fgMade": 80,
+     "fgAttempted": 172,
+     "threeMade": 25,
+     "threeAttempted": 74,
+     "ftMade": 19,
+     "ftAttempted": 25
+    }
+   },
+   "lastFull": {
+    "regular": {
+     "games": 75,
+     "started": 75,
+     "minutes": 2623.2,
+     "points": 1199,
+     "rebounds": 423,
+     "assists": 315,
+     "steals": 107,
+     "blocks": 39,
+     "turnovers": 137,
+     "fgMade": 451,
+     "fgAttempted": 1030,
+     "threeMade": 149,
+     "threeAttempted": 421,
+     "ftMade": 148,
+     "ftAttempted": 181
+    },
+    "playoffs": {
+     "games": 11,
+     "started": 11,
+     "minutes": 407.3,
+     "points": 154,
+     "rebounds": 67,
+     "assists": 37,
+     "steals": 11,
+     "blocks": 4,
+     "turnovers": 18,
+     "fgMade": 60,
+     "fgAttempted": 145,
+     "threeMade": 21,
+     "threeAttempted": 72,
+     "ftMade": 13,
+     "ftAttempted": 18
+    }
+   },
+   "lastToDate": {
+    "regular": {
+     "games": 15,
+     "started": 15,
+     "minutes": 560.5,
+     "points": 234,
+     "rebounds": 90,
+     "assists": 63,
+     "steals": 19,
+     "blocks": 7,
+     "turnovers": 29,
+     "fgMade": 88,
+     "fgAttempted": 216,
+     "threeMade": 30,
+     "threeAttempted": 82,
+     "ftMade": 28,
+     "ftAttempted": 38
+    }
+   }
+  },
+  {
    "id": "brownja02",
    "name": "Jaylen Brown",
    "number": "7",
@@ -188,96 +278,6 @@
    }
   },
   {
-   "id": "edgecvj01",
-   "name": "VJ Edgecombe",
-   "number": "77",
-   "position": "SG",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 5\"",
-    "weight": 180,
-    "birthDate": "2005-07-30",
-    "experience": 1,
-    "college": "Baylor",
-    "birthPlace": "Bimini, Bahamas"
-   },
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5124612.png",
-   "current": {
-    "regular": {
-     "games": 14,
-     "started": 14,
-     "minutes": 468.1,
-     "points": 180,
-     "rebounds": 90,
-     "assists": 52,
-     "steals": 23,
-     "blocks": 6,
-     "turnovers": 16,
-     "fgMade": 72,
-     "fgAttempted": 157,
-     "threeMade": 21,
-     "threeAttempted": 65,
-     "ftMade": 15,
-     "ftAttempted": 21
-    }
-   },
-   "lastFull": {
-    "regular": {
-     "games": 75,
-     "started": 75,
-     "minutes": 2623.2,
-     "points": 1199,
-     "rebounds": 423,
-     "assists": 315,
-     "steals": 107,
-     "blocks": 39,
-     "turnovers": 137,
-     "fgMade": 451,
-     "fgAttempted": 1030,
-     "threeMade": 149,
-     "threeAttempted": 421,
-     "ftMade": 148,
-     "ftAttempted": 181
-    },
-    "playoffs": {
-     "games": 11,
-     "started": 11,
-     "minutes": 407.3,
-     "points": 154,
-     "rebounds": 67,
-     "assists": 37,
-     "steals": 11,
-     "blocks": 4,
-     "turnovers": 18,
-     "fgMade": 60,
-     "fgAttempted": 145,
-     "threeMade": 21,
-     "threeAttempted": 72,
-     "ftMade": 13,
-     "ftAttempted": 18
-    }
-   },
-   "lastToDate": {
-    "regular": {
-     "games": 15,
-     "started": 15,
-     "minutes": 560.5,
-     "points": 234,
-     "rebounds": 90,
-     "assists": 63,
-     "steals": 19,
-     "blocks": 7,
-     "turnovers": 29,
-     "fgMade": 88,
-     "fgAttempted": 216,
-     "threeMade": 30,
-     "threeAttempted": 82,
-     "ftMade": 28,
-     "ftAttempted": 38
-    }
-   }
-  },
-  {
    "id": "embiijo01",
    "name": "Joel Embiid",
    "number": "21",
@@ -294,21 +294,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3059318.png",
    "current": {
     "regular": {
-     "games": 12,
-     "started": 12,
-     "minutes": 378.9,
-     "points": 234,
-     "rebounds": 102,
-     "assists": 42,
-     "steals": 9,
-     "blocks": 10,
-     "turnovers": 35,
-     "fgMade": 74,
-     "fgAttempted": 185,
+     "games": 13,
+     "started": 13,
+     "minutes": 415.1,
+     "points": 260,
+     "rebounds": 108,
+     "assists": 49,
+     "steals": 11,
+     "blocks": 13,
+     "turnovers": 38,
+     "fgMade": 81,
+     "fgAttempted": 203,
      "threeMade": 6,
-     "threeAttempted": 40,
-     "ftMade": 80,
-     "ftAttempted": 90
+     "threeAttempted": 41,
+     "ftMade": 92,
+     "ftAttempted": 104
     }
    },
    "lastFull": {
@@ -383,21 +383,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/1966.png",
    "current": {
     "regular": {
-     "games": 11,
-     "started": 11,
-     "minutes": 358.6,
-     "points": 166,
-     "rebounds": 79,
-     "assists": 76,
+     "games": 12,
+     "started": 12,
+     "minutes": 389.9,
+     "points": 188,
+     "rebounds": 82,
+     "assists": 82,
      "steals": 13,
      "blocks": 8,
-     "turnovers": 29,
-     "fgMade": 62,
-     "fgAttempted": 140,
-     "threeMade": 9,
-     "threeAttempted": 40,
-     "ftMade": 33,
-     "ftAttempted": 46
+     "turnovers": 30,
+     "fgMade": 70,
+     "fgAttempted": 156,
+     "threeMade": 10,
+     "threeAttempted": 45,
+     "ftMade": 38,
+     "ftAttempted": 52
     }
    },
    "lastFull": {
@@ -453,6 +453,151 @@
      "threeAttempted": 7,
      "ftMade": 2,
      "ftAttempted": 6
+    }
+   }
+  },
+  {
+   "id": "caldwke01",
+   "name": "Kentavious Caldwell-Pope",
+   "number": "1",
+   "position": "SF",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 5\"",
+    "weight": 213,
+    "birthDate": "1993-02-18",
+    "experience": 13,
+    "college": "Georgia",
+    "birthPlace": "Thomaston, GA"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/2581018.png",
+   "current": {
+    "regular": {
+     "games": 16,
+     "started": 2,
+     "minutes": 370.4,
+     "points": 91,
+     "rebounds": 48,
+     "assists": 26,
+     "steals": 13,
+     "blocks": 6,
+     "turnovers": 6,
+     "fgMade": 30,
+     "fgAttempted": 67,
+     "threeMade": 22,
+     "threeAttempted": 50,
+     "ftMade": 9,
+     "ftAttempted": 10
+    }
+   },
+   "lastFull": {
+    "regular": {
+     "games": 51,
+     "started": 14,
+     "minutes": 1088.1,
+     "points": 428,
+     "rebounds": 125,
+     "assists": 139,
+     "steals": 43,
+     "blocks": 8,
+     "turnovers": 61,
+     "fgMade": 150,
+     "fgAttempted": 366,
+     "threeMade": 55,
+     "threeAttempted": 174,
+     "ftMade": 73,
+     "ftAttempted": 80
+    }
+   },
+   "lastToDate": {
+    "regular": {
+     "games": 16,
+     "started": 13,
+     "minutes": 364.8,
+     "points": 117,
+     "rebounds": 42,
+     "assists": 53,
+     "steals": 13,
+     "blocks": 4,
+     "turnovers": 16,
+     "fgMade": 39,
+     "fgAttempted": 113,
+     "threeMade": 14,
+     "threeAttempted": 54,
+     "ftMade": 25,
+     "ftAttempted": 28
+    }
+   }
+  },
+  {
+   "id": "simonan01",
+   "name": "Anfernee Simons",
+   "number": "5",
+   "position": "SG",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 4\"",
+    "weight": 206,
+    "birthDate": "1999-06-08",
+    "experience": 8,
+    "birthPlace": "Altamonte Springs, FL"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4351851.png",
+   "current": {
+    "regular": {
+     "games": 16,
+     "started": 1,
+     "minutes": 361.8,
+     "points": 172,
+     "rebounds": 32,
+     "assists": 20,
+     "steals": 7,
+     "blocks": 2,
+     "turnovers": 8,
+     "fgMade": 61,
+     "fgAttempted": 136,
+     "threeMade": 37,
+     "threeAttempted": 90,
+     "ftMade": 13,
+     "ftAttempted": 15
+    }
+   },
+   "lastFull": {
+    "regular": {
+     "games": 55,
+     "started": 5,
+     "minutes": 1372.5,
+     "points": 785,
+     "rebounds": 135,
+     "assists": 134,
+     "steals": 27,
+     "blocks": 8,
+     "turnovers": 68,
+     "fgMade": 285,
+     "fgAttempted": 648,
+     "threeMade": 146,
+     "threeAttempted": 379,
+     "ftMade": 69,
+     "ftAttempted": 77
+    }
+   },
+   "lastToDate": {
+    "regular": {
+     "games": 16,
+     "started": 0,
+     "minutes": 401.6,
+     "points": 222,
+     "rebounds": 36,
+     "assists": 42,
+     "steals": 8,
+     "blocks": 3,
+     "turnovers": 24,
+     "fgMade": 79,
+     "fgAttempted": 183,
+     "threeMade": 42,
+     "threeAttempted": 105,
+     "ftMade": 22,
+     "ftAttempted": 26
     }
    }
   },
@@ -547,151 +692,6 @@
    }
   },
   {
-   "id": "caldwke01",
-   "name": "Kentavious Caldwell-Pope",
-   "number": "1",
-   "position": "SF",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 5\"",
-    "weight": 213,
-    "birthDate": "1993-02-18",
-    "experience": 13,
-    "college": "Georgia",
-    "birthPlace": "Thomaston, GA"
-   },
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/2581018.png",
-   "current": {
-    "regular": {
-     "games": 15,
-     "started": 1,
-     "minutes": 338.2,
-     "points": 83,
-     "rebounds": 40,
-     "assists": 25,
-     "steals": 11,
-     "blocks": 6,
-     "turnovers": 6,
-     "fgMade": 27,
-     "fgAttempted": 62,
-     "threeMade": 20,
-     "threeAttempted": 46,
-     "ftMade": 9,
-     "ftAttempted": 10
-    }
-   },
-   "lastFull": {
-    "regular": {
-     "games": 51,
-     "started": 14,
-     "minutes": 1088.1,
-     "points": 428,
-     "rebounds": 125,
-     "assists": 139,
-     "steals": 43,
-     "blocks": 8,
-     "turnovers": 61,
-     "fgMade": 150,
-     "fgAttempted": 366,
-     "threeMade": 55,
-     "threeAttempted": 174,
-     "ftMade": 73,
-     "ftAttempted": 80
-    }
-   },
-   "lastToDate": {
-    "regular": {
-     "games": 16,
-     "started": 13,
-     "minutes": 364.8,
-     "points": 117,
-     "rebounds": 42,
-     "assists": 53,
-     "steals": 13,
-     "blocks": 4,
-     "turnovers": 16,
-     "fgMade": 39,
-     "fgAttempted": 113,
-     "threeMade": 14,
-     "threeAttempted": 54,
-     "ftMade": 25,
-     "ftAttempted": 28
-    }
-   }
-  },
-  {
-   "id": "simonan01",
-   "name": "Anfernee Simons",
-   "number": "5",
-   "position": "SG",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 4\"",
-    "weight": 206,
-    "birthDate": "1999-06-08",
-    "experience": 8,
-    "birthPlace": "Altamonte Springs, FL"
-   },
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4351851.png",
-   "current": {
-    "regular": {
-     "games": 15,
-     "started": 0,
-     "minutes": 323.8,
-     "points": 154,
-     "rebounds": 30,
-     "assists": 18,
-     "steals": 7,
-     "blocks": 2,
-     "turnovers": 8,
-     "fgMade": 54,
-     "fgAttempted": 124,
-     "threeMade": 34,
-     "threeAttempted": 83,
-     "ftMade": 12,
-     "ftAttempted": 14
-    }
-   },
-   "lastFull": {
-    "regular": {
-     "games": 55,
-     "started": 5,
-     "minutes": 1372.5,
-     "points": 785,
-     "rebounds": 135,
-     "assists": 134,
-     "steals": 27,
-     "blocks": 8,
-     "turnovers": 68,
-     "fgMade": 285,
-     "fgAttempted": 648,
-     "threeMade": 146,
-     "threeAttempted": 379,
-     "ftMade": 69,
-     "ftAttempted": 77
-    }
-   },
-   "lastToDate": {
-    "regular": {
-     "games": 16,
-     "started": 0,
-     "minutes": 401.6,
-     "points": 222,
-     "rebounds": 36,
-     "assists": 42,
-     "steals": 8,
-     "blocks": 3,
-     "turnovers": 24,
-     "fgMade": 79,
-     "fgAttempted": 183,
-     "threeMade": 42,
-     "threeAttempted": 105,
-     "ftMade": 22,
-     "ftAttempted": 26
-    }
-   }
-  },
-  {
    "id": "walkeja01",
    "name": "Jabari Walker",
    "number": "33",
@@ -708,21 +708,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4432446.png",
    "current": {
     "regular": {
-     "games": 11,
+     "games": 12,
      "started": 1,
-     "minutes": 147.7,
-     "points": 71,
-     "rebounds": 50,
-     "assists": 7,
+     "minutes": 160.5,
+     "points": 77,
+     "rebounds": 55,
+     "assists": 9,
      "steals": 2,
      "blocks": 1,
-     "turnovers": 3,
-     "fgMade": 28,
-     "fgAttempted": 51,
-     "threeMade": 7,
-     "threeAttempted": 17,
-     "ftMade": 8,
-     "ftAttempted": 14
+     "turnovers": 4,
+     "fgMade": 30,
+     "fgAttempted": 54,
+     "threeMade": 8,
+     "threeAttempted": 19,
+     "ftMade": 9,
+     "ftAttempted": 15
     }
    },
    "lastFull": {
@@ -888,19 +888,19 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4873090.png",
    "current": {
     "regular": {
-     "games": 10,
+     "games": 11,
      "started": 0,
-     "minutes": 51.8,
-     "points": 20,
-     "rebounds": 8,
-     "assists": 5,
+     "minutes": 68.8,
+     "points": 30,
+     "rebounds": 9,
+     "assists": 7,
      "steals": 1,
      "blocks": 0,
-     "turnovers": 4,
-     "fgMade": 7,
-     "fgAttempted": 20,
-     "threeMade": 3,
-     "threeAttempted": 9,
+     "turnovers": 5,
+     "fgMade": 11,
+     "fgAttempted": 25,
+     "threeMade": 5,
+     "threeAttempted": 12,
      "ftMade": 3,
      "ftAttempted": 6
     }
@@ -925,19 +925,19 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4711297.png",
    "current": {
     "regular": {
-     "games": 6,
+     "games": 7,
      "started": 0,
-     "minutes": 15.4,
-     "points": 5,
-     "rebounds": 4,
+     "minutes": 28.4,
+     "points": 7,
+     "rebounds": 5,
      "assists": 0,
      "steals": 0,
      "blocks": 0,
      "turnovers": 3,
-     "fgMade": 2,
-     "fgAttempted": 4,
+     "fgMade": 3,
+     "fgAttempted": 7,
      "threeMade": 1,
-     "threeAttempted": 2,
+     "threeAttempted": 4,
      "ftMade": 0,
      "ftAttempted": 0
     }
@@ -1015,17 +1015,17 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3904625.png",
    "current": {
     "regular": {
-     "games": 4,
+     "games": 5,
      "started": 0,
-     "minutes": 9.4,
-     "points": 0,
-     "rebounds": 4,
+     "minutes": 19.8,
+     "points": 2,
+     "rebounds": 7,
      "assists": 0,
      "steals": 0,
-     "blocks": 0,
-     "turnovers": 0,
-     "fgMade": 0,
-     "fgAttempted": 0,
+     "blocks": 3,
+     "turnovers": 1,
+     "fgMade": 1,
+     "fgAttempted": 1,
      "threeMade": 0,
      "threeAttempted": 0,
      "ftMade": 0,
@@ -1124,19 +1124,19 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4433144.png",
    "current": {
     "regular": {
-     "games": 2,
+     "games": 3,
      "started": 0,
-     "minutes": 1.4,
-     "points": 0,
-     "rebounds": 0,
-     "assists": 0,
-     "steals": 0,
+     "minutes": 7.1,
+     "points": 3,
+     "rebounds": 1,
+     "assists": 1,
+     "steals": 1,
      "blocks": 0,
-     "turnovers": 0,
-     "fgMade": 0,
-     "fgAttempted": 0,
-     "threeMade": 0,
-     "threeAttempted": 0,
+     "turnovers": 1,
+     "fgMade": 1,
+     "fgAttempted": 3,
+     "threeMade": 1,
+     "threeAttempted": 2,
      "ftMade": 0,
      "ftAttempted": 0
     }
