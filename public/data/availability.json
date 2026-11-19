@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-19T00:23:58.706Z",
+ "updatedAt": "2026-11-19T01:23:44.498Z",
  "teams": {
   "ATL": [
    {
@@ -155,18 +155,18 @@
   ],
   "DET": [
    {
+    "name": "Cade Cunningham",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Knee (soreness)",
+    "returnDate": "2026-11-20"
+   },
+   {
     "name": "Duncan Robinson",
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Quadriceps (strain)",
     "returnDate": "2026-11-27"
-   },
-   {
-    "name": "Isaiah Joe",
-    "status": "Out",
-    "gameTimeDecision": true,
-    "reason": "Hip (bruise)",
-    "returnDate": "2026-11-18"
    },
    {
     "name": "Jalen Duren",
@@ -188,13 +188,6 @@
     "gameTimeDecision": false,
     "reason": "Knee (soreness)",
     "returnDate": "2026-11-20"
-   },
-   {
-    "name": "Cade Cunningham",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Knee (soreness)",
-    "returnDate": "2026-11-18"
    }
   ],
   "GSW": [
@@ -248,6 +241,13 @@
     "gameTimeDecision": false,
     "reason": "Ankle (sprain)",
     "returnDate": "2026-11-20"
+   },
+   {
+    "name": "Alperen Sengun",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Face",
+    "returnDate": "2026-11-18"
    }
   ],
   "IND": [

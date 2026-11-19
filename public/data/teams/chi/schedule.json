@@ -256,7 +256,11 @@
    "startUtc": "2026-11-19T00:30:00Z",
    "home": false,
    "opponent": "BKN",
-   "status": "scheduled",
+   "status": "live",
+   "score": {
+    "team": 0,
+    "opponent": 0
+   },
    "broadcasts": [
     {
      "name": "CHSN/CHSN App",
