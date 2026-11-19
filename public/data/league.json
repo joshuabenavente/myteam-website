@@ -4,8 +4,8 @@
   {
    "name": "Luka Dončić",
    "team": "LAL",
-   "ppg": 38.8,
-   "games": 13
+   "ppg": 38.1,
+   "games": 14
   },
   {
    "name": "Shai Gilgeous-Alexander",
@@ -50,6 +50,12 @@
    "games": 15
   },
   {
+   "name": "Darius Acuff Jr.",
+   "team": "SAC",
+   "ppg": 26.2,
+   "games": 14
+  },
+  {
    "name": "Cade Cunningham",
    "team": "DET",
    "ppg": 25.8,
@@ -62,16 +68,16 @@
    "games": 13
   },
   {
-   "name": "Darius Acuff Jr.",
-   "team": "SAC",
-   "ppg": 25.5,
-   "games": 13
-  },
-  {
    "name": "Ty Jerome",
    "team": "MEM",
    "ppg": 25.4,
    "games": 11
+  },
+  {
+   "name": "Devin Booker",
+   "team": "PHX",
+   "ppg": 24.8,
+   "games": 14
   },
   {
    "name": "Donovan Mitchell",
@@ -84,12 +90,6 @@
    "team": "LAL",
    "ppg": 24.7,
    "games": 12
-  },
-  {
-   "name": "Anthony Davis",
-   "team": "WAS",
-   "ppg": 24.6,
-   "games": 14
   }
  ],
  "lastWins": {
