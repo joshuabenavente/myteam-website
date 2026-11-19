@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-19T17:23:41.679Z",
+ "updatedAt": "2026-11-19T19:23:46.121Z",
  "teams": {
   "ATL": [
    {
@@ -215,6 +215,13 @@
     "returnDate": "2026-11-22"
    },
    {
+    "name": "Draymond Green",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Rest",
+    "returnDate": "2026-11-22"
+   },
+   {
     "name": "Jimmy Butler III",
     "status": "Out",
     "gameTimeDecision": false,
@@ -243,17 +250,10 @@
     "returnDate": "2026-12-12"
    },
    {
-    "name": "Al Horford",
+    "name": "LJ Cryer",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Back",
-    "returnDate": "2026-11-19"
-   },
-   {
-    "name": "Draymond Green",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Rest",
     "returnDate": "2026-11-19"
    }
   ],
@@ -367,9 +367,16 @@
    {
     "name": "Ty Jerome",
     "status": "Out",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Hip",
-    "returnDate": "2026-11-19"
+    "returnDate": "2026-11-21"
+   },
+   {
+    "name": "Zach Edey",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Ankle",
+    "returnDate": "2026-11-21"
    },
    {
     "name": "Isaiah Stewart",
@@ -390,18 +397,25 @@
   ],
   "MIL": [
    {
+    "name": "Kyle Kuzma",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Shoulder (bruise)",
+    "returnDate": "2026-11-21"
+   },
+   {
+    "name": "Myles Turner",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Shoulder (bruise)",
+    "returnDate": "2026-11-21"
+   },
+   {
     "name": "Ousmane Dieng",
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Finger (surgery)",
     "returnDate": "2026-12-14"
-   },
-   {
-    "name": "Ryan Rollins",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Illness",
-    "returnDate": "2026-11-19"
    }
   ],
   "MIN": [
@@ -431,13 +445,6 @@
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Shoulder",
-    "returnDate": "2026-11-19"
-   },
-   {
-    "name": "Zyon Pullin",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Quadriceps (bruise)",
     "returnDate": "2026-11-19"
    }
   ],
