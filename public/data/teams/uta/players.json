@@ -1,7 +1,7 @@
 {
  "season": "2026-27",
  "lastSeason": "2025-26",
- "updatedAt": "2026-11-20T00:21:15.661Z",
+ "updatedAt": "2026-11-20T06:21:14.181Z",
  "teamGamesPlayed": {
   "regular": 16,
   "playoffs": 0
@@ -1153,6 +1153,25 @@
      "ftAttempted": 0
     }
    }
+  },
+  {
+   "id": "aidoojo01",
+   "name": "Jonas Aidoo",
+   "position": "C",
+   "twoWay": true,
+   "bio": {
+    "height": "6' 11\"",
+    "weight": 240,
+    "birthDate": "2002-12-10",
+    "experience": 0,
+    "college": "Arkansas",
+    "birthPlace": "Durham, NC"
+   },
+   "number": "13",
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4684682.png",
+   "current": {},
+   "lastFull": {},
+   "lastToDate": {}
   }
  ]
 }
