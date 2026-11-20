@@ -397,21 +397,11 @@
   {
    "id": "0022600326",
    "type": "regular",
-   "startUtc": "2026-12-02T04:00:00Z",
+   "startUtc": "2026-12-02T03:00:00Z",
    "home": true,
    "opponent": "UTA",
    "status": "scheduled",
    "broadcasts": [
-    {
-     "name": "NBC",
-     "scope": "national",
-     "kind": "tv"
-    },
-    {
-     "name": "Peacock",
-     "scope": "national",
-     "kind": "tv"
-    },
     {
      "name": "NBCSBA/PCK-GSW",
      "scope": "local",
