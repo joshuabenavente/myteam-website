@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-20T00:23:51.629Z",
+ "updatedAt": "2026-11-20T01:23:44.316Z",
  "teams": {
   "ATL": [
    {
@@ -365,9 +365,9 @@
    {
     "name": "Austin Reaves",
     "status": "Out",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Heel (bruise)",
-    "returnDate": "2026-11-20"
+    "returnDate": "2026-11-23"
    }
   ],
   "MEM": [
@@ -405,13 +405,6 @@
     "gameTimeDecision": false,
     "reason": "Ankle",
     "returnDate": "2026-11-21"
-   },
-   {
-    "name": "Isaiah Stewart",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Illness",
-    "returnDate": "2026-11-19"
    }
   ],
   "MIA": [
@@ -467,13 +460,6 @@
     "gameTimeDecision": false,
     "reason": "Hamstring",
     "returnDate": "2026-11-29"
-   },
-   {
-    "name": "Jonathan Kuminga",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Shoulder",
-    "returnDate": "2026-11-19"
    }
   ],
   "NOP": [
@@ -642,6 +628,13 @@
     "returnDate": "2026-11-21"
    },
    {
+    "name": "Deni Avdija",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Foot",
+    "returnDate": "2026-11-21"
+   },
+   {
     "name": "Ja Morant",
     "status": "Out",
     "gameTimeDecision": false,
@@ -668,20 +661,6 @@
     "gameTimeDecision": false,
     "reason": "Ankle",
     "returnDate": "2027-01-12"
-   },
-   {
-    "name": "Deni Avdija",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Foot",
-    "returnDate": "2026-11-19"
-   },
-   {
-    "name": "Toumani Camara",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Rest",
-    "returnDate": "2026-11-19"
    }
   ],
   "SAC": [
