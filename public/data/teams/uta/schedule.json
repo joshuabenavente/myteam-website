@@ -501,7 +501,18 @@
    "home": false,
    "opponent": "GSW",
    "status": "scheduled",
-   "broadcasts": []
+   "broadcasts": [
+    {
+     "name": "KJZZ",
+     "scope": "local",
+     "kind": "tv"
+    },
+    {
+     "name": "Jazz+",
+     "scope": "local",
+     "kind": "stream"
+    }
+   ]
   },
   {
    "id": "0022600340",
