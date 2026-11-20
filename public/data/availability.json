@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-20T17:23:39.158Z",
+ "updatedAt": "2026-11-20T18:23:52.734Z",
  "teams": {
   "ATL": [
    {
@@ -98,6 +98,13 @@
     "gameTimeDecision": false,
     "reason": "Back",
     "returnDate": "2026-11-25"
+   },
+   {
+    "name": "Jalen Smith",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Illness",
+    "returnDate": "2026-11-20"
    },
    {
     "name": "Noa Essengue",
@@ -199,13 +206,6 @@
     "returnDate": "2026-11-24"
    },
    {
-    "name": "Ronald Holland II",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Knee (bruise)",
-    "returnDate": "2026-11-22"
-   },
-   {
     "name": "Taurean Prince",
     "status": "Out",
     "gameTimeDecision": false,
@@ -217,6 +217,13 @@
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Knee (soreness)",
+    "returnDate": "2026-11-20"
+   },
+   {
+    "name": "Ronald Holland II",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Knee (bruise)",
     "returnDate": "2026-11-20"
    },
    {
@@ -584,9 +591,9 @@
    {
     "name": "Adem Bona",
     "status": "Out",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Back (sprain)",
-    "returnDate": "2026-11-21"
+    "returnDate": "2026-11-23"
    },
    {
     "name": "Ariel Hukporti",
@@ -608,13 +615,6 @@
     "gameTimeDecision": false,
     "reason": "Hamstring",
     "returnDate": "2026-11-23"
-   },
-   {
-    "name": "Dean Wade",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Hamstring (soreness)",
-    "returnDate": "2026-11-21"
    },
    {
     "name": "Tyrese Maxey",

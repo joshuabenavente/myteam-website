@@ -1,7 +1,7 @@
 {
  "season": "2026-27",
  "lastSeason": "2025-26",
- "updatedAt": "2026-11-20T12:24:07.010Z",
+ "updatedAt": "2026-11-20T18:23:52.609Z",
  "teamGamesPlayed": {
   "regular": 14,
   "playoffs": 0
@@ -24,21 +24,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4396907.png",
    "current": {
     "regular": {
-     "games": 13,
-     "started": 13,
-     "minutes": 428.4,
-     "points": 275,
+     "games": 14,
+     "started": 14,
+     "minutes": 463.7,
+     "points": 298,
      "rebounds": 31,
-     "assists": 90,
-     "steals": 8,
-     "blocks": 2,
-     "turnovers": 60,
-     "fgMade": 94,
-     "fgAttempted": 202,
-     "threeMade": 32,
-     "threeAttempted": 87,
-     "ftMade": 55,
-     "ftAttempted": 65
+     "assists": 95,
+     "steals": 10,
+     "blocks": 3,
+     "turnovers": 61,
+     "fgMade": 102,
+     "fgAttempted": 219,
+     "threeMade": 35,
+     "threeAttempted": 98,
+     "ftMade": 59,
+     "ftAttempted": 69
     }
    },
    "lastFull": {
@@ -81,79 +81,6 @@
    }
   },
   {
-   "id": "dunnkr01",
-   "name": "Kris Dunn",
-   "number": "8",
-   "position": "SG",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 3\"",
-    "weight": 205,
-    "birthDate": "1994-03-18",
-    "experience": 10,
-    "college": "Providence",
-    "birthPlace": "New London, CT"
-   },
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/2991139.png",
-   "current": {
-    "regular": {
-     "games": 13,
-     "started": 13,
-     "minutes": 349.6,
-     "points": 96,
-     "rebounds": 51,
-     "assists": 55,
-     "steals": 27,
-     "blocks": 6,
-     "turnovers": 20,
-     "fgMade": 35,
-     "fgAttempted": 74,
-     "threeMade": 10,
-     "threeAttempted": 27,
-     "ftMade": 16,
-     "ftAttempted": 18
-    }
-   },
-   "lastFull": {
-    "regular": {
-     "games": 82,
-     "started": 68,
-     "minutes": 2230.7,
-     "points": 596,
-     "rebounds": 271,
-     "assists": 295,
-     "steals": 131,
-     "blocks": 14,
-     "turnovers": 111,
-     "fgMade": 227,
-     "fgAttempted": 477,
-     "threeMade": 80,
-     "threeAttempted": 214,
-     "ftMade": 62,
-     "ftAttempted": 81
-    }
-   },
-   "lastToDate": {
-    "regular": {
-     "games": 14,
-     "started": 8,
-     "minutes": 359.8,
-     "points": 101,
-     "rebounds": 35,
-     "assists": 34,
-     "steals": 21,
-     "blocks": 4,
-     "turnovers": 20,
-     "fgMade": 38,
-     "fgAttempted": 80,
-     "threeMade": 12,
-     "threeAttempted": 33,
-     "ftMade": 13,
-     "ftAttempted": 18
-    }
-   }
-  },
-  {
    "id": "jonesde02",
    "name": "Derrick Jones Jr.",
    "number": "5",
@@ -170,21 +97,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3936099.png",
    "current": {
     "regular": {
-     "games": 12,
-     "started": 12,
-     "minutes": 344.8,
-     "points": 132,
-     "rebounds": 54,
-     "assists": 15,
-     "steals": 11,
+     "games": 13,
+     "started": 13,
+     "minutes": 371.6,
+     "points": 140,
+     "rebounds": 56,
+     "assists": 16,
+     "steals": 13,
      "blocks": 13,
-     "turnovers": 14,
-     "fgMade": 48,
-     "fgAttempted": 91,
+     "turnovers": 16,
+     "fgMade": 50,
+     "fgAttempted": 94,
      "threeMade": 24,
-     "threeAttempted": 47,
-     "ftMade": 12,
-     "ftAttempted": 20
+     "threeAttempted": 48,
+     "ftMade": 16,
+     "ftAttempted": 25
     }
    },
    "lastFull": {
@@ -227,6 +154,79 @@
    }
   },
   {
+   "id": "dunnkr01",
+   "name": "Kris Dunn",
+   "number": "8",
+   "position": "SG",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 3\"",
+    "weight": 205,
+    "birthDate": "1994-03-18",
+    "experience": 10,
+    "college": "Providence",
+    "birthPlace": "New London, CT"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/2991139.png",
+   "current": {
+    "regular": {
+     "games": 14,
+     "started": 13,
+     "minutes": 369.9,
+     "points": 102,
+     "rebounds": 52,
+     "assists": 57,
+     "steals": 27,
+     "blocks": 7,
+     "turnovers": 23,
+     "fgMade": 37,
+     "fgAttempted": 78,
+     "threeMade": 11,
+     "threeAttempted": 29,
+     "ftMade": 17,
+     "ftAttempted": 20
+    }
+   },
+   "lastFull": {
+    "regular": {
+     "games": 82,
+     "started": 68,
+     "minutes": 2230.7,
+     "points": 596,
+     "rebounds": 271,
+     "assists": 295,
+     "steals": 131,
+     "blocks": 14,
+     "turnovers": 111,
+     "fgMade": 227,
+     "fgAttempted": 477,
+     "threeMade": 80,
+     "threeAttempted": 214,
+     "ftMade": 62,
+     "ftAttempted": 81
+    }
+   },
+   "lastToDate": {
+    "regular": {
+     "games": 14,
+     "started": 8,
+     "minutes": 359.8,
+     "points": 101,
+     "rebounds": 35,
+     "assists": 34,
+     "steals": 21,
+     "blocks": 4,
+     "turnovers": 20,
+     "fgMade": 38,
+     "fgAttempted": 80,
+     "threeMade": 12,
+     "threeAttempted": 33,
+     "ftMade": 13,
+     "ftAttempted": 18
+    }
+   }
+  },
+  {
    "id": "hachiru01",
    "name": "Rui Hachimura",
    "number": "28",
@@ -243,21 +243,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4066648.png",
    "current": {
     "regular": {
-     "games": 11,
-     "started": 11,
-     "minutes": 317.8,
-     "points": 146,
-     "rebounds": 65,
-     "assists": 17,
-     "steals": 11,
+     "games": 12,
+     "started": 12,
+     "minutes": 349.9,
+     "points": 163,
+     "rebounds": 72,
+     "assists": 19,
+     "steals": 12,
      "blocks": 2,
-     "turnovers": 19,
-     "fgMade": 51,
-     "fgAttempted": 130,
-     "threeMade": 23,
-     "threeAttempted": 62,
-     "ftMade": 21,
-     "ftAttempted": 32
+     "turnovers": 20,
+     "fgMade": 58,
+     "fgAttempted": 143,
+     "threeMade": 25,
+     "threeAttempted": 66,
+     "ftMade": 22,
+     "ftAttempted": 33
     }
    },
    "lastFull": {
@@ -333,21 +333,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3448.png",
    "current": {
     "regular": {
-     "games": 13,
-     "started": 7,
-     "minutes": 316.6,
-     "points": 192,
-     "rebounds": 70,
-     "assists": 24,
-     "steals": 7,
+     "games": 14,
+     "started": 8,
+     "minutes": 343.5,
+     "points": 215,
+     "rebounds": 73,
+     "assists": 28,
+     "steals": 8,
      "blocks": 12,
-     "turnovers": 13,
-     "fgMade": 75,
-     "fgAttempted": 140,
-     "threeMade": 21,
-     "threeAttempted": 51,
-     "ftMade": 21,
-     "ftAttempted": 33
+     "turnovers": 16,
+     "fgMade": 83,
+     "fgAttempted": 150,
+     "threeMade": 26,
+     "threeAttempted": 58,
+     "ftMade": 23,
+     "ftAttempted": 35
     }
    },
    "lastFull": {
@@ -406,19 +406,19 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5254165.png",
    "current": {
     "regular": {
-     "games": 13,
+     "games": 14,
      "started": 0,
-     "minutes": 295.8,
-     "points": 163,
-     "rebounds": 43,
-     "assists": 40,
-     "steals": 10,
+     "minutes": 313.3,
+     "points": 170,
+     "rebounds": 48,
+     "assists": 42,
+     "steals": 11,
      "blocks": 2,
-     "turnovers": 24,
-     "fgMade": 40,
-     "fgAttempted": 108,
-     "threeMade": 22,
-     "threeAttempted": 60,
+     "turnovers": 28,
+     "fgMade": 43,
+     "fgAttempted": 118,
+     "threeMade": 23,
+     "threeAttempted": 64,
      "ftMade": 61,
      "ftAttempted": 71
     }
@@ -443,19 +443,19 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4702352.png",
    "current": {
     "regular": {
-     "games": 13,
+     "games": 14,
      "started": 2,
-     "minutes": 295.4,
+     "minutes": 309,
      "points": 110,
-     "rebounds": 36,
-     "assists": 35,
+     "rebounds": 37,
+     "assists": 36,
      "steals": 12,
-     "blocks": 1,
+     "blocks": 2,
      "turnovers": 20,
      "fgMade": 37,
-     "fgAttempted": 89,
+     "fgAttempted": 91,
      "threeMade": 18,
-     "threeAttempted": 53,
+     "threeAttempted": 54,
      "ftMade": 18,
      "ftAttempted": 18
     }
@@ -516,19 +516,19 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4432170.png",
    "current": {
     "regular": {
-     "games": 12,
+     "games": 13,
      "started": 6,
-     "minutes": 234.8,
-     "points": 99,
-     "rebounds": 63,
-     "assists": 23,
-     "steals": 13,
-     "blocks": 12,
+     "minutes": 244.1,
+     "points": 105,
+     "rebounds": 67,
+     "assists": 25,
+     "steals": 16,
+     "blocks": 14,
      "turnovers": 19,
-     "fgMade": 42,
-     "fgAttempted": 72,
+     "fgMade": 45,
+     "fgAttempted": 77,
      "threeMade": 2,
-     "threeAttempted": 4,
+     "threeAttempted": 5,
      "ftMade": 13,
      "ftAttempted": 20
     }
@@ -589,19 +589,19 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5106258.png",
    "current": {
     "regular": {
-     "games": 13,
+     "games": 14,
      "started": 1,
-     "minutes": 207.7,
-     "points": 98,
-     "rebounds": 35,
-     "assists": 8,
+     "minutes": 220.5,
+     "points": 100,
+     "rebounds": 37,
+     "assists": 9,
      "steals": 7,
      "blocks": 2,
-     "turnovers": 9,
-     "fgMade": 37,
-     "fgAttempted": 69,
+     "turnovers": 10,
+     "fgMade": 38,
+     "fgAttempted": 72,
      "threeMade": 12,
-     "threeAttempted": 23,
+     "threeAttempted": 24,
      "ftMade": 12,
      "ftAttempted": 16
     }
@@ -679,21 +679,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4065778.png",
    "current": {
     "regular": {
-     "games": 7,
-     "started": 0,
-     "minutes": 156.3,
-     "points": 59,
-     "rebounds": 23,
-     "assists": 24,
+     "games": 8,
+     "started": 1,
+     "minutes": 188.2,
+     "points": 77,
+     "rebounds": 28,
+     "assists": 28,
      "steals": 9,
      "blocks": 0,
-     "turnovers": 3,
-     "fgMade": 20,
-     "fgAttempted": 57,
-     "threeMade": 14,
-     "threeAttempted": 42,
-     "ftMade": 5,
-     "ftAttempted": 6
+     "turnovers": 7,
+     "fgMade": 25,
+     "fgAttempted": 67,
+     "threeMade": 19,
+     "threeAttempted": 51,
+     "ftMade": 8,
+     "ftAttempted": 9
     }
    },
    "lastFull": {
@@ -751,9 +751,9 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5075626.png",
    "current": {
     "regular": {
-     "games": 11,
+     "games": 12,
      "started": 0,
-     "minutes": 103.4,
+     "minutes": 104.4,
      "points": 46,
      "rebounds": 24,
      "assists": 9,
@@ -788,9 +788,9 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4845363.png",
    "current": {
     "regular": {
-     "games": 6,
+     "games": 7,
      "started": 0,
-     "minutes": 34.1,
+     "minutes": 35.1,
      "points": 10,
      "rebounds": 2,
      "assists": 1,
@@ -845,43 +845,6 @@
    }
   },
   {
-   "id": "martini01",
-   "name": "Nick Martinelli",
-   "number": "12",
-   "position": "SF",
-   "twoWay": true,
-   "bio": {
-    "height": "6' 7\"",
-    "weight": 224,
-    "birthDate": "2004-04-20",
-    "experience": 0,
-    "college": "Northwestern",
-    "birthPlace": "Glenview, IL"
-   },
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5105832.png",
-   "current": {
-    "regular": {
-     "games": 6,
-     "started": 0,
-     "minutes": 26.5,
-     "points": 17,
-     "rebounds": 8,
-     "assists": 2,
-     "steals": 0,
-     "blocks": 0,
-     "turnovers": 2,
-     "fgMade": 7,
-     "fgAttempted": 11,
-     "threeMade": 2,
-     "threeAttempted": 3,
-     "ftMade": 1,
-     "ftAttempted": 1
-    }
-   },
-   "lastFull": {},
-   "lastToDate": {}
-  },
-  {
    "id": "pickeja02",
    "name": "Jalen Pickett",
    "number": "21",
@@ -898,9 +861,9 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4398390.png",
    "current": {
     "regular": {
-     "games": 5,
+     "games": 6,
      "started": 0,
-     "minutes": 26.1,
+     "minutes": 27.1,
      "points": 10,
      "rebounds": 4,
      "assists": 5,
@@ -968,6 +931,116 @@
      "threeAttempted": 7,
      "ftMade": 1,
      "ftAttempted": 1
+    }
+   }
+  },
+  {
+   "id": "martini01",
+   "name": "Nick Martinelli",
+   "number": "12",
+   "position": "SF",
+   "twoWay": true,
+   "bio": {
+    "height": "6' 7\"",
+    "weight": 224,
+    "birthDate": "2004-04-20",
+    "experience": 0,
+    "college": "Northwestern",
+    "birthPlace": "Glenview, IL"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5105832.png",
+   "current": {
+    "regular": {
+     "games": 6,
+     "started": 0,
+     "minutes": 26.5,
+     "points": 17,
+     "rebounds": 8,
+     "assists": 2,
+     "steals": 0,
+     "blocks": 0,
+     "turnovers": 2,
+     "fgMade": 7,
+     "fgAttempted": 11,
+     "threeMade": 2,
+     "threeAttempted": 3,
+     "ftMade": 1,
+     "ftAttempted": 1
+    }
+   },
+   "lastFull": {},
+   "lastToDate": {}
+  },
+  {
+   "id": "konanya01",
+   "name": "Yanic Konan Niederhäuser",
+   "number": "14",
+   "position": "C",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 11\"",
+    "weight": 242,
+    "birthDate": "2003-03-14",
+    "experience": 1,
+    "college": "Penn State",
+    "birthPlace": "Fraschels, Switzerland"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5108024.png",
+   "current": {
+    "regular": {
+     "games": 1,
+     "started": 0,
+     "minutes": 10.8,
+     "points": 2,
+     "rebounds": 3,
+     "assists": 0,
+     "steals": 1,
+     "blocks": 0,
+     "turnovers": 2,
+     "fgMade": 1,
+     "fgAttempted": 4,
+     "threeMade": 0,
+     "threeAttempted": 1,
+     "ftMade": 0,
+     "ftAttempted": 0
+    }
+   },
+   "lastFull": {
+    "regular": {
+     "games": 41,
+     "started": 0,
+     "minutes": 423.8,
+     "points": 176,
+     "rebounds": 117,
+     "assists": 12,
+     "steals": 5,
+     "blocks": 30,
+     "turnovers": 23,
+     "fgMade": 64,
+     "fgAttempted": 100,
+     "threeMade": 1,
+     "threeAttempted": 5,
+     "ftMade": 47,
+     "ftAttempted": 62
+    }
+   },
+   "lastToDate": {
+    "regular": {
+     "games": 5,
+     "started": 0,
+     "minutes": 22.5,
+     "points": 19,
+     "rebounds": 6,
+     "assists": 2,
+     "steals": 0,
+     "blocks": 1,
+     "turnovers": 1,
+     "fgMade": 7,
+     "fgAttempted": 8,
+     "threeMade": 0,
+     "threeAttempted": 0,
+     "ftMade": 5,
+     "ftAttempted": 8
     }
    }
   },
@@ -1146,61 +1219,6 @@
      "threeAttempted": 52,
      "ftMade": 4,
      "ftAttempted": 4
-    }
-   }
-  },
-  {
-   "id": "konanya01",
-   "name": "Yanic Konan Niederhäuser",
-   "position": "C",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 11\"",
-    "weight": 242,
-    "birthDate": "2003-03-14",
-    "experience": 1,
-    "college": "Penn State",
-    "birthPlace": "Fraschels, Switzerland"
-   },
-   "number": "14",
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5108024.png",
-   "current": {},
-   "lastFull": {
-    "regular": {
-     "games": 41,
-     "started": 0,
-     "minutes": 423.8,
-     "points": 176,
-     "rebounds": 117,
-     "assists": 12,
-     "steals": 5,
-     "blocks": 30,
-     "turnovers": 23,
-     "fgMade": 64,
-     "fgAttempted": 100,
-     "threeMade": 1,
-     "threeAttempted": 5,
-     "ftMade": 47,
-     "ftAttempted": 62
-    }
-   },
-   "lastToDate": {
-    "regular": {
-     "games": 5,
-     "started": 0,
-     "minutes": 22.5,
-     "points": 19,
-     "rebounds": 6,
-     "assists": 2,
-     "steals": 0,
-     "blocks": 1,
-     "turnovers": 1,
-     "fgMade": 7,
-     "fgAttempted": 8,
-     "threeMade": 0,
-     "threeAttempted": 0,
-     "ftMade": 5,
-     "ftAttempted": 8
     }
    }
   },

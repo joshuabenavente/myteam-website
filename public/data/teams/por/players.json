@@ -1,12 +1,139 @@
 {
  "season": "2026-27",
  "lastSeason": "2025-26",
- "updatedAt": "2026-11-20T12:20:14.758Z",
+ "updatedAt": "2026-11-20T18:20:00.531Z",
  "teamGamesPlayed": {
   "regular": 15,
   "playoffs": 0
  },
  "players": [
+  {
+   "id": "camarto01",
+   "name": "Toumani Camara",
+   "number": "33",
+   "position": "PF",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 7\"",
+    "weight": 230,
+    "birthDate": "2000-05-08",
+    "experience": 3,
+    "college": "Dayton",
+    "birthPlace": "Brussels, Belgium"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4431736.png",
+   "current": {
+    "regular": {
+     "games": 15,
+     "started": 15,
+     "minutes": 444.2,
+     "points": 189,
+     "rebounds": 54,
+     "assists": 22,
+     "steals": 14,
+     "blocks": 9,
+     "turnovers": 18,
+     "fgMade": 66,
+     "fgAttempted": 144,
+     "threeMade": 40,
+     "threeAttempted": 101,
+     "ftMade": 17,
+     "ftAttempted": 21
+    }
+   },
+   "lastFull": {
+    "regular": {
+     "games": 82,
+     "started": 82,
+     "minutes": 2731.5,
+     "points": 1100,
+     "rebounds": 421,
+     "assists": 201,
+     "steals": 94,
+     "blocks": 35,
+     "turnovers": 144,
+     "fgMade": 392,
+     "fgAttempted": 891,
+     "threeMade": 219,
+     "threeAttempted": 592,
+     "ftMade": 97,
+     "ftAttempted": 137
+    },
+    "playoffs": {
+     "games": 5,
+     "started": 5,
+     "minutes": 165.1,
+     "points": 35,
+     "rebounds": 27,
+     "assists": 6,
+     "steals": 7,
+     "blocks": 3,
+     "turnovers": 7,
+     "fgMade": 11,
+     "fgAttempted": 38,
+     "threeMade": 7,
+     "threeAttempted": 27,
+     "ftMade": 6,
+     "ftAttempted": 6
+    }
+   },
+   "lastToDate": {
+    "regular": {
+     "games": 15,
+     "started": 15,
+     "minutes": 519.1,
+     "points": 180,
+     "rebounds": 75,
+     "assists": 43,
+     "steals": 17,
+     "blocks": 7,
+     "turnovers": 33,
+     "fgMade": 67,
+     "fgAttempted": 169,
+     "threeMade": 31,
+     "threeAttempted": 103,
+     "ftMade": 15,
+     "ftAttempted": 21
+    }
+   }
+  },
+  {
+   "id": "lillada01",
+   "name": "Damian Lillard",
+   "number": "0",
+   "position": "PG",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 2\"",
+    "weight": 200,
+    "birthDate": "1990-07-15",
+    "experience": 13,
+    "college": "Weber State",
+    "birthPlace": "Oakland, CA"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/6606.png",
+   "current": {
+    "regular": {
+     "games": 15,
+     "started": 15,
+     "minutes": 442.8,
+     "points": 314,
+     "rebounds": 48,
+     "assists": 61,
+     "steals": 10,
+     "blocks": 2,
+     "turnovers": 35,
+     "fgMade": 90,
+     "fgAttempted": 220,
+     "threeMade": 49,
+     "threeAttempted": 137,
+     "ftMade": 85,
+     "ftAttempted": 96
+    }
+   },
+   "lastFull": {},
+   "lastToDate": {}
+  },
   {
    "id": "avdijde01",
    "name": "Deni Avdija",
@@ -97,133 +224,6 @@
    }
   },
   {
-   "id": "lillada01",
-   "name": "Damian Lillard",
-   "number": "0",
-   "position": "PG",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 2\"",
-    "weight": 200,
-    "birthDate": "1990-07-15",
-    "experience": 13,
-    "college": "Weber State",
-    "birthPlace": "Oakland, CA"
-   },
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/6606.png",
-   "current": {
-    "regular": {
-     "games": 14,
-     "started": 14,
-     "minutes": 408.1,
-     "points": 281,
-     "rebounds": 42,
-     "assists": 61,
-     "steals": 10,
-     "blocks": 2,
-     "turnovers": 31,
-     "fgMade": 80,
-     "fgAttempted": 202,
-     "threeMade": 44,
-     "threeAttempted": 125,
-     "ftMade": 77,
-     "ftAttempted": 87
-    }
-   },
-   "lastFull": {},
-   "lastToDate": {}
-  },
-  {
-   "id": "camarto01",
-   "name": "Toumani Camara",
-   "number": "33",
-   "position": "PF",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 7\"",
-    "weight": 230,
-    "birthDate": "2000-05-08",
-    "experience": 3,
-    "college": "Dayton",
-    "birthPlace": "Brussels, Belgium"
-   },
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4431736.png",
-   "current": {
-    "regular": {
-     "games": 14,
-     "started": 14,
-     "minutes": 407.3,
-     "points": 171,
-     "rebounds": 48,
-     "assists": 18,
-     "steals": 12,
-     "blocks": 6,
-     "turnovers": 16,
-     "fgMade": 60,
-     "fgAttempted": 133,
-     "threeMade": 36,
-     "threeAttempted": 93,
-     "ftMade": 15,
-     "ftAttempted": 19
-    }
-   },
-   "lastFull": {
-    "regular": {
-     "games": 82,
-     "started": 82,
-     "minutes": 2731.5,
-     "points": 1100,
-     "rebounds": 421,
-     "assists": 201,
-     "steals": 94,
-     "blocks": 35,
-     "turnovers": 144,
-     "fgMade": 392,
-     "fgAttempted": 891,
-     "threeMade": 219,
-     "threeAttempted": 592,
-     "ftMade": 97,
-     "ftAttempted": 137
-    },
-    "playoffs": {
-     "games": 5,
-     "started": 5,
-     "minutes": 165.1,
-     "points": 35,
-     "rebounds": 27,
-     "assists": 6,
-     "steals": 7,
-     "blocks": 3,
-     "turnovers": 7,
-     "fgMade": 11,
-     "fgAttempted": 38,
-     "threeMade": 7,
-     "threeAttempted": 27,
-     "ftMade": 6,
-     "ftAttempted": 6
-    }
-   },
-   "lastToDate": {
-    "regular": {
-     "games": 15,
-     "started": 15,
-     "minutes": 519.1,
-     "points": 180,
-     "rebounds": 75,
-     "assists": 43,
-     "steals": 17,
-     "blocks": 7,
-     "turnovers": 33,
-     "fgMade": 67,
-     "fgAttempted": 169,
-     "threeMade": 31,
-     "threeAttempted": 103,
-     "ftMade": 15,
-     "ftAttempted": 21
-    }
-   }
-  },
-  {
    "id": "holidjr01",
    "name": "Jrue Holiday",
    "number": "5",
@@ -240,21 +240,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3995.png",
    "current": {
     "regular": {
-     "games": 14,
+     "games": 15,
      "started": 0,
-     "minutes": 371.1,
-     "points": 186,
-     "rebounds": 50,
-     "assists": 57,
-     "steals": 14,
+     "minutes": 401.7,
+     "points": 208,
+     "rebounds": 52,
+     "assists": 64,
+     "steals": 18,
      "blocks": 3,
-     "turnovers": 25,
-     "fgMade": 60,
-     "fgAttempted": 129,
-     "threeMade": 35,
-     "threeAttempted": 79,
-     "ftMade": 31,
-     "ftAttempted": 36
+     "turnovers": 29,
+     "fgMade": 68,
+     "fgAttempted": 143,
+     "threeMade": 37,
+     "threeAttempted": 85,
+     "ftMade": 35,
+     "ftAttempted": 41
     }
    },
    "lastFull": {
@@ -330,21 +330,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5105565.png",
    "current": {
     "regular": {
-     "games": 14,
-     "started": 14,
-     "minutes": 359.3,
-     "points": 154,
-     "rebounds": 148,
-     "assists": 25,
-     "steals": 8,
-     "blocks": 32,
-     "turnovers": 20,
-     "fgMade": 64,
-     "fgAttempted": 114,
+     "games": 15,
+     "started": 15,
+     "minutes": 385.7,
+     "points": 161,
+     "rebounds": 161,
+     "assists": 27,
+     "steals": 9,
+     "blocks": 33,
+     "turnovers": 22,
+     "fgMade": 66,
+     "fgAttempted": 119,
      "threeMade": 13,
-     "threeAttempted": 35,
-     "ftMade": 13,
-     "ftAttempted": 23
+     "threeAttempted": 36,
+     "ftMade": 16,
+     "ftAttempted": 27
     }
    },
    "lastFull": {
@@ -419,21 +419,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5081727.png",
    "current": {
     "regular": {
-     "games": 14,
-     "started": 5,
-     "minutes": 339.6,
-     "points": 105,
-     "rebounds": 52,
-     "assists": 27,
-     "steals": 6,
+     "games": 15,
+     "started": 6,
+     "minutes": 370.9,
+     "points": 118,
+     "rebounds": 57,
+     "assists": 30,
+     "steals": 9,
      "blocks": 4,
      "turnovers": 10,
-     "fgMade": 33,
-     "fgAttempted": 73,
-     "threeMade": 19,
-     "threeAttempted": 51,
-     "ftMade": 20,
-     "ftAttempted": 28
+     "fgMade": 38,
+     "fgAttempted": 81,
+     "threeMade": 20,
+     "threeAttempted": 55,
+     "ftMade": 22,
+     "ftAttempted": 31
     }
    },
    "lastFull": {
@@ -508,21 +508,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4683678.png",
    "current": {
     "regular": {
-     "games": 14,
+     "games": 15,
      "started": 5,
-     "minutes": 309.7,
-     "points": 122,
-     "rebounds": 25,
-     "assists": 19,
-     "steals": 7,
-     "blocks": 2,
-     "turnovers": 28,
-     "fgMade": 39,
-     "fgAttempted": 123,
-     "threeMade": 12,
-     "threeAttempted": 60,
-     "ftMade": 32,
-     "ftAttempted": 41
+     "minutes": 344.8,
+     "points": 149,
+     "rebounds": 32,
+     "assists": 22,
+     "steals": 8,
+     "blocks": 3,
+     "turnovers": 31,
+     "fgMade": 47,
+     "fgAttempted": 135,
+     "threeMade": 17,
+     "threeAttempted": 66,
+     "ftMade": 38,
+     "ftAttempted": 48
     }
    },
    "lastFull": {
@@ -743,19 +743,19 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4592435.png",
    "current": {
     "regular": {
-     "games": 9,
+     "games": 10,
      "started": 0,
-     "minutes": 85.6,
+     "minutes": 95.2,
      "points": 26,
-     "rebounds": 23,
+     "rebounds": 24,
      "assists": 3,
      "steals": 0,
      "blocks": 5,
-     "turnovers": 5,
+     "turnovers": 6,
      "fgMade": 10,
-     "fgAttempted": 18,
+     "fgAttempted": 19,
      "threeMade": 2,
-     "threeAttempted": 9,
+     "threeAttempted": 10,
      "ftMade": 4,
      "ftAttempted": 4
     }
@@ -796,6 +796,149 @@
      "threeAttempted": 15,
      "ftMade": 2,
      "ftAttempted": 4
+    }
+   }
+  },
+  {
+   "id": "kentja01",
+   "name": "Jayson Kent",
+   "number": "29",
+   "position": "SF",
+   "twoWay": true,
+   "bio": {
+    "height": "6' 8\"",
+    "weight": 215,
+    "birthDate": "2002-02-03",
+    "experience": 1,
+    "college": "Texas",
+    "birthPlace": "Oak Forest, IL"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4703889.png",
+   "current": {
+    "regular": {
+     "games": 6,
+     "started": 2,
+     "minutes": 85.1,
+     "points": 25,
+     "rebounds": 7,
+     "assists": 3,
+     "steals": 6,
+     "blocks": 0,
+     "turnovers": 6,
+     "fgMade": 10,
+     "fgAttempted": 25,
+     "threeMade": 5,
+     "threeAttempted": 14,
+     "ftMade": 0,
+     "ftAttempted": 1
+    }
+   },
+   "lastFull": {
+    "regular": {
+     "games": 5,
+     "started": 0,
+     "minutes": 22.6,
+     "points": 10,
+     "rebounds": 5,
+     "assists": 0,
+     "steals": 1,
+     "blocks": 1,
+     "turnovers": 0,
+     "fgMade": 4,
+     "fgAttempted": 7,
+     "threeMade": 1,
+     "threeAttempted": 4,
+     "ftMade": 1,
+     "ftAttempted": 1
+    }
+   },
+   "lastToDate": {}
+  },
+  {
+   "id": "yangha01",
+   "name": "Yang Hansen",
+   "number": "16",
+   "position": "C",
+   "twoWay": false,
+   "bio": {
+    "height": "7' 1\"",
+    "weight": 270,
+    "birthDate": "2005-06-26",
+    "experience": 1
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5217746.png",
+   "current": {
+    "regular": {
+     "games": 9,
+     "started": 0,
+     "minutes": 85,
+     "points": 30,
+     "rebounds": 23,
+     "assists": 7,
+     "steals": 3,
+     "blocks": 1,
+     "turnovers": 10,
+     "fgMade": 9,
+     "fgAttempted": 20,
+     "threeMade": 5,
+     "threeAttempted": 10,
+     "ftMade": 7,
+     "ftAttempted": 10
+    }
+   },
+   "lastFull": {
+    "regular": {
+     "games": 43,
+     "started": 1,
+     "minutes": 300.1,
+     "points": 95,
+     "rebounds": 66,
+     "assists": 22,
+     "steals": 3,
+     "blocks": 10,
+     "turnovers": 32,
+     "fgMade": 31,
+     "fgAttempted": 100,
+     "threeMade": 5,
+     "threeAttempted": 42,
+     "ftMade": 28,
+     "ftAttempted": 34
+    },
+    "playoffs": {
+     "games": 4,
+     "started": 0,
+     "minutes": 4.6,
+     "points": 0,
+     "rebounds": 1,
+     "assists": 0,
+     "steals": 0,
+     "blocks": 0,
+     "turnovers": 0,
+     "fgMade": 0,
+     "fgAttempted": 2,
+     "threeMade": 0,
+     "threeAttempted": 2,
+     "ftMade": 0,
+     "ftAttempted": 0
+    }
+   },
+   "lastToDate": {
+    "regular": {
+     "games": 7,
+     "started": 0,
+     "minutes": 50.2,
+     "points": 20,
+     "rebounds": 11,
+     "assists": 4,
+     "steals": 0,
+     "blocks": 3,
+     "turnovers": 7,
+     "fgMade": 7,
+     "fgAttempted": 20,
+     "threeMade": 0,
+     "threeAttempted": 6,
+     "ftMade": 6,
+     "ftAttempted": 7
     }
    }
   },
@@ -869,94 +1012,6 @@
      "threeAttempted": 14,
      "ftMade": 6,
      "ftAttempted": 6
-    }
-   }
-  },
-  {
-   "id": "yangha01",
-   "name": "Yang Hansen",
-   "number": "16",
-   "position": "C",
-   "twoWay": false,
-   "bio": {
-    "height": "7' 1\"",
-    "weight": 270,
-    "birthDate": "2005-06-26",
-    "experience": 1
-   },
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5217746.png",
-   "current": {
-    "regular": {
-     "games": 8,
-     "started": 0,
-     "minutes": 72.9,
-     "points": 28,
-     "rebounds": 22,
-     "assists": 6,
-     "steals": 3,
-     "blocks": 1,
-     "turnovers": 8,
-     "fgMade": 8,
-     "fgAttempted": 18,
-     "threeMade": 5,
-     "threeAttempted": 10,
-     "ftMade": 7,
-     "ftAttempted": 8
-    }
-   },
-   "lastFull": {
-    "regular": {
-     "games": 43,
-     "started": 1,
-     "minutes": 300.1,
-     "points": 95,
-     "rebounds": 66,
-     "assists": 22,
-     "steals": 3,
-     "blocks": 10,
-     "turnovers": 32,
-     "fgMade": 31,
-     "fgAttempted": 100,
-     "threeMade": 5,
-     "threeAttempted": 42,
-     "ftMade": 28,
-     "ftAttempted": 34
-    },
-    "playoffs": {
-     "games": 4,
-     "started": 0,
-     "minutes": 4.6,
-     "points": 0,
-     "rebounds": 1,
-     "assists": 0,
-     "steals": 0,
-     "blocks": 0,
-     "turnovers": 0,
-     "fgMade": 0,
-     "fgAttempted": 2,
-     "threeMade": 0,
-     "threeAttempted": 2,
-     "ftMade": 0,
-     "ftAttempted": 0
-    }
-   },
-   "lastToDate": {
-    "regular": {
-     "games": 7,
-     "started": 0,
-     "minutes": 50.2,
-     "points": 20,
-     "rebounds": 11,
-     "assists": 4,
-     "steals": 0,
-     "blocks": 3,
-     "turnovers": 7,
-     "fgMade": 7,
-     "fgAttempted": 20,
-     "threeMade": 0,
-     "threeAttempted": 6,
-     "ftMade": 6,
-     "ftAttempted": 7
     }
    }
   },
@@ -1050,61 +1105,6 @@
    }
   },
   {
-   "id": "kentja01",
-   "name": "Jayson Kent",
-   "number": "29",
-   "position": "SF",
-   "twoWay": true,
-   "bio": {
-    "height": "6' 8\"",
-    "weight": 215,
-    "birthDate": "2002-02-03",
-    "experience": 1,
-    "college": "Texas",
-    "birthPlace": "Oak Forest, IL"
-   },
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4703889.png",
-   "current": {
-    "regular": {
-     "games": 5,
-     "started": 1,
-     "minutes": 67.8,
-     "points": 23,
-     "rebounds": 6,
-     "assists": 1,
-     "steals": 5,
-     "blocks": 0,
-     "turnovers": 4,
-     "fgMade": 9,
-     "fgAttempted": 22,
-     "threeMade": 5,
-     "threeAttempted": 12,
-     "ftMade": 0,
-     "ftAttempted": 1
-    }
-   },
-   "lastFull": {
-    "regular": {
-     "games": 5,
-     "started": 0,
-     "minutes": 22.6,
-     "points": 10,
-     "rebounds": 5,
-     "assists": 0,
-     "steals": 1,
-     "blocks": 1,
-     "turnovers": 0,
-     "fgMade": 4,
-     "fgAttempted": 7,
-     "threeMade": 1,
-     "threeAttempted": 4,
-     "ftMade": 1,
-     "ftAttempted": 1
-    }
-   },
-   "lastToDate": {}
-  },
-  {
    "id": "pottemi01",
    "name": "Micah Potter",
    "number": "9",
@@ -1176,19 +1176,19 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4593043.png",
    "current": {
     "regular": {
-     "games": 2,
+     "games": 3,
      "started": 0,
-     "minutes": 12,
+     "minutes": 18.2,
      "points": 12,
-     "rebounds": 4,
+     "rebounds": 7,
      "assists": 3,
      "steals": 0,
      "blocks": 0,
      "turnovers": 1,
      "fgMade": 3,
-     "fgAttempted": 9,
+     "fgAttempted": 12,
      "threeMade": 2,
-     "threeAttempted": 5,
+     "threeAttempted": 8,
      "ftMade": 4,
      "ftAttempted": 4
     }

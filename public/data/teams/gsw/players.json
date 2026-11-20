@@ -1,7 +1,7 @@
 {
  "season": "2026-27",
  "lastSeason": "2025-26",
- "updatedAt": "2026-11-20T12:22:46.863Z",
+ "updatedAt": "2026-11-20T18:22:32.489Z",
  "teamGamesPlayed": {
   "regular": 16,
   "playoffs": 0
@@ -24,21 +24,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5175737.png",
    "current": {
     "regular": {
-     "games": 15,
-     "started": 15,
-     "minutes": 473.7,
-     "points": 304,
-     "rebounds": 109,
-     "assists": 52,
-     "steals": 16,
-     "blocks": 11,
-     "turnovers": 46,
-     "fgMade": 104,
-     "fgAttempted": 224,
-     "threeMade": 31,
-     "threeAttempted": 82,
-     "ftMade": 65,
-     "ftAttempted": 86
+     "games": 16,
+     "started": 16,
+     "minutes": 506.6,
+     "points": 315,
+     "rebounds": 117,
+     "assists": 59,
+     "steals": 17,
+     "blocks": 13,
+     "turnovers": 49,
+     "fgMade": 107,
+     "fgAttempted": 235,
+     "threeMade": 32,
+     "threeAttempted": 86,
+     "ftMade": 69,
+     "ftAttempted": 90
     }
    },
    "lastFull": {},
@@ -61,21 +61,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4709138.png",
    "current": {
     "regular": {
-     "games": 13,
-     "started": 13,
-     "minutes": 415.5,
-     "points": 206,
-     "rebounds": 63,
-     "assists": 49,
-     "steals": 14,
+     "games": 14,
+     "started": 14,
+     "minutes": 447.2,
+     "points": 221,
+     "rebounds": 66,
+     "assists": 51,
+     "steals": 15,
      "blocks": 7,
-     "turnovers": 18,
-     "fgMade": 72,
-     "fgAttempted": 160,
+     "turnovers": 20,
+     "fgMade": 77,
+     "fgAttempted": 172,
      "threeMade": 34,
-     "threeAttempted": 90,
-     "ftMade": 28,
-     "ftAttempted": 40
+     "threeAttempted": 95,
+     "ftMade": 33,
+     "ftAttempted": 46
     }
    },
    "lastFull": {
@@ -116,6 +116,61 @@
      "ftAttempted": 28
     }
    }
+  },
+  {
+   "id": "meltode01",
+   "name": "De'Anthony Melton",
+   "number": "8",
+   "position": "SG",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 2\"",
+    "weight": 200,
+    "birthDate": "1998-05-28",
+    "experience": 8,
+    "college": "USC",
+    "birthPlace": "North Hollywood, CA"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4066436.png",
+   "current": {
+    "regular": {
+     "games": 16,
+     "started": 4,
+     "minutes": 351.9,
+     "points": 146,
+     "rebounds": 60,
+     "assists": 39,
+     "steals": 22,
+     "blocks": 8,
+     "turnovers": 26,
+     "fgMade": 46,
+     "fgAttempted": 121,
+     "threeMade": 32,
+     "threeAttempted": 82,
+     "ftMade": 22,
+     "ftAttempted": 26
+    }
+   },
+   "lastFull": {
+    "regular": {
+     "games": 49,
+     "started": 24,
+     "minutes": 1125.4,
+     "points": 602,
+     "rebounds": 158,
+     "assists": 125,
+     "steals": 77,
+     "blocks": 20,
+     "turnovers": 91,
+     "fgMade": 215,
+     "fgAttempted": 528,
+     "threeMade": 72,
+     "threeAttempted": 245,
+     "ftMade": 100,
+     "ftAttempted": 121
+    }
+   },
+   "lastToDate": {}
   },
   {
    "id": "greendr01",
@@ -191,61 +246,6 @@
    }
   },
   {
-   "id": "meltode01",
-   "name": "De'Anthony Melton",
-   "number": "8",
-   "position": "SG",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 2\"",
-    "weight": 200,
-    "birthDate": "1998-05-28",
-    "experience": 8,
-    "college": "USC",
-    "birthPlace": "North Hollywood, CA"
-   },
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4066436.png",
-   "current": {
-    "regular": {
-     "games": 15,
-     "started": 3,
-     "minutes": 327.1,
-     "points": 137,
-     "rebounds": 59,
-     "assists": 34,
-     "steals": 20,
-     "blocks": 6,
-     "turnovers": 24,
-     "fgMade": 43,
-     "fgAttempted": 111,
-     "threeMade": 31,
-     "threeAttempted": 78,
-     "ftMade": 20,
-     "ftAttempted": 24
-    }
-   },
-   "lastFull": {
-    "regular": {
-     "games": 49,
-     "started": 24,
-     "minutes": 1125.4,
-     "points": 602,
-     "rebounds": 158,
-     "assists": 125,
-     "steals": 77,
-     "blocks": 20,
-     "turnovers": 91,
-     "fgMade": 215,
-     "fgAttempted": 528,
-     "threeMade": 72,
-     "threeAttempted": 245,
-     "ftMade": 100,
-     "ftAttempted": 121
-    }
-   },
-   "lastToDate": {}
-  },
-  {
    "id": "niangge01",
    "name": "Georges Niang",
    "number": "32",
@@ -262,19 +262,19 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/2990969.png",
    "current": {
     "regular": {
-     "games": 15,
+     "games": 16,
      "started": 2,
-     "minutes": 288,
-     "points": 112,
-     "rebounds": 45,
+     "minutes": 302.8,
+     "points": 117,
+     "rebounds": 47,
      "assists": 23,
-     "steals": 7,
+     "steals": 8,
      "blocks": 2,
-     "turnovers": 16,
-     "fgMade": 43,
-     "fgAttempted": 101,
-     "threeMade": 19,
-     "threeAttempted": 59,
+     "turnovers": 18,
+     "fgMade": 45,
+     "fgAttempted": 109,
+     "threeMade": 20,
+     "threeAttempted": 63,
      "ftMade": 7,
      "ftAttempted": 10
     }
@@ -299,21 +299,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4897262.png",
    "current": {
     "regular": {
-     "games": 14,
+     "games": 15,
      "started": 4,
-     "minutes": 271.9,
-     "points": 98,
-     "rebounds": 29,
+     "minutes": 298.5,
+     "points": 113,
+     "rebounds": 34,
      "assists": 15,
      "steals": 11,
      "blocks": 3,
-     "turnovers": 11,
-     "fgMade": 37,
-     "fgAttempted": 74,
-     "threeMade": 15,
-     "threeAttempted": 37,
-     "ftMade": 9,
-     "ftAttempted": 12
+     "turnovers": 13,
+     "fgMade": 42,
+     "fgAttempted": 82,
+     "threeMade": 16,
+     "threeAttempted": 40,
+     "ftMade": 13,
+     "ftAttempted": 16
     }
    },
    "lastFull": {
@@ -444,21 +444,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4997536.png",
    "current": {
     "regular": {
-     "games": 12,
-     "started": 6,
-     "minutes": 222.6,
-     "points": 74,
-     "rebounds": 52,
+     "games": 13,
+     "started": 7,
+     "minutes": 246,
+     "points": 82,
+     "rebounds": 55,
      "assists": 22,
      "steals": 5,
      "blocks": 5,
-     "turnovers": 13,
-     "fgMade": 23,
-     "fgAttempted": 59,
+     "turnovers": 16,
+     "fgMade": 26,
+     "fgAttempted": 68,
      "threeMade": 6,
-     "threeAttempted": 23,
-     "ftMade": 22,
-     "ftAttempted": 33
+     "threeAttempted": 25,
+     "ftMade": 24,
+     "ftAttempted": 37
     }
    },
    "lastFull": {
@@ -517,21 +517,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3213.png",
    "current": {
     "regular": {
-     "games": 12,
+     "games": 13,
      "started": 2,
-     "minutes": 203.9,
-     "points": 47,
-     "rebounds": 45,
-     "assists": 22,
-     "steals": 4,
-     "blocks": 12,
-     "turnovers": 6,
-     "fgMade": 18,
-     "fgAttempted": 52,
+     "minutes": 220.6,
+     "points": 50,
+     "rebounds": 47,
+     "assists": 24,
+     "steals": 5,
+     "blocks": 13,
+     "turnovers": 8,
+     "fgMade": 19,
+     "fgAttempted": 57,
      "threeMade": 11,
-     "threeAttempted": 35,
-     "ftMade": 0,
-     "ftAttempted": 1
+     "threeAttempted": 38,
+     "ftMade": 1,
+     "ftAttempted": 2
     }
    },
    "lastFull": {
@@ -590,21 +590,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4397886.png",
    "current": {
     "regular": {
-     "games": 13,
-     "started": 2,
-     "minutes": 184,
-     "points": 101,
-     "rebounds": 70,
-     "assists": 7,
-     "steals": 2,
-     "blocks": 12,
-     "turnovers": 14,
-     "fgMade": 41,
-     "fgAttempted": 62,
+     "games": 14,
+     "started": 3,
+     "minutes": 208.6,
+     "points": 117,
+     "rebounds": 83,
+     "assists": 8,
+     "steals": 3,
+     "blocks": 14,
+     "turnovers": 16,
+     "fgMade": 47,
+     "fgAttempted": 69,
      "threeMade": 0,
      "threeAttempted": 2,
-     "ftMade": 19,
-     "ftAttempted": 25
+     "ftMade": 23,
+     "ftAttempted": 30
     }
    },
    "lastFull": {
@@ -663,19 +663,19 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3134903.png",
    "current": {
     "regular": {
-     "games": 13,
+     "games": 14,
      "started": 0,
-     "minutes": 169.7,
-     "points": 62,
-     "rebounds": 26,
-     "assists": 6,
-     "steals": 9,
+     "minutes": 193.4,
+     "points": 64,
+     "rebounds": 27,
+     "assists": 7,
+     "steals": 12,
      "blocks": 0,
-     "turnovers": 10,
-     "fgMade": 27,
-     "fgAttempted": 55,
+     "turnovers": 11,
+     "fgMade": 28,
+     "fgAttempted": 57,
      "threeMade": 6,
-     "threeAttempted": 22,
+     "threeAttempted": 23,
      "ftMade": 2,
      "ftAttempted": 2
     }
@@ -809,21 +809,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4433149.png",
    "current": {
     "regular": {
-     "games": 12,
+     "games": 13,
      "started": 2,
-     "minutes": 135.5,
-     "points": 77,
+     "minutes": 147.8,
+     "points": 86,
      "rebounds": 6,
-     "assists": 22,
+     "assists": 23,
      "steals": 1,
      "blocks": 0,
      "turnovers": 3,
-     "fgMade": 26,
-     "fgAttempted": 69,
-     "threeMade": 20,
-     "threeAttempted": 50,
-     "ftMade": 5,
-     "ftAttempted": 6
+     "fgMade": 29,
+     "fgAttempted": 75,
+     "threeMade": 21,
+     "threeAttempted": 53,
+     "ftMade": 7,
+     "ftAttempted": 8
     }
    },
    "lastFull": {
@@ -864,21 +864,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4703396.png",
    "current": {
     "regular": {
-     "games": 12,
+     "games": 13,
      "started": 2,
-     "minutes": 119.3,
-     "points": 53,
+     "minutes": 123.5,
+     "points": 58,
      "rebounds": 31,
      "assists": 14,
      "steals": 5,
      "blocks": 6,
-     "turnovers": 7,
-     "fgMade": 19,
-     "fgAttempted": 43,
+     "turnovers": 8,
+     "fgMade": 20,
+     "fgAttempted": 44,
      "threeMade": 5,
      "threeAttempted": 11,
-     "ftMade": 10,
-     "ftAttempted": 12
+     "ftMade": 13,
+     "ftAttempted": 16
     }
    },
    "lastFull": {},
@@ -901,17 +901,17 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4897449.png",
    "current": {
     "regular": {
-     "games": 10,
+     "games": 11,
      "started": 0,
-     "minutes": 59.9,
+     "minutes": 64.2,
      "points": 11,
-     "rebounds": 11,
-     "assists": 0,
+     "rebounds": 13,
+     "assists": 1,
      "steals": 2,
      "blocks": 3,
      "turnovers": 1,
      "fgMade": 3,
-     "fgAttempted": 13,
+     "fgAttempted": 14,
      "threeMade": 1,
      "threeAttempted": 4,
      "ftMade": 4,
