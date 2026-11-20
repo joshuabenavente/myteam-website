@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-20T22:23:44.807Z",
+ "updatedAt": "2026-11-20T23:23:38.401Z",
  "teams": {
   "ATL": [
    {
@@ -167,10 +167,24 @@
     "returnDate": "2026-11-27"
    },
    {
+    "name": "P.J. Washington",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Shoulder",
+    "returnDate": "2026-11-21"
+   },
+   {
     "name": "Tobi Lawal",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Groin",
+    "returnDate": "2026-11-21"
+   },
+   {
+    "name": "Walter Clayton Jr.",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Knee",
     "returnDate": "2026-11-21"
    }
   ],
@@ -324,20 +338,6 @@
     "returnDate": "2026-12-13"
    },
    {
-    "name": "Andrew Nembhard",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Hip (soreness)",
-    "returnDate": "2026-11-20"
-   },
-   {
-    "name": "Braden Smith",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Ankle (sprain)",
-    "returnDate": "2026-11-20"
-   },
-   {
     "name": "T.J. McConnell",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
@@ -379,11 +379,25 @@
   ],
   "MEM": [
    {
+    "name": "Cameron Boozer",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Ankle",
+    "returnDate": "2026-11-23"
+   },
+   {
     "name": "GG Jackson",
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Foot (surgery)",
     "returnDate": "2027-01-18"
+   },
+   {
+    "name": "Javon Small",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Personal",
+    "returnDate": "2026-11-23"
    },
    {
     "name": "Richie Saunders",
@@ -411,13 +425,6 @@
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Calf",
-    "returnDate": "2026-11-21"
-   },
-   {
-    "name": "Zach Edey",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Ankle",
     "returnDate": "2026-11-21"
    }
   ],
@@ -646,9 +653,9 @@
    {
     "name": "Chris Youngblood",
     "status": "Out",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Heel (bruise)",
-    "returnDate": "2026-11-21"
+    "returnDate": "2026-11-27"
    },
    {
     "name": "Ja Morant",
@@ -775,7 +782,7 @@
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Foot (strain)",
-    "returnDate": "2026-11-27"
+    "returnDate": "2026-11-29"
    },
    {
     "name": "Lauri Markkanen",
