@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-20T01:23:44.316Z",
+ "updatedAt": "2026-11-20T02:23:50.813Z",
  "teams": {
   "ATL": [
    {
@@ -405,6 +405,13 @@
     "gameTimeDecision": false,
     "reason": "Ankle",
     "returnDate": "2026-11-21"
+   },
+   {
+    "name": "Jerami Grant",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Calf",
+    "returnDate": "2026-11-21"
    }
   ],
   "MIA": [
@@ -677,6 +684,20 @@
     "gameTimeDecision": false,
     "reason": "Knee (dislocated)",
     "returnDate": "2026-11-25"
+   },
+   {
+    "name": "De'Andre Hunter",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Hip (soreness)",
+    "returnDate": "2026-11-20"
+   },
+   {
+    "name": "Precious Achiuwa",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Lower Leg (bruise)",
+    "returnDate": "2026-11-20"
    }
   ],
   "SAS": [
