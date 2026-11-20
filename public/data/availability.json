@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-20T02:23:50.813Z",
+ "updatedAt": "2026-11-20T04:23:43.887Z",
  "teams": {
   "ATL": [
    {
@@ -231,15 +231,8 @@
    {
     "name": "Brandon Williams",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Hamstring (strain)",
-    "returnDate": "2026-11-22"
-   },
-   {
-    "name": "Draymond Green",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Rest",
     "returnDate": "2026-11-22"
    },
    {
@@ -269,6 +262,13 @@
     "gameTimeDecision": false,
     "reason": "Abdomen",
     "returnDate": "2026-12-12"
+   },
+   {
+    "name": "Draymond Green",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Rest",
+    "returnDate": "2026-11-22"
    }
   ],
   "HOU": [
@@ -349,7 +349,7 @@
    {
     "name": "Brandon Ingram",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Achilles (surgery)",
     "returnDate": "2026-11-21"
    },
@@ -395,15 +395,8 @@
    {
     "name": "Ty Jerome",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Hip",
-    "returnDate": "2026-11-21"
-   },
-   {
-    "name": "Zach Edey",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Ankle",
     "returnDate": "2026-11-21"
    },
    {
@@ -411,6 +404,13 @@
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Calf",
+    "returnDate": "2026-11-21"
+   },
+   {
+    "name": "Zach Edey",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Ankle",
     "returnDate": "2026-11-21"
    }
   ],
@@ -425,25 +425,25 @@
   ],
   "MIL": [
    {
-    "name": "Kyle Kuzma",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Shoulder (bruise)",
-    "returnDate": "2026-11-21"
-   },
-   {
-    "name": "Myles Turner",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Shoulder (bruise)",
-    "returnDate": "2026-11-21"
-   },
-   {
     "name": "Ousmane Dieng",
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Finger (surgery)",
     "returnDate": "2026-12-14"
+   },
+   {
+    "name": "Kyle Kuzma",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Shoulder (bruise)",
+    "returnDate": "2026-11-21"
+   },
+   {
+    "name": "Myles Turner",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Shoulder (bruise)",
+    "returnDate": "2026-11-21"
    }
   ],
   "MIN": [
@@ -630,15 +630,8 @@
    {
     "name": "Chris Youngblood",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Heel (bruise)",
-    "returnDate": "2026-11-21"
-   },
-   {
-    "name": "Deni Avdija",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Foot",
     "returnDate": "2026-11-21"
    },
    {
@@ -647,13 +640,6 @@
     "gameTimeDecision": false,
     "reason": "Hamstring",
     "returnDate": "2026-12-01"
-   },
-   {
-    "name": "Robert Williams III",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Rest",
-    "returnDate": "2026-11-21"
    },
    {
     "name": "Shaedon Sharpe",
@@ -668,6 +654,20 @@
     "gameTimeDecision": false,
     "reason": "Ankle",
     "returnDate": "2027-01-12"
+   },
+   {
+    "name": "Deni Avdija",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Foot",
+    "returnDate": "2026-11-21"
+   },
+   {
+    "name": "Robert Williams III",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Rest",
+    "returnDate": "2026-11-21"
    }
   ],
   "SAC": [
