@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-20T23:23:38.401Z",
+ "updatedAt": "2026-11-21T00:23:53.375Z",
  "teams": {
   "ATL": [
    {
@@ -93,25 +93,18 @@
     "returnDate": "2026-12-13"
    },
    {
+    "name": "Jalen Smith",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Illness",
+    "returnDate": "2026-11-22"
+   },
+   {
     "name": "Tobe Awaka",
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Back",
     "returnDate": "2026-11-25"
-   },
-   {
-    "name": "Jalen Smith",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Illness",
-    "returnDate": "2026-11-20"
-   },
-   {
-    "name": "Noa Essengue",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Wrist (soreness)",
-    "returnDate": "2026-11-20"
    }
   ],
   "CLE": [
@@ -135,13 +128,6 @@
     "gameTimeDecision": false,
     "reason": "Back",
     "returnDate": "2026-11-29"
-   },
-   {
-    "name": "Peyton Watson",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Back (bruise)",
-    "returnDate": "2026-11-20"
    }
   ],
   "DAL": [
@@ -225,13 +211,6 @@
     "gameTimeDecision": false,
     "reason": "Knee (surgery)",
     "returnDate": "2026-12-13"
-   },
-   {
-    "name": "Cade Cunningham",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Knee (soreness)",
-    "returnDate": "2026-11-20"
    },
    {
     "name": "Ronald Holland II",
@@ -336,13 +315,6 @@
     "gameTimeDecision": false,
     "reason": "Hamstring (strain)",
     "returnDate": "2026-12-13"
-   },
-   {
-    "name": "T.J. McConnell",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Hamstring (strain)",
-    "returnDate": "2026-11-20"
    }
   ],
   "LAC": [
@@ -497,13 +469,6 @@
     "gameTimeDecision": false,
     "reason": "Ankle (sprain)",
     "returnDate": "2026-11-27"
-   },
-   {
-    "name": "Trey Murphy III",
-    "status": "Out",
-    "gameTimeDecision": true,
-    "reason": "Knee (tendinitis)",
-    "returnDate": "2026-11-20"
    }
   ],
   "NYK": [
@@ -523,6 +488,13 @@
    }
   ],
   "OKC": [
+   {
+    "name": "Alex Caruso",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Hip (soreness)",
+    "returnDate": "2026-11-22"
+   },
    {
     "name": "Cason Wallace",
     "status": "Out",
@@ -557,13 +529,6 @@
     "gameTimeDecision": false,
     "reason": "Knee",
     "returnDate": "2027-01-31"
-   },
-   {
-    "name": "Alex Caruso",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Hip (soreness)",
-    "returnDate": "2026-11-20"
    }
   ],
   "ORL": [
