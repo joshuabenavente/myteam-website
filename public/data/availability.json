@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-21T20:23:42.418Z",
+ "updatedAt": "2026-11-21T21:23:40.140Z",
  "teams": {
   "ATL": [
    {
@@ -48,17 +48,24 @@
   "BOS": [
    {
     "name": "Derrick White",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
+    "status": "Out",
+    "gameTimeDecision": false,
     "reason": "Shoulder",
-    "returnDate": "2026-11-21"
+    "returnDate": "2026-11-22"
    },
    {
     "name": "Jayson Tatum",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
+    "status": "Out",
+    "gameTimeDecision": false,
     "reason": "Rest",
-    "returnDate": "2026-11-21"
+    "returnDate": "2026-11-22"
+   },
+   {
+    "name": "Mitchell Robinson",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Illness",
+    "returnDate": "2026-11-22"
    }
   ],
   "BKN": [
@@ -411,6 +418,13 @@
   ],
   "MIA": [
    {
+    "name": "Giannis Antetokounmpo",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Groin",
+    "returnDate": "2026-11-22"
+   },
+   {
     "name": "Myron Gardner",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
@@ -567,14 +581,14 @@
     "status": "Out",
     "gameTimeDecision": true,
     "reason": "Knee",
-    "returnDate": "2026-11-22"
+    "returnDate": "2026-11-29"
    },
    {
     "name": "Noah Penda",
     "status": "Out",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Hamstring (strain)",
-    "returnDate": "2026-11-22"
+    "returnDate": "2026-11-29"
    },
    {
     "name": "Paolo Banchero",
