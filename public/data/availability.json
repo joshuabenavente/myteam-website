@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-21T21:23:40.140Z",
+ "updatedAt": "2026-11-21T22:23:42.580Z",
  "teams": {
   "ATL": [
    {
@@ -26,9 +26,9 @@
    {
     "name": "Jock Landale",
     "status": "Out",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Hip (inflammation)",
-    "returnDate": "2026-11-22"
+    "returnDate": "2026-11-27"
    },
    {
     "name": "Kingston Flemings",
@@ -333,6 +333,13 @@
     "returnDate": "2026-12-13"
    },
    {
+    "name": "Pascal Siakam",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Hip (soreness)",
+    "returnDate": "2026-11-22"
+   },
+   {
     "name": "T.J. McConnell",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
@@ -510,17 +517,17 @@
     "returnDate": "2026-11-22"
    },
    {
+    "name": "OG Anunoby",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Calf",
+    "returnDate": "2026-11-22"
+   },
+   {
     "name": "Karl-Anthony Towns",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Illness",
-    "returnDate": "2026-11-21"
-   },
-   {
-    "name": "OG Anunoby",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Calf",
     "returnDate": "2026-11-21"
    }
   ],

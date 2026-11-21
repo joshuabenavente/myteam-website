@@ -1,7 +1,7 @@
 {
  "season": "2026-27",
  "lastSeason": "2025-26",
- "updatedAt": "2026-11-21T16:23:39.789Z",
+ "updatedAt": "2026-11-21T22:23:42.440Z",
  "teamGamesPlayed": {
   "regular": 15,
   "playoffs": 0
@@ -114,21 +114,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4602025.png",
    "current": {
     "regular": {
-     "games": 14,
-     "started": 11,
-     "minutes": 378,
-     "points": 78,
-     "rebounds": 56,
-     "assists": 43,
-     "steals": 11,
+     "games": 15,
+     "started": 12,
+     "minutes": 409.6,
+     "points": 87,
+     "rebounds": 57,
+     "assists": 45,
+     "steals": 12,
      "blocks": 0,
-     "turnovers": 19,
-     "fgMade": 27,
-     "fgAttempted": 85,
-     "threeMade": 15,
-     "threeAttempted": 61,
+     "turnovers": 21,
+     "fgMade": 31,
+     "fgAttempted": 93,
+     "threeMade": 16,
+     "threeAttempted": 65,
      "ftMade": 9,
-     "ftAttempted": 12
+     "ftAttempted": 14
     }
    },
    "lastFull": {
@@ -497,6 +497,79 @@
    }
   },
   {
+   "id": "kalkbry01",
+   "name": "Ryan Kalkbrenner",
+   "number": "11",
+   "position": "C",
+   "twoWay": false,
+   "bio": {
+    "height": "7' 1\"",
+    "weight": 256,
+    "birthDate": "2002-01-17",
+    "experience": 1,
+    "college": "Creighton",
+    "birthPlace": "Florissant, MO"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4576060.png",
+   "current": {
+    "regular": {
+     "games": 15,
+     "started": 2,
+     "minutes": 272.5,
+     "points": 72,
+     "rebounds": 79,
+     "assists": 20,
+     "steals": 6,
+     "blocks": 17,
+     "turnovers": 17,
+     "fgMade": 26,
+     "fgAttempted": 38,
+     "threeMade": 0,
+     "threeAttempted": 0,
+     "ftMade": 20,
+     "ftAttempted": 22
+    }
+   },
+   "lastFull": {
+    "regular": {
+     "games": 69,
+     "started": 31,
+     "minutes": 1479.7,
+     "points": 521,
+     "rebounds": 377,
+     "assists": 54,
+     "steals": 32,
+     "blocks": 101,
+     "turnovers": 62,
+     "fgMade": 219,
+     "fgAttempted": 291,
+     "threeMade": 0,
+     "threeAttempted": 5,
+     "ftMade": 83,
+     "ftAttempted": 116
+    }
+   },
+   "lastToDate": {
+    "regular": {
+     "games": 14,
+     "started": 14,
+     "minutes": 371.1,
+     "points": 139,
+     "rebounds": 101,
+     "assists": 5,
+     "steals": 12,
+     "blocks": 29,
+     "turnovers": 22,
+     "fgMade": 60,
+     "fgAttempted": 74,
+     "threeMade": 0,
+     "threeAttempted": 1,
+     "ftMade": 19,
+     "ftAttempted": 24
+    }
+   }
+  },
+  {
    "id": "schrode01",
    "name": "Dennis Schröder",
    "number": "17",
@@ -582,79 +655,6 @@
      "threeAttempted": 73,
      "ftMade": 21,
      "ftAttempted": 29
-    }
-   }
-  },
-  {
-   "id": "kalkbry01",
-   "name": "Ryan Kalkbrenner",
-   "number": "11",
-   "position": "C",
-   "twoWay": false,
-   "bio": {
-    "height": "7' 1\"",
-    "weight": 256,
-    "birthDate": "2002-01-17",
-    "experience": 1,
-    "college": "Creighton",
-    "birthPlace": "Florissant, MO"
-   },
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4576060.png",
-   "current": {
-    "regular": {
-     "games": 14,
-     "started": 2,
-     "minutes": 255.6,
-     "points": 66,
-     "rebounds": 73,
-     "assists": 20,
-     "steals": 6,
-     "blocks": 17,
-     "turnovers": 16,
-     "fgMade": 24,
-     "fgAttempted": 36,
-     "threeMade": 0,
-     "threeAttempted": 0,
-     "ftMade": 18,
-     "ftAttempted": 20
-    }
-   },
-   "lastFull": {
-    "regular": {
-     "games": 69,
-     "started": 31,
-     "minutes": 1479.7,
-     "points": 521,
-     "rebounds": 377,
-     "assists": 54,
-     "steals": 32,
-     "blocks": 101,
-     "turnovers": 62,
-     "fgMade": 219,
-     "fgAttempted": 291,
-     "threeMade": 0,
-     "threeAttempted": 5,
-     "ftMade": 83,
-     "ftAttempted": 116
-    }
-   },
-   "lastToDate": {
-    "regular": {
-     "games": 14,
-     "started": 14,
-     "minutes": 371.1,
-     "points": 139,
-     "rebounds": 101,
-     "assists": 5,
-     "steals": 12,
-     "blocks": 29,
-     "turnovers": 22,
-     "fgMade": 60,
-     "fgAttempted": 74,
-     "threeMade": 0,
-     "threeAttempted": 1,
-     "ftMade": 19,
-     "ftAttempted": 24
     }
    }
   },
@@ -841,6 +841,79 @@
    }
   },
   {
+   "id": "mcneeli01",
+   "name": "Liam McNeeley",
+   "number": "33",
+   "position": "SF",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 7\"",
+    "weight": 210,
+    "birthDate": "2005-10-10",
+    "experience": 1,
+    "college": "UConn",
+    "birthPlace": "Richardson, TX"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5239590.png",
+   "current": {
+    "regular": {
+     "games": 9,
+     "started": 0,
+     "minutes": 71.8,
+     "points": 25,
+     "rebounds": 11,
+     "assists": 5,
+     "steals": 1,
+     "blocks": 0,
+     "turnovers": 5,
+     "fgMade": 8,
+     "fgAttempted": 28,
+     "threeMade": 3,
+     "threeAttempted": 14,
+     "ftMade": 6,
+     "ftAttempted": 7
+    }
+   },
+   "lastFull": {
+    "regular": {
+     "games": 31,
+     "started": 0,
+     "minutes": 367.8,
+     "points": 132,
+     "rebounds": 73,
+     "assists": 24,
+     "steals": 5,
+     "blocks": 3,
+     "turnovers": 13,
+     "fgMade": 38,
+     "fgAttempted": 95,
+     "threeMade": 24,
+     "threeAttempted": 60,
+     "ftMade": 32,
+     "ftAttempted": 39
+    }
+   },
+   "lastToDate": {
+    "regular": {
+     "games": 9,
+     "started": 0,
+     "minutes": 112.4,
+     "points": 37,
+     "rebounds": 17,
+     "assists": 11,
+     "steals": 2,
+     "blocks": 1,
+     "turnovers": 5,
+     "fgMade": 9,
+     "fgAttempted": 29,
+     "threeMade": 6,
+     "threeAttempted": 18,
+     "ftMade": 13,
+     "ftAttempted": 15
+    }
+   }
+  },
+  {
    "id": "willigr01",
    "name": "Grant Williams",
    "number": "2",
@@ -894,79 +967,6 @@
     }
    },
    "lastToDate": {}
-  },
-  {
-   "id": "mcneeli01",
-   "name": "Liam McNeeley",
-   "number": "33",
-   "position": "SF",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 7\"",
-    "weight": 210,
-    "birthDate": "2005-10-10",
-    "experience": 1,
-    "college": "UConn",
-    "birthPlace": "Richardson, TX"
-   },
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5239590.png",
-   "current": {
-    "regular": {
-     "games": 8,
-     "started": 0,
-     "minutes": 64.5,
-     "points": 23,
-     "rebounds": 10,
-     "assists": 5,
-     "steals": 1,
-     "blocks": 0,
-     "turnovers": 5,
-     "fgMade": 7,
-     "fgAttempted": 25,
-     "threeMade": 3,
-     "threeAttempted": 13,
-     "ftMade": 6,
-     "ftAttempted": 7
-    }
-   },
-   "lastFull": {
-    "regular": {
-     "games": 31,
-     "started": 0,
-     "minutes": 367.8,
-     "points": 132,
-     "rebounds": 73,
-     "assists": 24,
-     "steals": 5,
-     "blocks": 3,
-     "turnovers": 13,
-     "fgMade": 38,
-     "fgAttempted": 95,
-     "threeMade": 24,
-     "threeAttempted": 60,
-     "ftMade": 32,
-     "ftAttempted": 39
-    }
-   },
-   "lastToDate": {
-    "regular": {
-     "games": 9,
-     "started": 0,
-     "minutes": 112.4,
-     "points": 37,
-     "rebounds": 17,
-     "assists": 11,
-     "steals": 2,
-     "blocks": 1,
-     "turnovers": 5,
-     "fgMade": 9,
-     "fgAttempted": 29,
-     "threeMade": 6,
-     "threeAttempted": 18,
-     "ftMade": 13,
-     "ftAttempted": 15
-    }
-   }
   },
   {
    "id": "steinha02",
