@@ -353,7 +353,11 @@
    "startUtc": "2026-11-21T18:00:00Z",
    "home": true,
    "opponent": "MIL",
-   "status": "scheduled",
+   "status": "live",
+   "score": {
+    "team": 0,
+    "opponent": 0
+   },
    "broadcasts": [
     {
      "name": "NBCSP/PCK-PHI",

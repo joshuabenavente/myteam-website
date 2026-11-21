@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-21T16:23:40.025Z",
+ "updatedAt": "2026-11-21T18:23:50.645Z",
  "teams": {
   "ATL": [
    {
@@ -607,25 +607,11 @@
     "returnDate": "2026-11-23"
    },
    {
-    "name": "Dominick Barlow",
-    "status": "Out",
-    "gameTimeDecision": true,
-    "reason": "Back (fracture)",
-    "returnDate": "2026-11-21"
-   },
-   {
     "name": "Jaylen Brown",
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Hamstring",
     "returnDate": "2026-11-23"
-   },
-   {
-    "name": "Tyrese Maxey",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Foot (soreness)",
-    "returnDate": "2026-11-21"
    }
   ],
   "PHX": [
@@ -808,13 +794,6 @@
     "gameTimeDecision": false,
     "reason": "Hip (pinched nerve)",
     "returnDate": "2026-11-24"
-   },
-   {
-    "name": "Felix Okpara",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Back (strain)",
-    "returnDate": "2026-11-22"
    }
   ]
  }
