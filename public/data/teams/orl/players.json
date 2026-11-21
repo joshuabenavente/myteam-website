@@ -1,7 +1,7 @@
 {
  "season": "2026-27",
  "lastSeason": "2025-26",
- "updatedAt": "2026-11-21T17:18:41.452Z",
+ "updatedAt": "2026-11-21T23:18:43.331Z",
  "teamGamesPlayed": {
   "regular": 15,
   "playoffs": 0
@@ -98,6 +98,96 @@
    }
   },
   {
+   "id": "cartewe01",
+   "name": "Wendell Carter Jr.",
+   "number": "34",
+   "position": "C",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 10\"",
+    "weight": 270,
+    "birthDate": "1999-04-16",
+    "experience": 8,
+    "college": "Duke",
+    "birthPlace": "Atlanta, GA"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4277847.png",
+   "current": {
+    "regular": {
+     "games": 15,
+     "started": 15,
+     "minutes": 486.8,
+     "points": 195,
+     "rebounds": 131,
+     "assists": 19,
+     "steals": 12,
+     "blocks": 13,
+     "turnovers": 22,
+     "fgMade": 68,
+     "fgAttempted": 121,
+     "threeMade": 15,
+     "threeAttempted": 39,
+     "ftMade": 44,
+     "ftAttempted": 56
+    }
+   },
+   "lastFull": {
+    "regular": {
+     "games": 78,
+     "started": 78,
+     "minutes": 2289,
+     "points": 922,
+     "rebounds": 577,
+     "assists": 154,
+     "steals": 60,
+     "blocks": 49,
+     "turnovers": 100,
+     "fgMade": 326,
+     "fgAttempted": 637,
+     "threeMade": 72,
+     "threeAttempted": 226,
+     "ftMade": 198,
+     "ftAttempted": 250
+    },
+    "playoffs": {
+     "games": 7,
+     "started": 7,
+     "minutes": 236.6,
+     "points": 77,
+     "rebounds": 49,
+     "assists": 20,
+     "steals": 4,
+     "blocks": 12,
+     "turnovers": 10,
+     "fgMade": 25,
+     "fgAttempted": 48,
+     "threeMade": 5,
+     "threeAttempted": 18,
+     "ftMade": 22,
+     "ftAttempted": 31
+    }
+   },
+   "lastToDate": {
+    "regular": {
+     "games": 15,
+     "started": 15,
+     "minutes": 454,
+     "points": 191,
+     "rebounds": 115,
+     "assists": 27,
+     "steals": 10,
+     "blocks": 13,
+     "turnovers": 31,
+     "fgMade": 63,
+     "fgAttempted": 117,
+     "threeMade": 19,
+     "threeAttempted": 43,
+     "ftMade": 46,
+     "ftAttempted": 57
+    }
+   }
+  },
+  {
    "id": "banede01",
    "name": "Desmond Bane",
    "number": "3",
@@ -184,96 +274,6 @@
      "threeAttempted": 73,
      "ftMade": 47,
      "ftAttempted": 51
-    }
-   }
-  },
-  {
-   "id": "cartewe01",
-   "name": "Wendell Carter Jr.",
-   "number": "34",
-   "position": "C",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 10\"",
-    "weight": 270,
-    "birthDate": "1999-04-16",
-    "experience": 8,
-    "college": "Duke",
-    "birthPlace": "Atlanta, GA"
-   },
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4277847.png",
-   "current": {
-    "regular": {
-     "games": 14,
-     "started": 14,
-     "minutes": 451.7,
-     "points": 187,
-     "rebounds": 123,
-     "assists": 17,
-     "steals": 12,
-     "blocks": 11,
-     "turnovers": 21,
-     "fgMade": 66,
-     "fgAttempted": 117,
-     "threeMade": 15,
-     "threeAttempted": 37,
-     "ftMade": 40,
-     "ftAttempted": 52
-    }
-   },
-   "lastFull": {
-    "regular": {
-     "games": 78,
-     "started": 78,
-     "minutes": 2289,
-     "points": 922,
-     "rebounds": 577,
-     "assists": 154,
-     "steals": 60,
-     "blocks": 49,
-     "turnovers": 100,
-     "fgMade": 326,
-     "fgAttempted": 637,
-     "threeMade": 72,
-     "threeAttempted": 226,
-     "ftMade": 198,
-     "ftAttempted": 250
-    },
-    "playoffs": {
-     "games": 7,
-     "started": 7,
-     "minutes": 236.6,
-     "points": 77,
-     "rebounds": 49,
-     "assists": 20,
-     "steals": 4,
-     "blocks": 12,
-     "turnovers": 10,
-     "fgMade": 25,
-     "fgAttempted": 48,
-     "threeMade": 5,
-     "threeAttempted": 18,
-     "ftMade": 22,
-     "ftAttempted": 31
-    }
-   },
-   "lastToDate": {
-    "regular": {
-     "games": 15,
-     "started": 15,
-     "minutes": 454,
-     "points": 191,
-     "rebounds": 115,
-     "assists": 27,
-     "steals": 10,
-     "blocks": 13,
-     "turnovers": 31,
-     "fgMade": 63,
-     "fgAttempted": 117,
-     "threeMade": 19,
-     "threeAttempted": 43,
-     "ftMade": 46,
-     "ftAttempted": 57
     }
    }
   },
@@ -743,17 +743,17 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4348700.png",
    "current": {
     "regular": {
-     "games": 12,
+     "games": 13,
      "started": 0,
-     "minutes": 154.7,
-     "points": 62,
-     "rebounds": 46,
-     "assists": 8,
+     "minutes": 169.5,
+     "points": 66,
+     "rebounds": 50,
+     "assists": 9,
      "steals": 5,
      "blocks": 7,
-     "turnovers": 5,
-     "fgMade": 24,
-     "fgAttempted": 34,
+     "turnovers": 6,
+     "fgMade": 26,
+     "fgAttempted": 36,
      "threeMade": 0,
      "threeAttempted": 0,
      "ftMade": 14,
@@ -833,19 +833,19 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3133635.png",
    "current": {
     "regular": {
-     "games": 10,
+     "games": 11,
      "started": 0,
-     "minutes": 147.3,
-     "points": 45,
+     "minutes": 157.6,
+     "points": 48,
      "rebounds": 12,
      "assists": 18,
-     "steals": 6,
+     "steals": 7,
      "blocks": 1,
      "turnovers": 3,
-     "fgMade": 16,
-     "fgAttempted": 48,
-     "threeMade": 13,
-     "threeAttempted": 40,
+     "fgMade": 17,
+     "fgAttempted": 49,
+     "threeMade": 14,
+     "threeAttempted": 41,
      "ftMade": 0,
      "ftAttempted": 0
     }

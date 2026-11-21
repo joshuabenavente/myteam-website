@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-21T22:23:42.580Z",
+ "updatedAt": "2026-11-21T23:23:39.732Z",
  "teams": {
   "ATL": [
    {
@@ -192,9 +192,9 @@
    {
     "name": "P.J. Washington",
     "status": "Day-To-Day",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Illness",
-    "returnDate": "2026-11-21"
+    "returnDate": "2026-11-22"
    },
    {
     "name": "Walter Clayton Jr.",
@@ -222,6 +222,13 @@
     "returnDate": "2026-11-27"
    },
    {
+    "name": "Ebuka Okorie",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Oblique (strain)",
+    "returnDate": "2026-11-24"
+   },
+   {
     "name": "Jalen Duren",
     "status": "Out",
     "gameTimeDecision": false,
@@ -243,10 +250,10 @@
     "returnDate": "2026-12-13"
    },
    {
-    "name": "Ebuka Okorie",
+    "name": "Cade Cunningham",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
-    "reason": "Oblique (strain)",
+    "reason": "Knee (soreness)",
     "returnDate": "2026-11-22"
    },
    {
@@ -326,6 +333,13 @@
     "returnDate": "2027-01-02"
    },
    {
+    "name": "T.J. McConnell",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Hamstring",
+    "returnDate": "2026-11-23"
+   },
+   {
     "name": "Tyrese Haliburton",
     "status": "Out",
     "gameTimeDecision": false,
@@ -337,13 +351,6 @@
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Hip (soreness)",
-    "returnDate": "2026-11-22"
-   },
-   {
-    "name": "T.J. McConnell",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Hamstring",
     "returnDate": "2026-11-22"
    }
   ],
@@ -517,21 +524,28 @@
     "returnDate": "2026-11-22"
    },
    {
+    "name": "Karl-Anthony Towns",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Illness",
+    "returnDate": "2026-11-22"
+   },
+   {
     "name": "OG Anunoby",
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Calf",
     "returnDate": "2026-11-22"
-   },
-   {
-    "name": "Karl-Anthony Towns",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Illness",
-    "returnDate": "2026-11-21"
    }
   ],
   "OKC": [
+   {
+    "name": "Alex Caruso",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Hip (soreness)",
+    "returnDate": "2026-11-23"
+   },
    {
     "name": "Cason Wallace",
     "status": "Out",
@@ -554,6 +568,20 @@
     "returnDate": "2027-03-02"
    },
    {
+    "name": "Jaylin Williams",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Back (spasms)",
+    "returnDate": "2026-11-23"
+   },
+   {
+    "name": "Nikola Topic",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Hip (soreness)",
+    "returnDate": "2026-11-23"
+   },
+   {
     "name": "Thomas Sorber",
     "status": "Out",
     "gameTimeDecision": false,
@@ -561,17 +589,10 @@
     "returnDate": "2027-01-31"
    },
    {
-    "name": "Alex Caruso",
+    "name": "Shai Gilgeous-Alexander",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
-    "reason": "Hip (soreness)",
-    "returnDate": "2026-11-22"
-   },
-   {
-    "name": "Nikola Topic",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Hip (soreness)",
+    "reason": "Back (bruise)",
     "returnDate": "2026-11-22"
    }
   ],
@@ -679,13 +700,6 @@
     "gameTimeDecision": false,
     "reason": "Ankle",
     "returnDate": "2027-01-12"
-   },
-   {
-    "name": "Deni Avdija",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Foot",
-    "returnDate": "2026-11-21"
    }
   ],
   "SAC": [
