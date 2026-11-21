@@ -392,14 +392,37 @@
    },
    "streak": "W1"
   },
+  "DEN": {
+   "abbr": "DEN",
+   "conference": "West",
+   "division": "Northwest",
+   "wins": 9,
+   "losses": 5,
+   "divisionRank": 3,
+   "conferenceRank": 7,
+   "divisionGamesBehind": 1,
+   "home": {
+    "wins": 4,
+    "losses": 3
+   },
+   "road": {
+    "wins": 5,
+    "losses": 2
+   },
+   "lastTen": {
+    "wins": 7,
+    "losses": 3
+   },
+   "streak": "W2"
+  },
   "OKC": {
    "abbr": "OKC",
    "conference": "West",
    "division": "Northwest",
    "wins": 10,
    "losses": 6,
-   "divisionRank": 3,
-   "conferenceRank": 7,
+   "divisionRank": 4,
+   "conferenceRank": 8,
    "divisionGamesBehind": 1,
    "home": {
     "wins": 6,
@@ -412,29 +435,6 @@
    "lastTen": {
     "wins": 6,
     "losses": 4
-   },
-   "streak": "W1"
-  },
-  "DEN": {
-   "abbr": "DEN",
-   "conference": "West",
-   "division": "Northwest",
-   "wins": 8,
-   "losses": 5,
-   "divisionRank": 4,
-   "conferenceRank": 8,
-   "divisionGamesBehind": 1.5,
-   "home": {
-    "wins": 3,
-    "losses": 3
-   },
-   "road": {
-    "wins": 5,
-    "losses": 2
-   },
-   "lastTen": {
-    "wins": 7,
-    "losses": 3
    },
    "streak": "W1"
   },
@@ -465,13 +465,13 @@
    "abbr": "LAL",
    "conference": "West",
    "division": "Pacific",
-   "wins": 13,
+   "wins": 14,
    "losses": 3,
    "divisionRank": 1,
-   "conferenceRank": 2,
+   "conferenceRank": 1,
    "divisionGamesBehind": 0,
    "home": {
-    "wins": 6,
+    "wins": 7,
     "losses": 2
    },
    "road": {
@@ -482,7 +482,7 @@
     "wins": 9,
     "losses": 1
    },
-   "streak": "L1"
+   "streak": "W1"
   },
   "PHX": {
    "abbr": "PHX",
@@ -492,7 +492,7 @@
    "losses": 7,
    "divisionRank": 2,
    "conferenceRank": 9,
-   "divisionGamesBehind": 4.5,
+   "divisionGamesBehind": 5,
    "home": {
     "wins": 5,
     "losses": 4
@@ -515,7 +515,7 @@
    "losses": 8,
    "divisionRank": 3,
    "conferenceRank": 11,
-   "divisionGamesBehind": 5,
+   "divisionGamesBehind": 5.5,
    "home": {
     "wins": 6,
     "losses": 1
@@ -538,7 +538,7 @@
    "losses": 10,
    "divisionRank": 4,
    "conferenceRank": 13,
-   "divisionGamesBehind": 8,
+   "divisionGamesBehind": 8.5,
    "home": {
     "wins": 4,
     "losses": 4
@@ -558,23 +558,23 @@
    "conference": "West",
    "division": "Pacific",
    "wins": 1,
-   "losses": 13,
+   "losses": 14,
    "divisionRank": 5,
    "conferenceRank": 15,
-   "divisionGamesBehind": 11,
+   "divisionGamesBehind": 12,
    "home": {
     "wins": 0,
     "losses": 9
    },
    "road": {
     "wins": 1,
-    "losses": 4
+    "losses": 5
    },
    "lastTen": {
     "wins": 1,
     "losses": 9
    },
-   "streak": "L7"
+   "streak": "L8"
   },
   "SAS": {
    "abbr": "SAS",
@@ -583,7 +583,7 @@
    "wins": 13,
    "losses": 3,
    "divisionRank": 1,
-   "conferenceRank": 1,
+   "conferenceRank": 2,
    "divisionGamesBehind": 0,
    "home": {
     "wins": 6,
@@ -599,37 +599,14 @@
    },
    "streak": "W1"
   },
-  "HOU": {
-   "abbr": "HOU",
-   "conference": "West",
-   "division": "Southwest",
-   "wins": 12,
-   "losses": 4,
-   "divisionRank": 2,
-   "conferenceRank": 3,
-   "divisionGamesBehind": 1,
-   "home": {
-    "wins": 7,
-    "losses": 1
-   },
-   "road": {
-    "wins": 5,
-    "losses": 3
-   },
-   "lastTen": {
-    "wins": 7,
-    "losses": 3
-   },
-   "streak": "W1"
-  },
   "MEM": {
    "abbr": "MEM",
    "conference": "West",
    "division": "Southwest",
    "wins": 12,
    "losses": 4,
-   "divisionRank": 3,
-   "conferenceRank": 4,
+   "divisionRank": 2,
+   "conferenceRank": 3,
    "divisionGamesBehind": 1,
    "home": {
     "wins": 4,
@@ -644,6 +621,29 @@
     "losses": 4
    },
    "streak": "W5"
+  },
+  "HOU": {
+   "abbr": "HOU",
+   "conference": "West",
+   "division": "Southwest",
+   "wins": 12,
+   "losses": 5,
+   "divisionRank": 3,
+   "conferenceRank": 4,
+   "divisionGamesBehind": 1.5,
+   "home": {
+    "wins": 7,
+    "losses": 1
+   },
+   "road": {
+    "wins": 5,
+    "losses": 4
+   },
+   "lastTen": {
+    "wins": 6,
+    "losses": 4
+   },
+   "streak": "L1"
   },
   "DAL": {
    "abbr": "DAL",
