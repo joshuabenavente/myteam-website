@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-21T05:23:37.921Z",
+ "updatedAt": "2026-11-21T08:23:39.759Z",
  "teams": {
   "ATL": [
    {
@@ -74,7 +74,7 @@
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Hamstring",
-    "returnDate": "2026-11-20"
+    "returnDate": "2026-11-23"
    }
   ],
   "CHA": [
@@ -388,6 +388,13 @@
     "returnDate": "2026-11-23"
    },
    {
+    "name": "Jerami Grant",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Calf",
+    "returnDate": "2026-11-23"
+   },
+   {
     "name": "Richie Saunders",
     "status": "Out",
     "gameTimeDecision": false,
@@ -406,13 +413,6 @@
     "status": "Out",
     "gameTimeDecision": true,
     "reason": "Hip",
-    "returnDate": "2026-11-21"
-   },
-   {
-    "name": "Jerami Grant",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Calf",
     "returnDate": "2026-11-21"
    }
   ],
