@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-21T18:23:50.645Z",
+ "updatedAt": "2026-11-21T19:23:43.107Z",
  "teams": {
   "ATL": [
    {
@@ -407,13 +407,6 @@
     "gameTimeDecision": false,
     "reason": "Back (soreness)",
     "returnDate": "2026-11-25"
-   },
-   {
-    "name": "Ty Jerome",
-    "status": "Out",
-    "gameTimeDecision": true,
-    "reason": "Hip",
-    "returnDate": "2026-11-21"
    }
   ],
   "MIA": [
@@ -485,6 +478,13 @@
     "gameTimeDecision": false,
     "reason": "Ankle (sprain)",
     "returnDate": "2026-11-27"
+   },
+   {
+    "name": "Trey Murphy III",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Knee",
+    "returnDate": "2026-11-23"
    }
   ],
   "NYK": [
