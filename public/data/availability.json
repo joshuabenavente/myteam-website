@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-21T00:23:53.375Z",
+ "updatedAt": "2026-11-21T01:23:42.968Z",
  "teams": {
   "ATL": [
    {
@@ -45,6 +45,22 @@
     "returnDate": "2026-12-12"
    }
   ],
+  "BOS": [
+   {
+    "name": "Derrick White",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Shoulder",
+    "returnDate": "2026-11-21"
+   },
+   {
+    "name": "Jayson Tatum",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Rest",
+    "returnDate": "2026-11-21"
+   }
+  ],
   "BKN": [
    {
     "name": "Grant Nelson",
@@ -82,6 +98,13 @@
     "gameTimeDecision": false,
     "reason": "Hamstring (strain)",
     "returnDate": "2026-12-12"
+   },
+   {
+    "name": "Brandon Miller",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Ankle",
+    "returnDate": "2026-11-20"
    }
   ],
   "CHI": [
@@ -206,18 +229,18 @@
     "returnDate": "2026-11-24"
    },
    {
+    "name": "Ronald Holland II",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Knee (bruise)",
+    "returnDate": "2026-11-22"
+   },
+   {
     "name": "Taurean Prince",
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Knee (surgery)",
     "returnDate": "2026-12-13"
-   },
-   {
-    "name": "Ronald Holland II",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Knee (bruise)",
-    "returnDate": "2026-11-20"
    },
    {
     "name": "Ugonna Onyenso",
@@ -759,6 +782,13 @@
   ],
   "WAS": [
    {
+    "name": "Felix Okpara",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Back (strain)",
+    "returnDate": "2026-11-22"
+   },
+   {
     "name": "Jamir Watkins",
     "status": "Out",
     "gameTimeDecision": false,
@@ -785,13 +815,6 @@
     "gameTimeDecision": false,
     "reason": "Hip (pinched nerve)",
     "returnDate": "2026-11-24"
-   },
-   {
-    "name": "Felix Okpara",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Back (strain)",
-    "returnDate": "2026-11-20"
    }
   ]
  }
