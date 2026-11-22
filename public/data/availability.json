@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-22T22:23:40.778Z",
+ "updatedAt": "2026-11-22T23:23:49.107Z",
  "teams": {
   "ATL": [
    {
@@ -26,7 +26,7 @@
    {
     "name": "Jock Landale",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Hip (inflammation)",
     "returnDate": "2026-11-27"
    },
@@ -162,6 +162,13 @@
     "returnDate": "2026-11-27"
    },
    {
+    "name": "P.J. Washington",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Illness",
+    "returnDate": "2026-11-24"
+   },
+   {
     "name": "Sergio de Larrea",
     "status": "Out",
     "gameTimeDecision": false,
@@ -181,20 +188,6 @@
     "gameTimeDecision": false,
     "reason": "Groin",
     "returnDate": "2026-11-24"
-   },
-   {
-    "name": "P.J. Washington",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Illness",
-    "returnDate": "2026-11-22"
-   },
-   {
-    "name": "Walter Clayton Jr.",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Knee (tendinitis)",
-    "returnDate": "2026-11-22"
    }
   ],
   "DEN": [
@@ -215,16 +208,9 @@
     "returnDate": "2026-11-27"
    },
    {
-    "name": "Ebuka Okorie",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Oblique (strain)",
-    "returnDate": "2026-11-24"
-   },
-   {
     "name": "Jalen Duren",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Hamstring (strain)",
     "returnDate": "2026-11-24"
    },
@@ -234,6 +220,13 @@
     "gameTimeDecision": false,
     "reason": "Knee (surgery)",
     "returnDate": "2026-12-13"
+   },
+   {
+    "name": "Ebuka Okorie",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Oblique (strain)",
+    "returnDate": "2026-11-24"
    }
   ],
   "GSW": [
@@ -319,13 +312,6 @@
     "returnDate": "2026-11-29"
    },
    {
-    "name": "Brandon Ingram",
-    "status": "Out",
-    "gameTimeDecision": true,
-    "reason": "Achilles (surgery)",
-    "returnDate": "2026-11-23"
-   },
-   {
     "name": "Jordan Miller",
     "status": "Out",
     "gameTimeDecision": false,
@@ -343,6 +329,13 @@
    }
   ],
   "MEM": [
+   {
+    "name": "Cameron Boozer",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Ankle (sprain)",
+    "returnDate": "2026-11-25"
+   },
    {
     "name": "GG Jackson",
     "status": "Out",
@@ -363,20 +356,6 @@
     "gameTimeDecision": false,
     "reason": "Back (soreness)",
     "returnDate": "2026-11-25"
-   },
-   {
-    "name": "Cameron Boozer",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Ankle",
-    "returnDate": "2026-11-23"
-   },
-   {
-    "name": "Javon Small",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Personal",
-    "returnDate": "2026-11-23"
    },
    {
     "name": "Jerami Grant",
@@ -495,6 +474,13 @@
    }
   ],
   "OKC": [
+   {
+    "name": "Aday Mara",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Lower Leg (bruise)",
+    "returnDate": "2026-11-23"
+   },
    {
     "name": "Alex Caruso",
     "status": "Out",
@@ -778,20 +764,6 @@
     "gameTimeDecision": false,
     "reason": "Hip (pinched nerve)",
     "returnDate": "2026-11-24"
-   },
-   {
-    "name": "Bub Carrington",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Illness",
-    "returnDate": "2026-11-22"
-   },
-   {
-    "name": "Deandre Ayton",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Illness",
-    "returnDate": "2026-11-22"
    }
   ]
  }
