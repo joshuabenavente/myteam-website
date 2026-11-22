@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-22T21:23:35.685Z",
+ "updatedAt": "2026-11-22T22:23:40.778Z",
  "teams": {
   "ATL": [
    {
@@ -79,6 +79,20 @@
     "returnDate": "2026-11-25"
    },
    {
+    "name": "Grant Williams",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Hamstring",
+    "returnDate": "2026-11-25"
+   },
+   {
+    "name": "Grayson Allen",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Concussion",
+    "returnDate": "2026-11-25"
+   },
+   {
     "name": "Kon Knueppel",
     "status": "Out",
     "gameTimeDecision": false,
@@ -86,17 +100,10 @@
     "returnDate": "2026-12-12"
    },
    {
-    "name": "Grant Williams",
+    "name": "Brandon Miller",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
-    "reason": "Hamstring",
-    "returnDate": "2026-11-23"
-   },
-   {
-    "name": "Grayson Allen",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Concussion",
+    "reason": "Knee (bruise)",
     "returnDate": "2026-11-23"
    }
   ],
@@ -121,20 +128,6 @@
     "gameTimeDecision": false,
     "reason": "Hamstring (strain)",
     "returnDate": "2026-11-28"
-   },
-   {
-    "name": "Jalen Smith",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Illness",
-    "returnDate": "2026-11-22"
-   },
-   {
-    "name": "Patrick Williams",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Thumb",
-    "returnDate": "2026-11-22"
    }
   ],
   "CLE": [
@@ -280,15 +273,6 @@
     "returnDate": "2026-12-12"
    }
   ],
-  "HOU": [
-   {
-    "name": "Clint Capela",
-    "status": "Out",
-    "gameTimeDecision": true,
-    "reason": "Ankle (sprain)",
-    "returnDate": "2026-11-23"
-   }
-  ],
   "IND": [
    {
     "name": "Ben Sheppard",
@@ -405,24 +389,19 @@
   "MIA": [
    {
     "name": "Giannis Antetokounmpo",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
+    "status": "Out",
+    "gameTimeDecision": false,
     "reason": "Groin",
-    "returnDate": "2026-11-22"
-   },
-   {
-    "name": "Myron Gardner",
-    "status": "Day-To-Day",
-    "gameTimeDecision": false
+    "returnDate": "2026-11-25"
    }
   ],
   "MIL": [
    {
     "name": "Ousmane Dieng",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Finger (surgery)",
-    "returnDate": "2026-12-14"
+    "returnDate": "2026-11-23"
    }
   ],
   "MIN": [
@@ -559,18 +538,18 @@
     "returnDate": "2026-11-23"
    },
    {
+    "name": "Shai Gilgeous-Alexander",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Back (bruise)",
+    "returnDate": "2026-11-23"
+   },
+   {
     "name": "Thomas Sorber",
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Knee",
     "returnDate": "2027-01-31"
-   },
-   {
-    "name": "Shai Gilgeous-Alexander",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Back (bruise)",
-    "returnDate": "2026-11-22"
    }
   ],
   "ORL": [
