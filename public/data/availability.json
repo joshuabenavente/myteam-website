@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-21T23:23:39.732Z",
+ "updatedAt": "2026-11-22T00:23:48.382Z",
  "teams": {
   "ATL": [
    {
@@ -135,6 +135,13 @@
     "gameTimeDecision": true,
     "reason": "Illness",
     "returnDate": "2026-11-22"
+   },
+   {
+    "name": "Norman Powell",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Hamstring",
+    "returnDate": "2026-11-22"
    }
   ],
   "CLE": [
@@ -169,6 +176,13 @@
     "returnDate": "2026-11-27"
    },
    {
+    "name": "P.J. Washington",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Illness",
+    "returnDate": "2026-11-22"
+   },
+   {
     "name": "Sergio de Larrea",
     "status": "Out",
     "gameTimeDecision": false,
@@ -188,20 +202,6 @@
     "gameTimeDecision": false,
     "reason": "Groin",
     "returnDate": "2026-11-22"
-   },
-   {
-    "name": "P.J. Washington",
-    "status": "Day-To-Day",
-    "gameTimeDecision": false,
-    "reason": "Illness",
-    "returnDate": "2026-11-22"
-   },
-   {
-    "name": "Walter Clayton Jr.",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Knee",
-    "returnDate": "2026-11-21"
    }
   ],
   "DEN": [
