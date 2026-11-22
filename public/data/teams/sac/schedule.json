@@ -295,7 +295,11 @@
    "startUtc": "2026-11-22T03:00:00Z",
    "home": true,
    "opponent": "BOS",
-   "status": "scheduled",
+   "status": "live",
+   "score": {
+    "team": 0,
+    "opponent": 0
+   },
    "broadcasts": [
     {
      "name": "NBA TV",
