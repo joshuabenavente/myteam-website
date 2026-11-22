@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-22T17:23:37.970Z",
+ "updatedAt": "2026-11-22T18:24:01.766Z",
  "teams": {
   "ATL": [
    {
@@ -130,14 +130,14 @@
     "returnDate": "2026-11-28"
    },
    {
-    "name": "Tobe Awaka",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Back",
-    "returnDate": "2026-11-25"
+    "name": "Jalen Smith",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Illness",
+    "returnDate": "2026-11-22"
    },
    {
-    "name": "Jalen Smith",
+    "name": "Nic Claxton",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Illness",
@@ -518,23 +518,23 @@
   "NYK": [
    {
     "name": "Jordan Clarkson",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
+    "status": "Out",
+    "gameTimeDecision": false,
     "reason": "Foot (plantar fasciitis)",
-    "returnDate": "2026-11-22"
+    "returnDate": "2026-11-25"
+   },
+   {
+    "name": "OG Anunoby",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Calf (soreness)",
+    "returnDate": "2026-11-25"
    },
    {
     "name": "Karl-Anthony Towns",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Illness",
-    "returnDate": "2026-11-22"
-   },
-   {
-    "name": "OG Anunoby",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Calf",
     "returnDate": "2026-11-22"
    }
   ],
@@ -822,6 +822,13 @@
     "gameTimeDecision": false,
     "reason": "Hip (pinched nerve)",
     "returnDate": "2026-11-24"
+   },
+   {
+    "name": "Deandre Ayton",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Illness",
+    "returnDate": "2026-11-22"
    }
   ]
  }
