@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-22T20:23:41.604Z",
+ "updatedAt": "2026-11-22T21:23:35.685Z",
  "teams": {
   "ATL": [
    {
@@ -40,40 +40,33 @@
   ],
   "BOS": [
    {
-    "name": "Derrick White",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Shoulder",
-    "returnDate": "2026-11-22"
-   },
-   {
-    "name": "Jayson Tatum",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Rest",
-    "returnDate": "2026-11-22"
-   },
-   {
     "name": "Mitchell Robinson",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
+    "status": "Out",
+    "gameTimeDecision": false,
     "reason": "Illness",
-    "returnDate": "2026-11-22"
+    "returnDate": "2026-11-24"
+   },
+   {
+    "name": "Paul George",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Rest",
+    "returnDate": "2026-11-24"
    }
   ],
   "BKN": [
+   {
+    "name": "Nolan Traore",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Hamstring (strain)",
+    "returnDate": "2026-11-25"
+   },
    {
     "name": "Grant Nelson",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Ankle (sprain)",
-    "returnDate": "2026-11-23"
-   },
-   {
-    "name": "Nolan Traore",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Hamstring",
     "returnDate": "2026-11-23"
    }
   ],
@@ -116,6 +109,13 @@
     "returnDate": "2026-12-13"
    },
    {
+    "name": "Nic Claxton",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Illness",
+    "returnDate": "2026-11-23"
+   },
+   {
     "name": "Norman Powell",
     "status": "Out",
     "gameTimeDecision": false,
@@ -124,13 +124,6 @@
    },
    {
     "name": "Jalen Smith",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Illness",
-    "returnDate": "2026-11-22"
-   },
-   {
-    "name": "Nic Claxton",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Illness",
@@ -420,9 +413,7 @@
    {
     "name": "Myron Gardner",
     "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Hamstring",
-    "returnDate": "2026-11-22"
+    "gameTimeDecision": false
    }
   ],
   "MIL": [
@@ -468,9 +459,9 @@
    {
     "name": "Bryce McGowens",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Elbow (infection)",
-    "returnDate": "2026-11-27"
+    "returnDate": "2026-11-23"
    },
    {
     "name": "Dejounte Murray",
@@ -738,9 +729,9 @@
    {
     "name": "Nate Bittle",
     "status": "Out",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Foot (fracture)",
-    "returnDate": "2026-11-23"
+    "returnDate": "2026-11-27"
    },
    {
     "name": "RJ Barrett",

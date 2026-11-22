@@ -329,7 +329,11 @@
    "startUtc": "2026-11-22T20:30:00Z",
    "home": false,
    "opponent": "ATL",
-   "status": "scheduled",
+   "status": "live",
+   "score": {
+    "team": 0,
+    "opponent": 0
+   },
    "broadcasts": [
     {
      "name": "TV20 Detroit/DAZN-DET",
