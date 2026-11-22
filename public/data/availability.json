@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-22T18:24:01.766Z",
+ "updatedAt": "2026-11-22T19:23:50.464Z",
  "teams": {
   "ATL": [
    {
@@ -29,13 +29,6 @@
     "gameTimeDecision": false,
     "reason": "Hip (inflammation)",
     "returnDate": "2026-11-27"
-   },
-   {
-    "name": "Kingston Flemings",
-    "status": "Out",
-    "gameTimeDecision": true,
-    "reason": "Back (strain)",
-    "returnDate": "2026-11-22"
    },
    {
     "name": "Mouhamed Gueye",
@@ -197,6 +190,13 @@
     "returnDate": "2026-11-27"
    },
    {
+    "name": "Tobi Lawal",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Groin",
+    "returnDate": "2026-11-24"
+   },
+   {
     "name": "P.J. Washington",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
@@ -204,10 +204,10 @@
     "returnDate": "2026-11-22"
    },
    {
-    "name": "Tobi Lawal",
+    "name": "Walter Clayton Jr.",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
-    "reason": "Groin",
+    "reason": "Knee (tendinitis)",
     "returnDate": "2026-11-22"
    }
   ],
@@ -241,13 +241,6 @@
     "gameTimeDecision": false,
     "reason": "Hamstring (strain)",
     "returnDate": "2026-11-24"
-   },
-   {
-    "name": "Ronald Holland II",
-    "status": "Out",
-    "gameTimeDecision": true,
-    "reason": "Knee (bruise)",
-    "returnDate": "2026-11-22"
    },
    {
     "name": "Taurean Prince",
@@ -822,6 +815,13 @@
     "gameTimeDecision": false,
     "reason": "Hip (pinched nerve)",
     "returnDate": "2026-11-24"
+   },
+   {
+    "name": "Bub Carrington",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Illness",
+    "returnDate": "2026-11-22"
    },
    {
     "name": "Deandre Ayton",

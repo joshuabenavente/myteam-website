@@ -1,7 +1,7 @@
 {
  "season": "2026-27",
  "lastSeason": "2025-26",
- "updatedAt": "2026-11-22T13:21:15.870Z",
+ "updatedAt": "2026-11-22T19:21:22.184Z",
  "teamGamesPlayed": {
   "regular": 16,
   "playoffs": 0
@@ -24,21 +24,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5142620.png",
    "current": {
     "regular": {
-     "games": 15,
-     "started": 15,
-     "minutes": 550.1,
-     "points": 385,
-     "rebounds": 51,
-     "assists": 110,
+     "games": 16,
+     "started": 16,
+     "minutes": 589.8,
+     "points": 406,
+     "rebounds": 57,
+     "assists": 118,
      "steals": 14,
      "blocks": 3,
-     "turnovers": 61,
-     "fgMade": 140,
-     "fgAttempted": 340,
-     "threeMade": 48,
-     "threeAttempted": 145,
-     "ftMade": 57,
-     "ftAttempted": 68
+     "turnovers": 62,
+     "fgMade": 147,
+     "fgAttempted": 363,
+     "threeMade": 50,
+     "threeAttempted": 152,
+     "ftMade": 62,
+     "ftAttempted": 75
     }
    },
    "lastFull": {},
@@ -61,21 +61,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3155942.png",
    "current": {
     "regular": {
-     "games": 14,
-     "started": 14,
-     "minutes": 470.8,
-     "points": 197,
-     "rebounds": 187,
-     "assists": 76,
+     "games": 15,
+     "started": 15,
+     "minutes": 502.8,
+     "points": 212,
+     "rebounds": 204,
+     "assists": 80,
      "steals": 9,
-     "blocks": 1,
-     "turnovers": 40,
-     "fgMade": 79,
-     "fgAttempted": 125,
+     "blocks": 2,
+     "turnovers": 47,
+     "fgMade": 84,
+     "fgAttempted": 135,
      "threeMade": 4,
-     "threeAttempted": 12,
-     "ftMade": 35,
-     "ftAttempted": 48
+     "threeAttempted": 13,
+     "ftMade": 40,
+     "ftAttempted": 53
     }
    },
    "lastFull": {
@@ -134,21 +134,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3064440.png",
    "current": {
     "regular": {
-     "games": 14,
-     "started": 14,
-     "minutes": 467.6,
-     "points": 294,
-     "rebounds": 51,
+     "games": 15,
+     "started": 15,
+     "minutes": 497.4,
+     "points": 307,
+     "rebounds": 54,
      "assists": 40,
-     "steals": 15,
-     "blocks": 6,
-     "turnovers": 37,
-     "fgMade": 100,
-     "fgAttempted": 199,
-     "threeMade": 38,
-     "threeAttempted": 98,
-     "ftMade": 56,
-     "ftAttempted": 66
+     "steals": 16,
+     "blocks": 7,
+     "turnovers": 40,
+     "fgMade": 104,
+     "fgAttempted": 209,
+     "threeMade": 40,
+     "threeAttempted": 101,
+     "ftMade": 59,
+     "ftAttempted": 70
     }
    },
    "lastFull": {
@@ -207,21 +207,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4065732.png",
    "current": {
     "regular": {
-     "games": 13,
-     "started": 13,
-     "minutes": 428.7,
-     "points": 194,
-     "rebounds": 57,
-     "assists": 21,
+     "games": 14,
+     "started": 14,
+     "minutes": 469.6,
+     "points": 214,
+     "rebounds": 63,
+     "assists": 23,
      "steals": 5,
-     "blocks": 2,
-     "turnovers": 17,
-     "fgMade": 67,
-     "fgAttempted": 145,
-     "threeMade": 29,
-     "threeAttempted": 72,
-     "ftMade": 31,
-     "ftAttempted": 41
+     "blocks": 3,
+     "turnovers": 18,
+     "fgMade": 72,
+     "fgAttempted": 156,
+     "threeMade": 31,
+     "threeAttempted": 77,
+     "ftMade": 39,
+     "ftAttempted": 50
     }
    },
    "lastFull": {
@@ -280,21 +280,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4431679.png",
    "current": {
     "regular": {
-     "games": 12,
+     "games": 13,
      "started": 9,
-     "minutes": 296.1,
-     "points": 114,
-     "rebounds": 70,
-     "assists": 12,
+     "minutes": 318.4,
+     "points": 119,
+     "rebounds": 77,
+     "assists": 13,
      "steals": 14,
-     "blocks": 12,
-     "turnovers": 14,
-     "fgMade": 49,
-     "fgAttempted": 93,
+     "blocks": 13,
+     "turnovers": 15,
+     "fgMade": 51,
+     "fgAttempted": 95,
      "threeMade": 4,
      "threeAttempted": 11,
-     "ftMade": 12,
-     "ftAttempted": 24
+     "ftMade": 13,
+     "ftAttempted": 26
     }
    },
    "lastFull": {
@@ -337,116 +337,6 @@
    }
   },
   {
-   "id": "sharpem01",
-   "name": "Emanuel Sharp",
-   "number": "34",
-   "position": "SG",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 3\"",
-    "weight": 208,
-    "birthDate": "2004-03-07",
-    "experience": 0,
-    "college": "Houston",
-    "birthPlace": "Tel Aviv, Israel"
-   },
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5106058.png",
-   "current": {
-    "regular": {
-     "games": 15,
-     "started": 0,
-     "minutes": 252.2,
-     "points": 73,
-     "rebounds": 18,
-     "assists": 11,
-     "steals": 12,
-     "blocks": 3,
-     "turnovers": 7,
-     "fgMade": 26,
-     "fgAttempted": 71,
-     "threeMade": 16,
-     "threeAttempted": 47,
-     "ftMade": 5,
-     "ftAttempted": 5
-    }
-   },
-   "lastFull": {},
-   "lastToDate": {}
-  },
-  {
-   "id": "monkma01",
-   "name": "Malik Monk",
-   "number": "0",
-   "position": "SG",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 3\"",
-    "weight": 200,
-    "birthDate": "1998-02-04",
-    "experience": 9,
-    "college": "Kentucky",
-    "birthPlace": "Lepanto, AR"
-   },
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4066262.png",
-   "current": {
-    "regular": {
-     "games": 14,
-     "started": 1,
-     "minutes": 233.5,
-     "points": 109,
-     "rebounds": 17,
-     "assists": 52,
-     "steals": 7,
-     "blocks": 2,
-     "turnovers": 26,
-     "fgMade": 37,
-     "fgAttempted": 101,
-     "threeMade": 14,
-     "threeAttempted": 49,
-     "ftMade": 21,
-     "ftAttempted": 24
-    }
-   },
-   "lastFull": {
-    "regular": {
-     "games": 62,
-     "started": 3,
-     "minutes": 1364.3,
-     "points": 772,
-     "rebounds": 117,
-     "assists": 185,
-     "steals": 37,
-     "blocks": 24,
-     "turnovers": 91,
-     "fgMade": 277,
-     "fgAttempted": 632,
-     "threeMade": 124,
-     "threeAttempted": 314,
-     "ftMade": 94,
-     "ftAttempted": 107
-    }
-   },
-   "lastToDate": {
-    "regular": {
-     "games": 13,
-     "started": 0,
-     "minutes": 308.4,
-     "points": 162,
-     "rebounds": 22,
-     "assists": 27,
-     "steals": 12,
-     "blocks": 6,
-     "turnovers": 13,
-     "fgMade": 58,
-     "fgAttempted": 127,
-     "threeMade": 25,
-     "threeAttempted": 56,
-     "ftMade": 21,
-     "ftAttempted": 24
-    }
-   }
-  },
-  {
    "id": "murrake02",
    "name": "Keegan Murray",
    "number": "13",
@@ -463,21 +353,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4594327.png",
    "current": {
     "regular": {
-     "games": 8,
-     "started": 6,
-     "minutes": 232.7,
-     "points": 82,
-     "rebounds": 31,
+     "games": 9,
+     "started": 7,
+     "minutes": 272.3,
+     "points": 97,
+     "rebounds": 43,
      "assists": 15,
-     "steals": 8,
+     "steals": 9,
      "blocks": 6,
-     "turnovers": 7,
-     "fgMade": 32,
-     "fgAttempted": 79,
+     "turnovers": 11,
+     "fgMade": 39,
+     "fgAttempted": 93,
      "threeMade": 8,
-     "threeAttempted": 32,
-     "ftMade": 10,
-     "ftAttempted": 12
+     "threeAttempted": 37,
+     "ftMade": 11,
+     "ftAttempted": 14
     }
    },
    "lastFull": {
@@ -520,6 +410,116 @@
    }
   },
   {
+   "id": "sharpem01",
+   "name": "Emanuel Sharp",
+   "number": "34",
+   "position": "SG",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 3\"",
+    "weight": 208,
+    "birthDate": "2004-03-07",
+    "experience": 0,
+    "college": "Houston",
+    "birthPlace": "Tel Aviv, Israel"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5106058.png",
+   "current": {
+    "regular": {
+     "games": 16,
+     "started": 0,
+     "minutes": 268.1,
+     "points": 76,
+     "rebounds": 18,
+     "assists": 11,
+     "steals": 13,
+     "blocks": 3,
+     "turnovers": 7,
+     "fgMade": 27,
+     "fgAttempted": 77,
+     "threeMade": 17,
+     "threeAttempted": 52,
+     "ftMade": 5,
+     "ftAttempted": 5
+    }
+   },
+   "lastFull": {},
+   "lastToDate": {}
+  },
+  {
+   "id": "monkma01",
+   "name": "Malik Monk",
+   "number": "0",
+   "position": "SG",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 3\"",
+    "weight": 200,
+    "birthDate": "1998-02-04",
+    "experience": 9,
+    "college": "Kentucky",
+    "birthPlace": "Lepanto, AR"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4066262.png",
+   "current": {
+    "regular": {
+     "games": 15,
+     "started": 1,
+     "minutes": 243.8,
+     "points": 112,
+     "rebounds": 17,
+     "assists": 53,
+     "steals": 7,
+     "blocks": 3,
+     "turnovers": 27,
+     "fgMade": 37,
+     "fgAttempted": 101,
+     "threeMade": 14,
+     "threeAttempted": 49,
+     "ftMade": 24,
+     "ftAttempted": 27
+    }
+   },
+   "lastFull": {
+    "regular": {
+     "games": 62,
+     "started": 3,
+     "minutes": 1364.3,
+     "points": 772,
+     "rebounds": 117,
+     "assists": 185,
+     "steals": 37,
+     "blocks": 24,
+     "turnovers": 91,
+     "fgMade": 277,
+     "fgAttempted": 632,
+     "threeMade": 124,
+     "threeAttempted": 314,
+     "ftMade": 94,
+     "ftAttempted": 107
+    }
+   },
+   "lastToDate": {
+    "regular": {
+     "games": 13,
+     "started": 0,
+     "minutes": 308.4,
+     "points": 162,
+     "rebounds": 22,
+     "assists": 27,
+     "steals": 12,
+     "blocks": 6,
+     "turnovers": 13,
+     "fgMade": 58,
+     "fgAttempted": 127,
+     "threeMade": 25,
+     "threeAttempted": 56,
+     "ftMade": 21,
+     "ftAttempted": 24
+    }
+   }
+  },
+  {
    "id": "blackle01",
    "name": "Leaky Black",
    "number": "19",
@@ -536,17 +536,17 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4395650.png",
    "current": {
     "regular": {
-     "games": 11,
+     "games": 12,
      "started": 1,
-     "minutes": 210.2,
-     "points": 50,
+     "minutes": 213.9,
+     "points": 52,
      "rebounds": 33,
      "assists": 16,
-     "steals": 16,
+     "steals": 17,
      "blocks": 6,
      "turnovers": 3,
-     "fgMade": 17,
-     "fgAttempted": 42,
+     "fgMade": 18,
+     "fgAttempted": 44,
      "threeMade": 15,
      "threeAttempted": 35,
      "ftMade": 1,
