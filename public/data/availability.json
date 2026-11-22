@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-22T15:23:41.698Z",
+ "updatedAt": "2026-11-22T16:23:44.831Z",
  "teams": {
   "ATL": [
    {
@@ -123,6 +123,13 @@
     "returnDate": "2026-12-13"
    },
    {
+    "name": "Norman Powell",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Hamstring (strain)",
+    "returnDate": "2026-11-28"
+   },
+   {
     "name": "Tobe Awaka",
     "status": "Out",
     "gameTimeDecision": false,
@@ -134,13 +141,6 @@
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Illness",
-    "returnDate": "2026-11-22"
-   },
-   {
-    "name": "Norman Powell",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Hamstring",
     "returnDate": "2026-11-22"
    },
    {
