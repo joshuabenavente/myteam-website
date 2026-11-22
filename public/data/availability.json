@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-22T03:23:36.568Z",
+ "updatedAt": "2026-11-22T06:23:49.986Z",
  "teams": {
   "ATL": [
    {
@@ -142,6 +142,13 @@
     "gameTimeDecision": true,
     "reason": "Hamstring",
     "returnDate": "2026-11-22"
+   },
+   {
+    "name": "Patrick Williams",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Thumb",
+    "returnDate": "2026-11-22"
    }
   ],
   "CLE": [
@@ -268,9 +275,9 @@
    {
     "name": "Brandon Williams",
     "status": "Out",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Hamstring (strain)",
-    "returnDate": "2026-11-22"
+    "returnDate": "2026-11-25"
    },
    {
     "name": "Jimmy Butler III",
@@ -299,13 +306,6 @@
     "gameTimeDecision": false,
     "reason": "Abdomen",
     "returnDate": "2026-12-12"
-   },
-   {
-    "name": "Draymond Green",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Rest",
-    "returnDate": "2026-11-22"
    }
   ],
   "HOU": [
@@ -614,9 +614,9 @@
    {
     "name": "Jonathan Isaac",
     "status": "Out",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Knee",
-    "returnDate": "2026-11-29"
+    "returnDate": "2026-11-28"
    },
    {
     "name": "Noah Penda",
