@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-22T06:23:49.986Z",
+ "updatedAt": "2026-11-22T15:23:41.698Z",
  "teams": {
   "ATL": [
    {
@@ -48,22 +48,22 @@
   "BOS": [
    {
     "name": "Derrick White",
-    "status": "Out",
-    "gameTimeDecision": false,
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
     "reason": "Shoulder",
     "returnDate": "2026-11-22"
    },
    {
     "name": "Jayson Tatum",
-    "status": "Out",
-    "gameTimeDecision": false,
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
     "reason": "Rest",
     "returnDate": "2026-11-22"
    },
    {
     "name": "Mitchell Robinson",
-    "status": "Out",
-    "gameTimeDecision": false,
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
     "reason": "Illness",
     "returnDate": "2026-11-22"
    }
@@ -183,13 +183,6 @@
     "returnDate": "2026-11-27"
    },
    {
-    "name": "P.J. Washington",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Illness",
-    "returnDate": "2026-11-22"
-   },
-   {
     "name": "Sergio de Larrea",
     "status": "Out",
     "gameTimeDecision": false,
@@ -204,9 +197,16 @@
     "returnDate": "2026-11-27"
    },
    {
+    "name": "P.J. Washington",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Illness",
+    "returnDate": "2026-11-22"
+   },
+   {
     "name": "Tobi Lawal",
-    "status": "Out",
-    "gameTimeDecision": false,
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
     "reason": "Groin",
     "returnDate": "2026-11-22"
    }
@@ -365,7 +365,7 @@
    {
     "name": "Brandon Ingram",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Achilles (surgery)",
     "returnDate": "2026-11-23"
    },
@@ -388,32 +388,11 @@
   ],
   "MEM": [
    {
-    "name": "Cameron Boozer",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Ankle",
-    "returnDate": "2026-11-23"
-   },
-   {
     "name": "GG Jackson",
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Foot (surgery)",
     "returnDate": "2027-01-18"
-   },
-   {
-    "name": "Javon Small",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Personal",
-    "returnDate": "2026-11-23"
-   },
-   {
-    "name": "Jerami Grant",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Calf",
-    "returnDate": "2026-11-23"
    },
    {
     "name": "Richie Saunders",
@@ -428,6 +407,27 @@
     "gameTimeDecision": false,
     "reason": "Back (soreness)",
     "returnDate": "2026-11-25"
+   },
+   {
+    "name": "Cameron Boozer",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Ankle",
+    "returnDate": "2026-11-23"
+   },
+   {
+    "name": "Javon Small",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Personal",
+    "returnDate": "2026-11-23"
+   },
+   {
+    "name": "Jerami Grant",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Calf",
+    "returnDate": "2026-11-23"
    }
   ],
   "MIA": [
@@ -509,15 +509,15 @@
    },
    {
     "name": "Trey Murphy III",
-    "status": "Out",
-    "gameTimeDecision": false,
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
     "reason": "Knee",
     "returnDate": "2026-11-23"
    },
    {
     "name": "Zion Williamson",
-    "status": "Out",
-    "gameTimeDecision": false,
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
     "reason": "Thigh (bruise)",
     "returnDate": "2026-11-23"
    }
@@ -637,7 +637,7 @@
    {
     "name": "Adem Bona",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Back (sprain)",
     "returnDate": "2026-11-23"
    },
@@ -650,15 +650,15 @@
    },
    {
     "name": "Dean Wade",
-    "status": "Out",
-    "gameTimeDecision": false,
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
     "reason": "Hamstring (soreness)",
     "returnDate": "2026-11-23"
    },
    {
     "name": "Jaylen Brown",
-    "status": "Out",
-    "gameTimeDecision": false,
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
     "reason": "Hamstring",
     "returnDate": "2026-11-23"
    }
