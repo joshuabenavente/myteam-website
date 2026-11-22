@@ -1,12 +1,85 @@
 {
  "season": "2026-27",
  "lastSeason": "2025-26",
- "updatedAt": "2026-11-22T08:20:01.008Z",
+ "updatedAt": "2026-11-22T14:20:11.315Z",
  "teamGamesPlayed": {
   "regular": 18,
   "playoffs": 0
  },
  "players": [
+  {
+   "id": "beysa01",
+   "name": "Saddiq Bey",
+   "number": "41",
+   "position": "SF",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 8\"",
+    "weight": 215,
+    "birthDate": "1999-04-09",
+    "experience": 5,
+    "college": "Villanova",
+    "birthPlace": "Largo, MD"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4397136.png",
+   "current": {
+    "regular": {
+     "games": 18,
+     "started": 7,
+     "minutes": 541.9,
+     "points": 287,
+     "rebounds": 81,
+     "assists": 46,
+     "steals": 13,
+     "blocks": 5,
+     "turnovers": 14,
+     "fgMade": 97,
+     "fgAttempted": 227,
+     "threeMade": 41,
+     "threeAttempted": 110,
+     "ftMade": 52,
+     "ftAttempted": 59
+    }
+   },
+   "lastFull": {
+    "regular": {
+     "games": 72,
+     "started": 64,
+     "minutes": 2246.1,
+     "points": 1271,
+     "rebounds": 400,
+     "assists": 182,
+     "steals": 68,
+     "blocks": 7,
+     "turnovers": 68,
+     "fgMade": 436,
+     "fgAttempted": 967,
+     "threeMade": 151,
+     "threeAttempted": 412,
+     "ftMade": 248,
+     "ftAttempted": 295
+    }
+   },
+   "lastToDate": {
+    "regular": {
+     "games": 17,
+     "started": 9,
+     "minutes": 457.2,
+     "points": 205,
+     "rebounds": 91,
+     "assists": 37,
+     "steals": 15,
+     "blocks": 0,
+     "turnovers": 11,
+     "fgMade": 73,
+     "fgAttempted": 173,
+     "threeMade": 32,
+     "threeAttempted": 90,
+     "ftMade": 27,
+     "ftAttempted": 41
+    }
+   }
+  },
   {
    "id": "willizi01",
    "name": "Zion Williamson",
@@ -150,79 +223,6 @@
      "threeAttempted": 60,
      "ftMade": 43,
      "ftAttempted": 55
-    }
-   }
-  },
-  {
-   "id": "beysa01",
-   "name": "Saddiq Bey",
-   "number": "41",
-   "position": "SF",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 8\"",
-    "weight": 215,
-    "birthDate": "1999-04-09",
-    "experience": 5,
-    "college": "Villanova",
-    "birthPlace": "Largo, MD"
-   },
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4397136.png",
-   "current": {
-    "regular": {
-     "games": 17,
-     "started": 6,
-     "minutes": 509.6,
-     "points": 285,
-     "rebounds": 77,
-     "assists": 44,
-     "steals": 13,
-     "blocks": 5,
-     "turnovers": 14,
-     "fgMade": 96,
-     "fgAttempted": 215,
-     "threeMade": 41,
-     "threeAttempted": 103,
-     "ftMade": 52,
-     "ftAttempted": 58
-    }
-   },
-   "lastFull": {
-    "regular": {
-     "games": 72,
-     "started": 64,
-     "minutes": 2246.1,
-     "points": 1271,
-     "rebounds": 400,
-     "assists": 182,
-     "steals": 68,
-     "blocks": 7,
-     "turnovers": 68,
-     "fgMade": 436,
-     "fgAttempted": 967,
-     "threeMade": 151,
-     "threeAttempted": 412,
-     "ftMade": 248,
-     "ftAttempted": 295
-    }
-   },
-   "lastToDate": {
-    "regular": {
-     "games": 17,
-     "started": 9,
-     "minutes": 457.2,
-     "points": 205,
-     "rebounds": 91,
-     "assists": 37,
-     "steals": 15,
-     "blocks": 0,
-     "turnovers": 11,
-     "fgMade": 73,
-     "fgAttempted": 173,
-     "threeMade": 32,
-     "threeAttempted": 90,
-     "ftMade": 27,
-     "ftAttempted": 41
     }
    }
   },
