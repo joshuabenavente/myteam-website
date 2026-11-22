@@ -1,9 +1,9 @@
 {
  "season": "2026-27",
  "lastSeason": "2025-26",
- "updatedAt": "2026-11-22T01:21:17.333Z",
+ "updatedAt": "2026-11-22T07:21:16.705Z",
  "teamGamesPlayed": {
-  "regular": 15,
+  "regular": 16,
   "playoffs": 0
  },
  "players": [
@@ -172,21 +172,21 @@
    },
    "lastToDate": {
     "regular": {
-     "games": 13,
-     "started": 13,
-     "minutes": 442.9,
-     "points": 280,
-     "rebounds": 46,
-     "assists": 29,
-     "steals": 7,
+     "games": 14,
+     "started": 14,
+     "minutes": 469,
+     "points": 306,
+     "rebounds": 48,
+     "assists": 31,
+     "steals": 8,
      "blocks": 2,
-     "turnovers": 29,
-     "fgMade": 98,
-     "fgAttempted": 194,
-     "threeMade": 38,
-     "threeAttempted": 94,
-     "ftMade": 46,
-     "ftAttempted": 52
+     "turnovers": 32,
+     "fgMade": 108,
+     "fgAttempted": 211,
+     "threeMade": 42,
+     "threeAttempted": 102,
+     "ftMade": 48,
+     "ftAttempted": 54
     }
    }
   },
@@ -245,21 +245,21 @@
    },
    "lastToDate": {
     "regular": {
-     "games": 12,
-     "started": 12,
-     "minutes": 346.1,
-     "points": 209,
-     "rebounds": 57,
-     "assists": 35,
+     "games": 13,
+     "started": 13,
+     "minutes": 376.6,
+     "points": 234,
+     "rebounds": 61,
+     "assists": 37,
      "steals": 8,
      "blocks": 3,
-     "turnovers": 20,
-     "fgMade": 73,
-     "fgAttempted": 165,
-     "threeMade": 22,
-     "threeAttempted": 79,
-     "ftMade": 41,
-     "ftAttempted": 49
+     "turnovers": 23,
+     "fgMade": 79,
+     "fgAttempted": 176,
+     "threeMade": 27,
+     "threeAttempted": 87,
+     "ftMade": 49,
+     "ftAttempted": 57
     }
    }
   },
@@ -318,19 +318,19 @@
    },
    "lastToDate": {
     "regular": {
-     "games": 8,
-     "started": 5,
-     "minutes": 143.9,
-     "points": 56,
-     "rebounds": 38,
-     "assists": 8,
+     "games": 9,
+     "started": 6,
+     "minutes": 168,
+     "points": 58,
+     "rebounds": 43,
+     "assists": 10,
      "steals": 6,
      "blocks": 3,
      "turnovers": 5,
-     "fgMade": 23,
-     "fgAttempted": 43,
+     "fgMade": 24,
+     "fgAttempted": 46,
      "threeMade": 1,
-     "threeAttempted": 9,
+     "threeAttempted": 11,
      "ftMade": 9,
      "ftAttempted": 17
     }
@@ -428,19 +428,19 @@
    },
    "lastToDate": {
     "regular": {
-     "games": 12,
+     "games": 13,
      "started": 0,
-     "minutes": 294.3,
-     "points": 160,
-     "rebounds": 20,
-     "assists": 25,
+     "minutes": 308.4,
+     "points": 162,
+     "rebounds": 22,
+     "assists": 27,
      "steals": 12,
-     "blocks": 5,
-     "turnovers": 12,
-     "fgMade": 57,
-     "fgAttempted": 123,
+     "blocks": 6,
+     "turnovers": 13,
+     "fgMade": 58,
+     "fgAttempted": 127,
      "threeMade": 25,
-     "threeAttempted": 55,
+     "threeAttempted": 56,
      "ftMade": 21,
      "ftAttempted": 24
     }
@@ -499,7 +499,25 @@
      "ftAttempted": 49
     }
    },
-   "lastToDate": {}
+   "lastToDate": {
+    "regular": {
+     "games": 1,
+     "started": 0,
+     "minutes": 32.8,
+     "points": 11,
+     "rebounds": 3,
+     "assists": 1,
+     "steals": 0,
+     "blocks": 0,
+     "turnovers": 1,
+     "fgMade": 5,
+     "fgAttempted": 13,
+     "threeMade": 1,
+     "threeAttempted": 6,
+     "ftMade": 0,
+     "ftAttempted": 0
+    }
+   }
   },
   {
    "id": "blackle01",
@@ -828,15 +846,15 @@
    },
    "lastToDate": {
     "regular": {
-     "games": 6,
+     "games": 7,
      "started": 0,
-     "minutes": 30.2,
+     "minutes": 42.6,
      "points": 6,
-     "rebounds": 5,
-     "assists": 2,
-     "steals": 0,
+     "rebounds": 11,
+     "assists": 3,
+     "steals": 1,
      "blocks": 0,
-     "turnovers": 2,
+     "turnovers": 3,
      "fgMade": 2,
      "fgAttempted": 2,
      "threeMade": 0,
@@ -883,17 +901,17 @@
    },
    "lastToDate": {
     "regular": {
-     "games": 7,
+     "games": 8,
      "started": 0,
-     "minutes": 92.6,
-     "points": 33,
-     "rebounds": 26,
-     "assists": 4,
+     "minutes": 113.5,
+     "points": 45,
+     "rebounds": 29,
+     "assists": 5,
      "steals": 2,
-     "blocks": 2,
+     "blocks": 3,
      "turnovers": 6,
-     "fgMade": 12,
-     "fgAttempted": 28,
+     "fgMade": 18,
+     "fgAttempted": 36,
      "threeMade": 1,
      "threeAttempted": 4,
      "ftMade": 8,
