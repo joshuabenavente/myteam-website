@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-23T17:23:42.879Z",
+ "updatedAt": "2026-11-23T18:23:53.023Z",
  "teams": {
   "ATL": [
    {
@@ -61,13 +61,6 @@
     "gameTimeDecision": false,
     "reason": "Hamstring (strain)",
     "returnDate": "2027-01-27"
-   },
-   {
-    "name": "Grant Nelson",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Ankle (sprain)",
-    "returnDate": "2026-11-23"
    }
   ],
   "CHA": [
@@ -365,15 +358,6 @@
     "gameTimeDecision": true,
     "reason": "Groin",
     "returnDate": "2026-11-25"
-   }
-  ],
-  "MIL": [
-   {
-    "name": "Ousmane Dieng",
-    "status": "Out",
-    "gameTimeDecision": true,
-    "reason": "Finger (surgery)",
-    "returnDate": "2026-11-23"
    }
   ],
   "MIN": [
@@ -731,6 +715,13 @@
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Concussion",
+    "returnDate": "2026-11-23"
+   },
+   {
+    "name": "Jaden Bradley",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Ankle (sprain)",
     "returnDate": "2026-11-23"
    }
   ],
