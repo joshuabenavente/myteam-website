@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-23T18:23:53.023Z",
+ "updatedAt": "2026-11-23T19:23:42.774Z",
  "teams": {
   "ATL": [
    {
@@ -114,6 +114,13 @@
     "gameTimeDecision": false,
     "reason": "Hamstring (strain)",
     "returnDate": "2026-11-28"
+   },
+   {
+    "name": "Jalen Smith",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Illness",
+    "returnDate": "2026-11-23"
    },
    {
     "name": "Nic Claxton",
@@ -261,6 +268,13 @@
   ],
   "IND": [
    {
+    "name": "Aaron Nesmith",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Foot",
+    "returnDate": "2026-11-27"
+   },
+   {
     "name": "Ben Sheppard",
     "status": "Out",
     "gameTimeDecision": false,
@@ -275,6 +289,13 @@
     "returnDate": "2027-01-02"
    },
    {
+    "name": "T.J. McConnell",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Hamstring",
+    "returnDate": "2026-11-27"
+   },
+   {
     "name": "Tyrese Haliburton",
     "status": "Out",
     "gameTimeDecision": false,
@@ -282,10 +303,10 @@
     "returnDate": "2026-12-13"
    },
    {
-    "name": "T.J. McConnell",
+    "name": "Pascal Siakam",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
-    "reason": "Hamstring",
+    "reason": "Hip",
     "returnDate": "2026-11-23"
    }
   ],
@@ -392,13 +413,6 @@
     "returnDate": "2026-11-27"
    },
    {
-    "name": "Bryce McGowens",
-    "status": "Out",
-    "gameTimeDecision": true,
-    "reason": "Elbow (infection)",
-    "returnDate": "2026-11-23"
-   },
-   {
     "name": "Dejounte Murray",
     "status": "Out",
     "gameTimeDecision": false,
@@ -411,13 +425,6 @@
     "gameTimeDecision": false,
     "reason": "Ankle (sprain)",
     "returnDate": "2026-11-27"
-   },
-   {
-    "name": "Trey Murphy III",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Knee",
-    "returnDate": "2026-11-23"
    },
    {
     "name": "Zion Williamson",
@@ -452,6 +459,20 @@
   ],
   "OKC": [
    {
+    "name": "Aday Mara",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Lower Leg (bruise)",
+    "returnDate": "2026-11-25"
+   },
+   {
+    "name": "Alex Caruso",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Hip (soreness)",
+    "returnDate": "2026-11-25"
+   },
+   {
     "name": "Cason Wallace",
     "status": "Out",
     "gameTimeDecision": false,
@@ -473,46 +494,25 @@
     "returnDate": "2027-03-02"
    },
    {
+    "name": "Jaylin Williams",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Back (spasms)",
+    "returnDate": "2026-11-25"
+   },
+   {
+    "name": "Nikola Topic",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Hip (strain)",
+    "returnDate": "2026-11-25"
+   },
+   {
     "name": "Thomas Sorber",
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Knee",
     "returnDate": "2027-01-31"
-   },
-   {
-    "name": "Aday Mara",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Lower Leg (bruise)",
-    "returnDate": "2026-11-23"
-   },
-   {
-    "name": "Alex Caruso",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Hip (soreness)",
-    "returnDate": "2026-11-23"
-   },
-   {
-    "name": "Jaylin Williams",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Back (spasms)",
-    "returnDate": "2026-11-23"
-   },
-   {
-    "name": "Nikola Topic",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Hip (soreness)",
-    "returnDate": "2026-11-23"
-   },
-   {
-    "name": "Shai Gilgeous-Alexander",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Back (bruise)",
-    "returnDate": "2026-11-23"
    }
   ],
   "ORL": [
@@ -589,13 +589,6 @@
     "gameTimeDecision": false,
     "reason": "Shoulder (surgery)",
     "returnDate": "2027-02-03"
-   },
-   {
-    "name": "Ryan Dunn",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Quadriceps (soreness)",
-    "returnDate": "2026-11-23"
    }
   ],
   "POR": [
