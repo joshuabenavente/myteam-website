@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-23T19:23:42.774Z",
+ "updatedAt": "2026-11-23T21:23:54.629Z",
  "teams": {
   "ATL": [
    {
@@ -42,16 +42,9 @@
    {
     "name": "Mitchell Robinson",
     "status": "Out",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Illness",
-    "returnDate": "2026-11-24"
-   },
-   {
-    "name": "Paul George",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Rest",
-    "returnDate": "2026-11-24"
+    "returnDate": "2026-11-27"
    }
   ],
   "BKN": [
@@ -727,6 +720,13 @@
     "returnDate": "2026-12-14"
    },
    {
+    "name": "Jaxson Hayes",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Knee",
+    "returnDate": "2026-11-27"
+   },
+   {
     "name": "Jusuf Nurkic",
     "status": "Out",
     "gameTimeDecision": false,
@@ -739,13 +739,6 @@
     "gameTimeDecision": false,
     "reason": "Hand (fracture)",
     "returnDate": "2027-01-04"
-   },
-   {
-    "name": "Jaxson Hayes",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Knee",
-    "returnDate": "2026-11-23"
    }
   ],
   "WAS": [
