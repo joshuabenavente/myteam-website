@@ -123,7 +123,7 @@
    "wins": 10,
    "losses": 6,
    "divisionRank": 1,
-   "conferenceRank": 5,
+   "conferenceRank": 6,
    "divisionGamesBehind": 0,
    "home": {
     "wins": 3,
@@ -258,13 +258,13 @@
    "abbr": "MIA",
    "conference": "East",
    "division": "Southeast",
-   "wins": 9,
+   "wins": 10,
    "losses": 6,
    "divisionRank": 2,
-   "conferenceRank": 6,
-   "divisionGamesBehind": 1,
+   "conferenceRank": 5,
+   "divisionGamesBehind": 0.5,
    "home": {
-    "wins": 5,
+    "wins": 6,
     "losses": 3
    },
    "road": {
@@ -275,7 +275,7 @@
     "wins": 8,
     "losses": 2
    },
-   "streak": "W6"
+   "streak": "W7"
   },
   "ORL": {
    "abbr": "ORL",
@@ -420,23 +420,23 @@
    "conference": "West",
    "division": "Northwest",
    "wins": 10,
-   "losses": 6,
+   "losses": 7,
    "divisionRank": 4,
    "conferenceRank": 8,
-   "divisionGamesBehind": 1.5,
+   "divisionGamesBehind": 2,
    "home": {
     "wins": 6,
     "losses": 1
    },
    "road": {
     "wins": 4,
-    "losses": 5
+    "losses": 6
    },
    "lastTen": {
-    "wins": 6,
-    "losses": 4
+    "wins": 5,
+    "losses": 5
    },
-   "streak": "W1"
+   "streak": "L1"
   },
   "UTA": {
    "abbr": "UTA",
