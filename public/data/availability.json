@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-23T02:23:42.260Z",
+ "updatedAt": "2026-11-23T04:23:45.444Z",
  "teams": {
   "ATL": [
    {
@@ -337,6 +337,13 @@
     "returnDate": "2027-01-18"
    },
    {
+    "name": "Jerami Grant",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Calf",
+    "returnDate": "2026-12-12"
+   },
+   {
     "name": "Richie Saunders",
     "status": "Out",
     "gameTimeDecision": false,
@@ -349,13 +356,6 @@
     "gameTimeDecision": false,
     "reason": "Back (soreness)",
     "returnDate": "2026-11-25"
-   },
-   {
-    "name": "Jerami Grant",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Calf",
-    "returnDate": "2026-12-12"
    }
   ],
   "MIA": [
