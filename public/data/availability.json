@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-23T00:23:49.493Z",
+ "updatedAt": "2026-11-23T01:23:42.297Z",
  "teams": {
   "ATL": [
    {
@@ -294,13 +294,6 @@
     "gameTimeDecision": false,
     "reason": "Hamstring (strain)",
     "returnDate": "2026-12-13"
-   },
-   {
-    "name": "Pascal Siakam",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Hip (soreness)",
-    "returnDate": "2026-11-22"
    }
   ],
   "LAC": [
@@ -323,9 +316,9 @@
    {
     "name": "Austin Reaves",
     "status": "Out",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Heel (bruise)",
-    "returnDate": "2026-11-23"
+    "returnDate": "2026-11-27"
    }
   ],
   "MEM": [
@@ -362,7 +355,7 @@
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Calf",
-    "returnDate": "2026-11-23"
+    "returnDate": "2026-12-12"
    }
   ],
   "MIA": [
@@ -720,6 +713,13 @@
     "gameTimeDecision": false,
     "reason": "Knee",
     "returnDate": "2026-12-14"
+   },
+   {
+    "name": "Jaxson Hayes",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Knee",
+    "returnDate": "2026-11-23"
    },
    {
     "name": "Jusuf Nurkic",
