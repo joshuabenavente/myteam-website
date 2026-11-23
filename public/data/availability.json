@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-23T22:23:42.961Z",
+ "updatedAt": "2026-11-23T23:23:39.103Z",
  "teams": {
   "ATL": [
    {
@@ -194,6 +194,13 @@
     "returnDate": "2026-11-27"
    },
    {
+    "name": "Ebuka Okorie",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Oblique (strain)",
+    "returnDate": "2026-11-30"
+   },
+   {
     "name": "Jalen Duren",
     "status": "Out",
     "gameTimeDecision": false,
@@ -213,13 +220,6 @@
     "gameTimeDecision": true,
     "reason": "Knee",
     "returnDate": "2026-11-24"
-   },
-   {
-    "name": "Ebuka Okorie",
-    "status": "Day-To-Day",
-    "gameTimeDecision": false,
-    "reason": "Oblique (strain)",
-    "returnDate": "2026-11-30"
    }
   ],
   "GSW": [
@@ -294,13 +294,6 @@
     "gameTimeDecision": false,
     "reason": "Hamstring (strain)",
     "returnDate": "2026-12-13"
-   },
-   {
-    "name": "Pascal Siakam",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Hip",
-    "returnDate": "2026-11-23"
    }
   ],
   "LAC": [
@@ -334,7 +327,7 @@
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Ankle (sprain)",
-    "returnDate": "2026-11-25"
+    "returnDate": "2026-12-21"
    },
    {
     "name": "GG Jackson",
@@ -542,9 +535,7 @@
    {
     "name": "Adem Bona",
     "status": "Out",
-    "gameTimeDecision": true,
-    "reason": "Back (sprain)",
-    "returnDate": "2026-11-23"
+    "gameTimeDecision": false
    },
    {
     "name": "Ariel Hukporti",
@@ -552,6 +543,13 @@
     "gameTimeDecision": false,
     "reason": "Achilles (surgery)",
     "returnDate": "2027-10-01"
+   },
+   {
+    "name": "Joel Embiid",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Illness",
+    "returnDate": "2026-11-25"
    },
    {
     "name": "Dean Wade",
@@ -565,13 +563,6 @@
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Hamstring",
-    "returnDate": "2026-11-23"
-   },
-   {
-    "name": "Joel Embiid",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Illness",
     "returnDate": "2026-11-23"
    }
   ],
@@ -695,20 +686,6 @@
     "gameTimeDecision": false,
     "reason": "Hamstring (strain)",
     "returnDate": "2026-12-13"
-   },
-   {
-    "name": "Collin Murray-Boyles",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Concussion",
-    "returnDate": "2026-11-23"
-   },
-   {
-    "name": "Jaden Bradley",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Ankle (sprain)",
-    "returnDate": "2026-11-23"
    }
   ],
   "UTA": [
