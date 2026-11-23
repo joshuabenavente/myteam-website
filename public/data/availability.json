@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-23T21:23:54.629Z",
+ "updatedAt": "2026-11-23T22:23:42.961Z",
  "teams": {
   "ATL": [
    {
@@ -84,13 +84,6 @@
     "gameTimeDecision": false,
     "reason": "Hamstring (strain)",
     "returnDate": "2026-12-12"
-   },
-   {
-    "name": "Brandon Miller",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Knee (bruise)",
-    "returnDate": "2026-11-23"
    }
   ],
   "CHI": [
@@ -203,9 +196,9 @@
    {
     "name": "Jalen Duren",
     "status": "Out",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Hamstring (strain)",
-    "returnDate": "2026-11-24"
+    "returnDate": "2026-11-30"
    },
    {
     "name": "Taurean Prince",
@@ -215,11 +208,18 @@
     "returnDate": "2026-12-13"
    },
    {
-    "name": "Ebuka Okorie",
+    "name": "Cade Cunningham",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
-    "reason": "Oblique (strain)",
+    "reason": "Knee",
     "returnDate": "2026-11-24"
+   },
+   {
+    "name": "Ebuka Okorie",
+    "status": "Day-To-Day",
+    "gameTimeDecision": false,
+    "reason": "Oblique (strain)",
+    "returnDate": "2026-11-30"
    }
   ],
   "GSW": [
@@ -766,9 +766,9 @@
    {
     "name": "Tristan Vukcevic",
     "status": "Out",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Hip (pinched nerve)",
-    "returnDate": "2026-11-24"
+    "returnDate": "2026-11-30"
    }
   ]
  }
