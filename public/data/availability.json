@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-22T23:23:49.107Z",
+ "updatedAt": "2026-11-23T00:23:49.493Z",
  "teams": {
   "ATL": [
    {
@@ -459,18 +459,18 @@
     "returnDate": "2026-11-25"
    },
    {
+    "name": "Miles McBride",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Abdomen",
+    "returnDate": "2026-11-25"
+   },
+   {
     "name": "OG Anunoby",
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Calf (soreness)",
     "returnDate": "2026-11-25"
-   },
-   {
-    "name": "Karl-Anthony Towns",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Illness",
-    "returnDate": "2026-11-22"
    }
   ],
   "OKC": [
@@ -610,7 +610,7 @@
     "name": "Ryan Dunn",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
-    "reason": "Quadriceps",
+    "reason": "Quadriceps (soreness)",
     "returnDate": "2026-11-23"
    }
   ],
