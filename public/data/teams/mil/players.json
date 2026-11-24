@@ -1,9 +1,9 @@
 {
  "season": "2026-27",
  "lastSeason": "2025-26",
- "updatedAt": "2026-11-23T22:21:10.730Z",
+ "updatedAt": "2026-11-24T04:21:16.076Z",
  "teamGamesPlayed": {
-  "regular": 17,
+  "regular": 18,
   "playoffs": 0
  },
  "players": [
@@ -60,7 +60,25 @@
      "ftAttempted": 108
     }
    },
-   "lastToDate": {}
+   "lastToDate": {
+    "regular": {
+     "games": 1,
+     "started": 1,
+     "minutes": 29.4,
+     "points": 24,
+     "rebounds": 7,
+     "assists": 0,
+     "steals": 3,
+     "blocks": 0,
+     "turnovers": 0,
+     "fgMade": 12,
+     "fgAttempted": 18,
+     "threeMade": 0,
+     "threeAttempted": 2,
+     "ftMade": 0,
+     "ftAttempted": 0
+    }
+   }
   },
   {
    "id": "jaqueja01",
@@ -117,21 +135,21 @@
    },
    "lastToDate": {
     "regular": {
-     "games": 17,
+     "games": 18,
      "started": 0,
-     "minutes": 515.8,
-     "points": 284,
-     "rebounds": 110,
-     "assists": 93,
+     "minutes": 548.4,
+     "points": 297,
+     "rebounds": 116,
+     "assists": 98,
      "steals": 12,
      "blocks": 4,
-     "turnovers": 36,
-     "fgMade": 114,
-     "fgAttempted": 215,
+     "turnovers": 39,
+     "fgMade": 119,
+     "fgAttempted": 226,
      "threeMade": 6,
-     "threeAttempted": 29,
-     "ftMade": 50,
-     "ftAttempted": 64
+     "threeAttempted": 30,
+     "ftMade": 53,
+     "ftAttempted": 68
     }
    }
   },
@@ -190,21 +208,21 @@
    },
    "lastToDate": {
     "regular": {
-     "games": 16,
-     "started": 7,
-     "minutes": 416.2,
-     "points": 216,
-     "rebounds": 68,
+     "games": 17,
+     "started": 8,
+     "minutes": 443.5,
+     "points": 231,
+     "rebounds": 74,
      "assists": 30,
      "steals": 13,
      "blocks": 9,
      "turnovers": 21,
-     "fgMade": 81,
-     "fgAttempted": 165,
-     "threeMade": 14,
-     "threeAttempted": 51,
-     "ftMade": 40,
-     "ftAttempted": 51
+     "fgMade": 86,
+     "fgAttempted": 174,
+     "threeMade": 15,
+     "threeAttempted": 52,
+     "ftMade": 44,
+     "ftAttempted": 57
     }
    }
   },
@@ -263,21 +281,21 @@
    },
    "lastToDate": {
     "regular": {
-     "games": 17,
-     "started": 17,
-     "minutes": 508.3,
-     "points": 210,
-     "rebounds": 108,
-     "assists": 31,
+     "games": 18,
+     "started": 18,
+     "minutes": 540.6,
+     "points": 223,
+     "rebounds": 119,
+     "assists": 32,
      "steals": 20,
-     "blocks": 28,
-     "turnovers": 22,
-     "fgMade": 72,
-     "fgAttempted": 164,
-     "threeMade": 41,
-     "threeAttempted": 98,
-     "ftMade": 25,
-     "ftAttempted": 36
+     "blocks": 32,
+     "turnovers": 23,
+     "fgMade": 76,
+     "fgAttempted": 176,
+     "threeMade": 44,
+     "threeAttempted": 106,
+     "ftMade": 27,
+     "ftAttempted": 38
     }
    }
   },
@@ -373,21 +391,21 @@
    },
    "lastToDate": {
     "regular": {
-     "games": 17,
-     "started": 16,
-     "minutes": 538.9,
-     "points": 317,
-     "rebounds": 67,
-     "assists": 101,
-     "steals": 27,
+     "games": 18,
+     "started": 17,
+     "minutes": 569.4,
+     "points": 327,
+     "rebounds": 72,
+     "assists": 108,
+     "steals": 28,
      "blocks": 5,
-     "turnovers": 43,
-     "fgMade": 122,
-     "fgAttempted": 242,
+     "turnovers": 47,
+     "fgMade": 126,
+     "fgAttempted": 256,
      "threeMade": 42,
-     "threeAttempted": 96,
-     "ftMade": 31,
-     "ftAttempted": 39
+     "threeAttempted": 100,
+     "ftMade": 33,
+     "ftAttempted": 41
     }
    }
   },
@@ -446,21 +464,21 @@
    },
    "lastToDate": {
     "regular": {
-     "games": 17,
-     "started": 13,
-     "minutes": 415.5,
-     "points": 204,
-     "rebounds": 180,
+     "games": 18,
+     "started": 14,
+     "minutes": 449.1,
+     "points": 224,
+     "rebounds": 198,
      "assists": 11,
      "steals": 18,
-     "blocks": 22,
-     "turnovers": 15,
-     "fgMade": 80,
-     "fgAttempted": 152,
-     "threeMade": 16,
-     "threeAttempted": 42,
-     "ftMade": 28,
-     "ftAttempted": 36
+     "blocks": 25,
+     "turnovers": 18,
+     "fgMade": 87,
+     "fgAttempted": 166,
+     "threeMade": 19,
+     "threeAttempted": 47,
+     "ftMade": 31,
+     "ftAttempted": 39
     }
    }
   },
@@ -611,21 +629,21 @@
    },
    "lastToDate": {
     "regular": {
-     "games": 17,
-     "started": 17,
-     "minutes": 486.7,
-     "points": 187,
-     "rebounds": 45,
+     "games": 18,
+     "started": 18,
+     "minutes": 511.3,
+     "points": 193,
+     "rebounds": 47,
      "assists": 30,
-     "steals": 7,
+     "steals": 8,
      "blocks": 1,
-     "turnovers": 13,
-     "fgMade": 59,
-     "fgAttempted": 123,
-     "threeMade": 54,
-     "threeAttempted": 112,
-     "ftMade": 15,
-     "ftAttempted": 19
+     "turnovers": 14,
+     "fgMade": 61,
+     "fgAttempted": 129,
+     "threeMade": 55,
+     "threeAttempted": 117,
+     "ftMade": 16,
+     "ftAttempted": 21
     }
    }
   },
@@ -683,19 +701,19 @@
    },
    "lastToDate": {
     "regular": {
-     "games": 13,
+     "games": 14,
      "started": 0,
-     "minutes": 139.4,
-     "points": 34,
-     "rebounds": 22,
-     "assists": 10,
+     "minutes": 154,
+     "points": 42,
+     "rebounds": 24,
+     "assists": 11,
      "steals": 1,
      "blocks": 5,
      "turnovers": 6,
-     "fgMade": 13,
-     "fgAttempted": 38,
-     "threeMade": 4,
-     "threeAttempted": 18,
+     "fgMade": 16,
+     "fgAttempted": 43,
+     "threeMade": 6,
+     "threeAttempted": 21,
      "ftMade": 4,
      "ftAttempted": 4
     }
@@ -756,17 +774,17 @@
    },
    "lastToDate": {
     "regular": {
-     "games": 12,
-     "started": 0,
-     "minutes": 112.3,
+     "games": 13,
+     "started": 1,
+     "minutes": 123.2,
      "points": 21,
-     "rebounds": 26,
+     "rebounds": 27,
      "assists": 7,
      "steals": 2,
      "blocks": 4,
      "turnovers": 6,
      "fgMade": 9,
-     "fgAttempted": 11,
+     "fgAttempted": 12,
      "threeMade": 0,
      "threeAttempted": 0,
      "ftMade": 3,
@@ -829,21 +847,21 @@
    },
    "lastToDate": {
     "regular": {
-     "games": 17,
+     "games": 18,
      "started": 12,
-     "minutes": 472.2,
-     "points": 172,
-     "rebounds": 24,
-     "assists": 32,
-     "steals": 17,
+     "minutes": 504.4,
+     "points": 184,
+     "rebounds": 26,
+     "assists": 35,
+     "steals": 18,
      "blocks": 1,
-     "turnovers": 14,
-     "fgMade": 60,
-     "fgAttempted": 148,
-     "threeMade": 39,
-     "threeAttempted": 102,
-     "ftMade": 13,
-     "ftAttempted": 18
+     "turnovers": 16,
+     "fgMade": 63,
+     "fgAttempted": 155,
+     "threeMade": 41,
+     "threeAttempted": 106,
+     "ftMade": 17,
+     "ftAttempted": 23
     }
    }
   },
@@ -902,12 +920,12 @@
    },
    "lastToDate": {
     "regular": {
-     "games": 2,
+     "games": 3,
      "started": 0,
-     "minutes": 6.7,
+     "minutes": 10,
      "points": 13,
      "rebounds": 2,
-     "assists": 0,
+     "assists": 1,
      "steals": 0,
      "blocks": 0,
      "turnovers": 0,
@@ -992,21 +1010,21 @@
    },
    "lastToDate": {
     "regular": {
-     "games": 12,
+     "games": 13,
      "started": 0,
-     "minutes": 233.8,
-     "points": 118,
-     "rebounds": 18,
-     "assists": 39,
+     "minutes": 257.8,
+     "points": 128,
+     "rebounds": 21,
+     "assists": 42,
      "steals": 8,
      "blocks": 5,
-     "turnovers": 19,
-     "fgMade": 42,
-     "fgAttempted": 84,
-     "threeMade": 16,
-     "threeAttempted": 39,
-     "ftMade": 18,
-     "ftAttempted": 30
+     "turnovers": 20,
+     "fgMade": 45,
+     "fgAttempted": 92,
+     "threeMade": 18,
+     "threeAttempted": 43,
+     "ftMade": 20,
+     "ftAttempted": 32
     }
    }
   },

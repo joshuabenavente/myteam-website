@@ -144,23 +144,23 @@
    "conference": "East",
    "division": "Central",
    "wins": 9,
-   "losses": 8,
+   "losses": 9,
    "divisionRank": 2,
    "conferenceRank": 7,
-   "divisionGamesBehind": 1.5,
+   "divisionGamesBehind": 2,
    "home": {
     "wins": 7,
     "losses": 3
    },
    "road": {
     "wins": 2,
-    "losses": 5
+    "losses": 6
    },
    "lastTen": {
     "wins": 5,
     "losses": 5
    },
-   "streak": "W1"
+   "streak": "L1"
   },
   "IND": {
    "abbr": "IND",
@@ -189,13 +189,13 @@
    "abbr": "CHI",
    "conference": "East",
    "division": "Central",
-   "wins": 4,
+   "wins": 5,
    "losses": 12,
    "divisionRank": 4,
-   "conferenceRank": 13,
-   "divisionGamesBehind": 6,
+   "conferenceRank": 12,
+   "divisionGamesBehind": 5.5,
    "home": {
-    "wins": 1,
+    "wins": 2,
     "losses": 6
    },
    "road": {
@@ -203,10 +203,10 @@
     "losses": 6
    },
    "lastTen": {
-    "wins": 3,
-    "losses": 7
+    "wins": 4,
+    "losses": 6
    },
-   "streak": "L2"
+   "streak": "W1"
   },
   "MIL": {
    "abbr": "MIL",
@@ -330,7 +330,7 @@
    "wins": 4,
    "losses": 12,
    "divisionRank": 5,
-   "conferenceRank": 12,
+   "conferenceRank": 13,
    "divisionGamesBehind": 6.5,
    "home": {
     "wins": 3,
@@ -422,7 +422,7 @@
    "wins": 10,
    "losses": 8,
    "divisionRank": 4,
-   "conferenceRank": 9,
+   "conferenceRank": 10,
    "divisionGamesBehind": 3,
    "home": {
     "wins": 6,
@@ -488,24 +488,24 @@
    "abbr": "PHX",
    "conference": "West",
    "division": "Pacific",
-   "wins": 8,
+   "wins": 9,
    "losses": 7,
    "divisionRank": 2,
-   "conferenceRank": 10,
-   "divisionGamesBehind": 5,
+   "conferenceRank": 9,
+   "divisionGamesBehind": 4.5,
    "home": {
     "wins": 5,
     "losses": 4
    },
    "road": {
-    "wins": 3,
+    "wins": 4,
     "losses": 3
    },
    "lastTen": {
-    "wins": 7,
-    "losses": 3
+    "wins": 8,
+    "losses": 2
    },
-   "streak": "W3"
+   "streak": "W4"
   },
   "GSW": {
    "abbr": "GSW",
@@ -535,23 +535,23 @@
    "conference": "West",
    "division": "Pacific",
    "wins": 4,
-   "losses": 11,
+   "losses": 12,
    "divisionRank": 4,
    "conferenceRank": 13,
-   "divisionGamesBehind": 9,
+   "divisionGamesBehind": 9.5,
    "home": {
     "wins": 4,
     "losses": 4
    },
    "road": {
     "wins": 0,
-    "losses": 7
+    "losses": 8
    },
    "lastTen": {
     "wins": 3,
     "losses": 7
    },
-   "streak": "L3"
+   "streak": "L4"
   },
   "SAC": {
    "abbr": "SAC",
@@ -599,13 +599,36 @@
    },
    "streak": "W2"
   },
+  "HOU": {
+   "abbr": "HOU",
+   "conference": "West",
+   "division": "Southwest",
+   "wins": 13,
+   "losses": 5,
+   "divisionRank": 2,
+   "conferenceRank": 5,
+   "divisionGamesBehind": 1.5,
+   "home": {
+    "wins": 8,
+    "losses": 1
+   },
+   "road": {
+    "wins": 5,
+    "losses": 4
+   },
+   "lastTen": {
+    "wins": 6,
+    "losses": 4
+   },
+   "streak": "W1"
+  },
   "MEM": {
    "abbr": "MEM",
    "conference": "West",
    "division": "Southwest",
    "wins": 13,
    "losses": 5,
-   "divisionRank": 2,
+   "divisionRank": 3,
    "conferenceRank": 4,
    "divisionGamesBehind": 1.5,
    "home": {
@@ -621,29 +644,6 @@
     "losses": 3
    },
    "streak": "W1"
-  },
-  "HOU": {
-   "abbr": "HOU",
-   "conference": "West",
-   "division": "Southwest",
-   "wins": 12,
-   "losses": 5,
-   "divisionRank": 3,
-   "conferenceRank": 5,
-   "divisionGamesBehind": 2,
-   "home": {
-    "wins": 7,
-    "losses": 1
-   },
-   "road": {
-    "wins": 5,
-    "losses": 4
-   },
-   "lastTen": {
-    "wins": 6,
-    "losses": 4
-   },
-   "streak": "L1"
   },
   "DAL": {
    "abbr": "DAL",
@@ -673,13 +673,13 @@
    "conference": "West",
    "division": "Southwest",
    "wins": 5,
-   "losses": 13,
+   "losses": 14,
    "divisionRank": 5,
    "conferenceRank": 12,
-   "divisionGamesBehind": 9.5,
+   "divisionGamesBehind": 10,
    "home": {
     "wins": 4,
-    "losses": 7
+    "losses": 8
    },
    "road": {
     "wins": 1,
@@ -689,7 +689,7 @@
     "wins": 1,
     "losses": 9
    },
-   "streak": "L3"
+   "streak": "L4"
   }
  }
 }
