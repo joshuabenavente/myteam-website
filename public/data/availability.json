@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-24T01:23:42.909Z",
+ "updatedAt": "2026-11-24T02:23:44.826Z",
  "teams": {
   "ATL": [
    {
@@ -84,6 +84,13 @@
     "gameTimeDecision": false,
     "reason": "Hamstring (strain)",
     "returnDate": "2026-12-12"
+   },
+   {
+    "name": "Ryan Kalkbrenner",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Hip (soreness)",
+    "returnDate": "2026-11-25"
    }
   ],
   "CHI": [
@@ -264,6 +271,13 @@
     "gameTimeDecision": false,
     "reason": "Hamstring (strain)",
     "returnDate": "2026-12-13"
+   },
+   {
+    "name": "Larry Nance Jr.",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Ankle (soreness)",
+    "returnDate": "2026-11-27"
    }
   ],
   "LAC": [
@@ -567,6 +581,13 @@
   ],
   "SAS": [
    {
+    "name": "De'Aaron Fox",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Lower Leg (bruise)",
+    "returnDate": "2026-11-25"
+   },
+   {
     "name": "Dylan Harper",
     "status": "Out",
     "gameTimeDecision": false,
@@ -588,25 +609,11 @@
     "returnDate": "2026-12-03"
    },
    {
-    "name": "De'Aaron Fox",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Lower Leg (bruise)",
-    "returnDate": "2026-11-23"
-   },
-   {
-    "name": "Jordan McLaughlin",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Shoulder (bruise)",
-    "returnDate": "2026-11-23"
-   },
-   {
     "name": "Victor Wembanyama",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
+    "status": "Out",
+    "gameTimeDecision": false,
     "reason": "Back",
-    "returnDate": "2026-11-23"
+    "returnDate": "2026-11-25"
    }
   ],
   "TOR": [
