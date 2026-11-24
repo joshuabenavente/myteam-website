@@ -393,7 +393,11 @@
    "startUtc": "2026-11-24T00:00:00Z",
    "home": false,
    "opponent": "PHI",
-   "status": "scheduled",
+   "status": "live",
+   "score": {
+    "team": 0,
+    "opponent": 0
+   },
    "broadcasts": [
     {
      "name": "KATU ABC 2/KUNP",

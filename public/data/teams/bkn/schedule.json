@@ -294,7 +294,11 @@
    "startUtc": "2026-11-24T00:30:00Z",
    "home": false,
    "opponent": "MIN",
-   "status": "scheduled",
+   "status": "live",
+   "score": {
+    "team": 0,
+    "opponent": 0
+   },
    "broadcasts": [
     {
      "name": "Peacock",

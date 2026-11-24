@@ -305,7 +305,11 @@
    "startUtc": "2026-11-24T00:00:00Z",
    "home": true,
    "opponent": "MEM",
-   "status": "scheduled",
+   "status": "live",
+   "score": {
+    "team": 0,
+    "opponent": 0
+   },
    "broadcasts": [
     {
      "name": "TV 64/DAZN-CHA",

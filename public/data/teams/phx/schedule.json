@@ -374,7 +374,11 @@
    "startUtc": "2026-11-24T01:00:00Z",
    "home": false,
    "opponent": "NOP",
-   "status": "scheduled",
+   "status": "live",
+   "score": {
+    "team": 0,
+    "opponent": 0
+   },
    "broadcasts": [
     {
      "name": "3TV / AZFS",
