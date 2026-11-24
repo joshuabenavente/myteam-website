@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-24T05:23:48.294Z",
+ "updatedAt": "2026-11-24T06:23:50.125Z",
  "teams": {
   "ATL": [
    {
@@ -300,7 +300,7 @@
    {
     "name": "Austin Reaves",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Heel (bruise)",
     "returnDate": "2026-11-27"
    }
@@ -581,13 +581,6 @@
   ],
   "SAS": [
    {
-    "name": "De'Aaron Fox",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Lower Leg (bruise)",
-    "returnDate": "2026-11-25"
-   },
-   {
     "name": "Dylan Harper",
     "status": "Out",
     "gameTimeDecision": false,
@@ -609,9 +602,16 @@
     "returnDate": "2026-12-03"
    },
    {
+    "name": "De'Aaron Fox",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Lower Leg (bruise)",
+    "returnDate": "2026-11-25"
+   },
+   {
     "name": "Victor Wembanyama",
-    "status": "Out",
-    "gameTimeDecision": false,
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
     "reason": "Back",
     "returnDate": "2026-11-25"
    }
@@ -648,13 +648,6 @@
     "returnDate": "2026-12-14"
    },
    {
-    "name": "Jaxson Hayes",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Knee",
-    "returnDate": "2026-11-27"
-   },
-   {
     "name": "Jusuf Nurkic",
     "status": "Out",
     "gameTimeDecision": false,
@@ -667,6 +660,13 @@
     "gameTimeDecision": false,
     "reason": "Hand (fracture)",
     "returnDate": "2027-01-04"
+   },
+   {
+    "name": "Jaxson Hayes",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Knee",
+    "returnDate": "2026-11-27"
    }
   ],
   "WAS": [
