@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-24T16:23:43.099Z",
+ "updatedAt": "2026-11-24T17:23:41.027Z",
  "teams": {
   "ATL": [
    {
@@ -357,7 +357,7 @@
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Achilles (surgery)",
-    "returnDate": "2027-04-02"
+    "returnDate": "2027-01-31"
    },
    {
     "name": "Jaylen Clark",
@@ -690,6 +690,13 @@
     "gameTimeDecision": false,
     "reason": "Hip (pinched nerve)",
     "returnDate": "2026-11-30"
+   },
+   {
+    "name": "Tre Mann",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Illness",
+    "returnDate": "2026-11-24"
    }
   ]
  }
