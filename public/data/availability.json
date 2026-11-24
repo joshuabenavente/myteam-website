@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-24T06:23:50.125Z",
+ "updatedAt": "2026-11-24T15:23:41.772Z",
  "teams": {
   "ATL": [
    {
@@ -378,21 +378,21 @@
    {
     "name": "Bennedict Mathurin",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Foot (plantar fasciitis)",
     "returnDate": "2026-11-27"
    },
    {
     "name": "Dejounte Murray",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Ankle",
     "returnDate": "2026-11-27"
    },
    {
     "name": "Trendon Watford",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Ankle (sprain)",
     "returnDate": "2026-11-27"
    }
@@ -574,7 +574,7 @@
    {
     "name": "Maxime Raynaud",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Knee (dislocated)",
     "returnDate": "2026-11-25"
    }
