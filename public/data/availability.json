@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-24T03:23:38.439Z",
+ "updatedAt": "2026-11-24T05:23:48.294Z",
  "teams": {
   "ATL": [
    {
@@ -60,21 +60,14 @@
    {
     "name": "Dennis Schroder",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Hamstring (strain)",
-    "returnDate": "2026-11-25"
-   },
-   {
-    "name": "Grant Williams",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Hamstring",
     "returnDate": "2026-11-25"
    },
    {
     "name": "Grayson Allen",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Concussion",
     "returnDate": "2026-11-25"
    },
@@ -84,6 +77,13 @@
     "gameTimeDecision": false,
     "reason": "Hamstring (strain)",
     "returnDate": "2026-12-12"
+   },
+   {
+    "name": "Grant Williams",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Hamstring",
+    "returnDate": "2026-11-25"
    },
    {
     "name": "Ryan Kalkbrenner",
@@ -238,13 +238,6 @@
   ],
   "IND": [
    {
-    "name": "Aaron Nesmith",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Foot",
-    "returnDate": "2026-11-27"
-   },
-   {
     "name": "Ben Sheppard",
     "status": "Out",
     "gameTimeDecision": false,
@@ -259,13 +252,6 @@
     "returnDate": "2027-01-02"
    },
    {
-    "name": "T.J. McConnell",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Hamstring",
-    "returnDate": "2026-11-27"
-   },
-   {
     "name": "Tyrese Haliburton",
     "status": "Out",
     "gameTimeDecision": false,
@@ -273,10 +259,24 @@
     "returnDate": "2026-12-13"
    },
    {
+    "name": "Aaron Nesmith",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Foot",
+    "returnDate": "2026-11-27"
+   },
+   {
     "name": "Larry Nance Jr.",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Ankle (soreness)",
+    "returnDate": "2026-11-27"
+   },
+   {
+    "name": "T.J. McConnell",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Hamstring",
     "returnDate": "2026-11-27"
    }
   ],
@@ -337,7 +337,7 @@
    {
     "name": "Scotty Pippen Jr.",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Back (soreness)",
     "returnDate": "2026-11-25"
    }
@@ -422,16 +422,9 @@
   ],
   "OKC": [
    {
-    "name": "Aday Mara",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Lower Leg (bruise)",
-    "returnDate": "2026-11-25"
-   },
-   {
     "name": "Alex Caruso",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Hip (soreness)",
     "returnDate": "2026-11-25"
    },
@@ -457,16 +450,9 @@
     "returnDate": "2027-03-02"
    },
    {
-    "name": "Jaylin Williams",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Back (spasms)",
-    "returnDate": "2026-11-25"
-   },
-   {
     "name": "Nikola Topic",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Hip (strain)",
     "returnDate": "2026-11-25"
    },
@@ -476,6 +462,20 @@
     "gameTimeDecision": false,
     "reason": "Knee",
     "returnDate": "2027-01-31"
+   },
+   {
+    "name": "Aday Mara",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Lower Leg (bruise)",
+    "returnDate": "2026-11-25"
+   },
+   {
+    "name": "Jaylin Williams",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Back (spasms)",
+    "returnDate": "2026-11-25"
    }
   ],
   "ORL": [
@@ -518,8 +518,8 @@
    },
    {
     "name": "Joel Embiid",
-    "status": "Out",
-    "gameTimeDecision": false,
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
     "reason": "Illness",
     "returnDate": "2026-11-25"
    }
@@ -531,13 +531,6 @@
     "gameTimeDecision": false,
     "reason": "Shoulder (surgery)",
     "returnDate": "2027-02-03"
-   },
-   {
-    "name": "Collin Gillespie",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Undisclosed",
-    "returnDate": "2026-11-23"
    }
   ],
   "POR": [
