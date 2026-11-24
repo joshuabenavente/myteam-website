@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-24T22:23:53.150Z",
+ "updatedAt": "2026-11-24T23:23:53.673Z",
  "teams": {
   "ATL": [
    {
@@ -60,9 +60,9 @@
    {
     "name": "Dennis Schroder",
     "status": "Out",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Hamstring (strain)",
-    "returnDate": "2026-11-25"
+    "returnDate": "2026-12-12"
    },
    {
     "name": "Grayson Allen",
@@ -79,17 +79,17 @@
     "returnDate": "2026-12-12"
    },
    {
-    "name": "Grant Williams",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Hamstring",
-    "returnDate": "2026-11-25"
-   },
-   {
     "name": "Ryan Kalkbrenner",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Hip (soreness)",
+    "returnDate": "2026-11-25"
+   },
+   {
+    "name": "Sion James",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Undisclosed",
     "returnDate": "2026-11-25"
    }
   ],
@@ -337,9 +337,9 @@
    {
     "name": "Scotty Pippen Jr.",
     "status": "Out",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Back (soreness)",
-    "returnDate": "2026-11-25"
+    "returnDate": "2026-12-12"
    }
   ],
   "MIA": [
@@ -480,16 +480,16 @@
    {
     "name": "Aday Mara",
     "status": "Day-To-Day",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Lower Leg (bruise)",
-    "returnDate": "2026-11-25"
+    "returnDate": "2026-11-28"
    },
    {
     "name": "Jaylin Williams",
     "status": "Day-To-Day",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Back (spasms)",
-    "returnDate": "2026-11-25"
+    "returnDate": "2026-11-28"
    }
   ],
   "ORL": [
