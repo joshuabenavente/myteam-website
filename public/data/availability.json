@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-24T19:23:41.869Z",
+ "updatedAt": "2026-11-24T22:23:53.150Z",
  "teams": {
   "ATL": [
    {
@@ -401,22 +401,36 @@
    {
     "name": "Jordan Clarkson",
     "status": "Out",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Foot (plantar fasciitis)",
+    "returnDate": "2026-11-27"
+   },
+   {
+    "name": "OG Anunoby",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Calf (soreness)",
+    "returnDate": "2026-11-27"
+   },
+   {
+    "name": "Josh Hart",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Shoulder (sprain)",
+    "returnDate": "2026-11-25"
+   },
+   {
+    "name": "Karl-Anthony Towns",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Knee",
     "returnDate": "2026-11-25"
    },
    {
     "name": "Miles McBride",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
-    "reason": "Abdomen",
-    "returnDate": "2026-11-25"
-   },
-   {
-    "name": "OG Anunoby",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Calf (soreness)",
+    "reason": "Groin (soreness)",
     "returnDate": "2026-11-25"
    }
   ],
@@ -521,7 +535,7 @@
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Illness",
-    "returnDate": "2026-11-25"
+    "returnDate": "2026-11-27"
    }
   ],
   "PHX": [
