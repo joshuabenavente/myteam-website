@@ -1,7 +1,7 @@
 {
  "season": "2026-27",
  "lastSeason": "2025-26",
- "updatedAt": "2026-11-24T07:18:51.362Z",
+ "updatedAt": "2026-11-24T13:18:51.315Z",
  "teamGamesPlayed": {
   "regular": 18,
   "playoffs": 0
@@ -23,21 +23,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3945274.png",
    "current": {
     "regular": {
-     "games": 15,
-     "started": 15,
-     "minutes": 546.3,
-     "points": 558,
-     "rebounds": 102,
-     "assists": 115,
-     "steals": 28,
+     "games": 16,
+     "started": 16,
+     "minutes": 579.1,
+     "points": 586,
+     "rebounds": 106,
+     "assists": 123,
+     "steals": 29,
      "blocks": 9,
-     "turnovers": 77,
-     "fgMade": 176,
-     "fgAttempted": 376,
-     "threeMade": 74,
-     "threeAttempted": 197,
-     "ftMade": 132,
-     "ftAttempted": 153
+     "turnovers": 81,
+     "fgMade": 184,
+     "fgAttempted": 400,
+     "threeMade": 77,
+     "threeAttempted": 211,
+     "ftMade": 141,
+     "ftAttempted": 163
     }
    },
    "lastFull": {
@@ -96,21 +96,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4433136.png",
    "current": {
     "regular": {
-     "games": 16,
-     "started": 16,
-     "minutes": 493.9,
-     "points": 228,
-     "rebounds": 171,
+     "games": 17,
+     "started": 17,
+     "minutes": 529.7,
+     "points": 238,
+     "rebounds": 183,
      "assists": 29,
-     "steals": 18,
-     "blocks": 34,
+     "steals": 19,
+     "blocks": 36,
      "turnovers": 27,
-     "fgMade": 95,
-     "fgAttempted": 143,
+     "fgMade": 99,
+     "fgAttempted": 148,
      "threeMade": 1,
      "threeAttempted": 1,
-     "ftMade": 37,
-     "ftAttempted": 62
+     "ftMade": 39,
+     "ftAttempted": 67
     }
    },
    "lastFull": {
@@ -169,21 +169,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4397014.png",
    "current": {
     "regular": {
-     "games": 15,
-     "started": 6,
-     "minutes": 436.5,
-     "points": 190,
-     "rebounds": 52,
-     "assists": 43,
+     "games": 16,
+     "started": 7,
+     "minutes": 466.4,
+     "points": 199,
+     "rebounds": 55,
+     "assists": 51,
      "steals": 13,
-     "blocks": 2,
-     "turnovers": 25,
-     "fgMade": 61,
-     "fgAttempted": 126,
-     "threeMade": 28,
-     "threeAttempted": 68,
-     "ftMade": 40,
-     "ftAttempted": 53
+     "blocks": 3,
+     "turnovers": 27,
+     "fgMade": 62,
+     "fgAttempted": 134,
+     "threeMade": 29,
+     "threeAttempted": 72,
+     "ftMade": 46,
+     "ftAttempted": 59
     }
    },
    "lastFull": {
@@ -259,19 +259,19 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3907498.png",
    "current": {
     "regular": {
-     "games": 17,
-     "started": 17,
-     "minutes": 423.6,
-     "points": 127,
-     "rebounds": 39,
+     "games": 18,
+     "started": 18,
+     "minutes": 450.4,
+     "points": 141,
+     "rebounds": 43,
      "assists": 18,
-     "steals": 39,
-     "blocks": 16,
+     "steals": 41,
+     "blocks": 18,
      "turnovers": 20,
-     "fgMade": 43,
-     "fgAttempted": 98,
-     "threeMade": 30,
-     "threeAttempted": 74,
+     "fgMade": 49,
+     "fgAttempted": 107,
+     "threeMade": 32,
+     "threeAttempted": 79,
      "ftMade": 11,
      "ftAttempted": 13
     }
@@ -329,6 +329,96 @@
      "threeAttempted": 6,
      "ftMade": 4,
      "ftAttempted": 4
+    }
+   }
+  },
+  {
+   "id": "laravja01",
+   "name": "Jake LaRavia",
+   "number": "12",
+   "position": "PF",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 7\"",
+    "weight": 235,
+    "birthDate": "2001-11-03",
+    "experience": 4,
+    "college": "Wake Forest",
+    "birthPlace": "Indianapolis, IN"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4592691.png",
+   "current": {
+    "regular": {
+     "games": 17,
+     "started": 12,
+     "minutes": 440.1,
+     "points": 108,
+     "rebounds": 75,
+     "assists": 34,
+     "steals": 21,
+     "blocks": 12,
+     "turnovers": 21,
+     "fgMade": 40,
+     "fgAttempted": 82,
+     "threeMade": 16,
+     "threeAttempted": 37,
+     "ftMade": 12,
+     "ftAttempted": 20
+    }
+   },
+   "lastFull": {
+    "regular": {
+     "games": 82,
+     "started": 43,
+     "minutes": 2062,
+     "points": 674,
+     "rebounds": 326,
+     "assists": 145,
+     "steals": 104,
+     "blocks": 38,
+     "turnovers": 87,
+     "fgMade": 240,
+     "fgAttempted": 523,
+     "threeMade": 78,
+     "threeAttempted": 243,
+     "ftMade": 116,
+     "ftAttempted": 152
+    },
+    "playoffs": {
+     "games": 8,
+     "started": 0,
+     "minutes": 113.9,
+     "points": 26,
+     "rebounds": 17,
+     "assists": 6,
+     "steals": 4,
+     "blocks": 6,
+     "turnovers": 11,
+     "fgMade": 9,
+     "fgAttempted": 27,
+     "threeMade": 2,
+     "threeAttempted": 7,
+     "ftMade": 6,
+     "ftAttempted": 6
+    }
+   },
+   "lastToDate": {
+    "regular": {
+     "games": 18,
+     "started": 6,
+     "minutes": 471.9,
+     "points": 168,
+     "rebounds": 71,
+     "assists": 37,
+     "steals": 23,
+     "blocks": 5,
+     "turnovers": 19,
+     "fgMade": 62,
+     "fgAttempted": 127,
+     "threeMade": 18,
+     "threeAttempted": 52,
+     "ftMade": 26,
+     "ftAttempted": 39
     }
    }
   },
@@ -423,96 +513,6 @@
    }
   },
   {
-   "id": "laravja01",
-   "name": "Jake LaRavia",
-   "number": "12",
-   "position": "PF",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 7\"",
-    "weight": 235,
-    "birthDate": "2001-11-03",
-    "experience": 4,
-    "college": "Wake Forest",
-    "birthPlace": "Indianapolis, IN"
-   },
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4592691.png",
-   "current": {
-    "regular": {
-     "games": 16,
-     "started": 11,
-     "minutes": 403,
-     "points": 93,
-     "rebounds": 65,
-     "assists": 33,
-     "steals": 19,
-     "blocks": 12,
-     "turnovers": 20,
-     "fgMade": 34,
-     "fgAttempted": 72,
-     "threeMade": 15,
-     "threeAttempted": 33,
-     "ftMade": 10,
-     "ftAttempted": 18
-    }
-   },
-   "lastFull": {
-    "regular": {
-     "games": 82,
-     "started": 43,
-     "minutes": 2062,
-     "points": 674,
-     "rebounds": 326,
-     "assists": 145,
-     "steals": 104,
-     "blocks": 38,
-     "turnovers": 87,
-     "fgMade": 240,
-     "fgAttempted": 523,
-     "threeMade": 78,
-     "threeAttempted": 243,
-     "ftMade": 116,
-     "ftAttempted": 152
-    },
-    "playoffs": {
-     "games": 8,
-     "started": 0,
-     "minutes": 113.9,
-     "points": 26,
-     "rebounds": 17,
-     "assists": 6,
-     "steals": 4,
-     "blocks": 6,
-     "turnovers": 11,
-     "fgMade": 9,
-     "fgAttempted": 27,
-     "threeMade": 2,
-     "threeAttempted": 7,
-     "ftMade": 6,
-     "ftAttempted": 6
-    }
-   },
-   "lastToDate": {
-    "regular": {
-     "games": 18,
-     "started": 6,
-     "minutes": 471.9,
-     "points": 168,
-     "rebounds": 71,
-     "assists": 37,
-     "steals": 23,
-     "blocks": 5,
-     "turnovers": 19,
-     "fgMade": 62,
-     "fgAttempted": 127,
-     "threeMade": 18,
-     "threeAttempted": 52,
-     "ftMade": 26,
-     "ftAttempted": 39
-    }
-   }
-  },
-  {
    "id": "mamuksa01",
    "name": "Sandro Mamukelashvili",
    "number": "54",
@@ -529,19 +529,19 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4278580.png",
    "current": {
     "regular": {
-     "games": 17,
+     "games": 18,
      "started": 0,
-     "minutes": 392.3,
-     "points": 163,
-     "rebounds": 75,
-     "assists": 28,
-     "steals": 13,
+     "minutes": 405.7,
+     "points": 165,
+     "rebounds": 79,
+     "assists": 30,
+     "steals": 15,
      "blocks": 8,
-     "turnovers": 15,
-     "fgMade": 59,
-     "fgAttempted": 137,
+     "turnovers": 16,
+     "fgMade": 60,
+     "fgAttempted": 141,
      "threeMade": 21,
-     "threeAttempted": 65,
+     "threeAttempted": 67,
      "ftMade": 24,
      "ftAttempted": 29
     }
@@ -619,21 +619,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4433137.png",
    "current": {
     "regular": {
-     "games": 14,
+     "games": 15,
      "started": 7,
-     "minutes": 329.8,
-     "points": 128,
-     "rebounds": 31,
+     "minutes": 349,
+     "points": 137,
+     "rebounds": 35,
      "assists": 25,
      "steals": 18,
      "blocks": 2,
      "turnovers": 6,
-     "fgMade": 46,
-     "fgAttempted": 86,
-     "threeMade": 22,
-     "threeAttempted": 53,
-     "ftMade": 14,
-     "ftAttempted": 16
+     "fgMade": 49,
+     "fgAttempted": 91,
+     "threeMade": 24,
+     "threeAttempted": 57,
+     "ftMade": 15,
+     "ftAttempted": 19
     }
    },
    "lastFull": {
@@ -692,21 +692,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4277811.png",
    "current": {
     "regular": {
-     "games": 16,
+     "games": 17,
      "started": 0,
-     "minutes": 300.5,
-     "points": 171,
-     "rebounds": 27,
-     "assists": 42,
-     "steals": 9,
-     "blocks": 3,
-     "turnovers": 22,
-     "fgMade": 60,
-     "fgAttempted": 137,
-     "threeMade": 15,
-     "threeAttempted": 55,
-     "ftMade": 36,
-     "ftAttempted": 49
+     "minutes": 323.6,
+     "points": 183,
+     "rebounds": 29,
+     "assists": 46,
+     "steals": 10,
+     "blocks": 4,
+     "turnovers": 24,
+     "fgMade": 63,
+     "fgAttempted": 147,
+     "threeMade": 17,
+     "threeAttempted": 61,
+     "ftMade": 40,
+     "ftAttempted": 54
     }
    },
    "lastFull": {
@@ -765,21 +765,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4278077.png",
    "current": {
     "regular": {
-     "games": 12,
+     "games": 13,
      "started": 0,
-     "minutes": 144.3,
-     "points": 26,
-     "rebounds": 50,
+     "minutes": 156.1,
+     "points": 27,
+     "rebounds": 52,
      "assists": 15,
-     "steals": 3,
+     "steals": 4,
      "blocks": 5,
      "turnovers": 7,
      "fgMade": 13,
      "fgAttempted": 17,
      "threeMade": 0,
      "threeAttempted": 0,
-     "ftMade": 0,
-     "ftAttempted": 7
+     "ftMade": 1,
+     "ftAttempted": 9
     }
    },
    "lastFull": {
@@ -1018,21 +1018,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5113969.png",
    "current": {
     "regular": {
-     "games": 7,
+     "games": 8,
      "started": 0,
-     "minutes": 37.5,
-     "points": 12,
+     "minutes": 47.6,
+     "points": 21,
      "rebounds": 6,
      "assists": 1,
      "steals": 1,
      "blocks": 0,
-     "turnovers": 2,
-     "fgMade": 5,
-     "fgAttempted": 13,
-     "threeMade": 2,
-     "threeAttempted": 10,
-     "ftMade": 0,
-     "ftAttempted": 0
+     "turnovers": 3,
+     "fgMade": 8,
+     "fgAttempted": 19,
+     "threeMade": 3,
+     "threeAttempted": 13,
+     "ftMade": 2,
+     "ftAttempted": 2
     }
    },
    "lastFull": {},
