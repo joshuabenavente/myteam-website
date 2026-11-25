@@ -31,7 +31,7 @@
    "wins": 11,
    "losses": 6,
    "divisionRank": 2,
-   "conferenceRank": 2,
+   "conferenceRank": 3,
    "divisionGamesBehind": 2.5,
    "home": {
     "wins": 6,
@@ -120,7 +120,7 @@
    "abbr": "DET",
    "conference": "East",
    "division": "Central",
-   "wins": 10,
+   "wins": 11,
    "losses": 6,
    "divisionRank": 1,
    "conferenceRank": 5,
@@ -130,14 +130,14 @@
     "losses": 3
    },
    "road": {
-    "wins": 7,
+    "wins": 8,
     "losses": 3
    },
    "lastTen": {
     "wins": 5,
     "losses": 5
    },
-   "streak": "L2"
+   "streak": "W1"
   },
   "CLE": {
    "abbr": "CLE",
@@ -147,7 +147,7 @@
    "losses": 9,
    "divisionRank": 2,
    "conferenceRank": 7,
-   "divisionGamesBehind": 2,
+   "divisionGamesBehind": 2.5,
    "home": {
     "wins": 7,
     "losses": 3
@@ -170,7 +170,7 @@
    "losses": 12,
    "divisionRank": 3,
    "conferenceRank": 11,
-   "divisionGamesBehind": 5,
+   "divisionGamesBehind": 5.5,
    "home": {
     "wins": 3,
     "losses": 6
@@ -193,7 +193,7 @@
    "losses": 12,
    "divisionRank": 4,
    "conferenceRank": 12,
-   "divisionGamesBehind": 5.5,
+   "divisionGamesBehind": 6,
    "home": {
     "wins": 2,
     "losses": 6
@@ -216,7 +216,7 @@
    "losses": 16,
    "divisionRank": 5,
    "conferenceRank": 15,
-   "divisionGamesBehind": 9,
+   "divisionGamesBehind": 9.5,
    "home": {
     "wins": 1,
     "losses": 8
@@ -238,7 +238,7 @@
    "wins": 11,
    "losses": 6,
    "divisionRank": 1,
-   "conferenceRank": 3,
+   "conferenceRank": 2,
    "divisionGamesBehind": 0,
    "home": {
     "wins": 5,
@@ -282,13 +282,13 @@
    "conference": "East",
    "division": "Southeast",
    "wins": 7,
-   "losses": 9,
+   "losses": 10,
    "divisionRank": 3,
    "conferenceRank": 8,
-   "divisionGamesBehind": 3.5,
+   "divisionGamesBehind": 4,
    "home": {
     "wins": 1,
-    "losses": 5
+    "losses": 6
    },
    "road": {
     "wins": 6,
@@ -298,7 +298,7 @@
     "wins": 5,
     "losses": 5
    },
-   "streak": "L1"
+   "streak": "L2"
   },
   "WAS": {
    "abbr": "WAS",
