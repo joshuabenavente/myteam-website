@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-25T20:23:47.393Z",
+ "updatedAt": "2026-11-25T21:23:43.085Z",
  "teams": {
   "ATL": [
    {
@@ -342,15 +342,6 @@
     "returnDate": "2026-12-12"
    }
   ],
-  "MIA": [
-   {
-    "name": "Giannis Antetokounmpo",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Groin",
-    "returnDate": "2026-11-25"
-   }
-  ],
   "MIN": [
    {
     "name": "Anthony Edwards",
@@ -598,6 +589,13 @@
     "gameTimeDecision": false,
     "reason": "Knee (dislocated)",
     "returnDate": "2026-12-02"
+   },
+   {
+    "name": "Zach LaVine",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Knee (soreness)",
+    "returnDate": "2026-11-25"
    }
   ],
   "SAS": [
