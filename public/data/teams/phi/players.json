@@ -1,7 +1,7 @@
 {
  "season": "2026-27",
  "lastSeason": "2025-26",
- "updatedAt": "2026-11-25T09:18:45.410Z",
+ "updatedAt": "2026-11-25T15:18:43.931Z",
  "teamGamesPlayed": {
   "regular": 18,
   "playoffs": 0
@@ -26,7 +26,7 @@
     "regular": {
      "games": 17,
      "started": 17,
-     "minutes": 611.6,
+     "minutes": 623.6,
      "points": 437,
      "rebounds": 55,
      "assists": 96,
@@ -116,7 +116,7 @@
     "regular": {
      "games": 17,
      "started": 17,
-     "minutes": 584.4,
+     "minutes": 596.4,
      "points": 232,
      "rebounds": 108,
      "assists": 71,
@@ -295,7 +295,7 @@
     "regular": {
      "games": 14,
      "started": 14,
-     "minutes": 455.3,
+     "minutes": 467.3,
      "points": 232,
      "rebounds": 94,
      "assists": 91,
@@ -475,7 +475,7 @@
     "regular": {
      "games": 18,
      "started": 3,
-     "minutes": 422.4,
+     "minutes": 434.4,
      "points": 104,
      "rebounds": 52,
      "assists": 29,
@@ -909,6 +909,94 @@
    "lastToDate": {}
   },
   {
+   "id": "barlodo01",
+   "name": "Dominick Barlow",
+   "number": "25",
+   "position": "C",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 9\"",
+    "weight": 238,
+    "birthDate": "2003-05-26",
+    "experience": 4
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4870562.png",
+   "current": {
+    "regular": {
+     "games": 2,
+     "started": 0,
+     "minutes": 39.6,
+     "points": 18,
+     "rebounds": 6,
+     "assists": 1,
+     "steals": 1,
+     "blocks": 2,
+     "turnovers": 1,
+     "fgMade": 8,
+     "fgAttempted": 12,
+     "threeMade": 1,
+     "threeAttempted": 2,
+     "ftMade": 1,
+     "ftAttempted": 1
+    }
+   },
+   "lastFull": {
+    "regular": {
+     "games": 71,
+     "started": 59,
+     "minutes": 1688.6,
+     "points": 545,
+     "rebounds": 340,
+     "assists": 87,
+     "steals": 63,
+     "blocks": 53,
+     "turnovers": 56,
+     "fgMade": 215,
+     "fgAttempted": 399,
+     "threeMade": 21,
+     "threeAttempted": 82,
+     "ftMade": 94,
+     "ftAttempted": 131
+    },
+    "playoffs": {
+     "games": 9,
+     "started": 0,
+     "minutes": 95.6,
+     "points": 26,
+     "rebounds": 15,
+     "assists": 1,
+     "steals": 2,
+     "blocks": 4,
+     "turnovers": 2,
+     "fgMade": 10,
+     "fgAttempted": 17,
+     "threeMade": 0,
+     "threeAttempted": 1,
+     "ftMade": 6,
+     "ftAttempted": 7
+    }
+   },
+   "lastToDate": {
+    "regular": {
+     "games": 9,
+     "started": 6,
+     "minutes": 222.7,
+     "points": 69,
+     "rebounds": 49,
+     "assists": 20,
+     "steals": 3,
+     "blocks": 10,
+     "turnovers": 13,
+     "fgMade": 27,
+     "fgAttempted": 51,
+     "threeMade": 5,
+     "threeAttempted": 16,
+     "ftMade": 10,
+     "ftAttempted": 12
+    }
+   }
+  },
+  {
    "id": "edwarju01",
    "name": "Justin Edwards",
    "number": "11",
@@ -995,94 +1083,6 @@
      "threeAttempted": 56,
      "ftMade": 10,
      "ftAttempted": 11
-    }
-   }
-  },
-  {
-   "id": "barlodo01",
-   "name": "Dominick Barlow",
-   "number": "25",
-   "position": "C",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 9\"",
-    "weight": 238,
-    "birthDate": "2003-05-26",
-    "experience": 4
-   },
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4870562.png",
-   "current": {
-    "regular": {
-     "games": 2,
-     "started": 0,
-     "minutes": 27.6,
-     "points": 18,
-     "rebounds": 6,
-     "assists": 1,
-     "steals": 1,
-     "blocks": 2,
-     "turnovers": 1,
-     "fgMade": 8,
-     "fgAttempted": 12,
-     "threeMade": 1,
-     "threeAttempted": 2,
-     "ftMade": 1,
-     "ftAttempted": 1
-    }
-   },
-   "lastFull": {
-    "regular": {
-     "games": 71,
-     "started": 59,
-     "minutes": 1688.6,
-     "points": 545,
-     "rebounds": 340,
-     "assists": 87,
-     "steals": 63,
-     "blocks": 53,
-     "turnovers": 56,
-     "fgMade": 215,
-     "fgAttempted": 399,
-     "threeMade": 21,
-     "threeAttempted": 82,
-     "ftMade": 94,
-     "ftAttempted": 131
-    },
-    "playoffs": {
-     "games": 9,
-     "started": 0,
-     "minutes": 95.6,
-     "points": 26,
-     "rebounds": 15,
-     "assists": 1,
-     "steals": 2,
-     "blocks": 4,
-     "turnovers": 2,
-     "fgMade": 10,
-     "fgAttempted": 17,
-     "threeMade": 0,
-     "threeAttempted": 1,
-     "ftMade": 6,
-     "ftAttempted": 7
-    }
-   },
-   "lastToDate": {
-    "regular": {
-     "games": 9,
-     "started": 6,
-     "minutes": 222.7,
-     "points": 69,
-     "rebounds": 49,
-     "assists": 20,
-     "steals": 3,
-     "blocks": 10,
-     "turnovers": 13,
-     "fgMade": 27,
-     "fgAttempted": 51,
-     "threeMade": 5,
-     "threeAttempted": 16,
-     "ftMade": 10,
-     "ftAttempted": 12
     }
    }
   },
