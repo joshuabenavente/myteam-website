@@ -369,37 +369,14 @@
    },
    "streak": "W2"
   },
-  "DEN": {
-   "abbr": "DEN",
-   "conference": "West",
-   "division": "Northwest",
-   "wins": 10,
-   "losses": 5,
-   "divisionRank": 2,
-   "conferenceRank": 6,
-   "divisionGamesBehind": 1.5,
-   "home": {
-    "wins": 4,
-    "losses": 3
-   },
-   "road": {
-    "wins": 6,
-    "losses": 2
-   },
-   "lastTen": {
-    "wins": 7,
-    "losses": 3
-   },
-   "streak": "W3"
-  },
   "POR": {
    "abbr": "POR",
    "conference": "West",
    "division": "Northwest",
    "wins": 11,
    "losses": 6,
-   "divisionRank": 3,
-   "conferenceRank": 7,
+   "divisionRank": 2,
+   "conferenceRank": 6,
    "divisionGamesBehind": 1.5,
    "home": {
     "wins": 3,
@@ -414,6 +391,29 @@
     "losses": 5
    },
    "streak": "W1"
+  },
+  "DEN": {
+   "abbr": "DEN",
+   "conference": "West",
+   "division": "Northwest",
+   "wins": 10,
+   "losses": 6,
+   "divisionRank": 3,
+   "conferenceRank": 7,
+   "divisionGamesBehind": 2,
+   "home": {
+    "wins": 4,
+    "losses": 4
+   },
+   "road": {
+    "wins": 6,
+    "losses": 2
+   },
+   "lastTen": {
+    "wins": 7,
+    "losses": 3
+   },
+   "streak": "L1"
   },
   "OKC": {
    "abbr": "OKC",
@@ -649,24 +649,24 @@
    "abbr": "DAL",
    "conference": "West",
    "division": "Southwest",
-   "wins": 10,
+   "wins": 11,
    "losses": 7,
    "divisionRank": 4,
    "conferenceRank": 8,
-   "divisionGamesBehind": 4.5,
+   "divisionGamesBehind": 4,
    "home": {
     "wins": 7,
     "losses": 2
    },
    "road": {
-    "wins": 3,
+    "wins": 4,
     "losses": 5
    },
    "lastTen": {
-    "wins": 6,
-    "losses": 4
+    "wins": 7,
+    "losses": 3
    },
-   "streak": "W3"
+   "streak": "W4"
   },
   "NOP": {
    "abbr": "NOP",
