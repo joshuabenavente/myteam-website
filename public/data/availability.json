@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-25T17:23:43.286Z",
+ "updatedAt": "2026-11-25T18:23:39.311Z",
  "teams": {
   "ATL": [
    {
@@ -67,9 +67,9 @@
    {
     "name": "Grayson Allen",
     "status": "Out",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Concussion",
-    "returnDate": "2026-11-25"
+    "returnDate": "2026-11-28"
    },
    {
     "name": "Kon Knueppel",
@@ -80,10 +80,10 @@
    },
    {
     "name": "Ryan Kalkbrenner",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
+    "status": "Out",
+    "gameTimeDecision": false,
     "reason": "Hip (soreness)",
-    "returnDate": "2026-11-25"
+    "returnDate": "2026-11-28"
    },
    {
     "name": "Sion James",
@@ -413,11 +413,25 @@
     "returnDate": "2026-11-27"
    },
    {
+    "name": "Miles McBride",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Groin (soreness)",
+    "returnDate": "2026-11-27"
+   },
+   {
     "name": "OG Anunoby",
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Calf (soreness)",
     "returnDate": "2026-11-27"
+   },
+   {
+    "name": "Jalen Brunson",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Illness",
+    "returnDate": "2026-11-25"
    },
    {
     "name": "Josh Hart",
@@ -430,14 +444,7 @@
     "name": "Karl-Anthony Towns",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
-    "reason": "Knee",
-    "returnDate": "2026-11-25"
-   },
-   {
-    "name": "Miles McBride",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Groin (soreness)",
+    "reason": "Knee (inflammation)",
     "returnDate": "2026-11-25"
    }
   ],
