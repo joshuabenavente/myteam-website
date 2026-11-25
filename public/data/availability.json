@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-24T23:23:53.673Z",
+ "updatedAt": "2026-11-25T00:23:53.778Z",
  "teams": {
   "ATL": [
    {
@@ -171,6 +171,13 @@
   ],
   "DET": [
    {
+    "name": "Cade Cunningham",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Knee",
+    "returnDate": "2026-11-27"
+   },
+   {
     "name": "Duncan Robinson",
     "status": "Out",
     "gameTimeDecision": false,
@@ -197,13 +204,6 @@
     "gameTimeDecision": false,
     "reason": "Knee (surgery)",
     "returnDate": "2026-12-26"
-   },
-   {
-    "name": "Cade Cunningham",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Knee",
-    "returnDate": "2026-11-24"
    }
   ],
   "GSW": [
@@ -241,6 +241,13 @@
     "gameTimeDecision": false,
     "reason": "Abdomen",
     "returnDate": "2026-12-12"
+   },
+   {
+    "name": "Yaxel Lendeborg",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Illness",
+    "returnDate": "2026-11-25"
    }
   ],
   "IND": [
@@ -436,11 +443,11 @@
   ],
   "OKC": [
    {
-    "name": "Alex Caruso",
+    "name": "Aday Mara",
     "status": "Out",
-    "gameTimeDecision": true,
-    "reason": "Hip (soreness)",
-    "returnDate": "2026-11-25"
+    "gameTimeDecision": false,
+    "reason": "Lower Leg (bruise)",
+    "returnDate": "2026-11-28"
    },
    {
     "name": "Cason Wallace",
@@ -464,11 +471,18 @@
     "returnDate": "2027-03-02"
    },
    {
+    "name": "Jaylin Williams",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Back (spasms)",
+    "returnDate": "2026-11-28"
+   },
+   {
     "name": "Nikola Topic",
     "status": "Out",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Hip (strain)",
-    "returnDate": "2026-11-25"
+    "returnDate": "2026-11-28"
    },
    {
     "name": "Thomas Sorber",
@@ -476,20 +490,6 @@
     "gameTimeDecision": false,
     "reason": "Knee",
     "returnDate": "2027-01-31"
-   },
-   {
-    "name": "Aday Mara",
-    "status": "Day-To-Day",
-    "gameTimeDecision": false,
-    "reason": "Lower Leg (bruise)",
-    "returnDate": "2026-11-28"
-   },
-   {
-    "name": "Jaylin Williams",
-    "status": "Day-To-Day",
-    "gameTimeDecision": false,
-    "reason": "Back (spasms)",
-    "returnDate": "2026-11-28"
    }
   ],
   "ORL": [
