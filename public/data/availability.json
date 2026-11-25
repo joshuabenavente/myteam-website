@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-25T18:23:39.311Z",
+ "updatedAt": "2026-11-25T19:23:51.690Z",
  "teams": {
   "ATL": [
    {
@@ -42,7 +42,7 @@
    {
     "name": "Mitchell Robinson",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Illness",
     "returnDate": "2026-11-27"
    }
@@ -136,44 +136,37 @@
    {
     "name": "Dereck Lively II",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Foot (surgery)",
     "returnDate": "2026-11-27"
    },
    {
     "name": "Sergio de Larrea",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Knee (strain)",
     "returnDate": "2026-11-27"
    },
    {
     "name": "Tarik Biberovic",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Heel (inflammation)",
     "returnDate": "2026-11-27"
    },
    {
     "name": "Tobi Lawal",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Groin",
     "returnDate": "2026-11-27"
    }
   ],
   "DET": [
    {
-    "name": "Cade Cunningham",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Knee",
-    "returnDate": "2026-11-27"
-   },
-   {
     "name": "Duncan Robinson",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Quadriceps (strain)",
     "returnDate": "2026-11-27"
    },
@@ -197,6 +190,13 @@
     "gameTimeDecision": false,
     "reason": "Knee (surgery)",
     "returnDate": "2026-12-26"
+   },
+   {
+    "name": "Cade Cunningham",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Knee",
+    "returnDate": "2026-11-27"
    }
   ],
   "GSW": [
