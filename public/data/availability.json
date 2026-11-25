@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-25T22:23:33.097Z",
+ "updatedAt": "2026-11-25T23:23:44.464Z",
  "teams": {
   "ATL": [
    {
@@ -84,13 +84,6 @@
     "gameTimeDecision": false,
     "reason": "Hip (soreness)",
     "returnDate": "2026-11-28"
-   },
-   {
-    "name": "Sion James",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Undisclosed",
-    "returnDate": "2026-11-25"
    }
   ],
   "CHI": [
@@ -416,27 +409,6 @@
     "gameTimeDecision": false,
     "reason": "Calf (soreness)",
     "returnDate": "2026-11-27"
-   },
-   {
-    "name": "Jalen Brunson",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Illness",
-    "returnDate": "2026-11-25"
-   },
-   {
-    "name": "Josh Hart",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Shoulder (sprain)",
-    "returnDate": "2026-11-25"
-   },
-   {
-    "name": "Karl-Anthony Towns",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Knee (inflammation)",
-    "returnDate": "2026-11-25"
    }
   ],
   "OKC": [
@@ -592,10 +564,10 @@
    },
    {
     "name": "Zach LaVine",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
+    "status": "Out",
+    "gameTimeDecision": false,
     "reason": "Knee (soreness)",
-    "returnDate": "2026-11-25"
+    "returnDate": "2026-11-29"
    }
   ],
   "SAS": [
