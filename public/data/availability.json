@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-26T00:23:38.665Z",
+ "updatedAt": "2026-11-26T01:23:49.704Z",
  "teams": {
   "ATL": [
    {
@@ -194,13 +194,6 @@
   ],
   "GSW": [
    {
-    "name": "Brandon Williams",
-    "status": "Out",
-    "gameTimeDecision": true,
-    "reason": "Hamstring (strain)",
-    "returnDate": "2026-11-25"
-   },
-   {
     "name": "Jimmy Butler III",
     "status": "Out",
     "gameTimeDecision": false,
@@ -227,13 +220,6 @@
     "gameTimeDecision": false,
     "reason": "Abdomen",
     "returnDate": "2026-12-12"
-   },
-   {
-    "name": "Yaxel Lendeborg",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Illness",
-    "returnDate": "2026-11-25"
    }
   ],
   "IND": [
@@ -502,15 +488,15 @@
    },
    {
     "name": "Jaylen Brown",
-    "status": "Out",
-    "gameTimeDecision": false,
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
     "reason": "Hamstring",
     "returnDate": "2026-11-27"
    },
    {
     "name": "Joel Embiid",
-    "status": "Out",
-    "gameTimeDecision": false,
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
     "reason": "Illness",
     "returnDate": "2026-11-27"
    }
