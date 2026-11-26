@@ -1,7 +1,7 @@
 {
  "season": "2026-27",
  "lastSeason": "2025-26",
- "updatedAt": "2026-11-26T05:21:07.007Z",
+ "updatedAt": "2026-11-26T11:21:14.392Z",
  "teamGamesPlayed": {
   "regular": 19,
   "playoffs": 0
@@ -24,21 +24,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4395725.png",
    "current": {
     "regular": {
-     "games": 17,
-     "started": 17,
-     "minutes": 539.4,
-     "points": 373,
-     "rebounds": 77,
-     "assists": 77,
-     "steals": 16,
+     "games": 18,
+     "started": 18,
+     "minutes": 564.1,
+     "points": 401,
+     "rebounds": 79,
+     "assists": 82,
+     "steals": 19,
      "blocks": 4,
-     "turnovers": 39,
-     "fgMade": 127,
-     "fgAttempted": 276,
-     "threeMade": 50,
-     "threeAttempted": 126,
-     "ftMade": 69,
-     "ftAttempted": 83
+     "turnovers": 44,
+     "fgMade": 137,
+     "fgAttempted": 296,
+     "threeMade": 53,
+     "threeAttempted": 135,
+     "ftMade": 74,
+     "ftAttempted": 88
     }
    },
    "lastFull": {
@@ -97,21 +97,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4432848.png",
    "current": {
     "regular": {
-     "games": 18,
-     "started": 13,
-     "minutes": 497.9,
-     "points": 252,
-     "rebounds": 86,
-     "assists": 51,
-     "steals": 11,
+     "games": 19,
+     "started": 14,
+     "minutes": 520.4,
+     "points": 273,
+     "rebounds": 91,
+     "assists": 55,
+     "steals": 13,
      "blocks": 1,
-     "turnovers": 33,
-     "fgMade": 90,
-     "fgAttempted": 199,
-     "threeMade": 32,
-     "threeAttempted": 78,
-     "ftMade": 40,
-     "ftAttempted": 52
+     "turnovers": 34,
+     "fgMade": 99,
+     "fgAttempted": 214,
+     "threeMade": 33,
+     "threeAttempted": 83,
+     "ftMade": 42,
+     "ftAttempted": 56
     }
    },
    "lastFull": {
@@ -170,21 +170,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3134907.png",
    "current": {
     "regular": {
-     "games": 17,
-     "started": 17,
-     "minutes": 483,
-     "points": 214,
-     "rebounds": 89,
-     "assists": 40,
+     "games": 18,
+     "started": 18,
+     "minutes": 501.9,
+     "points": 227,
+     "rebounds": 92,
+     "assists": 42,
      "steals": 16,
      "blocks": 5,
-     "turnovers": 29,
-     "fgMade": 79,
-     "fgAttempted": 176,
-     "threeMade": 29,
-     "threeAttempted": 87,
+     "turnovers": 30,
+     "fgMade": 84,
+     "fgAttempted": 187,
+     "threeMade": 32,
+     "threeAttempted": 94,
      "ftMade": 27,
-     "ftAttempted": 46
+     "ftAttempted": 48
     }
    },
    "lastFull": {
@@ -227,43 +227,6 @@
    }
   },
   {
-   "id": "burribr01",
-   "name": "Brayden Burries",
-   "number": "0",
-   "position": "SG",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 4\"",
-    "weight": 215,
-    "birthDate": "2005-09-18",
-    "experience": 0,
-    "college": "Arizona",
-    "birthPlace": "San Bernardino, CA"
-   },
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5082206.png",
-   "current": {
-    "regular": {
-     "games": 18,
-     "started": 10,
-     "minutes": 428.3,
-     "points": 206,
-     "rebounds": 103,
-     "assists": 45,
-     "steals": 16,
-     "blocks": 4,
-     "turnovers": 26,
-     "fgMade": 71,
-     "fgAttempted": 156,
-     "threeMade": 21,
-     "threeAttempted": 67,
-     "ftMade": 43,
-     "ftAttempted": 58
-    }
-   },
-   "lastFull": {},
-   "lastToDate": {}
-  },
-  {
    "id": "turnemy01",
    "name": "Myles Turner",
    "number": "3",
@@ -280,19 +243,19 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3133628.png",
    "current": {
     "regular": {
-     "games": 16,
-     "started": 16,
-     "minutes": 428.1,
-     "points": 132,
-     "rebounds": 101,
-     "assists": 44,
-     "steals": 9,
-     "blocks": 36,
-     "turnovers": 32,
-     "fgMade": 48,
-     "fgAttempted": 125,
-     "threeMade": 24,
-     "threeAttempted": 75,
+     "games": 17,
+     "started": 17,
+     "minutes": 453.7,
+     "points": 135,
+     "rebounds": 107,
+     "assists": 46,
+     "steals": 10,
+     "blocks": 39,
+     "turnovers": 35,
+     "fgMade": 49,
+     "fgAttempted": 127,
+     "threeMade": 25,
+     "threeAttempted": 77,
      "ftMade": 12,
      "ftAttempted": 14
     }
@@ -337,6 +300,43 @@
    }
   },
   {
+   "id": "burribr01",
+   "name": "Brayden Burries",
+   "number": "0",
+   "position": "SG",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 4\"",
+    "weight": 215,
+    "birthDate": "2005-09-18",
+    "experience": 0,
+    "college": "Arizona",
+    "birthPlace": "San Bernardino, CA"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5082206.png",
+   "current": {
+    "regular": {
+     "games": 19,
+     "started": 10,
+     "minutes": 437.9,
+     "points": 209,
+     "rebounds": 106,
+     "assists": 48,
+     "steals": 16,
+     "blocks": 4,
+     "turnovers": 28,
+     "fgMade": 72,
+     "fgAttempted": 162,
+     "threeMade": 21,
+     "threeAttempted": 69,
+     "ftMade": 44,
+     "ftAttempted": 60
+    }
+   },
+   "lastFull": {},
+   "lastToDate": {}
+  },
+  {
    "id": "rolliry01",
    "name": "Ryan Rollins",
    "number": "13",
@@ -353,21 +353,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4591725.png",
    "current": {
     "regular": {
-     "games": 16,
-     "started": 9,
-     "minutes": 380.5,
-     "points": 166,
-     "rebounds": 75,
-     "assists": 61,
-     "steals": 14,
+     "games": 17,
+     "started": 10,
+     "minutes": 399.1,
+     "points": 168,
+     "rebounds": 78,
+     "assists": 64,
+     "steals": 15,
      "blocks": 6,
      "turnovers": 37,
      "fgMade": 63,
-     "fgAttempted": 159,
+     "fgAttempted": 166,
      "threeMade": 22,
-     "threeAttempted": 69,
-     "ftMade": 18,
-     "ftAttempted": 26
+     "threeAttempted": 73,
+     "ftMade": 20,
+     "ftAttempted": 28
     }
    },
    "lastFull": {
@@ -426,21 +426,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5105623.png",
    "current": {
     "regular": {
-     "games": 18,
+     "games": 19,
      "started": 2,
-     "minutes": 341.9,
-     "points": 157,
-     "rebounds": 114,
-     "assists": 16,
+     "minutes": 364.3,
+     "points": 170,
+     "rebounds": 128,
+     "assists": 18,
      "steals": 11,
-     "blocks": 21,
-     "turnovers": 24,
-     "fgMade": 60,
-     "fgAttempted": 137,
-     "threeMade": 13,
-     "threeAttempted": 47,
+     "blocks": 23,
+     "turnovers": 25,
+     "fgMade": 66,
+     "fgAttempted": 147,
+     "threeMade": 14,
+     "threeAttempted": 49,
      "ftMade": 24,
-     "ftAttempted": 31
+     "ftAttempted": 32
     }
    },
    "lastFull": {
@@ -483,6 +483,43 @@
    }
   },
   {
+   "id": "amentna01",
+   "name": "Nate Ament",
+   "number": "15",
+   "position": "SF",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 10\"",
+    "weight": 211,
+    "birthDate": "2006-12-10",
+    "experience": 0,
+    "college": "Tennessee",
+    "birthPlace": "Manassas, VA"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5164559.png",
+   "current": {
+    "regular": {
+     "games": 17,
+     "started": 2,
+     "minutes": 322.3,
+     "points": 130,
+     "rebounds": 52,
+     "assists": 9,
+     "steals": 7,
+     "blocks": 4,
+     "turnovers": 15,
+     "fgMade": 46,
+     "fgAttempted": 101,
+     "threeMade": 17,
+     "threeAttempted": 48,
+     "ftMade": 21,
+     "ftAttempted": 28
+    }
+   },
+   "lastFull": {},
+   "lastToDate": {}
+  },
+  {
    "id": "jakucka01",
    "name": "Kasparas Jakučionis",
    "number": "25",
@@ -499,19 +536,19 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5214640.png",
    "current": {
     "regular": {
-     "games": 17,
+     "games": 18,
      "started": 0,
-     "minutes": 303.3,
-     "points": 144,
-     "rebounds": 41,
-     "assists": 56,
+     "minutes": 315.7,
+     "points": 148,
+     "rebounds": 45,
+     "assists": 59,
      "steals": 13,
      "blocks": 1,
      "turnovers": 29,
-     "fgMade": 46,
-     "fgAttempted": 100,
+     "fgMade": 48,
+     "fgAttempted": 107,
      "threeMade": 17,
-     "threeAttempted": 55,
+     "threeAttempted": 60,
      "ftMade": 35,
      "ftAttempted": 42
     }
@@ -538,43 +575,6 @@
    "lastToDate": {}
   },
   {
-   "id": "amentna01",
-   "name": "Nate Ament",
-   "number": "15",
-   "position": "SF",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 10\"",
-    "weight": 211,
-    "birthDate": "2006-12-10",
-    "experience": 0,
-    "college": "Tennessee",
-    "birthPlace": "Manassas, VA"
-   },
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5164559.png",
-   "current": {
-    "regular": {
-     "games": 16,
-     "started": 2,
-     "minutes": 301.5,
-     "points": 122,
-     "rebounds": 49,
-     "assists": 9,
-     "steals": 7,
-     "blocks": 4,
-     "turnovers": 14,
-     "fgMade": 43,
-     "fgAttempted": 95,
-     "threeMade": 15,
-     "threeAttempted": 43,
-     "ftMade": 21,
-     "ftAttempted": 28
-    }
-   },
-   "lastFull": {},
-   "lastToDate": {}
-  },
-  {
    "id": "greenaj01",
    "name": "A.J. Green",
    "number": "20",
@@ -591,9 +591,9 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4397475.png",
    "current": {
     "regular": {
-     "games": 17,
+     "games": 18,
      "started": 0,
-     "minutes": 269.6,
+     "minutes": 262.4,
      "points": 98,
      "rebounds": 20,
      "assists": 19,
@@ -601,9 +601,9 @@
      "blocks": 2,
      "turnovers": 8,
      "fgMade": 32,
-     "fgAttempted": 72,
+     "fgAttempted": 75,
      "threeMade": 29,
-     "threeAttempted": 65,
+     "threeAttempted": 68,
      "ftMade": 5,
      "ftAttempted": 5
     }
@@ -882,17 +882,17 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/2991043.png",
    "current": {
     "regular": {
-     "games": 4,
+     "games": 5,
      "started": 0,
-     "minutes": 32.5,
-     "points": 11,
-     "rebounds": 7,
-     "assists": 3,
+     "minutes": 44.1,
+     "points": 13,
+     "rebounds": 8,
+     "assists": 5,
      "steals": 1,
      "blocks": 1,
      "turnovers": 1,
-     "fgMade": 4,
-     "fgAttempted": 11,
+     "fgMade": 5,
+     "fgAttempted": 13,
      "threeMade": 1,
      "threeAttempted": 4,
      "ftMade": 2,
