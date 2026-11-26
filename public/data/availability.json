@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-26T01:23:49.704Z",
+ "updatedAt": "2026-11-26T02:23:58.749Z",
  "teams": {
   "ATL": [
    {
@@ -193,6 +193,13 @@
    }
   ],
   "GSW": [
+   {
+    "name": "Brandon Williams",
+    "status": "Out",
+    "gameTimeDecision": true,
+    "reason": "Hamstring",
+    "returnDate": "2026-11-25"
+   },
    {
     "name": "Jimmy Butler III",
     "status": "Out",
@@ -565,6 +572,13 @@
   ],
   "SAS": [
    {
+    "name": "De'Aaron Fox",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Lower Leg (bruise)",
+    "returnDate": "2026-11-27"
+   },
+   {
     "name": "Dylan Harper",
     "status": "Out",
     "gameTimeDecision": false,
@@ -584,13 +598,6 @@
     "gameTimeDecision": false,
     "reason": "Calf (strain)",
     "returnDate": "2026-12-03"
-   },
-   {
-    "name": "De'Aaron Fox",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Lower Leg (bruise)",
-    "returnDate": "2026-11-25"
    },
    {
     "name": "Victor Wembanyama",
