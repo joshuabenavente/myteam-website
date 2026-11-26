@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-26T02:23:58.749Z",
+ "updatedAt": "2026-11-26T03:23:44.994Z",
  "teams": {
   "ATL": [
    {
@@ -48,6 +48,13 @@
    }
   ],
   "BKN": [
+   {
+    "name": "Moritz Wagner",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Knee (soreness)",
+    "returnDate": "2026-11-27"
+   },
    {
     "name": "Nolan Traore",
     "status": "Out",
@@ -194,13 +201,6 @@
   ],
   "GSW": [
    {
-    "name": "Brandon Williams",
-    "status": "Out",
-    "gameTimeDecision": true,
-    "reason": "Hamstring",
-    "returnDate": "2026-11-25"
-   },
-   {
     "name": "Jimmy Butler III",
     "status": "Out",
     "gameTimeDecision": false,
@@ -326,6 +326,13 @@
     "gameTimeDecision": false,
     "reason": "Back (soreness)",
     "returnDate": "2026-12-12"
+   },
+   {
+    "name": "Zach Edey",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Ankle (soreness)",
+    "returnDate": "2026-11-25"
    }
   ],
   "MIN": [
@@ -349,6 +356,13 @@
     "gameTimeDecision": false,
     "reason": "Hamstring",
     "returnDate": "2026-11-29"
+   },
+   {
+    "name": "LaMelo Ball",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Ankle",
+    "returnDate": "2026-11-25"
    }
   ],
   "NOP": [
@@ -402,6 +416,13 @@
     "gameTimeDecision": false,
     "reason": "Calf (soreness)",
     "returnDate": "2026-11-27"
+   },
+   {
+    "name": "Andre Drummond",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Head",
+    "returnDate": "2026-11-25"
    }
   ],
   "OKC": [
@@ -598,13 +619,6 @@
     "gameTimeDecision": false,
     "reason": "Calf (strain)",
     "returnDate": "2026-12-03"
-   },
-   {
-    "name": "Victor Wembanyama",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Back",
-    "returnDate": "2026-11-25"
    }
   ],
   "TOR": [
