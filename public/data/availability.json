@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-26T04:23:34.314Z",
+ "updatedAt": "2026-11-26T06:23:43.620Z",
  "teams": {
   "ATL": [
    {
@@ -74,7 +74,7 @@
    {
     "name": "Grayson Allen",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Concussion",
     "returnDate": "2026-11-28"
    },
@@ -87,8 +87,8 @@
    },
    {
     "name": "Ryan Kalkbrenner",
-    "status": "Out",
-    "gameTimeDecision": false,
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
     "reason": "Hip (soreness)",
     "returnDate": "2026-11-28"
    }
@@ -102,17 +102,17 @@
     "returnDate": "2026-12-13"
    },
    {
-    "name": "Jalen Smith",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Illness",
-    "returnDate": "2026-11-28"
-   },
-   {
     "name": "Norman Powell",
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Hamstring (strain)",
+    "returnDate": "2026-11-28"
+   },
+   {
+    "name": "Jalen Smith",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Illness",
     "returnDate": "2026-11-28"
    }
   ],
@@ -399,21 +399,14 @@
    {
     "name": "Jordan Clarkson",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Foot (plantar fasciitis)",
-    "returnDate": "2026-11-27"
-   },
-   {
-    "name": "Miles McBride",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Groin (soreness)",
     "returnDate": "2026-11-27"
    },
    {
     "name": "OG Anunoby",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Calf (soreness)",
     "returnDate": "2026-11-27"
    },
@@ -423,13 +416,20 @@
     "gameTimeDecision": true,
     "reason": "Head",
     "returnDate": "2026-11-27"
+   },
+   {
+    "name": "Miles McBride",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Groin (soreness)",
+    "returnDate": "2026-11-27"
    }
   ],
   "OKC": [
    {
     "name": "Aday Mara",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Lower Leg (bruise)",
     "returnDate": "2026-11-28"
    },
@@ -464,7 +464,7 @@
    {
     "name": "Nikola Topic",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Hip (strain)",
     "returnDate": "2026-11-28"
    },
@@ -585,20 +585,13 @@
    },
    {
     "name": "Zach LaVine",
-    "status": "Out",
-    "gameTimeDecision": false,
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
     "reason": "Knee (soreness)",
     "returnDate": "2026-11-29"
    }
   ],
   "SAS": [
-   {
-    "name": "De'Aaron Fox",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Lower Leg (bruise)",
-    "returnDate": "2026-11-27"
-   },
    {
     "name": "Dylan Harper",
     "status": "Out",
@@ -619,6 +612,13 @@
     "gameTimeDecision": false,
     "reason": "Calf (strain)",
     "returnDate": "2026-12-03"
+   },
+   {
+    "name": "De'Aaron Fox",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Lower Leg (bruise)",
+    "returnDate": "2026-11-27"
    }
   ],
   "TOR": [
