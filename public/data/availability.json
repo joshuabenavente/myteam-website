@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-26T21:23:46.659Z",
+ "updatedAt": "2026-11-26T22:23:35.162Z",
  "teams": {
   "ATL": [
    {
@@ -53,7 +53,7 @@
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Knee (soreness)",
-    "returnDate": "2026-11-27"
+    "returnDate": "2026-11-28"
    },
    {
     "name": "Nolan Traore",
@@ -164,11 +164,18 @@
   ],
   "DET": [
    {
+    "name": "Cade Cunningham",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Knee",
+    "returnDate": "2026-11-29"
+   },
+   {
     "name": "Duncan Robinson",
     "status": "Out",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Quadriceps (strain)",
-    "returnDate": "2026-11-27"
+    "returnDate": "2026-11-29"
    },
    {
     "name": "Ebuka Okorie",
@@ -190,13 +197,6 @@
     "gameTimeDecision": false,
     "reason": "Knee (surgery)",
     "returnDate": "2026-12-26"
-   },
-   {
-    "name": "Cade Cunningham",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Knee",
-    "returnDate": "2026-11-27"
    }
   ],
   "GSW": [
@@ -342,6 +342,13 @@
     "gameTimeDecision": true,
     "reason": "Ankle (sprain)",
     "returnDate": "2026-11-27"
+   },
+   {
+    "name": "Giannis Antetokounmpo",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Groin",
+    "returnDate": "2026-11-27"
    }
   ],
   "MIN": [
@@ -385,9 +392,9 @@
    {
     "name": "Dejounte Murray",
     "status": "Out",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Ankle",
-    "returnDate": "2026-11-27"
+    "returnDate": "2026-11-29"
    },
    {
     "name": "Trendon Watford",
@@ -658,6 +665,13 @@
     "gameTimeDecision": false,
     "reason": "Hamstring (strain)",
     "returnDate": "2026-12-13"
+   },
+   {
+    "name": "Alijah Martin",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Knee (soreness)",
+    "returnDate": "2026-11-27"
    }
   ],
   "UTA": [
