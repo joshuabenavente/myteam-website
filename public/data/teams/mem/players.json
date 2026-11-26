@@ -1,49 +1,12 @@
 {
  "season": "2026-27",
  "lastSeason": "2025-26",
- "updatedAt": "2026-11-26T09:18:46.150Z",
+ "updatedAt": "2026-11-26T15:18:45.091Z",
  "teamGamesPlayed": {
   "regular": 19,
   "playoffs": 0
  },
  "players": [
-  {
-   "id": "boozeca02",
-   "name": "Cameron Boozer",
-   "number": "27",
-   "position": "PF",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 8\"",
-    "weight": 253,
-    "birthDate": "2007-07-18",
-    "experience": 0,
-    "college": "Duke",
-    "birthPlace": "Miami, FL"
-   },
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5041935.png",
-   "current": {
-    "regular": {
-     "games": 16,
-     "started": 16,
-     "minutes": 493.9,
-     "points": 265,
-     "rebounds": 147,
-     "assists": 85,
-     "steals": 13,
-     "blocks": 12,
-     "turnovers": 49,
-     "fgMade": 88,
-     "fgAttempted": 211,
-     "threeMade": 29,
-     "threeAttempted": 90,
-     "ftMade": 60,
-     "ftAttempted": 67
-    }
-   },
-   "lastFull": {},
-   "lastToDate": {}
-  },
   {
    "id": "cowarce01",
    "name": "Cedric Coward",
@@ -61,21 +24,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4903027.png",
    "current": {
     "regular": {
-     "games": 17,
-     "started": 17,
-     "minutes": 490.2,
-     "points": 261,
-     "rebounds": 137,
-     "assists": 57,
-     "steals": 27,
-     "blocks": 6,
+     "games": 18,
+     "started": 18,
+     "minutes": 516.3,
+     "points": 275,
+     "rebounds": 147,
+     "assists": 58,
+     "steals": 28,
+     "blocks": 7,
      "turnovers": 31,
-     "fgMade": 93,
-     "fgAttempted": 196,
+     "fgMade": 99,
+     "fgAttempted": 210,
      "threeMade": 42,
-     "threeAttempted": 94,
-     "ftMade": 33,
-     "ftAttempted": 41
+     "threeAttempted": 100,
+     "ftMade": 35,
+     "ftAttempted": 44
     }
    },
    "lastFull": {
@@ -134,19 +97,19 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5112087.png",
    "current": {
     "regular": {
-     "games": 18,
-     "started": 18,
-     "minutes": 473.7,
-     "points": 199,
-     "rebounds": 55,
-     "assists": 22,
-     "steals": 14,
+     "games": 19,
+     "started": 19,
+     "minutes": 500.7,
+     "points": 218,
+     "rebounds": 61,
+     "assists": 23,
+     "steals": 15,
      "blocks": 2,
      "turnovers": 13,
-     "fgMade": 69,
-     "fgAttempted": 139,
-     "threeMade": 36,
-     "threeAttempted": 85,
+     "fgMade": 77,
+     "fgAttempted": 151,
+     "threeMade": 39,
+     "threeAttempted": 89,
      "ftMade": 25,
      "ftAttempted": 30
     }
@@ -191,6 +154,43 @@
    }
   },
   {
+   "id": "boozeca02",
+   "name": "Cameron Boozer",
+   "number": "27",
+   "position": "PF",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 8\"",
+    "weight": 253,
+    "birthDate": "2007-07-18",
+    "experience": 0,
+    "college": "Duke",
+    "birthPlace": "Miami, FL"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5041935.png",
+   "current": {
+    "regular": {
+     "games": 16,
+     "started": 16,
+     "minutes": 493.9,
+     "points": 265,
+     "rebounds": 147,
+     "assists": 85,
+     "steals": 13,
+     "blocks": 12,
+     "turnovers": 49,
+     "fgMade": 88,
+     "fgAttempted": 211,
+     "threeMade": 29,
+     "threeAttempted": 90,
+     "ftMade": 60,
+     "ftAttempted": 67
+    }
+   },
+   "lastFull": {},
+   "lastToDate": {}
+  },
+  {
    "id": "spencca01",
    "name": "Cam Spencer",
    "number": "24",
@@ -207,19 +207,19 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4433083.png",
    "current": {
     "regular": {
-     "games": 18,
+     "games": 19,
      "started": 5,
-     "minutes": 411.2,
-     "points": 213,
+     "minutes": 435.2,
+     "points": 229,
      "rebounds": 54,
-     "assists": 103,
+     "assists": 107,
      "steals": 14,
      "blocks": 2,
-     "turnovers": 26,
-     "fgMade": 71,
-     "fgAttempted": 127,
-     "threeMade": 36,
-     "threeAttempted": 66,
+     "turnovers": 28,
+     "fgMade": 78,
+     "fgAttempted": 137,
+     "threeMade": 38,
+     "threeAttempted": 70,
      "ftMade": 35,
      "ftAttempted": 36
     }
@@ -280,21 +280,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4065733.png",
    "current": {
     "regular": {
-     "games": 13,
-     "started": 13,
-     "minutes": 392.1,
-     "points": 326,
-     "rebounds": 45,
-     "assists": 67,
-     "steals": 12,
-     "blocks": 2,
+     "games": 14,
+     "started": 14,
+     "minutes": 417.4,
+     "points": 343,
+     "rebounds": 50,
+     "assists": 74,
+     "steals": 16,
+     "blocks": 3,
      "turnovers": 37,
-     "fgMade": 115,
-     "fgAttempted": 240,
-     "threeMade": 38,
-     "threeAttempted": 99,
-     "ftMade": 58,
-     "ftAttempted": 64
+     "fgMade": 122,
+     "fgAttempted": 256,
+     "threeMade": 39,
+     "threeAttempted": 107,
+     "ftMade": 60,
+     "ftAttempted": 66
     }
    },
    "lastFull": {
@@ -425,21 +425,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4600663.png",
    "current": {
     "regular": {
-     "games": 14,
-     "started": 14,
-     "minutes": 294.2,
-     "points": 126,
-     "rebounds": 102,
-     "assists": 12,
+     "games": 15,
+     "started": 15,
+     "minutes": 303.5,
+     "points": 133,
+     "rebounds": 106,
+     "assists": 14,
      "steals": 5,
-     "blocks": 15,
+     "blocks": 17,
      "turnovers": 20,
-     "fgMade": 49,
-     "fgAttempted": 81,
+     "fgMade": 52,
+     "fgAttempted": 85,
      "threeMade": 1,
      "threeAttempted": 1,
-     "ftMade": 27,
-     "ftAttempted": 30
+     "ftMade": 28,
+     "ftAttempted": 31
     }
    },
    "lastFull": {
@@ -498,19 +498,19 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4432810.png",
    "current": {
     "regular": {
-     "games": 13,
+     "games": 14,
      "started": 3,
-     "minutes": 240.6,
-     "points": 138,
-     "rebounds": 43,
-     "assists": 11,
-     "steals": 1,
-     "blocks": 12,
-     "turnovers": 13,
-     "fgMade": 56,
-     "fgAttempted": 95,
-     "threeMade": 10,
-     "threeAttempted": 30,
+     "minutes": 255.1,
+     "points": 148,
+     "rebounds": 46,
+     "assists": 12,
+     "steals": 2,
+     "blocks": 14,
+     "turnovers": 14,
+     "fgMade": 60,
+     "fgAttempted": 101,
+     "threeMade": 12,
+     "threeAttempted": 33,
      "ftMade": 16,
      "ftAttempted": 17
     }
@@ -588,21 +588,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4781746.png",
    "current": {
     "regular": {
-     "games": 10,
+     "games": 11,
      "started": 0,
-     "minutes": 218.7,
-     "points": 89,
-     "rebounds": 31,
-     "assists": 55,
+     "minutes": 235.7,
+     "points": 97,
+     "rebounds": 33,
+     "assists": 56,
      "steals": 3,
      "blocks": 1,
-     "turnovers": 12,
-     "fgMade": 30,
-     "fgAttempted": 77,
-     "threeMade": 12,
-     "threeAttempted": 35,
-     "ftMade": 17,
-     "ftAttempted": 20
+     "turnovers": 13,
+     "fgMade": 32,
+     "fgAttempted": 86,
+     "threeMade": 14,
+     "threeAttempted": 40,
+     "ftMade": 19,
+     "ftAttempted": 22
     }
    },
    "lastFull": {
@@ -661,21 +661,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4684806.png",
    "current": {
     "regular": {
-     "games": 13,
+     "games": 14,
      "started": 1,
-     "minutes": 202.2,
-     "points": 104,
+     "minutes": 227.5,
+     "points": 109,
      "rebounds": 48,
-     "assists": 13,
+     "assists": 14,
      "steals": 6,
-     "blocks": 3,
+     "blocks": 4,
      "turnovers": 11,
-     "fgMade": 37,
-     "fgAttempted": 67,
+     "fgMade": 39,
+     "fgAttempted": 71,
      "threeMade": 10,
-     "threeAttempted": 26,
-     "ftMade": 20,
-     "ftAttempted": 26
+     "threeAttempted": 27,
+     "ftMade": 21,
+     "ftAttempted": 27
     }
    },
    "lastFull": {
@@ -714,6 +714,96 @@
      "threeAttempted": 20,
      "ftMade": 7,
      "ftAttempted": 10
+    }
+   }
+  },
+  {
+   "id": "murrakr01",
+   "name": "Kris Murray",
+   "number": "17",
+   "position": "SF",
+   "twoWay": false,
+   "bio": {
+    "height": "6' 8\"",
+    "weight": 218,
+    "birthDate": "2000-08-19",
+    "experience": 3,
+    "college": "Iowa",
+    "birthPlace": "Cedar Rapids, IA"
+   },
+   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4594326.png",
+   "current": {
+    "regular": {
+     "games": 15,
+     "started": 2,
+     "minutes": 197.7,
+     "points": 41,
+     "rebounds": 24,
+     "assists": 12,
+     "steals": 12,
+     "blocks": 6,
+     "turnovers": 2,
+     "fgMade": 17,
+     "fgAttempted": 44,
+     "threeMade": 5,
+     "threeAttempted": 29,
+     "ftMade": 2,
+     "ftAttempted": 3
+    }
+   },
+   "lastFull": {
+    "regular": {
+     "games": 57,
+     "started": 15,
+     "minutes": 1334,
+     "points": 331,
+     "rebounds": 206,
+     "assists": 81,
+     "steals": 51,
+     "blocks": 22,
+     "turnovers": 47,
+     "fgMade": 129,
+     "fgAttempted": 276,
+     "threeMade": 34,
+     "threeAttempted": 122,
+     "ftMade": 39,
+     "ftAttempted": 57
+    },
+    "playoffs": {
+     "games": 5,
+     "started": 0,
+     "minutes": 25.2,
+     "points": 5,
+     "rebounds": 3,
+     "assists": 0,
+     "steals": 0,
+     "blocks": 0,
+     "turnovers": 3,
+     "fgMade": 2,
+     "fgAttempted": 4,
+     "threeMade": 0,
+     "threeAttempted": 2,
+     "ftMade": 1,
+     "ftAttempted": 2
+    }
+   },
+   "lastToDate": {
+    "regular": {
+     "games": 18,
+     "started": 1,
+     "minutes": 433.1,
+     "points": 100,
+     "rebounds": 69,
+     "assists": 20,
+     "steals": 20,
+     "blocks": 3,
+     "turnovers": 14,
+     "fgMade": 40,
+     "fgAttempted": 91,
+     "threeMade": 9,
+     "threeAttempted": 34,
+     "ftMade": 11,
+     "ftAttempted": 16
     }
    }
   },
@@ -791,96 +881,6 @@
    }
   },
   {
-   "id": "murrakr01",
-   "name": "Kris Murray",
-   "number": "17",
-   "position": "SF",
-   "twoWay": false,
-   "bio": {
-    "height": "6' 8\"",
-    "weight": 218,
-    "birthDate": "2000-08-19",
-    "experience": 3,
-    "college": "Iowa",
-    "birthPlace": "Cedar Rapids, IA"
-   },
-   "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4594326.png",
-   "current": {
-    "regular": {
-     "games": 14,
-     "started": 1,
-     "minutes": 165.8,
-     "points": 33,
-     "rebounds": 20,
-     "assists": 9,
-     "steals": 12,
-     "blocks": 6,
-     "turnovers": 1,
-     "fgMade": 13,
-     "fgAttempted": 36,
-     "threeMade": 5,
-     "threeAttempted": 26,
-     "ftMade": 2,
-     "ftAttempted": 2
-    }
-   },
-   "lastFull": {
-    "regular": {
-     "games": 57,
-     "started": 15,
-     "minutes": 1334,
-     "points": 331,
-     "rebounds": 206,
-     "assists": 81,
-     "steals": 51,
-     "blocks": 22,
-     "turnovers": 47,
-     "fgMade": 129,
-     "fgAttempted": 276,
-     "threeMade": 34,
-     "threeAttempted": 122,
-     "ftMade": 39,
-     "ftAttempted": 57
-    },
-    "playoffs": {
-     "games": 5,
-     "started": 0,
-     "minutes": 25.2,
-     "points": 5,
-     "rebounds": 3,
-     "assists": 0,
-     "steals": 0,
-     "blocks": 0,
-     "turnovers": 3,
-     "fgMade": 2,
-     "fgAttempted": 4,
-     "threeMade": 0,
-     "threeAttempted": 2,
-     "ftMade": 1,
-     "ftAttempted": 2
-    }
-   },
-   "lastToDate": {
-    "regular": {
-     "games": 18,
-     "started": 1,
-     "minutes": 433.1,
-     "points": 100,
-     "rebounds": 69,
-     "assists": 20,
-     "steals": 20,
-     "blocks": 3,
-     "turnovers": 14,
-     "fgMade": 40,
-     "fgAttempted": 91,
-     "threeMade": 9,
-     "threeAttempted": 34,
-     "ftMade": 11,
-     "ftAttempted": 16
-    }
-   }
-  },
-  {
    "id": "prospol01",
    "name": "Olivier-Maxence Prosper",
    "number": "18",
@@ -897,21 +897,21 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4595400.png",
    "current": {
     "regular": {
-     "games": 12,
+     "games": 13,
      "started": 0,
-     "minutes": 145.8,
-     "points": 75,
-     "rebounds": 28,
-     "assists": 5,
+     "minutes": 164.6,
+     "points": 84,
+     "rebounds": 32,
+     "assists": 7,
      "steals": 2,
      "blocks": 1,
-     "turnovers": 6,
-     "fgMade": 27,
-     "fgAttempted": 55,
-     "threeMade": 4,
-     "threeAttempted": 18,
-     "ftMade": 17,
-     "ftAttempted": 22
+     "turnovers": 8,
+     "fgMade": 29,
+     "fgAttempted": 60,
+     "threeMade": 5,
+     "threeAttempted": 21,
+     "ftMade": 21,
+     "ftAttempted": 26
     }
    },
    "lastFull": {
@@ -970,19 +970,19 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4593016.png",
    "current": {
     "regular": {
-     "games": 12,
+     "games": 13,
      "started": 0,
-     "minutes": 131.9,
+     "minutes": 145.5,
      "points": 53,
-     "rebounds": 23,
+     "rebounds": 27,
      "assists": 3,
-     "steals": 4,
+     "steals": 5,
      "blocks": 2,
      "turnovers": 8,
      "fgMade": 21,
-     "fgAttempted": 42,
+     "fgAttempted": 45,
      "threeMade": 6,
-     "threeAttempted": 22,
+     "threeAttempted": 25,
      "ftMade": 5,
      "ftAttempted": 7
     }
@@ -1098,9 +1098,9 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4683934.png",
    "current": {
     "regular": {
-     "games": 8,
+     "games": 9,
      "started": 1,
-     "minutes": 72.5,
+     "minutes": 76.2,
      "points": 5,
      "rebounds": 7,
      "assists": 11,
@@ -1170,19 +1170,19 @@
    "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5231919.png",
    "current": {
     "regular": {
-     "games": 6,
+     "games": 7,
      "started": 0,
-     "minutes": 17.8,
-     "points": 7,
-     "rebounds": 4,
+     "minutes": 21.5,
+     "points": 9,
+     "rebounds": 6,
      "assists": 0,
      "steals": 0,
      "blocks": 2,
      "turnovers": 0,
-     "fgMade": 2,
-     "fgAttempted": 4,
+     "fgMade": 3,
+     "fgAttempted": 7,
      "threeMade": 1,
-     "threeAttempted": 3,
+     "threeAttempted": 5,
      "ftMade": 2,
      "ftAttempted": 2
     }
