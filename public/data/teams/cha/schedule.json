@@ -324,7 +324,11 @@
    "startUtc": "2026-11-26T00:00:00Z",
    "home": true,
    "opponent": "CHI",
-   "status": "scheduled",
+   "status": "live",
+   "score": {
+    "team": 0,
+    "opponent": 0
+   },
    "broadcasts": [
     {
      "name": "TV 64/DAZN-CHA",
