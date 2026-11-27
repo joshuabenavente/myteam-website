@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-27T01:23:51.194Z",
+ "updatedAt": "2026-11-27T16:23:36.147Z",
  "teams": {
   "ATL": [
    {
@@ -420,6 +420,13 @@
   ],
   "NYK": [
    {
+    "name": "Andre Drummond",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Concussion",
+    "returnDate": "2026-11-29"
+   },
+   {
     "name": "Jordan Clarkson",
     "status": "Out",
     "gameTimeDecision": true,
@@ -431,13 +438,6 @@
     "status": "Out",
     "gameTimeDecision": true,
     "reason": "Calf (soreness)",
-    "returnDate": "2026-11-27"
-   },
-   {
-    "name": "Andre Drummond",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Head",
     "returnDate": "2026-11-27"
    },
    {
