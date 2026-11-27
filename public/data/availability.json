@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-27T22:23:34.864Z",
+ "updatedAt": "2026-11-27T23:23:50.451Z",
  "teams": {
   "ATL": [
    {
@@ -261,6 +261,13 @@
     "returnDate": "2027-01-02"
    },
    {
+    "name": "T.J. McConnell",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Hamstring",
+    "returnDate": "2026-11-28"
+   },
+   {
     "name": "Tyrese Haliburton",
     "status": "Out",
     "gameTimeDecision": false,
@@ -268,24 +275,10 @@
     "returnDate": "2026-12-13"
    },
    {
-    "name": "Kelly Oubre Jr.",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Hand",
-    "returnDate": "2026-11-27"
-   },
-   {
     "name": "Larry Nance Jr.",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Ankle (soreness)",
-    "returnDate": "2026-11-27"
-   },
-   {
-    "name": "T.J. McConnell",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Hamstring",
     "returnDate": "2026-11-27"
    }
   ],
@@ -353,15 +346,6 @@
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Ankle (soreness)",
-    "returnDate": "2026-11-27"
-   }
-  ],
-  "MIA": [
-   {
-    "name": "Giannis Antetokounmpo",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Groin",
     "returnDate": "2026-11-27"
    }
   ],
@@ -475,9 +459,9 @@
    {
     "name": "Aday Mara",
     "status": "Out",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Lower Leg (bruise)",
-    "returnDate": "2026-11-28"
+    "returnDate": "2026-11-30"
    },
    {
     "name": "Cason Wallace",
@@ -510,9 +494,9 @@
    {
     "name": "Nikola Topic",
     "status": "Out",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Hip (strain)",
-    "returnDate": "2026-11-28"
+    "returnDate": "2026-12-13"
    },
    {
     "name": "Thomas Sorber",
@@ -586,7 +570,7 @@
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Hamstring",
-    "returnDate": "2026-11-28"
+    "returnDate": "2026-12-01"
    },
    {
     "name": "Joel Embiid",
@@ -716,13 +700,6 @@
     "gameTimeDecision": false,
     "reason": "Hamstring (strain)",
     "returnDate": "2026-12-13"
-   },
-   {
-    "name": "Alijah Martin",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Knee (soreness)",
-    "returnDate": "2026-11-27"
    }
   ],
   "UTA": [
