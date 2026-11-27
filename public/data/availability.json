@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-27T16:23:36.147Z",
+ "updatedAt": "2026-11-27T17:23:43.474Z",
  "teams": {
   "ATL": [
    {
@@ -42,9 +42,9 @@
    {
     "name": "Mitchell Robinson",
     "status": "Out",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Illness",
-    "returnDate": "2026-11-27"
+    "returnDate": "2026-11-29"
    }
   ],
   "BKN": [
@@ -344,13 +344,6 @@
   ],
   "MIA": [
    {
-    "name": "Andrew Wiggins",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Ankle (sprain)",
-    "returnDate": "2026-11-27"
-   },
-   {
     "name": "Giannis Antetokounmpo",
     "status": "Day-To-Day",
     "gameTimeDecision": true,
@@ -438,6 +431,13 @@
     "status": "Out",
     "gameTimeDecision": true,
     "reason": "Calf (soreness)",
+    "returnDate": "2026-11-27"
+   },
+   {
+    "name": "Karl-Anthony Towns",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Abdomen (bruise)",
     "returnDate": "2026-11-27"
    },
    {
@@ -709,6 +709,13 @@
     "gameTimeDecision": true,
     "reason": "Knee",
     "returnDate": "2026-11-27"
+   },
+   {
+    "name": "Mo Bamba",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Illness",
+    "returnDate": "2026-11-29"
    }
   ],
   "WAS": [
