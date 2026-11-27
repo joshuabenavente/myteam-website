@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-27T17:23:43.474Z",
+ "updatedAt": "2026-11-27T18:23:36.689Z",
  "teams": {
   "ATL": [
    {
@@ -351,6 +351,15 @@
     "returnDate": "2026-11-27"
    }
   ],
+  "MIL": [
+   {
+    "name": "Kasparas Jakucionis",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Ankle",
+    "returnDate": "2026-11-28"
+   }
+  ],
   "MIN": [
    {
     "name": "Anthony Edwards",
@@ -429,9 +438,9 @@
    {
     "name": "OG Anunoby",
     "status": "Out",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Calf (soreness)",
-    "returnDate": "2026-11-27"
+    "returnDate": "2026-11-29"
    },
    {
     "name": "Karl-Anthony Towns",
