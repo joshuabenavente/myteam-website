@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-27T20:23:49.469Z",
+ "updatedAt": "2026-11-27T21:23:39.910Z",
  "teams": {
   "ATL": [
    {
@@ -529,6 +529,13 @@
     "returnDate": "2026-11-29"
    },
    {
+    "name": "Kevin Porter Jr.",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Not Injury Related",
+    "returnDate": "2026-11-29"
+   },
+   {
     "name": "Noah Penda",
     "status": "Out",
     "gameTimeDecision": false,
@@ -541,6 +548,13 @@
     "gameTimeDecision": false,
     "reason": "Ankle (sprain)",
     "returnDate": "2026-11-29"
+   },
+   {
+    "name": "Anthony Black",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Back",
+    "returnDate": "2026-11-28"
    },
    {
     "name": "Colin Castleton",
