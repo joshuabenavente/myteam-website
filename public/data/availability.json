@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-27T21:23:39.910Z",
+ "updatedAt": "2026-11-27T22:23:34.864Z",
  "teams": {
   "ATL": [
    {
@@ -241,6 +241,15 @@
     "gameTimeDecision": false,
     "reason": "Abdomen",
     "returnDate": "2026-12-12"
+   }
+  ],
+  "HOU": [
+   {
+    "name": "Steven Adams",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Knee",
+    "returnDate": "2026-11-28"
    }
   ],
   "IND": [
