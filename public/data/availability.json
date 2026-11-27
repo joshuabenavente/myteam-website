@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-26T23:23:51.615Z",
+ "updatedAt": "2026-11-27T00:23:39.153Z",
  "teams": {
   "ATL": [
    {
@@ -136,30 +136,30 @@
    {
     "name": "Dereck Lively II",
     "status": "Out",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Foot (surgery)",
-    "returnDate": "2026-11-27"
+    "returnDate": "2026-11-30"
    },
    {
     "name": "Sergio de Larrea",
     "status": "Out",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Knee (strain)",
-    "returnDate": "2026-11-27"
+    "returnDate": "2026-12-14"
    },
    {
     "name": "Tarik Biberovic",
     "status": "Out",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Heel (inflammation)",
-    "returnDate": "2026-11-27"
+    "returnDate": "2026-12-04"
    },
    {
     "name": "Tobi Lawal",
     "status": "Out",
-    "gameTimeDecision": true,
-    "reason": "Groin",
-    "returnDate": "2026-11-27"
+    "gameTimeDecision": false,
+    "reason": "Groin (strain)",
+    "returnDate": "2026-11-30"
    }
   ],
   "DET": [
@@ -326,6 +326,13 @@
     "gameTimeDecision": false,
     "reason": "Back (soreness)",
     "returnDate": "2026-12-12"
+   },
+   {
+    "name": "Isaiah Stewart",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Hip (soreness)",
+    "returnDate": "2026-11-27"
    },
    {
     "name": "Zach Edey",
@@ -618,9 +625,9 @@
    {
     "name": "Dylan Harper",
     "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Hip (soreness)",
-    "returnDate": "2026-12-13"
+    "gameTimeDecision": true,
+    "reason": "Hip (strain)",
+    "returnDate": "2026-11-27"
    },
    {
     "name": "Jayden Quaintance",
@@ -685,9 +692,9 @@
    {
     "name": "Jusuf Nurkic",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Foot (strain)",
-    "returnDate": "2026-11-29"
+    "returnDate": "2026-11-27"
    },
    {
     "name": "Lauri Markkanen",
