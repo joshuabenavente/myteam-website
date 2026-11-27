@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-27T18:23:36.689Z",
+ "updatedAt": "2026-11-27T19:23:49.303Z",
  "teams": {
   "ATL": [
    {
@@ -114,6 +114,13 @@
     "gameTimeDecision": true,
     "reason": "Illness",
     "returnDate": "2026-11-28"
+   },
+   {
+    "name": "Noa Essengue",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Thumb",
+    "returnDate": "2026-11-28"
    }
   ],
   "CLE": [
@@ -159,6 +166,13 @@
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Groin (strain)",
+    "returnDate": "2026-11-30"
+   },
+   {
+    "name": "Kyrie Irving",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Knee",
     "returnDate": "2026-11-30"
    }
   ],
@@ -384,10 +398,10 @@
    },
    {
     "name": "LaMelo Ball",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
+    "status": "Out",
+    "gameTimeDecision": false,
     "reason": "Ankle",
-    "returnDate": "2026-11-27"
+    "returnDate": "2026-11-29"
    }
   ],
   "NOP": [
@@ -431,9 +445,16 @@
    {
     "name": "Jordan Clarkson",
     "status": "Out",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Foot (plantar fasciitis)",
-    "returnDate": "2026-11-27"
+    "returnDate": "2026-11-29"
+   },
+   {
+    "name": "Miles McBride",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Groin (soreness)",
+    "returnDate": "2026-11-29"
    },
    {
     "name": "OG Anunoby",
@@ -447,13 +468,6 @@
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Abdomen (bruise)",
-    "returnDate": "2026-11-27"
-   },
-   {
-    "name": "Miles McBride",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Groin (soreness)",
     "returnDate": "2026-11-27"
    }
   ],
@@ -583,6 +597,13 @@
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Heel (bruise)",
+    "returnDate": "2026-11-29"
+   },
+   {
+    "name": "Damian Lillard",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Calf (soreness)",
     "returnDate": "2026-11-29"
    },
    {
