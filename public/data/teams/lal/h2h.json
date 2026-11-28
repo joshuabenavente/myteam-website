@@ -354,6 +354,28 @@
     }
    }
   },
+  "OKC": {
+   "current": {
+    "regular": {
+     "wins": 0,
+     "losses": 0
+    },
+    "playoffs": {
+     "wins": 0,
+     "losses": 0
+    }
+   },
+   "last": {
+    "regular": {
+     "wins": 0,
+     "losses": 4
+    },
+    "playoffs": {
+     "wins": 0,
+     "losses": 4
+    }
+   }
+  },
   "MIN": {
    "current": {
     "regular": {
@@ -527,28 +549,6 @@
     "playoffs": {
      "wins": 0,
      "losses": 0
-    }
-   }
-  },
-  "OKC": {
-   "current": {
-    "regular": {
-     "wins": 0,
-     "losses": 0
-    },
-    "playoffs": {
-     "wins": 0,
-     "losses": 0
-    }
-   },
-   "last": {
-    "regular": {
-     "wins": 0,
-     "losses": 4
-    },
-    "playoffs": {
-     "wins": 0,
-     "losses": 4
     }
    }
   },

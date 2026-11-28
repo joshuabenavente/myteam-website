@@ -354,6 +354,28 @@
     }
    }
   },
+  "CHI": {
+   "current": {
+    "regular": {
+     "wins": 0,
+     "losses": 0
+    },
+    "playoffs": {
+     "wins": 0,
+     "losses": 0
+    }
+   },
+   "last": {
+    "regular": {
+     "wins": 2,
+     "losses": 2
+    },
+    "playoffs": {
+     "wins": 0,
+     "losses": 0
+    }
+   }
+  },
   "CHA": {
    "current": {
     "regular": {
@@ -566,28 +588,6 @@
    "last": {
     "regular": {
      "wins": 0,
-     "losses": 2
-    },
-    "playoffs": {
-     "wins": 0,
-     "losses": 0
-    }
-   }
-  },
-  "CHI": {
-   "current": {
-    "regular": {
-     "wins": 0,
-     "losses": 0
-    },
-    "playoffs": {
-     "wins": 0,
-     "losses": 0
-    }
-   },
-   "last": {
-    "regular": {
-     "wins": 2,
      "losses": 2
     },
     "playoffs": {

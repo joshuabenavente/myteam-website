@@ -310,6 +310,28 @@
     }
    }
   },
+  "DEN": {
+   "current": {
+    "regular": {
+     "wins": 0,
+     "losses": 0
+    },
+    "playoffs": {
+     "wins": 0,
+     "losses": 0
+    }
+   },
+   "last": {
+    "regular": {
+     "wins": 1,
+     "losses": 3
+    },
+    "playoffs": {
+     "wins": 0,
+     "losses": 0
+    }
+   }
+  },
   "UTA": {
    "current": {
     "regular": {
@@ -479,28 +501,6 @@
     "regular": {
      "wins": 1,
      "losses": 1
-    },
-    "playoffs": {
-     "wins": 0,
-     "losses": 0
-    }
-   }
-  },
-  "DEN": {
-   "current": {
-    "regular": {
-     "wins": 0,
-     "losses": 0
-    },
-    "playoffs": {
-     "wins": 0,
-     "losses": 0
-    }
-   },
-   "last": {
-    "regular": {
-     "wins": 1,
-     "losses": 3
     },
     "playoffs": {
      "wins": 0,

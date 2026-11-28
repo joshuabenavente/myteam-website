@@ -310,6 +310,28 @@
     }
    }
   },
+  "NYK": {
+   "current": {
+    "regular": {
+     "wins": 0,
+     "losses": 0
+    },
+    "playoffs": {
+     "wins": 0,
+     "losses": 0
+    }
+   },
+   "last": {
+    "regular": {
+     "wins": 2,
+     "losses": 2
+    },
+    "playoffs": {
+     "wins": 0,
+     "losses": 0
+    }
+   }
+  },
   "OKC": {
    "current": {
     "regular": {
@@ -567,28 +589,6 @@
     "regular": {
      "wins": 1,
      "losses": 1
-    },
-    "playoffs": {
-     "wins": 0,
-     "losses": 0
-    }
-   }
-  },
-  "NYK": {
-   "current": {
-    "regular": {
-     "wins": 0,
-     "losses": 0
-    },
-    "playoffs": {
-     "wins": 0,
-     "losses": 0
-    }
-   },
-   "last": {
-    "regular": {
-     "wins": 2,
-     "losses": 2
     },
     "playoffs": {
      "wins": 0,

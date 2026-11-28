@@ -398,6 +398,28 @@
     }
    }
   },
+  "LAL": {
+   "current": {
+    "regular": {
+     "wins": 0,
+     "losses": 0
+    },
+    "playoffs": {
+     "wins": 0,
+     "losses": 0
+    }
+   },
+   "last": {
+    "regular": {
+     "wins": 4,
+     "losses": 0
+    },
+    "playoffs": {
+     "wins": 4,
+     "losses": 0
+    }
+   }
+  },
   "TOR": {
    "current": {
     "regular": {
@@ -548,28 +570,6 @@
     },
     "playoffs": {
      "wins": 0,
-     "losses": 0
-    }
-   }
-  },
-  "LAL": {
-   "current": {
-    "regular": {
-     "wins": 0,
-     "losses": 0
-    },
-    "playoffs": {
-     "wins": 0,
-     "losses": 0
-    }
-   },
-   "last": {
-    "regular": {
-     "wins": 4,
-     "losses": 0
-    },
-    "playoffs": {
-     "wins": 4,
      "losses": 0
     }
    }

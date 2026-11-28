@@ -310,6 +310,28 @@
     }
    }
   },
+  "ORL": {
+   "current": {
+    "regular": {
+     "wins": 0,
+     "losses": 0
+    },
+    "playoffs": {
+     "wins": 0,
+     "losses": 0
+    }
+   },
+   "last": {
+    "regular": {
+     "wins": 3,
+     "losses": 1
+    },
+    "playoffs": {
+     "wins": 0,
+     "losses": 0
+    }
+   }
+  },
   "GSW": {
    "current": {
     "regular": {
@@ -347,28 +369,6 @@
     "regular": {
      "wins": 2,
      "losses": 0
-    },
-    "playoffs": {
-     "wins": 0,
-     "losses": 0
-    }
-   }
-  },
-  "ORL": {
-   "current": {
-    "regular": {
-     "wins": 0,
-     "losses": 0
-    },
-    "playoffs": {
-     "wins": 0,
-     "losses": 0
-    }
-   },
-   "last": {
-    "regular": {
-     "wins": 3,
-     "losses": 1
     },
     "playoffs": {
      "wins": 0,

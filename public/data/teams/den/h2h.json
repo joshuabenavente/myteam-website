@@ -332,6 +332,28 @@
     }
    }
   },
+  "SAC": {
+   "current": {
+    "regular": {
+     "wins": 0,
+     "losses": 0
+    },
+    "playoffs": {
+     "wins": 0,
+     "losses": 0
+    }
+   },
+   "last": {
+    "regular": {
+     "wins": 3,
+     "losses": 1
+    },
+    "playoffs": {
+     "wins": 0,
+     "losses": 0
+    }
+   }
+  },
   "ATL": {
    "current": {
     "regular": {
@@ -545,28 +567,6 @@
     "regular": {
      "wins": 2,
      "losses": 0
-    },
-    "playoffs": {
-     "wins": 0,
-     "losses": 0
-    }
-   }
-  },
-  "SAC": {
-   "current": {
-    "regular": {
-     "wins": 0,
-     "losses": 0
-    },
-    "playoffs": {
-     "wins": 0,
-     "losses": 0
-    }
-   },
-   "last": {
-    "regular": {
-     "wins": 3,
-     "losses": 1
     },
     "playoffs": {
      "wins": 0,
