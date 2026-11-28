@@ -471,7 +471,11 @@
    "startUtc": "2026-11-28T02:30:00Z",
    "home": false,
    "opponent": "LAC",
-   "status": "scheduled",
+   "status": "live",
+   "score": {
+    "team": 0,
+    "opponent": 0
+   },
    "broadcasts": [
     {
      "name": "GCSEN",
