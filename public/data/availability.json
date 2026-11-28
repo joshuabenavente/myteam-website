@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-28T17:23:46.083Z",
+ "updatedAt": "2026-11-28T18:23:38.962Z",
  "teams": {
   "ATL": [
    {
@@ -49,18 +49,18 @@
   ],
   "BKN": [
    {
+    "name": "Moritz Wagner",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Knee (soreness)",
+    "returnDate": "2026-11-30"
+   },
+   {
     "name": "Nolan Traore",
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Hamstring (strain)",
     "returnDate": "2027-01-27"
-   },
-   {
-    "name": "Moritz Wagner",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Knee (soreness)",
-    "returnDate": "2026-11-28"
    }
   ],
   "CHA": [
@@ -90,13 +90,6 @@
     "status": "Day-To-Day",
     "gameTimeDecision": true,
     "reason": "Lower Leg",
-    "returnDate": "2026-11-28"
-   },
-   {
-    "name": "Ryan Kalkbrenner",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Hip (soreness)",
     "returnDate": "2026-11-28"
    }
   ],
@@ -267,10 +260,10 @@
   "HOU": [
    {
     "name": "Steven Adams",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
+    "status": "Out",
+    "gameTimeDecision": false,
     "reason": "Knee",
-    "returnDate": "2026-11-28"
+    "returnDate": "2026-11-30"
    }
   ],
   "IND": [
@@ -507,13 +500,6 @@
    }
   ],
   "ORL": [
-   {
-    "name": "Colin Castleton",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Calf (soreness)",
-    "returnDate": "2026-11-29"
-   },
    {
     "name": "Izaiyah Nelson",
     "status": "Out",
