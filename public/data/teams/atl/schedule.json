@@ -385,7 +385,7 @@
   {
    "id": "0022600336",
    "type": "regular",
-   "startUtc": "2026-12-04T00:00:00Z",
+   "startUtc": "2026-12-03T01:00:00Z",
    "home": true,
    "opponent": "IND",
    "status": "scheduled",
@@ -396,6 +396,22 @@
      "kind": "tv"
     }
    ]
+  },
+  {
+   "id": "0022601202",
+   "type": "regular",
+   "startUtc": "2026-12-05T00:00:00Z",
+   "home": true,
+   "opponent": "PHI",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "Prime Video",
+     "scope": "national",
+     "kind": "tv"
+    }
+   ],
+   "label": "Emirates NBA Cup · East Quarterfinal"
   },
   {
    "id": "0022600348",

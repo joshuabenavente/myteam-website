@@ -428,6 +428,22 @@
    ]
   },
   {
+   "id": "0022601201",
+   "type": "regular",
+   "startUtc": "2026-12-06T00:30:00Z",
+   "home": true,
+   "opponent": "BOS",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "Prime Video",
+     "scope": "national",
+     "kind": "tv"
+    }
+   ],
+   "label": "Emirates NBA Cup · East Quarterfinal"
+  },
+  {
    "id": "0022600351",
    "type": "regular",
    "startUtc": "2026-12-13T22:00:00Z",

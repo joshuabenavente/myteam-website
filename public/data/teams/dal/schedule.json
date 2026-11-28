@@ -522,6 +522,22 @@
    ]
   },
   {
+   "id": "0022601203",
+   "type": "regular",
+   "startUtc": "2026-12-05T02:30:00Z",
+   "home": true,
+   "opponent": "SAS",
+   "status": "scheduled",
+   "broadcasts": [
+    {
+     "name": "Prime Video",
+     "scope": "national",
+     "kind": "tv"
+    }
+   ],
+   "label": "Emirates NBA Cup · West Quarterfinal"
+  },
+  {
    "id": "0022600360",
    "type": "regular",
    "startUtc": "2026-12-15T01:00:00Z",
