@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-28T14:23:50.553Z",
+ "updatedAt": "2026-11-28T16:23:33.358Z",
  "teams": {
   "ATL": [
    {
@@ -26,7 +26,7 @@
    {
     "name": "Jock Landale",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Hip (inflammation)",
     "returnDate": "2026-11-29"
    },
@@ -42,7 +42,7 @@
    {
     "name": "Mitchell Robinson",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Illness",
     "returnDate": "2026-11-29"
    }
@@ -84,6 +84,13 @@
     "gameTimeDecision": false,
     "reason": "Hamstring (strain)",
     "returnDate": "2026-12-12"
+   },
+   {
+    "name": "Michael Ajayi",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Lower Leg",
+    "returnDate": "2026-11-28"
    },
    {
     "name": "Ryan Kalkbrenner",
@@ -134,7 +141,7 @@
    {
     "name": "Nae'Qwan Tomlin",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Back",
     "returnDate": "2026-11-29"
    }
@@ -185,13 +192,6 @@
   ],
   "DET": [
    {
-    "name": "Cade Cunningham",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Knee",
-    "returnDate": "2026-11-29"
-   },
-   {
     "name": "Duncan Robinson",
     "status": "Out",
     "gameTimeDecision": false,
@@ -218,6 +218,13 @@
     "gameTimeDecision": false,
     "reason": "Knee (surgery)",
     "returnDate": "2026-12-26"
+   },
+   {
+    "name": "Cade Cunningham",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Knee",
+    "returnDate": "2026-11-29"
    }
   ],
   "GSW": [
@@ -328,13 +335,6 @@
     "returnDate": "2027-01-18"
    },
    {
-    "name": "Isaiah Stewart",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Hip (soreness)",
-    "returnDate": "2026-11-29"
-   },
-   {
     "name": "Jerami Grant",
     "status": "Out",
     "gameTimeDecision": false,
@@ -354,6 +354,13 @@
     "gameTimeDecision": false,
     "reason": "Back (soreness)",
     "returnDate": "2026-12-12"
+   },
+   {
+    "name": "Isaiah Stewart",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Hip (soreness)",
+    "returnDate": "2026-11-29"
    }
   ],
   "MIL": [
@@ -605,13 +612,6 @@
     "returnDate": "2026-11-29"
    },
    {
-    "name": "Damian Lillard",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Calf (soreness)",
-    "returnDate": "2026-11-29"
-   },
-   {
     "name": "Ja Morant",
     "status": "Out",
     "gameTimeDecision": false,
@@ -631,6 +631,13 @@
     "gameTimeDecision": false,
     "reason": "Ankle",
     "returnDate": "2027-01-12"
+   },
+   {
+    "name": "Damian Lillard",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Calf (soreness)",
+    "returnDate": "2026-11-29"
    }
   ],
   "SAC": [
@@ -683,9 +690,7 @@
    {
     "name": "Nate Bittle",
     "status": "Out",
-    "gameTimeDecision": true,
-    "reason": "Foot (fracture)",
-    "returnDate": "2026-11-27"
+    "gameTimeDecision": false
    },
    {
     "name": "RJ Barrett",
@@ -719,8 +724,8 @@
    },
    {
     "name": "Mo Bamba",
-    "status": "Out",
-    "gameTimeDecision": false,
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
     "reason": "Illness",
     "returnDate": "2026-11-29"
    }
