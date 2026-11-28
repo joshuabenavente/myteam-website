@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-28T16:23:33.358Z",
+ "updatedAt": "2026-11-28T17:23:46.083Z",
  "teams": {
   "ATL": [
    {
@@ -194,7 +194,7 @@
    {
     "name": "Duncan Robinson",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Quadriceps (strain)",
     "returnDate": "2026-11-29"
    },
@@ -229,13 +229,6 @@
   ],
   "GSW": [
    {
-    "name": "Gui Santos",
-    "status": "Out",
-    "gameTimeDecision": false,
-    "reason": "Knee",
-    "returnDate": "2026-11-29"
-   },
-   {
     "name": "Jimmy Butler III",
     "status": "Out",
     "gameTimeDecision": false,
@@ -262,6 +255,13 @@
     "gameTimeDecision": false,
     "reason": "Abdomen",
     "returnDate": "2026-12-12"
+   },
+   {
+    "name": "Gui Santos",
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
+    "reason": "Knee",
+    "returnDate": "2026-11-29"
    }
   ],
   "HOU": [
@@ -396,8 +396,8 @@
    },
    {
     "name": "LaMelo Ball",
-    "status": "Out",
-    "gameTimeDecision": false,
+    "status": "Day-To-Day",
+    "gameTimeDecision": true,
     "reason": "Ankle",
     "returnDate": "2026-11-29"
    }
@@ -436,21 +436,21 @@
    {
     "name": "Jordan Clarkson",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Foot (plantar fasciitis)",
     "returnDate": "2026-11-29"
    },
    {
     "name": "Miles McBride",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Groin (soreness)",
     "returnDate": "2026-11-29"
    },
    {
     "name": "OG Anunoby",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Calf (soreness)",
     "returnDate": "2026-11-29"
    }
@@ -686,11 +686,6 @@
     "gameTimeDecision": false,
     "reason": "Knee (inflammation)",
     "returnDate": "2026-12-03"
-   },
-   {
-    "name": "Nate Bittle",
-    "status": "Out",
-    "gameTimeDecision": false
    },
    {
     "name": "RJ Barrett",
