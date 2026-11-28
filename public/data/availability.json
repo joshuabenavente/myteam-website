@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-27T23:23:50.451Z",
+ "updatedAt": "2026-11-28T00:23:43.450Z",
  "teams": {
   "ATL": [
    {
@@ -273,13 +273,6 @@
     "gameTimeDecision": false,
     "reason": "Hamstring (strain)",
     "returnDate": "2026-12-13"
-   },
-   {
-    "name": "Larry Nance Jr.",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Ankle (soreness)",
-    "returnDate": "2026-11-27"
    }
   ],
   "LAC": [
@@ -314,6 +307,13 @@
     "returnDate": "2027-01-18"
    },
    {
+    "name": "Isaiah Stewart",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Hip (soreness)",
+    "returnDate": "2026-11-29"
+   },
+   {
     "name": "Jerami Grant",
     "status": "Out",
     "gameTimeDecision": false,
@@ -333,13 +333,6 @@
     "gameTimeDecision": false,
     "reason": "Back (soreness)",
     "returnDate": "2026-12-12"
-   },
-   {
-    "name": "Isaiah Stewart",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Hip (soreness)",
-    "returnDate": "2026-11-27"
    },
    {
     "name": "Zach Edey",
@@ -446,13 +439,6 @@
     "gameTimeDecision": false,
     "reason": "Calf (soreness)",
     "returnDate": "2026-11-29"
-   },
-   {
-    "name": "Karl-Anthony Towns",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Abdomen (bruise)",
-    "returnDate": "2026-11-27"
    }
   ],
   "OKC": [
@@ -566,18 +552,18 @@
     "returnDate": "2027-10-01"
    },
    {
+    "name": "Dean Wade",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Hamstring",
+    "returnDate": "2026-11-28"
+   },
+   {
     "name": "Jaylen Brown",
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Hamstring",
     "returnDate": "2026-12-01"
-   },
-   {
-    "name": "Joel Embiid",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Illness",
-    "returnDate": "2026-11-27"
    }
   ],
   "PHX": [
