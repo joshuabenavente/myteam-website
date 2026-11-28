@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-28T01:23:51.438Z",
+ "updatedAt": "2026-11-28T02:23:48.649Z",
  "teams": {
   "ATL": [
    {
@@ -106,7 +106,7 @@
     "status": "Out",
     "gameTimeDecision": false,
     "reason": "Hamstring (strain)",
-    "returnDate": "2026-11-28"
+    "returnDate": "2026-12-01"
    },
    {
     "name": "Jalen Smith",
@@ -480,6 +480,13 @@
   ],
   "ORL": [
    {
+    "name": "Colin Castleton",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Calf (soreness)",
+    "returnDate": "2026-11-29"
+   },
+   {
     "name": "Izaiyah Nelson",
     "status": "Out",
     "gameTimeDecision": false,
@@ -520,13 +527,6 @@
     "gameTimeDecision": true,
     "reason": "Back",
     "returnDate": "2026-11-28"
-   },
-   {
-    "name": "Colin Castleton",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Calf (soreness)",
-    "returnDate": "2026-11-27"
    }
   ],
   "PHI": [
@@ -623,13 +623,6 @@
   ],
   "SAS": [
    {
-    "name": "Dylan Harper",
-    "status": "Out",
-    "gameTimeDecision": true,
-    "reason": "Hip (strain)",
-    "returnDate": "2026-11-27"
-   },
-   {
     "name": "Jayden Quaintance",
     "status": "Out",
     "gameTimeDecision": false,
@@ -642,13 +635,6 @@
     "gameTimeDecision": false,
     "reason": "Calf (strain)",
     "returnDate": "2026-12-03"
-   },
-   {
-    "name": "De'Aaron Fox",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Lower Leg (bruise)",
-    "returnDate": "2026-11-27"
    }
   ],
   "TOR": [
@@ -662,7 +648,7 @@
    {
     "name": "Nate Bittle",
     "status": "Out",
-    "gameTimeDecision": false,
+    "gameTimeDecision": true,
     "reason": "Foot (fracture)",
     "returnDate": "2026-11-27"
    },
@@ -683,13 +669,6 @@
     "returnDate": "2026-12-14"
    },
    {
-    "name": "Jusuf Nurkic",
-    "status": "Out",
-    "gameTimeDecision": true,
-    "reason": "Foot (strain)",
-    "returnDate": "2026-11-27"
-   },
-   {
     "name": "Lauri Markkanen",
     "status": "Out",
     "gameTimeDecision": false,
@@ -697,18 +676,11 @@
     "returnDate": "2027-01-04"
    },
    {
-    "name": "Jaxson Hayes",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Knee",
-    "returnDate": "2026-11-27"
-   },
-   {
     "name": "Mo Bamba",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
+    "status": "Out",
+    "gameTimeDecision": false,
     "reason": "Illness",
-    "returnDate": "2026-11-27"
+    "returnDate": "2026-11-29"
    }
   ],
   "WAS": [

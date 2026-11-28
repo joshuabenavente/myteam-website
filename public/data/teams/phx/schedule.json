@@ -423,7 +423,11 @@
    "startUtc": "2026-11-28T02:00:00Z",
    "home": true,
    "opponent": "DAL",
-   "status": "scheduled",
+   "status": "live",
+   "score": {
+    "team": 0,
+    "opponent": 0
+   },
    "broadcasts": [
     {
      "name": "3TV / AZFS",
