@@ -392,7 +392,11 @@
    "startUtc": "2026-11-28T01:00:00Z",
    "home": true,
    "opponent": "ATL",
-   "status": "scheduled",
+   "status": "live",
+   "score": {
+    "team": 0,
+    "opponent": 0
+   },
    "broadcasts": [
     {
      "name": "NBCSB/PCK-BOS",

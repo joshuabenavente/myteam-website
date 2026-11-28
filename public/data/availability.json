@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-28T00:23:43.450Z",
+ "updatedAt": "2026-11-28T01:23:51.438Z",
  "teams": {
   "ATL": [
    {
@@ -148,6 +148,13 @@
     "returnDate": "2026-11-30"
    },
    {
+    "name": "Kyrie Irving",
+    "status": "Out",
+    "gameTimeDecision": false,
+    "reason": "Knee",
+    "returnDate": "2026-11-30"
+   },
+   {
     "name": "Sergio de Larrea",
     "status": "Out",
     "gameTimeDecision": false,
@@ -167,13 +174,6 @@
     "gameTimeDecision": false,
     "reason": "Groin (strain)",
     "returnDate": "2026-11-30"
-   },
-   {
-    "name": "Kyrie Irving",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Knee",
-    "returnDate": "2026-11-27"
    }
   ],
   "DET": [
@@ -333,13 +333,6 @@
     "gameTimeDecision": false,
     "reason": "Back (soreness)",
     "returnDate": "2026-12-12"
-   },
-   {
-    "name": "Zach Edey",
-    "status": "Day-To-Day",
-    "gameTimeDecision": true,
-    "reason": "Ankle (soreness)",
-    "returnDate": "2026-11-27"
    }
   ],
   "MIL": [
@@ -385,9 +378,9 @@
    {
     "name": "Bennedict Mathurin",
     "status": "Out",
-    "gameTimeDecision": true,
+    "gameTimeDecision": false,
     "reason": "Foot (plantar fasciitis)",
-    "returnDate": "2026-11-27"
+    "returnDate": "2026-11-29"
    },
    {
     "name": "Dejounte Murray",
@@ -395,13 +388,6 @@
     "gameTimeDecision": false,
     "reason": "Ankle",
     "returnDate": "2026-11-29"
-   },
-   {
-    "name": "Trendon Watford",
-    "status": "Out",
-    "gameTimeDecision": true,
-    "reason": "Ankle (sprain)",
-    "returnDate": "2026-11-27"
    },
    {
     "name": "Julian Reese",

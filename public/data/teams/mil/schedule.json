@@ -476,7 +476,11 @@
    "startUtc": "2026-11-28T00:30:00Z",
    "home": false,
    "opponent": "DET",
-   "status": "scheduled",
+   "status": "live",
+   "score": {
+    "team": 0,
+    "opponent": 0
+   },
    "broadcasts": [
     {
      "name": "MY24",
